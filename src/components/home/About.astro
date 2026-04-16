@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets";
+import Container from "../ui/Container.astro";
+import yachtImg from "../../assets/yacht_iso.png";
+---
+
+<section id="about" class="relative overflow-hidden bg-white py-32 lg:py-44">
+  <!-- Subtle watercolor wash background -->
+  <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-cream/40 to-transparent pointer-events-none"></div>
+  <div class="absolute inset-x-0 bottom-0 h-64 opacity-30 pointer-events-none"
+    style="background: radial-gradient(ellipse at 50% 100%, rgba(184,150,90,0.08) 0%, transparent 70%);"></div>
+
+  <Container>
+    <div class="relative grid items-center gap-16 lg:grid-cols-2 lg:gap-28">
+      <!-- Left: text -->
+      <div>
+        <div data-reveal>
+          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">About Us</p>
+          <h2
+            class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
+            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+          >
+            The Subtle Art of<br />
+            Making Time Unforgettable
+          </h2>
+        </div>
+
+        <p class="mt-10 max-w-xl text-base leading-[1.8] text-taupe sm:text-lg" data-reveal>
+          Sinclair curates exceptional yacht experiences that go beyond sailing.
+          Our fleet, our crew, and our service are designed
+          <span class="text-taupe-light">to transform time at sea into lasting memories — blending comfort, elegance, and attention to detail in every journey.</span>
+        </p>
+      </div>
+
+      <!-- Right: yacht image -->
+      <div class="relative" data-reveal="right">
+        <Image
+          src={yachtImg}
+          alt="Luxury yacht"
+          class="w-full h-auto object-contain"
+          widths={[600, 900]}
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </Container>
+</section>

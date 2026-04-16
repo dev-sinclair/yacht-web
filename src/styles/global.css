@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Raleway", sans-serif;
+
+  --color-gold: #B8965A;
+  --color-gold-light: #D4B483;
+  --color-gold-dim: #8A7043;
+  --color-gold-pale: #E8D5B5;
+  --color-cream: #F5F0EB;
+  --color-beige: #E8DFD5;
+  --color-warm-white: #FAF8F5;
+  --color-charcoal: #2A2A2A;
+  --color-taupe: #6B5E50;
+  --color-taupe-light: #9A8E82;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* Sharp consistent numbers — Inter light for all numeric/spec data */
+.num, [data-num] {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ── Scroll reveal animations ── */
+[data-reveal] {
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1),
+              transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+[data-reveal="up"], [data-reveal] {
+  transform: translateY(30px);
+}
+
+[data-reveal="left"] {
+  transform: translateX(-30px);
+}
+
+[data-reveal="right"] {
+  transform: translateX(30px);
+}
+
+[data-reveal="scale"] {
+  transform: scale(0.95);
+}
+
+[data-reveal="fade"] {
+  transform: none;
+}
+
+[data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* Stagger children */
+[data-reveal-stagger] > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.1, 0.25, 1),
+              transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+[data-reveal-stagger].revealed > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-reveal-stagger].revealed > *:nth-child(1) { transition-delay: 0ms; }
+[data-reveal-stagger].revealed > *:nth-child(2) { transition-delay: 100ms; }
+[data-reveal-stagger].revealed > *:nth-child(3) { transition-delay: 200ms; }
+[data-reveal-stagger].revealed > *:nth-child(4) { transition-delay: 300ms; }
+[data-reveal-stagger].revealed > *:nth-child(5) { transition-delay: 400ms; }
+[data-reveal-stagger].revealed > *:nth-child(6) { transition-delay: 500ms; }
+
+/* Gold line grow animation */
+[data-reveal-line] {
+  width: 0;
+  transition: width 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
+}
+
+[data-reveal-line].revealed {
+  width: 3rem;
+}
+
+/* ── Button fill effect (left-to-right) ── */
+.btn-fill,
+.btn-fill-light {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: color 0.4s ease;
+}
+
+.btn-fill::before,
+.btn-fill-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* Dark fill for buttons on light backgrounds */
+.btn-fill::before {
+  background: var(--color-charcoal);
+}
+.btn-fill:hover {
+  color: #ffffff;
+}
+.btn-fill:hover::before {
+  transform: scaleX(1);
+}
+
+/* White fill for buttons on dark/image backgrounds */
+.btn-fill-light::before {
+  background: #ffffff;
+}
+.btn-fill-light:hover {
+  color: var(--color-charcoal);
+}
+.btn-fill-light:hover::before {
+  transform: scaleX(1);
+}
+
+/* ── Custom inverted circle cursor ── */
+* {
+  cursor: none !important;
+}
+
+#custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.25s ease, height 0.25s ease;
+}
+
+#custom-cursor.cursor-hover {
+  width: 56px;
+  height: 56px;
+}
+
+/* Hide on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  * { cursor: auto !important; }
+  #custom-cursor { display: none; }
+}

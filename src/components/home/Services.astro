@@ -1,0 +1,183 @@
+---
+import { Image } from "astro:assets";
+import Container from "../ui/Container.astro";
+import services from "../../data/services.json";
+
+import yacht1 from "../../assets/yacht1.webp";
+import yacht2 from "../../assets/yacht2.jpg";
+import yacht3 from "../../assets/yacht3.jpg";
+import yacht4 from "../../assets/yacht4.jpg";
+
+const yachtShowcase = [
+  { image: yacht1, name: "Azimut Grande 32M", length: "32m", guests: 10, year: 2024 },
+  { image: yacht2, name: "Benetti Oasis 40M", length: "40m", guests: 12, year: 2023 },
+  { image: yacht3, name: "Ferretti 780 HT", length: "24m", guests: 8, year: 2025 },
+  { image: yacht4, name: "Riva 110 Dolcevita", length: "34m", guests: 10, year: 2024 },
+];
+---
+
+<section id="services" class="relative" style={`height: ${services.length * 100}vh;`}>
+  <!-- Sticky viewport -->
+  <div class="sticky top-0 h-screen flex items-center overflow-hidden"
+    style="background: linear-gradient(180deg, #1a1714 0%, #0e0d0c 100%);">
+
+    <!-- Film grain overlay -->
+    <div class="absolute inset-0 pointer-events-none opacity-[0.06] z-10"
+      style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22/%3E%3C/svg%3E'); background-size: 200px 200px;">
+    </div>
+
+    <!-- Subtle warm vignette -->
+    <div class="absolute inset-0 pointer-events-none"
+      style="background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.4) 100%);"></div>
+
+    <Container>
+      <div class="relative z-20 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-12 lg:gap-28 items-center">
+        <!-- Left: services text -->
+        <div>
+          <!-- Header -->
+          <div class="mb-4">
+            <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/70">
+              What We Offer
+            </p>
+            <h2 class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-white/90 sm:text-5xl lg:text-6xl"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+              Our Services
+            </h2>
+          </div>
+
+          <!-- Service content area -->
+          <div class="relative" style="min-height: 160px;">
+            {services.map((service, i) => (
+              <div
+                class="service-slide absolute inset-0 flex flex-col justify-center transition-all duration-500"
+                data-service-index={i}
+                style={i === 0 ? "opacity: 1; transform: translateY(0);" : "opacity: 0; transform: translateY(30px);"}
+              >
+                <h3 class="text-2xl font-light tracking-[0.1em] uppercase text-white/90 sm:text-3xl"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+                  {service.title}
+                </h3>
+                <p class="mt-5 text-base leading-relaxed text-white/50 max-w-lg">
+                  {service.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <!-- Progress bars -->
+          <div class="mt-10 flex max-w-md gap-3">
+            {services.map((_, i) => (
+              <div class="flex-1 h-[2px] bg-white/10 overflow-hidden">
+                <div
+                  class="service-bar h-full bg-white/80 transition-transform duration-500 origin-left"
+                  data-bar-index={i}
+                  style={i === 0 ? "transform: scaleX(1);" : "transform: scaleX(0);"}
+                ></div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Right: yacht images -->
+        <div class="hidden lg:block relative lg:w-[480px]" style="height: 340px;">
+          {yachtShowcase.map((yacht, i) => (
+            <div
+              class="yacht-slide absolute inset-0 flex flex-col transition-all duration-600"
+              data-yacht-index={i}
+              style={i === 0 ? "opacity: 1; transform: translateY(0);" : "opacity: 0; transform: translateY(40px);"}
+            >
+              <!-- Image -->
+              <div class="relative flex-1 overflow-hidden rounded-sm">
+                <Image
+                  src={yacht.image}
+                  alt={yacht.name}
+                  class="w-full h-full object-cover"
+                  widths={[600, 900]}
+                  loading="lazy"
+                />
+              </div>
+
+              <!-- Yacht info bar -->
+              <div class="mt-5 flex items-end justify-between">
+                <div>
+                  <h4 class="text-lg tracking-[0.1em] uppercase text-white/90"
+                    style="font-family: 'Raleway', sans-serif; font-weight: 400;">
+                    {yacht.name}
+                  </h4>
+                  <div class="num mt-1.5 flex gap-4 text-[11px] tracking-wider text-white/40">
+                    <span>{yacht.length}</span>
+                    <span class="text-white/15">|</span>
+                    <span>{yacht.guests} guests</span>
+                    <span class="text-white/15">|</span>
+                    <span>{yacht.year}</span>
+                  </div>
+                </div>
+                <a
+                  href="/catalogue"
+                  class="btn-fill-light inline-flex items-center gap-2 border border-white/20 px-5 py-2.5 text-[10px] font-medium tracking-[0.2em] uppercase text-white/70"
+                >
+                  View
+                  <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Container>
+  </div>
+</section>
+
+<script>
+  const section = document.getElementById("services");
+  if (section) {
+    const slides = section.querySelectorAll<HTMLElement>(".service-slide");
+    const bars = section.querySelectorAll<HTMLElement>(".service-bar");
+    const yachts = section.querySelectorAll<HTMLElement>(".yacht-slide");
+    const totalServices = slides.length;
+    let currentIndex = -1;
+
+    function updateService(index: number) {
+      if (index === currentIndex) return;
+      currentIndex = index;
+
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.style.opacity = "1";
+          slide.style.transform = "translateY(0)";
+        } else {
+          slide.style.opacity = "0";
+          slide.style.transform = i < index ? "translateY(-30px)" : "translateY(30px)";
+        }
+      });
+
+      bars.forEach((bar, i) => {
+        bar.style.transform = i <= index ? "scaleX(1)" : "scaleX(0)";
+      });
+
+      yachts.forEach((yacht, i) => {
+        if (i === index) {
+          yacht.style.opacity = "1";
+          yacht.style.transform = "translateY(0)";
+        } else {
+          yacht.style.opacity = "0";
+          yacht.style.transform = i < index ? "translateY(-40px)" : "translateY(40px)";
+        }
+      });
+    }
+
+    function onScroll() {
+      const rect = section!.getBoundingClientRect();
+      const sectionHeight = section!.offsetHeight;
+      const scrollIntoSection = -rect.top;
+      const progress = Math.max(0, Math.min(1, scrollIntoSection / (sectionHeight - window.innerHeight)));
+      const index = Math.min(totalServices - 1, Math.floor(progress * totalServices));
+      updateService(index);
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
+</script>

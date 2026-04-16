@@ -1,0 +1,75 @@
+---
+import type { Yacht } from "../../data/types/yacht";
+import { formatLength, formatPrice } from "../../data/yacht-service";
+
+interface Props {
+  yacht: Yacht;
+}
+
+const { yacht } = Astro.props;
+
+const quickSpecs = [
+  { label: "Length", value: formatLength(yacht.blueprint.length) },
+  { label: "Beam", value: `${yacht.blueprint.beam}m` },
+  { label: "Guests", value: `${yacht.blueprint.sleeps}` },
+  { label: "Cabins", value: `${yacht.cabins.total}` },
+  { label: "Year", value: `${yacht.blueprint.buildYear}` },
+  { label: "Builder", value: yacht.blueprint.builder },
+  { label: "Top Speed", value: `${yacht.performance.topSpeed} kn` },
+  { label: "Cruising Speed", value: `${yacht.performance.cruisingSpeed} kn` },
+];
+
+const detailSpecs = [
+  { label: "Hull Type", value: yacht.hull.type },
+  { label: "Hull Construction", value: yacht.hull.construction },
+  { label: "Draft", value: `${yacht.blueprint.draft}m` },
+  { label: "Architect", value: yacht.blueprint.architect },
+  { label: "Bathrooms", value: `${yacht.cabins.bathrooms}` },
+  { label: "Day Capacity", value: `${yacht.blueprint.cruisingCapacity}` },
+  ...(yacht.blueprint.refitYear ? [{ label: "Last Refit", value: `${yacht.blueprint.refitYear}` }] : []),
+];
+---
+
+<!-- Quick specs bar -->
+<section class="border-b border-beige/60 bg-white py-6">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
+      {quickSpecs.map((spec) => (
+        <div>
+          <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">{spec.label}</p>
+          <p class="num mt-0.5 text-sm text-charcoal">{spec.value}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Full specs table -->
+<section class="bg-white py-16 lg:py-20" id="specs">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Specifications</p>
+      <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl"
+        style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+        Technical Details
+      </h2>
+    </div>
+
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-reveal>
+      {detailSpecs.map((spec) => (
+        <div class="flex justify-between border-b border-beige/40 py-3">
+          <span class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light">{spec.label}</span>
+          <span class="num text-sm text-charcoal">{spec.value}</span>
+        </div>
+      ))}
+
+      <!-- Cabin breakdown -->
+      {yacht.cabins.byType.map((cabin) => (
+        <div class="flex justify-between border-b border-beige/40 py-3">
+          <span class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light">{cabin.type} cabins</span>
+          <span class="num text-sm text-charcoal">{cabin.count}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

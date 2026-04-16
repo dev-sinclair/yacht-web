@@ -1,0 +1,103 @@
+---
+import { Image } from "astro:assets";
+import logo from "../../assets/logo.png";
+---
+
+<footer class="relative py-16 overflow-hidden"
+  style="background: linear-gradient(180deg, #1a1714 0%, #0e0d0c 100%);">
+
+  <!-- Film grain overlay -->
+  <div class="absolute inset-0 pointer-events-none opacity-[0.06] z-0"
+    style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22/%3E%3C/svg%3E'); background-size: 200px 200px;">
+  </div>
+
+  <!-- Giant "SINCLAIR" watermark text — centered -->
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden z-0">
+    <p class="whitespace-nowrap text-[12vw] font-light tracking-[0.2em] uppercase text-white/[0.03] leading-none"
+      style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+      SINCLAIR
+    </p>
+  </div>
+
+  <div class="relative z-10 mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
+    <!-- Main footer grid -->
+    <div class="grid gap-12 md:grid-cols-4">
+      <!-- Logo + brand title -->
+      <div class="flex flex-col items-start">
+        <Image
+          src={logo}
+          alt="Sinclair Yachting"
+          class="h-12 w-auto brightness-0 invert"
+          widths={[160]}
+          loading="lazy"
+        />
+        <p class="mt-3 text-[11px] font-light tracking-[0.25em] uppercase text-white/70"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+          Sinclair Yachting
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <ul class="space-y-3">
+          <li><a href="/" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Home</a></li>
+          <li><a href="/catalogue" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Yachts</a></li>
+          <li><a href="/#services" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Services</a></li>
+          <li><a href="/#about" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">About</a></li>
+          <li><a href="/#contact" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div>
+        <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-white/40 mb-3">Headquarters</p>
+        <ul class="space-y-2 text-sm text-white/60">
+          <li>Paseo Marítimo 28, 3º</li>
+          <li>07014 Palma de Mallorca</li>
+          <li>Illes Balears, Spain</li>
+        </ul>
+        <ul class="mt-4 space-y-2 text-sm text-white/50">
+          <li>
+            <a href="mailto:info@sinclairyachting.com" class="transition-colors duration-300 hover:text-gold-light">
+              info@sinclairyachting.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+34971000000" class="transition-colors duration-300 hover:text-gold-light">
+              +34 971 000 000
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/34971000000?text=Hi%2C%20I%27m%20interested%20in%20your%20yacht%20brokerage%20services." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 transition-colors duration-300 hover:text-gold-light">
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="mt-14 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
+      <!-- Legal -->
+      <div class="flex gap-6 text-[10px] font-medium tracking-[0.15em] uppercase text-white/30">
+        <a href="#" class="transition-colors duration-300 hover:text-white/60">Privacy Policy</a>
+        <a href="#" class="transition-colors duration-300 hover:text-white/60">Terms of Service</a>
+      </div>
+
+      <!-- Copyright -->
+      <p class="text-[10px] tracking-wider text-white/30 uppercase">
+        Sinclair Yachting &copy; {new Date().getFullYear()}
+      </p>
+
+      <!-- Social links -->
+      <div class="flex gap-6 text-[10px] font-medium tracking-[0.15em] uppercase text-white/30">
+        <a href="#" class="transition-colors duration-300 hover:text-white/60">Instagram</a>
+        <a href="#" class="transition-colors duration-300 hover:text-white/60">LinkedIn</a>
+        <a href="#" class="transition-colors duration-300 hover:text-white/60">YouTube</a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,113 @@
+---
+import type { YachtFacets } from "../../data/types/yacht";
+
+interface Props {
+  facets: YachtFacets;
+}
+
+const { facets } = Astro.props;
+---
+
+<div class="flex flex-wrap items-center gap-3" id="yacht-filters">
+  <!-- Type pills -->
+  <button
+    class="filter-pill active px-4 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-charcoal text-white transition-all duration-300"
+    data-filter="type"
+    data-value="all"
+  >
+    All
+  </button>
+  {facets.yachtTypes.map((type) => (
+    <button
+      class="filter-pill px-4 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal transition-all duration-300 hover:bg-charcoal hover:text-white"
+      data-filter="type"
+      data-value={type}
+    >
+      {type}
+    </button>
+  ))}
+
+  <!-- Divider -->
+  <div class="hidden sm:block h-5 w-px bg-beige mx-1"></div>
+
+  <!-- Length dropdown -->
+  <select
+    id="filter-length"
+    class="px-3 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-transparent appearance-none pr-7 transition-colors duration-300 focus:outline-none focus:border-charcoal"
+    style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%232A2A2A%22 stroke-width=%222%22%3E%3Cpath d=%22M19 9l-7 7-7-7%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 8px center;"
+  >
+    <option value="all">Length</option>
+    <option value="0-30">Under 30m</option>
+    <option value="30-40">30 – 40m</option>
+    <option value="40-50">40 – 50m</option>
+    <option value="50-100">50m+</option>
+  </select>
+
+  <!-- Guests dropdown -->
+  <select
+    id="filter-guests"
+    class="px-3 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-transparent appearance-none pr-7 transition-colors duration-300 focus:outline-none focus:border-charcoal"
+    style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%232A2A2A%22 stroke-width=%222%22%3E%3Cpath d=%22M19 9l-7 7-7-7%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 8px center;"
+  >
+    <option value="all">Guests</option>
+    <option value="6">Up to 8</option>
+    <option value="8">8 – 12</option>
+    <option value="12">12+</option>
+  </select>
+</div>
+
+<script>
+  const container = document.getElementById("yacht-filters");
+  const cards = document.querySelectorAll<HTMLElement>("[data-yacht-type]");
+  const typePills = container?.querySelectorAll<HTMLButtonElement>(".filter-pill");
+  const lengthSelect = document.getElementById("filter-length") as HTMLSelectElement | null;
+  const guestsSelect = document.getElementById("filter-guests") as HTMLSelectElement | null;
+
+  let activeType = "all";
+
+  function applyFilters() {
+    const lengthVal = lengthSelect?.value || "all";
+    const guestsVal = guestsSelect?.value || "all";
+
+    cards.forEach((card) => {
+      const type = card.dataset.yachtType || "";
+      const length = parseFloat(card.dataset.yachtLength || "0");
+      const guests = parseInt(card.dataset.yachtGuests || "0");
+
+      let show = true;
+
+      // Type filter
+      if (activeType !== "all" && type !== activeType) show = false;
+
+      // Length filter
+      if (lengthVal !== "all") {
+        const [min, max] = lengthVal.split("-").map(Number);
+        if (length < min || length > max) show = false;
+      }
+
+      // Guests filter
+      if (guestsVal !== "all") {
+        const minGuests = parseInt(guestsVal);
+        if (guestsVal === "6" && guests > 8) show = false;
+        else if (guestsVal === "8" && (guests < 8 || guests > 12)) show = false;
+        else if (guestsVal === "12" && guests < 12) show = false;
+      }
+
+      card.style.display = show ? "" : "none";
+    });
+  }
+
+  typePills?.forEach((pill) => {
+    pill.addEventListener("click", () => {
+      typePills.forEach((p) => {
+        p.classList.remove("bg-charcoal", "text-white", "active");
+      });
+      pill.classList.add("bg-charcoal", "text-white", "active");
+      activeType = pill.dataset.value || "all";
+      applyFilters();
+    });
+  });
+
+  lengthSelect?.addEventListener("change", applyFilters);
+  guestsSelect?.addEventListener("change", applyFilters);
+</script>

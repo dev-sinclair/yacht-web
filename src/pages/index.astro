@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/layout/Navbar.astro";
+import Hero from "../components/home/Hero.astro";
+import About from "../components/home/About.astro";
+import Services from "../components/home/Services.astro";
+import YachtCatalogue from "../components/home/YachtCatalogue.astro";
+import Experiences from "../components/home/Experiences.astro";
+import Contact from "../components/home/Contact.astro";
+import Footer from "../components/layout/Footer.astro";
+---
+
+<BaseLayout>
+  <Navbar transparent />
+  <main>
+    <Hero />
+    <About />
+    <Services />
+    <YachtCatalogue />
+    <Experiences />
+    <Contact />
+  </main>
+  <Footer />
+</BaseLayout>
