@@ -30,13 +30,13 @@ const links = [
     <!-- Hamburger menu — thin minimalist lines -->
     <button
       id="menu-toggle"
-      class="flex flex-col gap-[6px] z-50"
+      class="flex flex-col gap-[6px] z-50 hover:cursor-pointer p-3"
       aria-label="Toggle menu"
     >
       <span class="block h-px w-6 transition-all duration-300" id="bar1"
-        style={transparent ? "background-color: white" : "background-color: #2A2A2A"}></span>
+        style={transparent ? "background-color: white" : "background-color: #151A24"}></span>
       <span class="block h-px w-6 transition-all duration-300" id="bar2"
-        style={transparent ? "background-color: white" : "background-color: #2A2A2A"}></span>
+        style={transparent ? "background-color: white" : "background-color: #151A24"}></span>
     </button>
 
     <!-- Center logo + text -->
@@ -97,7 +97,7 @@ const links = [
   const bar2 = document.getElementById("bar2")!;
 
   function updateBarColors(scrolled: boolean) {
-    const color = (menuOpen || scrolled || !isTransparent) ? "#2A2A2A" : "white";
+    const color = (menuOpen || scrolled || !isTransparent) ? "#151A24" : "white";
     bar1.style.backgroundColor = color;
     bar2.style.backgroundColor = color;
   }

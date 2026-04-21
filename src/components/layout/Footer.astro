@@ -1,10 +1,24 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
+import pano from "../../assets/pano3.jpg";
 ---
 
 <footer class="relative py-16 overflow-hidden"
-  style="background: linear-gradient(180deg, #1a1714 0%, #0e0d0c 100%);">
+  style="background: linear-gradient(180deg, #151A24 0%, #1D2330 100%);">
+
+  <!-- Blurred panoramic background with dark overlay -->
+  <div class="absolute inset-0 overflow-hidden z-0 pointer-events-none">
+    <Image
+      src={pano}
+      alt=""
+      class="absolute inset-0 h-full w-full object-cover"
+      style="filter: blur(5px); transform: scale(1.1\\);"
+      widths={[1000]}
+      loading="lazy"
+    />
+    <div class="absolute inset-0 bg-black/75"></div>
+  </div>
 
   <!-- Film grain overlay -->
   <div class="absolute inset-0 pointer-events-none opacity-[0.06] z-0"

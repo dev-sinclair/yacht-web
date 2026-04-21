@@ -7,38 +7,30 @@ import YachtCardCatalogue from "../../components/catalogue/YachtCardCatalogue.as
 import YachtFilters from "../../components/catalogue/YachtFilters.astro";
 import Footer from "../../components/layout/Footer.astro";
 import { getAllYachts, getFacets } from "../../data/yacht-service";
-import { Image } from "astro:assets";
-import bannerImg from "../../assets/catalogue-banner.jpeg";
 
 const yachts = getAllYachts();
 const facets = getFacets();
 ---
 
 <BaseLayout title="Yacht Catalogue — Sinclair Yachting" description="Browse our curated fleet of luxury charter yachts available in the Mediterranean and beyond.">
-  <Navbar transparent />
+  <Navbar />
 
-  <!-- Hero -->
-  <section class="relative h-[50vh] w-full overflow-hidden bg-charcoal">
-    <Image
-      src={bannerImg}
-      alt="Yacht catalogue"
-      class="absolute inset-0 h-full w-full object-cover"
-      widths={[1200, 1920]}
-      loading="eager"
-    />
-    <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
-
-    <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10 sm:px-8 lg:px-12">
-      <div class="mx-auto max-w-[1440px]">
-        <div data-reveal>
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-white/60">Our Fleet</p>
-          <h1 class="mt-3 text-4xl font-light tracking-[0.15em] uppercase text-white/90 sm:text-5xl lg:text-6xl"
-            style="font-family: 'Raleway', sans-serif; font-weight: 300;">
-            Yacht Catalogue
-          </h1>
-        </div>
+  <!-- Page title -->
+  <section class="bg-white pt-24 pb-6 lg:pt-28 lg:pb-8">
+    <Container>
+      <div data-reveal>
+        <h1
+          class="text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl lg:text-4xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          Yacht Catalogue
+        </h1>
+        <div class="mt-3 h-px w-10 bg-gold/30" data-reveal-line></div>
+        <p class="mt-4 max-w-xl text-sm leading-[1.7] text-taupe">
+          A curated selection of luxury charter yachts available across the Mediterranean and beyond — each vessel chosen for its craftsmanship, service, and character.
+        </p>
       </div>
-    </div>
+    </Container>
   </section>
 
   <!-- Filters -->

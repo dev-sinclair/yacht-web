@@ -39,9 +39,6 @@ const {
     <title>{title}</title>
   </head>
   <body class="min-h-screen overflow-x-hidden bg-warm-white">
-    <!-- Custom inverted circle cursor -->
-    <div id="custom-cursor"></div>
-
     <slot />
 
     <!-- Floating WhatsApp button -->
@@ -74,32 +71,6 @@ const {
       document.querySelectorAll("[data-reveal], [data-reveal-stagger], [data-reveal-line]").forEach((el) => {
         revealObserver.observe(el);
       });
-
-      // Custom cursor
-      const cursor = document.getElementById("custom-cursor");
-      if (cursor && window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
-        document.addEventListener("mousemove", (e) => {
-          cursor.style.left = e.clientX + "px";
-          cursor.style.top = e.clientY + "px";
-        }, { passive: true });
-
-        // Grow on interactive elements
-        const interactiveSelector = "a, button, input, textarea, [role='button'], .btn-fill, .btn-fill-light";
-        document.addEventListener("mouseover", (e) => {
-          if ((e.target as Element).closest(interactiveSelector)) {
-            cursor.classList.add("cursor-hover");
-          }
-        });
-        document.addEventListener("mouseout", (e) => {
-          if ((e.target as Element).closest(interactiveSelector)) {
-            cursor.classList.remove("cursor-hover");
-          }
-        });
-
-        // Hide when mouse leaves window
-        document.addEventListener("mouseleave", () => { cursor.style.opacity = "0"; });
-        document.addEventListener("mouseenter", () => { cursor.style.opacity = "1"; });
-      }
     </script>
   </body>
 </html>

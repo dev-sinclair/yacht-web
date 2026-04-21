@@ -4,16 +4,17 @@
   --font-heading: "Playfair Display", serif;
   --font-body: "Raleway", sans-serif;
 
-  --color-gold: #B8965A;
-  --color-gold-light: #D4B483;
-  --color-gold-dim: #8A7043;
-  --color-gold-pale: #E8D5B5;
-  --color-cream: #F5F0EB;
-  --color-beige: #E8DFD5;
-  --color-warm-white: #FAF8F5;
-  --color-charcoal: #2A2A2A;
-  --color-taupe: #6B5E50;
-  --color-taupe-light: #9A8E82;
+  --color-gold: #BFA980;
+  --color-gold-light: #D4C4A0;
+  --color-gold-dim: #8C7A52;
+  --color-gold-pale: #D4C4A0;
+  --color-cream: #F0EBE1;
+  --color-beige: #E4DDD1;
+  --color-warm-white: #FAF8F4;
+  --color-charcoal: #151A24;
+  --color-slate-800: #1D2330;
+  --color-taupe: #6A6560;
+  --color-taupe-light: #9A9590;
 }
 
 html {
@@ -144,33 +145,3 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 
-/* ── Custom inverted circle cursor ── */
-* {
-  cursor: none !important;
-}
-
-#custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: white;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  transition: width 0.25s ease, height 0.25s ease;
-}
-
-#custom-cursor.cursor-hover {
-  width: 56px;
-  height: 56px;
-}
-
-/* Hide on touch devices */
-@media (hover: none) and (pointer: coarse) {
-  * { cursor: auto !important; }
-  #custom-cursor { display: none; }
-}
