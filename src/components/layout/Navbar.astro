@@ -22,7 +22,7 @@ const links = [
   id="navbar"
   class:list={[
     "fixed top-0 left-0 z-50 w-full transition-all duration-700",
-    transparent ? "bg-transparent py-7" : "bg-white/95 py-5 backdrop-blur-md",
+    transparent ? "nav-fade-bottom bg-charcoal/30 py-7 backdrop-blur-md" : "bg-white/95 py-5 backdrop-blur-md",
   ]}
   data-transparent={transparent ? "" : undefined}
 >
@@ -82,6 +82,16 @@ const links = [
       </a>
     </div>
   </div>
+
+  <style>
+    /* When the navbar is over a dark section, fade the bottom edge so the
+       blurred background dissolves into the section beneath instead of
+       showing a hard line. */
+    .nav-fade-bottom {
+      -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 40px), transparent 100%);
+      mask-image: linear-gradient(to bottom, black calc(100% - 40px), transparent 100%);
+    }
+  </style>
 
   <!-- Mobile dropdown panel (compact, NOT fullscreen) -->
   <div
@@ -157,10 +167,10 @@ const links = [
     const showTransparent = isOverDarkSection();
 
     if (showTransparent) {
-      navbar.classList.add("bg-transparent", "py-7");
-      navbar.classList.remove("bg-white/95", "backdrop-blur-md", "py-5");
+      navbar.classList.add("bg-charcoal/30", "py-7", "backdrop-blur-md", "nav-fade-bottom");
+      navbar.classList.remove("bg-white/95", "py-5");
     } else {
-      navbar.classList.remove("bg-transparent", "py-7");
+      navbar.classList.remove("bg-charcoal/30", "py-7", "nav-fade-bottom");
       navbar.classList.add("bg-white/95", "backdrop-blur-md", "py-5");
     }
 
