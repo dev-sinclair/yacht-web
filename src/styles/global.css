@@ -145,3 +145,39 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 
+/* ── Marquee-on-overflow ── */
+/* Wrap any inline text that should scroll horizontally when it overflows.
+   The script in /yachts toggles the .is-marquee class based on measured overflow. */
+.marquee-on-overflow {
+  display: flex;
+  align-items: center;
+  justify-content: var(--marquee-align, flex-start);
+  overflow: hidden;
+  width: 100%;
+}
+.marquee-on-overflow.is-marquee {
+  justify-content: flex-start;
+}
+.marquee-on-overflow .marquee-track {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+.marquee-on-overflow .marquee-text { white-space: nowrap; }
+.marquee-on-overflow .marquee-clone { display: none; padding-left: 2rem; }
+.marquee-on-overflow.is-marquee .marquee-clone { display: inline-block; }
+.marquee-on-overflow.is-marquee .marquee-track {
+  animation: marquee-on-overflow-scroll 12s linear infinite;
+}
+.marquee-on-overflow:hover .marquee-track,
+.marquee-on-overflow .marquee-track:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee-on-overflow-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-on-overflow.is-marquee .marquee-track { animation: none; }
+}
+

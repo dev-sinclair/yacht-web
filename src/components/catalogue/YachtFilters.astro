@@ -3,111 +3,340 @@ import type { YachtFacets } from "../../data/types/yacht";
 
 interface Props {
   facets: YachtFacets;
+  activeType?: string;
 }
 
-const { facets } = Astro.props;
+const { activeType = "" } = Astro.props;
+
+const ANKOR_TYPES = [
+  "Gulet",
+  "Sailing",
+  "Catamaran",
+  "Motor",
+  "Power Catamaran",
+  "Classic",
+  "Expedition",
+  "Sport fishing",
+];
+
+const LENGTH_MIN = 15;
+const LENGTH_MAX = 150;
+const LENGTH_STEP = 1;
+
+const GUESTS_MIN = 1;
+const GUESTS_MAX = 30;
+const GUESTS_STEP = 1;
+
+const PRICE_MIN = 0;
+const PRICE_MAX = 2_000_000;
+const PRICE_STEP = 5_000;
+
+const pillClass = (selected: boolean) =>
+  selected
+    ? "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-charcoal bg-charcoal text-white transition-all duration-300"
+    : "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-charcoal/20 text-charcoal transition-all duration-300 hover:bg-charcoal hover:text-white";
+
+const sectionLabelClass = "text-[10px] font-medium tracking-[0.2em] uppercase text-taupe-light";
+const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-charcoal/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-charcoal";
 ---
 
-<div class="flex flex-wrap items-center gap-3" id="yacht-filters">
+<aside id="yacht-filters" class="space-y-5">
+  <!-- Search -->
+  <div>
+    <label class={sectionLabelClass} for="filter-search">Search</label>
+    <div class="relative mt-2">
+      <input
+        id="filter-search"
+        type="search"
+        placeholder="Name or builder…"
+        class="w-full px-3 py-2.5 pr-9 text-xs tracking-[0.05em] border border-charcoal/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-charcoal placeholder:text-taupe-light/70"
+        autocomplete="off"
+      />
+      <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-taupe-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.5-3.5" />
+      </svg>
+    </div>
+  </div>
+
   <!-- Type pills -->
-  <button
-    class="filter-pill active px-4 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-charcoal text-white transition-all duration-300"
-    data-filter="type"
-    data-value="all"
-  >
-    All
-  </button>
-  {facets.yachtTypes.map((type) => (
-    <button
-      class="filter-pill px-4 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal transition-all duration-300 hover:bg-charcoal hover:text-white"
-      data-filter="type"
-      data-value={type}
-    >
-      {type}
-    </button>
-  ))}
+  <div>
+    <p class={sectionLabelClass}>Type</p>
+    <div class="mt-2 grid grid-cols-3 gap-1.5">
+      <a class={pillClass(activeType === "")} href="/yachts">All</a>
+      {ANKOR_TYPES.map((type) => (
+        <a class={pillClass(activeType === type)} href={`/yachts?yachtType=${encodeURIComponent(type)}`}>{type}</a>
+      ))}
+    </div>
+  </div>
 
-  <!-- Divider -->
-  <div class="hidden sm:block h-5 w-px bg-beige mx-1"></div>
+  <!-- Length range -->
+  <div>
+    <p class={sectionLabelClass}>Length (m)</p>
+    <div class="mt-2 flex items-center gap-2">
+      <input id="filter-length-min-num" type="number" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MIN} class={numInputClass} aria-label="Minimum length" />
+      <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">to</span>
+      <input id="filter-length-max-num" type="number" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class={numInputClass} aria-label="Maximum length" />
+    </div>
+    <div class="range-slider mt-3 relative h-5">
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
+      <div id="filter-length-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <input id="filter-length-min" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum length" />
+      <input id="filter-length-max" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum length" />
+    </div>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-length-display">15m – 150m</span></p>
+  </div>
 
-  <!-- Length dropdown -->
-  <select
-    id="filter-length"
-    class="px-3 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-transparent appearance-none pr-7 transition-colors duration-300 focus:outline-none focus:border-charcoal"
-    style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%232A2A2A%22 stroke-width=%222%22%3E%3Cpath d=%22M19 9l-7 7-7-7%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 8px center;"
-  >
-    <option value="all">Length</option>
-    <option value="0-30">Under 30m</option>
-    <option value="30-40">30 – 40m</option>
-    <option value="40-50">40 – 50m</option>
-    <option value="50-100">50m+</option>
-  </select>
+  <!-- Guests range -->
+  <div>
+    <p class={sectionLabelClass}>Guests</p>
+    <div class="mt-2 flex items-center gap-2">
+      <input id="filter-guests-min-num" type="number" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MIN} class={numInputClass} aria-label="Minimum guests" />
+      <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">to</span>
+      <input id="filter-guests-max-num" type="number" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class={numInputClass} aria-label="Maximum guests" />
+    </div>
+    <div class="range-slider mt-3 relative h-5">
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
+      <div id="filter-guests-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <input id="filter-guests-min" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum guests" />
+      <input id="filter-guests-max" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum guests" />
+    </div>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 30</span></p>
+  </div>
 
-  <!-- Guests dropdown -->
-  <select
-    id="filter-guests"
-    class="px-3 py-2 text-[10px] font-medium tracking-[0.15em] uppercase border border-charcoal/20 text-charcoal bg-transparent appearance-none pr-7 transition-colors duration-300 focus:outline-none focus:border-charcoal"
-    style="background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%232A2A2A%22 stroke-width=%222%22%3E%3Cpath d=%22M19 9l-7 7-7-7%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 8px center;"
-  >
-    <option value="all">Guests</option>
-    <option value="6">Up to 8</option>
-    <option value="8">8 – 12</option>
-    <option value="12">12+</option>
-  </select>
-</div>
+  <!-- Price range -->
+  <div>
+    <p class={sectionLabelClass}>Price / week (EUR)</p>
+    <div class="mt-2 flex items-center gap-2">
+      <input id="filter-price-min-num" type="number" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MIN} class={numInputClass} aria-label="Minimum price" />
+      <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">to</span>
+      <input id="filter-price-max-num" type="number" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class={numInputClass} aria-label="Maximum price" />
+    </div>
+    <div class="range-slider mt-3 relative h-5">
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
+      <div id="filter-price-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <input id="filter-price-min" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum price" />
+      <input id="filter-price-max" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum price" />
+    </div>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">€0 – €2,000,000</span></p>
+  </div>
+
+  <p id="filter-empty" class="hidden text-sm text-taupe">No yachts match your filters.</p>
+</aside>
+
+<style>
+  .range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    pointer-events: none;
+    height: 20px;
+  }
+  .range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .range-input::-moz-range-thumb {
+    pointer-events: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .range-input::-webkit-slider-runnable-track,
+  .range-input::-moz-range-track {
+    background: transparent;
+    height: 20px;
+  }
+  .range-input:focus { outline: none; }
+</style>
 
 <script>
-  const container = document.getElementById("yacht-filters");
-  const cards = document.querySelectorAll<HTMLElement>("[data-yacht-type]");
-  const typePills = container?.querySelectorAll<HTMLButtonElement>(".filter-pill");
-  const lengthSelect = document.getElementById("filter-length") as HTMLSelectElement | null;
-  const guestsSelect = document.getElementById("filter-guests") as HTMLSelectElement | null;
+  type RangeIds = {
+    minRange: string;
+    maxRange: string;
+    minNum: string;
+    maxNum: string;
+    track: string;
+    display: string;
+    fmt: (v: number) => string;
+  };
 
-  let activeType = "all";
+  function setupRange(ids: RangeIds, onUpdate: () => void) {
+    const minR = document.getElementById(ids.minRange) as HTMLInputElement | null;
+    const maxR = document.getElementById(ids.maxRange) as HTMLInputElement | null;
+    const minN = document.getElementById(ids.minNum) as HTMLInputElement | null;
+    const maxN = document.getElementById(ids.maxNum) as HTMLInputElement | null;
+    const track = document.getElementById(ids.track);
+    const display = document.getElementById(ids.display);
+    if (!minR || !maxR || !track || !display) return null;
+
+    const lo = parseFloat(minR.min);
+    const hi = parseFloat(minR.max);
+
+    const sync = () => {
+      let minV = parseFloat(minR.value);
+      let maxV = parseFloat(maxR.value);
+      if (minV > maxV) {
+        // whichever was last touched stays; clamp the other
+        minV = Math.min(minV, maxV);
+        minR.value = String(minV);
+      }
+      const range = hi - lo;
+      const left = ((minV - lo) / range) * 100;
+      const right = ((maxV - lo) / range) * 100;
+      (track as HTMLElement).style.left = `${left}%`;
+      (track as HTMLElement).style.width = `${Math.max(right - left, 0)}%`;
+      display.textContent = `${ids.fmt(minV)} – ${ids.fmt(maxV)}`;
+      if (minN) minN.value = String(minV);
+      if (maxN) maxN.value = String(maxV);
+    };
+
+    const clamp = (v: number) => Math.min(Math.max(v, lo), hi);
+    const onNumChange = () => {
+      let mn = clamp(parseFloat(minN?.value || `${lo}`));
+      let mx = clamp(parseFloat(maxN?.value || `${hi}`));
+      if (Number.isNaN(mn)) mn = lo;
+      if (Number.isNaN(mx)) mx = hi;
+      if (mn > mx) mn = mx;
+      minR.value = String(mn);
+      maxR.value = String(mx);
+      sync();
+      onUpdate();
+    };
+
+    minR.addEventListener("input", () => {
+      if (parseFloat(minR.value) > parseFloat(maxR.value)) minR.value = maxR.value;
+      sync();
+      onUpdate();
+    });
+    maxR.addEventListener("input", () => {
+      if (parseFloat(maxR.value) < parseFloat(minR.value)) maxR.value = minR.value;
+      sync();
+      onUpdate();
+    });
+    minN?.addEventListener("change", onNumChange);
+    maxN?.addEventListener("change", onNumChange);
+    minN?.addEventListener("blur", onNumChange);
+    maxN?.addEventListener("blur", onNumChange);
+
+    sync();
+
+    return {
+      get: () => ({ min: parseFloat(minR.value), max: parseFloat(maxR.value) }),
+      bounds: { lo, hi },
+    };
+  }
+
+  const cards = document.querySelectorAll<HTMLElement>(".yacht-card");
+  const searchInput = document.getElementById("filter-search") as HTMLInputElement | null;
+  const emptyMsg = document.getElementById("filter-empty");
+  const viewMoreBtn = document.getElementById("view-more-btn");
+  const extra = document.getElementById("extra-yachts");
+
+  let searchQuery = "";
+  let debounce: ReturnType<typeof setTimeout> | null = null;
 
   function applyFilters() {
-    const lengthVal = lengthSelect?.value || "all";
-    const guestsVal = guestsSelect?.value || "all";
+    const q = searchQuery.trim().toLowerCase();
+    const lenR = lengthRange?.get();
+    const gstR = guestsRange?.get();
+    const priR = priceRange?.get();
 
+    const lenActive = lenR && (lenR.min > lengthRange!.bounds.lo || lenR.max < lengthRange!.bounds.hi);
+    const gstActive = gstR && (gstR.min > guestsRange!.bounds.lo || gstR.max < guestsRange!.bounds.hi);
+    const priActive = priR && (priR.min > priceRange!.bounds.lo || priR.max < priceRange!.bounds.hi);
+
+    let visibleCount = 0;
     cards.forEach((card) => {
-      const type = card.dataset.yachtType || "";
+      const name = card.dataset.yachtName || "";
+      const builder = card.dataset.yachtBuilder || "";
       const length = parseFloat(card.dataset.yachtLength || "0");
       const guests = parseInt(card.dataset.yachtGuests || "0");
+      const priceCents = parseInt(card.dataset.yachtPrice || "0");
 
       let show = true;
 
-      // Type filter
-      if (activeType !== "all" && type !== activeType) show = false;
+      if (q && !name.includes(q) && !builder.includes(q)) show = false;
 
-      // Length filter
-      if (lengthVal !== "all") {
-        const [min, max] = lengthVal.split("-").map(Number);
-        if (length < min || length > max) show = false;
+      if (show && lenActive && lenR) {
+        if (length < lenR.min || length > lenR.max) show = false;
       }
 
-      // Guests filter
-      if (guestsVal !== "all") {
-        const minGuests = parseInt(guestsVal);
-        if (guestsVal === "6" && guests > 8) show = false;
-        else if (guestsVal === "8" && (guests < 8 || guests > 12)) show = false;
-        else if (guestsVal === "12" && guests < 12) show = false;
+      if (show && gstActive && gstR) {
+        if (!Number.isFinite(guests) || guests <= 0 || guests < gstR.min || guests > gstR.max) show = false;
+      }
+
+      if (show && priActive && priR) {
+        if (priceCents <= 0) show = false;
+        else {
+          const priceEur = priceCents / 100;
+          if (priceEur < priR.min || priceEur > priR.max) show = false;
+        }
       }
 
       card.style.display = show ? "" : "none";
+      if (show) visibleCount++;
     });
+
+    const filtersActive = !!q || !!lenActive || !!gstActive || !!priActive;
+    if (filtersActive && extra && extra.hasAttribute("hidden")) {
+      extra.removeAttribute("hidden");
+      viewMoreBtn?.setAttribute("data-expanded", "true");
+      if (viewMoreBtn) (viewMoreBtn as HTMLElement).style.display = "none";
+    }
+    if (emptyMsg) emptyMsg.classList.toggle("hidden", visibleCount > 0);
+
+    // Notify the page so it can re-evaluate the name-marquee on newly visible cards.
+    window.dispatchEvent(new Event("yachts:filtered"));
   }
 
-  typePills?.forEach((pill) => {
-    pill.addEventListener("click", () => {
-      typePills.forEach((p) => {
-        p.classList.remove("bg-charcoal", "text-white", "active");
-      });
-      pill.classList.add("bg-charcoal", "text-white", "active");
-      activeType = pill.dataset.value || "all";
-      applyFilters();
-    });
-  });
+  const lengthRange = setupRange({
+    minRange: "filter-length-min",
+    maxRange: "filter-length-max",
+    minNum: "filter-length-min-num",
+    maxNum: "filter-length-max-num",
+    track: "filter-length-track",
+    display: "filter-length-display",
+    fmt: (v) => `${v}m`,
+  }, () => applyFilters());
 
-  lengthSelect?.addEventListener("change", applyFilters);
-  guestsSelect?.addEventListener("change", applyFilters);
+  const guestsRange = setupRange({
+    minRange: "filter-guests-min",
+    maxRange: "filter-guests-max",
+    minNum: "filter-guests-min-num",
+    maxNum: "filter-guests-max-num",
+    track: "filter-guests-track",
+    display: "filter-guests-display",
+    fmt: (v) => `${v}`,
+  }, () => applyFilters());
+
+  const priceRange = setupRange({
+    minRange: "filter-price-min",
+    maxRange: "filter-price-max",
+    minNum: "filter-price-min-num",
+    maxNum: "filter-price-max-num",
+    track: "filter-price-track",
+    display: "filter-price-display",
+    fmt: (v) => `€${v.toLocaleString("en-US")}`,
+  }, () => applyFilters());
+
+  searchInput?.addEventListener("input", (e) => {
+    if (debounce) clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      searchQuery = (e.target as HTMLInputElement).value;
+      applyFilters();
+    }, 150);
+  });
 </script>

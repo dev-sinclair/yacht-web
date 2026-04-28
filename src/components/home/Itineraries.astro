@@ -95,5 +95,41 @@ import pano from "../../assets/pano1.jpeg";
     );
 
     window.addEventListener("resize", render);
+
+    // Auto-scroll to reveal the "Explore Itineraries" button when arriving via
+    // a navbar link. Lets the user briefly see the title (stage 1), then
+    // smooth-scrolls past the crossfade so stage 2 is fully visible.
+    const targetHash = "#itineraries-section";
+    let pendingScroll: number | null = null;
+
+    function autoScrollToButton() {
+      if (pendingScroll !== null) window.clearTimeout(pendingScroll);
+      pendingScroll = window.setTimeout(() => {
+        pendingScroll = null;
+        const rect = section!.getBoundingClientRect();
+        const sectionTop = rect.top + window.scrollY;
+        const travel = section!.offsetHeight - window.innerHeight;
+        if (travel <= 0) return;
+        // Progress 0.7 puts us past the 0.35–0.6 crossfade range,
+        // with the button fully opaque and interactive.
+        const targetY = sectionTop + travel * 0.7;
+        window.scrollTo({ top: targetY, behavior: "smooth" });
+      }, 1000);
+    }
+
+    if (window.location.hash === targetHash) {
+      autoScrollToButton();
+    }
+
+    window.addEventListener("hashchange", () => {
+      if (window.location.hash === targetHash) autoScrollToButton();
+    });
+
+    // Same-page clicks where the hash doesn't change still need to trigger.
+    document
+      .querySelectorAll<HTMLAnchorElement>(`a[href$="${targetHash}"]`)
+      .forEach((link) => {
+        link.addEventListener("click", () => autoScrollToButton());
+      });
   }
 </script>

@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import Container from "../ui/Container.astro";
 import mapOutline from "../../assets/mapoutline.webp";
+import pano2 from "../../assets/pano2.jpg";
 
 const pillars = [
   { label: "Private", text: "One broker, one client. Direct and personal." },
@@ -12,7 +13,7 @@ const pillars = [
 ---
 
 <section id="about" class="relative overflow-hidden bg-white py-32 lg:py-44">
-  <!-- Full-width map background -->
+  <!-- Map background -->
   <div class="absolute inset-0 pointer-events-none">
     <Image
       src={mapOutline}
@@ -26,120 +27,55 @@ const pillars = [
   </div>
 
   <Container>
-    <div class="relative mx-auto max-w-3xl text-center">
-      <div data-reveal>
-        <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">About Us</p>
-        <h2
-          class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-        >
-          A Private Passage<br />
-          Across Every Horizon
-        </h2>
-        <div class="mx-auto mt-6 h-px w-10 bg-gold/40"></div>
-      </div>
-    </div>
-
-    <!-- Pillars -->
-    <div class="relative mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4" data-reveal>
-      {pillars.map((p) => (
-        <div class="text-center">
-          <p
-            class="text-2xl font-light tracking-[0.25em] uppercase text-charcoal sm:text-3xl"
+    <div class="relative grid items-center gap-12 lg:grid-cols-[1fr_minmax(0,520px)] lg:gap-20">
+      <!-- Left: text content -->
+      <div>
+        <div data-reveal>
+          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">About Us</p>
+          <h2
+            class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            {p.label}
-          </p>
-          <p class="mx-auto mt-3 max-w-[220px] text-sm leading-[1.7] text-taupe">
-            {p.text}
+            A Private Passage<br />
+            Across Every Horizon
+          </h2>
+          <div class="mt-6 h-px w-10 bg-gold/40"></div>
+          <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
+            Sinclair Yachting is a boutique brokerage connecting a select clientele with exceptional yachts across the world's finest cruising grounds — quiet, personal, and deliberate at every step.
           </p>
         </div>
-      ))}
-    </div>
 
-    <!-- Metrics -->
-    <div id="about-metrics" class="relative mx-auto mt-24 grid max-w-6xl grid-cols-2 gap-y-16 gap-x-8 lg:grid-cols-4" data-reveal>
-      <div class="text-center">
-        <p
-          class="num text-6xl font-light tracking-[0.02em] text-charcoal sm:text-7xl lg:text-8xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 200;"
-        >
-          <span class="countup" data-target="30">0</span>
-        </p>
-        <p class="mt-4 text-[11px] font-medium tracking-[0.25em] uppercase text-taupe-light">
-          Years in the industry
-        </p>
+        <!-- Pillars -->
+        <div class="mt-12 grid grid-cols-2 gap-y-8 gap-x-8" data-reveal>
+          {pillars.map((p) => (
+            <div>
+              <p
+                class="text-xl font-light tracking-[0.25em] uppercase text-charcoal sm:text-2xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                {p.label}
+              </p>
+              <p class="mt-2 text-sm leading-[1.7] text-taupe">
+                {p.text}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
-      <div class="text-center">
-        <p
-          class="num text-6xl font-light tracking-[0.02em] text-charcoal sm:text-7xl lg:text-8xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 200;"
-        >
-          <span class="countup" data-target="500">0</span><span class="text-gold/80">+</span>
-        </p>
-        <p class="mt-4 text-[11px] font-medium tracking-[0.25em] uppercase text-taupe-light">
-          Charters delivered
-        </p>
-      </div>
-      <div class="text-center">
-        <p
-          class="num text-6xl font-light tracking-[0.02em] text-charcoal sm:text-7xl lg:text-8xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 200;"
-        >
-          <span class="countup" data-target="8">0</span><span class="text-gold/80">+</span>
-        </p>
-        <p class="mt-4 text-[11px] font-medium tracking-[0.25em] uppercase text-taupe-light">
-          Cruising regions
-        </p>
-      </div>
-      <div class="text-center">
-        <p
-          class="num text-6xl font-light tracking-[0.02em] text-charcoal sm:text-7xl lg:text-8xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 200;"
-        >
-          <span class="countup" data-target="200">0</span><span class="text-gold/80">+</span>
-        </p>
-        <p class="mt-4 text-[11px] font-medium tracking-[0.25em] uppercase text-taupe-light">
-          Curated itineraries
-        </p>
+
+      <!-- Right: photo -->
+      <div class="relative" data-reveal="right">
+        <div class="relative aspect-[4/5] w-full overflow-hidden">
+          <Image
+            src={pano2}
+            alt="Sinclair Yachting"
+            class="absolute inset-0 h-full w-full object-cover"
+            widths={[600, 900, 1200]}
+            sizes="(min-width: 1024px) 520px, 100vw"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
   </Container>
 </section>
-
-<script>
-  const metrics = document.getElementById("about-metrics");
-  if (metrics) {
-    const nums = Array.from(metrics.querySelectorAll<HTMLElement>(".countup"));
-    const easeOut = (t: number) => 1 - Math.pow(1 - t, 3);
-
-    const animate = () => {
-      const duration = 1800;
-      const start = performance.now();
-      const targets = nums.map((el) => parseInt(el.dataset.target || "0", 10));
-
-      const tick = (now: number) => {
-        const p = Math.min(1, (now - start) / duration);
-        const e = easeOut(p);
-        nums.forEach((el, i) => {
-          el.textContent = Math.round(targets[i] * e).toString();
-        });
-        if (p < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-    };
-
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            animate();
-            io.disconnect();
-          }
-        });
-      },
-      { threshold: 0.35 }
-    );
-    io.observe(metrics);
-  }
-</script>

@@ -66,6 +66,22 @@ export interface Yacht {
   description: string;
 }
 
+export interface YachtCard {
+  uri: string;
+  slug: string;
+  name: string;
+  hero: string;
+  length: number;
+  sleeps: number;
+  cabins: number;
+  builtYear: number | null;
+  builder: string;
+  yachtType: string[];
+  dayPricingFrom: number | null;
+  weekPricingFrom: number | null;
+  currency: string;
+}
+
 export interface YachtFacets {
   yachtTypes: string[];
   lengthRange: { min: number; max: number };

@@ -1,0 +1,179 @@
+---
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Navbar from "../../components/layout/Navbar.astro";
+import Container from "../../components/ui/Container.astro";
+import YachtCardCatalogue from "../../components/catalogue/YachtCardCatalogue.astro";
+import YachtFilters from "../../components/catalogue/YachtFilters.astro";
+import Footer from "../../components/layout/Footer.astro";
+import { getAllYachts, enrichWithPricing, getFacets } from "../../data/yacht-service";
+
+Astro.response.headers.set(
+  "Cache-Control",
+  "public, s-maxage=3600, stale-while-revalidate=86400",
+);
+
+const ANKOR_TYPES = [
+  "Gulet", "Sailing", "Catamaran", "Motor",
+  "Power Catamaran", "Classic", "Expedition", "Sport fishing",
+];
+const rawType = Astro.url.searchParams.get("yachtType") ?? "";
+const activeType = ANKOR_TYPES.includes(rawType) ? rawType : "";
+
+const allYachts = await getAllYachts(activeType || undefined);
+const FEATURED_LIMIT = 9;
+const featured = await enrichWithPricing(allYachts.slice(0, FEATURED_LIMIT));
+const rest = allYachts.slice(FEATURED_LIMIT);
+const facets = getFacets(allYachts);
+---
+
+<BaseLayout
+  title="Yachts — Sinclair Yachting"
+  description="Browse our curated fleet of luxury charter yachts available in the Mediterranean and beyond."
+>
+  <Navbar />
+
+  <!-- Two-column layout: filters sidebar + yacht catalogue -->
+  <section class="bg-white pt-28 pb-10 lg:pt-32 lg:pb-14">
+    <div class="px-4 sm:px-8 lg:px-16 xl:px-20">
+      <div class="grid gap-10 lg:grid-cols-[260px_1fr] lg:gap-10">
+        <!-- Sidebar: filters -->
+        <aside class="lg:sticky lg:top-24 lg:self-start">
+          <YachtFilters facets={facets} activeType={activeType} />
+        </aside>
+
+        <!-- Main column: featured + grid -->
+        <div>
+          <!-- Featured Yachts heading -->
+          <div class="mb-8" data-reveal>
+            <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+              Hand-picked
+            </p>
+            <h2
+              class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              Featured Yachts
+            </h2>
+          </div>
+
+          <!-- Grid -->
+          <div id="fleet" class="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+            {featured.map((yacht) => <YachtCardCatalogue yacht={yacht} />)}
+          </div>
+
+          {rest.length > 0 && (
+            <>
+              <div class="mt-10 flex justify-center" id="view-more-wrapper">
+                <button
+                  id="view-more-btn"
+                  type="button"
+                  class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal hover:bg-charcoal hover:text-white transition-colors duration-300"
+                >
+                  View More
+                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+
+              <div id="extra-yachts" class="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 extra-grid" hidden>
+                {rest.map((yacht) => <YachtCardCatalogue yacht={yacht} />)}
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-cream/40 py-20 text-center">
+    <Container>
+      <h2
+        class="text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
+        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        data-reveal
+      >
+        Looking for something specific?
+      </h2>
+      <p class="mt-3 text-taupe" data-reveal>
+        Our brokers have access to yachts not listed publicly. Get in touch for a confidential consultation.
+      </p>
+      <div class="mt-8" data-reveal>
+        <a
+          href="https://wa.me/34971000000?text=Hi%2C%20I%27m%20looking%20for%20a%20specific%20yacht.%20Can%20you%20help%3F"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+        >
+          Chat on WhatsApp
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </a>
+      </div>
+    </Container>
+  </section>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .yacht-card {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 360px;
+  }
+</style>
+
+<script>
+  const btn = document.getElementById("view-more-btn");
+  const extra = document.getElementById("extra-yachts");
+  btn?.addEventListener("click", () => {
+    if (!extra) return;
+    const expanded = btn.getAttribute("data-expanded") === "true";
+    if (expanded) {
+      extra.setAttribute("hidden", "");
+      btn.setAttribute("data-expanded", "false");
+    } else {
+      extra.removeAttribute("hidden");
+      btn.setAttribute("data-expanded", "true");
+      btn.style.display = "none";
+    }
+  });
+
+  // Detect overflowing text on any .marquee-on-overflow element and toggle .is-marquee.
+  function checkMarquees(root: ParentNode = document) {
+    root.querySelectorAll<HTMLElement>(".marquee-on-overflow").forEach((wrap) => {
+      const original = wrap.querySelector<HTMLElement>(".marquee-text:not(.marquee-clone)");
+      if (!original) return;
+      const wrapW = wrap.clientWidth;
+      const textW = original.getBoundingClientRect().width;
+      if (wrapW === 0 || textW === 0) return;
+      const overflow = textW > wrapW + 1;
+      wrap.classList.toggle("is-marquee", overflow);
+    });
+  }
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => checkMarquees());
+  } else {
+    requestAnimationFrame(() => checkMarquees());
+  }
+  window.addEventListener("resize", () => requestAnimationFrame(() => checkMarquees()));
+  window.addEventListener("yachts:filtered", () => checkMarquees());
+
+  // Lazy-check yacht cards as they scroll into view (content-visibility:auto means
+  // off-screen cards have 0 layout until they near the viewport).
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          checkMarquees(entry.target as HTMLElement);
+          io.unobserve(entry.target);
+        }
+      }
+    }, { rootMargin: "200px" });
+    document.querySelectorAll<HTMLElement>(".yacht-card").forEach((c) => io.observe(c));
+  }
+</script>
