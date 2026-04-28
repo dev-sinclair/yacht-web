@@ -1,10 +1,31 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import Container from "../ui/Container.astro";
-import { getFeaturedYachts, formatPrice, formatLength } from "../../data/yacht-service";
+import { formatPrice, formatLength } from "../../data/yacht-service";
 import { resolveImage } from "../../lib/ankor/image";
+import type { YachtCard } from "../../data/types/yacht";
+import featuredYachts from "../../data/featured-yachts.json";
 
-const featured = await getFeaturedYachts(10);
-const track = [...featured, ...featured]; // duplicate for seamless infinite loop
+// Hard-coded featured set — avoids any Ankor API calls on the home page so the
+// shell renders instantly. The detail page (`/yachts/{slug}`) still hits Ankor
+// for live data; if the slug has been delisted, it redirects to `/yachts`.
+const featured = featuredYachts as YachtCard[];
+const track = [...featured, ...featured, ...featured]; // triple for true infinite loop
+
+// Local hero override: drop a file at `src/assets/yachts/{slug}.{jpg,png,webp,avif}`
+// and the carousel will use it (processed through Astro's image pipeline → AVIF/WebP
+// + srcset). If no local file is present, falls back to the Ankor CDN URL.
+const localHeroes = import.meta.glob<{ default: ImageMetadata }>(
+  "../../assets/yachts/*.{jpg,jpeg,png,webp,avif}",
+  { eager: true },
+);
+const heroBySlug: Record<string, ImageMetadata> = Object.fromEntries(
+  Object.entries(localHeroes).map(([path, mod]) => {
+    const slug = path.split("/").pop()!.replace(/\.[^.]+$/, "");
+    return [slug, mod.default];
+  }),
+);
 ---
 
 <section class="relative overflow-hidden bg-white py-24 lg:py-36">
@@ -25,123 +46,108 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
 
   {featured.length > 0 ? (
     <>
-      <!-- Carousel viewport (full-width, peeking siders) -->
-      <div class="yc-viewport" id="yc-viewport" data-reveal>
-        <div class="yc-track" id="yc-track">
-          {track.map((yacht, i) => {
-            const weekPrice = formatPrice(yacht.weekPricingFrom, yacht.currency);
-            const dayPrice = formatPrice(yacht.dayPricingFrom, yacht.currency);
-            const hasWeek = yacht.weekPricingFrom != null;
-            const hasDay = yacht.dayPricingFrom != null;
-            const priceMain = hasWeek ? weekPrice : hasDay ? dayPrice : "On Request";
-            const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
-            const heroHi = resolveImage(yacht.hero, "2560w");
-            const heroMd = resolveImage(yacht.hero, "1280w");
-            return (
-              <a
-                href={`/yachts/${yacht.slug}`}
-                class="yc-card group"
-                aria-hidden={i >= featured.length ? "true" : undefined}
-                tabindex={i >= featured.length ? -1 : undefined}
-                data-yacht-name={yacht.name}
-                data-yacht-length={formatLength(yacht.length)}
-                data-yacht-guests={yacht.sleeps || "—"}
-                data-yacht-year={yacht.builtYear ?? "—"}
-                data-yacht-cabins={yacht.cabins || "—"}
-                data-yacht-price={`${priceMain}${priceUnit ? ` ${priceUnit}` : ""}`}
-              >
-                {yacht.hero ? (
-                  <img
-                    src={heroHi}
-                    srcset={`${heroMd} 1280w, ${heroHi} 2560w`}
-                    sizes="(min-width: 1024px) 1100px, 85vw"
-                    alt={yacht.name}
-                    class="yc-card-img"
-                    loading="eager"
-                    decoding="async"
-                  />
-                ) : (
-                  <div class="yc-card-img bg-cream"></div>
-                )}
-                <div class="yc-card-overlay"></div>
-                <div class="yc-card-content">
-                  <p class="text-[10px] sm:text-[11px] font-light tracking-[0.3em] uppercase text-white/80">
-                    For Charter
-                  </p>
-                  <h3
-                    class="mt-3 text-3xl tracking-[0.08em] uppercase text-white sm:text-4xl lg:text-5xl"
-                    style="font-family: 'Playfair Display', serif; font-weight: 400;"
-                  >
-                    {yacht.name}
-                  </h3>
-                  <span
-                    class="mt-6 inline-flex items-center gap-3 border border-white/50 px-7 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300 group-hover:border-white group-hover:bg-white group-hover:text-charcoal sm:px-8 sm:py-3.5"
-                  >
-                    View
-                  </span>
-                </div>
-              </a>
-            );
-          })}
+      <!-- Carousel viewport + overlaid navigation control -->
+      <div class="yc-wrapper" data-reveal>
+        <div class="yc-viewport" id="yc-viewport">
+          <div class="yc-track" id="yc-track">
+            {track.map((yacht, i) => {
+              const weekPrice = formatPrice(yacht.weekPricingFrom, yacht.currency);
+              const dayPrice = formatPrice(yacht.dayPricingFrom, yacht.currency);
+              const hasWeek = yacht.weekPricingFrom != null;
+              const hasDay = yacht.dayPricingFrom != null;
+              const priceMain = hasWeek ? weekPrice : hasDay ? dayPrice : "On Request";
+              const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
+              const heroHi = resolveImage(yacht.hero, "2560w");
+              const heroMd = resolveImage(yacht.hero, "1280w");
+              const localHero = heroBySlug[yacht.slug];
+              const isReal = i >= featured.length && i < 2 * featured.length;
+              return (
+                <a
+                  href={`/yachts/${yacht.slug}`}
+                  class="yc-card group"
+                  aria-hidden={!isReal ? "true" : undefined}
+                  tabindex={!isReal ? -1 : undefined}
+                  data-yacht-name={yacht.name}
+                  data-yacht-length={formatLength(yacht.length)}
+                  data-yacht-guests={yacht.sleeps || "—"}
+                  data-yacht-year={yacht.builtYear ?? "—"}
+                  data-yacht-cabins={yacht.cabins || "—"}
+                  data-yacht-price={`${priceMain}${priceUnit ? ` ${priceUnit}` : ""}`}
+                >
+                  {localHero ? (
+                    <Image
+                      src={localHero}
+                      widths={[640, 1280, 2560]}
+                      sizes="(min-width: 1024px) 1100px, 85vw"
+                      alt={yacht.name}
+                      class="yc-card-img"
+                      loading="eager"
+                    />
+                  ) : yacht.hero ? (
+                    <img
+                      src={heroHi}
+                      srcset={`${heroMd} 1280w, ${heroHi} 2560w`}
+                      sizes="(min-width: 1024px) 1100px, 85vw"
+                      alt={yacht.name}
+                      class="yc-card-img"
+                      loading="eager"
+                      decoding="async"
+                    />
+                  ) : (
+                    <div class="yc-card-img bg-cream"></div>
+                  )}
+                  <div class="yc-card-overlay"></div>
+
+                  <!-- Bottom-left: label + name + specs -->
+                  <div class="yc-card-content">
+                    <p class="text-[10px] sm:text-[11px] font-light tracking-[0.3em] uppercase text-white/80">
+                      For Charter
+                    </p>
+                    <h3
+                      class="mt-3 text-3xl tracking-[0.08em] uppercase text-white sm:text-4xl lg:text-5xl"
+                      style="font-family: 'Playfair Display', serif; font-weight: 400;"
+                    >
+                      {yacht.name}
+                    </h3>
+                    <p class="yc-card-specs">
+                      {formatLength(yacht.length)}{" · "}{yacht.sleeps} guests{" · "}{yacht.builtYear ?? "—"}{" · "}{yacht.cabins} cabins{" · "}{priceMain}{priceUnit ? ` ${priceUnit}` : ""}
+                    </p>
+                  </div>
+
+                  <!-- Bottom-right: VIEW button -->
+                  <div class="yc-card-view-wrap">
+                    <span class="yc-card-view-btn">
+                      View
+                    </span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Overlaid nav: < | 1/10 | > -->
+        <div class="yc-ctrl">
+          <button id="yc-prev" type="button" aria-label="Previous yacht" class="yc-ctrl-btn">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.2">
+              <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="yc-ctrl-sep"></div>
+          <span class="yc-ctrl-counter num">
+            <span id="yc-current">1</span><span class="yc-ctrl-slash">/</span><span id="yc-total">{featured.length}</span>
+          </span>
+          <div class="yc-ctrl-sep"></div>
+          <button id="yc-next" type="button" aria-label="Next yacht" class="yc-ctrl-btn">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.2">
+              <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
         </div>
       </div>
 
-      <!-- Active yacht meta + nav arrows -->
       <Container>
-        <div
-          class="yc-meta mt-10 flex flex-col items-start justify-between gap-8 border-t border-charcoal/10 pt-8 lg:flex-row lg:items-center"
-        >
-          <div class="grid w-full grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-5 sm:gap-x-10 lg:w-auto">
-            <div>
-              <p class="text-[9px] font-medium tracking-[0.2em] uppercase text-taupe-light">Length</p>
-              <p class="num mt-1 text-sm tracking-[0.05em] text-charcoal" id="yc-length">—</p>
-            </div>
-            <div>
-              <p class="text-[9px] font-medium tracking-[0.2em] uppercase text-taupe-light">Guests</p>
-              <p class="num mt-1 text-sm tracking-[0.05em] text-charcoal" id="yc-guests">—</p>
-            </div>
-            <div>
-              <p class="text-[9px] font-medium tracking-[0.2em] uppercase text-taupe-light">Year</p>
-              <p class="num mt-1 text-sm tracking-[0.05em] text-charcoal" id="yc-year">—</p>
-            </div>
-            <div>
-              <p class="text-[9px] font-medium tracking-[0.2em] uppercase text-taupe-light">Cabins</p>
-              <p class="num mt-1 text-sm tracking-[0.05em] text-charcoal" id="yc-cabins">—</p>
-            </div>
-            <div class="col-span-2 sm:col-span-1">
-              <p class="text-[9px] font-medium tracking-[0.2em] uppercase text-taupe-light">Price From</p>
-              <p class="num mt-1 text-sm tracking-[0.05em] text-charcoal" id="yc-price">—</p>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-5 self-end lg:self-auto">
-            <span class="num text-xs tracking-[0.2em] text-taupe-light">
-              <span id="yc-current">1</span><span class="mx-1">/</span><span id="yc-total">{featured.length}</span>
-            </span>
-            <button
-              id="yc-prev"
-              type="button"
-              aria-label="Previous yacht"
-              class="yc-nav-btn"
-            >
-              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </button>
-            <button
-              id="yc-next"
-              type="button"
-              aria-label="Next yacht"
-              class="yc-nav-btn"
-            >
-              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <div class="mt-12" data-reveal>
+        <div class="mt-10 border-t border-charcoal/10 pt-8" data-reveal>
           <a
             href="/yachts"
             class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
@@ -161,14 +167,74 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
   )}
 </section>
 
+<!-- Custom drag cursor — fixed, follows mouse, only visible over carousel -->
+<div class="yc-cursor" id="yc-cursor" aria-hidden="true">
+  <svg class="yc-cursor-chevron yc-cursor-l" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+    <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+  <span class="yc-cursor-label">Drag</span>
+  <svg class="yc-cursor-chevron yc-cursor-r" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+    <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+</div>
+
 <style>
+  .yc-wrapper {
+    position: relative;
+  }
+
   .yc-viewport {
     position: relative;
     width: 100%;
     overflow: hidden;
-    cursor: grab;
+    cursor: none;
   }
-  .yc-viewport:active { cursor: grabbing; }
+
+  /* Custom drag cursor */
+  .yc-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(21, 26, 36, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 9999px;
+    padding: 0.45rem 1rem;
+    color: #fff;
+    font-size: 9px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    will-change: left, top;
+  }
+  .yc-cursor.is-visible { opacity: 1; }
+
+  .yc-cursor-chevron { display: block; flex-shrink: 0; }
+
+  .yc-cursor-l { animation: yc-chev-l 1.1s ease-in-out infinite; }
+  .yc-cursor-r { animation: yc-chev-r 1.1s ease-in-out infinite; }
+
+  @keyframes yc-chev-l {
+    0%, 100% { transform: translateX(0); }
+    50%       { transform: translateX(-4px); }
+  }
+  @keyframes yc-chev-r {
+    0%, 100% { transform: translateX(0); }
+    50%       { transform: translateX(4px); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .yc-cursor-l, .yc-cursor-r { animation: none; }
+  }
 
   .yc-track {
     display: flex;
@@ -220,10 +286,11 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
   .yc-card-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%);
     pointer-events: none;
   }
 
+  /* Bottom-left: label + name + specs */
   .yc-card-content {
     position: absolute;
     bottom: 0;
@@ -233,7 +300,51 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
   @media (min-width: 768px) { .yc-card-content { padding: 3rem; } }
   @media (min-width: 1024px) { .yc-card-content { padding: 3.5rem; } }
 
-  /* Inactive cards visually recede a bit */
+  .yc-card-specs {
+    margin-top: 0.6rem;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  @media (min-width: 640px) { .yc-card-specs { font-size: 11px; } }
+
+  /* Bottom-right: VIEW button */
+  .yc-card-view-wrap {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    pointer-events: none;
+  }
+  @media (min-width: 768px) { .yc-card-view-wrap { bottom: 3rem; right: 3rem; } }
+  @media (min-width: 1024px) { .yc-card-view-wrap { bottom: 3.5rem; right: 3.5rem; } }
+
+  .yc-card-view-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.75rem 1.75rem;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  .yc-card:hover .yc-card-view-btn,
+  .yc-card.is-active:hover .yc-card-view-btn {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--color-charcoal);
+  }
+  @media (min-width: 640px) {
+    .yc-card-view-btn { padding: 0.875rem 2rem; }
+  }
+
+  /* Inactive cards visually recede */
   .yc-card:not(.is-active) {
     opacity: 0.55;
   }
@@ -241,27 +352,55 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
     opacity: 1;
   }
 
-  .yc-nav-btn {
-    display: inline-flex;
+  /* Overlaid nav control: < | 1/10 | > — centered over the active card */
+  .yc-ctrl {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 9999px;
-    border: 1px solid rgba(21, 26, 36, 0.2);
-    color: var(--color-charcoal);
-    background: transparent;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    gap: 0.875rem;
+    z-index: 10;
+    pointer-events: none;
+  }
+  @media (min-width: 768px)  { .yc-ctrl { top: 3rem; } }
+  @media (min-width: 1024px) { .yc-ctrl { top: 3.5rem; } }
+
+  .yc-ctrl-btn {
+    pointer-events: all;
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    color: rgba(255, 255, 255, 0.85);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease;
   }
-  .yc-nav-btn:hover {
-    background: var(--color-charcoal);
-    color: #fff;
-    border-color: var(--color-charcoal);
-  }
-  .yc-nav-btn:focus-visible {
-    outline: 2px solid var(--color-charcoal);
+  .yc-ctrl-btn:hover { color: #fff; }
+  .yc-ctrl-btn:focus-visible {
+    outline: 1px solid rgba(255,255,255,0.6);
     outline-offset: 3px;
+  }
+
+  .yc-ctrl-sep {
+    width: 1.5rem;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+    flex-shrink: 0;
+  }
+
+  .yc-ctrl-counter {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
+  }
+  .yc-ctrl-slash {
+    display: inline-block;
+    margin: 0 0.3em;
+    opacity: 0.6;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -287,10 +426,10 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
   if (viewport && track && prevBtn && nextBtn) {
     const cards = Array.from(track.children) as CardEl[];
     const totalCards = cards.length;
-    const N = Math.floor(totalCards / 2); // featured length (track is duplicated)
+    const N = Math.floor(totalCards / 3); // featured length (track is tripled)
 
     if (N > 0) {
-      let realIdx = 0;
+      let realIdx = N; // start at middle copy so left neighbor always exists
       let isAnimating = false;
       const TRANSITION_MS = 700;
       const AUTOPLAY_MS = 6000;
@@ -330,18 +469,7 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
         cards.forEach((c, i) => {
           c.classList.toggle("is-active", i === realIdx);
         });
-        const active = cards[realIdx];
-        if (!active) return;
         const conceptual = realIdx % N;
-        const set = (id: string, val: string | undefined) => {
-          const el = document.getElementById(id);
-          if (el) el.textContent = val && val.length ? val : "—";
-        };
-        set("yc-length", active.dataset.yachtLength);
-        set("yc-guests", active.dataset.yachtGuests);
-        set("yc-year", active.dataset.yachtYear);
-        set("yc-cabins", active.dataset.yachtCabins);
-        set("yc-price", active.dataset.yachtPrice);
         if (currentEl) currentEl.textContent = String(conceptual + 1);
       }
 
@@ -353,7 +481,7 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
         setActiveCard();
 
         const finish = () => {
-          if (realIdx >= N) {
+          if (realIdx >= 2 * N) {
             realIdx -= N;
             applyTransform(false);
           }
@@ -369,23 +497,21 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
       function prev() {
         if (isAnimating || !track) return;
         isAnimating = true;
-        if (realIdx === 0) {
-          // jump silently to the duplicate copy, then animate back by one
-          realIdx = N;
-          applyTransform(false);
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              realIdx -= 1;
-              applyTransform(true);
-              setActiveCard();
-              window.setTimeout(() => { isAnimating = false; }, TRANSITION_MS + 30);
-            });
-          });
+        realIdx -= 1;
+        applyTransform(true);
+        setActiveCard();
+
+        const finish = () => {
+          if (realIdx < N) {
+            realIdx += N;
+            applyTransform(false);
+          }
+          isAnimating = false;
+        };
+        if (reduceMotion) {
+          finish();
         } else {
-          realIdx -= 1;
-          applyTransform(true);
-          setActiveCard();
-          window.setTimeout(() => { isAnimating = false; }, TRANSITION_MS + 30);
+          window.setTimeout(finish, TRANSITION_MS + 30);
         }
       }
 
@@ -404,10 +530,57 @@ const track = [...featured, ...featured]; // duplicate for seamless infinite loo
       prevBtn.addEventListener("click", () => { stopAutoplay(); prev(); startAutoplay(); });
       nextBtn.addEventListener("click", () => { stopAutoplay(); next(); startAutoplay(); });
 
-      viewport.addEventListener("mouseenter", stopAutoplay);
-      viewport.addEventListener("mouseleave", startAutoplay);
+      // Custom cursor
+      const cursor = document.getElementById("yc-cursor");
+      const showCursor = () => cursor?.classList.add("is-visible");
+      const hideCursor = () => cursor?.classList.remove("is-visible");
+
+      viewport.addEventListener("mouseenter", () => { stopAutoplay(); showCursor(); });
+      viewport.addEventListener("mouseleave", () => { startAutoplay(); hideCursor(); });
       viewport.addEventListener("focusin", stopAutoplay);
       viewport.addEventListener("focusout", startAutoplay);
+
+      // Mouse drag — snaps to next/prev on release
+      let mouseStartX = 0;
+      let mouseDelta = 0;
+      let isDragging = false;
+      let didDrag = false;
+      const DRAG_THRESHOLD = 60;
+
+      viewport.addEventListener("mousedown", (e) => {
+        if (e.button !== 0) return;
+        mouseStartX = e.clientX;
+        mouseDelta = 0;
+        isDragging = true;
+        didDrag = false;
+        stopAutoplay();
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        if (cursor) { cursor.style.left = e.clientX + "px"; cursor.style.top = e.clientY + "px"; }
+        if (!isDragging) return;
+        mouseDelta = e.clientX - mouseStartX;
+      });
+
+      document.addEventListener("mouseup", () => {
+        if (!isDragging) return;
+        isDragging = false;
+        if (Math.abs(mouseDelta) > DRAG_THRESHOLD) {
+          didDrag = true;
+          if (mouseDelta < 0) next(); else prev();
+        } else if (Math.abs(mouseDelta) > 5) {
+          didDrag = true; // suppress spurious click
+        }
+        startAutoplay();
+      });
+
+      // Prevent link navigation after a drag
+      viewport.addEventListener("click", (e) => {
+        if (didDrag) { e.preventDefault(); didDrag = false; }
+      }, true);
+
+      // Prevent native image/link drag
+      viewport.addEventListener("dragstart", (e) => e.preventDefault());
 
       // Pause when offscreen
       if ("IntersectionObserver" in window) {

@@ -14,8 +14,10 @@ import { getYachtBySlug, formatPrice } from "../../data/yacht-service";
 const { slug } = Astro.params;
 const yacht = slug ? await getYachtBySlug(slug) : null;
 
+// Slug not in Ankor (delisted, renamed, or never existed) — fall back to the
+// catalogue page so the user always lands somewhere useful.
 if (!yacht) {
-  return new Response(null, { status: 404, statusText: "Yacht not found" });
+  return Astro.redirect("/yachts", 302);
 }
 
 Astro.response.headers.set(
