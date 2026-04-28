@@ -1,19 +1,7 @@
 ---
-import { Image } from "astro:assets";
 import Container from "../ui/Container.astro";
 import services from "../../data/services.json";
-
-import yacht1 from "../../assets/yacht1.webp";
-import yacht2 from "../../assets/yacht2.jpg";
-import yacht3 from "../../assets/yacht3.jpg";
-import yacht4 from "../../assets/yacht4.jpg";
-
-const yachtShowcase = [
-  { image: yacht1, name: "Azimut Grande 32M", length: "32m", guests: 10, year: 2024 },
-  { image: yacht2, name: "Benetti Oasis 40M", length: "40m", guests: 12, year: 2023 },
-  { image: yacht3, name: "Ferretti 780 HT", length: "24m", guests: 8, year: 2025 },
-  { image: yacht4, name: "Riva 110 Dolcevita", length: "34m", guests: 10, year: 2024 },
-];
+import experiences from "../../data/experiences.json";
 ---
 
 <section id="services" class="relative" style={`height: ${services.length * 100}vh;`}>
@@ -78,49 +66,33 @@ const yachtShowcase = [
           </div>
         </div>
 
-        <!-- Right: yacht images -->
+        <!-- Right: client testimonials (one per service, scroll-driven) -->
         <div class="hidden lg:block relative lg:w-[480px]" style="height: 340px;">
-          {yachtShowcase.map((yacht, i) => (
+          {experiences.map((exp, i) => (
             <div
-              class="yacht-slide absolute inset-0 flex flex-col transition-all duration-600"
-              data-yacht-index={i}
+              class="experience-slide absolute inset-0 flex flex-col justify-between border border-white/10 bg-white/[0.03] backdrop-blur-sm p-8 transition-all duration-600"
+              data-experience-index={i}
               style={i === 0 ? "opacity: 1; transform: translateY(0);" : "opacity: 0; transform: translateY(40px);"}
             >
-              <!-- Image -->
-              <div class="relative flex-1 overflow-hidden rounded-sm">
-                <Image
-                  src={yacht.image}
-                  alt={yacht.name}
-                  class="w-full h-full object-cover"
-                  widths={[600, 900]}
-                  loading="lazy"
-                />
+              <!-- Top: stars + quote -->
+              <div>
+                <div class="flex gap-1">
+                  {[...Array(5)].map(() => (
+                    <svg class="w-3.5 h-3.5 text-gold-light" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p class="mt-6 text-base leading-[1.7] text-white/85 italic"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+                  &ldquo;{exp.quote}&rdquo;
+                </p>
               </div>
 
-              <!-- Yacht info bar -->
-              <div class="mt-5 flex items-end justify-between">
-                <div>
-                  <h4 class="text-lg tracking-[0.1em] uppercase text-white/90"
-                    style="font-family: 'Raleway', sans-serif; font-weight: 400;">
-                    {yacht.name}
-                  </h4>
-                  <div class="num mt-1.5 flex gap-4 text-[11px] tracking-wider text-white/40">
-                    <span>{yacht.length}</span>
-                    <span class="text-white/15">|</span>
-                    <span>{yacht.guests} guests</span>
-                    <span class="text-white/15">|</span>
-                    <span>{yacht.year}</span>
-                  </div>
-                </div>
-                <a
-                  href="/catalogue"
-                  class="btn-fill-light inline-flex items-center gap-2 border border-white/20 px-5 py-2.5 text-[10px] font-medium tracking-[0.2em] uppercase text-white/70"
-                >
-                  View
-                  <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
+              <!-- Bottom: author + location -->
+              <div class="mt-6 pt-6 border-t border-white/10">
+                <p class="text-sm font-medium tracking-wide text-white/90">{exp.author}</p>
+                <p class="mt-1 text-[10px] tracking-[0.2em] uppercase text-white/40">{exp.location}</p>
               </div>
             </div>
           ))}
@@ -135,7 +107,7 @@ const yachtShowcase = [
   if (section) {
     const slides = section.querySelectorAll<HTMLElement>(".service-slide");
     const bars = section.querySelectorAll<HTMLElement>(".service-bar");
-    const yachts = section.querySelectorAll<HTMLElement>(".yacht-slide");
+    const experienceSlides = section.querySelectorAll<HTMLElement>(".experience-slide");
     const totalServices = slides.length;
     let currentIndex = -1;
 
@@ -157,13 +129,13 @@ const yachtShowcase = [
         bar.style.transform = i <= index ? "scaleX(1)" : "scaleX(0)";
       });
 
-      yachts.forEach((yacht, i) => {
+      experienceSlides.forEach((slide, i) => {
         if (i === index) {
-          yacht.style.opacity = "1";
-          yacht.style.transform = "translateY(0)";
+          slide.style.opacity = "1";
+          slide.style.transform = "translateY(0)";
         } else {
-          yacht.style.opacity = "0";
-          yacht.style.transform = i < index ? "translateY(-40px)" : "translateY(40px)";
+          slide.style.opacity = "0";
+          slide.style.transform = i < index ? "translateY(-40px)" : "translateY(40px)";
         }
       });
     }

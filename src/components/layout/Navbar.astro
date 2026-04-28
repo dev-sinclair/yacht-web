@@ -96,47 +96,80 @@ const links = [
   const bar1 = document.getElementById("bar1")!;
   const bar2 = document.getElementById("bar2")!;
 
-  function updateBarColors(scrolled: boolean) {
-    const color = (menuOpen || scrolled || !isTransparent) ? "#151A24" : "white";
+  let menuOpen = false;
+
+  // Sections with dark backgrounds where the navbar should render transparent.
+  const darkSectionIds = ["hero", "services", "itineraries-section"];
+  const navHeight = 80;
+
+  function isOverDarkSection() {
+    for (const id of darkSectionIds) {
+      const el = document.getElementById(id);
+      if (!el) continue;
+      const rect = el.getBoundingClientRect();
+      // Section overlaps with the navbar's vertical band (top 0..navHeight).
+      if (rect.top < navHeight && rect.bottom > 0) return true;
+    }
+    return false;
+  }
+
+  function updateBarColors(white: boolean) {
+    const color = (menuOpen || white || !isTransparent) ? "#151A24" : "white";
     bar1.style.backgroundColor = color;
     bar2.style.backgroundColor = color;
   }
 
-  if (isTransparent) {
-    const onScroll = () => {
-      const scrolled = window.scrollY > 80;
-      if (scrolled) {
-        navbar.classList.remove("bg-transparent", "py-7");
-        navbar.classList.add("bg-white/95", "backdrop-blur-md", "py-5");
+  function applyState() {
+    if (!isTransparent) return;
+    const showTransparent = isOverDarkSection();
+
+    if (showTransparent) {
+      navbar.classList.add("bg-transparent", "py-7");
+      navbar.classList.remove("bg-white/95", "backdrop-blur-md", "py-5");
+    } else {
+      navbar.classList.remove("bg-transparent", "py-7");
+      navbar.classList.add("bg-white/95", "backdrop-blur-md", "py-5");
+    }
+
+    if (!menuOpen) updateBarColors(!showTransparent);
+
+    const logoImg = navbar.querySelector("img");
+    const logoText = document.getElementById("logo-text");
+    const wantDark = !showTransparent || menuOpen;
+    if (logoImg) {
+      if (wantDark) {
+        logoImg.classList.remove("brightness-0", "invert");
       } else {
-        navbar.classList.add("bg-transparent", "py-7");
-        navbar.classList.remove("bg-white/95", "backdrop-blur-md", "py-5");
+        logoImg.classList.add("brightness-0", "invert");
       }
-      if (!menuOpen) updateBarColors(scrolled);
-      // Update logo + text
-      const logoImg = navbar.querySelector("img");
-      const logoText = document.getElementById("logo-text");
-      if (logoImg) {
-        if (scrolled || menuOpen) {
-          logoImg.classList.remove("brightness-0", "invert");
-        } else {
-          logoImg.classList.add("brightness-0", "invert");
-        }
+    }
+    if (logoText) {
+      if (wantDark) {
+        logoText.classList.remove("text-white");
+        logoText.classList.add("text-charcoal");
+      } else {
+        logoText.classList.add("text-white");
+        logoText.classList.remove("text-charcoal");
       }
-      if (logoText) {
-        if (scrolled || menuOpen) {
-          logoText.classList.remove("text-white");
-          logoText.classList.add("text-charcoal");
-        } else {
-          logoText.classList.add("text-white");
-          logoText.classList.remove("text-charcoal");
-        }
+    }
+  }
+
+  if (isTransparent) {
+    let ticking = false;
+    const onScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          applyState();
+          ticking = false;
+        });
+        ticking = true;
       }
     };
     window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", applyState, { passive: true });
+    applyState();
   }
 
-  let menuOpen = false;
   toggle.addEventListener("click", () => {
     menuOpen = !menuOpen;
     if (menuOpen) {
@@ -152,26 +185,7 @@ const links = [
       bar2.style.transform = "";
       document.body.style.overflow = "";
     }
-    updateBarColors(window.scrollY > 80);
-    // Update logo + text on menu toggle
-    const logoImg = navbar.querySelector("img");
-    const logoText = document.getElementById("logo-text");
-    if (logoImg && isTransparent) {
-      if (menuOpen || window.scrollY > 80) {
-        logoImg.classList.remove("brightness-0", "invert");
-      } else {
-        logoImg.classList.add("brightness-0", "invert");
-      }
-    }
-    if (logoText && isTransparent) {
-      if (menuOpen || window.scrollY > 80) {
-        logoText.classList.remove("text-white");
-        logoText.classList.add("text-charcoal");
-      } else {
-        logoText.classList.add("text-white");
-        logoText.classList.remove("text-charcoal");
-      }
-    }
+    applyState();
   });
 
   // Close menu on link click
@@ -183,7 +197,7 @@ const links = [
       bar1.style.transform = "";
       bar2.style.transform = "";
       document.body.style.overflow = "";
-      updateBarColors(window.scrollY > 80);
+      applyState();
     });
   });
 </script>
