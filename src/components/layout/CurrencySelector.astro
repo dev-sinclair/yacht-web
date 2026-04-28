@@ -1,0 +1,85 @@
+---
+interface Props {
+  // True when the navbar is rendered over a dark hero. Affects text color.
+  transparent?: boolean;
+}
+
+const { transparent = false } = Astro.props;
+const currencies = ["EUR", "USD", "GBP"] as const;
+---
+
+<div
+  id="currency-selector"
+  class="flex items-center gap-1 text-[10px] font-medium tracking-[0.2em]"
+  style="font-family: 'Raleway', sans-serif;"
+  role="group"
+  aria-label="Display currency"
+>
+  {currencies.map((c, i) => (
+    <>
+      {i > 0 && (
+        <span
+          class:list={[
+            "currency-divider opacity-40",
+            transparent ? "text-white" : "text-charcoal",
+          ]}
+          aria-hidden="true"
+        >|</span>
+      )}
+      <button
+        type="button"
+        data-currency={c}
+        class:list={[
+          "currency-btn px-1.5 py-1 transition-colors duration-200",
+          transparent ? "text-white hover:text-gold" : "text-charcoal hover:text-gold",
+        ]}
+      >
+        {c}
+      </button>
+    </>
+  ))}
+</div>
+
+<style>
+  .currency-btn[data-active="true"] {
+    color: var(--color-gold);
+  }
+</style>
+
+<script>
+  import {
+    SUPPORTED_CURRENCIES,
+    CURRENCY_EVENT,
+    getActiveCurrency,
+    setActiveCurrency,
+    isSupported,
+    type SupportedCurrency,
+  } from "../../lib/currency";
+
+  function paint(active: SupportedCurrency) {
+    document.querySelectorAll<HTMLButtonElement>(".currency-btn").forEach((btn) => {
+      const c = btn.dataset.currency;
+      const isActive = c === active;
+      btn.dataset.active = isActive ? "true" : "false";
+      btn.setAttribute("aria-pressed", String(isActive));
+    });
+  }
+
+  // Initial paint from localStorage
+  paint(getActiveCurrency());
+
+  document.querySelectorAll<HTMLButtonElement>(".currency-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const c = btn.dataset.currency;
+      if (!c || !isSupported(c)) return;
+      setActiveCurrency(c);
+      paint(c);
+    });
+  });
+
+  // Stay in sync if another tab/component changes the value
+  window.addEventListener(CURRENCY_EVENT, ((e: Event) => {
+    const c = (e as CustomEvent<SupportedCurrency>).detail;
+    if (c && SUPPORTED_CURRENCIES.includes(c)) paint(c);
+  }) as EventListener);
+</script>

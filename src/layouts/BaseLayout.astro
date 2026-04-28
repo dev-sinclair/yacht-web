@@ -72,5 +72,57 @@ const {
         revealObserver.observe(el);
       });
     </script>
+
+    <script>
+      // Global currency binder: any element with .cur-price + the data attrs
+      // below auto-updates when the user changes currency in the navbar.
+      //
+      // <span class="cur-price"
+      //       data-week-cents="59000000"
+      //       data-day-cents=""
+      //       data-native="EUR"
+      //       data-unit-class="text-[10px] font-light text-taupe-light">
+      //   €590,000<span class="text-[10px] font-light text-taupe-light"> / week</span>
+      // </span>
+      import { CURRENCY_EVENT, formatPriceConverted, getActiveCurrency } from "../lib/currency";
+
+      function paintPrices() {
+        const target = getActiveCurrency();
+        document.querySelectorAll<HTMLElement>(".cur-price").forEach((el) => {
+          const week = parseInt(el.dataset.weekCents || "0", 10);
+          const day = parseInt(el.dataset.dayCents || "0", 10);
+          const native = el.dataset.native || "EUR";
+          const unitClass = el.dataset.unitClass || "";
+
+          const hasWeek = Number.isFinite(week) && week > 0;
+          const hasDay = Number.isFinite(day) && day > 0;
+          const cents = hasWeek ? week : hasDay ? day : 0;
+          const unit = hasWeek ? "week" : hasDay ? "day" : "";
+
+          if (cents === 0) {
+            el.textContent = "On Request";
+            return;
+          }
+
+          const amount = formatPriceConverted(cents, native, target);
+          if (unitClass) {
+            el.innerHTML = `${amount}<span class="${unitClass}"> / ${unit}</span>`;
+          } else {
+            el.textContent = `${amount} / ${unit}`;
+          }
+        });
+      }
+
+      // Initial paint on load
+      paintPrices();
+
+      // Re-paint when currency changes
+      window.addEventListener(CURRENCY_EVENT, paintPrices);
+
+      // Re-paint when new prices are added to the DOM (yacht cards hydrate
+      // client-side on /yachts and /yachts/[slug]).
+      window.addEventListener("yachts:loaded", paintPrices);
+      window.addEventListener("yacht:loaded", paintPrices);
+    </script>
   </body>
 </html>

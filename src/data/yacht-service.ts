@@ -5,10 +5,19 @@ import { memoize } from "../lib/ankor/cache";
 import { ensureRegistered } from "../lib/ankor/registry";
 import { entityToYacht, summaryToCard, uniqueSlug } from "../lib/ankor/mappers";
 import type { DiscoveryResponse, VesselEntity, VesselSummary } from "../lib/ankor/types";
+import featuredYachts from "./featured-yachts.json";
 
 const SEARCH_TTL_MS = 60_000;
 const ENTITY_TTL_MS = 5 * 60_000;
 const SLUG_INDEX_TTL_MS = SEARCH_TTL_MS;
+
+// Build a slug → URI map from the hand-picked featured set so we can resolve
+// /yachts/{featured-slug} without scanning the whole fleet.
+const featuredSlugToUri: Map<string, string> = new Map(
+  (featuredYachts as YachtCard[])
+    .filter((y) => y.slug && y.uri)
+    .map((y) => [y.slug, y.uri]),
+);
 
 interface SlugIndex {
   cards: YachtCard[];
@@ -71,22 +80,34 @@ async function fetchEntity(uri: string): Promise<VesselEntity | null> {
 }
 
 export async function enrichWithPricing(cards: YachtCard[]): Promise<YachtCard[]> {
-  const results = await Promise.all(
-    cards.map(async (card) => {
-      if (card.weekPricingFrom != null || card.dayPricingFrom != null) return card;
-      const entity = await fetchEntity(card.uri);
-      if (!entity) return card;
-      const pricing = entity.pricing ?? {};
-      return {
-        ...card,
-        dayPricingFrom: pricing.dayPricingFrom?.price ?? null,
-        weekPricingFrom: pricing.weekPricingFrom?.price ?? null,
-        currency: pricing.currency ?? pricing.weekPricingFrom?.currency ?? card.currency,
-        yachtType: card.yachtType.length ? card.yachtType : (entity.yachtType ?? []),
-      };
-    }),
+  // Identify cards that still need an entity fetch.
+  const needsFetch = cards.filter(
+    (c) => c.weekPricingFrom == null && c.dayPricingFrom == null,
   );
-  return results;
+
+  // Phase 1: register every URI in parallel. ensureRegistered de-duplicates
+  // in-flight calls, so cards already registered in this instance are no-ops.
+  await Promise.all(needsFetch.map((c) => ensureRegistered(c.uri)));
+
+  // Phase 2: fetch every entity in parallel. fetchEntity also calls
+  // ensureRegistered (idempotent after phase 1), keeping the function safe
+  // to call directly elsewhere.
+  const entities = await Promise.all(needsFetch.map((c) => fetchEntity(c.uri)));
+  const byUri = new Map(needsFetch.map((c, i) => [c.uri, entities[i]]));
+
+  return cards.map((card) => {
+    if (card.weekPricingFrom != null || card.dayPricingFrom != null) return card;
+    const entity = byUri.get(card.uri);
+    if (!entity) return card;
+    const pricing = entity.pricing ?? {};
+    return {
+      ...card,
+      dayPricingFrom: pricing.dayPricingFrom?.price ?? null,
+      weekPricingFrom: pricing.weekPricingFrom?.price ?? null,
+      currency: pricing.currency ?? pricing.weekPricingFrom?.currency ?? card.currency,
+      yachtType: card.yachtType.length ? card.yachtType : (entity.yachtType ?? []),
+    };
+  });
 }
 
 export async function getAllYachts(yachtType?: string): Promise<YachtCard[]> {
@@ -101,8 +122,14 @@ export async function getFeaturedYachts(limit = 10): Promise<YachtCard[]> {
 }
 
 export async function getYachtBySlug(slug: string): Promise<Yacht | null> {
-  const { bySlug } = await loadCardsAndIndex();
-  const uri = bySlug.get(slug);
+  // Fast path: if the slug is in the hand-picked featured set and we have
+  // its URI on file, skip the full fleet search. Saves ~2–3s of cold latency.
+  // (No-op until featured-yachts.json entries are populated with real URIs.)
+  let uri = featuredSlugToUri.get(slug);
+  if (!uri) {
+    const { bySlug } = await loadCardsAndIndex();
+    uri = bySlug.get(slug);
+  }
   if (!uri) return null;
 
   return memoize<Yacht>(`ankor:entity:${uri}`, ENTITY_TTL_MS, async () => {

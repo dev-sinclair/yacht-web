@@ -110,7 +110,12 @@ const heroBySlug: Record<string, ImageMetadata> = Object.fromEntries(
                       {yacht.name}
                     </h3>
                     <p class="yc-card-specs">
-                      {formatLength(yacht.length)}{" · "}{yacht.sleeps} guests{" · "}{yacht.builtYear ?? "—"}{" · "}{yacht.cabins} cabins{" · "}{priceMain}{priceUnit ? ` ${priceUnit}` : ""}
+                      {formatLength(yacht.length)}{" · "}{yacht.sleeps} guests{" · "}{yacht.builtYear ?? "—"}{" · "}{yacht.cabins} cabins{" · "}<span
+                        class="cur-price"
+                        data-week-cents={yacht.weekPricingFrom ?? ""}
+                        data-day-cents={yacht.dayPricingFrom ?? ""}
+                        data-native={yacht.currency || "EUR"}
+                      >{priceMain}{priceUnit ? ` ${priceUnit}` : ""}</span>
                     </p>
                   </div>
 

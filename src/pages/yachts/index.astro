@@ -3,10 +3,14 @@ import "../../styles/global.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/layout/Navbar.astro";
 import Container from "../../components/ui/Container.astro";
-import YachtCardCatalogue from "../../components/catalogue/YachtCardCatalogue.astro";
+import YachtCardSkeleton from "../../components/catalogue/YachtCardSkeleton.astro";
 import YachtFilters from "../../components/catalogue/YachtFilters.astro";
 import Footer from "../../components/layout/Footer.astro";
-import { getAllYachts, enrichWithPricing, getFacets } from "../../data/yacht-service";
+import type { YachtFacets } from "../../data/types/yacht";
+
+// No data fetched in the frontmatter — page renders shell + skeleton instantly.
+// Real data is loaded client-side from /api/yachts.json so the user lands on
+// the page with no perceptible wait.
 
 Astro.response.headers.set(
   "Cache-Control",
@@ -20,11 +24,14 @@ const ANKOR_TYPES = [
 const rawType = Astro.url.searchParams.get("yachtType") ?? "";
 const activeType = ANKOR_TYPES.includes(rawType) ? rawType : "";
 
-const allYachts = await getAllYachts(activeType || undefined);
-const FEATURED_LIMIT = 9;
-const featured = await enrichWithPricing(allYachts.slice(0, FEATURED_LIMIT));
-const rest = allYachts.slice(FEATURED_LIMIT);
-const facets = getFacets(allYachts);
+// YachtFilters only uses `facets` for typing today (its actual sliders are
+// hard-coded). Pass an empty stub so the component renders without data.
+const stubFacets: YachtFacets = {
+  yachtTypes: [],
+  lengthRange: { min: 0, max: 0 },
+  guestRange: { min: 0, max: 0 },
+  priceRange: { min: 0, max: 0 },
+};
 ---
 
 <BaseLayout
@@ -33,18 +40,14 @@ const facets = getFacets(allYachts);
 >
   <Navbar />
 
-  <!-- Two-column layout: filters sidebar + yacht catalogue -->
   <section class="bg-white pt-28 pb-10 lg:pt-32 lg:pb-14">
     <div class="px-4 sm:px-8 lg:px-16 xl:px-20">
       <div class="grid gap-10 lg:grid-cols-[260px_1fr] lg:gap-10">
-        <!-- Sidebar: filters -->
         <aside class="lg:sticky lg:top-24 lg:self-start">
-          <YachtFilters facets={facets} activeType={activeType} />
+          <YachtFilters facets={stubFacets} activeType={activeType} />
         </aside>
 
-        <!-- Main column: featured + grid -->
-        <div>
-          <!-- Featured Yachts heading -->
+        <div data-yachts-root data-active-type={activeType}>
           <div class="mb-8" data-reveal>
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
               Hand-picked
@@ -57,37 +60,35 @@ const facets = getFacets(allYachts);
             </h2>
           </div>
 
-          <!-- Grid -->
+          <!-- Skeleton grid (replaced once /api/yachts.json resolves) -->
           <div id="fleet" class="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
-            {featured.map((yacht) => <YachtCardCatalogue yacht={yacht} />)}
+            {Array.from({ length: 9 }).map(() => <YachtCardSkeleton />)}
           </div>
 
-          {rest.length > 0 && (
-            <>
-              <div class="mt-10 flex justify-center" id="view-more-wrapper">
-                <button
-                  id="view-more-btn"
-                  type="button"
-                  class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal hover:bg-charcoal hover:text-white transition-colors duration-300"
-                >
-                  View More
-                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-              </div>
+          <!-- View More + extra grid (populated after data loads) -->
+          <div class="mt-10 flex justify-center" id="view-more-wrapper" hidden>
+            <button
+              id="view-more-btn"
+              type="button"
+              class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal hover:bg-charcoal hover:text-white transition-colors duration-300"
+            >
+              View More
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
 
-              <div id="extra-yachts" class="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 extra-grid" hidden>
-                {rest.map((yacht) => <YachtCardCatalogue yacht={yacht} />)}
-              </div>
-            </>
-          )}
+          <div id="extra-yachts" class="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 extra-grid" hidden></div>
+
+          <p id="yachts-error" class="mt-10 hidden text-sm text-taupe">
+            Couldn't load the fleet right now. Please refresh in a moment.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="bg-cream/40 py-20 text-center">
     <Container>
       <h2
@@ -127,20 +128,175 @@ const facets = getFacets(allYachts);
 </style>
 
 <script>
-  const btn = document.getElementById("view-more-btn");
-  const extra = document.getElementById("extra-yachts");
-  btn?.addEventListener("click", () => {
-    if (!extra) return;
-    const expanded = btn.getAttribute("data-expanded") === "true";
-    if (expanded) {
-      extra.setAttribute("hidden", "");
-      btn.setAttribute("data-expanded", "false");
-    } else {
-      extra.removeAttribute("hidden");
-      btn.setAttribute("data-expanded", "true");
-      btn.style.display = "none";
+  import type { YachtCard, YachtFacets } from "../../data/types/yacht";
+
+  interface YachtsResponse {
+    featured: YachtCard[];
+    rest: YachtCard[];
+    facets: YachtFacets;
+  }
+
+  const ANKOR_BASE = "https://api.ankor.io";
+
+  function resolveImage(url: string | null | undefined, variant = "640x"): string {
+    if (!url) return "";
+    let resolved = url.includes("{imageVariant}") ? url.replace("{imageVariant}", variant) : url;
+    if (resolved.startsWith("/")) resolved = `${ANKOR_BASE}${resolved}`;
+    return resolved;
+  }
+
+  function formatPrice(cents: number | null | undefined, currency = "EUR"): string {
+    if (!cents) return "On Request";
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency,
+      maximumFractionDigits: 0,
+    }).format(cents / 100);
+  }
+
+  function formatLength(meters: number): string {
+    const feet = Math.round(meters * 3.28084);
+    return `${meters.toFixed(2)}m / ${feet}'`;
+  }
+
+  function escapeHtml(s: string): string {
+    return s
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function renderCard(yacht: YachtCard): string {
+    const heroUrl = resolveImage(yacht.hero, "640x");
+    const hasWeek = yacht.weekPricingFrom != null;
+    const hasDay = yacht.dayPricingFrom != null;
+    const priceMain = hasWeek
+      ? formatPrice(yacht.weekPricingFrom, yacht.currency)
+      : hasDay ? formatPrice(yacht.dayPricingFrom, yacht.currency) : "On Request";
+    const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
+    const builder = yacht.builder || "—";
+    const name = escapeHtml(yacht.name);
+    const builderEsc = escapeHtml(builder);
+
+    return `
+<a
+  href="/yachts/${escapeHtml(yacht.slug)}"
+  class="yacht-card group flex flex-col border border-beige/60 bg-white transition-all duration-500 hover:bg-charcoal hover:border-charcoal hover:shadow-lg"
+  data-yacht-type="${escapeHtml(yacht.yachtType[0] ?? "")}"
+  data-yacht-name="${escapeHtml(yacht.name.toLowerCase())}"
+  data-yacht-builder="${escapeHtml(builder.toLowerCase())}"
+  data-yacht-length="${yacht.length}"
+  data-yacht-guests="${yacht.sleeps}"
+  data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
+>
+  <div class="px-5 pt-5">
+    <h3 class="marquee-on-overflow text-xl tracking-[0.1em] uppercase text-charcoal transition-colors duration-500 group-hover:text-white" style="font-family: 'Raleway', sans-serif; font-weight: 500;">
+      <span class="marquee-track">
+        <span class="marquee-text">${name}</span>
+        <span class="marquee-text marquee-clone" aria-hidden="true">${name}</span>
+      </span>
+    </h3>
+  </div>
+  <div class="flex items-baseline justify-between gap-3 px-5 pt-1.5 pb-3">
+    <span class="marquee-on-overflow min-w-0 flex-1 text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/50">
+      <span class="marquee-track">
+        <span class="marquee-text">${builderEsc}</span>
+        <span class="marquee-text marquee-clone" aria-hidden="true">${builderEsc}</span>
+      </span>
+    </span>
+    <p class="num text-sm tracking-[0.05em] text-charcoal transition-colors duration-500 group-hover:text-white whitespace-nowrap shrink-0">
+      <span
+        class="cur-price"
+        data-week-cents="${yacht.weekPricingFrom ?? ""}"
+        data-day-cents="${yacht.dayPricingFrom ?? ""}"
+        data-native="${escapeHtml(yacht.currency || "EUR")}"
+        data-unit-class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"
+      >${priceMain}${priceUnit ? `<span class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"> ${priceUnit}</span>` : ""}</span>
+    </p>
+  </div>
+  <div class="grid grid-cols-4 gap-x-4 border-t border-beige/60 px-5 py-2.5 transition-colors duration-500 group-hover:border-white/10">
+    <div>
+      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Length</p>
+      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${formatLength(yacht.length)}</p>
+    </div>
+    <div>
+      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Guests</p>
+      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.sleeps || "—"}</p>
+    </div>
+    <div>
+      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Year</p>
+      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.builtYear ?? "—"}</p>
+    </div>
+    <div>
+      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Cabins</p>
+      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.cabins || "—"}</p>
+    </div>
+  </div>
+  <div class="yacht-card-image flex-1 min-h-[220px] overflow-hidden bg-cream">
+    ${heroUrl
+      ? `<img src="${escapeHtml(heroUrl)}" alt="${name}" class="h-full w-full object-cover" loading="lazy" />`
+      : `<div class="h-full w-full bg-cream"></div>`}
+  </div>
+</a>`.trim();
+  }
+
+  async function load() {
+    const root = document.querySelector<HTMLElement>("[data-yachts-root]");
+    if (!root) return;
+    const activeType = root.dataset.activeType ?? "";
+    const url = "/api/yachts.json" + (activeType ? `?yachtType=${encodeURIComponent(activeType)}` : "");
+
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`status ${res.status}`);
+      const data = (await res.json()) as YachtsResponse;
+
+      const fleet = document.getElementById("fleet");
+      const extra = document.getElementById("extra-yachts");
+      const viewMoreWrapper = document.getElementById("view-more-wrapper");
+
+      if (fleet) {
+        if (data.featured.length === 0) {
+          fleet.innerHTML = `<p class="text-sm text-taupe col-span-full">No yachts match this filter.</p>`;
+        } else {
+          fleet.innerHTML = data.featured.map(renderCard).join("");
+        }
+      }
+
+      if (extra && data.rest.length > 0) {
+        extra.innerHTML = data.rest.map(renderCard).join("");
+        viewMoreWrapper?.removeAttribute("hidden");
+      }
+
+      window.dispatchEvent(new CustomEvent("yachts:loaded"));
+    } catch (err) {
+      console.error("[yachts] load failed:", err);
+      const errMsg = document.getElementById("yachts-error");
+      const fleet = document.getElementById("fleet");
+      if (fleet) fleet.innerHTML = "";
+      errMsg?.classList.remove("hidden");
     }
-  });
+  }
+
+  // View More toggle (skeleton wrapper is hidden until data loads)
+  function wireViewMore() {
+    const btn = document.getElementById("view-more-btn");
+    const extra = document.getElementById("extra-yachts");
+    btn?.addEventListener("click", () => {
+      if (!extra) return;
+      const expanded = btn.getAttribute("data-expanded") === "true";
+      if (expanded) {
+        extra.setAttribute("hidden", "");
+        btn.setAttribute("data-expanded", "false");
+      } else {
+        extra.removeAttribute("hidden");
+        btn.setAttribute("data-expanded", "true");
+        (btn as HTMLElement).style.display = "none";
+      }
+    });
+  }
 
   // Detect overflowing text on any .marquee-on-overflow element and toggle .is-marquee.
   function checkMarquees(root: ParentNode = document) {
@@ -155,17 +311,8 @@ const facets = getFacets(allYachts);
     });
   }
 
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(() => checkMarquees());
-  } else {
-    requestAnimationFrame(() => checkMarquees());
-  }
-  window.addEventListener("resize", () => requestAnimationFrame(() => checkMarquees()));
-  window.addEventListener("yachts:filtered", () => checkMarquees());
-
-  // Lazy-check yacht cards as they scroll into view (content-visibility:auto means
-  // off-screen cards have 0 layout until they near the viewport).
-  if ("IntersectionObserver" in window) {
+  function observeNewCards() {
+    if (!("IntersectionObserver" in window)) return;
     const io = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
@@ -176,4 +323,21 @@ const facets = getFacets(allYachts);
     }, { rootMargin: "200px" });
     document.querySelectorAll<HTMLElement>(".yacht-card").forEach((c) => io.observe(c));
   }
+
+  wireViewMore();
+  load();
+
+  window.addEventListener("yachts:loaded", () => {
+    requestAnimationFrame(() => {
+      checkMarquees();
+      observeNewCards();
+      // Trigger reveal on the freshly inserted cards
+      document.querySelectorAll<HTMLElement>(".yacht-card").forEach((el) => {
+        el.classList.add("revealed");
+      });
+    });
+  });
+
+  window.addEventListener("resize", () => requestAnimationFrame(() => checkMarquees()));
+  window.addEventListener("yachts:filtered", () => checkMarquees());
 </script>

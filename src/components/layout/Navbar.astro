@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
+import CurrencySelector from "./CurrencySelector.astro";
 
 interface Props {
   transparent?: boolean;
@@ -57,26 +58,29 @@ const links = [
         style={transparent ? "background-color: white" : "background-color: #151A24"}></span>
     </button>
 
-    <!-- Right: logo + brand text -->
-    <a href="/" class="flex items-center gap-3">
-      <span
-        id="logo-text"
-        class:list={[
-          "hidden sm:inline text-[11px] font-light tracking-[0.25em] uppercase transition-colors duration-300",
-          transparent ? "text-white" : "text-charcoal",
-        ]}
-        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-      >
-        Sinclair Yachting
-      </span>
-      <Image
-        src={logo}
-        alt="Sinclair Yachting"
-        class="h-10 w-auto sm:h-12 transition-all duration-300"
-        widths={[120, 200]}
-        loading="eager"
-      />
-    </a>
+    <!-- Right: currency selector + logo -->
+    <div class="flex items-center gap-4 sm:gap-6">
+      <CurrencySelector transparent={transparent} />
+      <a href="/" class="flex items-center gap-3">
+        <span
+          id="logo-text"
+          class:list={[
+            "hidden sm:inline text-[11px] font-light tracking-[0.25em] uppercase transition-colors duration-300",
+            transparent ? "text-white" : "text-charcoal",
+          ]}
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          Sinclair Yachting
+        </span>
+        <Image
+          src={logo}
+          alt="Sinclair Yachting"
+          class="h-10 w-auto sm:h-12 transition-all duration-300"
+          widths={[120, 200]}
+          loading="eager"
+        />
+      </a>
+    </div>
   </div>
 
   <!-- Mobile dropdown panel (compact, NOT fullscreen) -->
@@ -134,14 +138,16 @@ const links = [
   }
 
   function setLinkColors(white: boolean) {
-    const links = navbar.querySelectorAll<HTMLElement>(".nav-link");
-    links.forEach((link) => {
+    const items = navbar.querySelectorAll<HTMLElement>(
+      ".nav-link, .currency-btn, .currency-divider",
+    );
+    items.forEach((item) => {
       if (white) {
-        link.classList.remove("text-white");
-        link.classList.add("text-charcoal");
+        item.classList.remove("text-white");
+        item.classList.add("text-charcoal");
       } else {
-        link.classList.add("text-white");
-        link.classList.remove("text-charcoal");
+        item.classList.add("text-white");
+        item.classList.remove("text-charcoal");
       }
     });
   }

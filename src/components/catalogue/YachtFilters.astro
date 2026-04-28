@@ -239,7 +239,9 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     };
   }
 
-  const cards = document.querySelectorAll<HTMLElement>(".yacht-card");
+  // Re-query on every filter pass so we pick up cards that were hydrated
+  // client-side after the page shell rendered (Option B / api/yachts.json).
+  const getCards = () => document.querySelectorAll<HTMLElement>(".yacht-card");
   const searchInput = document.getElementById("filter-search") as HTMLInputElement | null;
   const emptyMsg = document.getElementById("filter-empty");
   const viewMoreBtn = document.getElementById("view-more-btn");
@@ -259,7 +261,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     const priActive = priR && (priR.min > priceRange!.bounds.lo || priR.max < priceRange!.bounds.hi);
 
     let visibleCount = 0;
-    cards.forEach((card) => {
+    getCards().forEach((card) => {
       const name = card.dataset.yachtName || "";
       const builder = card.dataset.yachtBuilder || "";
       const length = parseFloat(card.dataset.yachtLength || "0");
@@ -339,4 +341,9 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       applyFilters();
     }, 150);
   });
+
+  // After Option B's client-side hydration finishes, re-apply filters so any
+  // pre-set state (e.g. user typed in the search box before cards loaded) is
+  // applied to the freshly inserted cards.
+  window.addEventListener("yachts:loaded", () => applyFilters());
 </script>

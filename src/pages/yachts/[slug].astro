@@ -2,140 +2,397 @@
 import "../../styles/global.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/layout/Navbar.astro";
-import Container from "../../components/ui/Container.astro";
-import YachtHero from "../../components/yacht/YachtHero.astro";
-import YachtSpecs from "../../components/yacht/YachtSpecs.astro";
-import YachtAmenities from "../../components/yacht/YachtAmenities.astro";
-import YachtGallery from "../../components/yacht/YachtGallery.astro";
-import YachtInquiry from "../../components/yacht/YachtInquiry.astro";
-import Footer from "../../components/layout/Footer.astro";
-import { getYachtBySlug, formatPrice } from "../../data/yacht-service";
+import YachtDetailSkeleton from "../../components/yacht/YachtDetailSkeleton.astro";
+
+// No data fetched in the frontmatter — page renders shell + skeleton instantly.
+// Real data loads from /api/yacht/{slug}.json. Unknown slugs trigger a
+// client-side redirect to /yachts on 404 (was a 302 before).
 
 const { slug } = Astro.params;
-const yacht = slug ? await getYachtBySlug(slug) : null;
-
-// Slug not in Ankor (delisted, renamed, or never existed) — fall back to the
-// catalogue page so the user always lands somewhere useful.
-if (!yacht) {
-  return Astro.redirect("/yachts", 302);
-}
 
 Astro.response.headers.set(
   "Cache-Control",
-  "public, s-maxage=86400, stale-while-revalidate=604800",
+  "public, s-maxage=300, stale-while-revalidate=86400",
 );
 
-const price = formatPrice(yacht.dayPricingFrom, yacht.currency);
-const waUrl = `https://wa.me/34971000000?text=${encodeURIComponent(`Hi, I'm interested in chartering ${yacht.blueprint.name}. Can you send me more details?`)}`;
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: yacht.blueprint.name,
-  description: yacht.description,
-  image: yacht.images[0]?.url,
-  brand: { "@type": "Brand", name: yacht.blueprint.builder },
-  ...(yacht.dayPricingFrom ? {
-    offers: {
-      "@type": "Offer",
-      priceCurrency: yacht.currency,
-      price: (yacht.dayPricingFrom / 100).toString(),
-      availability: "https://schema.org/InStock",
-    },
-  } : {}),
-};
+// Generic title until data loads. SEO regression vs the previous SSR — see
+// plan note about Option B's tradeoff.
+const title = "Charter Yacht — Sinclair Yachting";
+const description = "Detailed specs, gallery, pricing, and inquiry for this charter yacht in our curated fleet.";
 ---
 
-<BaseLayout
-  title={`${yacht.blueprint.name} — Charter | Sinclair Yachting`}
-  description={yacht.description.slice(0, 160)}
->
-  <!-- JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-
+<BaseLayout title={title} description={description}>
   <Navbar transparent />
 
-  <main>
-    <YachtHero yacht={yacht} />
-    <YachtSpecs yacht={yacht} />
+  <main id="yacht-main" data-slug={slug}>
+    <div id="yacht-skeleton">
+      <YachtDetailSkeleton />
+    </div>
+    <div id="yacht-content" hidden></div>
+  </main>
+</BaseLayout>
 
-    <!-- Description + pricing -->
-    <section class="bg-white py-16 lg:py-20">
-      <Container>
-        <div class="grid gap-12 lg:grid-cols-[1fr_380px] lg:gap-20">
-          <!-- Description -->
-          <div data-reveal>
-            <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Overview</p>
-            <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;">
-              About {yacht.blueprint.name}
-            </h2>
-            <p class="mt-6 text-base leading-[1.8] text-taupe">
-              {yacht.description}
-            </p>
-            {yacht.geographicZones.length > 0 && (
-              <div class="mt-6">
-                <p class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light mb-2">Cruising Areas</p>
-                <div class="flex flex-wrap gap-2">
-                  {yacht.geographicZones.map((zone) => (
-                    <span class="px-3 py-1 text-[10px] font-medium tracking-[0.1em] uppercase border border-beige/60 text-taupe">
-                      {zone}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
+<script>
+  import type { Yacht } from "../../data/types/yacht";
 
-          <!-- Pricing card -->
-          <div class="lg:sticky lg:top-28 self-start" data-reveal>
-            <div class="border border-beige/60 p-6">
-              <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light">Charter from</p>
-              <p class="num mt-1 text-2xl tracking-[0.05em] text-charcoal sm:text-3xl">
-                {price}
-                {yacht.dayPricingFrom ? (<span class="text-base text-taupe-light font-light"> / day</span>) : null}
-              </p>
+  // ----- formatting helpers (mirror src/data/yacht-service.ts on the client) -----
+  function formatPrice(cents: number | null | undefined, currency = "EUR"): string {
+    if (!cents) return "On Request";
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency,
+      maximumFractionDigits: 0,
+    }).format(cents / 100);
+  }
 
-              <div class="mt-6 grid grid-cols-2 gap-3 border-t border-beige/40 pt-6">
-                <div>
-                  <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Length</p>
-                  <p class="num mt-0.5 text-sm text-charcoal">{yacht.blueprint.length}m</p>
-                </div>
-                <div>
-                  <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Guests</p>
-                  <p class="num mt-0.5 text-sm text-charcoal">{yacht.blueprint.sleeps}</p>
-                </div>
-                <div>
-                  <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Cabins</p>
-                  <p class="num mt-0.5 text-sm text-charcoal">{yacht.cabins.total}</p>
-                </div>
-                <div>
-                  <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Crew</p>
-                  <p class="num mt-0.5 text-sm text-charcoal">{yacht.crew.length}</p>
-                </div>
-              </div>
+  function formatLength(meters: number): string {
+    const feet = Math.round(meters * 3.28084);
+    return `${meters.toFixed(2)}m / ${feet}'`;
+  }
 
-              <a
-                href={waUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-fill mt-6 w-full inline-flex items-center justify-center gap-3 border border-charcoal/20 px-6 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
-              >
-                Inquire on WhatsApp
-                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
-              </a>
+  function escapeHtml(s: string | number | null | undefined): string {
+    if (s === null || s === undefined) return "";
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  // WhatsApp SVG path used by Hero, pricing card, and Inquiry CTA
+  const WA_SVG = (size: string) => `
+<svg class="${size}" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+</svg>`;
+
+  function waUrl(yachtName: string): string {
+    return `https://wa.me/34971000000?text=${encodeURIComponent(`Hi, I'm interested in chartering ${yachtName}. Can you send me more details?`)}`;
+  }
+
+  // ----- section renderers -----
+  function renderHero(yacht: Yacht): string {
+    const image = yacht.images[0] ?? { url: "", alt: yacht.blueprint.name };
+    return `
+<section class="relative h-[65vh] w-full overflow-hidden bg-charcoal">
+  <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt)}" class="absolute inset-0 h-full w-full object-cover" loading="eager" />
+  <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10 sm:px-8 lg:px-12">
+    <div class="mx-auto max-w-[1440px] flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+      <div>
+        <span class="inline-block bg-white/90 px-3 py-1.5 text-[10px] font-medium uppercase tracking-[0.15em] text-charcoal backdrop-blur-sm mb-4">
+          ${escapeHtml(yacht.yachtType.join(" / "))}
+        </span>
+        <h1 class="text-4xl font-light tracking-[0.12em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+          ${escapeHtml(yacht.blueprint.name)}
+        </h1>
+        <p class="mt-2 text-sm text-white/60 tracking-wider">
+          ${escapeHtml(yacht.blueprint.builder)} &middot; ${escapeHtml(yacht.blueprint.buildYear)}
+        </p>
+      </div>
+      <a href="${escapeHtml(waUrl(yacht.blueprint.name))}" target="_blank" rel="noopener noreferrer" class="btn-fill-light inline-flex items-center gap-3 border border-white/30 px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white shrink-0">
+        Inquire on WhatsApp ${WA_SVG("w-4 h-4")}
+      </a>
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderQuickSpecs(yacht: Yacht): string {
+    const quickSpecs = [
+      { label: "Length", value: formatLength(yacht.blueprint.length) },
+      { label: "Beam", value: `${yacht.blueprint.beam}m` },
+      { label: "Guests", value: `${yacht.blueprint.sleeps}` },
+      { label: "Cabins", value: `${yacht.cabins.total}` },
+      { label: "Year", value: `${yacht.blueprint.buildYear}` },
+      { label: "Builder", value: yacht.blueprint.builder },
+      { label: "Top Speed", value: `${yacht.performance.topSpeed} kn` },
+      { label: "Cruising Speed", value: `${yacht.performance.cruisingSpeed} kn` },
+    ];
+    return `
+<section class="border-b border-beige/60 bg-white py-6">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
+      ${quickSpecs.map((s) => `
+        <div>
+          <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">${escapeHtml(s.label)}</p>
+          <p class="num mt-0.5 text-sm text-charcoal">${escapeHtml(s.value)}</p>
+        </div>
+      `).join("")}
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderTechSpecs(yacht: Yacht): string {
+    const detailSpecs = [
+      { label: "Hull Type", value: yacht.hull.type },
+      { label: "Hull Construction", value: yacht.hull.construction },
+      { label: "Draft", value: `${yacht.blueprint.draft}m` },
+      { label: "Architect", value: yacht.blueprint.architect },
+      { label: "Bathrooms", value: `${yacht.cabins.bathrooms}` },
+      { label: "Day Capacity", value: `${yacht.blueprint.cruisingCapacity}` },
+      ...(yacht.blueprint.refitYear ? [{ label: "Last Refit", value: `${yacht.blueprint.refitYear}` }] : []),
+    ];
+    return `
+<section class="bg-white py-16 lg:py-20" id="specs">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Specifications</p>
+      <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+        Technical Details
+      </h2>
+    </div>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-reveal>
+      ${detailSpecs.map((s) => `
+        <div class="flex justify-between border-b border-beige/40 py-3">
+          <span class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light">${escapeHtml(s.label)}</span>
+          <span class="num text-sm text-charcoal">${escapeHtml(s.value)}</span>
+        </div>
+      `).join("")}
+      ${yacht.cabins.byType.map((c) => `
+        <div class="flex justify-between border-b border-beige/40 py-3">
+          <span class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light">${escapeHtml(c.type)} cabins</span>
+          <span class="num text-sm text-charcoal">${escapeHtml(c.count)}</span>
+        </div>
+      `).join("")}
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderDescriptionPricing(yacht: Yacht): string {
+    const hasWeek = yacht.weekPricingFrom != null;
+    const hasDay = yacht.dayPricingFrom != null;
+    const priceMain = hasWeek
+      ? formatPrice(yacht.weekPricingFrom, yacht.currency)
+      : hasDay ? formatPrice(yacht.dayPricingFrom, yacht.currency) : "On Request";
+    const priceUnit = hasWeek ? "week" : hasDay ? "day" : "";
+    const zonesHtml = yacht.geographicZones.length > 0 ? `
+      <div class="mt-6">
+        <p class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light mb-2">Cruising Areas</p>
+        <div class="flex flex-wrap gap-2">
+          ${yacht.geographicZones.map((z) => `
+            <span class="px-3 py-1 text-[10px] font-medium tracking-[0.1em] uppercase border border-beige/60 text-taupe">${escapeHtml(z)}</span>
+          `).join("")}
+        </div>
+      </div>` : "";
+
+    return `
+<section class="bg-white py-16 lg:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-[1fr_380px] lg:gap-20">
+      <div data-reveal>
+        <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Overview</p>
+        <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+          About ${escapeHtml(yacht.blueprint.name)}
+        </h2>
+        <p class="mt-6 text-base leading-[1.8] text-taupe">${escapeHtml(yacht.description)}</p>
+        ${zonesHtml}
+      </div>
+      <div class="lg:sticky lg:top-28 self-start" data-reveal>
+        <div class="border border-beige/60 p-6">
+          <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light">Charter from</p>
+          <p class="num mt-1 text-2xl tracking-[0.05em] text-charcoal sm:text-3xl">
+            <span
+              class="cur-price"
+              data-week-cents="${yacht.weekPricingFrom ?? ""}"
+              data-day-cents="${yacht.dayPricingFrom ?? ""}"
+              data-native="${escapeHtml(yacht.currency || "EUR")}"
+              data-unit-class="text-base text-taupe-light font-light"
+            >${escapeHtml(priceMain)}${priceUnit ? `<span class="text-base text-taupe-light font-light"> / ${priceUnit}</span>` : ""}</span>
+          </p>
+          <div class="mt-6 grid grid-cols-2 gap-3 border-t border-beige/40 pt-6">
+            <div>
+              <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Length</p>
+              <p class="num mt-0.5 text-sm text-charcoal">${yacht.blueprint.length}m</p>
+            </div>
+            <div>
+              <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Guests</p>
+              <p class="num mt-0.5 text-sm text-charcoal">${yacht.blueprint.sleeps}</p>
+            </div>
+            <div>
+              <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Cabins</p>
+              <p class="num mt-0.5 text-sm text-charcoal">${yacht.cabins.total}</p>
+            </div>
+            <div>
+              <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Crew</p>
+              <p class="num mt-0.5 text-sm text-charcoal">${yacht.crew.length}</p>
             </div>
           </div>
+          <a href="${escapeHtml(waUrl(yacht.blueprint.name))}" target="_blank" rel="noopener noreferrer" class="btn-fill mt-6 w-full inline-flex items-center justify-center gap-3 border border-charcoal/20 px-6 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal">
+            Inquire on WhatsApp ${WA_SVG("w-4 h-4")}
+          </a>
         </div>
-      </Container>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>`.trim();
+  }
 
-    <YachtAmenities yacht={yacht} />
-    <YachtGallery images={yacht.images} yachtName={yacht.blueprint.name} />
-    <YachtInquiry yachtName={yacht.blueprint.name} />
-  </main>
+  function renderAmenities(yacht: Yacht): string {
+    const sections = [
+      { title: "Amenities", items: yacht.amenities },
+      { title: "Toys & Water Sports", items: yacht.toys },
+      { title: "Entertainment", items: yacht.entertainment },
+      ...(yacht.tenders.length > 0 ? [{ title: "Tenders", items: yacht.tenders }] : []),
+    ].filter((s) => s.items.length > 0);
 
-  <Footer />
-</BaseLayout>
+    if (sections.length === 0) return "";
+
+    return `
+<section class="bg-cream/30 py-16 lg:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">On Board</p>
+      <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+        Amenities & Features
+      </h2>
+    </div>
+    <div class="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4" data-reveal-stagger>
+      ${sections.map((s) => `
+        <div>
+          <h3 class="text-xs font-medium tracking-[0.15em] uppercase text-charcoal mb-4">${escapeHtml(s.title)}</h3>
+          <ul class="space-y-2">
+            ${s.items.map((it) => `
+              <li class="flex items-center gap-2 text-sm text-taupe">
+                <span class="w-1 h-1 rounded-full bg-gold/50 shrink-0"></span>
+                ${escapeHtml(it)}
+              </li>
+            `).join("")}
+          </ul>
+        </div>
+      `).join("")}
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderGallery(yacht: Yacht): string {
+    const images = yacht.images.slice(1);
+    if (images.length === 0) return "";
+    return `
+<section class="bg-white py-16 lg:py-20">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Gallery</p>
+      <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
+        ${escapeHtml(yacht.blueprint.name)}
+      </h2>
+    </div>
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-reveal-stagger>
+      ${images.map((img) => `
+        <div class="aspect-[4/3] overflow-hidden bg-cream">
+          <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.alt)}" class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" width="400" height="300" />
+        </div>
+      `).join("")}
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderInquiry(yachtName: string): string {
+    return `
+<section class="py-20 lg:py-24" style="background: linear-gradient(180deg, #151A24 0%, #1D2330 100%);">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/60" data-reveal="fade">Interested?</p>
+    <h2 class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-white/90 sm:text-4xl lg:text-5xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;" data-reveal>
+      Inquire About ${escapeHtml(yachtName)}
+    </h2>
+    <p class="mx-auto mt-5 max-w-lg text-base text-white/50" data-reveal>
+      Speak directly with our broker to check availability, discuss itineraries, or arrange a viewing.
+    </p>
+    <div class="mt-10" data-reveal>
+      <a href="${escapeHtml(waUrl(yachtName))}" target="_blank" rel="noopener noreferrer" class="btn-fill-light inline-flex items-center gap-3 border border-white/30 px-10 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white">
+        Chat on WhatsApp ${WA_SVG("w-5 h-5")}
+      </a>
+    </div>
+  </div>
+</section>`.trim();
+  }
+
+  function renderJsonLd(yacht: Yacht): string {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: yacht.blueprint.name,
+      description: yacht.description,
+      image: yacht.images[0]?.url,
+      brand: { "@type": "Brand", name: yacht.blueprint.builder },
+      ...(yacht.dayPricingFrom ? {
+        offers: {
+          "@type": "Offer",
+          priceCurrency: yacht.currency,
+          price: (yacht.dayPricingFrom / 100).toString(),
+          availability: "https://schema.org/InStock",
+        },
+      } : {}),
+    };
+    return `<script type="application/ld+json">${JSON.stringify(jsonLd)}<\/script>`;
+  }
+
+  function renderYacht(yacht: Yacht): string {
+    return [
+      renderJsonLd(yacht),
+      renderHero(yacht),
+      renderQuickSpecs(yacht),
+      renderTechSpecs(yacht),
+      renderDescriptionPricing(yacht),
+      renderAmenities(yacht),
+      renderGallery(yacht),
+      renderInquiry(yacht.blueprint.name),
+    ].join("\n");
+  }
+
+  // ----- bootstrap -----
+  async function load() {
+    const main = document.getElementById("yacht-main");
+    if (!main) return;
+    const slug = main.dataset.slug;
+    if (!slug) return;
+
+    try {
+      const res = await fetch(`/api/yacht/${encodeURIComponent(slug)}.json`);
+      if (res.status === 404) {
+        location.replace("/yachts");
+        return;
+      }
+      if (!res.ok) throw new Error(`status ${res.status}`);
+      const yacht = (await res.json()) as Yacht;
+
+      const skel = document.getElementById("yacht-skeleton");
+      const content = document.getElementById("yacht-content");
+      if (!content) return;
+
+      content.innerHTML = renderYacht(yacht);
+      skel?.setAttribute("hidden", "");
+      content.removeAttribute("hidden");
+
+      // Update page title now that we know the yacht name
+      document.title = `${yacht.blueprint.name} — Charter | Sinclair Yachting`;
+
+      // Notify global currency binder + reveal observer
+      window.dispatchEvent(new CustomEvent("yacht:loaded"));
+
+      // Trigger reveal animations on freshly-inserted [data-reveal] nodes
+      requestAnimationFrame(() => {
+        content.querySelectorAll<HTMLElement>("[data-reveal], [data-reveal-stagger], [data-reveal-line]")
+          .forEach((el) => el.classList.add("revealed"));
+      });
+    } catch (err) {
+      console.error("[yacht/:slug] load failed:", err);
+      const skel = document.getElementById("yacht-skeleton");
+      if (skel) {
+        skel.innerHTML = `
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-32 text-center">
+  <p class="text-sm text-taupe">Couldn't load this yacht right now.</p>
+  <a href="/yachts" class="mt-6 inline-block text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal underline">
+    Back to fleet
+  </a>
+</div>`;
+      }
+    }
+  }
+
+  load();
+</script>
