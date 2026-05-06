@@ -138,13 +138,22 @@ export function entityToYacht(e: VesselEntity, slug: string): Yacht {
   const pricing = e.pricing ?? {};
   const currency = pricing.currency ?? pricing.weekPricingFrom?.currency ?? "EUR";
 
-  const heroImg = resolveImage(bp.hero ?? "", "1280w");
-  const galleryImgs = (bp.images ?? []).map((u) => resolveImage(u, "1280w"));
-  const allImageUrls = heroImg ? [heroImg, ...galleryImgs.filter((u) => u !== heroImg)] : galleryImgs;
+  // Hero is rendered full-bleed (~65vh tall, viewport-wide) so it gets the
+  // larger variant. Gallery thumbnails sit in a 3-column 4:3 grid (≤400px
+  // wide on desktop) so a 640x variant is more than enough — saves ~75%
+  // bandwidth per thumbnail vs 1280w on a 50-image gallery.
+  // Fall back to bp.images[0] if bp.hero is missing (some yachts only set
+  // the gallery and rely on the first image as the hero).
+  const allRaws = (bp.images ?? []).filter((u): u is string => !!u);
+  const heroRaw = bp.hero || allRaws[0] || "";
+  const galleryRaws = allRaws.filter((u) => u !== heroRaw);
+  const heroImg = resolveImage(heroRaw, "1280w");
+  const galleryImgs = galleryRaws
+    .map((u) => resolveImage(u, "640x"))
+    .filter((u): u is string => !!u);
+  const allImageUrls: string[] = heroImg ? [heroImg, ...galleryImgs] : galleryImgs;
 
-  const images = allImageUrls
-    .filter((u) => !!u)
-    .map((url) => ({ url, alt: bp.name }));
+  const images = allImageUrls.map((url) => ({ url, alt: bp.name }));
 
   return {
     uri: e.uri,

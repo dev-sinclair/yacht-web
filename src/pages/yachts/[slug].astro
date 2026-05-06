@@ -32,6 +32,57 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   </main>
 </BaseLayout>
 
+<style is:global>
+  /* Overview "Read more" — initially collapses long descriptions to ~12rem
+     with a white-to-transparent fade dissolving the cut-off into the section
+     bg. JS removes the [data-collapsed] attribute on click.
+     is:global because the elements below are inserted via JS innerHTML and
+     therefore don't carry Astro's scoped-style hashes. */
+  .overview-collapse {
+    position: relative;
+  }
+  .overview-collapse[data-collapsed="true"] .overview-text {
+    max-height: 12rem;
+    overflow: hidden;
+  }
+  .overview-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    pointer-events: none;
+  }
+  .overview-collapse[data-collapsed="false"] .overview-fade {
+    display: none;
+  }
+
+  .overview-toggle {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-charcoal);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  .overview-toggle.is-visible {
+    display: inline-flex;
+  }
+  .overview-toggle:hover {
+    color: var(--color-gold);
+  }
+</style>
+
 <script>
   import type { Yacht } from "../../data/types/yacht";
 
@@ -125,15 +176,17 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   }
 
   function renderTechSpecs(yacht: Yacht): string {
+    // Skip rows whose value is empty or zero — yachts often have partial
+    // metadata in Ankor and "Architect: " (blank) looks broken.
     const detailSpecs = [
       { label: "Hull Type", value: yacht.hull.type },
       { label: "Hull Construction", value: yacht.hull.construction },
-      { label: "Draft", value: `${yacht.blueprint.draft}m` },
+      { label: "Draft", value: yacht.blueprint.draft > 0 ? `${yacht.blueprint.draft}m` : "" },
       { label: "Architect", value: yacht.blueprint.architect },
-      { label: "Bathrooms", value: `${yacht.cabins.bathrooms}` },
-      { label: "Day Capacity", value: `${yacht.blueprint.cruisingCapacity}` },
+      { label: "Bathrooms", value: yacht.cabins.bathrooms > 0 ? `${yacht.cabins.bathrooms}` : "" },
+      { label: "Day Capacity", value: yacht.blueprint.cruisingCapacity > 0 ? `${yacht.blueprint.cruisingCapacity}` : "" },
       ...(yacht.blueprint.refitYear ? [{ label: "Last Refit", value: `${yacht.blueprint.refitYear}` }] : []),
-    ];
+    ].filter((s) => !!s.value && String(s.value).trim() !== "");
     return `
 <section class="bg-white py-16 lg:py-20" id="specs">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -187,7 +240,16 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
           About ${escapeHtml(yacht.blueprint.name)}
         </h2>
-        <p class="mt-6 text-base leading-[1.8] text-taupe">${escapeHtml(yacht.description)}</p>
+        <div class="overview-collapse mt-6" data-collapsed="true">
+          <p class="overview-text text-base leading-[1.8] text-taupe">${escapeHtml(yacht.description)}</p>
+          <div class="overview-fade" aria-hidden="true"></div>
+        </div>
+        <button type="button" class="overview-toggle group" aria-expanded="false">
+          Read more
+          <svg class="h-3 w-3 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
         ${zonesHtml}
       </div>
       <div class="lg:sticky lg:top-28 self-start" data-reveal>
@@ -381,11 +443,27 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       // Notify global currency binder + reveal observer
       window.dispatchEvent(new CustomEvent("yacht:loaded"));
 
+      // Wire up the "Read more" toggle on the description. If the text fits
+      // within the collapsed max-height, expand and hide the button.
+      const wrapper = content.querySelector<HTMLElement>(".overview-collapse");
+      const text = wrapper?.querySelector<HTMLElement>(".overview-text");
+      const toggle = content.querySelector<HTMLButtonElement>(".overview-toggle");
+      if (wrapper && text && toggle) {
+        const overflows = text.scrollHeight > text.clientHeight + 4;
+        if (overflows) {
+          toggle.classList.add("is-visible");
+          toggle.addEventListener("click", () => {
+            wrapper.dataset.collapsed = "false";
+            toggle.classList.remove("is-visible");
+          });
+        } else {
+          wrapper.dataset.collapsed = "false";
+        }
+      }
+
       // Trigger reveal animations on freshly-inserted [data-reveal] nodes
-      requestAnimationFrame(() => {
-        content.querySelectorAll<HTMLElement>("[data-reveal], [data-reveal-stagger], [data-reveal-line]")
-          .forEach((el) => el.classList.add("revealed"));
-      });
+      content.querySelectorAll<HTMLElement>("[data-reveal], [data-reveal-stagger], [data-reveal-line]")
+        .forEach((el) => el.classList.add("revealed"));
     } catch (err) {
       console.error("[yacht/:slug] load failed:", err);
       const skel = document.getElementById("yacht-skeleton");
