@@ -1,0 +1,368 @@
+{
+  "lastModified": 1772706469466,
+  "uri": "c::20984578048::vessel::08462860-6915-11ef-a710-5b623bea5cd1",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nThe Sacs Strider series epitomises style and elegance, setting herself apart with distinctive design elements and luxurious detailing. Notably, the cabin rivals even some larger yachts in her opulence, offering an unmatched level of sophistication.",
+  "blueprint": {
+    "name": "SACS 15",
+    "images": [
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49af5ac0-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49ae2240-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49b09340-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49b0ba50-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49afa8e0-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49aee590-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49ae7060-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49aff700-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}",
+      "/media/media::image::a::vessel::08462860-6915-11ef-a710-5b623bea5cd1::assets::49b04520-e7f4-11ef-b9f3-fdf924eeef04/{imageVariant}"
+    ],
+    "make": "SACS",
+    "maxCrew": 3,
+    "sleeps": 4,
+    "cruisingCapacity": 12,
+    "builtYear": 2020,
+    "topSpeed": 35,
+    "cruiseSpeed": 25,
+    "fuelCapacity": 1200,
+    "cabinLayout": [],
+    "cabins": 2,
+    "bathrooms": 1,
+    "length": 15.76,
+    "beam": 5,
+    "draft": 2.62,
+    "hullType": "",
+    "engines": "Twin Volvo D6 – 440 hp (2x 440 hp) Diesel ",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Life Jackets"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Fridge + Freezer"
+      },
+      {
+        "label": "JL Audio sound system"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel gears"
+      },
+      {
+        "label": "Stand Up Paddle board"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "JL Audio sound system"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 250885,
+      "displayCurrency": "USD",
+      "displayPrice": 250885,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 472255,
+      "displayCurrency": "USD",
+      "displayPrice": 472255,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "LOW SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 250885,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 250885,
+              "amount": 250885,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 250885,
+          "subTotal": 250885,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "LOW SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 354191,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 354191,
+              "amount": 354191,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 354191,
+          "subTotal": 354191,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 295159,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 295159,
+              "amount": 295159,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 295159,
+          "subTotal": 295159,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 398465,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 398465,
+              "amount": 398465,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 398465,
+          "subTotal": 398465,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 368949,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 368949,
+              "amount": 368949,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 368949,
+          "subTotal": 368949,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 472255,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 472255,
+              "amount": 472255,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 472255,
+          "subTotal": 472255,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

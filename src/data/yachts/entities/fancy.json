@@ -1,0 +1,162 @@
+{
+  "lastModified": 1767799986113,
+  "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: France, Corsica, Sardinia, Italy, Balearic Sea\n\nNautor Swan shipyard, with a high-end specification from a passionate owner, built the 108-foot sailing yacht FANCY in 2023. This innovative hull is the result of precision work, quality and attention to detail, offering outstanding performance, elegant design and luxurious comfort. \n\nThis latest Swan maxi yacht has been designed and engineer for high speed sailing in all wind and sea conditions. She offers all her guests breath-taking sensations in comfortable and safe conditions, allowing the whole family to full enjoy their charter. \n\nFANCY can accommodate up to 9 people on board. Her interior features a Master suite, a VIP cabin and 2 twin cabins, one with an additional pullman bed and one convertible into a double. FANCY’s large saloon, bathed in light through exceptionally large potholes, invites guests to relax in a refined and intimate atmosphere. The small lounge offers a playful space for board games and film nights. FANCY’s specialised dining room allows guests to enjoy high-quality meals and service onboard. The crew have their own quarters and service entrance, which maintains privacy for guests. \n\nOn deck, FANCY has an exceptional swimming platforms, as well as spacious relaxation and dining areas, always elegant and preserving a high quality of service. ",
+  "blueprint": {
+    "name": "FANCY",
+    "images": [
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::ad8f0dc0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::aeba2040-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::afcdda30-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b49d8ab0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b3962cd0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b6f620b0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b837a160-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::ba1f9b40-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bb29b840-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bc9f1a30-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bf834e60-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c52ac140-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c65f97c0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c8e61b90-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c793d200-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}"
+    ],
+    "make": "Nautor Swan",
+    "model": "Swan 108",
+    "maxCrew": 5,
+    "sleeps": 9,
+    "basePort": {
+      "uri": "a::place::5e5969bc-b3ed-11ed-b912-325096b39f47",
+      "name": "Barcelona",
+      "coordinates": {
+        "latitude": 41.38430786401383,
+        "longitude": 2.173793439140876
+      },
+      "country": "Spain"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2023,
+    "architect": "German Frers",
+    "interiorDesigner": "German Frers",
+    "topSpeed": 12,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 4000,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin + additional pullman bed",
+        "value": "1"
+      },
+      {
+        "label": "Twin cabin - convertible into a double",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 35,
+    "beam": 7.55,
+    "draft": 3.35,
+    "hullType": "",
+    "hullConstruction": "Carbon",
+    "tonnage": "",
+    "superStructure": [],
+    "engines": "350 HP engine",
+    "amenities": [
+      {
+        "label": "Sunbathing area"
+      },
+      {
+        "label": "Swim platform"
+      },
+      {
+        "label": "Starlink"
+      },
+      {
+        "label": "Generators",
+        "quantity": "2"
+      },
+      {
+        "label": "Lounge Area"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Towed buoy"
+      },
+      {
+        "label": "E-Foil"
+      },
+      {
+        "label": "Windsurf"
+      },
+      {
+        "label": "Wakeb"
+      }
+    ],
+    "entertainment": [
+      "Starlink"
+    ],
+    "tenders": [
+      "Zodiac Yachtline 490, Outboard 90hp"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Guillaume Drouet",
+      "avatar": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::79978d00-2a54-11f0-b8f7-83301c6c90b2/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sail and Work Experience\nOriginally from the south of France, Guillaume has always been drawn to the sea. For 15 years, he has sailed with passion, guided by his love for the boats and the yachting world. With a rich and varied experience, Guillaume has developed exceptional skills in navigation and crew management. His expertise and deep knowledge of the Mediterranean coasts and beyond make him a trusted captain, ready to ensure safe and memorable journeys. His dedication and enthusiasm for the sea are contagious, making every voyage a unique adventure.\n\nJob Description\nGuillaume is responsible for all the machinery onboard, including all control, maintenance and repair systems. He manages all working engines, the generator and any electronics systems, as well as the plumbing and hydraulic system. He also regularly assists the Captain and the First Mate in their duties, which includes navigation watch, radar control and transatlantic communication.\n\nLicences & Certifications\n• Captain 500 Master 200GT\n• Captain 200 Master 200\n• GT Sailing Yacht\n• General Operator Communication\n• 250 kW Mechanic Certificate\n• Medical Level 3\n• First Aid\n\nLanguages\nFrench, English \n"
+    },
+    {
+      "name": "Paul",
+      "avatar": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::92f89730-2a54-11f0-b84c-41b66521eca8/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sail and Work Experience \nAfter several years of teaching and racing dinghies and windsurfers, Paul transitioned to a professional career as a sailor on large sailing yachts. With the goal of gaining versatile experience, he had the opportunity to sail on a wide range of yachts across various oceans. Over a decade of navigating from the Arctic to the Caribbean, he honed his knowledge and skills on classic yachts, tall ships, and racing boats. Driven by his passion for sailing, Paul strives to make every day at sea a new and enriching experience.\n\n\nJob Description \nPaul is responsible for the navigation, safety, the overall\nrunning and financial management of the vessel, crew and\nguests. He ensures the safe and efficient operation of the\nyacht at all times, including compliance with all safety\nprocedures and regulations. He takes care of adhering to\nflag regulations, port, state, and local laws and regulations,\nand manages the crew to ensure adherence to, and a full\nunderstanding of, the vessel’s policies.\n\nLicences & Certifications\n• Captain 200 Master\n• GT Sailing Yacht\n• Sailing instructor\n• General Operator Communication\n• 250 kW Mechanic Certificate\n• Medical Level 2\n\nLanguages \nEnglish, French\n"
+    },
+    {
+      "name": "Erwan Monsimet ",
+      "avatar": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c338e2b0-2a54-11f0-b927-6ba32ae0bfd4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sail & Work Experience\nBorn in Brittany, Erwan is a passionate and eclectic chef, mixing the traditional French cuisine with international flavours, always keeping in mind the location of the boat, sourcing the most local and fresh produce to create his menu. Although he started in hotel and restaurants, he branched out to cruise ships and was exposed to dishes and ideas from around the world. He incorporates these ideas into his menus, aiming for a fusion between showcasing the very best of local ingredients yethis ability to balance them with intercontinental tastes. He is an ambitious chef and has a passion for lifelong learning and developing his talent. Over his time on board, he has developed and enhanced his skills on deck, always smiling and helping out in any areas required. As an integral part of the Fancy team, Erwan aims to delight the guests with his creativity and flair, always available and very aware of the individual needs. Whether these are allergy or diet related, Erwan is keen to work around your preferences.\n\nJob Description\nAs the Chef, Erwan is responsible for the crew and guest meals throughout the charter, ensuring that the food is enjoyable, the interior of the yacht is clean and serviceable and that all dietary requirements are met. He is a creative cook, varying his meals to provide variety and according to the location of FANCY in order to have as much relevance as possible to the country being visited.\n\nLicences & Certifications\n• CAP cuisine\n• Graduate from Paris school for temperature-controlled\nvacuum cooking.\n• Hygiene training HACCP\n\nLanguages\nEnglish, French\n"
+    },
+    {
+      "name": "Axel",
+      "avatar": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::030a2a70-2a55-11f0-a197-01cf6af0d8a1/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sail & Work Experience\nAxel was born in the French West Indies/Carribean but grew up in the south of France. She comes from a family with hospitality background; therefore from a young age, she started working naturally in the same field. She learnt easily all the basics of service, bartending and customer service from a young age. She got the passion of travel from her parents who also travelled a lot during their lives. After going to University where she studied English, Spanish and some Chinese (mandarin), she went to Australia for a year where she could gathered her love for the languages and hospitality at the same time. Axel has a bubbly personality and works with her heart. Thanks to her background in hospitality and few years experience on yachts, she developed a deep understanding of service matching guests preferences. During her free time, she enjoys listening to music, reading and also any kind of outdoor activity!\n\nJob Description\nAxel is responsible for organization, management and cleanliness of all interiors. She maintains an accurate inventory of all service items and supplies. She ensures cleaning and preparation of the vessel to the highest standards prior to any and all guest trips. In charge of vessel provisioning for both guests and crew, and all aspects of daily life. When guests are onboard, Axel ensures they are properly cared for and that all their requirements are met.\n\nLicenses and Certifications\n• Deck hand certificate\n• CFBS / Medical training level 1\n• Food and hygiene L2\n• WSET Wine L1\n• Pady open water\n\nLanguages\nEnglish, French\n"
+    },
+    {
+      "name": "Marie-Charlotte",
+      "avatar": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::5e50dd70-2a55-11f0-bfe1-2bbece0f16dd/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sail and Work Experience\nPassionate about sailing and the sea, Marie-Charlotte has always been drawn to the world of yachting and marine landscapes. Working on a luxury yacht allows her to combine these two passions: providing excellent service while being immersed in this exceptional environment. Her goal is to ensure that every guest feels comfortable and enjoys their experience on board to the fullest.\n\nJob Description\nMarie-Charlotte splits her time between interior maintenance and assisting on deck. Indoors, she takes care of cleaning, tidying, and service to ensure the comfort of both guests and crew. On deck, she assists with maneuvers, helps with exterior maintenance, and ensures safe operations. She also contributes to provisioning and the daily organization of life on board. When guests are on board, Marie-Charlotte ensures they receive attentive service, whether in the cabins, salon, or on deck.\n\nLicenses and Certifications\n• Nautical maintenance certificate\n• Deck-hand certificate\n• Safety training\n• Médical training level 1\n\nLanguages: \nEnglish, French\n"
+    }
+  ],
+  "pricing": {
+    "pricingInfo": []
+  }
+}

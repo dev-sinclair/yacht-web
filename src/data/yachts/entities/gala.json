@@ -1,0 +1,238 @@
+{
+  "lastModified": 1761131439188,
+  "uri": "c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nGALA is a 18.90m / 62ft Luxury Motor Yacht built in 2023 by Sky Walker Yachts. It can accommodate 35 guests.",
+  "blueprint": {
+    "name": "GALA",
+    "images": [
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::38187550-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::3d1688d0-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::3d179a40-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::3d17e860-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::3d174c20-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::44b8ba40-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::4cc56d50-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::4cc4f820-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::4cc434d0-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::5d2c7e40-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::54f782b0-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::54f7f7e0-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::54f69850-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::5d2b45c0-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::5d2c0910-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::5d2cf370-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}"
+    ],
+    "make": "Sky Walker Yachts",
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 35,
+    "cabins": 3,
+    "bathrooms": 2,
+    "length": 18.9,
+    "beam": 5,
+    "draft": 0.3,
+    "hullType": "",
+    "tonnage": 0
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 25000,
+      "displayCurrency": "EUR",
+      "displayPrice": 25000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 843000,
+      "displayCurrency": "EUR",
+      "displayPrice": 843000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer Rate B2C P/HR (1st June to 15th September)",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 25000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 25000,
+              "amount": 25000,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 25000,
+          "subTotal": 25000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Seasonal Rate B2C P/HR (16th September until 30th May)",
+        "effectiveDates": [
+          {
+            "from": "2025-09-16T00:00:00.000Z",
+            "to": "2026-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2027-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2028-05-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 30500,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 30500,
+              "amount": 30500,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 30500,
+          "subTotal": 30500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Year's B2B Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 843000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 843000,
+              "amount": 843000,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 843000,
+          "subTotal": 843000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

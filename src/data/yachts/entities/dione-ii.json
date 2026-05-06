@@ -1,0 +1,126 @@
+{
+  "lastModified": null,
+  "uri": "c::10317073198::vessel::a68079c0-272b-11f0-a066-c74ca504e262",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Greece\n\nThe Aura 51 grants a sublime sense of freedom without ever seeming too extravagant. Seamless movement onboard has been carefully orchestrated with its fluidity leaving nothing to chance. The ergonomics of carefree movement reflects the philosophy of this unique liveaboard catamaran.",
+  "blueprint": {
+    "name": "DIONE II",
+    "images": [
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0af5c0-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d092100-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3cd3b920-272f-11f0-815a-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d099630-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3cfbda90-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0cf190-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0d8dd0-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3cf87f30-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3cd71480-272f-11f0-815a-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3ce59370-272f-11f0-815b-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3ce5ba80-272f-11f0-815a-33d40b74316a/{imageVariant}",
+      "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0a8090-272f-11f0-815b-33d40b74316a/{imageVariant}"
+    ],
+    "make": "Fountaine Pajot",
+    "model": "Aura 51",
+    "maxCrew": 3,
+    "sleeps": 14,
+    "basePort": {
+      "uri": "a::place::fcad4c70-5da8-11f0-9ece-3703daf477f7",
+      "name": "Lefkas Marina (D-Marin Lefkas)",
+      "coordinates": {
+        "latitude": 38.83012271322201,
+        "longitude": 20.71197411455054
+      },
+      "country": "Greece"
+    },
+    "builtYear": 2024,
+    "topSpeed": 0,
+    "fuelCapacity": 900,
+    "cabinLayout": [],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 15.91,
+    "beam": 8.08,
+    "draft": 1.68,
+    "hullType": "Catamaran",
+    "tonnage": 0,
+    "engines": "2 x 60hp",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Hydraulic gangway"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Dishwasher"
+      },
+      {
+        "label": "Icecube maker"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Watermaker"
+      },
+      {
+        "label": "Solar panels"
+      },
+      {
+        "label": "Inverter"
+      },
+      {
+        "label": "Fridge"
+      },
+      {
+        "label": "Washing machine & dryer"
+      },
+      {
+        "label": "Nespresso machine"
+      },
+      {
+        "label": "Boarding ladder"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Cockpit cushions"
+      },
+      {
+        "label": "Deck shower"
+      },
+      {
+        "label": "USB sockets"
+      },
+      {
+        "label": "Sunbeds"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy"
+      },
+      {
+        "label": "Snorkeling sets"
+      },
+      {
+        "label": "Water toys"
+      }
+    ],
+    "entertainment": [
+      "Waterproof loudspeakers in cockpit",
+      "Fusion audio pack bluetooth 4 speakers"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "pricingInfo": []
+  }
+}

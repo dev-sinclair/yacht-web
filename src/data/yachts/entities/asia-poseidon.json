@@ -1,0 +1,514 @@
+{
+  "lastModified": 1773082626550,
+  "uri": "c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nAsia Poseidon, a marvel of contemporary Italian maritime design, harmoniously merges modern aesthetics with enduring elegance, resulting in a yacht that radiates both strength and refinement. Its exterior showcases cutting-edge lines, establishing a maritime presence that is not only commanding but also purposeful.\n\nBoth the indoor and outdoor spaces, are luxuriously furnished to provide a myriad of options for socializing, private relaxation, and larger gatherings.\n\nThe zero-speed stabilizers guarantee stability not only while sailing but also at anchor, ensuring a pleasurable seagoing experience, even for those with heightened sensitivity.\n\nEmbarking on a voyage of a lifetime with ASIA POSEIDON, the possibilities are limitless. Each journey is unique and personalized, catering to your luxury vacation needs, from tropical relaxation to starlit indulgence on the yacht’s decks, and from onboard relaxation therapy to thrilling water sports.",
+  "blueprint": {
+    "name": "ASIA POSEIDON",
+    "images": [
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b6c8980-8560-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b516060-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b530e10-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b555800-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b53aa50-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b5494b0-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b564260-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b53aa51-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b564261-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b555800-8560-11ef-a331-759c5b6983df/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b65f9d0-8560-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b524ac0-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b6d9af0-8560-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b5530f0-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b577ae0-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b89ae70-8560-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b51fca0-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b5753d0-8560-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::7b50c420-8560-11ef-af74-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02beb7f0-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c23a61-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02bfc960-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c23a60-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c1ec40-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02bd0a40-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c08cb0-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02bf2d20-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02be69d0-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02cc2570-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c03e90-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::02c128f0-8561-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d03de0-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e2019090-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d17660-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d0b310-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d483a0-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d14f50-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::ab8b26c0-8561-11ef-a55b-8d411450a2b0/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::ab8a3c60-8561-11ef-a55b-8d411450a2b0/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe6664e0-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe652c60-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe646910-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe652c61-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe650550-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::15005fd1-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe672830-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe657a80-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::fe66da10-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::c7db1380-8561-11ef-998b-97c90fc8fd45/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::c7d917b0-8561-11ef-998b-97c90fc8fd45/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::66d0da20-8561-11ef-af75-8b85c0fd1a56/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e20205c0-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e2031730-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e202c910-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e204c4e0-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e20476c0-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e2033e40-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e20efe10-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e20253e0-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e203b370-8561-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e93edb20-8560-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e1651ef0-8560-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::d5d16800-8560-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e93e3ee0-8560-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::1500fc10-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::e1659420-8560-11ef-a2fe-b31fe3a18945/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::150086e0-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::14ffeaa0-8562-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::15014a30-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::14ffc390-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::1500d500-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::15005fd0-8562-11ef-ab96-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::14ff4e60-8562-11ef-ab95-492549141e7f/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fa90c0-8562-11ef-b513-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fa69b0-8562-11ef-b513-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fb5410-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58f93130-8562-11ef-b513-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fadee0-8562-11ef-b513-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fa69b1-8562-11ef-b513-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::58fa90c0-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910e56e0-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910f4140-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::911052b0-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910fb670-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910de1b0-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910ecc10-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::910f1a30-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::91102ba0-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::af65d370-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::af64c200-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::af653730-8562-11ef-b514-71800be71b27/{imageVariant}",
+      "/media/media::image::a::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::af653731-8562-11ef-b514-71800be71b27/{imageVariant}"
+    ],
+    "make": "Benetti Yachts",
+    "model": "Benetti 132",
+    "maxCrew": 7,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::a49fd880-857d-11ef-9c9b-c3e095101dcf",
+      "name": "Ocean Marina Jomtien",
+      "coordinates": {
+        "latitude": 12.82756129885229,
+        "longitude": 100.9099296896588
+      },
+      "country": "Thailand"
+    },
+    "builtYear": 2014,
+    "topSpeed": 15,
+    "cruiseSpeed": 12,
+    "fuelCapacity": 45000,
+    "cabinLayout": [
+      {
+        "label": "Master Suite",
+        "value": "1"
+      },
+      {
+        "label": "VIP Suite",
+        "value": "1"
+      },
+      {
+        "label": "Double Suites",
+        "value": "2"
+      },
+      {
+        "label": "Twin-bedded Suites",
+        "value": "2"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 40.2,
+    "beam": 8,
+    "draft": 2,
+    "hullType": "GRP / Fiberglass",
+    "superStructure": [
+      " GRP / Fiberglass"
+    ],
+    "engines": "Twin MTU 1,447 HP",
+    "amenities": [
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "TV with premium channels"
+      },
+      {
+        "label": "Movie Library"
+      },
+      {
+        "label": "Karaoke"
+      },
+      {
+        "label": "Galaxy Tablets"
+      },
+      {
+        "label": "5G broadband"
+      },
+      {
+        "label": "Starlink"
+      },
+      {
+        "label": "Barbecues"
+      },
+      {
+        "label": "Sun Deck"
+      },
+      {
+        "label": "Sound System"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Yamaha FX Cruiser FX HO 250 HP Jet Skis",
+        "quantity": "2"
+      },
+      {
+        "label": "Fliteboard Pro and 1x Jetsurf DFI Plus",
+        "quantity": "1"
+      },
+      {
+        "label": " Inflatable towable Chariot"
+      },
+      {
+        "label": "Water ski"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": " Starboard SUP Boards",
+        "quantity": "4"
+      },
+      {
+        "label": "Large inflatable Swimming Pool with protection net."
+      },
+      {
+        "label": "Plentiful Sets of Snorkeling equipment of various sizes"
+      },
+      {
+        "label": "Extensive range of Fishing Equipment"
+      },
+      {
+        "label": "Scuba Diving Equipment and onboard dive compressor"
+      }
+    ],
+    "entertainment": [
+      "Sound system",
+      "TV with premium channels",
+      "Movie Library",
+      "Karaoke",
+      "Galaxy Tablets"
+    ],
+    "tenders": [
+      "Williams 505 Jet Tender"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Paul Robert Stanton",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::50301520-8c77-11ef-bb67-cb9a134eceb7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: British\n\nQualifications: Yacht Master 500 GT, ECDIS, ARPA, STCW 2010, advanced fire fighting, first aid.\n\nLanguages spoken: English\n\nNumber of years at sea: 37 years\n\nHobbies: In captain Paul’s spare time he enjoys sailing, fishing, golf, and he is a keen aviation enthusiast having done his PPL (private pilots licence)\n\nBrief History :\nCaptain Paul has been working within the marine environment for many years starting out in his younger days as a sea cadet based in Chatham UK, having had various roles on cargo vessels, ferry’s and even hovercrafts, he is an accomplished yachtsman with approximately 25,000 seagoing miles worldwide. Captain Paul has excellent communication and leadership skills with the ability to manage a diverse team. He is a patient individual willing to pass on his knowledge and experiences in the form of training. He also has extensive experience in both European and SE Asian waters and has become accustomed to the many cultures throughout his travels."
+    },
+    {
+      "name": "Alastair MacLeod",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::a78f7bd0-8c77-11ef-a139-1b5bec0fc9e5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: British\n\nQualifications: MCA Engineer Officers of the Watch (EOOW) Unlimited (STCW III/1)\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 14 years\n\nHobbies: Computing and Paintball\n\nBrief History :\nAlastair started off working at sea on cargo ships to obtain his Engineering officer of the watch qualification which was completed in 2011. In 2012 he joined the offshore sector working on platform supply, anchor handling/tow support and multi-purpose vessels specialising in Dynamic Positioning, area of work was in the YK’s North Sea. In 2018 he moved back to Thailand to be closer to family and started an interest in moving into the yachting sector. Since then he has worked as a 2nd Engineer on a 60m yacht based in Phuket and as Chief on two different 40 meter yachts including Asia poseidon. Ali is diligent, meticulous and an asset to the Asia Poseidon team.\n\n"
+    },
+    {
+      "name": "Pannatath Wangsuk (Jacky)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::d2e2a3c0-8c77-11ef-b765-ab069d1b92cd/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: STCW 2010. AEC1 – Approved Engine Course. Safety supervisory officer certification, electrical installation level 2, diploma in electrical power,\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 3 years\n\nHobbies: Babminton, hiking, movies.\n\nBrief History:\nAfter leaving school Jacky went straight into the electronics industry and became a refrigeration engineer then onto more complex air conditioning systems within the 5 star hotel sector throughout Thailand. His interest in boats then saw him start as an air conditioning engineer on superyachts. Since then he has learnt more technical aspects, other than a/c, on large yachts. He is an all round problem solver especially on the more intricate electronics side which superyachts tend to have these days. He carries out routine preventative maintenance taks delegated to him by the chief with absolut diligence. He literally never stops working and is an absolutely fantastic team member that commands respect from his fellow crew members."
+    },
+    {
+      "name": "Simon Brown",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::f94acb00-8c77-11ef-9393-9b1e76c80ce1/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Australian\n\nQualifications: Masters culinary degree, ships cook certification, food and hygiene, powerboat level 2, security awareness, STCW 2010.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 14 years\n\nHobbies: Cooking, scuba diving, enduro motorcycling, reading.\n\nBrief History:\nChef Simon was raised in Perth, Western Australia, he has worked in the hospitality industry for 30 years. His very first job was barista in a food hall after which he then decided this is his passion and wanted to become a chef. Simon finished highschool then studied to obtain his culinary degree, he then worked his way up to sous/pastry chef and after Ten years in various fine restaurants including those with michelin star status. His love of the sea combined with his passion for food, superyachts was the direction he wanted to go. He has extensive experience on Superyachts and Megayachts throughout Europe, the Caribbean and South East Asia."
+    },
+    {
+      "name": "Sarunya Thongsungnern (Bebe)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::dc7e8ce0-8c78-11ef-aff4-41247ffffe11/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: STCW 2010, Food hygiene Level 2, Superyacht interior, Dusit Thani training course for Sushi.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 8 years\n\nHobbies: Dancing, yoga, cooking and music.\n\nBrief History:\nSince leaving university Bebe has remained within the 5 star service areas, starting out within the hotel industry, her love of travel led her into the prestigious yachting sector where she more than proves her skills as our Chief stewardess who pays particular attention to the finest detail. Bebe also has a passion for culinary skills and preparation to the highest standards.\n"
+    },
+    {
+      "name": "Chasamon Tepkasol (Sorn)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::007a4800-8c79-11ef-a5a2-4f56dbf6b8dd/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: STCW 2010, Food hygiene Level 2, Superyacht interior, Security awareness and crowd management, Thai union medicine certification, first aid. Lobster ink Service, Coffee and Bartending certified.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 6 years\n\nHobbies: Cooking, music, keeping fit, walking, reading, arts entertainment, dancing.\n\nBrief History:\nSorn started her career on cruise ships as a pastry chef after which carried her career to yachting to become a stewardess, although she still loves to cook her passion is to cater in all areas, her previous experience is vast and like the rest of the crew works to the highest of standards. She also is a trained massage therapist which is a blessing to ease guests muscles after a day blitzing all the onboard watertoys at their disposal."
+    },
+    {
+      "name": "Pattana Siripan (Sugar)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::25835470-8c79-11ef-8779-3b571048118d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: Bachelor degree Chinese major faculty of education, STCW 2010.\n\nLanguages spoken: Thai, English, Chinese.\n\nNumber of years at sea: 2 years\n\nHobbies: Psychology, reading, swimming, guitar playing.\n\nBrief History:\nAfter obtaining her bachelor degree Sugar became a Chinese language teacher, her love of travel brought her into the luxury yachting industry. Sugar also has high standards in the hospitality industry, with these attributes she has become an invaluable part of our team especially when we have Chinese speaking guests onboard."
+    },
+    {
+      "name": "Natty HongTong (Natty)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::49ddd160-8c79-11ef-972f-2fa406329d19/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: British / Thai\n\nQualifications: STCW 2010, engine course 1, security awareness, first aid, PADI Advanced Diver.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 6 years\n\nHobbies: Diving\n\nBrief History:\nPreviously to Asia Poseiodon Natty was working on a 42m superyacht as a deckhand for 3 years and prior to this a 22m motor yacht for also 3 years. Natty is our head of watersports, an excellent Fliteboarder and JetSurfer, an experienced Scuba Diver and overall has had a lot of experience with luxury yacht charters. He also has silver service experience. Natty has a passion for the sea and wishes to work up to higher levels.\n\n"
+    },
+    {
+      "name": "Puttiphat Sae-oung (Book)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::89f85720-8c79-11ef-838d-6d46a584a0a7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: STCW 2010, fire prevention and fire fighting, first aid, safety, sea survival.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 12 years\n\nHobbies: Cycling, running, fishing and water sports.\n\nBrief History:\nSince his early days Book has always been involved with boats and the sea, he has worked on various vessels from fishing boats to barges and since 2015 moved into the private yacht industry. A hard working individual that pays attention to detail that uses his own initiative and gets the job done. His love of water sports also makes him the perfect trainer for guests who wishes to make use of our many water toys."
+    },
+    {
+      "name": "Weerapon Sittichok (Nine)",
+      "avatar": "/media/media::image::c::18244150656::vessel::91386660-855d-11ef-b052-a36b59866e62::assets::a15f8d20-8c79-11ef-838d-6d46a584a0a7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Thai\n\nQualifications: Bachelor degree in Chinese major faculty, STCW 2010.\n\nLanguages spoken: English and Thai.\n\nNumber of years at sea: 1 year\n\nHobbies: Teaching, badminton, reading, sports.\n\nBrief History:\nAfter leaving university Nine went onto teaching Chinese language after which he became an interpreter within the hospitality industry which led him into the high end of yachting sector. His ability to both work on deck coupled with his service skills makes a perfect asset for Asia Poseidon, he is highly motivated and is currently studying further in his spare time to increase more levels of yachting certification."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 14000000,
+      "displayCurrency": "USD",
+      "displayPrice": 14000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 16000000,
+      "displayCurrency": "USD",
+      "displayPrice": 16000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate: Pattaya Archipelago",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 14000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 14000000,
+              "amount": 14000000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 14000000,
+              "amount": 4200000
+            }
+          ],
+          "total": 19180000,
+          "subTotal": 18200000,
+          "totalTax": 980000.0000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: Koh Chang Archipelago",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 15000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15000000,
+              "amount": 15000000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 15000000,
+              "amount": 4500000
+            }
+          ],
+          "total": 20550000,
+          "subTotal": 19500000,
+          "totalTax": 1050000
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: Koh Samui Archipelago",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 16000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 16000000,
+              "amount": 16000000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 16000000,
+              "amount": 4800000
+            }
+          ],
+          "total": 21920000,
+          "subTotal": 20800000,
+          "totalTax": 1120000
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

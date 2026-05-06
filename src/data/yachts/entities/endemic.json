@@ -1,0 +1,604 @@
+{
+  "lastModified": 1773074216370,
+  "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Operating Area: Galapagos Islands\n\nThe M/C Endemic is a top luxury carbon neutral catamaran with an exclusive capacity for 16 guests, eleven crew members including the Cruise Service Officer plus naturalist guide, offering a service ratio of almost one to one. Being the first catamaran of a new generation of catamarans, the Endemic gathers elegant exteriors, spacious areas for high-end accommodation, social, and open areas. Navigations between the islands are sleek and fast due to Endemic’s design which delivers transverse stability when cruising around the archipelago.\n\nOn board the Endemic, the eight Panoramic Suites are airy and comfortable, four of them are located on main deck and the rest on the upper deck. Each suite has a private balcony and panoramic views of the islands due to its floor to ceiling/wall to wall glass; all suites have personalized marine air conditioning control. \n\nA small social area, closet/drawer, desk and sofa-bed are part of each suite as well. Matrimonial king size or two single twin beds are available in each suite for flexible accommodation. Private bathroom, hot and cold water and amenities. On the Main Deck, the Endemic features four panoramic Suites, as well as a briefing areafor lectures, and it is also the point of information for Galapagos travel with videos, books, and personalized assistance.\n\nThe interior guests’ lounge and dining areas also grant panoramic views of the islands during navigations and explorations, while enjoying exquisite and epicure cuisine. Two platforms allow passengers on and off the catamaran, offering super easy access to the yacht.\n\nInterior steps connect our guests with the Upper Deck where four more suites are located, and also a sun terrace and a secluded social areas and terraces for relaxation and wildlife observation. The Endemic also counts with a single cabin with private balcony as well. Guests can also reach the upper levels of the Endemic through our exterior steps. \n\nOn the Sky Deck, the Endemic features al fresco dining, bar, exterior passengers lounge, BBQ station, jacuzzi, sun chairs and seating area. It is a shaded area where drinks are served while enjoying the archipelago.",
+  "blueprint": {
+    "name": "ENDEMIC",
+    "images": [
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4c7580-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc5b69a0-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc5c5400-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc494130-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4bd940-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4aeee0-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4b8b20-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc5bded0-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::0d2fb430-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::0d300250-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::0d2972a0-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::0d2b9580-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::0d29c0c0-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::1c8f1920-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::1c8e07b0-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::1c8e2ec0-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::1c8b4890-11bc-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::f825a810-11bb-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::f8277cd0-11bb-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::f821b070-11bb-11f1-886d-79c43c81f338/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::9ec60f20-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::9ebf0a40-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::3f06cc50-11bc-11f1-9bc8-f9de547ee7c3/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::3f09b280-11bc-11f1-9bc8-f9de547ee7c3/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::3f0c2380-11bc-11f1-9bc8-f9de547ee7c3/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::3f0b3920-11bc-11f1-9bc8-f9de547ee7c3/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::3f07b6b0-11bc-11f1-9bc8-f9de547ee7c3/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b7ba630-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b82ab10-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b8235e0-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b80af40-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b7f28a0-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b764f00-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::5b7e8c60-11bc-11f1-8394-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::70b8f750-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::70b94570-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::70ba08c0-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::859ed9a0-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::85989810-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::859def40-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::94d5f610-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::94d6e070-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::94d580e0-11bc-11f1-8395-176d9ad6eaef/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::b4bc7710-11bc-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::b4bee810-11bc-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::b4bbdad0-11bc-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::c4477fe0-11bc-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::c449a2c0-11bc-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::cc50b080-11bc-11f1-bbe1-6316c49d3624/{imageVariant}"
+    ],
+    "maxCrew": 12,
+    "sleeps": 16,
+    "cruisingCapacity": 16,
+    "builtYear": 2018,
+    "cruiseSpeed": 12,
+    "cabinLayout": [],
+    "cabins": 8,
+    "decks": 3,
+    "length": 35,
+    "beam": 14,
+    "draft": 1.85,
+    "hullType": "",
+    "engines": "2 x High Power Engines - 500 HP",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Sky Deck"
+      },
+      {
+        "label": "Al fresco dining"
+      },
+      {
+        "label": "BBQ station"
+      },
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Sun chairs"
+      },
+      {
+        "label": "Seating area"
+      },
+      {
+        "label": "Lounge"
+      },
+      {
+        "label": "Water Container"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Sea Kayaks"
+      },
+      {
+        "label": "Wet Suits (long and short)"
+      },
+      {
+        "label": "Snorkeling equipment (mask, snorkel and fins)"
+      },
+      {
+        "label": "Paddle-boards"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 9239000,
+      "displayCurrency": "USD",
+      "displayPrice": 9239000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 11719000,
+      "displayCurrency": "USD",
+      "displayPrice": 11719000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 7449000,
+      "displayCurrency": "USD",
+      "displayPrice": 7449000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 15659000,
+      "displayCurrency": "USD",
+      "displayPrice": 15659000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "2026 Classic Cruises: Charter - 7-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 14919000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 14919000,
+              "amount": 14919000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 14919000,
+          "subTotal": 14919000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 5-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 11179000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11179000,
+              "amount": 11179000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 11179000,
+          "subTotal": 11179000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 4-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9239000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9239000,
+              "amount": 9239000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9239000,
+          "subTotal": 9239000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 3-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7449000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7449000,
+              "amount": 7449000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 7449000,
+          "subTotal": 7449000,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Charter - 7-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 15659000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15659000,
+              "amount": 15659000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 15659000,
+          "subTotal": 15659000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Charter - 5-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 11719000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11719000,
+              "amount": 11719000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 11719000,
+          "subTotal": 11719000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Charter - 4-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9779000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9779000,
+              "amount": 9779000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9779000,
+          "subTotal": 9779000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Charter - 3-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7839000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7839000,
+              "amount": 7839000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 7839000,
+          "subTotal": 7839000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

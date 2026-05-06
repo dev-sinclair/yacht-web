@@ -1,0 +1,1464 @@
+{
+  "lastModified": 1772715602172,
+  "uri": "c::9333021515::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nThe 20.12m/66’ ‘KATI' motor yacht built by the British shipyard Princess is available for charter for up to 6 guests in 3 cabins.\nPrimed for exploring secluded beaches and tucked-away lagoons or simply relaxing and soaking up the rays onboard, KATI is tailor-made for family fun.\nBuilt in 2017, she offers guest accommodation for up to 6 guests in 3 suites comprising a master suite, one VIP cabin and one twin cabin easily convertible into double.\nKATI comfortably cruises at 20 knots. With a shallow draft of 1.47m/4'10\" she can anchor closer to coves and sheltered bays overnight. An advanced stabilization system on board reduces the side-to-side roll of the yacht and promises guests exceptional comfort levels at anchor or when underway.\nKATI’s selection of water toys and accessories includes fishing and snorkeling equipment, paddleboards, floating lounge and WiFi connectivity. KATI also carries Williams Jet Tender to transport you with ease.\nBased in the magical waters of Southeast Asia all year round KATI is ready to take you to the stunning locations like Phi Phi, Similan, Lipe islands and many more.",
+  "blueprint": {
+    "name": "KATI",
+    "images": [
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98272e50-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9830cb40-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9857db40-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982f1d90-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983278f0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::985c9630-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983d0040-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9841bb30-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98244820-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983c8b10-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::981be3b0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982dbe00-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982cac90-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98305610-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::981f3f10-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::981e54b0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98478790-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983e38c0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9843b700-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982b4d00-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9834c2e0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983f2320-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9831b5a0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9844c870-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98314070-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::981f8d30-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982ea860-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98473970-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98209ea0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98445340-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98283fc0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983203c0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9823d2f0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98299f50-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982a1480-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982161f0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98353810-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982e0c20-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::982d48d0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98534760-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98235dc0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98224c50-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::9822e890-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::98464f10-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983956c0-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}",
+      "/media/media::image::a::vessel::d5c8ea42-fe8c-11ed-889f-43d4bb723744::assets::983b0470-6548-11ef-9d3b-3d6ee811c5e0/{imageVariant}"
+    ],
+    "make": "Princess",
+    "model": "Princess S65",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::084d3c78-b3ee-11ed-bf7d-325096b39f47",
+      "name": "Phuket",
+      "coordinates": {
+        "latitude": 7.876508608125934,
+        "longitude": 98.40060433715655
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": "",
+    "staticCapacity": "",
+    "builtYear": 2017,
+    "topSpeed": "",
+    "cruiseSpeed": 20,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Convertible Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "2"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 20.37,
+    "beam": 5.08,
+    "draft": 1.45,
+    "superStructure": [],
+    "amenities": [
+      {
+        "label": "Seakeeper Gyro Stabilizer"
+      },
+      {
+        "label": "Hydraulic bathing platform"
+      },
+      {
+        "label": "Water maker"
+      },
+      {
+        "label": "Floating lounge"
+      },
+      {
+        "label": "Ice maker"
+      },
+      {
+        "label": "Indoor/outdoor stereo"
+      },
+      {
+        "label": "48’’ Salon TV with DVD"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "4G WiFi"
+      },
+      {
+        "label": "Deck shower"
+      },
+      {
+        "label": "Air Conditioning"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy"
+      },
+      {
+        "label": "Stand up paddleboard"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Diving equipment on request"
+      },
+      {
+        "label": "Seabob on request"
+      },
+      {
+        "label": "Seabob on request"
+      }
+    ],
+    "entertainment": [
+      "Indoor/outdoor stereo",
+      "48’’ Salon TV with DVD",
+      "4G WiFi"
+    ],
+    "tenders": [
+      "Williams Jet Tender 90HP"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 615926,
+      "displayCurrency": "USD",
+      "displayPrice": 615926,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 5957100,
+      "displayCurrency": "USD",
+      "displayPrice": 5957100,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 3420000,
+      "displayCurrency": "USD",
+      "displayPrice": 3420000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 4020000,
+      "displayCurrency": "USD",
+      "displayPrice": 4020000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season (May 1 – October 31): Half Day",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 615926,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 615926,
+              "amount": 615926,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 615926,
+          "subTotal": 615926,
+          "totalTax": 43114.82000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): Half Day",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 762799,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 762799,
+              "amount": 762799,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 762799,
+          "subTotal": 762799,
+          "totalTax": 53395.93000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): Full Day",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 704153,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 704153,
+              "amount": 704153,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 704153,
+          "subTotal": 704153,
+          "totalTax": 49290.71000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): Full Day",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 850852,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 850852,
+              "amount": 850852,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 850852,
+          "subTotal": 850852,
+          "totalTax": 59559.64000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 24 hours",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1056338,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1056338,
+              "amount": 1056338,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1056338,
+          "subTotal": 1056338,
+          "totalTax": 73943.66
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 24 hours ",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1276783,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1276783,
+              "amount": 1276783,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1276783,
+          "subTotal": 1276783,
+          "totalTax": 89374.81000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 2 days / 1 night",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1408038,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1408038,
+              "amount": 1408038,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1408038,
+          "subTotal": 1408038,
+          "totalTax": 98562.66
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 2 days / 1 night",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1701878,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1701878,
+              "amount": 1701878,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1701878,
+          "subTotal": 1701878,
+          "totalTax": 119131.46
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 3 days / 2 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2112553,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2112553,
+              "amount": 2112553,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2112553,
+          "subTotal": 2112553,
+          "totalTax": 147878.71000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 3 days / 2 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2552668,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2552668,
+              "amount": 2552668,
+              "conditions": "Max Guests - 6pax (3 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2552668,
+          "subTotal": 2552668,
+          "totalTax": 178686.76
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 4 days / 3 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2816778,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2816778,
+              "amount": 2816778,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2816778,
+          "subTotal": 2816778,
+          "totalTax": 197174.46000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 4 days / 3 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3403607,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3403607,
+              "amount": 3403607,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 3403607,
+          "subTotal": 3403607,
+          "totalTax": 238252.49000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 5 days / 4 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3520610,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3520610,
+              "amount": 3520610,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 3520610,
+          "subTotal": 3520610,
+          "totalTax": 246442.7
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 5 days / 4 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4254071,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4254071,
+              "amount": 4254071,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 4254071,
+          "subTotal": 4254071,
+          "totalTax": 297784.97000000003
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 6 days / 5 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4225353,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4225353,
+              "amount": 4225353,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 4225353,
+          "subTotal": 4225353,
+          "totalTax": 295774.71
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 6 days / 5 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5105635,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5105635,
+              "amount": 5105635,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 5105635,
+          "subTotal": 5105635,
+          "totalTax": 357394.45
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): 7 days / 6 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2986003,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2986003,
+              "amount": 2986003,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2986003,
+          "subTotal": 2986003,
+          "totalTax": 209020.21000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): 7 days / 6 nights",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5957100,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5957100,
+              "amount": 5957100,
+              "conditions": "Max Guests - 4pax (2 cabins)",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 5957100,
+          "subTotal": 5957100,
+          "totalTax": 416997.00000000006
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (May 1 – October 31): Weekly",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3420000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3420000,
+              "amount": 3420000,
+              "conditions": "Maximum 4 guest ",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 3420000,
+              "amount": 1026000
+            }
+          ],
+          "total": 4446000,
+          "subTotal": 4446000,
+          "totalTax": 239400.00000000003
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season (November 1 – April 30): Weekly",
+        "effectiveDates": [
+          {
+            "from": "2024-11-01T00:00:00.000Z",
+            "to": "2025-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4020000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4020000,
+              "amount": 4020000,
+              "conditions": "Maximum 4 guest",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 4020000,
+              "amount": 1206000
+            }
+          ],
+          "total": 5226000,
+          "subTotal": 5226000,
+          "totalTax": 281400
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

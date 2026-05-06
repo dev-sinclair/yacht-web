@@ -1,0 +1,238 @@
+{
+  "lastModified": 1772706389404,
+  "uri": "c::20984578048::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nThe Princess F55, with its sleek design, provides exclusive access to hidden gems that larger yachts can't reach, offering a personalized experience. It navigates through Krabi's limestone cliffs and secluded beaches, ensuring comfort and amenities are not compromised. Ideal for exploring secret coves or relaxing in stunning scenery, the Princess F55 promises both adventure and indulgence.",
+  "blueprint": {
+    "name": "RISA",
+    "images": [
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::deb5da60-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::dec802d0-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::dea42720-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::dea33cc0-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::de909f20-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::deb4a1e0-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::de91feb0-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::dec78da0-e7ed-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::00670940-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::006b00e0-e7ee-11ef-97f1-2d412d005578/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::006cd5a0-e7ee-11ef-bdea-01a70d14b03c/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::0063ade0-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::006d4ad0-e7ee-11ef-a7e6-eb0a208dc27b/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::00675760-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::0066bb20-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::00644a20-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::00661ee0-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::0064bf50-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::0063d4f0-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::006c8780-e7ee-11ef-97f1-2d412d005578/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::006cfcb0-e7ee-11ef-a7e6-eb0a208dc27b/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::00655b90-e7ee-11ef-be37-35e9752619a3/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41fb36b0-e7ee-11ef-8a4d-472314b7539c/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41f9fe30-e7ee-11ef-8a4d-472314b7539c/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41fb36b0-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41fa4c50-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41d7a920-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41e98370-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41c53290-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41fbabe0-e7ee-11ef-8a4d-472314b7539c/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41e95c60-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41fbfa00-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}",
+      "/media/media::image::a::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a::assets::41c44830-e7ee-11ef-8a2d-5928fef96a08/{imageVariant}"
+    ],
+    "make": "Princess",
+    "model": "Princess F55",
+    "maxCrew": 3,
+    "sleeps": 0,
+    "cruisingCapacity": 8,
+    "builtYear": 2019,
+    "topSpeed": 35,
+    "cruiseSpeed": 20,
+    "fuelCapacity": 0,
+    "cabinLayout": [],
+    "cabins": 3,
+    "length": 18.29,
+    "beam": 9,
+    "draft": 3,
+    "hullType": "",
+    "engines": "Twin Volvo D13-800 (2 x 800mhp) Diesel",
+    "amenities": [
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Life Jackets"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel gears"
+      },
+      {
+        "label": "Stand up Paddle board"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 442739.00000000006,
+      "displayCurrency": "USD",
+      "displayPrice": 442739.00000000006,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 560803,
+      "displayCurrency": "USD",
+      "displayPrice": 560803,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "LOW SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 442739.00000000006,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 442739.00000000006,
+              "amount": 442739.00000000006,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 442739.00000000006,
+          "subTotal": 442739.00000000006,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 501771,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 501771,
+              "amount": 501771,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 501771,
+          "subTotal": 501771,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 560803,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 560803,
+              "amount": 560803,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 560803,
+          "subTotal": 560803,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

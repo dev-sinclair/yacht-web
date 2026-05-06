@@ -1,0 +1,548 @@
+{
+  "lastModified": 1772833005710,
+  "uri": "c::10923570597::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Southern Andaman Seas (Phuket and Surroundings, Mu Ko Similan Marine Park, Phang Nga Bay and Krabi, Phi Phi Islands, Racha Islands, Koh Lipe and Butang Archipelago, Koh Samui, Koh Chang, Krabi National Park)\n\nStep aboard our exquisite Classic Ketch, crafted in 2011 by shipbuilder Patrick Balta. Spanning 29 meters, it accommodates 7 guests in 3 double cabins and 1 single cabin. Freshly renovated, charters between Myanmar's Mergui Archipelago and Phuket, Thailand, beckon. Indulge in opulent cabins, spacious decks, and a well-equipped galley. Led by our experienced crew, explore hidden coves, pristine beaches, and vibrant marine life. Immerse yourself in natural wonders, snorkel, dive, and embrace local cultures. Experience the Classic Ketch Adventure, where luxury and exploration intertwine to create unforgettable journeys and lifelong memories.",
+  "blueprint": {
+    "name": "AVENTURE",
+    "images": [
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983f0960-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984d1320-dfd9-11ef-9ac4-7d9dc9b5781e/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983a2760-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98437630-dfd9-11ef-b156-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9848f471-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844aeb0-dfd9-11ef-9483-9bf6eeda4710/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98409000-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9848f470-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844fcd0-dfd9-11ef-9483-9bf6eeda4710/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844fcd0-dfd9-11ef-9ac4-7d9dc9b5781e/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9846f8a0-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9842d9f0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98434f20-dfd9-11ef-a51b-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983bd510-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984216a0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983d0d90-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983d0d91-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983bd511-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98460e40-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98457200-dfd9-11ef-8594-13fc80b73c1a/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983d82c0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98437630-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98428bd0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98463550-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984794e0-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844d5c0-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98468370-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98454af0-dfd9-11ef-b156-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9848a650-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984487a0-dfd9-11ef-9483-9bf6eeda4710/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984a5400-dfd9-11ef-9ac4-7d9dc9b5781e/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844d5c0-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9845c020-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98417a60-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984487a0-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983c2330-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9843eb60-dfd9-11ef-a51b-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9846f8a0-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98434f20-dfd9-11ef-9ac4-7d9dc9b5781e/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9845e730-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844fcd1-dfd9-11ef-9483-9bf6eeda4710/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983f5780-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98443980-dfd9-11ef-8594-13fc80b73c1a/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9846d190-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98457200-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984523e0-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9843c450-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984041e0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983dd0e0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983e9430-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98430100-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98483121-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984c28c0-dfd9-11ef-8594-13fc80b73c1a/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::9844d5c0-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98463550-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984794e0-dfd9-11ef-b157-5d4c6fa44eff/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98476dd0-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983ebb40-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98483120-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::984cc500-dfd9-11ef-9d05-2338b4041853/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98441270-dfd9-11ef-a51b-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::98454af0-dfd9-11ef-a51c-cf5ef483d709/{imageVariant}",
+      "/media/media::image::a::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03::assets::983da9d0-dfd9-11ef-a51a-cf5ef483d709/{imageVariant}"
+    ],
+    "make": "Patrick Balta",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 7,
+    "basePort": {
+      "uri": "a::place::c0aca5a0-5b40-11f0-b754-fdd0b7a79128",
+      "name": "Royal Phuket Marina",
+      "coordinates": {
+        "latitude": 7.966104889498389,
+        "longitude": 98.39002128960638
+      },
+      "country": "Thailand"
+    },
+    "builtYear": 2011,
+    "architect": "",
+    "interiorDesigner": "",
+    "topSpeed": 12,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 6500,
+    "cabinLayout": [
+      {
+        "label": "Double Cabin",
+        "value": "3"
+      },
+      {
+        "label": "Single Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 0,
+    "decks": "",
+    "length": 29,
+    "beam": 6.1,
+    "draft": 3.1,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "1 x 400 HP MAN",
+    "amenities": [],
+    "toys": [
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Paddle board"
+      },
+      {
+        "label": "Kayak"
+      },
+      {
+        "label": "Diving equipment"
+      },
+      {
+        "label": "Snorkeling Gear"
+      }
+    ],
+    "entertainment": []
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 1102500,
+      "displayCurrency": "USD",
+      "displayPrice": 1102500,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 2205000,
+      "displayCurrency": "USD",
+      "displayPrice": 2205000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 2520000,
+      "displayCurrency": "USD",
+      "displayPrice": 2520000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 2520000,
+      "displayCurrency": "USD",
+      "displayPrice": 2520000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Overnight charter price: 3D/2N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1102500,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1102500,
+              "amount": 1102500,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 1102500,
+          "subTotal": 1102500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 4D/3N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1470000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1470000,
+              "amount": 1470000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 1470000,
+          "subTotal": 1470000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 5D/4N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1837500,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1837500,
+              "amount": 1837500,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 1837500,
+          "subTotal": 1837500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 6D/5N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2205000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2205000,
+              "amount": 2205000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 2205000,
+          "subTotal": 2205000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 7D/6N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2520000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2520000,
+              "amount": 2520000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 2520000,
+          "subTotal": 2520000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

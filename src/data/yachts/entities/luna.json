@@ -1,0 +1,172 @@
+{
+  "lastModified": 1761575651795,
+  "uri": "c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nDubai Yachts offers you the chance to explore the luxury of Dubai in style, with our luxurious yacht rental services. The Azimut 50ft yacht is a luxurious and stylish vessel that has been designed to offer the ultimate in sailing pleasure. With its superior performance on the open water, the Azimut 50ft is sure to provide you with an unforgettable experience out on the sea.\n\nThe yacht features a spacious interior that can accommodate 15 guests with 2 cabins. The master cabin boasts a queen-sized bed and en-suite bathroom, and a guest cabin have twin beds and a shared bathroom. Also, the interior is perfectly finished with the blend of wood and leather, which gives a sophisticated stylish look.\n\nAzimut 50ft is mostly preferred for sightseeing purposes, as it comes with impressive outdoor features. The flybridge offers ample seating with a large sunpad for relaxing and soaking up the sun. The deck has a great space for alfresco dining and entertaining with comfortable seating. And via the swim platform, guests can enjoy swimming, snorkeling, and other water activities.\n\nAzimut 50ft “LUNA” luxury yacht is available for rent on hourly, and daily basis. We offer a variety of packages to suit your needs and budget. Contact us today to book your Azimut 50ft LUNA luxury cruise and start planning your dream vacation!",
+  "blueprint": {
+    "name": "LUNA",
+    "images": [
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::01086920-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::08722570-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::0dc97c80-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::0dcadc10-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::0dcb9f60-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::0dcc62b0-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::1840ee00-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::1842c2c0-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::18422680-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::26d5d700-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::26d75da0-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::2c3e1e00-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::2c3d5ab0-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::8516c920-062e-11ef-b3f3-c7bfc4790d7a::assets::2c3bd410-0630-11ef-b3f3-c7bfc4790d7a.jpeg/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "",
+    "maxCrew": 3,
+    "sleeps": 4,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 15,
+    "staticCapacity": 15,
+    "builtYear": 2020,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 2,
+    "bathrooms": 2,
+    "decks": 2,
+    "length": 15.24,
+    "hullConstruction": "Fiberglass",
+    "engines": "2 x Inboard Cummins",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Sunpad"
+      },
+      {
+        "label": "Swim Platform"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Fully equipped kitchen"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Water sports equipment"
+      }
+    ],
+    "entertainment": [
+      "Flat-screen TV",
+      "Sound system"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Naresh Kumar Mohan",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 100000,
+      "displayCurrency": "AED",
+      "displayPrice": 100000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 100000,
+      "displayCurrency": "AED",
+      "displayPrice": 100000,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Price",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 100000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 100000,
+              "amount": 100000,
+              "conditions": "Per Hour"
+            }
+          ],
+          "total": 100000,
+          "subTotal": 100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

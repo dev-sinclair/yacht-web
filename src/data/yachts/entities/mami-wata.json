@@ -1,0 +1,1503 @@
+{
+  "lastModified": 1772834015184,
+  "uri": "c::10923570597::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Southern Andaman Seas (Phuket and Surroundings, Mu Ko Similan Marine Park, Phang Nga Bay and Krabi, Phi Phi Islands, Racha Islands, Koh Lipe and Butang Archipelago, Koh Samui, Koh Chang, Krabi National Park)\n\nStep aboard Mami Wata, a remarkable 1954 wooden Halvorsen boat with a length of 15 meters. This vintage vessel is a true gem, perfect for unforgettable excursions such as sunset cruises and day trips around the captivating Phuket region. This vintage vessel is the epitome of elegance and is perfectly suited for unforgettable excursions, such as sunset cruises and day trips around the breathtaking Phuket region. With its timeless design, Mami Wata exudes a classic charm that will capture the hearts of all who step on board.\nWhether you're embarking on an overnight charter or a day trip, this exceptional boat accommodates up to 4 guests in 2 cabins, ensuring a cozy and comfortable experience. During day trips, Mami Wata can host up to 8 guests, allowing you to share the magic with your loved ones.\n",
+  "blueprint": {
+    "name": "MAMI WATA",
+    "images": [
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6a9c00-dfb6-11ef-a48f-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6a74f0-dfb6-11ef-9cb0-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6d0d00-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc69b1a1-dfb6-11ef-ba08-63e52acc81bb/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc62acc0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6f08d0-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc68ee50-dfb6-11ef-a48f-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc671990-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc66cb70-dfb6-11ef-abca-bd85199e5cb5/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6d8230-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6c22a0-dfb6-11ef-9cb2-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc68a030-dfb6-11ef-abca-bd85199e5cb5/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6cbee0-dfb6-11ef-9cb2-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6a26d0-dfb6-11ef-9cb1-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6f56f0-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc66cb70-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6ac310-dfb6-11ef-ba08-63e52acc81bb/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6d3410-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6e6c90-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc64cfa0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc685210-dfb6-11ef-abca-bd85199e5cb5/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6a9c00-dfb6-11ef-ba08-63e52acc81bb/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6740a0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6e1e70-dfb6-11ef-a491-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6bad70-dfb6-11ef-9cb1-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc69b1a2-dfb6-11ef-ba08-63e52acc81bb/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6b8660-dfb6-11ef-9cb1-d5800afeb1af/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc678ec0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6cbee0-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc678ec0-dfb6-11ef-ba08-63e52acc81bb/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc693c70-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6803f0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6dd050-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6d5b20-dfb6-11ef-a490-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc660820-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc656be0-dfb6-11ef-a48e-597023abc761/{imageVariant}",
+      "/media/media::image::a::vessel::171ef3b0-dfaf-11ef-bca4-e5eb4dc55880::assets::bc6c70c1-dfb6-11ef-a490-597023abc761/{imageVariant}"
+    ],
+    "make": "Halvorsen Yachts",
+    "maxCrew": 3,
+    "sleeps": 4,
+    "basePort": {
+      "uri": "a::place::c0aca5a0-5b40-11f0-b754-fdd0b7a79128",
+      "name": "Royal Phuket Marina",
+      "coordinates": {
+        "latitude": 7.966104889498389,
+        "longitude": 98.39002128960638
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 8,
+    "builtYear": 1954,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2023,
+    "topSpeed": 12,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 850,
+    "cabinLayout": [],
+    "cabins": 2,
+    "length": 15.34,
+    "beam": 4.2,
+    "draft": 1.2,
+    "engines": "2 x 220 HP Cummins",
+    "toys": [
+      {
+        "label": "Sublue"
+      },
+      {
+        "label": "IAQUA Underwater Scooter"
+      },
+      {
+        "label": "E-Foil"
+      },
+      {
+        "label": "Flyboard"
+      },
+      {
+        "label": "Flyride"
+      },
+      {
+        "label": "Jetsurf"
+      },
+      {
+        "label": "Jetski"
+      },
+      {
+        "label": "Jetski Standup"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 225900,
+      "displayCurrency": "USD",
+      "displayPrice": 225900,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 1357000,
+      "displayCurrency": "USD",
+      "displayPrice": 1357000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 1528000,
+      "displayCurrency": "USD",
+      "displayPrice": 1528000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 1585000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1585000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Day Charter: Sunset Dinner Cruise (6hours) - May - Nov",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 225900,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 225900,
+              "amount": 225900,
+              "conditions": "6 hours"
+            }
+          ],
+          "total": 225900,
+          "subTotal": 225900,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter: Sunset Dinner Cruise (6hours) - Dec - Apr",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 254900,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 254900,
+              "amount": 254900,
+              "conditions": "6 hours"
+            }
+          ],
+          "total": 254900,
+          "subTotal": 254900,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter: Sunset Dinner Cruise (6hours) - 22 Dec- 05 Jan",
+        "effectiveDates": [
+          {
+            "from": "2025-12-22T00:00:00.000Z",
+            "to": "2026-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-22T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-22T00:00:00.000Z",
+            "to": "2028-01-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 282900,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 282900,
+              "amount": 282900,
+              "conditions": "6 hours"
+            }
+          ],
+          "total": 282900,
+          "subTotal": 282900,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Kai Islands, Phang Nga Bay, Krabi 4 Islands (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 254900,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 254900,
+              "amount": 254900,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 254900,
+          "subTotal": 254900,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Kai Islands, Phang Nga Bay, Krabi 4 Islands (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 282900,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 282900,
+              "amount": 282900,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 282900,
+          "subTotal": 282900,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Kai Islands, Phang Nga Bay, Krabi 4 Islands (22 Dec- 05 Jan)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-22T00:00:00.000Z",
+            "to": "2026-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-22T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-22T00:00:00.000Z",
+            "to": "2028-01-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 340000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 340000,
+              "amount": 340000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 340000,
+          "subTotal": 340000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2D / 1N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 499000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 499000,
+              "amount": 499000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 499000,
+          "subTotal": 499000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2D / 1N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 542000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 542000,
+              "amount": 542000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 542000,
+          "subTotal": 542000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "3D / 2N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 714000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 714000,
+              "amount": 714000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 714000,
+          "subTotal": 714000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "3D / 2N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 757000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 757000,
+              "amount": 757000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 757000,
+          "subTotal": 757000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4D / 3N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 928000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 928000,
+              "amount": 928000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 928000,
+          "subTotal": 928000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4D / 3N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 971000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 971000,
+              "amount": 971000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 971000,
+          "subTotal": 971000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "5D / 4N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1128000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1128000,
+              "amount": 1128000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 1128000,
+          "subTotal": 1128000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "5D / 4N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1171000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1171000,
+              "amount": 1171000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 1171000,
+          "subTotal": 1171000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "6D / 5N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1314000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1314000,
+              "amount": 1314000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 1314000,
+          "subTotal": 1314000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "6D / 5N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1357000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1357000,
+              "amount": 1357000,
+              "conditions": "Overnight charter"
+            }
+          ],
+          "total": 1357000,
+          "subTotal": 1357000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7D / 6N (May - Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1528000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1528000,
+              "amount": 1528000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 1528000,
+          "subTotal": 1528000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7D / 6N (Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1585000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1585000,
+              "amount": 1585000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 1585000,
+          "subTotal": 1585000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          },
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

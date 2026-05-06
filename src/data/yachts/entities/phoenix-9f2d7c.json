@@ -1,0 +1,146 @@
+{
+  "lastModified": 1761064614069,
+  "uri": "c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: India\n\n﻿Boarding Point: Brittona Jetty (Panjim).\n\nThe above yacht is named \"Phoenix \"it is 52 foot in size, a semi luxury yacht that can accommodate 18 guests besides the boat captain and crew on day time cruises.\nIt can accommodate 6 guests staying aboard for an overnight experience on the cruise.\nIt has all the amenities you might expect aboard including AC Cabins, kitchen / gallery, microwave, TV, toilet.\nIt has a large foredeck for sea watching or relaxing and a large aft day cabin with awning.\nPheonix yachtis is fully furnished with 1 Master bedroom with AC, 1 Small bedroom with AC, Spacious seating arrangement at back side & huge deck for photography.\nBeautifully and tastefully decorated interior made of varnished light wood that creates a feeling of a home atmosphere.\nSpacious to accommodate all 18 people on the deck area together.\nSeaworthy and comfortable\nIt is attractive, powerful, spacious with impressive performance at sea, easy to handle even at top speed.\nit is rented or photo-shoots, small gathering for friends and family, birthday and anniversary celebrations, overnight stays, sunset cruises, proposals and romantic diners.\nThe above price includes one hour cruising and one hour anchorage.",
+  "blueprint": {
+    "name": "PHOENIX",
+    "images": [
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::49d87a50-c04e-11ee-819d-dfc8eafb1c15.png/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b0548b0-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b04fa90-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b04ac70-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b048560-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b039b00-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b0373f0-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b05e4f0-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::9f2d7cf0-c04c-11ee-819d-dfc8eafb1c15::assets::7b0596d0-c04e-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}"
+    ],
+    "make": "",
+    "model": "",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "name": "Goa, India",
+      "coordinates": {
+        "longitude": 74.054111,
+        "latitude": 15.325556
+      },
+      "country": "India"
+    },
+    "builtYear": "",
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": "",
+    "topSpeed": "",
+    "cruiseSpeed": "",
+    "fuelCapacity": "",
+    "cabins": 2,
+    "bathrooms": 1,
+    "decks": "",
+    "length": 15.85,
+    "beam": "",
+    "draft": "",
+    "hullType": "Mono",
+    "hullConstruction": "",
+    "tonnage": "",
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Microwave"
+      },
+      {
+        "label": "TV"
+      },
+      {
+        "label": "Music System",
+        "quantity": ""
+      },
+      {
+        "label": "First-aid box"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 21071,
+      "displayCurrency": "USD",
+      "displayPrice": 21071,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 21071,
+      "displayCurrency": "USD",
+      "displayPrice": 21071,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 21071,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 21071,
+              "amount": 21071
+            }
+          ],
+          "total": 21071,
+          "subTotal": 21071,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "India",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Southern Asia",
+              "India"
+            ],
+            "coordinates": [
+              82.81619580068734,
+              20.676959715634293
+            ],
+            "bbox": [
+              68.14340254000007,
+              6.74555084800005,
+              97.36225305200003,
+              35.49540557900012
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

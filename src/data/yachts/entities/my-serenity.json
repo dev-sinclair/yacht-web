@@ -1,0 +1,315 @@
+{
+  "lastModified": 1777287996215,
+  "uri": "c::17949224288::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai\n\nSet Sail on My Serenity, a 70ft Sunseeker yacht designed for luxury charters in Dubai. Perfect for soaking up the sun and\nexploring the city's glittering coastline, this yacht offers a mix of luxury and comfort ideal for any occasion. Whether it's a\nfamily outing, a celebration with friends, or a corporate event, My Serenity transforms every moment into a special memory.\n\nWith spacious decks, a flybridge for panoramic views, and elegant outdoor dining areas, the yacht is made for relaxing\nand socializing. Inside, the air-conditioned cabins and stylish lounge provide a cool, inviting space to unwind.\nAccommodating up to 20 guests for day trips, the yacht ensures a seamless experience, from its fully equipped galley\nto ensuite bathrooms in every cabin.\n\nCruising at speeds of up to 28 knots, My Serenity lets you explore Dubai's stunning marina skyline, anchor at the Palm\nJumeirah, or simply enjoy the thrill of being out on the water. With luxurious amenities and a professional crew at your\nservice, this yacht promises a day of unmatched relaxation and adventure.",
+  "blueprint": {
+    "name": "MY SERENITY",
+    "images": [
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56620-full-5_734864_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56611-full-hero_hero_779214_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56613-full-10_573072_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56622-full-7_675333_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56617-full-8_492483_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56618-full-9_468020_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56621-full-6_463964_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56616-full-2_286083_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56619-full-4_474292_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56612-full-1_714851_jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56614-full-3_466168_jpg/{imageVariant}"
+    ],
+    "make": "Sunseeker",
+    "model": "Manhattan 66",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "cruisingCapacity": 20,
+    "staticCapacity": 25,
+    "builtYear": 2018,
+    "cruiseSpeed": 28,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "decks": 2,
+    "length": 22,
+    "hullType": "V-shaped",
+    "superStructure": [],
+    "engines": "1 MAN 440hp",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Sun pad"
+      },
+      {
+        "label": "Lounge"
+      }
+    ],
+    "toys": [],
+    "entertainment": [
+      "Audiovisual systems"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 250000,
+      "displayCurrency": "AED",
+      "displayPrice": 250000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 3000000,
+      "displayCurrency": "AED",
+      "displayPrice": 3000000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 250000,
+              "amount": 250000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 250000,
+          "subTotal": 250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          },
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

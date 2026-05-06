@@ -1,0 +1,625 @@
+{
+  "lastModified": 1761562758095,
+  "uri": "c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Base Port: Sakaigahama Sea Station\nOperating Area(s): Japan\n\nOnce you step inside the Italian-made ship, you won't be able to believe that you are at sea.\nThe sophisticated and relaxing interior will be a dramatic change from anything you have ever experienced before.\nFrom the hull floating in the waves, to the decorations and fixtures.\nThe crew, who are all fascinated by the sea, are waiting to welcome you on board.\n\n",
+  "blueprint": {
+    "name": "OCEAN POINT VII",
+    "images": [
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::e4ee4e20-20ce-11f0-b84a-55d67aa7a69c/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7927f0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::dbf7b3b0-a621-11ef-9fac-af1eb2fcd55c/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f29a0dc0-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2c16be0-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2acab60-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d14a60-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d25bd0-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d2d100-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d20db0-b661-11ef-a539-335958599f24/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d31f20-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d0fc40-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d20db0-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2d36d40-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2c03360-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2ad95c0-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f29b4640-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::a::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::f2bf4900-b661-11ef-bca1-2d7c3e06ab9b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef5aca80-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef3679a0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef4805d0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef47b7b0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef722310-20cb-11f0-a7d6-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef6c7dc0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef724a20-20cb-11f0-a7d6-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef5af190-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef722310-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef373cf0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef72bf50-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef72bf50-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef733480-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef71fc00-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef71fc00-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef722310-20cb-11f0-9a41-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef729840-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef72bf50-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef73a9b0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef73f7d0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef73a9b1-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef78b2c0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7900e0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a8780-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7927f0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef79c430-20cb-11f0-9a41-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef79c430-20cb-11f0-ad71-ef8073522ab6/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef799d20-20cb-11f0-9a41-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7900e0-20cb-11f0-ad71-ef8073522ab6/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef79eb40-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a1250-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef799d20-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef79c430-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7b98f0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef79c430-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7b71e0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a1250-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7b23c0-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a8780-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7ad5a0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7c3530-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7b71e0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7d46a0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a8780-20cb-11f0-9a41-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7b98f1-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a6070-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7a3960-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7c3530-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7c0e20-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7c5c40-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7ad5a0-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efd79ba0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efda0ca0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efd74d80-20cb-11f0-a7d8-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efd6d850-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efd74d80-20cb-11f0-a7d7-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efd6ff60-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef7e7f20-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef8758c0-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef90cea0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef956280-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::ef90cea0-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efc4afe0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efdb4520-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe3f7b0-20cb-11f0-a7d8-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe41ec0-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe4bb00-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe445d0-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe46ce0-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe445d0-20cb-11f0-88e5-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe493f0-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe3f7b0-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe46ce0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe493f0-20cb-11f0-88e4-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe4e210-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe493f0-20cb-11f0-ad72-ef8073522ab6/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe50920-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe5cc70-20cb-11f0-9a43-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe4bb00-20cb-11f0-8add-db66a810cdb8/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe50920-20cb-11f0-9a43-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb4ab0-20cb-11f0-88e5-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe55740-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb23a0-20cb-11f0-88e5-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeafc91-20cb-11f0-a7d8-9957a84fbe4d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeafc90-20cb-11f0-b4b7-8fbb262ad51d/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efe53030-20cb-11f0-9a42-c3ddff166b6b/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb98d0-20cb-11f0-ad72-ef8073522ab6/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb98d0-20cb-11f0-88e5-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb71c0-20cb-11f0-88e5-2779eb204182/{imageVariant}",
+      "/media/media::image::c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::efeb71c0-20cb-11f0-8add-db66a810cdb8/{imageVariant}"
+    ],
+    "make": "Mochi Craft",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 6,
+    "cruisingCapacity": 11,
+    "builtYear": 2011,
+    "topSpeed": 9,
+    "cruiseSpeed": 6.5,
+    "fuelCapacity": 7800,
+    "cabinLayout": [],
+    "cabins": 3,
+    "decks": 0,
+    "length": 23.71,
+    "beam": 6.57,
+    "draft": 1.56,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 75.5,
+    "engines": "2 x MAN R6 800",
+    "amenities": [],
+    "toys": [
+      {
+        "label": "Kayak",
+        "quantity": "1"
+      },
+      {
+        "label": "SUP",
+        "quantity": "1"
+      }
+    ],
+    "entertainment": [
+      ""
+    ],
+    "tenders": [
+      "Speed boat (Chris craft)"
+    ]
+  },
+  "crew": [
+    {
+      "name": "",
+      "avatar": "/media/media::image::c%3A%3A25913601455%3A%3Avessel%3A%3Af3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::80ebc3b0-20cb-11f0-ae2b-356119748d19/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "",
+      "avatar": "/media/media::image::c%3A%3A25913601455%3A%3Avessel%3A%3Af3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::9dae6f70-20cb-11f0-b854-479bb2b5f9d8/{imageVariant}",
+      "role": "Captain",
+      "bio": ""
+    },
+    {
+      "name": "",
+      "avatar": "/media/media::image::c%3A%3A25913601455%3A%3Avessel%3A%3Af3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::a51bfc50-20cb-11f0-b854-479bb2b5f9d8/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "",
+      "avatar": "/media/media::image::c%3A%3A25913601455%3A%3Avessel%3A%3Af3ba8d50-a618-11ef-a542-dd7a5359c67d::assets::b11f6500-20cb-11f0-b854-479bb2b5f9d8/{imageVariant}",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 70000,
+      "displayCurrency": "USD",
+      "displayPrice": 70000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 840000,
+      "displayCurrency": "USD",
+      "displayPrice": 840000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 350000,
+      "displayCurrency": "USD",
+      "displayPrice": 350000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 560000,
+      "displayCurrency": "USD",
+      "displayPrice": 560000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Mooring plan (per 3 hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 70000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 70000,
+              "amount": 70000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 70000,
+          "subTotal": 70000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "1 night 2 day course [Naoshima]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 840000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 840000,
+              "amount": 840000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 840000,
+          "subTotal": 840000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "1 night 2 days course Boat stay [Omishima]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 840000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 840000,
+              "amount": 840000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 840000,
+          "subTotal": 840000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7 hour course [Seto Ohashi Bridge Tour]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 560000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 560000,
+              "amount": 560000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 560000,
+          "subTotal": 560000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7 hour course [Activity off Kashima]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 560000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 560000,
+              "amount": 560000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 560000,
+          "subTotal": 560000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4 hour course [Onomichi coast]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 350000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 350000,
+          "subTotal": 350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4 hour course [Tomonoura]",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 350000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 350000,
+          "subTotal": 350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

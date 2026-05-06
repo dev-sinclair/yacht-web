@@ -1,0 +1,227 @@
+{
+  "lastModified": 1761131573642,
+  "uri": "c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nSituated in Dubai Harbour, the Infinity RAK 1 yacht offers a luxurious maritime experience with its 52-foot length and a recent construction year of 2023. With a maximum capacity of 17 people, this yacht provides an intimate setting for those seeking an exclusive and stylish voyage.",
+  "blueprint": {
+    "name": "RAK 1",
+    "images": [
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::f0636dc0-fccc-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfc5540-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfc7c50-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfd1890-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfe02f0-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfd66b0-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfddbe0-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfca360-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::0dfd8dc0-fccd-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}"
+    ],
+    "maxCrew": 2,
+    "sleeps": "",
+    "basePort": {
+      "uri": "a::place::a001eb20-3c4e-11ee-9377-256c48912ab1",
+      "name": "Ras Al-Khaimah",
+      "coordinates": {
+        "latitude": 25.8007251172634,
+        "longitude": 55.97619329659573
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 17,
+    "builtYear": 2023,
+    "cabins": 1,
+    "length": 15.85
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 16000,
+      "displayCurrency": "EUR",
+      "displayPrice": 16000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 468000,
+      "displayCurrency": "EUR",
+      "displayPrice": 468000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer Rate B2C P/HR (1st June to 15th September)",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 16000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 16000,
+              "amount": 16000,
+              "conditions": "VAT Included"
+            }
+          ],
+          "total": 16000,
+          "subTotal": 16000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Seasonal Rate B2C P/HR (16th September until 30th May)",
+        "effectiveDates": [
+          {
+            "from": "2025-09-16T00:00:00.000Z",
+            "to": "2026-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2027-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2028-05-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 20000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 20000,
+              "amount": 20000,
+              "conditions": "VAT Included"
+            }
+          ],
+          "total": 20000,
+          "subTotal": 20000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Year’s B2B Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 468000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 468000,
+              "amount": 468000,
+              "conditions": "VAT Included"
+            }
+          ],
+          "total": 468000,
+          "subTotal": 468000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

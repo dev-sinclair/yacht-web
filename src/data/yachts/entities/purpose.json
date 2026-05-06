@@ -1,0 +1,432 @@
+{
+  "lastModified": 1774026742331,
+  "uri": "c::10549594650::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Summer Operating Area 2026: French Polynesia\nWinter Operating Area 2026/2027: French Polynesia\n\nPurpose is our exceptionally elegant Fountaine Pajot Saba 50 catamaran, currently navigating the crystal-clear waters of the Caribbean. This remarkably spacious luxury yacht is designed to capture and diffuse natural light throughout the salon, galley, and cabins, creating a bright, airy, and welcoming atmosphere on board. From the moment you step aboard, you will be struck by the generous volumes dedicated to relaxation, comfort, and shared enjoyment.\n\nThe open-plan layout seamlessly connects the salon and cockpit, fostering a wonderful sense of conviviality when spending special moments with family or friends. A clever sliding window beside the galley sink allows meals to be passed directly to the cockpit, perfectly suited to life on board, as most dining aboard Purpose takes place al fresco.\n\nAscending to the flybridge, you are rewarded with a panoramic, breezy bird’s-eye view of the surrounding seascape. An inviting open-air lounge area beside the helm provides the perfect setting to relax while listening to the captain’s adventurous tales as you sail. At anchor, the forward sunbathing lounge offers a shaded, comfortable haven—ideal for peaceful moments of relaxation.\n\nPurpose is the Quintet version of the Saba 50, offering five guest cabins in total: three located in the port hull and two in the starboard hull. A sixth cabin, situated mid-starboard, is reserved for the crew. All guest cabins feature private en-suite bathrooms, ensuring comfort and privacy for every guest.\n\nA wide glass door separates the interior from the exterior living spaces, yet both are on the same level, allowing effortless movement between inside and out. Overhead hatches and expansive windows flood the yacht with natural light and offer beautiful sea views—even while seated—further enhancing the sense of openness and connection with the ocean.\n\nAfter completing the Caribbean season, Purpose will continue her grand circumnavigation and set course for the South Pacific. She will be based in French Polynesia, where she will be available for charter from July 2026 until October 2027, offering guests the opportunity to explore one of the world’s most breathtaking cruising grounds aboard a refined and proven blue-water catamaran.",
+  "blueprint": {
+    "name": "PURPOSE",
+    "images": [
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6c71c0-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a5c6c30-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6ce6f0-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6c4ab0-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6d5c21-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6d5c20-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6e1f70-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6dd150-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6b3940-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a5c9340-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24be1d70-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24adf0d0-0849-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24adf0d0-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24ae8d10-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24ae17e0-0849-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24bd0c00-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6df860-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a5d2f81-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24aeb420-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24af0240-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24bd5a20-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6daa40-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::24bdf660-0849-11f1-b4d7-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a5d2f80-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6c23a0-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6c98d0-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6bd580-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a5cba50-0848-11f1-b4d5-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::5a6e4680-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::0bbfec60-084c-11f1-b4d7-73ad0b3ef558/{imageVariant}"
+    ],
+    "make": "Fountaine Pajot",
+    "model": "Fountaine Pajot Saba 50",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "name": "French Polynesia",
+      "coordinates": {
+        "longitude": -149.564667,
+        "latitude": -17.538122
+      }
+    },
+    "cruisingCapacity": 0,
+    "staticCapacity": 8,
+    "builtYear": 2014,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 0,
+    "topSpeed": 9.3,
+    "cruiseSpeed": 7,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "5"
+      }
+    ],
+    "cabins": 5,
+    "bathrooms": 5,
+    "length": 15.24,
+    "beam": 8,
+    "draft": 1.25,
+    "hullType": "",
+    "hullConstruction": "",
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Air Conditioning",
+        "quantity": ""
+      },
+      {
+        "label": "Deck Shower",
+        "quantity": ""
+      },
+      {
+        "label": "Water Maker"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Children Allowed",
+        "quantity": ""
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkeling gear for adults and kids"
+      },
+      {
+        "label": "Stand-up paddle boards with optional kayak seats",
+        "quantity": "2"
+      },
+      {
+        "label": "2-person clear kayak"
+      },
+      {
+        "label": "Underwater scooters"
+      },
+      {
+        "label": "Subwing"
+      },
+      {
+        "label": "Kneeboard"
+      },
+      {
+        "label": "Donut"
+      },
+      {
+        "label": "Steerable tube"
+      },
+      {
+        "label": "Swim noodles"
+      },
+      {
+        "label": "Yoga mats"
+      },
+      {
+        "label": "Various beach toys"
+      },
+      {
+        "label": "Various board games"
+      },
+      {
+        "label": "Waterproof action cam"
+      },
+      {
+        "label": "Fishing gear"
+      }
+    ],
+    "entertainment": [
+      "Salon TV",
+      "Outdoor cinema"
+    ],
+    "tenders": [
+      "12ft tender with 25hp Yamaha outboard"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Florian Rutsch",
+      "avatar": "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::d54655a0-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "role": "Captain",
+      "bio": "Florian always loved exploring the world, his curiosity and craving for adventure took him to remote nature and bustling cities in over 60 countries – calling many of them home from Berlin to Auckland, Hong Kong, San Francisco, London, Nairobi, and beyond. Since he started to sail at age 11, he developed a deep appreciation for the unique elements it combines: a close connection to nature, the freedom and independence of travel, the inspiration and space to enjoy the moment, and the opportunity to bring friends together for an unforgettable shared journey. During his teenage summers he taught at a sailing school and later took his friends cruising every year to more than 20 different countries, from tropical waters to the arctic circle. He is a RYA Yachtmaster with several additional certificates in sailing and safety at sea. Previously, Florian held an international leadership position at one of the most influential NGOs globally. Among others, he hosted exclusive events and retreats for leading change-makers at unique locations around the world, from the World Economic Forum and royal estates to pioneering sustainable spaces. He is always keen to find new ways of making our wonderful world an even better place while thoroughly enjoying and celebrating its incredible beauty. Florian now fulfilled his lifelong dream of owning and living on a sailboat to welcome friends old and new on an inspiring journey to the most magnificent places around the world. He loves to share the unique experience of cruising in glorious nature, discovering exciting new places, and enjoying quality time with friends and family from the comfort of a modern 50ft sailing catamaran. Charters with Florian are warm, relaxing, wholesome, authentic, exciting, and inspiring, leaving guests with memories for a lifetime. Everyone is welcome on ‘Purpose’ and everyone will want to come back. Sustainable practices are standard, from a water purifier to reduce plastic bottles to large solar panels and ocean friendly cleaning products. In addition, chartering with ‘Purpose’ means supporting change-makers who preserve the seas we enjoy."
+    },
+    {
+      "name": "Michael Makonnen",
+      "avatar": "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::dd99aea0-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "role": "Captain",
+      "bio": "Michael found his culinary passion at young age growing up in Uk with his mother a passionate cook and his grandmother, who recently released her latest Ethiopian cook book aged 97! Starting early with these diverse flavours encouraged Michael to be confident and bold with his cooking. He began as a grill chef in street food and restaurant kitchens all over London. It was not long before his talent was noticed and was asked to start catering private events and doing supper clubs. He loves experimenting with different cuisines and individual tastes including vegan. Having sailed as a young child, Michael is looking forward to the open water and the fresh produce he can work with to create a menu that you won’t forget."
+    },
+    {
+      "name": "Sísí Eva Helgadottir",
+      "avatar": "/media/media::image::a::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744::assets::e4ab86f0-0848-11f1-b4d6-73ad0b3ef558/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sísí has a love for nature, adventure and travelling that likely has its roots in her upbringing, having grown up in her home country of Iceland and a tiny village in the Southwest of Greenland. She has always lived a life of adventure and proximity to untamed nature. She has travelled to over 30 countries and islands across four continents, many of which she visited during her 10-month solo travel through South America, Europe, and the Caribbean islands.\nShe has previous sailing experience in Greenland and Denmark but properly discovered her love for boat life during her first Atlantic crossing, while crewing for 'Purpose'. She has done sailing in the Arctic ocean, Caribbean sea, Atlantic ocean, and the Mediterranean sea.\nSísí speaks six languages at different levels, being fluent in English, Icelandic and Danish, and intermediate in German, Italian, and Spanish.\nShe has versatile interests and passions, which include childcare, cooking, animal welfare, environmentalism, human rights, travelling and psychology. She has a BSc degree in psychology and has worked in the field of mental health, including working with people with physical, mental and developmental disabilities. Additional work experience includes nannying, sous chef in an organic vegetarian restaurant, and working in service and hospitality."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 2190000,
+      "displayCurrency": "USD",
+      "displayPrice": 2190000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 3090000,
+      "displayCurrency": "USD",
+      "displayPrice": 3090000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer: French Polynesia - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2190000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2190000,
+              "amount": 2190000,
+              "conditions": "4 PAX",
+              "taxRate": {
+                "label": "French Polynesia Sales Tax",
+                "value": 0.05
+              }
+            },
+            {
+              "item": "Charter",
+              "conditions": "5 PAX",
+              "quantity": 1,
+              "unitPrice": 2240000,
+              "amount": 2240000,
+              "taxRate": {
+                "label": "French Polynesia Sales Tax",
+                "value": 0.05
+              }
+            }
+          ],
+          "total": 4651500,
+          "subTotal": 4430000,
+          "totalTax": 221500
+        },
+        "inclusionZones": [
+          {
+            "label": "Papeete, French Polynesia",
+            "type": "Custom Area",
+            "category": [
+              "Papeete"
+            ],
+            "coordinates": [
+              -149.57083350000002,
+              -17.579167
+            ],
+            "bbox": [
+              -149.625,
+              -17.641667,
+              -149.516667,
+              -17.516667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer: French Polynesia - High Season",
+        "effectiveDates": [
+          {
+            "from": "2025-12-15T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-15T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-15T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3090000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3090000,
+              "amount": 3090000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3090000,
+          "subTotal": 3090000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Papeete, French Polynesia",
+            "type": "Custom Area",
+            "category": [
+              "Papeete"
+            ],
+            "coordinates": [
+              -149.57083350000002,
+              -17.579167
+            ],
+            "bbox": [
+              -149.625,
+              -17.641667,
+              -149.516667,
+              -17.516667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter: French Polynesia- Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2190000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2190000,
+              "amount": 2190000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2190000,
+          "subTotal": 2190000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Papeete, French Polynesia",
+            "type": "Custom Area",
+            "category": [
+              "Papeete"
+            ],
+            "coordinates": [
+              -149.57083350000002,
+              -17.579167
+            ],
+            "bbox": [
+              -149.625,
+              -17.641667,
+              -149.516667,
+              -17.516667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter: French Polynesia -  High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3090000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3090000,
+              "amount": 3090000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3090000,
+          "subTotal": 3090000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Papeete, French Polynesia",
+            "type": "Custom Area",
+            "category": [
+              "Papeete"
+            ],
+            "coordinates": [
+              -149.57083350000002,
+              -17.579167
+            ],
+            "bbox": [
+              -149.625,
+              -17.641667,
+              -149.516667,
+              -17.516667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

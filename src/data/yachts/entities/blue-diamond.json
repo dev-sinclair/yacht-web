@@ -1,0 +1,168 @@
+{
+  "lastModified": 1761064673149,
+  "uri": "c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: India\n\n﻿Boarding Point: Brittona Jetty (Panjim).\n\nJust standing on the deck and gazing up at Fairline's Squadron 50 gives you a sense of her Magnificence.\nBoarding is easy even, if the tender is stowed, since twin stairs lead to the teak-plank cockpit, which gets sun protection from the overhanging cantilevered bridge.\nThe Squadron 50 provides a truly civilized (and optional) crew cabin under the cockpit, with a single berth, mini galley with microwave facility and small refrigerator.\nThe yacht provides Music System, Mobile Charging facilities and Sunbed",
+  "blueprint": {
+    "name": "BLUE DIAMOND",
+    "images": [
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::e423eb60-c050-11ee-819d-dfc8eafb1c15.png/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::f926cb90-c050-11ee-819d-dfc8eafb1c15.png/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b46390-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b3c750-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b2dcf0-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b41570-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b3ee60-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b35220-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b37930-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b2b5e0-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}",
+      "/media/media::image::c::9253087601::vessel::318da5a0-c04f-11ee-819d-dfc8eafb1c15::assets::00b48aa0-c051-11ee-819d-dfc8eafb1c15.jpeg/{imageVariant}"
+    ],
+    "make": "Fairline",
+    "model": "Squadron 50",
+    "maxCrew": "",
+    "sleeps": "",
+    "basePort": {
+      "name": "Goa, India",
+      "coordinates": {
+        "longitude": 74.054111,
+        "latitude": 15.325556
+      },
+      "country": "India"
+    },
+    "cruisingCapacity": 15,
+    "builtYear": "",
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": "",
+    "topSpeed": "",
+    "cruiseSpeed": "",
+    "fuelCapacity": "",
+    "cabins": 3,
+    "bathrooms": 2,
+    "decks": "",
+    "length": 15.55,
+    "beam": "",
+    "draft": "",
+    "hullType": "Catamaran",
+    "hullConstruction": "",
+    "tonnage": "",
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Microwave"
+      },
+      {
+        "label": "Refrigerator"
+      },
+      {
+        "label": "Music System"
+      },
+      {
+        "label": "Mobile charging facilities"
+      },
+      {
+        "label": "Sunbed"
+      },
+      {
+        "label": "First-aid kit"
+      },
+      {
+        "label": "Life buoys"
+      },
+      {
+        "label": "Life jackets"
+      },
+      {
+        "label": "Fire extinguishers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Swimming"
+      },
+      {
+        "label": "Fishing"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 40938,
+      "displayCurrency": "USD",
+      "displayPrice": 40938,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 40938,
+      "displayCurrency": "USD",
+      "displayPrice": 40938,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 40938,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 40938,
+              "amount": 40938
+            }
+          ],
+          "total": 40938,
+          "subTotal": 40938,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "India",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Southern Asia",
+              "India"
+            ],
+            "coordinates": [
+              82.81619580068734,
+              20.676959715634293
+            ],
+            "bbox": [
+              68.14340254000007,
+              6.74555084800005,
+              97.36225305200003,
+              35.49540557900012
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

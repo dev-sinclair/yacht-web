@@ -1,0 +1,302 @@
+{
+  "lastModified": 1761575189686,
+  "uri": "c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Thailand\n\nEclipse is a 2013 built but with a complete refit in 2021/22 done by Simpon Marine Service who are the Lagoon dealers in South East Asia. Designed with the ideal mix of luxury, space and sailing ability, the Lagoon 52 is perfect for a getaway with friends. Enjoy the full luxury experience onboard the Eclipse and leave the planning, sailing, and every other detail to us.\n\nEquipped with four guest cabins – four with queen size beds. Eclipse is suitable for overnight stay at any private beaches or azure waters in Thailand. All cabins have en suite washrooms plus there are separate facilities for the crew.  The Lagoon 52 has an exceptional amount of space thanks to a generous beam (8.6m) and a full flybridge allowing for many indoor, covered and outdoor dining, lounging and sunbathing areas.\n\nInteriors are bright and airy thanks to large windows, high ceilings and light-colours.  Large, strategically placed hatches and port holes add light and ventilation throughout.\n\nEclipse is staffed by a friendly crew of two to take care of all your needs.  The knowledgeable skipper will guide you to all the best spots while the hostess will keep your champagne glasses full.  Eclipse is professionally managed by an international firm operating on-site at Ocean Marina Pattaya to help you plan the perfect charter and handle all logistics from arrival to departure.\n\nEclipse is equipped with a 2 man kayak, one stand-up paddleboard, Floating Mat to relax on, ten sets of snorkeling equipment and a new Highfield OM 390 dinghy with 40hp outboard.",
+  "blueprint": {
+    "name": "ECLIPSE",
+    "images": [
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079ca9a0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079c5b80-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079a5fb0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::0799ea80-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079aadd0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079bbf40-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079b2300-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079b9830-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079c0d60-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079e3040-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079d45e0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079dbb10-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::07988af0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::079cd0b0-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::07999c60-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::07994e40-2835-11ef-b2be-d75cb554daa2.jpeg/{imageVariant}",
+      "/media/media::image::c::9429269944::vessel::d5cc2542-fe8c-11ed-889f-43d4bb723744::assets::07992730-2835-11ef-b2be-d75cb554daa2.png/{imageVariant}"
+    ],
+    "make": "Lagoon",
+    "model": "Lagoon 52",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::084d3c78-b3ee-11ed-bf7d-325096b39f47",
+      "name": "Phuket",
+      "coordinates": {
+        "latitude": 7.876508608125934,
+        "longitude": 98.40060433715655
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 40,
+    "builtYear": 2013,
+    "refitYear": 2022,
+    "topSpeed": 8,
+    "cruiseSpeed": 6,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 15.85,
+    "beam": 8.53,
+    "draft": 1.4,
+    "hullType": "Catamaran",
+    "hullConstruction": "Fiberglass",
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Sunbathing Area"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Wi-Fi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy"
+      },
+      {
+        "label": "2 man kayak"
+      },
+      {
+        "label": "Stand-up paddleboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Floating Mat"
+      },
+      {
+        "label": "Snorkeling equipment",
+        "quantity": "10"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ],
+    "tenders": [
+      "Highfield OM 390 Dinghy with 40hp outboard"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 283000,
+      "displayCurrency": "EUR",
+      "displayPrice": 283000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 539000,
+      "displayCurrency": "EUR",
+      "displayPrice": 539000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Day Package (8 hours)",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 283000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 283000,
+              "amount": 283000
+            }
+          ],
+          "total": 283000,
+          "subTotal": 283000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekend Package (2 full days and 1 night)",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 453000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 453000,
+              "amount": 453000,
+              "conditions": ""
+            }
+          ],
+          "total": 453000,
+          "subTotal": 453000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Long Weekend Package (3 full days and 2 nights)",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 539000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 539000,
+              "amount": 539000,
+              "conditions": ""
+            }
+          ],
+          "total": 539000,
+          "subTotal": 539000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

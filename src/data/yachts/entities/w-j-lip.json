@@ -1,0 +1,358 @@
+{
+  "lastModified": 1772705763808,
+  "uri": "c::20984578048::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Base / Home Port: Phuket, Thailand\nOperating Area: Thailand\n\nThe PRINCESS 78 W.J. Lip is a luxurious yacht that provides an extraordinary charter experience, blending sophistication with adventure. It boasts premium amenities and exceptional service, offering packages for low, high, or peak seasons to create unforgettable journeys in Phuket. Guests can indulge in tastefully designed interiors, gourmet dining, and activities such as snorkeling and paddleboarding, or they may choose to unwind with a refreshing drink. With options for half-day and full-day charters, there’s something to suit every preference.",
+  "blueprint": {
+    "name": "W.J. LIP",
+    "images": [
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d538c0b0-e7e8-11ef-9a43-1da0e9e1bb9e/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52f4ad0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d532f450-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d535da80-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53146a0-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52ed5a0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52f23c0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d4f6fcc0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52fe710-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d4f946b0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5044330-e7e8-11ef-bcd4-59cb8fbfbab2/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52f98f0-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5419a50-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53453e1-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d530d170-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53628a0-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5037fe0-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d539f930-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d531e2e0-e7e8-11ef-bcd4-59cb8fbfbab2/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d535b370-e7e8-11ef-9d5d-457ab15ff954/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d52f98f0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5382470-e7e8-11ef-9d5d-457ab15ff954/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d543e440-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5316db0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5339090-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53628a0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d539ab10-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53194c0-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d4ff8840-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d536ebf0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5300e20-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d4f85c50-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5384b80-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5398400-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5325810-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d50af9f0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5339091-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d538c0b0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5327f20-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53194c0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d51d4970-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5334270-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d536c4e0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d51225e0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5491460-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5244e50-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d530f880-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d537d650-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53676c0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d532a630-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5373a10-e7e8-11ef-9a43-1da0e9e1bb9e/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5534d90-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d537fd60-e7e8-11ef-b184-afa60585c411/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53453e0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d535b370-e7e8-11ef-9a43-1da0e9e1bb9e/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d53899a0-e7e8-11ef-80ee-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d4f91fa0-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d50358d0-e7e8-11ef-bcd4-59cb8fbfbab2/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5371300-e7e8-11ef-9a43-1da0e9e1bb9e/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5305c40-e7e8-11ef-9661-1593b4d87d2a/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d5371300-e7e8-11ef-9d5d-457ab15ff954/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d537af40-e7e8-11ef-80ed-1f0373576da7/{imageVariant}",
+      "/media/media::image::a::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af::assets::d531e2e0-e7e8-11ef-80ed-1f0373576da7/{imageVariant}"
+    ],
+    "make": "Princess Yachts",
+    "model": "Princess 78",
+    "maxCrew": 5,
+    "sleeps": 8,
+    "cruisingCapacity": 20,
+    "builtYear": 2012,
+    "refitYear": 2021,
+    "topSpeed": 32,
+    "cruiseSpeed": 16,
+    "cabinLayout": [],
+    "cabins": 4,
+    "length": 23.77,
+    "beam": 5.76,
+    "draft": 1.7,
+    "amenities": [
+      {
+        "label": "Life Jackets"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel Gears"
+      },
+      {
+        "label": "Stand Up Paddle Board"
+      },
+      {
+        "label": "Fishing Equipment (On request)"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 708383,
+      "displayCurrency": "USD",
+      "displayPrice": 708383,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 1033058,
+      "displayCurrency": "USD",
+      "displayPrice": 1033058,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "LOW SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 708383,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 708383,
+              "amount": 708383,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 708383,
+          "subTotal": 708383,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "LOW SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 885478.0000000001,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 885478.0000000001,
+              "amount": 885478.0000000001,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 885478.0000000001,
+          "subTotal": 885478.0000000001,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 755608,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 755608,
+              "amount": 755608,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 755608,
+          "subTotal": 755608,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 944510,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 944510,
+              "amount": 944510,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 944510,
+          "subTotal": 944510,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1033058,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1033058,
+              "amount": 1033058,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 1033058,
+          "subTotal": 1033058,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

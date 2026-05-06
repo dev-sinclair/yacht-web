@@ -1,0 +1,283 @@
+{
+  "lastModified": 1771347222992,
+  "uri": "c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Tuscany\n\nKOCHAB II is a 15.42m / 51ft Luxury Sailing Yacht built in 2012 by Beneteau. Sleeping 13 guests in 6.",
+  "blueprint": {
+    "name": "KOCHAB II",
+    "images": [
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::dd3c9240-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::eb5d83c0-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::eb5f0a60-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::eb5c4b40-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::eb5a0150-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f19aa6f0-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f1968840-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f1985d00-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f1996e70-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f76495f0-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f766b8d0-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f7677c20-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f762e840-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::f765ce70-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::fadaf800-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::fadbe260-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}",
+      "/media/media::image::c::10095349510::vessel::ae4c89f0-da29-11ee-840d-93d93c28fee3::assets::fad92340-da2a-11ee-840d-93d93c28fee3.jpeg/{imageVariant}"
+    ],
+    "make": "Beneteau",
+    "model": "Oceanis 50 Family",
+    "maxCrew": 0,
+    "sleeps": 13,
+    "basePort": {
+      "uri": "a::place::2e7ffd70-e406-11ed-a018-8f06cf4f4c69",
+      "name": "Marina Cala De' Medici",
+      "coordinates": {
+        "latitude": 43.39598534277729,
+        "longitude": 10.42615522633914
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2012,
+    "cabins": 6,
+    "bathrooms": 4,
+    "length": 15.42,
+    "beam": 4.82,
+    "draft": 2,
+    "amenities": [
+      {
+        "label": "Cushions in the cockpit"
+      },
+      {
+        "label": "Teak deck"
+      },
+      {
+        "label": "Cockpit speakers"
+      },
+      {
+        "label": "Plotter"
+      },
+      {
+        "label": "Bow thruster"
+      },
+      {
+        "label": "Autopilot"
+      },
+      {
+        "label": "Sprayhood "
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Teak in the cockpit"
+      }
+    ],
+    "entertainment": [
+      "Cockpit speakers"
+    ],
+    "tenders": [
+      "Tender"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 277300,
+      "displayCurrency": "EUR",
+      "displayPrice": 277300,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 462100,
+      "displayCurrency": "EUR",
+      "displayPrice": 462100,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "06.07 - 16.08",
+        "effectiveDates": [
+          {
+            "from": "2024-07-06T00:00:00.000Z",
+            "to": "2024-08-16T23:59:59.999Z"
+          },
+          {
+            "from": "2025-07-06T00:00:00.000Z",
+            "to": "2025-08-16T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-06T00:00:00.000Z",
+            "to": "2026-08-16T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 462100,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 462100,
+              "amount": 462100
+            }
+          ],
+          "total": 462100,
+          "subTotal": 462100,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florence, Toscana, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Florence"
+            ],
+            "coordinates": [
+              11.104166999999999,
+              43.85
+            ],
+            "bbox": [
+              10.866667,
+              43.716667,
+              11.341667,
+              43.983333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "25.05 - 05.07 & 17.08-20.09",
+        "effectiveDates": [
+          {
+            "from": "2024-05-25T00:00:00.000Z",
+            "to": "2024-07-05T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-25T00:00:00.000Z",
+            "to": "2025-07-05T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-25T00:00:00.000Z",
+            "to": "2026-07-05T23:59:59.999Z"
+          },
+          {
+            "from": "2024-08-17T00:00:00.000Z",
+            "to": "2024-09-20T23:59:59.999Z"
+          },
+          {
+            "from": "2025-08-17T00:00:00.000Z",
+            "to": "2025-09-20T23:59:59.999Z"
+          },
+          {
+            "from": "2026-08-17T00:00:00.000Z",
+            "to": "2026-09-20T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 369700,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 369700,
+              "amount": 369700
+            }
+          ],
+          "total": 369700,
+          "subTotal": 369700,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florence, Toscana, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Florence"
+            ],
+            "coordinates": [
+              11.104166999999999,
+              43.85
+            ],
+            "bbox": [
+              10.866667,
+              43.716667,
+              11.341667,
+              43.983333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Till 25.05 from 21.09",
+        "effectiveDates": [
+          {
+            "from": "2024-09-21T00:00:00.000Z",
+            "to": "2025-05-25T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-21T00:00:00.000Z",
+            "to": "2026-05-25T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-21T00:00:00.000Z",
+            "to": "2027-05-25T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 277300,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 277300,
+              "amount": 277300
+            }
+          ],
+          "total": 277300,
+          "subTotal": 277300,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florence, Toscana, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Florence"
+            ],
+            "coordinates": [
+              11.104166999999999,
+              43.85
+            ],
+            "bbox": [
+              10.866667,
+              43.716667,
+              11.341667,
+              43.983333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

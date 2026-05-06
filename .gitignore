@@ -1,5 +1,9 @@
 # build output
 dist/
+
+# vercel
+.vercel/
+
 # generated types
 .astro/
 
@@ -28,3 +32,8 @@ todos/
 
 # claude
 .claude/
+
+# yacht-sync transient dirs (atomic-swap intermediates).
+# The snapshot itself (src/data/yachts/) is committed.
+src/data/yachts.tmp/
+src/data/yachts.old/

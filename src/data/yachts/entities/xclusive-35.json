@@ -1,0 +1,136 @@
+{
+  "lastModified": 1773090816354,
+  "uri": "c::9333032772::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nThe 110ft is a stunning yacht in top shape, known for its great sailing. It stands out with its elegant looks and a unique metallic dark brown interior color. The yacht has a big living space and kitchen. It comes with 5 cabins that can fit up to 80 guests and also has a separate cabin for the crew. The yacht's design is so beautiful that anyone who loves yachts will definitely admire it.",
+  "blueprint": {
+    "name": "XCLUSIVE 35",
+    "images": [
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a00540-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a55c70-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a0a180-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a423f1-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a1b2f0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a33990-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a58380-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a423f0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a3aec0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a2eb70-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a4e740-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a3fce0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a360a0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a5d1a0-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a07a70-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a20110-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a4c030-5061-11f0-9f88-c59c814740ba/{imageVariant}",
+      "/media/media::image::a::vessel::f0ac81b0-5048-11f0-b92f-81eb4a5b1a04::assets::08a49920-5061-11f0-9f88-c59c814740ba/{imageVariant}"
+    ],
+    "make": "Gulf Craft",
+    "model": "Majesty 101",
+    "maxCrew": 4,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 50,
+    "builtYear": 2013,
+    "cabinLayout": [],
+    "cabins": 5,
+    "length": 30.8,
+    "beam": 6.5,
+    "draft": 1.4,
+    "hullConstruction": "Fiberglass",
+    "engines": "2 x 1950HP CAT",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Air Conditioning"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 400000,
+      "displayCurrency": "AED",
+      "displayPrice": 400000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 400000,
+      "displayCurrency": "AED",
+      "displayPrice": 400000,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate (minimum 4 hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 400000,
+              "amount": 400000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 400000,
+          "subTotal": 400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

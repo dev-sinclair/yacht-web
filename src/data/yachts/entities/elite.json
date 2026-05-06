@@ -1,0 +1,662 @@
+{
+  "lastModified": 1773074269337,
+  "uri": "c::26117080418::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9",
+  "yachtType": [
+    "Power Catamaran",
+    "Motor"
+  ],
+  "description": "Operating Area: Galapagos Islands\n\nThe catamaran Galapagos Elite is one of newest yachts cruising the islands, reinventing luxury, comfort and class!\n\nThe Galapagos Elite was specifically designed for sailing the sapphire waters of the Enchanted Islands. A sleek, twin-hulled catamaran, it provides its guests with a steady, safe cruise without the rocking and swaying common to the older, single-hulled yachts that dominated the island cruise industry for decades.\n\nIn addition to better stability, the design of the Elite allows for more space for everything on board, including panoramic social indoor and outdoor areas and panoramic suites. Guests of all ages can enjoy the ample, semi-covered sky deck, the al fresco dining area and the cozy bar and salon on the sky deck.\n\nNeedless to say, the Galapagos Elite features state-of-the-art navigation technology and safety equipment: safety and reliability are essential parts of any Galapagos luxury experience. All Suites on board the Galapagos Elite are spacious, comfortable and well-appointed: the perfect place to relax and recharge after a day spent exploring the islands. Each suite has ocean view and outdoor private balcony and restroom. All suites can have either one king-sized or two twin beds.\n\nOur signature panoramic windows featured in each suite: unlike the heavy, round porthole windows of the older yachts, each suite on the Elite has grand windows offering panoramic views. They are not even windows, exactly: think of them more as a wall of tempered glass, with a door to get to your balcony. Each morning and afternoon will bring a different stunning Galapagos seascape! Guests greatly enjoy meals served on board the Elite. Our professional cuisine specialists prepare three delicious, nutritious meals per day: breakfast and mainly lunch will be served buffet-style, with a more elegant sit-down dinner served in the al fresco dining area on the partially covered sky deck.\n\nMeals are always made from fresh ingredients, locally provided from farms on the islands whenever possible. Special dietary needs are never a problem and kids' meals are available.\n\nThe Galapagos Elite is operated by Golden Galapagos Cruises, which has plenty experience with the islands, the ships and visitors' needs. The professionals at Golden Galapagos are well- known in the industry for their perfectionism when it comes to planning and operating cruises.",
+  "blueprint": {
+    "name": "ELITE",
+    "images": [
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6da72e00-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6da8dbb0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6da88d90-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6db8e140-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6daa3b40-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6da929d0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6da7ca40-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::8f050cc0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::8f029bc0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::8f047080-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::bcfdb230-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::bcfe0050-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::bd0134a0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::bcfe9c90-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::bcfe7580-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::d2660af0-11bd-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::9f0852d1-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::9f07b690-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::9f0852d0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::ac3435f0-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::d26a0290-11bd-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::d2643630-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::d2663200-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::ac345d00-11bd-11f1-bbe1-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::e2c66520-11bd-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::e2c52ca0-11bd-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::097643c0-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::09847490-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::097d48a0-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::099abbb0-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::097b9af0-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::0983d850-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::09772e20-11be-11f1-92f2-e723566c875b/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::2250b8d0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::225350e0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::2251ca40-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::327d58d0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::327d0ab0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::327c9580-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::3ebda370-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::3ec0b0b0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::3ec089a0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::4b1b6120-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::4b1d8400-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::4b1bd650-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::4b1dd220-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::59d97d00-11be-11f1-bbe3-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::59d70c00-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::59d955f0-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::59d9cb20-11be-11f1-bbe2-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6c6d31f0-11be-11f1-bbe3-6316c49d3624/{imageVariant}",
+      "/media/media::image::a::vessel::b927c9e0-9b56-11ef-858a-3d65539e11f9::assets::6c6c95b0-11be-11f1-bbe3-6316c49d3624/{imageVariant}"
+    ],
+    "make": "Custom",
+    "maxCrew": 12,
+    "sleeps": 16,
+    "cruisingCapacity": 16,
+    "builtYear": 2019,
+    "topSpeed": 0,
+    "cruiseSpeed": 12,
+    "cabinLayout": [
+      {
+        "label": "Golden Suites",
+        "value": "9"
+      }
+    ],
+    "cabins": 9,
+    "bathrooms": 9,
+    "length": 37.5,
+    "beam": 13.5,
+    "draft": 1.9,
+    "hullType": "",
+    "engines": "2x Marine Generator Drive Engines – 550 HP each",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Sky deck"
+      },
+      {
+        "label": "Bar"
+      }
+    ],
+    "toys": []
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 499000,
+      "displayCurrency": "USD",
+      "displayPrice": 499000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 9239000,
+      "displayCurrency": "USD",
+      "displayPrice": 9239000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 525000,
+      "displayCurrency": "USD",
+      "displayPrice": 525000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 14919000,
+      "displayCurrency": "USD",
+      "displayPrice": 14919000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "2026 Classic Cruises: Golden Suites - 7-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 999000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 999000,
+              "amount": 999000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 999000,
+          "subTotal": 999000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Golden Suites - 4-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 619000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 619000,
+              "amount": 619000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 619000,
+          "subTotal": 619000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Golden Suites - 3-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 499000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 499000,
+              "amount": 499000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 499000,
+          "subTotal": 499000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 7-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 14919000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 14919000,
+              "amount": 14919000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 14919000,
+          "subTotal": 14919000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 4-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9239000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9239000,
+              "amount": 9239000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9239000,
+          "subTotal": 9239000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Classic Cruises: Charter - 3-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7449000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7449000,
+              "amount": 7449000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 7449000,
+          "subTotal": 7449000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Golden Suites - 7-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-01-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1049000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1049000,
+              "amount": 1049000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1049000,
+          "subTotal": 1049000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Golden Suites - 4-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 655000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 655000,
+              "amount": 655000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 655000,
+          "subTotal": 655000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 Classic Cruises: Golden Suites - 3-Night Cruise",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 525000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 525000,
+              "amount": 525000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 525000,
+          "subTotal": 525000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Galápagos Is.",
+            "type": "Geo subunit",
+            "category": [
+              "South America",
+              "South America",
+              "Galápagos Is."
+            ],
+            "coordinates": [
+              -90.64760842755655,
+              -0.651925503691989
+            ],
+            "bbox": [
+              -91.65415039062499,
+              -1.3419921875000114,
+              -89.25937499999999,
+              0.12583007812499147
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "lastModified": 1777356848545,
+  "uri": "c::17949224288::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nEmbark on a luxury trip aboard Spectre, a 100ft Azimut yacht that has been meticulously refitted to offer an unparalleled boating experience. Perfect for day charters in Dubai, this yacht boasts sleek, modern interiors and updated amenities designed to impress. Whether you’re hosting an elegant event or enjoying a relaxing day with friends and family, Medusa sets the stage for unforgettable moments on the water.\n\nThe yacht’s interior features refined furnishings, updated décor, and state-of-the-art systems, including a modern galley and cutting-edge audiovisual equipment. Accommodating up to 8 overnight guests, Spectre offers a spacious master suite, VIP cabin, and two double cabins, each designed for ultimate comfort. With room for 30 guests during the day, it’s the perfect choice for larger gatherings or exclusive celebrations.\n\nCruising with powerful, overhauled engines and advanced navigation technology, Spectre delivers a smooth, safe journey. The expansive outdoor decks, complete with elegant lounging and dining areas, are perfect for enjoying the sunshine or the stunning Dubai skyline. This yacht blends luxury, comfort, and performance to create an exceptional charter experience.",
+  "blueprint": {
+    "name": "SPECTRE",
+    "images": [
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb561760-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb563e70-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb8564c0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb722ae0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb823070-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb432ba0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb454e80-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb831ad0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb82ccb0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb43a0d0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb43c7e0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::f197b220-4255-11f1-acd5-ab5f5b8906a9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb71b5b0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb862810-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb4352b0-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb81bb40-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb42b670-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::fb716790-4256-11f1-a306-874f95be1102/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::213b5300-4257-11f1-b222-0b2832653ca4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::213cd9a1-4257-11f1-b222-0b2832653ca4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::213d00b0-4257-11f1-b222-0b2832653ca4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::213cd9a0-4257-11f1-b222-0b2832653ca4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc246a-fe8c-11ed-889f-43d4bb723744::assets::213c6470-4257-11f1-b222-0b2832653ca4/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "Azimut 100",
+    "maxCrew": 5,
+    "sleeps": 8,
+    "cruisingCapacity": 40,
+    "staticCapacity": 60,
+    "builtYear": 2001,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2025,
+    "topSpeed": 0,
+    "cruiseSpeed": 0,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 5,
+    "decks": 6,
+    "length": 30.48,
+    "beam": 6.3,
+    "draft": 3.58,
+    "hullType": "V-shaped",
+    "hullConstruction": "Composite",
+    "tonnage": 139,
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Spacious lounge and state-of-the-art galley"
+      },
+      {
+        "label": "Modernized audiovisual systems"
+      },
+      {
+        "label": "Expansive outdoor decks with lounging and dining areas"
+      },
+      {
+        "label": "Updated navigation and safety systems"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Inflatable beach club",
+        "quantity": "1"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 650000,
+      "displayCurrency": "AED",
+      "displayPrice": 650000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 7800000,
+      "displayCurrency": "AED",
+      "displayPrice": 7800000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Price Per Hour",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 650000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 650000,
+              "amount": 650000,
+              "conditions": "VAT is Excluded"
+            }
+          ],
+          "total": 650000,
+          "subTotal": 650000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Price Per Day",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 7800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7800000,
+              "amount": 7800000,
+              "conditions": "VAT is Excluded"
+            }
+          ],
+          "total": 7800000,
+          "subTotal": 7800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

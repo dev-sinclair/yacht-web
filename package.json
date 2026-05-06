@@ -9,12 +9,16 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync-yachts": "node --env-file=.env --import tsx scripts/sync-yachts.ts"
   },
   "dependencies": {
     "@astrojs/vercel": "^10.0.5",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^6.1.5",
     "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
   }
 }

@@ -1,0 +1,751 @@
+{
+  "lastModified": 1771338366248,
+  "uri": "c::30724228195::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Oman\n\nVISION is a 29.00m / 95ft Luxury Motor Yacht. Sleeping 14 guests in 6 cabins. The guest cabins comprise of two cabins with king size bed and en-suite bathroom facilities and four twin cabins with twin beds and en-suite bathroom facilities.",
+  "blueprint": {
+    "name": "VISION",
+    "images": [
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8458b4f0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8453fa00-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84595130-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84583fc0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84569210-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8455f5d0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8457ca90-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8455cec0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8456b920-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::845e3330-fb31-11ef-838d-a3b2175a59fa/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::845cac90-fb31-11ef-838d-a3b2175a59fa/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84590310-fb31-11ef-b70a-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84590310-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::845c8580-fb31-11ef-9a94-351078142466/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8459ed70-fb31-11ef-b70a-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84597840-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::845c3760-fb31-11ef-b3dc-2300c36c7d9f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8459ed71-fb31-11ef-b70a-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::845818b0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84561ce0-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::84577c70-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}",
+      "/media/media::image::a::vessel::ef694820-fb29-11ef-bb8c-fd5ee0992091::assets::8456e030-fb31-11ef-b709-8dd0dd01a48f/{imageVariant}"
+    ],
+    "make": "",
+    "model": "",
+    "maxCrew": 6,
+    "sleeps": 14,
+    "basePort": {
+      "uri": "a::place::4d245550-619a-11f0-8093-f5f02e471ee9",
+      "name": "Dibba Al-Baya",
+      "coordinates": {
+        "latitude": 25.64880762413805,
+        "longitude": 56.25605003858748
+      },
+      "country": "Oman"
+    },
+    "builtYear": 0,
+    "topSpeed": 16,
+    "cruiseSpeed": 10,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 29,
+    "beam": 7.3,
+    "draft": 2.7,
+    "hullType": "",
+    "tonnage": 60,
+    "engines": "Doosan V222TIM (800HP, 2021 model)",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Mini bar"
+      },
+      {
+        "label": "Sunbeds"
+      },
+      {
+        "label": "Deck Shower"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SU Paddle Boards"
+      },
+      {
+        "label": "Kayaks (2 Pax)",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddle boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Snorkelling equipment",
+        "quantity": "10"
+      },
+      {
+        "label": "Wake board",
+        "quantity": "1"
+      },
+      {
+        "label": "Towable",
+        "quantity": "1"
+      },
+      {
+        "label": "Banana boat",
+        "quantity": "1"
+      },
+      {
+        "label": "Knee board",
+        "quantity": "1"
+      },
+      {
+        "label": "Water ski for one"
+      }
+    ],
+    "entertainment": [
+      "Salon Stereo",
+      "Salon TV",
+      "Sat Tv",
+      "Onboard WIFI"
+    ],
+    "tenders": [
+      "Large chase boat (2025) with twin 350HP outboards"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 2500000,
+      "displayCurrency": "AED",
+      "displayPrice": 2500000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 12000000,
+      "displayCurrency": "AED",
+      "displayPrice": 12000000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AED",
+      "price": 13000000,
+      "displayCurrency": "AED",
+      "displayPrice": 13000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AED",
+      "price": 13000000,
+      "displayCurrency": "AED",
+      "displayPrice": 13000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "1 Day / 1 Night (24 Hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "1 Day / 1 Night (24 Hours)"
+            }
+          ],
+          "total": 2500000,
+          "subTotal": 2500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2 Days / 2 Nights",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 4800000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4800000,
+              "amount": 4800000,
+              "conditions": "2 Days / 2 Nights"
+            }
+          ],
+          "total": 4800000,
+          "subTotal": 4800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "3 Days / 3 Nights",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 6900000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6900000,
+              "amount": 6900000,
+              "conditions": "3 Days / 3 Nights"
+            }
+          ],
+          "total": 6900000,
+          "subTotal": 6900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4 Days / 4 Nights",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 8800000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8800000,
+              "amount": 8800000,
+              "conditions": "4 Days / 4 Nights"
+            }
+          ],
+          "total": 8800000,
+          "subTotal": 8800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "5 Days / 5 Nights",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 10500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 10500000,
+              "amount": 10500000,
+              "conditions": "5 Days / 5 Nights"
+            }
+          ],
+          "total": 10500000,
+          "subTotal": 10500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "6 Days / 6 Nights",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 12000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12000000,
+              "amount": 12000000,
+              "conditions": "6 Days / 6 Nights"
+            }
+          ],
+          "total": 12000000,
+          "subTotal": 12000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7 Days / 7 Nights (Full Week)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 13000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 13000000,
+              "amount": 13000000,
+              "conditions": "7 Days / 7 Nights (Full Week)"
+            }
+          ],
+          "total": 13000000,
+          "subTotal": 13000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Luxury Honeymoon Package (2 Nights)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 5000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5000000,
+              "amount": 5000000,
+              "conditions": "2 Nights"
+            }
+          ],
+          "total": 5000000,
+          "subTotal": 5000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Year Package (2 Nights)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-31T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-31T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 5200000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5200000,
+              "amount": 5200000,
+              "conditions": "2 Nights"
+            }
+          ],
+          "total": 5200000,
+          "subTotal": 5200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Family Adventure Package (2 Nights)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 5000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5000000,
+              "amount": 5000000,
+              "conditions": "2 Nights"
+            }
+          ],
+          "total": 5000000,
+          "subTotal": 5000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "lastModified": 1771340963838,
+  "uri": "c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nThe Azimut 55e Flybridge is a superb boat, example of ingenuity and imagination in modern cruising yacht design. She has a generous saloon with a spectacular open plan layout creating a breathtaking full-length vista from the teak decked cockpit to the inside helm. In true Azimut style, her hull is built for smooth, passage and excellent handling in the most challenging sea conditions.",
+  "blueprint": {
+    "name": "PILLARS",
+    "images": [
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea87250-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea58c20-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea40580-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea67680-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea84b40-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea7af00-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea69d90-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea8e780-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea95cb0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea47ab0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea4efe0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea53e00-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea90e90-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea56510-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea739d0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea7d610-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea7fd20-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea6ebb0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea5da40-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea62860-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}",
+      "/media/media::image::c::7819161891::vessel::d5cca3a3-fe8c-11ed-889f-43d4bb723744::assets::8ea9d1e0-280b-11ef-896b-2391b3461a4d.jpeg/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "Azimut 55",
+    "maxCrew": 1,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::2661c510-5b23-11f0-992b-a19b9e86d3fb",
+      "name": "Yacht Haven Marina",
+      "coordinates": {
+        "latitude": 8.170551276573544,
+        "longitude": 98.34019194115764
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2010,
+    "interiorDesigner": "Stefano Righini",
+    "refitYear": 2022,
+    "topSpeed": 32,
+    "cruiseSpeed": 20,
+    "fuelCapacity": 2500,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 2,
+    "length": 16.8,
+    "beam": 4.75,
+    "draft": 1.2,
+    "hullType": "Monohull",
+    "hullConstruction": "GRP",
+    "superStructure": [],
+    "engines": "CAT C 12 - internal Combustion diesel 526 x 2 (1066KW)",
+    "amenities": [
+      {
+        "label": "Electric windlass"
+      },
+      {
+        "label": "Electric wind instruments"
+      },
+      {
+        "label": "Autopilot"
+      },
+      {
+        "label": "GPS / chart plotter at helmstation"
+      },
+      {
+        "label": "Wheel steering"
+      },
+      {
+        "label": "Refrigerator"
+      },
+      {
+        "label": "Freezer"
+      },
+      {
+        "label": "VHF"
+      },
+      {
+        "label": "Flat Screen TV & DVD Player"
+      },
+      {
+        "label": "Stereo"
+      },
+      {
+        "label": "Deck Shower"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Shorepower Air-Condition"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Davit"
+      },
+      {
+        "label": "Life Jackets"
+      },
+      {
+        "label": "Flares"
+      },
+      {
+        "label": "First aid kit"
+      },
+      {
+        "label": "Binoculars"
+      },
+      {
+        "label": "Inverter"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy (6 pax)"
+      },
+      {
+        "label": "Fins, masks, snorkels"
+      }
+    ],
+    "entertainment": [
+      "Flat Screen TV & DVD Player",
+      "Stereo"
+    ],
+    "tenders": [
+      "Dinghy (RIB) with 25 HP outboard motor"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 355000,
+      "displayCurrency": "EUR",
+      "displayPrice": 355000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 355000,
+      "displayCurrency": "EUR",
+      "displayPrice": 355000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2240000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2240000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2240000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2240000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Day Trip: 01-May-2024 - 31-October-2024",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 355000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 355000,
+              "amount": 355000,
+              "conditions": "Per Day"
+            }
+          ],
+          "total": 355000,
+          "subTotal": 355000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight: 01-May-2024 - 31-October-2024",
+        "effectiveDates": [
+          {
+            "from": "2024-05-01T00:00:00.000Z",
+            "to": "2024-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2240000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2240000,
+              "amount": 2240000,
+              "conditions": "Per Week"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2240000,
+              "amount": 672000
+            }
+          ],
+          "total": 2912000,
+          "subTotal": 2912000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

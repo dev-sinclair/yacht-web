@@ -1,0 +1,541 @@
+{
+  "lastModified": 1751633410925,
+  "uri": "c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Croatia, France, Italy, Corsica, Sardinia, Monaco, Montenegro, Albania, Sicily\n\nBuilt by Windship Trident in 1992 and with an interior refit and new rigging in 2021, and further work in 2024, at 31.7m, S/Y Elton (ex Lunar Mist, Cinderella II) offers charter guests a spacious and stylish approach to sailing.\n\nDuring the refit the mast was taken down and fully restored and the interior received all new upholstery, new paneling, new art work and new linens and finishings, giving her a fresh and contemporary look.\n\nThe vessel’s sophisticated exterior design and engineering are\nthe work of Tripp Design, while her timeless interior is the work of\nrenowned superyacht designer Donald Starkey.\n\nShe accommodates up to 8 guests overnight with 3 crew members to ensure guests have an exquisitely comfortable and luxurious experience. A top speed of 12.5 knots and a cruising speed of 9 knots ensure relaxed sailing and excellent performance on the water.\n\nThe aft deck serves as the perfect place for guests to unwind in the sun, with an optional Bimini when shade is required. There are C-shaped sofas either side and a large table for alfresco group dining and cocktails on an evening. The stern leads down to the swim platform, where the swim ladder grants easy access to the ocean.\n\nAll cabins are en-suite and have a double bed, plenty of wardrobe space and a skylight for plenty of natural illumination. The Master en-suite has a bathtub and shower, plus a vanity and head. The other en-suite bathrooms all feature a vanity, head and shower.\n\nExpect a true taste of sailing in optimum comfort.",
+  "blueprint": {
+    "name": "ELTON",
+    "images": [
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::d7e034d0-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::d88b9000-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::d932f390-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::d9f38470-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::da93e320-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::db6c1ab0-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::dc3eacf0-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::e021b380-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::de16c850-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::debaa970-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::df623410-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::e0d83240-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::e1ef4790-fd9a-11ee-8258-690c8d84b581.jpeg/{imageVariant}",
+      "/media/media::image::c::7580644653::vessel::d5cc7819-fe8c-11ed-889f-43d4bb723744::assets::82fb01a0-fdb5-11ee-9d6d-990bda08dbce.png/{imageVariant}"
+    ],
+    "make": "Windship Trident",
+    "model": "",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::a02022f4-b3ee-11ed-9600-325096b39f47",
+      "name": "Valletta",
+      "coordinates": {
+        "latitude": 35.8989846,
+        "longitude": 14.51461334
+      },
+      "country": "Malta"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 1992,
+    "architect": "Bill Tripp",
+    "interiorDesigner": "Donald Starkey",
+    "refitYear": 2024,
+    "topSpeed": 12.5,
+    "cruiseSpeed": 9,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "3"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 31.7,
+    "beam": 7.2,
+    "draft": 3.5,
+    "hullType": "",
+    "hullConstruction": "Composite",
+    "tonnage": 98,
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Sunbathing Area"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy"
+      },
+      {
+        "label": "Swim platform"
+      },
+      {
+        "label": "Swim ladder"
+      },
+      {
+        "label": "Paddle boards",
+        "quantity": "4"
+      },
+      {
+        "label": "Inflatable mattress"
+      },
+      {
+        "label": "Snorkeling gear (all adult sizes + kids)"
+      },
+      {
+        "label": "Inflatable towable"
+      },
+      {
+        "label": "Inflatable beach lounge chairs",
+        "quantity": "2"
+      },
+      {
+        "label": "Hammock"
+      },
+      {
+        "label": "Various beach toys (volleyball etc)"
+      },
+      {
+        "label": "Yoga mats",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ],
+    "tenders": [
+      "4.6m Novurania Rib"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer: High Rate",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "conditions": "+ALL"
+            }
+          ],
+          "total": 3500000,
+          "subTotal": 3500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.238839392474098,
+              42.7889025929079
+            ],
+            "bbox": [
+              18.436328125000017,
+              41.869091796875,
+              20.34765625,
+              43.542333984375
+            ]
+          },
+          {
+            "label": "Albania",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Albania"
+            ],
+            "coordinates": [
+              20.049833961088815,
+              41.142449894745155
+            ],
+            "bbox": [
+              19.280664062500023,
+              39.653515625,
+              21.031054687500017,
+              42.64794921875
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer: Low Rate",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "+ALL"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.238839392474098,
+              42.7889025929079
+            ],
+            "bbox": [
+              18.436328125000017,
+              41.869091796875,
+              20.34765625,
+              43.542333984375
+            ]
+          },
+          {
+            "label": "Albania",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Albania"
+            ],
+            "coordinates": [
+              20.049833961088815,
+              41.142449894745155
+            ],
+            "bbox": [
+              19.280664062500023,
+              39.653515625,
+              21.031054687500017,
+              42.64794921875
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

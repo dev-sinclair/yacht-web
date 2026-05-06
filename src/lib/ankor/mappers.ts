@@ -18,13 +18,20 @@ export function slugify(name: string): string {
 }
 
 export function uniqueSlug(name: string, uri: string, used: Set<string>): string {
-  let base = slugify(name) || "yacht";
+  const base = slugify(name) || "yacht";
   if (!used.has(base)) {
     used.add(base);
     return base;
   }
   const tail = uri.split("::").pop()?.slice(0, 6) ?? Math.random().toString(36).slice(2, 8);
-  const candidate = `${base}-${tail}`;
+  // Two yachts can share both base name AND first-6 URI chars (Ankor URIs
+  // are time-ordered UUIDs, so older yachts cluster on prefixes). If the
+  // primary candidate collides too, add a numeric counter.
+  let candidate = `${base}-${tail}`;
+  let i = 2;
+  while (used.has(candidate)) {
+    candidate = `${base}-${tail}-${i++}`;
+  }
   used.add(candidate);
   return candidate;
 }

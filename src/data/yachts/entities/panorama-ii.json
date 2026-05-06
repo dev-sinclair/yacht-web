@@ -1,0 +1,155 @@
+{
+  "lastModified": 1777028064547,
+  "uri": "c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Gulet",
+    "Sailing"
+  ],
+  "description": "Operating Area: French Polynesia\n\nPANORAMA II is a 50.00m / 164ft Gulet Superyacht built in 2004 by Custom. Sleeping 49 guests in 25 cabins and with a crew of 16. Cruising at 10.00 kn/ph.\n\nAvailable for Cabin Charter",
+  "blueprint": {
+    "name": "PANORAMA II",
+    "images": [
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea2428c0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea2699c0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea264ba0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::21cf9020-2cd2-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea26c0d0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea256140-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea25af60-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea24c500-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea251320-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea25fd80-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+      "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea25d670-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}"
+    ],
+    "make": "Custom",
+    "model": "",
+    "maxCrew": 16,
+    "sleeps": 49,
+    "basePort": {
+      "uri": "a::place::27c294fe-b3ee-11ed-8c97-325096b39f47",
+      "name": "Tahiti",
+      "coordinates": {
+        "latitude": -17.64800174,
+        "longitude": -149.4246476
+      },
+      "country": "French Polynesia"
+    },
+    "builtYear": 2004,
+    "architect": "",
+    "refitYear": "",
+    "topSpeed": "",
+    "cruiseSpeed": 10,
+    "fuelCapacity": "",
+    "cabins": 25,
+    "bathrooms": 25,
+    "length": 50,
+    "beam": 11.5,
+    "draft": 4.5,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": "",
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Salon Stereo"
+      },
+      {
+        "label": "Salon TV"
+      },
+      {
+        "label": "Hairdryers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel Gear"
+      }
+    ],
+    "entertainment": [
+      "Salon Stereo",
+      "Salon TV"
+    ],
+    "tenders": []
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 16650000,
+      "displayCurrency": "EUR",
+      "displayPrice": 16650000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 16650000,
+      "displayCurrency": "EUR",
+      "displayPrice": 16650000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Price",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 16650000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 16650000,
+              "amount": 16650000
+            }
+          ],
+          "total": 16650000,
+          "subTotal": 16650000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fr. Polynesia",
+            "type": "Dependency",
+            "category": [
+              "Oceania",
+              "Polynesia",
+              "Fr. Polynesia"
+            ],
+            "coordinates": [
+              -142.50019145276352,
+              -15.455280067613575
+            ],
+            "bbox": [
+              -151.51240234375,
+              -20.87587890625001,
+              -136.293896484375,
+              -8.781542968750003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

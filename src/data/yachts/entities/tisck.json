@@ -1,0 +1,260 @@
+{
+  "lastModified": 1761131388079,
+  "uri": "c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nTISCK is a 22.86m / 75ft Luxury Motor Yacht built in 2010 and later underwent a refit in 2018. She features three cabins and can accommodate up to 30 guests.",
+  "blueprint": {
+    "name": "TISCK",
+    "images": [
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::97919720-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::0041b600-9a7d-11ee-9acd-1999143ae32f.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::9ac01ac0-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::9ac1c870-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::9d571950-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+      "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::9d56cb30-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}"
+    ],
+    "make": "",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 30,
+    "builtYear": 2010,
+    "refitYear": 2018,
+    "topSpeed": "",
+    "fuelCapacity": "",
+    "cabins": 3,
+    "bathrooms": 2,
+    "length": 22.86,
+    "beam": 6,
+    "draft": 1.52,
+    "engines": "2 x 1550 HP",
+    "amenities": [
+      {
+        "label": "BBQ",
+        "quantity": 1
+      }
+    ],
+    "toys": [
+      {
+        "label": "Jet Ski",
+        "quantity": 1
+      },
+      {
+        "label": "Water Slide",
+        "quantity": 1
+      },
+      {
+        "label": "Swimming Pool",
+        "quantity": 1
+      },
+      {
+        "label": "Electric Surfboard",
+        "quantity": 1
+      },
+      {
+        "label": "Sea Bob",
+        "quantity": 1
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 19000,
+      "displayCurrency": "EUR",
+      "displayPrice": 19000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 737500,
+      "displayCurrency": "EUR",
+      "displayPrice": 737500,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer Rate B2C P/HR (1st June to 15th September)",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 19000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 19000,
+              "amount": 19000,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 19000,
+          "subTotal": 19000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Seasonal Rate B2C P/HR (16th September until 30th May)",
+        "effectiveDates": [
+          {
+            "from": "2025-09-16T00:00:00.000Z",
+            "to": "2026-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2027-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2028-05-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 24000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 24000,
+              "amount": 24000,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 24000,
+          "subTotal": 24000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Year's B2B Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 737500,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 737500,
+              "amount": 737500,
+              "conditions": "VAT is Included"
+            }
+          ],
+          "total": 737500,
+          "subTotal": 737500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

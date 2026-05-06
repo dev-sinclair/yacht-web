@@ -1,0 +1,125 @@
+{
+  "lastModified": 1773090578015,
+  "uri": "c::9333032772::vessel::84f89580-5043-11f0-a0cc-6117139c6a57",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nSleek, stylish, and luxurious, Encore is a 40-metre Sunseeker designed for those who appreciate elegance. Whether for an exclusive gathering or a private retreat, it promises unmatched comfort and sophistication.",
+  "blueprint": {
+    "name": "ENCORE",
+    "images": [
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd78ee31-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd78c720-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd77b5b0-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd85bf70-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd86f7f0-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd84fc20-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd8682c0-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd859860-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd78a010-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd787900-5045-11f0-b354-a9d16c3f9efe/{imageVariant}",
+      "/media/media::image::a::vessel::84f89580-5043-11f0-a0cc-6117139c6a57::assets::bd78ee30-5045-11f0-b354-a9d16c3f9efe/{imageVariant}"
+    ],
+    "make": "Sunseeker",
+    "maxCrew": 10,
+    "sleeps": 50,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "builtYear": 2007,
+    "cabinLayout": [],
+    "cabins": 5,
+    "length": 40,
+    "beam": 8,
+    "draft": 2.4,
+    "hullConstruction": "GRP",
+    "engines": "2 X MTU 12V 4000 M90 Power 2040kW at 2100 RPM ",
+    "amenities": [
+      {
+        "label": "Jacuzzi"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 1250000,
+      "displayCurrency": "AED",
+      "displayPrice": 1250000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 1250000,
+      "displayCurrency": "AED",
+      "displayPrice": 1250000,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate (minimum 4 hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 1250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1250000,
+              "amount": 1250000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1250000,
+          "subTotal": 1250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "lastModified": 1772706637224,
+  "uri": "c::20984578048::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1",
+  "yachtType": [
+    "Power Catamaran",
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand, Andaman Sea\n\nMY SKY is a uniquely designed power catamaran offering spaciousness and impressive performance for cruising in the Andaman Sea. It features air conditioning throughout, three ensuite cabins, and a master suite ideal for families with a cozy adjoining bed. Guests can enjoy stylish alfresco living with a large aft cockpit table for dining and relaxation, as well as a sociable upper flybridge with U-shaped seating and a private bar. The spacious bow lounging area provides panoramic sea views, making MY SKY a one-of-a-kind yacht for unforgettable experiences.",
+  "blueprint": {
+    "name": "MY SKY",
+    "images": [
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff533ef0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff5c3fa0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff7d0e10-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff6e8f20-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff5ba360-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff7d8340-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff6eb630-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff3556b0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff5561d0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff7015c0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff400510-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff6dcbd0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}",
+      "/media/media::image::a::vessel::e9572e80-e84f-11ef-8aa9-356cf691b0e1::assets::ff6df2e0-e853-11ef-93b4-0f0800c2fc3f/{imageVariant}"
+    ],
+    "maxCrew": 3,
+    "sleeps": 8,
+    "cruisingCapacity": 15,
+    "builtYear": 2018,
+    "interiorDesigner": "",
+    "topSpeed": 18,
+    "cruiseSpeed": 15,
+    "cabinLayout": [],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 16.15,
+    "beam": 7.62,
+    "hullType": "Catamaran",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Private Bar"
+      },
+      {
+        "label": "Sun lounges"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel Gears"
+      },
+      {
+        "label": "Stand Up Paddle Board"
+      },
+      {
+        "label": "Fishing Equipment (On request)"
+      }
+    ],
+    "entertainment": [
+      "WIFI"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 381405,
+      "displayCurrency": "USD",
+      "displayPrice": 381405,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 484091,
+      "displayCurrency": "USD",
+      "displayPrice": 484091,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "LOW SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 381405,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 381405,
+              "amount": 381405,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 408103.35,
+          "subTotal": 381405,
+          "totalTax": 26698.350000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Full Day ",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 425413,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 425413,
+              "amount": 425413,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 455191.91000000003,
+          "subTotal": 425413,
+          "totalTax": 29778.910000000003
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 484091,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 484091,
+              "amount": 484091,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 517977.37,
+          "subTotal": 484091,
+          "totalTax": 33886.37
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

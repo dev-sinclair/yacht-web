@@ -1,5 +1,12 @@
+// Vite/Astro injects `import.meta.env` at build time. When this module is
+// imported from a plain Node context (e.g. `scripts/sync-yachts.ts` run via
+// tsx), `import.meta.env` is undefined — guard so a direct property read
+// doesn't crash.
+const importMetaEnv: Record<string, string | undefined> =
+  ((import.meta as unknown as { env?: Record<string, string | undefined> }).env) ?? {};
+
 const env = (key: string, fallback?: string): string => {
-  const v = import.meta.env[key] ?? process.env[key] ?? fallback;
+  const v = importMetaEnv[key] ?? process.env[key] ?? fallback;
   if (v == null || v === "") {
     throw new Error(`Missing required env var: ${key}`);
   }
@@ -7,7 +14,7 @@ const env = (key: string, fallback?: string): string => {
 };
 
 const optionalEnv = (key: string, fallback: string): string =>
-  import.meta.env[key] ?? process.env[key] ?? fallback;
+  importMetaEnv[key] ?? process.env[key] ?? fallback;
 
 function normalizePrivateKey(raw: string): string {
   let key = raw.trim();

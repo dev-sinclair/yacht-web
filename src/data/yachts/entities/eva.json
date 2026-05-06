@@ -1,0 +1,230 @@
+{
+  "lastModified": 1761575324066,
+  "uri": "c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nEva 80ft yacht – a true masterpiece of luxury and comfort that promises to provide an unforgettable experience on the open seas. Eva 80ft yacht is a sleek and elegant vessel meticulously designed for comfort and pleasure. Measuring an impressive 80 feet in length, this yacht boasts a contemporary and luxurious interior, with spacious cabins, lounges, and state-of-the-art amenities that cater to the discerning tastes of its guests. Book your Eva 80 Numarine yacht rental in Dubai by contacting us!\n\nFrom the moment you step aboard, you’ll be greeted by an experienced and professional crew dedicated to ensuring your every need is met. Eva yacht’s interior is adorned with premium materials and sophisticated furnishings, creating an atmosphere of refinement and tranquility. Lavish en-suite cabins offer a private oasis for relaxation, while the expansive deck areas provide breathtaking panoramic views of the surrounding seas.\n\nNumarine Yacht doesn’t just stop at luxurious accommodations. Onboard, you’ll find an array of recreational facilities to keep you entertained throughout your journey. Imagine lounging in the Jacuzzi on the sun deck, indulging in a spa treatment, or diving into the crystal-clear waters with the yacht’s range of water sports equipment.\n\nOne of the many reasons why people wish to book the Numarine Yacht is the flexibility it offers in crafting personalized itineraries. Whether you desire a romantic getaway, a family adventure, or a corporate retreat, the yacht’s crew will work closely with you to tailor the perfect experience, visiting stunning destinations and hidden gems along the way. Booking Eva 80ft Yacht offers a once-in-a-lifetime opportunity to indulge in unparalleled luxury and experience the open sea like never before. So, if you’re ready to embark on an extraordinary journey and create cherished memories with your loved ones, book this magnificent yacht for your next adventure.",
+  "blueprint": {
+    "name": "EVA",
+    "images": [
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::a6cba7e0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::b3a2db50-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::b3a52540-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::bad64560-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::be6ab6c0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::be68e200-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c3460000-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c838a1d0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c8376950-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c347d4c0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::ce281a30-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::ce290490-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::ce26baa0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::ce2952b0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::d17e4a10-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::d17d5fb0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::d17f3470-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::b3a413d0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c3490d40-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}",
+      "/media/media::image::c::19311762244::vessel::d3f39730-0633-11ef-8490-f37a38f8664d::assets::c83630d0-0636-11ef-8490-f37a38f8664d.jpeg/{imageVariant}"
+    ],
+    "make": "Numarine",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 6,
+    "cruisingCapacity": 35,
+    "staticCapacity": 35,
+    "builtYear": 2022,
+    "topSpeed": 25,
+    "cruiseSpeed": 18,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "3"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "decks": 3,
+    "length": 23.21,
+    "beam": 0,
+    "hullConstruction": "Fiber Glass",
+    "engines": "2 x Cummins",
+    "amenities": [
+      {
+        "label": "Sundeck",
+        "quantity": "1"
+      },
+      {
+        "label": "Sky Lounge",
+        "quantity": "1"
+      },
+      {
+        "label": "Flybridge",
+        "quantity": "2"
+      },
+      {
+        "label": "Live BBQ Station",
+        "quantity": "1"
+      },
+      {
+        "label": "Jacuzzi",
+        "quantity": "1"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Jetski",
+        "quantity": "2"
+      },
+      {
+        "label": "Seabob",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "Free Wi-Fi",
+      "Audio/Video System",
+      "PlayStation 5"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Naresh Kumar Mohan",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 400000,
+      "displayCurrency": "AED",
+      "displayPrice": 400000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 9600000,
+      "displayCurrency": "AED",
+      "displayPrice": 9600000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Price",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 400000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 400000,
+              "amount": 400000,
+              "conditions": "CANCELLATION POLICY: Free up to 72 hours of the charter. 50% within 72 hours and up to 24 hours of the charter. 100% within 24 hours of the charter"
+            }
+          ],
+          "total": 400000,
+          "subTotal": 400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Price per Day",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 9600000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9600000,
+              "amount": 9600000,
+              "conditions": "CANCELLATION POLICY: Free up to 72 hours of the charter. 50% within 72 hours and up to 24 hours of the charter. 100% within 24 hours of the charter"
+            }
+          ],
+          "total": 9600000,
+          "subTotal": 9600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

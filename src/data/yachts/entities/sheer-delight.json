@@ -1,0 +1,296 @@
+{
+  "lastModified": 1771339004035,
+  "uri": "c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Fiji\n\nLarge, Fast, economical Power cat just completed a full Mechanical refit and respray to a as NEW Standarts. This Vikal 78 is a proven performer originally built for boutique cruises.",
+  "blueprint": {
+    "name": "SHEER DELIGHT",
+    "images": [
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::655e3e00-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c09560a0-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c09623f0-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0964b00-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0967210-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0940110-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0938be0-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0944f30-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0951280-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c093da00-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c094c460-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c0947640-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}",
+      "/media/media::image::c::19473845429::vessel::c6bb0c90-e547-11ee-87d0-c50d9ebccbd2::assets::c095fce0-e555-11ee-87d0-c50d9ebccbd2.jpeg/{imageVariant}"
+    ],
+    "make": "Vikal",
+    "model": "Vikal 78",
+    "maxCrew": 2,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::084d43bc-b3ee-11ed-acd1-325096b39f47",
+      "name": "Port Denarau",
+      "coordinates": {
+        "latitude": -17.77234617,
+        "longitude": 177.3816493
+      },
+      "country": "Fiji"
+    },
+    "builtYear": "",
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": "",
+    "topSpeed": "",
+    "cruiseSpeed": "",
+    "fuelCapacity": 8000,
+    "cabinLayout": [
+      {
+        "label": "Double Cabin",
+        "value": "6"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": "",
+    "decks": "",
+    "length": 24,
+    "beam": "",
+    "draft": "",
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": "",
+    "engines": "Twin Caterpillar C12 600 HP Diesel Engines",
+    "amenities": [
+      {
+        "label": "Water maker"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Flybridge"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Paddle boards"
+      },
+      {
+        "label": "Kayak"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 750000,
+      "displayCurrency": "USD",
+      "displayPrice": 750000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 750000,
+      "displayCurrency": "USD",
+      "displayPrice": 750000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 5400000,
+      "displayCurrency": "USD",
+      "displayPrice": 5400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 5400000,
+      "displayCurrency": "USD",
+      "displayPrice": 5400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "OVERNIGHT STAY CHARTER - ''INCLUSIVE''",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 750000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 750000,
+              "amount": 750000,
+              "conditions": ""
+            }
+          ],
+          "total": 750000,
+          "subTotal": 750000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "WEEKLY CHARTER RATES (7 DAYS - 6 NIGHTS)",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5400000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5400000,
+              "amount": 5400000
+            }
+          ],
+          "total": 5400000,
+          "subTotal": 5400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "DAILY RATE",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 750000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 750000,
+              "amount": 750000,
+              "conditions": "up to 10 guests"
+            }
+          ],
+          "total": 750000,
+          "subTotal": 750000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

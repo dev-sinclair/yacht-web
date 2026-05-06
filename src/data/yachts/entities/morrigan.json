@@ -1,0 +1,303 @@
+{
+  "lastModified": 1777288225102,
+  "uri": "c::17949224288::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai\n\nStep aboard Morrigan, a magnificent 70ft Galeon yacht designed for exceptional experiences in Dubai. Boasting luxurious interiors and spacious outdoor areas, Morrigan offers the ultimate blend of elegance, comfort, and adventure. Whether you're cruising along Dubai's vibrant  coastline, anchoring at the stunning Palm Jumeirah, or exploring the iconic World Islands, Morrigan promises unforgettable escape on the water.\n\nWith 1 Master and 1 VIP cabin, Morrigan accommodates up to 4 overnight guests, making it perfect for intimate gatherings\nor extended charters. Its capacity of 12 ensures there's plenty of room for celebrations, corporate events, or leisurely family\noutings.\n\nMake your yacht charter truly memorable with bespoke onboard experiences (additional charges apply):\n\n• Birthday Celebrations\n• Anniversaries & Proposals\n• Bachelorette Parties\n• Intimate Romantic Dinners\n• Private Chef Services\n• Live BBQ with Private Chef\n• Premium Alcoholic Beverages\n• Floating Cinema Under the Stars\n• DJ Entertainment & Live Performances\n• Professional Photography & Videography\n• Yoga & Fitness Sessions at Sea\n• Luxury Spa & Wellness Services\n• Onboard Child Care & Activities\n• Tailored Corporate Events\n• Watersport Activities",
+  "blueprint": {
+    "name": "MORRIGAN",
+    "images": [
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae7186e0-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae722320-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae71fc10-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb71b60-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae71adf0-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb6a630-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae7111b0-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb79091-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb6f450-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb79090-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aebbd650-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb63100-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae724a30-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb63101-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::aeb9da80-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+      "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae733490-b567-11f0-ab91-61b242e2cb9b/{imageVariant}"
+    ],
+    "make": "Galeon",
+    "model": "",
+    "maxCrew": 2,
+    "sleeps": 4,
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2010,
+    "architect": "",
+    "refitYear": 2019,
+    "topSpeed": 30,
+    "cruiseSpeed": 25,
+    "fuelCapacity": -2,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 2,
+    "bathrooms": 0,
+    "decks": 2,
+    "length": 20,
+    "beam": 5.22,
+    "draft": 3.2,
+    "hullType": "V-shaped",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x Man V12 - 1224",
+    "amenities": [
+      {
+        "label": "Air conditioned"
+      },
+      {
+        "label": "Sunbathing area"
+      },
+      {
+        "label": "Alfresco Dining"
+      }
+    ],
+    "toys": [],
+    "entertainment": [
+      "Wifi",
+      "Satellite TV",
+      "State-of-the-art entertainment system"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 250000,
+      "displayCurrency": "AED",
+      "displayPrice": 250000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 3000000,
+      "displayCurrency": "AED",
+      "displayPrice": 3000000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 250000,
+              "amount": 250000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 250000,
+          "subTotal": 250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          },
+          {
+            "label": "Oman",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Oman"
+            ],
+            "coordinates": [
+              55.88110372352896,
+              21.07670865298008
+            ],
+            "bbox": [
+              51.977636718750006,
+              16.648388671874997,
+              59.837500000000006,
+              26.356347656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          },
+          {
+            "label": "Abu Dhabi, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Abu Dhabi"
+            ],
+            "coordinates": [
+              54.4208335,
+              24.458333500000002
+            ],
+            "bbox": [
+              54.316667,
+              24.391667,
+              54.525,
+              24.525
+            ]
+          },
+          {
+            "label": "United Arab Emirates",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "United Arab Emirates"
+            ],
+            "coordinates": [
+              54.24583194309796,
+              24.18786529531774
+            ],
+            "bbox": [
+              51.568359375,
+              22.621484374999994,
+              56.38798828125002,
+              26.068164062499996
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

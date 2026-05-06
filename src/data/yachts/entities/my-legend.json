@@ -1,0 +1,299 @@
+{
+  "lastModified": 1776674293688,
+  "uri": "c::20394871051::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Singapore\n\nAt the heart of MY Legend lies the concept of \"an exclusive hospitality suite on the waves.\" From the generously designed flybridge, perfect for taking in panoramic views while cruising, to the thoughtfully laid-out main salon, ideal for both relaxation and entertainment, every aspect of MY Legend is crafted to deliver the ultimate in luxury. With personalized butler services, bespoke dining experiences, and carefully curated fine dining ware, no detail is overlooked. The spacious staterooms, modern amenities, and elegant finishes ensure that guests experience unparalleled comfort and indulgence throughout their voyage aboard MY Legend.",
+  "blueprint": {
+    "name": "MY LEGEND",
+    "images": [
+      "/media/media::image::c::20394871051::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::add79270-d735-11f0-847c-dd80eed98ece/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520e2330-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::51d58700-eb1a-11ef-9a11-b7a505d16689/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520bb230-eb1a-11ef-a45c-afd0878f64e4/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::51e31b90-eb1a-11ef-a45c-afd0878f64e4/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520dae00-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520ac7d0-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520c0050-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520c2760-eb1a-11ef-8387-ebb6f3160353/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520b15f0-eb1a-11ef-8d92-fd7c3e70cbac/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::51f9d7e0-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::51d64a50-eb1a-11ef-9a11-b7a505d16689/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520bd940-eb1a-11ef-a45c-afd0878f64e4/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::51d81f10-eb1a-11ef-a45c-afd0878f64e4/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520c2760-eb1a-11ef-9a11-b7a505d16689/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520c2760-eb1a-11ef-8ede-d3751cc1ede8/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520d11c0-eb1a-11ef-8d92-fd7c3e70cbac/{imageVariant}",
+      "/media/media::image::a::vessel::87d5be20-eb14-11ef-b2ac-b377a3711801::assets::520b6410-eb1a-11ef-8387-ebb6f3160353/{imageVariant}"
+    ],
+    "make": "Aquitalia Yachts",
+    "model": "Aquitalia 68",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::eb1f8510-b70e-11ed-8b0f-d1ee9e951334",
+      "name": "Singapore",
+      "coordinates": {
+        "latitude": 1.347467399175275,
+        "longitude": 103.8084592239353
+      },
+      "country": "Singapore"
+    },
+    "cruisingCapacity": 30,
+    "builtYear": 2024,
+    "cabinLayout": [],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 20.77,
+    "beam": 6.1,
+    "draft": 1.21,
+    "hullType": "Monohull",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Full Kitchen Setup"
+      },
+      {
+        "label": "Fridge"
+      },
+      {
+        "label": "BBQ grill (Chargeable)"
+      },
+      {
+        "label": "Oven​"
+      },
+      {
+        "label": "TV and Sound System"
+      },
+      {
+        "label": "Life Vest​"
+      },
+      {
+        "label": "Fishing Rods"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Stand-Up Paddle Board (SUP)​"
+      },
+      {
+        "label": "Kayak​"
+      },
+      {
+        "label": "Large Floating Mat​"
+      },
+      {
+        "label": "Jetski (Preorder & Chargeable)"
+      },
+      {
+        "label": "eFoil (Preorder & Chargeable)"
+      },
+      {
+        "label": "Seabob (Preorder & Chargeable)"
+      }
+    ],
+    "entertainment": [
+      "TV and Sound System",
+      "Karaoke System"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "SGD",
+      "price": 168800,
+      "displayCurrency": "SGD",
+      "displayPrice": 168800,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "SGD",
+      "price": 416700,
+      "displayCurrency": "SGD",
+      "displayPrice": 416700,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Charter Rates: MON - THU (5pax)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "SGD",
+          "charterFee": 168800,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 168800,
+              "amount": 168800,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 168800,
+          "subTotal": 168800,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Singapore",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Singapore"
+            ],
+            "coordinates": [
+              103.81725592004345,
+              1.358760870750095
+            ],
+            "bbox": [
+              103.65019531249999,
+              1.265380859375,
+              103.99638671874999,
+              1.4470703124999886
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Charter Rates: FRI - SUN; PH & EVES (5pax)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "SGD",
+          "charterFee": 198800,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 198800,
+              "amount": 198800,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 198800,
+          "subTotal": 198800,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Singapore",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Singapore"
+            ],
+            "coordinates": [
+              103.81725592004345,
+              1.358760870750095
+            ],
+            "bbox": [
+              103.65019531249999,
+              1.265380859375,
+              103.99638671874999,
+              1.4470703124999886
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Charter Rates: OVERNIGHT EXTENSION",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "SGD",
+          "charterFee": 416700,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 416700,
+              "amount": 416700,
+              "conditions": "Hourly"
+            }
+          ],
+          "total": 416700,
+          "subTotal": 416700,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Singapore",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Singapore"
+            ],
+            "coordinates": [
+              103.81725592004345,
+              1.358760870750095
+            ],
+            "bbox": [
+              103.65019531249999,
+              1.265380859375,
+              103.99638671874999,
+              1.4470703124999886
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "lastModified": 1770415093529,
+  "uri": "c::20162314900::vessel::bd020930-daad-11f0-8358-e32d53d7fa58",
+  "yachtType": [
+    "Sailing",
+    "Gulet"
+  ],
+  "description": "Operating Area: Fiji\n\nThe Southern Cloud is a 39.72-meter (130.3 ft) luxury sailing yacht built by Faenoe Yachtvaerft in 1989/1990, with a GRP hull and superstructure. She features a 7.98m beam and 3.75m draft, a 193 GT tonnage, and can accommodate up to 12 guests in 6 cabins, supported by a crew of 7. Powered by dual Iveco engines, the yacht has a top speed of 14 knots and a cruising speed of 11-12 knots, with a maximum range of approximately 2000 nautical miles.",
+  "blueprint": {
+    "name": "SOUTHERN CLOUD",
+    "images": [
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c634600-dab2-11f0-aa8c-c7e4acd2a142/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2b4610-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c3494e0-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c5c4120-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2e0530-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c51e0e0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2ea170-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2c7e90-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2c3070-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c511d90-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2af7f0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c329910-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2a82c0-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c37c930-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c4843f0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c645770-dab2-11f0-b5ad-09562c6a7e2a/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2f3db0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c28fc20-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2b6d20-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c31fcd0-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c30c450-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c78c9d0-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2be250-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c3dbca0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c35f470-dab2-11f0-b5ad-09562c6a7e2a/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2ca5a0-dab2-11f0-a517-e90a6740f276/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2ea171-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c218210-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c505a40-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c538e90-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2e2c40-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c3dbca0-dab2-11f0-9350-fde42440836b/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2097b0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c3a6140-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c20bec0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c4054b0-dab2-11f0-b5ad-09562c6a7e2a/{imageVariant}",
+      "/media/media::image::a::vessel::bd020930-daad-11f0-8358-e32d53d7fa58::assets::7c2f8bd0-dab2-11f0-b742-69cb5d4aea8e/{imageVariant}"
+    ],
+    "make": "Faenoe Yachtvaerft",
+    "model": "1989",
+    "maxCrew": 7,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::8750c820-55f9-11ee-964a-1df56dc89091",
+      "name": "Australia",
+      "coordinates": {
+        "latitude": -25.27002691033329,
+        "longitude": 133.770925588376
+      },
+      "country": "Australia"
+    },
+    "cruisingCapacity": 49,
+    "staticCapacity": 10,
+    "builtYear": 1989,
+    "interiorDesigner": "",
+    "refitYear": 2024,
+    "topSpeed": 11,
+    "cruiseSpeed": 8,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Bunk Cabins",
+        "value": "1"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 39.72,
+    "beam": 7.98,
+    "draft": 3.75,
+    "hullType": "GRP",
+    "hullConstruction": "GRP",
+    "tonnage": 193,
+    "engines": "2 x Iveco",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sun Deck"
+      },
+      {
+        "label": "Inflatable Spa"
+      },
+      {
+        "label": "Private Superyacht Chef"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Diving Sets",
+        "quantity": "6"
+      },
+      {
+        "label": "Spearfishing equipment",
+        "quantity": "3"
+      },
+      {
+        "label": "Stand up paddle boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Jetski",
+        "quantity": "1"
+      },
+      {
+        "label": "Floating Inflatable Raft",
+        "quantity": "1"
+      },
+      {
+        "label": "Foam Surfboards",
+        "quantity": "4"
+      },
+      {
+        "label": "Snorkeling Equipment"
+      },
+      {
+        "label": "Wakeboards"
+      },
+      {
+        "label": "Fishing Gear"
+      }
+    ],
+    "entertainment": [
+      "Surfing, Fishing, Diving, Spearfishing, Snorkelling, Jetski, Paddelboards"
+    ],
+    "tenders": [
+      "4.2m/14ft Highfield Tender with 70HP Yamaha",
+      "12m/37ft Grady White Chase Boat 3x425HP engine"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 7000000,
+      "displayCurrency": "USD",
+      "displayPrice": 7000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 7000000,
+      "displayCurrency": "USD",
+      "displayPrice": 7000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "APA 20% and VAT 5% ",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7000000,
+              "amount": 7000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 7000000,
+          "subTotal": 7000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

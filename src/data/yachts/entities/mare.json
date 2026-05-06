@@ -1,0 +1,334 @@
+{
+  "lastModified": 1772706298724,
+  "uri": "c::20984578048::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Thailand\n\nIndulge in the luxurious interiors designed by the renowned architect Achille Salvagni. The yacht mirrors the latest modern home trends with sleek, contemporary aesthetics, providing the perfect setting for unforgettable private getaways or high-end charters. Featuring plush furnishings, premium materials, and intricately crafted details, every aspect of the Azimut 60 Flybridge is designed to offer exceptional comfort and elegance. Whether you're hosting a sophisticated gathering or seeking a peaceful retreat, this yacht offers versatile spaces for every occasion. Enjoy panoramic views from the spacious flybridge, dine al fresco on the sun-drenched deck, or unwind in the intimate, air-conditioned saloon.",
+  "blueprint": {
+    "name": "MARE",
+    "images": [
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38ad0b0-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38d41b0-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b37992a0-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38bbb10-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b3916060-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38e0500-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b3679140-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b37748b0-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38c3040-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b389bf40-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b365bc80-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b352d0c0-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b38a5b80-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b3897120-e7e9-11ef-b837-a7683566f45d/{imageVariant}",
+      "/media/media::image::a::vessel::4677fb50-e7e5-11ef-84fc-4750234bf545::assets::b35541c0-e7e9-11ef-b837-a7683566f45d/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "Azimut 60",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::c2123230-5e37-11f0-b2be-e904ae2ac246",
+      "name": "Boat Lagoon Marina",
+      "coordinates": {
+        "latitude": 7.963782464925793,
+        "longitude": 98.38813119222378
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2020,
+    "architect": "",
+    "interiorDesigner": "Achille Salvagni",
+    "topSpeed": 30,
+    "cruiseSpeed": 18,
+    "fuelCapacity": 2800,
+    "cabinLayout": [],
+    "cabins": 3,
+    "length": 18.25,
+    "beam": 5.05,
+    "draft": 1.46,
+    "engines": "2x Volvo D13 900mHP Diesel ",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Washer/dryer"
+      },
+      {
+        "label": "Ice maker"
+      },
+      {
+        "label": "Life Jackets"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkel gears"
+      },
+      {
+        "label": "Standup Paddle boards"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 442739.00000000006,
+      "displayCurrency": "USD",
+      "displayPrice": 442739.00000000006,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 649351,
+      "displayCurrency": "USD",
+      "displayPrice": 649351,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "LOW SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 442739.00000000006,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 442739.00000000006,
+              "amount": 442739.00000000006,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 442739.00000000006,
+          "subTotal": 442739.00000000006,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "LOW SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 501771,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 501771,
+              "amount": 501771,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 501771,
+          "subTotal": 501771,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Half Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 501771,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 501771,
+              "amount": 501771,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 501771,
+          "subTotal": 501771,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "HIGH SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 560803,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 560803,
+              "amount": 560803,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 560803,
+          "subTotal": 560803,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "PEAK SEASON: Full Day",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 649351,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 649351,
+              "amount": 649351,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 649351,
+          "subTotal": 649351,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

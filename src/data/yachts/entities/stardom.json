@@ -1,0 +1,133 @@
+{
+  "lastModified": 1773090657561,
+  "uri": "c::9333032772::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Dubai, United Arab Emirates\n\nFor those who seek more than luxury, Stardom is a 43-metre, masterpiece that redefines indulgence. With modern amenities, spacious decks, and impeccable design, it's more than a yacht-it's a lifestyle.",
+  "blueprint": {
+    "name": "STARDOM",
+    "images": [
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf723b40-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf73e8f0-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf748530-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf656a00-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf743710-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf64cdc0-5047-11f0-8e91-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf647fa0-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf74ac40-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf6542f0-5047-11f0-8e92-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf643180-5047-11f0-8e91-c133a64c50ce/{imageVariant}",
+      "/media/media::image::a::vessel::8a12b520-5046-11f0-a0cc-6117139c6a57::assets::bf723b41-5047-11f0-8e92-c133a64c50ce/{imageVariant}"
+    ],
+    "make": "Al Shaali Marine",
+    "maxCrew": 15,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::dc73cc52-b3ed-11ed-8cc4-325096b39f47",
+      "name": "Dubai Marina",
+      "coordinates": {
+        "latitude": 25.07591770642336,
+        "longitude": 55.13705088241023
+      },
+      "country": "United Arab Emirates"
+    },
+    "cruisingCapacity": 100,
+    "builtYear": 2017,
+    "cabinLayout": [],
+    "cabins": 5,
+    "length": 43,
+    "beam": 7.89,
+    "draft": 1.82,
+    "hullConstruction": "Fiberglass",
+    "engines": "MTU, 2 x 1432 HP ",
+    "amenities": [
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sunbathing beds"
+      },
+      {
+        "label": "Jacuzzi"
+      }
+    ],
+    "toys": []
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AED",
+      "price": 1000000,
+      "displayCurrency": "AED",
+      "displayPrice": 1000000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AED",
+      "price": 1000000,
+      "displayCurrency": "AED",
+      "displayPrice": 1000000,
+      "unit": "HOUR"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate (minimum 4 hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 1000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1000000,
+          "subTotal": 1000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.234556213091615,
+              25.183068054400398
+            ],
+            "bbox": [
+              54.83454597113993,
+              24.884782487307,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

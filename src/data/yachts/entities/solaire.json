@@ -1,0 +1,852 @@
+{
+  "lastModified": 1778000365548,
+  "uri": "c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Operating Area: Caribbean (BVI, US Virgin Islands, Leeward Islands)\n\nSolaire means “of the sun.” This perfectly captures the spirit of this 55-foot power catamaran. Designed to celebrate sunshine and space, Solaire offers an exceptional on-water experience centered around expansive outdoor living and seamless comfort. With wide, stable decks and multiple sun pads positioned for all day lounging, guests are invited to fully embrace the warmth and open views of island cruising.\n\nAt anchor, Solaire becomes a true floating playground. Guests can step directly into clear, inviting waters, explore vibrant reefs with an impressive selection of water toys, or enjoy the thrill of the onboard slide, a standout feature that delights guests of all ages. Whether snorkeling, paddleboarding, or simply floating beneath the sun, every moment is designed for both adventure and relaxation.\n\nBetween adventures, Solaire offers inviting spaces to dine, relax, and reconnect, both indoors and out. Solaire isn’t just a yacht, but a celebration of the sun, the sea, and unforgettable charter days spent exactly as they should be.",
+  "blueprint": {
+    "name": "SOLAIRE",
+    "images": [
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::388a4190-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::3888baf0-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e36e0880-b965-11f0-be22-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e36ecbd0-b965-11f0-be22-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320df280-48a3-11f1-a2a0-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::a005f490-48a3-11f1-b8b2-a9831eabeace/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3727550-b965-11f0-be24-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3720020-b965-11f0-be24-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::32101560-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e37163e0-b965-11f0-be23-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3705270-b965-11f0-be22-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3781aa0-b965-11f0-a3ea-0360abd50dc5/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e371b200-b965-11f0-be22-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3744a11-b965-11f0-be25-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3744a10-b965-11f0-be25-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3727550-b965-11f0-be26-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320e67b0-48a3-11f1-a2a0-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e37645e0-b965-11f0-be26-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3750d60-b965-11f0-be26-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320e8ec0-48a3-11f1-a2a0-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e3755b80-b965-11f0-be26-2b3e98c250cf/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320edce0-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320e40a0-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320fa030-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::320fc740-48a3-11f1-a2a1-9d8e7dfa9c88/{imageVariant}",
+      "/media/media::image::a::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::e375a9a0-b965-11f0-be26-2b3e98c250cf/{imageVariant}"
+    ],
+    "make": "Two Oceans",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::a0201d4a-b3ee-11ed-a57f-325096b39f47",
+      "name": "Trellis Bay",
+      "coordinates": {
+        "latitude": 18.44711107,
+        "longitude": -64.53152425
+      },
+      "country": "British Virgin Islands"
+    },
+    "builtYear": 2025,
+    "topSpeed": 27,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "3"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 16.9,
+    "beam": 7.6,
+    "draft": 1.35,
+    "hullType": "",
+    "hullConstruction": "Fiberglass",
+    "tonnage": 0,
+    "engines": "Yanmar 370hp 8LV",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Solar Panels"
+      },
+      {
+        "label": "Dishwasher "
+      },
+      {
+        "label": " Underwater lights",
+        "quantity": "4"
+      },
+      {
+        "label": "Wine cooler"
+      },
+      {
+        "label": "Ice maker"
+      },
+      {
+        "label": "Propane BBQ"
+      },
+      {
+        "label": "Sun awning"
+      },
+      {
+        "label": "Ooni Pizza Oven"
+      },
+      {
+        "label": "Starlink Wifi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Swim platform"
+      },
+      {
+        "label": "Beach games"
+      },
+      {
+        "label": "Floating mats"
+      },
+      {
+        "label": "Inflatable tube"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Standup paddleboards"
+      },
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Fishing Gear"
+      },
+      {
+        "label": "Slide"
+      },
+      {
+        "label": "2 Person Kayak"
+      },
+      {
+        "label": "Tube"
+      },
+      {
+        "label": "Sea Scooters"
+      },
+      {
+        "label": ""
+      }
+    ],
+    "entertainment": [
+      "Underwater Camera/Video",
+      "Yoga Mats",
+      "Gym Equipment/ Dumbells",
+      "Floating Slings",
+      "Bote Hangout 360 with Bar Setup"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Sam Crone",
+      "avatar": "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::6b5c50f0-48a2-11f1-bae5-b187e318af74/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sam grew up in New Zealand, spending his childhood sailing and diving, which fostered a lifelong connection to the ocean.\n\nHe went on to serve as a Naval Officer in the Royal New Zealand Navy for 10 years, specializing in navigation. His career took him to many corners of the world, and his passion for exploration continues to guide his life at sea.\n\nIn his own time, Sam loves to dive, surf, and kitesurf. As a Divemaster who has explored waters throughout Indonesia, the Caribbean, and the Pacific—and as a certified sailing instructor—he enjoys sharing the beauty of the ocean both above and below the surface.\n\nSam genuinely enjoys making people happy, and that passion shines through in the world-class experiences he creates for his guests. Now in his fourth year as a charter captain, he is dedicated to showcasing the places he loves and looks forward to helping you create lifelong memories on the water."
+    },
+    {
+      "name": "Matilda Kopra",
+      "avatar": "/media/media::image::c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57::assets::88b6f6f0-48a2-11f1-b8b2-a9831eabeace/{imageVariant}",
+      "role": "Captain",
+      "bio": "A private chef with ten years of experience in the food and hospitality industry. Matilda's career has taken her across Europe, from private chalets in the French and Swiss Alps to yachts along the Mediterranean, where she has had the pleasure of cooking for guests in some of the most beautiful settings in the world.\nHer culinary approach is rooted in creating food that not only tastes great but also makes you feel good. She specialize in wholesome, health-forward cuisine that’s vibrant, balanced, and deeply satisfying. Mediterranean flavors are especially close to her heart. She loves working with fresh, seasonal ingredients to create dishes that are both nourishing and full of character. Matilda is happy to cater to any dietary preferences or restrictions, and always aims to create meals that align with the tastes and needs of each guest. Whether she is preparing a relaxed family-style or an elegant dinner menu, Matilda tailors every experience with care and attention to detail — always making food a highlight of your time away"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 3800000,
+      "displayCurrency": "USD",
+      "displayPrice": 3800000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 4100000,
+      "displayCurrency": "USD",
+      "displayPrice": 4100000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Winter 2025/2026 to Summer 2026: 2 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3800000,
+              "amount": 3800000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 0,
+              "amount": 0
+            }
+          ],
+          "total": 3800000,
+          "subTotal": 3800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2025/2026 to Summer 2026: 3 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3850000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3850000,
+              "amount": 3850000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3850000,
+          "subTotal": 3850000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2025/2026 to Summer 2026: 4 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3900000,
+          "subTotal": 3900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2025/2026 to Summer 2026: 5 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3950000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3950000,
+              "amount": 3950000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3950000,
+          "subTotal": 3950000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2025/2026 to Summer 2026: 6 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4000000,
+              "amount": 4000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4000000,
+          "subTotal": 4000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: 2 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3900000,
+          "subTotal": 3900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: 3 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3950000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3950000,
+              "amount": 3950000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3950000,
+          "subTotal": 3950000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: 4 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4000000,
+              "amount": 4000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4000000,
+          "subTotal": 4000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: 5 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4050000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4050000,
+              "amount": 4050000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4050000,
+          "subTotal": 4050000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: 6 Guests",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4100000,
+              "amount": 4100000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4100000,
+          "subTotal": 4100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.79221690684143,
+              18.050874527948764
+            ],
+            "bbox": [
+              -65.0236328125,
+              17.701708984375003,
+              -64.58046875,
+              18.385205078124997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

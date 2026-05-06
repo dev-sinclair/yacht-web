@@ -1,0 +1,444 @@
+{
+  "lastModified": 1761562977021,
+  "uri": "c::18286556996::vessel::052c0990-ab20-11ef-8402-7324fd187724",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Base / Home Port: Royal Marina, Phuket\nOperating Area: Thailand\n\nFIFTY is a 15.7m / 51ft Catamaran Luxury Yacht built in 2024 by Leopard. Sleeping 6 guests in 3 cabins and with a crew of 2. Cruising at 9.00 kn/ph with a top speed of 14.00 kn/ph.",
+  "blueprint": {
+    "name": "FIFTY",
+    "images": [
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf1abf0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf862b0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf22120-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cfafac0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf29650-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf8d7e0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cecf100-ab22-11ef-8cbf-6d296f200e1f/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf02550-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ceddb60-ab22-11ef-9dcd-836be1e2df38/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf9e950-ab22-11ef-a1bf-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf46b10-ab22-11ef-805e-7bed9e0db71b/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf3ced0-ab22-11ef-9dcd-836be1e2df38/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ceb4350-ab22-11ef-8cbf-6d296f200e1f/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ceeecd0-ab22-11ef-8cbf-6d296f200e1f/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cec54c0-ab22-11ef-9dcd-836be1e2df38/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf6b500-ab22-11ef-89c3-253033c5bc41/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ced3f20-ab22-11ef-805e-7bed9e0db71b/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf57c80-ab22-11ef-89c2-253033c5bc41/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cee9eb0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf63fd0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf94d10-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf77850-ab22-11ef-89c2-253033c5bc41/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ce9e3c0-ab22-11ef-9dcd-836be1e2df38/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf4b930-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf57c80-ab22-11ef-89c4-253033c5bc41/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cfb9700-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ced3f20-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cea8000-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf5a390-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf6b500-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf10fb0-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6ceddb60-ab22-11ef-a1be-53d9d73ad2db/{imageVariant}",
+      "/media/media::image::a::vessel::052c0990-ab20-11ef-8402-7324fd187724::assets::6cf10fb0-ab22-11ef-805e-7bed9e0db71b/{imageVariant}"
+    ],
+    "make": "Leopard",
+    "model": "Leopard 50",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::c0aca5a0-5b40-11f0-b754-fdd0b7a79128",
+      "name": "Royal Phuket Marina",
+      "coordinates": {
+        "latitude": 7.966104889498389,
+        "longitude": 98.39002128960638
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 15,
+    "builtYear": 2024,
+    "topSpeed": 14,
+    "cruiseSpeed": 9,
+    "fuelCapacity": 0,
+    "cabinLayout": [],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 15.7,
+    "beam": 8.04,
+    "draft": 1.61,
+    "hullType": "Catamaran",
+    "toys": [
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Fishing gear"
+      },
+      {
+        "label": "Snorkeling gear"
+      }
+    ],
+    "entertainment": [
+      "Speakers"
+    ],
+    "tenders": [
+      "Beach Tender"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 362500,
+      "displayCurrency": "USD",
+      "displayPrice": 362500,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 1551500,
+      "displayCurrency": "USD",
+      "displayPrice": 1551500,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "1D-low",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 362500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 362500,
+              "amount": 362500,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 387875,
+          "subTotal": 362500,
+          "totalTax": 25375.000000000004
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "1D-high",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 435000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 435000,
+              "amount": 435000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 465450,
+          "subTotal": 435000,
+          "totalTax": 30450.000000000004
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2D1N",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 826500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 826500,
+              "amount": 826500,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.1,
+              "unitPrice": 826500,
+              "amount": 82650
+            }
+          ],
+          "total": 967005,
+          "subTotal": 909150,
+          "totalTax": 57855.00000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "3D2N",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1189000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1189000,
+              "amount": 1189000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              },
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.1,
+              "unitPrice": 1189000,
+              "amount": 118900
+            }
+          ],
+          "total": 1391130,
+          "subTotal": 1307900,
+          "totalTax": 83230.00000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "4D3N",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1551500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1551500,
+              "amount": 1551500,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              },
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.1,
+              "unitPrice": 1551500,
+              "amount": 155150
+            }
+          ],
+          "total": 1815255,
+          "subTotal": 1706650,
+          "totalTax": 108605.00000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

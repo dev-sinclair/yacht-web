@@ -1,0 +1,615 @@
+{
+  "lastModified": 1772833652252,
+  "uri": "c::10923570597::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Southern Andaman Seas (Phuket and Surroundings, Mu Ko Similan Marine Park, Phang Nga Bay and Krabi, Phi Phi Islands, Racha Islands, Koh Lipe and Butang Archipelago, Koh Samui, Koh Chang, Krabi National Park)\n\nEmbark on a luxurious maritime adventure with Major Affair, a Sunseeker 90 crafted in 2007. This vessel offers spacious  accommodation for up to 8 guests overnight in 4 lavish suites.\n\nFor day charters, Major Affair can host up to 30 guests, providing an extraordinary experience around Phuket and its breathtaking surroundings.\n\nEnjoy the comfort of its well-designed cabins and indulge in the variety of water toys, including waterskis, wakeboards, snorkeling sets, and more. Major Affair is not just a yacht; it's a floating haven designed to elevate every moment at sea.\n\nWhether you're planning an intimate overnight stay or a lively day trip, Major Affair promises an unparalleled maritime experience, combining sophistication, comfort, and the thrill of the open waters.",
+  "blueprint": {
+    "name": "MAJOR AFFAIR",
+    "images": [
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f207a7b0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20d4d00-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f1d15570-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2047360-dfb4-11ef-bb06-0939d960c0e8/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f1f8daa0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21bf300-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20cb0c0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20c3b90-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f204c180-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2070b70-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20c3b91-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21ba4e0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f1e70050-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2033ae0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20d9b20-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21a9370-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20b2a20-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20c62a0-dfb4-11ef-b4b6-79da848dccce/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20b0310-dfb4-11ef-9760-7b485a32beed/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2044c50-dfb4-11ef-b4b6-79da848dccce/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20a66d0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20adc00-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21c1a10-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2219850-dfb4-11ef-9760-7b485a32beed/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20bed70-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2047360-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2214a30-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21f4e60-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2055dc0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f1f6b7c0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21b2fb0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f21da0b0-dfb4-11ef-bb06-0939d960c0e8/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2153c40-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f221bf60-dfb4-11ef-85c8-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f220adf0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2066f30-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20cd7d0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f1df8640-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f208e030-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20780a0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f20cfee0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2042540-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2212320-dfb4-11ef-85c8-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f205abe0-dfb4-11ef-85c7-61d77d5e44f6/{imageVariant}",
+      "/media/media::image::a::vessel::a1ce9da0-dfb2-11ef-832a-65064de5102b::assets::f2050fa0-dfb4-11ef-9760-7b485a32beed/{imageVariant}"
+    ],
+    "make": "Sunseeker",
+    "maxCrew": 6,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::c0aca5a0-5b40-11f0-b754-fdd0b7a79128",
+      "name": "Royal Phuket Marina",
+      "coordinates": {
+        "latitude": 7.966104889498389,
+        "longitude": 98.39002128960638
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 30,
+    "builtYear": 2007,
+    "topSpeed": 28,
+    "cruiseSpeed": 21,
+    "fuelCapacity": 8500,
+    "cabinLayout": [],
+    "cabins": 4,
+    "length": 27.99,
+    "beam": 6.3,
+    "draft": 2.01,
+    "engines": "2 x MTU 2000 HP",
+    "toys": [
+      {
+        "label": "Waterskis"
+      },
+      {
+        "label": "Wakeboards"
+      },
+      {
+        "label": "Snorkeling sets"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 1067499,
+      "displayCurrency": "USD",
+      "displayPrice": 1067499,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 3559323.0000000005,
+      "displayCurrency": "USD",
+      "displayPrice": 3559323.0000000005,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Day Charter Price (May-Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1067499,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1067499,
+              "amount": 1067499,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1067499,
+          "subTotal": 1067499,
+          "totalTax": 74724.93000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter Price (Dec-April)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1186441,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1186441,
+              "amount": 1186441,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1186441,
+          "subTotal": 1186441,
+          "totalTax": 83050.87000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 2 Day / 1 Night (May-Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1992268.9999999998,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1992268.9999999998,
+              "amount": 1992268.9999999998,
+              "conditions": "2 Day / 1 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 1992268.9999999998,
+          "subTotal": 1992268.9999999998,
+          "totalTax": 139458.83
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 2 Day / 1 Night (Dec-April)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2200417,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2200417,
+              "amount": 2200417,
+              "conditions": "2 Day / 1 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2200417,
+          "subTotal": 2200417,
+          "totalTax": 154029.19
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 3 Day / 2 Night (May-Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2557241,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2557241,
+              "amount": 2557241,
+              "conditions": "3 Day / 2 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2557241,
+          "subTotal": 2557241,
+          "totalTax": 179006.87000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 3 Day / 2 Night (Dec-April)",
+        "effectiveDates": [
+          {
+            "from": "2025-11-30T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-30T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-30T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2765388,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2765388,
+              "amount": 2765388,
+              "conditions": "3 Day / 2 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 2765388,
+          "subTotal": 2765388,
+          "totalTax": 193577.16000000003
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 4 Day / 3 Night (May-Nov)",
+        "effectiveDates": [
+          {
+            "from": "2025-05-01T00:00:00.000Z",
+            "to": "2025-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3202498,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3202498,
+              "amount": 3202498,
+              "conditions": "4 Day / 3 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 3202498,
+          "subTotal": 3202498,
+          "totalTax": 224174.86000000002
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Charter Price: 4 Day / 3 Night (Dec-April)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3559323.0000000005,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3559323.0000000005,
+              "amount": 3559323.0000000005,
+              "conditions": "4 Day / 3 Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 3559323.0000000005,
+          "subTotal": 3559323.0000000005,
+          "totalTax": 249152.61000000004
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

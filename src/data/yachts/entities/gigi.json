@@ -1,0 +1,757 @@
+{
+  "lastModified": 1776939518731,
+  "uri": "c::9938368400::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7",
+  "yachtType": [
+    "Power Catamaran",
+    "Motor"
+  ],
+  "description": "Operating Area: \nSummer - Corsica, French Riviera & Monaco, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland), Provence Coast & Marseille\n\nStep aboard M/Y GIGI, the newest gem in the Sunreef 70 Power line, launched in 2025 and crafted to impress even the most discerning charter guests. More than just a yacht, GIGI is a floating art gallery, where contemporary design meets timeless elegance.\n\nFrom the moment you arrive, her generous volumes, curated interiors, and fluid indoor-outdoor living spaces set the tone for an experience that is both luxurious and intimate. Think panoramic sea views, sun-drenched lounges, and the soft touch of bespoke materials underfoot.\n\nWhether you're sipping cocktails on the flybridge, discovering secret coves by Seabob, or unwinding in one of the four serene staterooms, GIGI delivers effortless style with a sense of warmth and soul.\n\nAs one of the finest showcases of Sunreef’s signature savoir-faire at sea, GIGI offers a truly immersive way to experience the brand’s world-renowned craftsmanship and innovation.\n\nThis is not just a holiday, it’s your personal escape, sculpted in sunlight and sea breeze.",
+  "blueprint": {
+    "name": "GIGI",
+    "images": [
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3242ce0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32390a0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3303ad0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3317350-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32cb860-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3264fc0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3343270-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3339630-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b332d2e0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3282480-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b332abd0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b333bd40-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32fecb0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b325da90-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3343271-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b334f5c0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b331c170-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32899b0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b335e020-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b362e390-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b334a7a0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b327d660-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3269de1-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b36617e0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b332f9f0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3314c40-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b327fd70-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32935f0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3336f20-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b331e880-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3269de0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3253e50-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3251740-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b32f0250-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b339b0b0-45f2-11f0-af14-1d44837ae120/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b33c48c0-45f2-11f0-a5c3-c19cf3c3b572/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b334ceb0-45f2-11f0-897e-4d47296a31b7/{imageVariant}",
+      "/media/media::image::a::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::b3387830-45f2-11f0-af14-1d44837ae120/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "model": "Sunreef 70 Power",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::03cecaf0-4d93-11ef-897f-8b3f264c9e41",
+      "name": "Portisco",
+      "coordinates": {
+        "latitude": 41.03873516514346,
+        "longitude": 9.518687822878418
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2025,
+    "architect": "Sunreef Yachts",
+    "interiorDesigner": "",
+    "topSpeed": 0,
+    "cruiseSpeed": 13,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 21.3,
+    "beam": 11.35,
+    "draft": 1.7,
+    "hullType": "Multi hull",
+    "hullConstruction": "GRP",
+    "tonnage": 86,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2x MAN i6-850 hp",
+    "amenities": [
+      {
+        "label": "Sun lounges"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Generators",
+        "quantity": "2"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabobs",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddleboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Water Skis – 1 set for Adults + 1 set of Training child Skis"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Kayaks",
+        "quantity": "2"
+      },
+      {
+        "label": "Donut ringo towable",
+        "quantity": "1"
+      },
+      {
+        "label": "Jobe Inflatables (for 3 persons, 2 persons)",
+        "quantity": "2"
+      },
+      {
+        "label": "JOBE Retrait (6 pax)",
+        "quantity": "1"
+      },
+      {
+        "label": "JOBE Manta Mats",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection"
+    ],
+    "tenders": [
+      "Tender Williams 505 (6 pax)"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Cheyne Bik",
+      "avatar": "/media/media::image::c::9938368400::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::10009e40-3efd-11f1-9ad1-9d597b6672c8/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: South African/German\nLanguages: English, German\n\nCaptain Cheyne is a qualified captain with 10 years of experience in the yachting industry, with strong knowledge of the Balearics and extensive experience across the Mediterranean. He is committed to running safe, well-managed operations on board, ensuring both owners and guests enjoy their time at sea with confidence and peace of mind.\n\nWith experience commanding and supporting a range of vessels, including Sunreef, Horizon Elegance, Benetti, Sunseeker, and larger motor yachts, he brings a strong background in navigation, route planning, crew management, guest operations, and vessel maintenance. His technical understanding is supported by AEC1 engine room knowledge, allowing him to oversee machinery, maintenance schedules, warranty periods, and overall vessel performance with a practical and hands-on approach.\n\nCheyne is also confident in overseeing budgets, shipyard periods, safety protocols, and day-to-day yacht administration, while maintaining high standards on board for both crew and guests. Attentive, capable, and performance-driven, he brings a calm leadership style, a strong sense of responsibility, and a genuine passion for life on the water."
+    },
+    {
+      "name": "Byron Young",
+      "avatar": "/media/media::image::c::9938368400::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::41d80480-3efd-11f1-81a8-db0ba8892397/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: South African\nLanguages: Afrikaans, English\n\nByron is a motivated and hardworking deckhand with practical experience across yacht maintenance, tender driving, line handling, navigation support, and general deck operations. Having grown up on the east coast of South Africa, he brings a natural connection to the sea along with a strong willingness to learn and develop further within the industry.\n\nHe has supported a range of day-to-day deck responsibilities, including washdowns, teak care, anchor duties, safety drills, inventory checks, exterior detailing, and charter setup. His hands-on approach, combined with his energetic personality and team-oriented mindset, allows him to contribute positively across different areas on board while maintaining strong operational standards.\n\nReliable, well-natured, and eager to progress, Byron is committed to building his experience at sea while supporting both captain and crew wherever needed. His adaptable attitude and strong work ethic make him a valuable addition to a professional yacht environment."
+    },
+    {
+      "name": "Fabiana Alves",
+      "avatar": "/media/media::image::c::9938368400::vessel::f7365760-3a25-11f0-bfc9-c38d371d38e7::assets::7ceed170-3efd-11f1-81df-a71ece853ee4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Spanish/Brazilian\nLanguages: Spanish, Portuguese, English\n\nFabiana is an experienced Stewardess with a strong hospitality background and hands-on experience across motor yachts, sailing yachts, and catamarans. She is confident across guest service, interior upkeep, provisioning, and day-to-day onboard support, always bringing a reliable, organised, and proactive approach to her work.\n\nWith a strong eye for detail and a practical, adaptable mindset, Fabiana takes pride in maintaining high interior standards while helping create a clean, welcoming, and comfortable environment on board. She is also happy to assist across different areas when needed, making her a versatile and dependable member of the crew.\n\nHaving worked on both private and charter vessels, Fabiana brings a warm service style, a positive attitude, and strong hospitality instincts to every role. Her multilingual abilities and recent superyacht cocktail training further support her ability to deliver a polished and professional onboard experience."
+    },
+    {
+      "name": "TBC",
+      "role": "Captain",
+      "bio": "To be advised "
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6800000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 7900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Med Low Season (all other months)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6800000,
+              "amount": 6800000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 6800000,
+              "amount": 1700000
+            }
+          ],
+          "total": 8500000,
+          "subTotal": 8500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Med Mid Season (May 1st - June 14th & September 16th - October 31st)",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7600000,
+              "amount": 7600000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 7600000,
+              "amount": 1900000
+            }
+          ],
+          "total": 9500000,
+          "subTotal": 9500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Med High Season (June 15th - September 15th)",
+        "effectiveDates": [
+          {
+            "from": "2026-06-15T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-15T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-15T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7900000,
+              "amount": 7900000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 7900000,
+              "amount": 1975000
+            }
+          ],
+          "total": 9875000,
+          "subTotal": 9875000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

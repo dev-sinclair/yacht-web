@@ -1,0 +1,686 @@
+{
+  "lastModified": 1772832379988,
+  "uri": "c::10923570597::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor",
+    "Classic"
+  ],
+  "description": "Operating Area: Southern Andaman Seas (Phuket and Surroundings, Mu Ko Similan Marine Park, Phang Nga Bay and Krabi, Phi Phi Islands, Racha Islands, Koh Lipe and Butang Archipelago, Koh Samui, Koh Chang, Krabi National Park)\n\nExperience the pinnacle of luxury aboard Camara C, an exquisite gentleman's yacht now available for charter. Immerse yourself in the timeless beauty of this meticulously restored vessel, which has recaptured its former glory from 1961, offering an unparalleled experience for discerning travelers. Anchored in the enchanting waters of Phuket, Camara C awaits to take you on a voyage of discovery through the hidden gems of the Andaman Sea.\n\nWith its impressive length of 32m/105', Camara C boasts spacious and opulent accommodations for up to 10 guests across 5 suites. Every detail has been carefully considered to ensure maximum privacy and comfort, with distinct areas for guests and crew. Prepare to be pampered and indulged as you embark on an extraordinary super yacht charter experience.",
+  "blueprint": {
+    "name": "CAMARA C",
+    "images": [
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0ada3020-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afad780-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afa6250-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af1d6d0-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aee5460-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af2c130-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af29a20-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af72e00-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b2717a0-df4a-11ef-b4d1-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aec0a70-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af24c00-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0adb8fb0-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0ac855d0-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af81860-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afb73c0-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af691c0-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afa1430-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aee7b70-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af0ec70-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0ab47fb0-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aeef0a0-df4a-11ef-8e1a-f3955560c87f/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af0ec70-df4a-11ef-8bcd-f3f079b299be/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aebe360-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af3f9b0-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aecf4d0-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af33660-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b0055c0-df4a-11ef-8bcd-f3f079b299be/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af1d6d0-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0abb5d80-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af81861-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aedb820-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af53230-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af27310-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af00210-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af61c90-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afbe8f0-df4a-11ef-b4d1-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af902c0-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af1fde0-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b02c6c0-df4a-11ef-8bcd-f3f079b299be/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aec5890-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af38480-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af2c130-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af188b0-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aef65d0-df4a-11ef-8e1a-f3955560c87f/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af8dbb0-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afad780-df4a-11ef-b4d1-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0afc3710-df4a-11ef-b4d1-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af9c610-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af09e50-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b03b120-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af58050-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b245880-df4a-11ef-8bcd-f3f079b299be/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aef3ec0-df4a-11ef-a852-5d073245135e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af420c0-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aeef0a0-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af4bd00-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af13a90-df4a-11ef-8e1a-f3955560c87f/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af1afc0-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af977f0-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b10a970-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aee0640-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aed9110-df4a-11ef-8bcd-f3f079b299be/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af75510-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af188b0-df4a-11ef-8a21-ffbdeb6b7c10/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af7ca40-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af35d70-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0b265450-df4a-11ef-b4d1-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0ab59120-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af53230-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0aee2d50-df4a-11ef-8e1a-f3955560c87f/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af643a0-df4a-11ef-b4d0-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af38480-df4a-11ef-b4cf-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0ac7e0a0-df4a-11ef-b4ce-5b7e78b251df/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::0af2e840-df4a-11ef-8da0-235bf7cc7fbf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d851f3a0-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d8530510-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d865a2b1-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d865a2b0-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d8772ee0-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d889cc80-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d88a41b0-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d878b580-df4d-11ef-a655-ad294a2fca08/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d889a570-df4d-11ef-bdc2-f7dd948205c6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d88addf0-df4d-11ef-bdc2-f7dd948205c6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::d8936970-df4d-11ef-a655-ad294a2fca08/{imageVariant}"
+    ],
+    "make": "Yarrow & Co.",
+    "model": "Yarrow & Co Classic Cruiser 1961",
+    "maxCrew": 7,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::c0aca5a0-5b40-11f0-b754-fdd0b7a79128",
+      "name": "Royal Phuket Marina",
+      "coordinates": {
+        "latitude": 7.966104889498389,
+        "longitude": 98.39002128960638
+      },
+      "country": "Thailand"
+    },
+    "cruisingCapacity": 10,
+    "builtYear": 1961,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2022,
+    "topSpeed": 12,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 16500,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "3"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 5,
+    "bathrooms": 5,
+    "length": 32,
+    "beam": 6,
+    "draft": 3,
+    "hullType": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x Gardner 230 HP",
+    "amenities": [
+      {
+        "label": "Air Conditioning",
+        "quantity": "6"
+      },
+      {
+        "label": "Wi-Fi",
+        "quantity": "2"
+      },
+      {
+        "label": "BBQ/Grill",
+        "quantity": "1"
+      },
+      {
+        "label": "Safety Equipment",
+        "quantity": "1"
+      },
+      {
+        "label": "Life Jackets",
+        "quantity": "1"
+      },
+      {
+        "label": "Medical Equipment ",
+        "quantity": "1"
+      },
+      {
+        "label": "Flybridge",
+        "quantity": "1"
+      },
+      {
+        "label": "Flybridge cushions",
+        "quantity": "1"
+      },
+      {
+        "label": "Sun Awnings",
+        "quantity": "1"
+      },
+      {
+        "label": "Teak Deck",
+        "quantity": "1"
+      },
+      {
+        "label": "Iridium Satellite phone"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Board Games",
+        "quantity": "5"
+      },
+      {
+        "label": "Fishing Equipment",
+        "quantity": "2"
+      },
+      {
+        "label": "Snorkeling Equipment",
+        "quantity": "10"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Water ski",
+        "quantity": "1"
+      },
+      {
+        "label": "Paddleboard",
+        "quantity": "2"
+      },
+      {
+        "label": "Kayaks",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "Bluetooth Speakers",
+      "42-inch Salon TV",
+      "Satellite TV",
+      "Netflix",
+      "Movie Library",
+      "iPod docking stations",
+      "TV in all cabins"
+    ],
+    "tenders": [
+      "5.5-meter Tender with 225 HP engine"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Eric-Yves Meudal",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::35a79830-df48-11ef-ab3e-0b0d23707481/{imageVariant}",
+      "role": "Captain",
+      "bio": "Eric has more than 25 years' experience in the maritime industry and is Captain on board CAMARA C since 2020. During his career, he has extensively cruised Thailand, Malaysia, Myanmar, Andaman Sea, New Caledonia, but also Australia, New Zealand, and Vanuatu. Eric became Captain of his first yacht in 2016 and gained experience on both charter and private yachts. Eric got his French Master of Law in 1990 and his Captain 200 UMS certificate in 1996. Не is thrilled to work on board the beautiful CAMARA C and he cannot wait to take you around the wonderful land of Thailand."
+    },
+    {
+      "name": "Lee Thai",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::5cf5d9b0-df48-11ef-8f59-f1550bd40248/{imageVariant}",
+      "role": "Captain",
+      "bio": "Lee is an experienced Captain that cruised in Thailand for 14 years and with Captain Eric Meudal for 7 years!"
+    },
+    {
+      "name": "Ailyn Martinez",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::97fdd990-df48-11ef-88ae-3d9d4a4df9f2/{imageVariant}",
+      "role": "Captain",
+      "bio": "Originally from the Philippines, Ailyn joined the yachting industry in 2015. She has been onboard CAMARA C for almost three years now working as a Chief Stewardess. She loves communicating with people and she always aims at providing guests with unforgettable experiences. Ailyn worked on board both motor and sailing yachts up to 40 meters as Chief and Solo Stewardess and Head of the Interior. Her experience has made her flexible with all interior areas and provided her with valuable knowledge and skills. She speaks English and cannot wait to welcome new guests on board CAMARA C."
+    },
+    {
+      "name": "Mark Lin Jaco Eballes",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::b6db9d20-df48-11ef-8f59-f1550bd40248/{imageVariant}",
+      "role": "Captain",
+      "bio": "Originally from the Philippines, Mark is very passionate about his job. He previously worked on CAMARA C in 2019 as First Officer/Deckhand and now is thrilled to be back as Chief Engineer of the yacht with the AECI MCA certification. Mark completed his technical studies in 2017 and is very action orientated and a pro-active solution finder. He will make sure CAMARA C's guests and crew are always in a safe environment."
+    },
+    {
+      "name": "Jomkwan (Kwan) Konklong",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::ef32add0-df48-11ef-a655-ad294a2fca08/{imageVariant}",
+      "role": "Captain",
+      "bio": "Chef Kwan is an International & Thai Food Specialist with three decades of experience in the kitchen. His passion is to enhance the experience of guests abroad Camara C. Kwan's ever positive attitude and beaming smile are the secret ingredients to the delightful culinary experience he delivers daily. A great communicator in Thai & English, he is always eager to cater his menus to his guests desires."
+    },
+    {
+      "name": "Rowena Abello",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::1470fb10-df49-11ef-a655-ad294a2fca08/{imageVariant}",
+      "role": "Captain",
+      "bio": "Rowena is from the Philippines. She has more than four years of experience in the hospitality industry and is comfortable with housekeeping. During her career, she worked as a waitress & front desk manager in a restaurant in Phuket called \"La Dolce Vita\"; as a waitress and cook in a restaurant in Singapore and as a Stewardess on yachts based in Thailand since 2020. Rowena is very passionate about her job, and she will make sure the guests on board CAMARA C have an amazing time."
+    },
+    {
+      "name": "Francis",
+      "avatar": "/media/media::image::a::vessel::d5cca2fa-fe8c-11ed-889f-43d4bb723744::assets::3854e870-df49-11ef-a655-ad294a2fca08/{imageVariant}",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 4200000,
+      "displayCurrency": "USD",
+      "displayPrice": 4200000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 8300000,
+      "displayCurrency": "USD",
+      "displayPrice": 8300000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 9600000,
+      "displayCurrency": "USD",
+      "displayPrice": 9600000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 9600000,
+      "displayCurrency": "USD",
+      "displayPrice": 9600000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Overnight charter price: 3D/2N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 4200000,
+          "subTotal": 4200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 4D/3N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5600000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5600000,
+              "amount": 5600000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 5600000,
+          "subTotal": 5600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 5D/4N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7000000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7000000,
+              "amount": 7000000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 7000000,
+          "subTotal": 7000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 6D/5N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 8300000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8300000,
+              "amount": 8300000,
+              "conditions": "Daily"
+            }
+          ],
+          "total": 8300000,
+          "subTotal": 8300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight charter price: 7D/6N",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9600000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9600000,
+              "amount": 9600000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 9600000,
+          "subTotal": 9600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Sea",
+            "type": "Custom Area",
+            "category": [
+              "Andaman Sea"
+            ],
+            "coordinates": [
+              95.35999219051513,
+              10.890239275030604
+            ],
+            "bbox": [
+              92.20003665565187,
+              5.569014390480589,
+              98.87601159057434,
+              16.512170721904525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
