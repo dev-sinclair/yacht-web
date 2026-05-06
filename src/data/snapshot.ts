@@ -13,17 +13,41 @@
  */
 
 import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import type { YachtCard } from "./types/yacht";
 import type { VesselEntity } from "../lib/ankor/types";
 
-// Resolve relative to this file rather than process.cwd() so it works the
-// same in dev (cwd = project root) and in Vercel's bundled function (cwd
-// can be /var/task).
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const SNAPSHOT_DIR = resolve(__dirname, "yachts");
+// Locate the snapshot directory.
+//
+// In dev (Astro dev server): this file is at its real path on disk, so
+// resolving relative to import.meta.url works. process.cwd() is the
+// project root, so that also works.
+//
+// In production (Vercel's bundled function): Vite collapses snapshot.ts
+// into a server bundle, so import.meta.url no longer points at the
+// original source location. Vercel sets cwd to the function root
+// (`/var/task`), and our astro.config.mjs `includeFiles` ships the
+// snapshot at `<cwd>/src/data/yachts/`. So cwd-based resolution wins.
+//
+// Try both and use whichever one finds index.json — keeps behaviour
+// identical in dev/prod and tolerates future runtime quirks.
+function resolveSnapshotDir(): string {
+  const candidates = [
+    join(process.cwd(), "src", "data", "yachts"),
+    resolve(dirname(fileURLToPath(import.meta.url)), "yachts"),
+  ];
+  for (const dir of candidates) {
+    if (existsSync(join(dir, "index.json"))) return dir;
+  }
+  // Neither candidate exists — fall back to cwd-based path so the error
+  // message names a sensible location.
+  return candidates[0]!;
+}
+
+const SNAPSHOT_DIR = resolveSnapshotDir();
 const INDEX_FILE = join(SNAPSHOT_DIR, "index.json");
 const MANIFEST_FILE = join(SNAPSHOT_DIR, "manifest.json");
 const ENTITIES_DIR = join(SNAPSHOT_DIR, "entities");
