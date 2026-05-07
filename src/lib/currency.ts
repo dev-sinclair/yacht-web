@@ -4,9 +4,20 @@
 // client-side using rates fetched from /api/fx-rates.json (proxied + edge-cached
 // from open.er-api.com), with a hardcoded fallback for resilience.
 
-export type SupportedCurrency = "EUR" | "USD" | "GBP";
+// Currencies we both display in AND convert from. The user-facing display
+// switcher exposes a subset (EUR/USD/GBP) — see DISPLAY_CURRENCIES below — but
+// the catalogue's sort needs to convert FROM AUD and AED yacht prices into
+// EUR-equivalents for accurate "Price: low to high" ordering, so they live
+// in the support set too.
+export type SupportedCurrency = "EUR" | "USD" | "GBP" | "AUD" | "AED";
 
-export const SUPPORTED_CURRENCIES: SupportedCurrency[] = ["EUR", "USD", "GBP"];
+export const SUPPORTED_CURRENCIES: SupportedCurrency[] = [
+  "EUR", "USD", "GBP", "AUD", "AED",
+];
+
+// User-selectable display currencies (powers the price-display switcher).
+// AUD and AED are conversion-source-only; we don't expose them as targets.
+export const DISPLAY_CURRENCIES: SupportedCurrency[] = ["EUR", "USD", "GBP"];
 
 // Hardcoded fallback rates relative to EUR, used when the live fetch hasn't
 // arrived yet OR when both the API and the localStorage cache are unavailable.
@@ -15,6 +26,8 @@ const FALLBACK_RATES: Record<SupportedCurrency, number> = {
   EUR: 1,
   USD: 1.08,
   GBP: 0.85,
+  AUD: 1.65,
+  AED: 3.95,
 };
 
 const CURRENCY_STORAGE_KEY = "sinclair:currency";
@@ -68,7 +81,9 @@ function loadCachedRates(): CachedRates | null {
       typeof parsed?.fetchedAt !== "number" ||
       typeof parsed?.rates?.EUR !== "number" ||
       typeof parsed?.rates?.USD !== "number" ||
-      typeof parsed?.rates?.GBP !== "number"
+      typeof parsed?.rates?.GBP !== "number" ||
+      typeof parsed?.rates?.AUD !== "number" ||
+      typeof parsed?.rates?.AED !== "number"
     ) {
       return null;
     }
@@ -96,12 +111,14 @@ async function fetchLiveRates(): Promise<CachedRates | null> {
     if (
       typeof r?.EUR !== "number" ||
       typeof r?.USD !== "number" ||
-      typeof r?.GBP !== "number"
+      typeof r?.GBP !== "number" ||
+      typeof r?.AUD !== "number" ||
+      typeof r?.AED !== "number"
     ) {
       return null;
     }
     return {
-      rates: { EUR: r.EUR, USD: r.USD, GBP: r.GBP },
+      rates: { EUR: r.EUR, USD: r.USD, GBP: r.GBP, AUD: r.AUD, AED: r.AED },
       fetchedAt: typeof data.fetchedAt === "number" ? data.fetchedAt : Date.now(),
     };
   } catch {

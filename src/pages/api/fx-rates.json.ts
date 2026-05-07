@@ -9,12 +9,15 @@ import type { APIRoute } from "astro";
 const UPSTREAM = "https://open.er-api.com/v6/latest/EUR";
 
 // Sanity bounds: any rate outside these is treated as a bad response.
-// (USD has historically ranged ~0.85–1.6 vs EUR; GBP ~0.55–1.0.)
+// USD ~0.85–1.6 vs EUR; GBP ~0.55–1.0; AUD ~1.4–2.0; AED is USD-pegged
+// so its EUR rate tracks USD * 3.67 ≈ 3.5–4.5.
 const USD_BOUNDS = { min: 0.5, max: 2.0 };
 const GBP_BOUNDS = { min: 0.5, max: 1.5 };
+const AUD_BOUNDS = { min: 1.0, max: 2.5 };
+const AED_BOUNDS = { min: 3.0, max: 5.0 };
 
 const FALLBACK = {
-  rates: { EUR: 1, USD: 1.08, GBP: 0.85 },
+  rates: { EUR: 1, USD: 1.08, GBP: 0.85, AUD: 1.65, AED: 3.95 },
   fetchedAt: 0,        // 0 = "we don't actually know how fresh this is"
   source: "fallback",
 };
@@ -44,13 +47,22 @@ export const GET: APIRoute = async () => {
     }
     const usd = data.rates.USD;
     const gbp = data.rates.GBP;
-    if (!inRange(usd, USD_BOUNDS) || !inRange(gbp, GBP_BOUNDS)) {
-      throw new Error(`rate out of bounds: USD=${usd}, GBP=${gbp}`);
+    const aud = data.rates.AUD;
+    const aed = data.rates.AED;
+    if (
+      !inRange(usd, USD_BOUNDS) ||
+      !inRange(gbp, GBP_BOUNDS) ||
+      !inRange(aud, AUD_BOUNDS) ||
+      !inRange(aed, AED_BOUNDS)
+    ) {
+      throw new Error(
+        `rate out of bounds: USD=${usd}, GBP=${gbp}, AUD=${aud}, AED=${aed}`,
+      );
     }
 
     return new Response(
       JSON.stringify({
-        rates: { EUR: 1, USD: usd, GBP: gbp },
+        rates: { EUR: 1, USD: usd, GBP: gbp, AUD: aud, AED: aed },
         fetchedAt: (data.time_last_update_unix ?? Math.floor(Date.now() / 1000)) * 1000,
         source: "live",
       }),

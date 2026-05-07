@@ -1,7 +1,6 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
-import CurrencySelector from "./CurrencySelector.astro";
 
 interface Props {
   transparent?: boolean;
@@ -58,9 +57,8 @@ const links = [
         style={transparent ? "background-color: white" : "background-color: #151A24"}></span>
     </button>
 
-    <!-- Right: currency selector + logo -->
+    <!-- Right: logo -->
     <div class="flex items-center gap-4 sm:gap-6">
-      <CurrencySelector transparent={transparent} />
       <a href="/" class="flex items-center gap-3">
         <span
           id="logo-text"

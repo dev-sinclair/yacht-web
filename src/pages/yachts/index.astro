@@ -60,26 +60,70 @@ const stubFacets: YachtFacets = {
             </h2>
           </div>
 
+          <!-- Sort bar: separate from filter sidebar. Sort is page-level state
+               that composes with filters and pagination. -->
+          <div class="mb-6 flex flex-wrap items-center justify-end gap-3 border-b border-charcoal/10 pb-4 text-[11px] font-medium tracking-[0.2em] uppercase">
+            <label for="yacht-sort" class="text-taupe">Sort</label>
+            <select
+              id="yacht-sort"
+              class="num border border-charcoal/20 bg-transparent px-3 py-1.5 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-charcoal cursor-pointer"
+            >
+              <option value="default">Default</option>
+              <option value="name-asc">Name A–Z</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="length-desc">Length: long to short</option>
+              <option value="length-asc">Length: short to long</option>
+            </select>
+          </div>
+
+          <!-- Anchor for "scroll to grid top" on page change -->
+          <div id="fleet-top"></div>
+
           <!-- Skeleton grid (replaced once /api/yachts.json resolves) -->
           <div id="fleet" class="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
             {Array.from({ length: 9 }).map(() => <YachtCardSkeleton />)}
           </div>
 
-          <!-- View More + extra grid (populated after data loads) -->
-          <div class="mt-10 flex justify-center" id="view-more-wrapper" hidden>
+          <!-- Pagination (populated client-side; hidden until data loads) -->
+          <nav
+            id="pagination"
+            class="mt-10 flex items-center justify-center gap-6 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+            hidden
+            aria-label="Yacht catalogue pagination"
+          >
             <button
-              id="view-more-btn"
+              id="page-prev"
               type="button"
-              class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal hover:bg-charcoal hover:text-white transition-colors duration-300"
+              class="inline-flex items-center gap-2 border border-charcoal/20 px-5 py-2.5 transition-colors duration-300 hover:bg-charcoal hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
             >
-              View More
-              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M19 9l-7 7-7-7" />
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+              Prev
+            </button>
+            <span class="inline-flex items-center gap-2 text-taupe">
+              <span>Page</span>
+              <select
+                id="page-select"
+                class="num border border-charcoal/20 bg-transparent px-2 py-1 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-charcoal cursor-pointer"
+                aria-label="Jump to page"
+              >
+                <option value="1">1</option>
+              </select>
+              <span>of <span id="page-total" class="num">1</span></span>
+            </span>
+            <button
+              id="page-next"
+              type="button"
+              class="inline-flex items-center gap-2 border border-charcoal/20 px-5 py-2.5 transition-colors duration-300 hover:bg-charcoal hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
+            >
+              Next
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6" />
               </svg>
             </button>
-          </div>
-
-          <div id="extra-yachts" class="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 extra-grid" hidden></div>
+          </nav>
 
           <p id="yachts-error" class="mt-10 hidden text-sm text-taupe">
             Couldn't load the fleet right now. Please refresh in a moment.
@@ -129,13 +173,39 @@ const stubFacets: YachtFacets = {
 
 <script>
   import type { YachtCard, YachtFacets } from "../../data/types/yacht";
+  import { convertCents } from "../../lib/currency";
 
   interface YachtsResponse {
-    featured: YachtCard[];
-    rest: YachtCard[];
+    items: YachtCard[];
     facets: YachtFacets;
   }
 
+  type SortMode =
+    | "default"
+    | "name-asc"
+    | "price-asc"
+    | "price-desc"
+    | "length-asc"
+    | "length-desc";
+
+  const SORT_MODES: readonly SortMode[] = [
+    "default", "name-asc", "price-asc", "price-desc", "length-asc", "length-desc",
+  ] as const;
+
+  function isSortMode(s: string): s is SortMode {
+    return (SORT_MODES as readonly string[]).includes(s);
+  }
+
+  /** Filter state emitted by YachtFilters via the `yachts:filterchange` event. */
+  interface FilterState {
+    search: string;
+    length: { min: number; max: number; active: boolean };
+    guests: { min: number; max: number; active: boolean };
+    /** Price values are in EUR (not cents) to match slider units. */
+    price: { min: number; max: number; active: boolean };
+  }
+
+  const PAGE_SIZE = 36;
   const ANKOR_BASE = "https://api.ankor.io";
 
   function resolveImage(url: string | null | undefined, variant = "640x"): string {
@@ -242,34 +312,209 @@ const stubFacets: YachtFacets = {
 </a>`.trim();
   }
 
-  async function load() {
+  // ---------------------------------------------------------------------------
+  // State machine: filter + pagination
+  //
+  // Single source of truth. Mutations go through `setState` which re-renders
+  // and (optionally) updates the URL. Filter changes reset the page to 1;
+  // pagination preserves the active filter.
+  // ---------------------------------------------------------------------------
+
+  const EMPTY_FILTER: FilterState = {
+    search: "",
+    length: { min: 0, max: 0, active: false },
+    guests: { min: 0, max: 0, active: false },
+    price: { min: 0, max: 0, active: false },
+  };
+
+  let allYachts: YachtCard[] = [];
+  let activeYachtType = "";
+  let currentPage = 1;
+  let filterState: FilterState = EMPTY_FILTER;
+  let sortMode: SortMode = "default";
+
+  /**
+   * EUR-equivalent price in cents for a yacht. Returns null for "On Request"
+   * yachts (no week or day price set, or ≤ 0). Conversion uses the current
+   * activeRates from currency.ts — which start at fallbacks and update once
+   * /api/fx-rates.json resolves. We deliberately do NOT re-sort when rates
+   * arrive (would shuffle cards under the user); fallback rates are within
+   * a few percent of live, so initial page-1 ordering is correct.
+   */
+  function priceInEurCents(y: YachtCard): number | null {
+    const native = y.weekPricingFrom ?? y.dayPricingFrom;
+    if (native == null || native <= 0) return null;
+    return convertCents(native, y.currency, "EUR");
+  }
+
+  function compareByPrice(a: YachtCard, b: YachtCard, dir: "asc" | "desc"): number {
+    const ap = priceInEurCents(a);
+    const bp = priceInEurCents(b);
+    // "On Request" always sorts last regardless of direction.
+    if (ap == null && bp == null) return 0;
+    if (ap == null) return 1;
+    if (bp == null) return -1;
+    return dir === "asc" ? ap - bp : bp - ap;
+  }
+
+  function sortYachts(items: YachtCard[], mode: SortMode): YachtCard[] {
+    if (mode === "default") return items;
+    const out = items.slice();
+    switch (mode) {
+      case "name-asc":    out.sort((a, b) => a.name.localeCompare(b.name)); break;
+      case "price-asc":   out.sort((a, b) => compareByPrice(a, b, "asc")); break;
+      case "price-desc":  out.sort((a, b) => compareByPrice(a, b, "desc")); break;
+      case "length-asc":  out.sort((a, b) => a.length - b.length); break;
+      case "length-desc": out.sort((a, b) => b.length - a.length); break;
+    }
+    return out;
+  }
+
+  function matchesFilter(y: YachtCard, f: FilterState): boolean {
+    const q = f.search.trim().toLowerCase();
+    if (q) {
+      const name = (y.name || "").toLowerCase();
+      const builder = (y.builder || "").toLowerCase();
+      if (!name.includes(q) && !builder.includes(q)) return false;
+    }
+    if (f.length.active) {
+      if (y.length < f.length.min || y.length > f.length.max) return false;
+    }
+    if (f.guests.active) {
+      if (!Number.isFinite(y.sleeps) || y.sleeps <= 0) return false;
+      if (y.sleeps < f.guests.min || y.sleeps > f.guests.max) return false;
+    }
+    if (f.price.active) {
+      // priceCents may be week or day pricing; mirror the existing fallback.
+      const cents = y.weekPricingFrom ?? y.dayPricingFrom;
+      if (cents == null || cents <= 0) return false;
+      const eur = cents / 100;
+      if (eur < f.price.min || eur > f.price.max) return false;
+    }
+    return true;
+  }
+
+  function buildUrl(): string {
+    const params = new URLSearchParams();
+    if (activeYachtType) params.set("yachtType", activeYachtType);
+    if (sortMode !== "default") params.set("sort", sortMode);
+    if (currentPage > 1) params.set("page", String(currentPage));
+    const qs = params.toString();
+    return qs ? `/yachts?${qs}` : "/yachts";
+  }
+
+  function syncUrl(): void {
+    const next = buildUrl();
+    if (location.pathname + location.search !== next) {
+      history.pushState({ page: currentPage }, "", next);
+    }
+  }
+
+  // Track the totalPages count we last built dropdown options for, so we
+  // only rebuild the <option> list when the total changes (filter shrinks
+  // or grows the result set). Avoids tearing the dropdown on every page click.
+  let renderedTotalPages = 0;
+
+  function render(): void {
+    const fleet = document.getElementById("fleet");
+    const pagination = document.getElementById("pagination") as HTMLElement | null;
+    const select = document.getElementById("page-select") as HTMLSelectElement | null;
+    const totalEl = document.getElementById("page-total");
+    const prevBtn = document.getElementById("page-prev") as HTMLButtonElement | null;
+    const nextBtn = document.getElementById("page-next") as HTMLButtonElement | null;
+    const sortSelect = document.getElementById("yacht-sort") as HTMLSelectElement | null;
+    if (!fleet) return;
+
+    // Keep the sort dropdown in sync with current state (matters on initial
+    // URL-driven load + popstate; user-driven changes already match).
+    if (sortSelect && sortSelect.value !== sortMode) sortSelect.value = sortMode;
+
+    const filtered = allYachts.filter((y) => matchesFilter(y, filterState));
+    const sorted = sortYachts(filtered, sortMode);
+    const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    if (sorted.length === 0) {
+      fleet.innerHTML = `<p class="text-sm text-taupe col-span-full">No yachts match your filters.</p>`;
+      pagination?.setAttribute("hidden", "");
+    } else {
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const slice = sorted.slice(start, start + PAGE_SIZE);
+      fleet.innerHTML = slice.map(renderCard).join("");
+      if (totalPages > 1) {
+        pagination?.removeAttribute("hidden");
+        if (select && totalPages !== renderedTotalPages) {
+          // Build options 1..totalPages once (or whenever total changes).
+          const opts = [];
+          for (let p = 1; p <= totalPages; p++) opts.push(`<option value="${p}">${p}</option>`);
+          select.innerHTML = opts.join("");
+          renderedTotalPages = totalPages;
+        }
+        if (select) select.value = String(currentPage);
+        if (totalEl) totalEl.textContent = String(totalPages);
+        if (prevBtn) prevBtn.disabled = currentPage <= 1;
+        if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
+      } else {
+        // Single-page result set — no need to show paginator.
+        pagination?.setAttribute("hidden", "");
+      }
+    }
+
+    window.dispatchEvent(new CustomEvent("yachts:rendered"));
+  }
+
+  function setPage(page: number, opts: { scroll?: boolean; pushUrl?: boolean } = {}): void {
+    currentPage = page;
+    render();
+    if (opts.pushUrl !== false) syncUrl();
+    if (opts.scroll) {
+      const top = document.getElementById("fleet-top");
+      top?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  function setFilter(next: FilterState): void {
+    filterState = next;
+    currentPage = 1; // Any filter change snaps back to page 1.
+    render();
+    syncUrl();
+  }
+
+  function setSort(next: SortMode, opts: { pushUrl?: boolean } = {}): void {
+    sortMode = next;
+    currentPage = 1; // Sort change snaps back to page 1 (same as filter change).
+    render();
+    if (opts.pushUrl !== false) syncUrl();
+  }
+
+  /** Read sort + page from current URL. Used on initial load and popstate. */
+  function readUrlState(): { sort: SortMode; page: number } {
+    const params = new URL(location.href).searchParams;
+    const sortParam = params.get("sort") ?? "default";
+    const sort: SortMode = isSortMode(sortParam) ? sortParam : "default";
+    const pageRaw = parseInt(params.get("page") ?? "1", 10);
+    const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1;
+    return { sort, page };
+  }
+
+  async function load(): Promise<void> {
     const root = document.querySelector<HTMLElement>("[data-yachts-root]");
     if (!root) return;
-    const activeType = root.dataset.activeType ?? "";
-    const url = "/api/yachts.json" + (activeType ? `?yachtType=${encodeURIComponent(activeType)}` : "");
+    activeYachtType = root.dataset.activeType ?? "";
+    const url = "/api/yachts.json" + (activeYachtType ? `?yachtType=${encodeURIComponent(activeYachtType)}` : "");
+
+    // Read initial page + sort from URL so /yachts?sort=price-asc&page=3 works.
+    const initial = readUrlState();
+    sortMode = initial.sort;
+    currentPage = initial.page;
 
     try {
       const res = await fetch(url);
       if (!res.ok) throw new Error(`status ${res.status}`);
       const data = (await res.json()) as YachtsResponse;
-
-      const fleet = document.getElementById("fleet");
-      const extra = document.getElementById("extra-yachts");
-      const viewMoreWrapper = document.getElementById("view-more-wrapper");
-
-      if (fleet) {
-        if (data.featured.length === 0) {
-          fleet.innerHTML = `<p class="text-sm text-taupe col-span-full">No yachts match this filter.</p>`;
-        } else {
-          fleet.innerHTML = data.featured.map(renderCard).join("");
-        }
-      }
-
-      if (extra && data.rest.length > 0) {
-        extra.innerHTML = data.rest.map(renderCard).join("");
-        viewMoreWrapper?.removeAttribute("hidden");
-      }
-
+      allYachts = data.items;
+      render();
       window.dispatchEvent(new CustomEvent("yachts:loaded"));
     } catch (err) {
       console.error("[yachts] load failed:", err);
@@ -280,21 +525,40 @@ const stubFacets: YachtFacets = {
     }
   }
 
-  // View More toggle (skeleton wrapper is hidden until data loads)
-  function wireViewMore() {
-    const btn = document.getElementById("view-more-btn");
-    const extra = document.getElementById("extra-yachts");
-    btn?.addEventListener("click", () => {
-      if (!extra) return;
-      const expanded = btn.getAttribute("data-expanded") === "true";
-      if (expanded) {
-        extra.setAttribute("hidden", "");
-        btn.setAttribute("data-expanded", "false");
-      } else {
-        extra.removeAttribute("hidden");
-        btn.setAttribute("data-expanded", "true");
-        (btn as HTMLElement).style.display = "none";
-      }
+  function wirePagination(): void {
+    const prev = document.getElementById("page-prev");
+    const next = document.getElementById("page-next");
+    const select = document.getElementById("page-select") as HTMLSelectElement | null;
+
+    prev?.addEventListener("click", () => setPage(currentPage - 1, { scroll: true }));
+    next?.addEventListener("click", () => setPage(currentPage + 1, { scroll: true }));
+    select?.addEventListener("change", () => {
+      const v = parseInt(select.value, 10);
+      if (Number.isFinite(v) && v >= 1) setPage(v, { scroll: true });
+    });
+
+    // Browser back/forward: re-read URL, restore both sort + page (don't push
+    // back to history — would create a loop with the navigation we're handling).
+    window.addEventListener("popstate", () => {
+      const { sort, page } = readUrlState();
+      sortMode = sort;
+      setPage(page, { pushUrl: false });
+    });
+  }
+
+  function wireSort(): void {
+    const sortSelect = document.getElementById("yacht-sort") as HTMLSelectElement | null;
+    sortSelect?.addEventListener("change", () => {
+      const v = sortSelect.value;
+      if (isSortMode(v)) setSort(v);
+    });
+  }
+
+  function wireFilters(): void {
+    window.addEventListener("yachts:filterchange", (e) => {
+      const detail = (e as CustomEvent<FilterState>).detail;
+      if (!detail) return;
+      setFilter(detail);
     });
   }
 
@@ -324,14 +588,18 @@ const stubFacets: YachtFacets = {
     document.querySelectorAll<HTMLElement>(".yacht-card").forEach((c) => io.observe(c));
   }
 
-  wireViewMore();
+  wirePagination();
+  wireSort();
+  wireFilters();
   load();
 
-  window.addEventListener("yachts:loaded", () => {
+  // `yachts:rendered` fires after every state-driven re-render (initial load,
+  // filter change, or page change). Re-run marquee detection + reveal on the
+  // freshly inserted cards each time.
+  window.addEventListener("yachts:rendered", () => {
     requestAnimationFrame(() => {
       checkMarquees();
       observeNewCards();
-      // Trigger reveal on the freshly inserted cards
       document.querySelectorAll<HTMLElement>(".yacht-card").forEach((el) => {
         el.classList.add("revealed");
       });
@@ -339,5 +607,4 @@ const stubFacets: YachtFacets = {
   });
 
   window.addEventListener("resize", () => requestAnimationFrame(() => checkMarquees()));
-  window.addEventListener("yachts:filtered", () => checkMarquees());
 </script>

@@ -121,7 +121,6 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">€0 – €2,000,000</span></p>
   </div>
 
-  <p id="filter-empty" class="hidden text-sm text-taupe">No yachts match your filters.</p>
 </aside>
 
 <style>
@@ -239,69 +238,34 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     };
   }
 
-  // Re-query on every filter pass so we pick up cards that were hydrated
-  // client-side after the page shell rendered (Option B / api/yachts.json).
-  const getCards = () => document.querySelectorAll<HTMLElement>(".yacht-card");
+  // The filter component no longer mutates card visibility directly. It owns
+  // the slider/search UI and emits a `yachts:filterchange` CustomEvent whose
+  // detail describes the active filter state. The page (yachts/index.astro)
+  // listens, applies the filter to its master yacht array, resets to page 1,
+  // and re-renders. This keeps pagination + filtering composable and avoids
+  // the legacy "render all 1040 cards then hide" pattern.
   const searchInput = document.getElementById("filter-search") as HTMLInputElement | null;
-  const emptyMsg = document.getElementById("filter-empty");
-  const viewMoreBtn = document.getElementById("view-more-btn");
-  const extra = document.getElementById("extra-yachts");
 
   let searchQuery = "";
   let debounce: ReturnType<typeof setTimeout> | null = null;
 
-  function applyFilters() {
-    const q = searchQuery.trim().toLowerCase();
+  function emitFilterChange(): void {
     const lenR = lengthRange?.get();
     const gstR = guestsRange?.get();
     const priR = priceRange?.get();
 
-    const lenActive = lenR && (lenR.min > lengthRange!.bounds.lo || lenR.max < lengthRange!.bounds.hi);
-    const gstActive = gstR && (gstR.min > guestsRange!.bounds.lo || gstR.max < guestsRange!.bounds.hi);
-    const priActive = priR && (priR.min > priceRange!.bounds.lo || priR.max < priceRange!.bounds.hi);
+    const lenActive = !!(lenR && (lenR.min > lengthRange!.bounds.lo || lenR.max < lengthRange!.bounds.hi));
+    const gstActive = !!(gstR && (gstR.min > guestsRange!.bounds.lo || gstR.max < guestsRange!.bounds.hi));
+    const priActive = !!(priR && (priR.min > priceRange!.bounds.lo || priR.max < priceRange!.bounds.hi));
 
-    let visibleCount = 0;
-    getCards().forEach((card) => {
-      const name = card.dataset.yachtName || "";
-      const builder = card.dataset.yachtBuilder || "";
-      const length = parseFloat(card.dataset.yachtLength || "0");
-      const guests = parseInt(card.dataset.yachtGuests || "0");
-      const priceCents = parseInt(card.dataset.yachtPrice || "0");
+    const detail = {
+      search: searchQuery,
+      length: { min: lenR?.min ?? 0, max: lenR?.max ?? 0, active: lenActive },
+      guests: { min: gstR?.min ?? 0, max: gstR?.max ?? 0, active: gstActive },
+      price:  { min: priR?.min ?? 0, max: priR?.max ?? 0, active: priActive },
+    };
 
-      let show = true;
-
-      if (q && !name.includes(q) && !builder.includes(q)) show = false;
-
-      if (show && lenActive && lenR) {
-        if (length < lenR.min || length > lenR.max) show = false;
-      }
-
-      if (show && gstActive && gstR) {
-        if (!Number.isFinite(guests) || guests <= 0 || guests < gstR.min || guests > gstR.max) show = false;
-      }
-
-      if (show && priActive && priR) {
-        if (priceCents <= 0) show = false;
-        else {
-          const priceEur = priceCents / 100;
-          if (priceEur < priR.min || priceEur > priR.max) show = false;
-        }
-      }
-
-      card.style.display = show ? "" : "none";
-      if (show) visibleCount++;
-    });
-
-    const filtersActive = !!q || !!lenActive || !!gstActive || !!priActive;
-    if (filtersActive && extra && extra.hasAttribute("hidden")) {
-      extra.removeAttribute("hidden");
-      viewMoreBtn?.setAttribute("data-expanded", "true");
-      if (viewMoreBtn) (viewMoreBtn as HTMLElement).style.display = "none";
-    }
-    if (emptyMsg) emptyMsg.classList.toggle("hidden", visibleCount > 0);
-
-    // Notify the page so it can re-evaluate the name-marquee on newly visible cards.
-    window.dispatchEvent(new Event("yachts:filtered"));
+    window.dispatchEvent(new CustomEvent("yachts:filterchange", { detail }));
   }
 
   const lengthRange = setupRange({
@@ -312,7 +276,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-length-track",
     display: "filter-length-display",
     fmt: (v) => `${v}m`,
-  }, () => applyFilters());
+  }, () => emitFilterChange());
 
   const guestsRange = setupRange({
     minRange: "filter-guests-min",
@@ -322,7 +286,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-guests-track",
     display: "filter-guests-display",
     fmt: (v) => `${v}`,
-  }, () => applyFilters());
+  }, () => emitFilterChange());
 
   const priceRange = setupRange({
     minRange: "filter-price-min",
@@ -332,18 +296,13 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-price-track",
     display: "filter-price-display",
     fmt: (v) => `€${v.toLocaleString("en-US")}`,
-  }, () => applyFilters());
+  }, () => emitFilterChange());
 
   searchInput?.addEventListener("input", (e) => {
     if (debounce) clearTimeout(debounce);
     debounce = setTimeout(() => {
       searchQuery = (e.target as HTMLInputElement).value;
-      applyFilters();
+      emitFilterChange();
     }, 150);
   });
-
-  // After Option B's client-side hydration finishes, re-apply filters so any
-  // pre-set state (e.g. user typed in the search box before cards loaded) is
-  // applied to the freshly inserted cards.
-  window.addEventListener("yachts:loaded", () => applyFilters());
 </script>
