@@ -3075,6 +3075,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "fancy",
+    "name": "FANCY",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Nautor Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": null,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7819143053::vessel::c54556f0-29c4-11f0-b915-910aece98eef",
     "slug": "good-life",
     "name": "GOOD LIFE",
@@ -3262,23 +3279,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2520000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "fancy",
-    "name": "FANCY",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Nautor Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
     "currency": "EUR"
   },
   {
@@ -3923,6 +3923,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tempest-ws",
+    "name": "TEMPEST WS",
+    "hero": "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2820-full-1_HERO.jpg/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 5,
+    "builtYear": 1962,
+    "builder": "Esterel",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3700000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7655158652::vessel::691886a0-5642-11ef-a8a2-ed728478bcf0",
     "slug": "nemesis",
     "name": "NEMESIS",
@@ -4078,23 +4095,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2275000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tempest-ws",
-    "name": "TEMPEST WS",
-    "hero": "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2820-full-1_HERO.jpg/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 5,
-    "builtYear": 1962,
-    "builder": "Esterel",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3700000,
     "currency": "EUR"
   },
   {
@@ -7609,23 +7609,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::35182310185::vessel::e9a38e30-5265-11f0-8619-c951789ae5cc",
-    "slug": "stella",
-    "name": "STELLA",
-    "hero": "/media/media::image::a::vessel::e9a38e30-5265-11f0-8619-c951789ae5cc::assets::f1f42b40-5269-11f0-add0-41fbf0eb4a6c/{imageVariant}",
-    "length": 24.89,
-    "sleeps": 8,
-    "cabins": 3,
-    "builtYear": 2006,
-    "builder": "Nautors Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4000000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7579668770::vessel::d5cbfc56-fe8c-11ed-889f-43d4bb723744",
     "slug": "kallima",
     "name": "KALLIMA",
@@ -7640,6 +7623,23 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3400000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::35182310185::vessel::e9a38e30-5265-11f0-8619-c951789ae5cc",
+    "slug": "stella",
+    "name": "STELLA",
+    "hero": "/media/media::image::a::vessel::e9a38e30-5265-11f0-8619-c951789ae5cc::assets::f1f42b40-5269-11f0-add0-41fbf0eb4a6c/{imageVariant}",
+    "length": 24.89,
+    "sleeps": 8,
+    "cabins": 3,
+    "builtYear": 2006,
+    "builder": "Nautors Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4000000,
     "currency": "EUR"
   },
   {
@@ -13162,6 +13162,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ylime",
+    "name": "YLIME",
+    "hero": "/media/media::image::c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744::assets::4e6dcf70-3a41-11f0-9e87-65432abe11d1/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3800000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9938368400::vessel::d5cbfb2a-fe8c-11ed-889f-43d4bb723744",
     "slug": "dawn",
     "name": "DAWN",
@@ -13249,24 +13267,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ylime",
-    "name": "YLIME",
-    "hero": "/media/media::image::c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744::assets::4e6dcf70-3a41-11f0-9e87-65432abe11d1/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3800000,
     "currency": "EUR"
   },
   {
@@ -15488,6 +15488,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::39482209444::vessel::d5cbfbfb-fe8c-11ed-889f-43d4bb723744",
+    "slug": "princess",
+    "name": "PRINCESS",
+    "hero": "/media/media::image::a::vessel::d5cbfbfb-fe8c-11ed-889f-43d4bb723744::assets::93722e20-ca30-11f0-b943-312fd8108745/{imageVariant}",
+    "length": 16.4,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2007,
+    "builder": "Princess",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1300000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::18241046923::vessel::f3f9cfd0-eb45-11ee-9349-9128e63ff40b",
     "slug": "savoy",
     "name": "SAVOY",
@@ -15503,23 +15520,6 @@
     ],
     "dayPricingFrom": 174476,
     "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::39482209444::vessel::d5cbfbfb-fe8c-11ed-889f-43d4bb723744",
-    "slug": "princess",
-    "name": "PRINCESS",
-    "hero": "/media/media::image::a::vessel::d5cbfbfb-fe8c-11ed-889f-43d4bb723744::assets::93722e20-ca30-11f0-b943-312fd8108745/{imageVariant}",
-    "length": 16.4,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2007,
-    "builder": "Princess",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1300000,
     "currency": "EUR"
   },
   {
