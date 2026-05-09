@@ -8617,42 +8617,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b",
-    "slug": "apollo-99",
-    "name": "APOLLO 99",
-    "hero": "/media/media::image::c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b::assets::d519ff10-af5f-11f0-9153-1364ca44cabc/{imageVariant}",
-    "length": 23.87,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::18231584005::vessel::d5cc24a6-fe8c-11ed-889f-43d4bb723744",
-    "slug": "above-beyond",
-    "name": "ABOVE & BEYOND",
-    "hero": "/media/media::image::a::vessel::d5cc24a6-fe8c-11ed-889f-43d4bb723744::assets::e77cef30-c697-11ee-8b76-15a6889a8f42.jpeg/{imageVariant}",
-    "length": 23.87,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2019,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5600000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::9938368400::vessel::af5f3370-f288-11ee-ab04-1d411169598f",
     "slug": "xmotion",
     "name": "XMOTION",
@@ -8686,6 +8650,42 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 7900000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b",
+    "slug": "apollo-99",
+    "name": "APOLLO 99",
+    "hero": "/media/media::image::c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b::assets::d519ff10-af5f-11f0-9153-1364ca44cabc/{imageVariant}",
+    "length": 23.87,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7500000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::18231584005::vessel::d5cc24a6-fe8c-11ed-889f-43d4bb723744",
+    "slug": "above-beyond",
+    "name": "ABOVE & BEYOND",
+    "hero": "/media/media::image::a::vessel::d5cc24a6-fe8c-11ed-889f-43d4bb723744::assets::e77cef30-c697-11ee-8b76-15a6889a8f42.jpeg/{imageVariant}",
+    "length": 23.87,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2019,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5600000,
     "currency": "EUR"
   },
   {
