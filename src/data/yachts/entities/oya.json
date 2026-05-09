@@ -1,11 +1,11 @@
 {
-  "lastModified": 1776694402612,
+  "lastModified": 1778332363903,
   "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Winter Base Port: Caribbeans\nSummer Base Port: Olbia, Sardinia\n\nOperating Area: \nWinter 2025/2026: British Virgin Islands, Leeward Islands, US Virgin Islands, Windward Islands\nSummer 2026: Corsica, French Riviera & Monaco, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland)\n\nStep aboard Oya, a stunning 2025-built Sunreef 60 sailing catamaran designed to elevate your charter experience. Oya combines modern elegance with ultimate comfort, offering accommodations for up to eight guests in four luxurious cabins, including a lavish master suite. A dedicated crew of four ensures every moment of your journey is seamless and unforgettable.\n\nThe catamaran’s refined design maximizes space and comfort, with the dark interior tones creating a calm, welcoming atmosphere perfect for unwinding. Its open-plan layout effortlessly connects indoor and outdoor spaces, from the expansive aft deck—ideal for shaded alfresco dining—to the swim platform, making water activities easily accessible.\nRelax on the 36m² flybridge, where a spacious lounge area invites you to soak up the sun or savor the breeze. The foredeck lounge provides a cozy retreat, while the aft saloon opens seamlessly to the cockpit, extending into the vast aft platform.\n\nEvery detail of Oya’s design blends elegance, modernity, and functionality, offering an experience like no other. Whether you’re enjoying panoramic views on the flybridge, indulging in gourmet meals, or diving into azure waters, Oya promises a journey of serenity and style.",
+  "description": "OYA is designed for relaxed days at sea, where every moment flows naturally between comfort, dining, and time on the water. This 2025 Sunreef 60 sailing catamaran welcomes up to eight guests in four cabins, including a beautiful master suite, with a dedicated crew of four ensuring a smooth and personalised charter experience.\n\nHer open layout makes her ideal for a Mediterranean itinerary, with generous spaces for every part of the day. Guests can enjoy shaded alfresco dining on the aft deck, easy access to the sea from the swim platform, and quiet moments on the foredeck lounge. The 36m² flybridge offers the perfect setting for sunbathing, sunset drinks, or simply taking in the views while cruising between destinations.\n\nInside, OYA’s dark interior tones create a calm and elegant atmosphere, offering a peaceful retreat after a day spent exploring, swimming, or enjoying water activities. With her balance of space, style, and comfort, OYA is a strong choice for families or groups looking for a refined sailing catamaran charter.",
   "blueprint": {
     "name": "OYA",
     "images": [
@@ -58,7 +58,10 @@
     "cruisingCapacity": 8,
     "builtYear": 2025,
     "architect": "Sunreef Yachts",
+    "interiorDesigner": "Sunreef Yachts",
+    "topSpeed": 10,
     "cruiseSpeed": 7,
+    "fuelCapacity": 0,
     "cabinLayout": [
       {
         "label": "Double Cabins",
@@ -67,6 +70,7 @@
     ],
     "cabins": 4,
     "bathrooms": 4,
+    "decks": 1,
     "length": 18.3,
     "beam": 10.2,
     "draft": 1.8,
@@ -165,19 +169,20 @@
   },
   "crew": [
     {
-      "name": "David Cherrett",
+      "name": "Alexander Podolsky",
+      "avatar": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::aa84a380-4b8c-11f1-bda5-cf564e0f914a/{imageVariant}",
       "role": "Captain",
-      "bio": "British\n\nDavid is a seasoned and highly respected yacht Captain and Engineer with over 30 years of experience navigating the globe aboard sailing yachts, motor yachts, and catamarans. With more than 100,000 nautical miles logged and a wealth of charter, private, and shipyard experience, he brings an unparalleled depth of technical knowledge, leadership, and professionalism to OYA.\n\nKnown for his calm command and commitment to safety and quality, David has overseen numerous new builds, refits, and transoceanic deliveries. His expertise extends to solar and hybrid technology aboard eco-catamarans, advanced navigation, and engineering systems. Backed by decades of work alongside his wife Ruth, he is dedicated to ensuring every voyage is seamless, safe, and deeply enjoyable for guests and crew alike."
+      "bio": "Nationality: French\nLanguages: French, English\n\nCaptain Alexander is an experienced and professional yacht captain with over five years of hands-on experience across the Caribbean, Mediterranean, and Australia. He is known for his strong leadership, guest-focused approach, and ability to manage yacht operations to a high standard, always with safety, service, and smooth execution in mind.\n\nHis recent experience includes captaining luxury vessels such as a Sunseeker Manhattan 68 in Malta and a VanDutch 55 in Saint Martin, as well as working as Fleet Manager in Dubai, where he oversaw a fleet of luxury charter yachts, crew management, maintenance planning, charter coordination, and day-to-day operational readiness. This combination of captaincy and fleet oversight reflects a well-rounded and capable professional with strong technical and organisational understanding.\n\nWith additional experience in deliveries, tender operations, guest transfers, mechanical work, and private owner cruising, Alexander brings a practical, service-led, and highly adaptable approach to life on board. Calm under pressure and committed to maintaining high standards, he is well suited to both private and charter yacht environments\n\nQualifications: RYA Yachtmaster Offshore (Commercially Endorsed 200GT) | STCW Basic Safety Training | ENG1 Medical Certificate | VHF Short Range Certificate | Efficient Deck Hand MCA | Malta Seaman Records Book"
     },
     {
       "name": " Ines Härström",
       "role": "Captain",
-      "bio": "Ines is a motivated and versatile Swedish chef with seven years of global hospitality experience and proven longevity across multiple charter seasons in Europe and the Caribbean. Growing up by the ocean, she developed an early passion for boating, watersports, and life at sea — a passion that naturally evolved into a career in yachting.\n\nWith hands-on experience across deck, interior, and galley roles, Ines brings a rare blend of seamanship, service excellence, and culinary skill. Her background includes charter work on sailing catamarans and monohulls, private yacht service aboard a 44m motor yacht, and high-volume hospitality roles on a 122m cruise vessel. She is known for her adaptability, strong work ethic, and commitment to creating memorable guest experiences in every environment."
+      "bio": "Nationality: Swedish\nLanguages: Italian, Danish, English, Norwegian, Swedish, Spanish\n\nInes is a motivated and versatile Swedish chef with seven years of global hospitality experience and proven longevity across multiple charter seasons in Europe and the Caribbean. Growing up by the ocean, she developed an early passion for boating, watersports, and life at sea — a passion that naturally evolved into a career in yachting.\n\nWith hands-on experience across deck, interior, and galley roles, Ines brings a rare blend of seamanship, service excellence, and culinary skill. Her background includes charter work on sailing catamarans and monohulls, private yacht service aboard a 44m motor yacht, and high-volume hospitality roles on a 122m cruise vessel. She is known for her adaptability, strong work ethic, and commitment to creating memorable guest experiences in every environment."
     },
     {
       "name": "Matthew Ballantyne",
       "role": "Captain",
-      "bio": "Irish\n\nMatthew is a motivated and hands-on deckhand/engineer with a robust sailing background and technical expertise in mechanical, electrical, and hydraulic systems. Certified as an RYA Yachtmaster Offshore and AEC 1 & 2 Engineer, he brings a versatile skill set and youthful energy to OYA.\n\nWith experience on high-performance sailing yachts and extensive refit projects, he thrives under pressure and quickly adapts to challenges on board. Matthew’s racing credentials and watchkeeping experience make him a dependable crew member both on deck and below. Passionate, detail-oriented, and always ready to learn, he is a valuable asset to the OYA team."
+      "bio": "Nationality: British\nLanguages: English\n\nMatthew is a motivated and hands-on deckhand/engineer with a robust sailing background and technical expertise in mechanical, electrical, and hydraulic systems. Certified as an RYA Yachtmaster Offshore and AEC 1 & 2 Engineer, he brings a versatile skill set and youthful energy to OYA.\n\nWith experience on high-performance sailing yachts and extensive refit projects, he thrives under pressure and quickly adapts to challenges on board. Matthew’s racing credentials and watchkeeping experience make him a dependable crew member both on deck and below. Passionate, detail-oriented, and always ready to learn, he is a valuable asset to the OYA team."
     }
   ],
   "pricing": {

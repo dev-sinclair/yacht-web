@@ -13144,6 +13144,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
+    "slug": "oya",
+    "name": "OYA",
+    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744",
     "slug": "ylime",
     "name": "YLIME",
@@ -13213,24 +13231,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
-    "slug": "oya",
-    "name": "OYA",
-    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
     "currency": "EUR"
   },
   {
@@ -17379,78 +17379,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::8346777690::vessel::05f57420-f341-11ee-ad60-95c22dfdf626",
-    "slug": "spring",
-    "name": "SPRING",
-    "hero": "/media/media::image::a::vessel::05f57420-f341-11ee-ad60-95c22dfdf626::assets::11068240-4125-11f0-b5fe-a30ea51374b7/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 980000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
-    "slug": "errant-vagabond",
-    "name": "ERRANT VAGABOND",
-    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1650000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7819307041::vessel::d5cca390-fe8c-11ed-889f-43d4bb723744",
-    "slug": "oneida-2",
-    "name": "ONEIDA 2",
-    "hero": "/media/media::image::a::vessel::d5cca390-fe8c-11ed-889f-43d4bb723744::assets::yachts-100317-Yla1wM7Gz.jpg/{imageVariant}",
-    "length": 15.24,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2022,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
-    "slug": "sophia",
-    "name": "SOPHIA",
-    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-    "length": 15.15,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2020,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1300000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7819307041::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95",
     "slug": "unique-i",
     "name": "UNIQUE I",
@@ -17588,6 +17516,42 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::8346777690::vessel::05f57420-f341-11ee-ad60-95c22dfdf626",
+    "slug": "spring",
+    "name": "SPRING",
+    "hero": "/media/media::image::a::vessel::05f57420-f341-11ee-ad60-95c22dfdf626::assets::11068240-4125-11f0-b5fe-a30ea51374b7/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 980000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
+    "slug": "errant-vagabond",
+    "name": "ERRANT VAGABOND",
+    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1650000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
     "slug": "curanta-cridhe",
     "name": "CURANTA CRIDHE",
@@ -17693,6 +17657,24 @@
     "dayPricingFrom": 225900,
     "weekPricingFrom": 1528000,
     "currency": "USD"
+  },
+  {
+    "uri": "c::7819307041::vessel::d5cca390-fe8c-11ed-889f-43d4bb723744",
+    "slug": "oneida-2",
+    "name": "ONEIDA 2",
+    "hero": "/media/media::image::a::vessel::d5cca390-fe8c-11ed-889f-43d4bb723744::assets::yachts-100317-Yla1wM7Gz.jpg/{imageVariant}",
+    "length": 15.24,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2022,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1500000,
+    "currency": "EUR"
   },
   {
     "uri": "c::10549594650::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744",
@@ -18081,6 +18063,24 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1065000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
+    "slug": "sophia",
+    "name": "SOPHIA",
+    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
+    "length": 15.15,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2020,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1300000,
     "currency": "EUR"
   }
 ]
