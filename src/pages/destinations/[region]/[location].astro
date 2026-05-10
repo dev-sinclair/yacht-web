@@ -31,54 +31,47 @@ const waUrl = `https://wa.me/34971000000?text=${encodeURIComponent(waMessage)}`;
   title={`${location.name} — ${region.name} | Sinclair Yachting`}
   description={`Charter yachts cruising ${location.name}, part of our ${region.name} programme. ${region.tagline}.`}
 >
-  <Navbar transparent />
+  <Navbar />
   <main>
-    <!-- Hero -->
-    <section
-      id="destination-detail-hero"
-      class="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-charcoal"
-    >
-      <img
-        src={region.heroImage}
-        alt={location.name}
-        class="absolute inset-0 h-full w-full object-cover"
-        loading="eager"
-      />
-      <div class="absolute inset-0 bg-gradient-to-b from-charcoal/55 via-charcoal/25 to-charcoal/85"></div>
-
-      <div class="relative z-10 flex h-full w-full items-end px-6 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
-        <div class="mx-auto w-full max-w-[1440px]">
-          <nav
-            class="text-[10px] font-medium tracking-[0.3em] uppercase text-white/70"
-            style="font-family: 'Raleway', sans-serif;"
+    <!-- Editorial header -->
+    <header class="bg-warm-white pt-32 pb-14 sm:pt-36 sm:pb-16 lg:pt-40 lg:pb-20">
+      <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
+        <nav
+          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          <a href="/destinations" class="transition-colors duration-300 hover:text-charcoal">
+            Destinations
+          </a>
+          <span class="mx-3 text-taupe-light/60">/</span>
+          <a
+            href={`/destinations/${region.slug}`}
+            class="transition-colors duration-300 hover:text-charcoal"
           >
-            <a href="/destinations" class="transition-colors duration-300 hover:text-gold">
-              Destinations
-            </a>
-            <span class="mx-3 text-white/40">/</span>
-            <a
-              href={`/destinations/${region.slug}`}
-              class="text-white/85 transition-colors duration-300 hover:text-gold"
-            >
-              {region.name}
-            </a>
-          </nav>
+            {region.name}
+          </a>
+          <span class="mx-3 text-taupe-light/60">/</span>
+          <span class="text-charcoal">{location.name}</span>
+        </nav>
 
-          <h1
-            class="mt-6 text-5xl font-light tracking-[0.15em] uppercase text-white sm:text-6xl lg:text-7xl"
-            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-          >
-            {location.name}
-          </h1>
+        <h1
+          data-reveal="up"
+          class="mt-10 text-5xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-6xl lg:text-7xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          {location.name}
+        </h1>
 
-          <div class="mt-6 h-px w-12 bg-gold"></div>
+        <div data-reveal-line class="mt-8 h-px bg-gold"></div>
 
-          <p class="mt-6 max-w-xl text-base font-light leading-relaxed text-white/80 sm:text-lg">
-            {region.tagline}.
-          </p>
-        </div>
+        <p
+          data-reveal="up"
+          class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-taupe sm:text-xl"
+        >
+          {region.tagline}.
+        </p>
       </div>
-    </section>
+    </header>
 
     <!-- Cruising areas -->
     <section class="bg-warm-white py-20 sm:py-24">
