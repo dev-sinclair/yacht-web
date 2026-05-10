@@ -11,7 +11,7 @@ const { transparent = false } = Astro.props;
 const links = [
   { label: "About", href: "/#about" },
   { label: "Yacht Charter", href: "/yachts" },
-  { label: "Itineraries", href: "/#itineraries-section" },
+  { label: "Destinations", href: "/destinations" },
   { label: "Services", href: "/#services" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -126,7 +126,7 @@ const links = [
   let menuOpen = false;
 
   // Sections with dark backgrounds where the navbar should render transparent.
-  const darkSectionIds = ["hero", "services", "itineraries-section"];
+  const darkSectionIds = ["hero", "services", "destinations-section", "destination-detail-hero"];
   const navHeight = 80;
 
   function isOverDarkSection() {

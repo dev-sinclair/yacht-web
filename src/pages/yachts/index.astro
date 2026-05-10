@@ -7,6 +7,7 @@ import YachtCardSkeleton from "../../components/catalogue/YachtCardSkeleton.astr
 import YachtFilters from "../../components/catalogue/YachtFilters.astro";
 import Footer from "../../components/layout/Footer.astro";
 import type { YachtFacets } from "../../data/types/yacht";
+import { regionBySlug } from "../../lib/destinations/registry";
 
 // No data fetched in the frontmatter — page renders shell + skeleton instantly.
 // Real data is loaded client-side from /api/yachts.json so the user lands on
@@ -23,6 +24,10 @@ const ANKOR_TYPES = [
 ];
 const rawType = Astro.url.searchParams.get("yachtType") ?? "";
 const activeType = ANKOR_TYPES.includes(rawType) ? rawType : "";
+
+const rawRegion = Astro.url.searchParams.get("region") ?? "";
+const activeRegionData = rawRegion ? regionBySlug(rawRegion) : null;
+const activeRegion = activeRegionData?.slug ?? "";
 
 // YachtFilters only uses `facets` for typing today (its actual sliders are
 // hard-coded). Pass an empty stub so the component renders without data.
@@ -44,20 +49,34 @@ const stubFacets: YachtFacets = {
     <div class="px-4 sm:px-8 lg:px-16 xl:px-20">
       <div class="grid gap-10 lg:grid-cols-[260px_1fr] lg:gap-10">
         <aside class="lg:sticky lg:top-24 lg:self-start">
-          <YachtFilters facets={stubFacets} activeType={activeType} />
+          <YachtFilters facets={stubFacets} activeType={activeType} activeRegion={activeRegion} />
         </aside>
 
-        <div data-yachts-root data-active-type={activeType}>
+        <div data-yachts-root data-active-type={activeType} data-active-region={activeRegion}>
           <div class="mb-8" data-reveal>
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-              Hand-picked
+              {activeRegionData ? "Region" : "Hand-picked"}
             </p>
             <h2
               class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
               style="font-family: 'Raleway', sans-serif; font-weight: 300;"
             >
-              Featured Yachts
+              {activeRegionData ? `Yachts Cruising ${activeRegionData.name}` : "Featured Yachts"}
             </h2>
+            {activeRegionData && (
+              <p class="mt-3 max-w-2xl text-sm font-light leading-relaxed text-taupe">
+                {activeRegionData.tagline}.
+                <a
+                  href={`/destinations/${activeRegionData.slug}/${activeRegionData.locations[0]?.slug ?? ""}`}
+                  class="ml-2 inline-flex items-center gap-1 text-gold transition-colors duration-300 hover:text-gold-dim"
+                >
+                  Explore the region
+                  <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </p>
+            )}
           </div>
 
           <!-- Sort bar: separate from filter sidebar. Sort is page-level state
@@ -329,6 +348,7 @@ const stubFacets: YachtFacets = {
 
   let allYachts: YachtCard[] = [];
   let activeYachtType = "";
+  let activeRegion = "";
   let currentPage = 1;
   let filterState: FilterState = EMPTY_FILTER;
   let sortMode: SortMode = "default";
@@ -397,6 +417,7 @@ const stubFacets: YachtFacets = {
   function buildUrl(): string {
     const params = new URLSearchParams();
     if (activeYachtType) params.set("yachtType", activeYachtType);
+    if (activeRegion) params.set("region", activeRegion);
     if (sortMode !== "default") params.set("sort", sortMode);
     if (currentPage > 1) params.set("page", String(currentPage));
     const qs = params.toString();
@@ -502,7 +523,12 @@ const stubFacets: YachtFacets = {
     const root = document.querySelector<HTMLElement>("[data-yachts-root]");
     if (!root) return;
     activeYachtType = root.dataset.activeType ?? "";
-    const url = "/api/yachts.json" + (activeYachtType ? `?yachtType=${encodeURIComponent(activeYachtType)}` : "");
+    activeRegion = root.dataset.activeRegion ?? "";
+    const params = new URLSearchParams();
+    if (activeYachtType) params.set("yachtType", activeYachtType);
+    if (activeRegion) params.set("region", activeRegion);
+    const qs = params.toString();
+    const url = qs ? `/api/yachts.json?${qs}` : "/api/yachts.json";
 
     // Read initial page + sort from URL so /yachts?sort=price-asc&page=3 works.
     const initial = readUrlState();
