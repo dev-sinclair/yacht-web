@@ -31,57 +31,48 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
   title={`${region.name} — Yacht Charter Destinations | Sinclair Yachting`}
   description={`Charter yachts cruising ${region.name}. ${region.tagline}. ${region.locations.length} countries, ${totalSpots} curated anchorages.`}
 >
-  <Navbar transparent />
+  <Navbar />
   <main>
-    <!-- Hero -->
-    <section
-      id="destination-detail-hero"
-      class="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-charcoal"
-    >
-      <img
-        src={region.heroImage}
-        alt={region.name}
-        class="absolute inset-0 h-full w-full object-cover"
-        loading="eager"
-      />
-      <div class="absolute inset-0 bg-gradient-to-b from-charcoal/55 via-charcoal/25 to-charcoal/85"></div>
+    <!-- Editorial header -->
+    <header class="bg-warm-white pt-32 pb-14 sm:pt-36 sm:pb-16 lg:pt-40 lg:pb-20">
+      <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
+        <nav
+          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          <a href="/destinations" class="transition-colors duration-300 hover:text-charcoal">
+            Destinations
+          </a>
+          <span class="mx-3 text-taupe-light/60">/</span>
+          <span class="text-charcoal">{region.name}</span>
+        </nav>
 
-      <div class="relative z-10 flex h-full w-full items-end px-6 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
-        <div class="mx-auto w-full max-w-[1440px]">
-          <nav
-            class="text-[10px] font-medium tracking-[0.3em] uppercase text-white/70"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            <a href="/destinations" class="transition-colors duration-300 hover:text-gold">
-              Destinations
-            </a>
-            <span class="mx-3 text-white/40">/</span>
-            <span class="text-white/85">{region.name}</span>
-          </nav>
+        <h1
+          data-reveal="up"
+          class="mt-10 text-5xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-6xl lg:text-7xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          {region.name}
+        </h1>
 
-          <h1
-            class="mt-6 text-5xl font-light tracking-[0.15em] uppercase text-white sm:text-6xl lg:text-7xl"
-            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-          >
-            {region.name}
-          </h1>
+        <div data-reveal-line class="mt-8 h-px bg-gold"></div>
 
-          <div class="mt-6 h-px w-12 bg-gold"></div>
+        <p
+          data-reveal="up"
+          class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-taupe sm:text-xl"
+        >
+          {region.tagline}.
+        </p>
 
-          <p class="mt-6 max-w-xl text-base font-light leading-relaxed text-white/80 sm:text-lg">
-            {region.tagline}.
-          </p>
-
-          <p
-            class="mt-8 text-[10px] font-medium tracking-[0.3em] uppercase text-white/55"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            <span class="num">{region.locations.length}</span> Countries &nbsp;&middot;&nbsp;
-            <span class="num">{totalSpots}</span> Anchorages
-          </p>
-        </div>
+        <p
+          class="mt-10 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          <span class="num">{region.locations.length}</span> Countries &nbsp;&middot;&nbsp;
+          <span class="num">{totalSpots}</span> Anchorages
+        </p>
       </div>
-    </section>
+    </header>
 
     <!-- Countries / locations grid -->
     <section class="bg-warm-white py-20 sm:py-24">
