@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import pano from "../../assets/pano1.jpeg";
 ---
 
-<section id="itineraries-section" class="relative w-full" style="height: 200vh;">
+<section id="destinations-section" class="relative w-full" style="height: 200vh;">
   <div class="sticky top-0 h-screen w-full overflow-hidden bg-black">
     <Image
       src={pano}
@@ -18,28 +18,28 @@ import pano from "../../assets/pano1.jpeg";
     <div class="relative z-10 flex h-full w-full items-center justify-center px-6">
       <div class="relative w-full max-w-3xl" style="min-height: 220px;">
         <!-- Stage 1: Title -->
-        <div id="itin-stage-1" class="absolute inset-0 flex items-center justify-center text-center">
+        <div id="dest-stage-1" class="absolute inset-0 flex items-center justify-center text-center">
           <div>
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-white/70">
-              Destinations
+              Where We Sail
             </p>
             <h2
               class="mt-4 text-5xl font-light tracking-[0.2em] uppercase text-white sm:text-6xl lg:text-7xl"
               style="font-family: 'Raleway', sans-serif; font-weight: 300;"
             >
-              Itineraries
+              Destinations
             </h2>
             <div class="mx-auto mt-5 h-px w-12 bg-white/40"></div>
           </div>
         </div>
 
         <!-- Stage 2: Button -->
-        <div id="itin-stage-2" class="absolute inset-0 flex items-center justify-center" style="opacity: 0; pointer-events: none;">
+        <div id="dest-stage-2" class="absolute inset-0 flex items-center justify-center" style="opacity: 0; pointer-events: none;">
           <a
-            href="/itineraries"
+            href="/destinations"
             class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
           >
-            Explore Itineraries
+            Explore Destinations
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path d="M9 5l7 7-7 7" />
             </svg>
@@ -51,9 +51,9 @@ import pano from "../../assets/pano1.jpeg";
 </section>
 
 <script>
-  const section = document.getElementById("itineraries-section");
-  const stage1 = document.getElementById("itin-stage-1");
-  const stage2 = document.getElementById("itin-stage-2");
+  const section = document.getElementById("destinations-section");
+  const stage1 = document.getElementById("dest-stage-1");
+  const stage2 = document.getElementById("dest-stage-2");
 
   if (section && stage1 && stage2) {
     function fadeRange(p: number, start: number, end: number) {
@@ -96,10 +96,10 @@ import pano from "../../assets/pano1.jpeg";
 
     window.addEventListener("resize", render);
 
-    // Auto-scroll to reveal the "Explore Itineraries" button when arriving via
+    // Auto-scroll to reveal the "Explore Destinations" button when arriving via
     // a navbar link. Lets the user briefly see the title (stage 1), then
     // smooth-scrolls past the crossfade so stage 2 is fully visible.
-    const targetHash = "#itineraries-section";
+    const targetHash = "#destinations-section";
     let pendingScroll: number | null = null;
 
     function autoScrollToButton() {

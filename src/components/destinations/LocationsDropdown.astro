@@ -1,0 +1,57 @@
+---
+import type { Region } from "../../data/types/destination";
+
+interface Props {
+  region: Region;
+}
+
+const { region } = Astro.props;
+---
+
+<div
+  data-region-panel
+  id={`panel-${region.slug}`}
+  aria-hidden="true"
+  class="grid"
+  style="grid-template-rows: 0fr;"
+>
+  <div class="overflow-hidden">
+    <div data-region-panel-inner class="bg-cream/50 border-x border-b border-charcoal/10 px-6 sm:px-8 py-7 sm:py-8 transition-opacity duration-300 opacity-0">
+      <p
+        class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold-dim mb-5"
+        style="font-family: 'Raleway', sans-serif;"
+      >
+        Cruising Areas
+      </p>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        {region.locations.map((loc) => (
+          <li>
+            <a
+              href={`/destinations/${region.slug}/${loc.slug}`}
+              data-location-link
+              data-location-name={loc.name.toLowerCase()}
+              data-location-slug={loc.slug}
+              class="group/link flex items-center justify-between gap-4 border border-charcoal/15 px-4 py-3 text-charcoal transition-all duration-300 hover:border-gold hover:bg-white"
+            >
+              <span
+                class="text-[12px] font-medium tracking-[0.18em] uppercase"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                {loc.name}
+              </span>
+              <svg
+                class="w-3.5 h-3.5 text-taupe-light transition-all duration-300 group-hover/link:text-gold group-hover/link:translate-x-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>

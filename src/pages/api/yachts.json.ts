@@ -1,5 +1,7 @@
 import type { APIRoute } from "astro";
 import { getAllYachts, getFacets } from "../../data/yacht-service";
+import { regionBySlug } from "../../lib/destinations/registry";
+import { getYachtSlugsForRegion } from "../../lib/destinations/location-yachts";
 
 const ANKOR_TYPES = [
   "Gulet", "Sailing", "Catamaran", "Motor",
@@ -10,8 +12,17 @@ export const GET: APIRoute = async ({ url }) => {
   const rawType = url.searchParams.get("yachtType") ?? "";
   const activeType = ANKOR_TYPES.includes(rawType) ? rawType : "";
 
+  const rawRegion = url.searchParams.get("region") ?? "";
+  const region = rawRegion ? regionBySlug(rawRegion) : null;
+
   try {
-    const items = await getAllYachts(activeType || undefined);
+    let items = await getAllYachts(activeType || undefined);
+
+    if (region) {
+      const allowed = await getYachtSlugsForRegion(region);
+      items = items.filter((y) => allowed.has(y.slug));
+    }
+
     const facets = getFacets(items);
 
     return new Response(JSON.stringify({ items, facets }), {

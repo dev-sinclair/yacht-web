@@ -1,0 +1,31 @@
+---
+import type { Region } from "../../data/types/destination";
+import RegionTile from "./RegionTile.astro";
+
+interface Props {
+  regions: Region[];
+}
+
+const { regions } = Astro.props;
+---
+
+<section class="bg-warm-white py-12 sm:py-16 lg:py-20">
+  <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
+    <ul
+      data-dest-grid
+      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8"
+    >
+      {regions.map((region, index) => (
+        <RegionTile region={region} index={index} />
+      ))}
+    </ul>
+
+    <p
+      data-dest-empty
+      class="hidden mt-16 text-center text-sm font-light tracking-wide text-taupe"
+      style="font-family: 'Raleway', sans-serif;"
+    >
+      No destinations match your search. Try a different region or country.
+    </p>
+  </div>
+</section>
