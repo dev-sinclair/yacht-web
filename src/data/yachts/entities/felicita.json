@@ -1,201 +1,207 @@
 {
-  "lastModified": 1775541838734,
-  "uri": "c::7646090758::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440",
+  "lastModified": 1778593146655,
+  "uri": "c::9938368400::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf",
   "yachtType": [
-    "Motor"
+    "Catamaran",
+    "Sailing"
   ],
-  "description": "Operating Area: Croatia\n\nEmbark on a stunning cruise along the Adriatic coast aboard the elegant Azimut S7 Fly, the luxurious motor yacht FELICITA. Designed to offer ultimate comfort and style, this exceptional vessel accommodates up to eight guests in four modern, air-conditioned cabins, each equipped with a TV and premium audio system.\n\nAn experienced captain and attentive hostess are on board to ensure your every need is met, delivering a seamless and personalized yachting experience.\nWhat makes Felicita stand out is her perfect balance of elegance and excitement. The flybridge offers panoramic sea views, while the aft deck provides a spacious area for meals or cocktails with direct access to the hydraulic swim platform, ideal for water activities. Seamless access to the water ensures endless fun on the sea. \n",
+  "description": "Summer Operating Area: Corsica, French Riviera & Monaco, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland), Provence Coast & Marseille\n\nFELICITA is a striking 2024 built Sunreef 80 sailing catamaran, combining elegant design with expansive living areas and first-class amenities. She offers generous guest space across multiple decks and accommodation for up to 10 guests in five luxuriously appointed suites, supported by a professional crew of four.\n\nAt the heart of FELICITA lies her flybridge, a true outdoor sanctuary equipped with a large dining table, flexible lounge seating, a Jacuzzi, sun pads, a sit-up bar, and a BBQ. The foredeck features a sunken lounge with adaptable sofas and sun pads, twin trampolines for sunbathing or play, and direct access to the main salon. Aft, the main cockpit invites guests to dine alfresco or lounge in comfort, with steps leading to a hydraulic swim platform for effortless sea access.\n\nInside, the full-beam main salon is bathed in natural light, with panoramic windows surrounding a relaxed lounge and dining area. The yacht interiors blend warm wood with soft neutral fabrics, creating a tranquil, welcoming ambiance. A central galley with a sit-up bar makes this space equally functional and social. Whether exploring hidden bays, relaxing on deck, or indulging in watersports, FELICITA offers a seamless blend of comfort, freedom, and style on the open sea.",
   "blueprint": {
     "name": "FELICITA",
     "images": [
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a924190-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a985c10-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9093e0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9a09c0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9b4240-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a876c20-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9d1700-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9af420-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a921a80-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a90baf0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8e49f0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8410c0-7e85-11f0-8708-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8f0d40-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a85be70-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a84ad00-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8e9810-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8f8270-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9045c0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9b9060-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9b4240-7e85-11f0-bbeb-91abe8a1473c/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a82b130-7e85-11f0-8708-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a915730-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8f5b60-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a917e40-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a859760-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a910910-7e85-11f0-8709-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a92ddd0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a84d410-7e85-11f0-8708-89caa5038b81/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a8dd4c0-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-      "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a9dda50-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}"
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3ee4e80-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3c39500-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3bfc470-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3d4ac00-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3f68be0-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3f0e690-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3b3b680-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3e267a0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3b9f810-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3bdc8a0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3e15630-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3e15630-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3f9c030-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b411b500-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3d177b0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3f94b00-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3e01db0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3ff1760-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b407a2e0-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b411b500-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3d01820-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3e59bf0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b409c5c0-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b400ec20-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::f73227c0-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::f7329cf0-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::f7333930-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::f74ba330-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::f73cfd30-4dfd-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0eae9370-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0ea36fe0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0ebb8bc0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0eb10470-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0eab5f20-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::0ea321c0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::2a992eb0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39cd16d0-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39cb9030-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39ce7660-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39ce2840-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39cc7a90-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39cca1a0-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::39cd3de0-4dfe-11f1-bf62-5d22edba62c9/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54b9ca10-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54bb29a0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54bb50b0-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54bb0290-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54c73790-4dfe-11f1-b95c-25e0bce75777/{imageVariant}",
+      "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::54ba6650-4dfe-11f1-b95c-25e0bce75777/{imageVariant}"
     ],
-    "make": "Azimut",
-    "maxCrew": 2,
-    "sleeps": 8,
+    "make": "Sunreef Yachts",
+    "model": "Sunreef 80",
+    "maxCrew": 4,
+    "sleeps": 10,
     "basePort": {
-      "uri": "a::place::27c2846e-b3ee-11ed-84d9-325096b39f47",
-      "name": "Sibenik",
+      "name": "La Seyne-sur-Mer, Var, France",
       "coordinates": {
-        "latitude": 43.73209476,
-        "longitude": 15.89377479
+        "longitude": 5.880299,
+        "latitude": 43.102146
       },
-      "country": "Croatia"
+      "country": "France"
     },
+    "cruisingCapacity": 10,
     "builtYear": 2024,
-    "topSpeed": 35,
-    "cruiseSpeed": 27,
-    "fuelCapacity": 3800,
+    "architect": "Sunreef Yachts",
+    "interiorDesigner": "Sunreef Yachts",
+    "topSpeed": 22,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 6000,
     "cabinLayout": [
       {
         "label": "Double Cabins",
-        "value": "2"
-      },
-      {
-        "label": "Twin Cabins",
-        "value": "2"
+        "value": "5"
       }
     ],
-    "cabins": 4,
-    "bathrooms": 3,
-    "length": 21.01,
-    "beam": 5.05,
-    "draft": 1.7,
-    "hullType": "Planing",
-    "hullConstruction": "Flybridge",
-    "engines": "3 x VOLVO PENTA D13 IPS 1050 800 HP",
+    "cabins": 5,
+    "length": 23.9,
+    "beam": 11.53,
+    "draft": 2.2,
+    "hullType": "Catamaran",
+    "hullConstruction": "GRP",
+    "tonnage": 150,
+    "superStructure": [
+      "GRP"
+    ],
+    "engines": "2 x 225 HP John Deere",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Lounge seating"
+      },
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Sun pads"
+      },
+      {
+        "label": "Sit-up bar"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Twin trampolines"
+      },
+      {
+        "label": "Hydraulic swim platform"
+      }
+    ],
     "toys": [
       {
-        "label": "Jet ski"
+        "label": "Seabob F5",
+        "quantity": "2"
       },
       {
-        "label": "Seadoo Spark"
+        "label": "E-foil FLITE"
       },
       {
-        "label": "Donut"
+        "label": "Wing Foil"
+      },
+      {
+        "label": "Stand up paddle board",
+        "quantity": "2"
+      },
+      {
+        "label": "Towing Sofa (5 pax)"
+      },
+      {
+        "label": "Wakesurf"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Waterski"
+      },
+      {
+        "label": "Electrical bike",
+        "quantity": "2"
+      },
+      {
+        "label": "Fishing gear"
       }
     ],
+    "entertainment": [
+      "Wi-Fi"
+    ],
     "tenders": [
-      "Williams Jet Tender"
+      "Tender Williams 520, 230 HP"
     ]
   },
-  "crew": [
-    {
-      "name": "Kresimir Sirko",
-      "role": "Captain",
-      "bio": "Kresimir has over 15 years of experience navigating the Adriatic Sea. Passionate about adventure and the ocean from an early age, he began boating at 13 and worked as a deckhand for three years before stepping into the role of captain.\n\nWith a background in extreme sports like rock climbing, skiing, and skydiving, he brings energy, precision, and a calm presence to every voyage. He’s known for his deep knowledge of the Croatian coastline—guiding guests to hidden coves, pristine beaches, and remote islands.\nProfessional, reliable, and adventure-driven, Kresimir ensures every journey aboard FELICITA is both safe and unforgettable."
-    },
-    {
-      "name": "TBA",
-      "role": "Captain"
-    }
-  ],
+  "crew": [],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 3360000,
+      "price": 7650000,
       "displayCurrency": "EUR",
-      "displayPrice": 3360000,
+      "displayPrice": 7650000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3920000,
+      "price": 8750000,
       "displayCurrency": "EUR",
-      "displayPrice": 3920000,
+      "displayPrice": 8750000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Med 01.01. - 23.05. / 03.10. - 31.12.",
+        "name": "Summer High Season",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-05-23T23:59:59.999Z"
+            "from": "2026-06-15T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
           },
           {
-            "from": "2025-10-03T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3360000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3360000,
-              "amount": 3360000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3360000,
-              "amount": 1008000
-            }
-          ],
-          "total": 4804800,
-          "subTotal": 4368000,
-          "totalTax": 436800
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              16.818610292079534,
-              44.700266827856225
-            ],
-            "bbox": [
-              13.517187500000006,
-              42.432910156249996,
-              19.400976562500006,
-              46.534619140625
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Med 23.05. - 06.06. / 19.09. - 03.10.",
-        "effectiveDates": [
-          {
-            "from": "2025-05-23T00:00:00.000Z",
-            "to": "2025-06-06T23:59:59.999Z"
+            "from": "2027-06-15T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
           },
           {
-            "from": "2025-09-19T00:00:00.000Z",
-            "to": "2025-10-03T23:59:59.999Z"
+            "from": "2028-06-15T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3480000,
+          "charterFee": 8750000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -203,168 +209,342 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3480000,
-              "amount": 3480000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3480000,
-              "amount": 1044000
-            }
-          ],
-          "total": 4976400,
-          "subTotal": 4524000,
-          "totalTax": 452400
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              16.818610292079534,
-              44.700266827856225
-            ],
-            "bbox": [
-              13.517187500000006,
-              42.432910156249996,
-              19.400976562500006,
-              46.534619140625
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Med 06.06 - 27.06. / 05.09 - 19.09.",
-        "effectiveDates": [
-          {
-            "from": "2025-06-06T00:00:00.000Z",
-            "to": "2025-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2025-09-05T00:00:00.000Z",
-            "to": "2025-09-19T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3670000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3670000,
-              "amount": 3670000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3670000,
-              "amount": 1101000
-            }
-          ],
-          "total": 5248100,
-          "subTotal": 4771000,
-          "totalTax": 477100
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              16.818610292079534,
-              44.700266827856225
-            ],
-            "bbox": [
-              13.517187500000006,
-              42.432910156249996,
-              19.400976562500006,
-              46.534619140625
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Med 27.06. - 05.09.",
-        "effectiveDates": [
-          {
-            "from": "2025-06-27T00:00:00.000Z",
-            "to": "2025-09-05T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3920000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3920000,
-              "amount": 3920000,
+              "unitPrice": 8750000,
+              "amount": 8750000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3920000,
-              "amount": 1176000
+              "quantity": 0.35,
+              "unitPrice": 8750000,
+              "amount": 3062500
             }
           ],
-          "total": 5096000,
-          "subTotal": 5096000,
+          "total": 11812500,
+          "subTotal": 11812500,
           "totalTax": 0
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Italy"
             ],
             "coordinates": [
-              16.818610292079534,
-              44.700266827856225
+              12.204840429521369,
+              41.61169587639921
             ],
             "bbox": [
-              13.517187500000006,
-              42.432910156249996,
-              19.400976562500006,
-              46.534619140625
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7650000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7650000,
+              "amount": 7650000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 7650000,
+              "amount": 2677500
+            }
+          ],
+          "total": 10327500,
+          "subTotal": 10327500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
             ]
           }
         ],
