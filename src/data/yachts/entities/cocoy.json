@@ -1,10 +1,10 @@
 {
-  "lastModified": 1763999665220,
+  "lastModified": 1778682728807,
   "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Summer Season: Mediterranean - French Riviera, Monaco in July, Corsica, Sardinia in August 2025\nWinter Season: Caribbeans St Barth, St Martin\n\nStep aboard the Riva 82' Diva, a masterpiece of Italian craftsmanship that redefines luxury on the water.\n\nThis elegant yacht combines cutting-edge technology, contemporary design, and unmatched performance to offer an extraordinary charter experience.\n\nKEY FEATURES\n• Expansive beach club with a hydraulic swim platform  \n• Luxurious flybridge with ample sunbathing & lounge areas  \n• Alfresco dining on both the main deck & flybridge \n• 4 stylish cabins accommodating up to 8 guests  \n• State-of-the-art stabilizers for enhanced comfort  \n• Sleek, modern interior designed for ultimate relaxation",
+  "description": "Operating Area: Summer Season: Mediterranean - French Riviera, Monaco in July, Corsica, Sardinia in August 2026\nWinter Season: Caribbeans St Barth, St Martin\n\nStep aboard the Riva 82' Diva, a masterpiece of Italian craftsmanship that redefines luxury on the water.\n\nThis elegant yacht combines cutting-edge technology, contemporary design, and unmatched performance to offer an extraordinary charter experience.\n\nKEY FEATURES\n• Expansive beach club with a hydraulic swim platform  \n• Luxurious flybridge with ample sunbathing & lounge areas  \n• Alfresco dining on both the main deck & flybridge \n• 4 stylish cabins accommodating up to 8 guests  \n• State-of-the-art stabilizers for enhanced comfort  \n• Sleek, modern interior designed for ultimate relaxation",
   "blueprint": {
     "name": "COCOY",
     "images": [
@@ -51,6 +51,8 @@
     "cruisingCapacity": 12,
     "staticCapacity": 20,
     "builtYear": 2025,
+    "architect": "Riva",
+    "interiorDesigner": "Riva",
     "topSpeed": 25,
     "cruiseSpeed": 20,
     "fuelCapacity": 0,
@@ -96,6 +98,12 @@
       },
       {
         "label": "Wet bar"
+      },
+      {
+        "label": "Apple TV"
+      },
+      {
+        "label": "Fold-down sides"
       }
     ],
     "toys": [
@@ -136,30 +144,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 900000,
+      "price": 1000000,
       "displayCurrency": "EUR",
-      "displayPrice": 900000,
+      "displayPrice": 1000000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 900000,
+      "price": 1000000,
       "displayCurrency": "EUR",
-      "displayPrice": 900000,
+      "displayPrice": 1000000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 5400000,
+      "price": 6000000,
       "displayCurrency": "EUR",
-      "displayPrice": 5400000,
+      "displayPrice": 6000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 5400000,
+      "price": 6000000,
       "displayCurrency": "EUR",
-      "displayPrice": 5400000,
+      "displayPrice": 6000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -181,7 +189,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 5400000,
+          "charterFee": 6000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -189,13 +197,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5400000,
-              "amount": 5400000,
+              "unitPrice": 6000000,
+              "amount": 6000000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 5400000,
-          "subTotal": 5400000,
+          "total": 6000000,
+          "subTotal": 6000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -312,7 +320,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 900000,
+          "charterFee": 1000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -320,13 +328,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 900000,
-              "amount": 900000,
+              "unitPrice": 1000000,
+              "amount": 1000000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 900000,
-          "subTotal": 900000,
+          "total": 1000000,
+          "subTotal": 1000000,
           "totalTax": 0
         },
         "inclusionZones": [
