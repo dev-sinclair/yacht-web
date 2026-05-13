@@ -17380,6 +17380,42 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
+    "slug": "errant-vagabond",
+    "name": "ERRANT VAGABOND",
+    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1650000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
+    "slug": "sophia",
+    "name": "SOPHIA",
+    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
+    "length": 15.15,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2020,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1300000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7819307041::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95",
     "slug": "unique-i",
     "name": "UNIQUE I",
@@ -17532,24 +17568,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 980000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
-    "slug": "errant-vagabond",
-    "name": "ERRANT VAGABOND",
-    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1650000,
     "currency": "EUR"
   },
   {
@@ -18064,24 +18082,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1065000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
-    "slug": "sophia",
-    "name": "SOPHIA",
-    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-    "length": 15.15,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2020,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1300000,
     "currency": "EUR"
   }
 ]
