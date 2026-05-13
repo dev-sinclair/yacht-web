@@ -7265,6 +7265,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
+    "slug": "cocoy",
+    "name": "COCOY",
+    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
+    "length": 25.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Riva Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1000000,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579706445::vessel::396e62f0-43b2-11ef-b3ab-f3f0ef91fbca",
     "slug": "lidia",
     "name": "LIDIA",
@@ -7279,23 +7296,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3360000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
-    "slug": "cocoy",
-    "name": "COCOY",
-    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
-    "length": 25.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Riva Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 900000,
-    "weekPricingFrom": 5400000,
     "currency": "EUR"
   },
   {
@@ -12970,23 +12970,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::26153654572::vessel::0bd4dad0-526c-11f0-8619-c951789ae5cc",
-    "slug": "magika",
-    "name": "MAGIKA",
-    "hero": "/media/media::image::c::26153654572::vessel::0bd4dad0-526c-11f0-8619-c951789ae5cc::assets::9ccfa370-6730-11f0-a721-7b65eb2d5cec/{imageVariant}",
-    "length": 18.6,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2006,
-    "builder": "Sealine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1400000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::9253087601::vessel::d5cca403-fe8c-11ed-889f-43d4bb723744",
     "slug": "princess-61",
     "name": "PRINCESS 61",
@@ -17380,6 +17363,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7819307041::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95",
+    "slug": "unique-i",
+    "name": "UNIQUE I",
+    "hero": "/media/media::image::a::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95::assets::17074bc0-3aae-11f0-bfb0-1bb1aa99617c/{imageVariant}",
+    "length": 15.38,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2020,
+    "builder": "Jeanneau",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 360000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
     "slug": "errant-vagabond",
     "name": "ERRANT VAGABOND",
@@ -17413,23 +17413,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1300000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7819307041::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95",
-    "slug": "unique-i",
-    "name": "UNIQUE I",
-    "hero": "/media/media::image::a::vessel::f1b5ba10-3aac-11f0-8590-8b02ea3a0d95::assets::17074bc0-3aae-11f0-bfb0-1bb1aa99617c/{imageVariant}",
-    "length": 15.38,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2020,
-    "builder": "Jeanneau",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 360000,
     "currency": "EUR"
   },
   {
