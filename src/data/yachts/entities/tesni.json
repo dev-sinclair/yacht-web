@@ -1,0 +1,480 @@
+{
+  "lastModified": 1778753252166,
+  "uri": "c::9938368400::vessel::79c64f10-84b2-11f0-a6b0-25a977754392",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Summer Operating Area: \nBalearic Islands, Corsica, French Riviera & Monaco, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland), Provence Coast & Marseille\nWinter Operating Area: Caribbean\n\n\nStep aboard Tesni, a Sunreef 80 Power Eco launched in 2025, designed to redefine sustainable luxury at sea. With four beautifully appointed cabins, she welcomes up to ten guests, supported by a dedicated crew of four who ensure every detail of your journey is seamless.​\n\nExuding elegance and modern comfort, Tesni blends state-of-the-art eco technology with the unmistakable craftsmanship of Sunreef Yachts. Her design offers vast living spaces inside and out, with panoramic views and a refined layout that elevates every moment on board.​\n\nWhether savoring open-air dining on the flybridge, relaxing in the deck jacuzzi, or enjoying a sunset toast by the bar, Tesni sets the stage for unforgettable experiences. For those seeking adventure, her swim platform and wide selection of water activities provide endless opportunities to immerse in the sea.​\n\nKey features include her expansive flybridge with a lounge and sunpads, a spacious foredeck seating area, an alfresco dining space, a deck jacuzzi, and eco-conscious design enhanced by solar power integration. Below deck, her interiors create a tranquil retreat, balancing sophistication and comfort for a restful stay.",
+  "blueprint": {
+    "name": "TESNI",
+    "images": [
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fdca50-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c46ad0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fc43b0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c5ca60-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f9d2b0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c3f5a0-4dfc-11f1-a421-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d700b080-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c6b4c0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d701c1f0-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c491e0-4dfc-11f1-a421-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f65040-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fedbc0-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f7fdf0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d700fea0-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d70173d0-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f5b400-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fda340-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fc1ca0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6c57c40-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f89a30-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f4a290-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f93670-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d7006260-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6ff50f0-4dfc-11f1-a423-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fd0700-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fa47e0-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+      "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6f6c570-4dfc-11f1-a422-8ffd43db9924/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "model": "Sunreef Power Eco 80",
+    "maxCrew": 4,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::084d2f1c-b3ee-11ed-88e8-325096b39f47",
+      "name": "Olbia",
+      "coordinates": {
+        "latitude": 40.92518954,
+        "longitude": 9.507247173
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 10,
+    "builtYear": 2025,
+    "architect": "Sunreef Yachts",
+    "cruiseSpeed": 8,
+    "cabinLayout": [],
+    "cabins": 4,
+    "length": 23.95,
+    "beam": 12.19,
+    "draft": 1.8,
+    "tonnage": 96,
+    "engines": "2 x 360W engines",
+    "amenities": [],
+    "toys": [
+      {
+        "label": "Jet Ski",
+        "quantity": "1"
+      },
+      {
+        "label": "Stand-up paddle",
+        "quantity": "2"
+      },
+      {
+        "label": "Rigid Flite Efoil",
+        "quantity": "1"
+      },
+      {
+        "label": "Air Flite Efoil",
+        "quantity": "1"
+      },
+      {
+        "label": "Inflatable Donut to tow with tender up to 4 guests",
+        "quantity": "1"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Wake Surf Board (wake surfer)",
+        "quantity": "1"
+      },
+      {
+        "label": "Wave maker for wake surfers",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkelling Gear",
+        "quantity": "1"
+      }
+    ],
+    "tenders": [
+      "Williams Tender Boat (Diesel Jet 505) | 110HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Josh Bradley",
+      "avatar": "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::98fbb9c0-4dfb-11f1-9b01-3d57f6290e60/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Irish\nLanguages: English\n\nWith over ten years at sea and an MCA/RYA Yachtmaster Ocean licence, Captain Josh brings a calm, professional confidence that puts guests at ease from the moment they step aboard. Irish by background and a true ocean lover at heart, he has sailed across the Atlantic multiple times, explored the Mediterranean, Caribbean, and beyond — and knows how to make every destination memorable.\n\nJosh's greatest strength on charter is his ability to read what guests want — whether that's an exhilarating sail, a secluded anchorage, or a perfectly planned day ashore. His experience across more than 20 charter seasons means he handles everything quietly in the background, so guests never have to think about anything except enjoying themselves.\n\nAs a PADI Divemaster, keen watersports enthusiast, and drone pilot, Josh loves sharing his passions with guests — whether that's snorkelling a hidden reef, setting up the foils, or capturing stunning aerial footage of your time onboard. \n\nWith a deep understanding of eco-conscious yachting from his time commanding a hybrid-electric sailing catamaran, Josh is a natural fit for the Sunreef 80 Eco Power — combining a lighter footprint with an unforgettable charter experience.\n\nQualifications: MCA/RYA Yachtmaster Ocean 200ton (Commercially Endorsed) | STCW 2010 | GMDSS GOC | PADI Divemaster | B1/B2\nVisa\n"
+    },
+    {
+      "name": "Stefano Gdoudi",
+      "avatar": "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::b0901a40-4dfb-11f1-9cbd-57d1397b8afb/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\nLanguages: Italian, German, French\n\nDining aboard is one of the great pleasures of any charter, and with Stefano in the galley, it becomes something truly extraordinary. Italian-born and classically trained, Stefano brings a Michelin-star pedigree and decades of fine dining excellence to e very meal he creates — from lazy breakfast spreads to elegant multi-course dinners under the stars.\n\nHis culinary journey has taken him through some of Europe's most prestigious kitchens , including a Michelin-starred restaurant on London's Pollen Street, a 16 Gault Millau establishment in Zürich, and most recently as Head Chef aboard the iconic 260m Ritz-Carlton Yacht , giving him an effortless ability to tailor menus to any guest preference, dietary requirement, or occasion.\n\nStefano's food is rooted in Italian tradition but elevated by French technique and a genuine passion for innovation. Every dish is prepared with precision and care, using the finest local produce sourced fresh at each port of call. Whether guests are craving a relaxed Mediterranean feast, a lavish tasting menu, or a personalised dish they've been dreaming about, Stefano makes it happen with quiet confidence and artistry.\n\nFluent in Italian, English, and German, he brings a warmth and professionalism to the table in every sense.\nQualifications: Michelin-Star Background | USPH & HACCP"
+    },
+    {
+      "name": "Piers Lloyd",
+      "avatar": "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::3b09a060-4dfc-11f1-9cbd-57d1397b8afb/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: South African\nLanguages: English\n\nPiers brings energy, enthusiasm, and a natural ease with people to every charter. Raised in a seafaring family, his father spent over 30 years with the Royal Fleet Auxiliary and the Sultan of Oman's Royal Yachts; the ocean has always been part of his DNA. Now carving out his own career on the water, Piers is already proving himself as a capable and dedicated member of any yacht crew.\n\nCurrently based aboard a Sunreef 80, Piers knows this platform well and will ensure guests feel completely at home from the moment they step aboard. Whether he's handling lines in a busy marina, launching the tender for a beach excursion, or keeping the deck immaculate throughout your charter, he takes quiet pride in making everything look effortless.\n\nA natural team player, honed through competitive university rugby and years of managing high-pressure events at a Premiership stadium, Piers is attentive, hardworking, and always one step ahead of what guests might need. His warm, personable manner makes him a genuine pleasure to have around.\n\nA PADI-certified diver and watersports enthusiast, Piers loves helping guests get the most out of every anchorage and adventure the itinerary has to offer.\n\nQualifications: MCA STCW Basic Safety Training | RYA Powerboat Level 2 | RYA Tender Operator | RYA Personal Watercraft | RYA VHF\nShort Range Radio | ENG1"
+    },
+    {
+      "name": "Nicole Billitz",
+      "avatar": "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::7ab3ff30-4dfc-11f1-9cfa-47f34ca59b0b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: American\nLanguages: English\n\nNicole is the kind of stewardess who turns a great charter into an unforgettable one. American-born with a Master's degree and a natural flair for hospitality, she brings warmth, creativity, and genuine care to every guest experience — whether that's a perfectly crafted cocktail at sunset, an elegant tablescape for a dinner under the stars, or a spontaneous beach picnic in a hidden cove.\n\nWith several seasons of Mediterranean and Caribbean charter experience under her belt — including time aboard a Sunreef catamaran  Nicole knows exactly what it takes to keep guests happy from morning coffee to nightcap. She has a gift for anticipating needs before guests even realise they have them, and her background organising activities, Scotch tastings, and curated shore excursions means every day feels effortlessly special.\n\nA certified sommelier (WSET 1, Christie Norman Wine Certification) and accomplished bartender, Nicole takes real pride in her food and beverage service expect creative daily cocktail specials, thoughtful wine pairings, and menus tailored to each guest's tastes.\n\nOff duty, Nicole is a fellow adventurer, passionate about watersports, hiking, rock climbing, and exploring local food and wine scenes, making her as easy to be around as she is professional on charter.\n\nQualifications: STCW | ENG1 | PADI Open Water | WSET 1 | Christie Norman Wine Certification | BarSmarts Certification | Elementary First Aid"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 9000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 12000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer: Mediterranean - Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9000000,
+              "amount": 9000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9000000,
+              "amount": 2700000
+            }
+          ],
+          "total": 11700000,
+          "subTotal": 11700000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: Caribbean - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-12-15T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-15T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-15T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12000000,
+              "amount": 12000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 12000000,
+              "amount": 3600000
+            }
+          ],
+          "total": 15600000,
+          "subTotal": 15600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Netherlands",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Caribbean Netherlands"
+            ],
+            "coordinates": [
+              -65.61656266635703,
+              14.957609209247945
+            ],
+            "bbox": [
+              -68.37109375,
+              12.032080078124991,
+              -62.9375,
+              17.651806640624997
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: Caribbean - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-12-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-12-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-12-14T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9500000,
+              "amount": 2850000
+            }
+          ],
+          "total": 12350000,
+          "subTotal": 12350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Netherlands",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Caribbean Netherlands"
+            ],
+            "coordinates": [
+              -65.61656266635703,
+              14.957609209247945
+            ],
+            "bbox": [
+              -68.37109375,
+              12.032080078124991,
+              -62.9375,
+              17.651806640624997
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "lastModified": 1778753012315,
+  "uri": "c::9938368400::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Summer Operating Area: Corsica, Croatia, French Riviera & Monaco, Greece - Aegean/Cyclades Sea, Greece - Ionian Sea, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland), Malta, Montenegro, Provence Coast & Marseille\n\nBohemia is a brand-new 80 Sunreef Power, offering exceptional living spaces designed for luxury cruising. This elegant power catamaran features a spacious five-cabin layout, providing comfort, privacy, and generous volume on board. Large panoramic windows fill the interiors with natural light, creating a bright and welcoming atmosphere throughout. Inspired by a subtle bohemian-chic aesthetic, the interior combines contemporary materials with warm textures for a relaxed yet refined environment. \n\nOutside, Bohemia offers expansive deck areas designed for relaxation and socialising. The spacious flybridge provides panoramic views and inviting lounge areas, while the forward deck creates a peaceful space to unwind. The aft cockpit connects effortlessly with the beach club, making it easy to enjoy swimming and time on the water. Wide walkways and open deck layouts enhance the sense of space throughout the yacht.  Bohemia perfectly reflects the signature comfort and elegance of the 80 Sunreef Power.",
+  "blueprint": {
+    "name": "BOHEMIA",
+    "images": [
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d8e6a0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d982e0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e7b3b0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72cc6380-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72cbc740-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72ccffc0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72dabb60-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e0d5e0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e78ca0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72ce3840-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d64e90-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d95bd0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d6ead0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e2d1b0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e4cd80-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e36df0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e43140-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72fc7430-4e00-11f1-bc39-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e6a240-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72fc9b40-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72fbff00-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72fbd7f0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72f3e8b0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72f23b00-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72e4a670-4e00-11f1-bc38-7187380925d9/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "model": "80 Sunreef Power",
+    "maxCrew": 4,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::a12de070-f829-11ee-9508-3fbdb5910361",
+      "name": "Mediterranean Coast",
+      "coordinates": {
+        "latitude": 34.5531,
+        "longitude": 18.048
+      },
+      "country": "Europe"
+    },
+    "cruisingCapacity": 9,
+    "builtYear": 2026,
+    "architect": "Sunreef Yachts",
+    "interiorDesigner": "Sunreef Yachts",
+    "cruiseSpeed": 11,
+    "cabinLayout": [],
+    "cabins": 5,
+    "length": 23.99,
+    "beam": 12.2,
+    "draft": 1.8,
+    "toys": [
+      {
+        "label": "Water Toys"
+      },
+      {
+        "label": "Seabobs F9",
+        "quantity": "2"
+      },
+      {
+        "label": "Electric Jetsurf",
+        "quantity": "1"
+      },
+      {
+        "label": "Sublue Navbow+ sea scooters",
+        "quantity": "4"
+      },
+      {
+        "label": "Stand-up paddleboards",
+        "quantity": "4"
+      },
+      {
+        "label": "TIWAL sailing dinghy",
+        "quantity": "1"
+      },
+      {
+        "label": "JOBE 4-person towable",
+        "quantity": "1"
+      },
+      {
+        "label": "Adult wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Pair of adult water skis",
+        "quantity": "1"
+      },
+      {
+        "label": "Adult monoski",
+        "quantity": "1"
+      },
+      {
+        "label": "410 x 200 cm Swimming platform",
+        "quantity": "1"
+      }
+    ],
+    "tenders": [
+      "Highfield 560 with Honda 70 HP outboard engine"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Geoffrey Vidale-Noye",
+      "avatar": "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::f8c3d960-4dff-11f1-84c8-c121f4599462/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: Italian, French, English, Spanish\n\nCaptain Geoffrey brings over 20 years of maritime experience, including nearly two decades in the yachting industry. A Yacht Master 500 GT Unlimited, he has commanded a range of prestigious motor yachts across the Mediterranean, both private and charter, consistently delivering seamless operations and exceptional guest experiences.\n\nThroughout his career, Geoffrey has led crews of up to six and managed both private and charter programmes on yachts up to 37 metres, with extensive cruising experience across the Mediterranean. His background also includes time in the merchant navy and offshore operations, further strengthening his technical knowledge and adaptability at sea. \n\nKnown for his organised and professional approach, he combines strong leadership with a calm, personable presence on board, ensuring every journey is safe, smooth, and enjoyable for both guests and crew"
+    },
+    {
+      "name": "Clara Esnault",
+      "avatar": "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::1416c880-4e00-11f1-93da-bb9da8f170b9/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: French, English\n\nClara is a talented and creative private chef with a strong background in high-end gastronomy and bespoke culinary experiences. With experience as an independent chef since 2022, she has delivered tailored dining experiences for private clients, villas, and exclusive events, including high-profile occasions such as Paris Fashion Week and the Monaco Grand Prix.\n\nHer career includes leading kitchen teams as Head Chef in Paris, where she was responsible for menu creation, team management, and the development of refined culinary concepts. Clara has also worked across a variety of gastronomic environments, from intimate private dining to large-scale events, showcasing her versatility and attention to detail.\n\nPassionate and detail-oriented, she combines creativity with precision, delivering elevated dining experiences tailored to each guest, ensuring every meal on board is both memorable and perfectly executed.\n"
+    },
+    {
+      "name": "Thomas Liger",
+      "avatar": "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::35863370-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: English, French\n\nThomas is a dynamic and motivated deckhand with a strong maritime background and hands-on experience across a variety of vessels, including catamarans and motor yachts. Having progressed from deckhand roles to captain positions on seasonal operations, he brings a well-rounded understanding of onboard operations, guest services, and day-to-day vessel management.\n\nWith experience spanning charter yachts, passenger vessels, and port operations in the Mediterranean, Thomas is confident in supporting both deck duties and guest-facing responsibilities. His time working with pilot boats and shipyards has also strengthened his technical awareness and seamanship skills.\n\nEnergetic and adaptable, he is known for his proactive attitude, reliability, and strong work ethic, contributing to a smooth and enjoyable fight is experience on board for both guests and crew.\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 8500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 9500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-06-15T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-15T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-15T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9500000,
+              "amount": 2850000
+            }
+          ],
+          "total": 12350000,
+          "subTotal": 12350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          },
+          {
+            "label": "Ionian Sea",
+            "type": "Custom Area",
+            "category": [
+              "Ionian Sea"
+            ],
+            "coordinates": [
+              18.523506214085312,
+              38.039692558677544
+            ],
+            "bbox": [
+              15.099368116931942,
+              36.46281342217971,
+              23.183474155375762,
+              40.51357392024279
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Malta",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Malta"
+            ],
+            "coordinates": [
+              14.377222348503812,
+              35.94020291192098
+            ],
+            "bbox": [
+              14.180371093750011,
+              35.820214843749994,
+              14.566210937500017,
+              36.07578125
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.238839392474098,
+              42.7889025929079
+            ],
+            "bbox": [
+              18.436328125000017,
+              41.869091796875,
+              20.34765625,
+              43.542333984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8500000,
+              "amount": 8500000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 8500000,
+              "amount": 2550000
+            }
+          ],
+          "total": 11050000,
+          "subTotal": 11050000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          },
+          {
+            "label": "Ionian Sea",
+            "type": "Custom Area",
+            "category": [
+              "Ionian Sea"
+            ],
+            "coordinates": [
+              18.523506214085312,
+              38.039692558677544
+            ],
+            "bbox": [
+              15.099368116931942,
+              36.46281342217971,
+              23.183474155375762,
+              40.51357392024279
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Malta",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Malta"
+            ],
+            "coordinates": [
+              14.377222348503812,
+              35.94020291192098
+            ],
+            "bbox": [
+              14.180371093750011,
+              35.820214843749994,
+              14.566210937500017,
+              36.07578125
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.238839392474098,
+              42.7889025929079
+            ],
+            "bbox": [
+              18.436328125000017,
+              41.869091796875,
+              20.34765625,
+              43.542333984375
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
