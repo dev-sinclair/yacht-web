@@ -1,5 +1,5 @@
 {
-  "lastModified": 1778161572232,
+  "lastModified": 1778853713107,
   "uri": "c::7579668770::vessel::d5cbfb64-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -164,38 +164,30 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 7000000,
+      "price": 7200000,
       "displayCurrency": "EUR",
-      "displayPrice": 7000000,
+      "displayPrice": 7200000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 8500000,
+      "price": 7800000,
       "displayCurrency": "EUR",
-      "displayPrice": 8500000,
+      "displayPrice": 7800000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "High Season - Winter 2025/6",
+        "name": "High Season - Winter 2026/27",
         "effectiveDates": [
           {
-            "from": "2025-12-15T00:00:00.000Z",
-            "to": "2026-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-12-15T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-12-15T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
+            "from": "2026-12-19T00:00:00.000Z",
+            "to": "2027-01-08T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 8500000,
+          "charterFee": 7800000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -203,13 +195,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8500000,
-              "amount": 8500000,
+              "unitPrice": 7800000,
+              "amount": 7800000,
               "conditions": "1 week"
             }
           ],
-          "total": 8500000,
-          "subTotal": 8500000,
+          "total": 7800000,
+          "subTotal": 7800000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -235,24 +227,20 @@
         "petsAllowed": false
       },
       {
-        "name": "Low Season - Winter 2025/6",
+        "name": "Low Season - Winter 2026/27",
         "effectiveDates": [
           {
-            "from": "2025-05-01T00:00:00.000Z",
-            "to": "2025-12-14T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-18T23:59:59.999Z"
           },
           {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-12-14T23:59:59.999Z"
-          },
-          {
-            "from": "2027-05-01T00:00:00.000Z",
-            "to": "2027-12-14T23:59:59.999Z"
+            "from": "2027-01-08T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 7000000,
+          "charterFee": 7200000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -260,13 +248,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7000000,
-              "amount": 7000000,
+              "unitPrice": 7200000,
+              "amount": 7200000,
               "conditions": "1 week"
             }
           ],
-          "total": 7000000,
-          "subTotal": 7000000,
+          "total": 7200000,
+          "subTotal": 7200000,
           "totalTax": 0
         },
         "inclusionZones": [
