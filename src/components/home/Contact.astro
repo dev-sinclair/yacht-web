@@ -131,15 +131,23 @@ import Container from "../ui/Container.astro";
                 id="contact-input-1"
                 type="text"
                 placeholder="Type your answer here…"
-                autocomplete="off"
+                autocomplete="name"
+                maxlength="80"
+                spellcheck="false"
+                aria-describedby="contact-counter-1 contact-error-1"
                 data-step-input
                 class="mt-6 w-full border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
               />
+              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
+                <span id="contact-error-1" class="text-rose-700/80" aria-live="polite"></span>
+                <span id="contact-counter-1" class="num text-taupe-light/70">0 / 80</span>
+              </div>
               <div class="mt-6 flex items-center gap-4">
                 <button
                   type="button"
                   data-step-next
-                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold"
+                  disabled
+                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-charcoal"
                 >
                   OK
                   <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -168,17 +176,25 @@ import Container from "../ui/Container.astro";
               </label>
               <input
                 id="contact-input-2"
-                type="text"
-                placeholder="Type your answer here…"
-                autocomplete="off"
+                type="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                maxlength="254"
+                spellcheck="false"
+                aria-describedby="contact-counter-2 contact-error-2"
                 data-step-input
                 class="mt-6 w-full border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
               />
+              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
+                <span id="contact-error-2" class="text-rose-700/80" aria-live="polite"></span>
+                <span id="contact-counter-2" class="num text-taupe-light/70">0 / 254</span>
+              </div>
               <div class="mt-6 flex items-center gap-4">
                 <button
                   type="button"
                   data-step-next
-                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold"
+                  disabled
+                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-charcoal"
                 >
                   OK
                   <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -209,15 +225,22 @@ import Container from "../ui/Container.astro";
                 id="contact-input-3"
                 rows="3"
                 placeholder="Yacht, dates, region, anything we should know…"
+                maxlength="2000"
+                aria-describedby="contact-counter-3 contact-error-3"
                 data-step-input
                 class="mt-6 w-full resize-none border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
               ></textarea>
+              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
+                <span id="contact-error-3" class="text-rose-700/80" aria-live="polite"></span>
+                <span id="contact-counter-3" class="num text-taupe-light/70">0 / 2000</span>
+              </div>
               <div class="mt-6 flex items-center gap-4">
                 <button
                   type="button"
                   data-step-next
                   data-step-submit
-                  class="inline-flex items-center gap-2 bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold-dim"
+                  disabled
+                  class="inline-flex items-center gap-2 bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold-dim disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-gold"
                 >
                   Send
                   <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -306,6 +329,76 @@ import Container from "../ui/Container.astro";
     let currentStep = 1;
     let channel: "whatsapp" | "email" | null = null;
 
+    // Input guardrails. maxlength is also enforced at the HTML attribute
+    // level — these constants exist so JS validation matches.
+    const LIMITS = { name: 80, email: 254, phone: 20, message: 2000 };
+    // Conservative, non-backtracking regex — no ReDoS risk.
+    const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{1,63}$/;
+    const PHONE_RE = /^[+()\d\s.-]{7,20}$/;
+
+    function validateStep(stepEl: HTMLElement): { ok: boolean; msg: string } {
+      const inp = stepEl.querySelector<
+        HTMLInputElement | HTMLTextAreaElement
+      >("input, textarea");
+      if (!inp) return { ok: false, msg: "" };
+      const val = inp.value.trim();
+      const step = parseInt(stepEl.dataset.step || "0", 10);
+      if (step === 1) {
+        if (!val) return { ok: false, msg: "" };
+        if (val.length > LIMITS.name)
+          return { ok: false, msg: `Max ${LIMITS.name} characters` };
+        return { ok: true, msg: "" };
+      }
+      if (step === 2) {
+        if (!val) return { ok: false, msg: "" };
+        if (channel === "whatsapp") {
+          if (val.length > LIMITS.phone)
+            return { ok: false, msg: `Max ${LIMITS.phone} characters` };
+          if (!PHONE_RE.test(val))
+            return { ok: false, msg: "Enter a valid phone number" };
+        } else {
+          if (val.length > LIMITS.email)
+            return { ok: false, msg: `Max ${LIMITS.email} characters` };
+          if (!EMAIL_RE.test(val))
+            return { ok: false, msg: "Enter a valid email address" };
+        }
+        return { ok: true, msg: "" };
+      }
+      if (step === 3) {
+        if (!val) return { ok: false, msg: "" };
+        if (val.length > LIMITS.message)
+          return { ok: false, msg: `Max ${LIMITS.message} characters` };
+        return { ok: true, msg: "" };
+      }
+      return { ok: true, msg: "" };
+    }
+
+    function refreshStepValidity(stepEl: HTMLElement | null) {
+      if (!stepEl) return;
+      const next = stepEl.querySelector<HTMLButtonElement>("[data-step-next]");
+      const inp = stepEl.querySelector<
+        HTMLInputElement | HTMLTextAreaElement
+      >("input, textarea");
+      const step = parseInt(stepEl.dataset.step || "0", 10);
+      const counter = document.getElementById(`contact-counter-${step}`);
+      const errEl = document.getElementById(`contact-error-${step}`);
+      if (!inp || !next) return;
+
+      // Update counter — max comes from the input's own maxLength attribute,
+      // which we keep in sync with `LIMITS` whenever channel changes.
+      const max = inp.maxLength > 0 ? inp.maxLength : null;
+      if (counter && max != null) {
+        counter.textContent = `${inp.value.length} / ${max}`;
+      }
+
+      const { ok, msg } = validateStep(stepEl);
+      next.disabled = !ok;
+      // Only surface error text when the user has typed something invalid —
+      // an empty field shouldn't read as "error".
+      if (errEl) errEl.textContent = inp.value.length > 0 ? msg : "";
+      inp.setAttribute("aria-invalid", String(!ok && inp.value.length > 0));
+    }
+
     // Crossfade between the picker view and the form view. While one is
     // fading out we keep both display: block so the transition runs; once
     // it's complete, the outgoing view gets display: none so the card
@@ -391,6 +484,41 @@ import Container from "../ui/Container.astro";
           el.textContent = channel === "whatsapp" ? "phone number" : "email";
         });
         if (stepTotalEl) stepTotalEl.textContent = String(TOTAL_STEPS);
+
+        // Reconfigure step 2 input for the chosen channel — keyboard hint,
+        // autocomplete and max length all swap.
+        const step2Input = document.getElementById(
+          "contact-input-2",
+        ) as HTMLInputElement | null;
+        const step2Counter = document.getElementById("contact-counter-2");
+        if (step2Input) {
+          if (channel === "whatsapp") {
+            step2Input.type = "tel";
+            step2Input.inputMode = "tel";
+            step2Input.autocomplete = "tel";
+            step2Input.maxLength = LIMITS.phone;
+            step2Input.placeholder = "+34 612 345 678";
+          } else {
+            step2Input.type = "email";
+            step2Input.inputMode = "email";
+            step2Input.autocomplete = "email";
+            step2Input.maxLength = LIMITS.email;
+            step2Input.placeholder = "you@example.com";
+          }
+          // Clear previous value so the user starts fresh on channel switch
+          step2Input.value = "";
+          if (step2Counter)
+            step2Counter.textContent = `0 / ${step2Input.maxLength}`;
+        }
+        // Clear name and message too so re-entry starts clean.
+        steps.forEach((s) => {
+          const inp = s.querySelector<
+            HTMLInputElement | HTMLTextAreaElement
+          >("input, textarea");
+          if (inp) inp.value = "";
+          refreshStepValidity(s);
+        });
+
         // Reset to step 1 each time a channel is picked
         setStep(1);
         showView("form");
@@ -408,21 +536,30 @@ import Container from "../ui/Container.astro";
 
     nextBtns.forEach((btn) => {
       btn.addEventListener("click", () => {
-        // Last regular step → show thanks (visual only, no submit).
+        // Guard against bypassing validation via stray clicks.
+        if (btn.disabled) return;
+        const stepEl = btn.closest<HTMLElement>(".contact-step");
+        if (stepEl && !validateStep(stepEl).ok) return;
         if (currentStep >= TOTAL_STEPS) setStep(TOTAL_STEPS + 1);
         else setStep(currentStep + 1);
       });
     });
 
-    // Enter to advance. In textarea, Shift+Enter inserts a newline.
+    // Live validation + counter on every keystroke / paste.
     inputs.forEach((inp) => {
+      const stepEl = inp.closest<HTMLElement>(".contact-step");
+      const handler = () => refreshStepValidity(stepEl);
+      inp.addEventListener("input", handler);
+      inp.addEventListener("blur", handler);
+
+      // Enter to advance. In textarea, Shift+Enter inserts a newline.
       inp.addEventListener("keydown", (e) => {
         if (e.key !== "Enter") return;
         if (inp.tagName === "TEXTAREA" && e.shiftKey) return; // allow newline
         e.preventDefault();
-        // Find the next button within this step and click it.
-        const step = inp.closest<HTMLElement>(".contact-step");
-        step?.querySelector<HTMLButtonElement>("[data-step-next]")?.click();
+        // Silently no-op if invalid — disabled button mirrors this.
+        if (stepEl && !validateStep(stepEl).ok) return;
+        stepEl?.querySelector<HTMLButtonElement>("[data-step-next]")?.click();
       });
     });
 
