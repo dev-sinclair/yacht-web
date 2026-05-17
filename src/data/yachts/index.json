@@ -295,23 +295,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::9966738337::vessel::d5c9d4f0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "running-on-waves",
-    "name": "RUNNING ON WAVES",
-    "hero": "/media/media::image::c::9966738337::vessel::d5c9d4f0-fe8c-11ed-889f-43d4bb723744::assets::a0e10270-aad9-11ee-9d60-19422a897844.jpeg/{imageVariant}",
-    "length": 64,
-    "sleeps": 42,
-    "cabins": 18,
-    "builtYear": 2011,
-    "builder": "Segel Masten Yachten",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 10500000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7580644256::vessel::d5cc7866-fe8c-11ed-889f-43d4bb723744",
     "slug": "top-five-ii",
     "name": "TOP FIVE II",
@@ -484,6 +467,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::8864389904::vessel::d5cabfd2-fe8c-11ed-889f-43d4bb723744",
+    "slug": "mischief",
+    "name": "MISCHIEF",
+    "hero": "/media/media::image::c::8864389904::vessel::d5cabfd2-fe8c-11ed-889f-43d4bb723744::assets::20c4c301-92b0-11ef-b582-ad2f00cc2cb5/{imageVariant}",
+    "length": 54,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2006,
+    "builder": "Baglietto",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 550000,
+    "weekPricingFrom": 42000000,
+    "currency": "USD"
+  },
+  {
     "uri": "c::8573887147::vessel::d5cc4fc0-fe8c-11ed-889f-43d4bb723744",
     "slug": "harmony-g",
     "name": "HARMONY G",
@@ -517,23 +517,6 @@
     "dayPricingFrom": null,
     "weekPricingFrom": 10700000,
     "currency": "EUR"
-  },
-  {
-    "uri": "c::8864389904::vessel::d5cabfd2-fe8c-11ed-889f-43d4bb723744",
-    "slug": "mischief",
-    "name": "MISCHIEF",
-    "hero": "/media/media::image::c::8864389904::vessel::d5cabfd2-fe8c-11ed-889f-43d4bb723744::assets::20c4c301-92b0-11ef-b582-ad2f00cc2cb5/{imageVariant}",
-    "length": 54,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2006,
-    "builder": "Baglietto",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 550000,
-    "weekPricingFrom": 42000000,
-    "currency": "USD"
   },
   {
     "uri": "c::7646090758::vessel::d5ca7198-fe8c-11ed-889f-43d4bb723744",
@@ -1404,6 +1387,23 @@
     "currency": "AUD"
   },
   {
+    "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ubi-bene",
+    "name": "UBI BENE",
+    "hero": "/media/media::image::c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744::assets::0a41ddb0-3d42-11f0-924d-39e47bdcc231/{imageVariant}",
+    "length": 44,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2010,
+    "builder": "Valena Yachting",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3360000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7819143053::vessel::77945888-486c-11ee-a45f-fdfff6163a60",
     "slug": "north-wind",
     "name": "NORTH WIND",
@@ -1419,23 +1419,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 7350000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ubi-bene",
-    "name": "UBI BENE",
-    "hero": "/media/media::image::c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744::assets::0a41ddb0-3d42-11f0-924d-39e47bdcc231/{imageVariant}",
-    "length": 44,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2010,
-    "builder": "Valena Yachting",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
     "currency": "EUR"
   },
   {
@@ -1944,6 +1927,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::8294320436::vessel::d5b7fd20-9de2-11f0-acee-af15cde16442",
+    "slug": "how-much-is-enough",
+    "name": "HOW MUCH IS ENOUGH",
+    "hero": "/media/media::image::a::vessel::d5b7fd20-9de2-11f0-acee-af15cde16442::assets::fed9b270-4d23-11f1-931c-a9439b868aef/{imageVariant}",
+    "length": 40.8,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2023,
+    "builder": "Benetti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 20000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
     "slug": "northern-escape",
     "name": "NORTHERN ESCAPE",
@@ -2008,7 +2008,7 @@
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 13800000,
+    "weekPricingFrom": 11000000,
     "currency": "EUR"
   },
   {
@@ -3558,6 +3558,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::31479982513::vessel::d5cc7767-fe8c-11ed-889f-43d4bb723744",
+    "slug": "parss",
+    "name": "PARSS",
+    "hero": "/media/media::image::c::31479982513::vessel::d5cc7767-fe8c-11ed-889f-43d4bb723744::assets::c8e6f7d0-3632-11f0-9b07-2fc54a1fae45/{imageVariant}",
+    "length": 34,
+    "sleeps": 17,
+    "cabins": 8,
+    "builtYear": 2002,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1680000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9333109022::vessel::d5cca284-fe8c-11ed-889f-43d4bb723744",
     "slug": "wicked-felina",
     "name": "WICKED FELINA",
@@ -3608,24 +3626,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1975000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::31479982513::vessel::d5cc7767-fe8c-11ed-889f-43d4bb723744",
-    "slug": "parss",
-    "name": "PARSS",
-    "hero": "/media/media::image::c::31479982513::vessel::d5cc7767-fe8c-11ed-889f-43d4bb723744::assets::c8e6f7d0-3632-11f0-9b07-2fc54a1fae45/{imageVariant}",
-    "length": 34,
-    "sleeps": 17,
-    "cabins": 8,
-    "builtYear": 2002,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1680000,
     "currency": "EUR"
   },
   {
@@ -4060,23 +4060,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2800000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7819281976::vessel::d5cca1bc-fe8c-11ed-889f-43d4bb723744",
-    "slug": "amaya",
-    "name": "AMAYA",
-    "hero": "/media/media::image::a::vessel::d5cca1bc-fe8c-11ed-889f-43d4bb723744::assets::ebd38c00-34b5-11f0-b510-bbc198b987fb/{imageVariant}",
-    "length": 32,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2001,
-    "builder": "Maiora",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5000000,
     "currency": "EUR"
   },
   {
@@ -7282,6 +7265,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
+    "slug": "cocoy",
+    "name": "COCOY",
+    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
+    "length": 25.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Riva Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1000000,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579706445::vessel::396e62f0-43b2-11ef-b3ab-f3f0ef91fbca",
     "slug": "lidia",
     "name": "LIDIA",
@@ -7296,23 +7296,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3360000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
-    "slug": "cocoy",
-    "name": "COCOY",
-    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
-    "length": 25.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Riva Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 900000,
-    "weekPricingFrom": 5400000,
     "currency": "EUR"
   },
   {
@@ -8046,23 +8029,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::10819594065::vessel::f5489c90-0fb1-11f0-a631-bf01d84966d0",
-    "slug": "stinger",
-    "name": "STINGER",
-    "hero": "/media/media::image::a::vessel::f5489c90-0fb1-11f0-a631-bf01d84966d0::assets::22ca0ed0-0fb5-11f0-88a9-55ad6340d988/{imageVariant}",
-    "length": 24,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2004,
-    "builder": "Pershing",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 550000,
-    "weekPricingFrom": 3200000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::20984578048::vessel::fe126ca0-e876-11ef-bc87-4ff526de2764",
     "slug": "maritimus",
     "name": "MARITIMUS",
@@ -8359,6 +8325,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::9938368400::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7",
+    "slug": "bohemia",
+    "name": "BOHEMIA",
+    "hero": "/media/media::image::a::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7::assets::72d8e6a0-4e00-11f1-bc38-7187380925d9/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2026,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8500000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
     "slug": "houbara",
     "name": "HOUBARA",
@@ -8480,6 +8464,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::9938368400::vessel::79c64f10-84b2-11f0-a6b0-25a977754392",
+    "slug": "tesni",
+    "name": "TESNI",
+    "hero": "/media/media::image::a::vessel::79c64f10-84b2-11f0-a6b0-25a977754392::assets::d6fdca50-4dfc-11f1-a422-8ffd43db9924/{imageVariant}",
+    "length": 23.95,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
     "slug": "ola",
     "name": "OLA",
@@ -8528,6 +8530,24 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2500000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::9938368400::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf",
+    "slug": "felicita",
+    "name": "FELICITA",
+    "hero": "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3ee4e80-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+    "length": 23.9,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7650000,
     "currency": "EUR"
   },
   {
@@ -8720,7 +8740,7 @@
       "Catamaran"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 7000000,
+    "weekPricingFrom": 7200000,
     "currency": "EUR"
   },
   {
@@ -9623,6 +9643,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::9938368400::vessel::95cbc8b0-4f7e-11f1-9abb-7d622bde8437",
+    "slug": "alkimia",
+    "name": "ALKIMIA",
+    "hero": "/media/media::image::a::vessel::95cbc8b0-4f7e-11f1-9abb-7d622bde8437::assets::a0d7a010-4f80-11f1-8b3d-7b47b1daf5ca/{imageVariant}",
+    "length": 22.41,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2015,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7646090758::vessel::d5cbd3a4-fe8c-11ed-889f-43d4bb723744",
     "slug": "prewi",
     "name": "PREWI",
@@ -9742,6 +9780,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446",
+    "slug": "mystic",
+    "name": "MYSTIC",
+    "hero": "/media/media::image::c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446::assets::3d7798f0-9aaa-11ee-848f-1d35dc3086d7.jpeg/{imageVariant}",
+    "length": 22,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2019,
+    "builder": "YYachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 450000,
+    "weekPricingFrom": 375000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::17949224288::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744",
     "slug": "my-serenity",
     "name": "MY SERENITY",
@@ -9790,23 +9845,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1250000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446",
-    "slug": "mystic",
-    "name": "MYSTIC",
-    "hero": "/media/media::image::c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446::assets::3d7798f0-9aaa-11ee-848f-1d35dc3086d7.jpeg/{imageVariant}",
-    "length": 22,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2019,
-    "builder": "YYachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 450000,
-    "weekPricingFrom": 375000,
     "currency": "EUR"
   },
   {
@@ -10644,7 +10682,7 @@
   },
   {
     "uri": "c::7646090758::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440",
-    "slug": "felicita",
+    "slug": "felicita-cf7190",
     "name": "FELICITA",
     "hero": "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a924190-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
     "length": 21.01,
@@ -11146,6 +11184,24 @@
     "currency": "USD"
   },
   {
+    "uri": "c::8275378522::vessel::b44670d0-79b9-11ee-8c61-3d799f112022",
+    "slug": "indulgence",
+    "name": "INDULGENCE",
+    "hero": "/media/media::image::a::vessel::b44670d0-79b9-11ee-8c61-3d799f112022::assets::24609dc0-54ff-11ef-82cb-656e5ab63e3f/{imageVariant}",
+    "length": 20.42,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2023,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5550000,
+    "currency": "USD"
+  },
+  {
     "uri": "c::7819240017::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744",
     "slug": "princess-mila",
     "name": "PRINCESS MILA",
@@ -11177,24 +11233,6 @@
     ],
     "dayPricingFrom": 286100,
     "weekPricingFrom": 12016300,
-    "currency": "USD"
-  },
-  {
-    "uri": "c::8275378522::vessel::b44670d0-79b9-11ee-8c61-3d799f112022",
-    "slug": "indulgence",
-    "name": "INDULGENCE",
-    "hero": "/media/media::image::a::vessel::b44670d0-79b9-11ee-8c61-3d799f112022::assets::24602890-54ff-11ef-b2de-b1653664d96b/{imageVariant}",
-    "length": 20.42,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2023,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5550000,
     "currency": "USD"
   },
   {
@@ -12969,23 +13007,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::26153654572::vessel::0bd4dad0-526c-11f0-8619-c951789ae5cc",
-    "slug": "magika",
-    "name": "MAGIKA",
-    "hero": "/media/media::image::c::26153654572::vessel::0bd4dad0-526c-11f0-8619-c951789ae5cc::assets::9ccfa370-6730-11f0-a721-7b65eb2d5cec/{imageVariant}",
-    "length": 18.6,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2006,
-    "builder": "Sealine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1400000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::9253087601::vessel::d5cca403-fe8c-11ed-889f-43d4bb723744",
     "slug": "princess-61",
     "name": "PRINCESS 61",
@@ -13144,24 +13165,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
-    "slug": "oya",
-    "name": "OYA",
-    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::9938368400::vessel::d5cc4d4d-fe8c-11ed-889f-43d4bb723744",
     "slug": "ylime",
     "name": "YLIME",
@@ -13198,24 +13201,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
-    "slug": "serenity",
-    "name": "SERENITY",
-    "hero": "/media/media::image::a::vessel::a0b26000-d5ca-11f0-8426-c7772682440d::assets::cfd28e20-d5cd-11f0-9a06-2f2f50f9d357/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3490000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::9938368400::vessel::d5cca3d2-fe8c-11ed-889f-43d4bb723744",
     "slug": "feel-the-blue",
     "name": "FEEL THE BLUE",
@@ -13231,6 +13216,42 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3500000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
+    "slug": "oya",
+    "name": "OYA",
+    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
+    "slug": "serenity",
+    "name": "SERENITY",
+    "hero": "/media/media::image::a::vessel::a0b26000-d5ca-11f0-8426-c7772682440d::assets::cfd28e20-d5cd-11f0-9a06-2f2f50f9d357/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3490000,
     "currency": "EUR"
   },
   {
@@ -17276,23 +17297,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::9699759712::vessel::28d26f30-b6f0-11ee-9d23-f12c81bfa0ad",
-    "slug": "malena",
-    "name": "MALENA",
-    "hero": "/media/media::image::c::9699759712::vessel::28d26f30-b6f0-11ee-9d23-f12c81bfa0ad::assets::a11462c0-b6f3-11ee-9d23-f12c81bfa0ad.jpeg/{imageVariant}",
-    "length": 15.43,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2023,
-    "builder": "Bavaria Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 400000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::22607754629::vessel::5f3bf980-fa6d-11ef-9131-cd8aa84e5eeb",
     "slug": "naltoya",
     "name": "NALTOYA",
@@ -17376,6 +17380,42 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1890000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
+    "slug": "errant-vagabond",
+    "name": "ERRANT VAGABOND",
+    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1650000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
+    "slug": "sophia",
+    "name": "SOPHIA",
+    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
+    "length": 15.15,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2020,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1300000,
     "currency": "EUR"
   },
   {
@@ -17531,24 +17571,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 980000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
-    "slug": "errant-vagabond",
-    "name": "ERRANT VAGABOND",
-    "hero": "/media/media::image::a::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6::assets::cd68dab0-1d56-11f1-a4b8-bbba338af259/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1650000,
     "currency": "EUR"
   },
   {
@@ -18063,24 +18085,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1065000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
-    "slug": "sophia",
-    "name": "SOPHIA",
-    "hero": "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-    "length": 15.15,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2020,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1300000,
     "currency": "EUR"
   }
 ]
