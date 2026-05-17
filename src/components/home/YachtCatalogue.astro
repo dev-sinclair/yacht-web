@@ -35,7 +35,7 @@ const heroBySlug: Record<string, ImageMetadata> = Object.fromEntries(
         Hand-picked
       </p>
       <h2
-        class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
+        class="mt-4 text-3xl font-light tracking-[0.1em] uppercase text-charcoal whitespace-nowrap sm:text-5xl sm:tracking-[0.15em] lg:text-6xl"
         style="font-family: 'Raleway', sans-serif; font-weight: 300;"
       >
         Yacht Charter
@@ -119,8 +119,8 @@ const heroBySlug: Record<string, ImageMetadata> = Object.fromEntries(
                     </p>
                   </div>
 
-                  <!-- Bottom-right: VIEW button -->
-                  <div class="yc-card-view-wrap">
+                  <!-- Bottom-right: VIEW button (hidden on mobile to avoid overlap) -->
+                  <div class="yc-card-view-wrap hidden sm:block">
                     <span class="yc-card-view-btn">
                       View
                     </span>
