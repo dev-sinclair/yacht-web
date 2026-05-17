@@ -28,6 +28,9 @@ import Container from "../ui/Container.astro";
         id="contact-card"
         class="relative border border-charcoal/10 bg-white p-8 shadow-sm sm:p-12 lg:p-14"
       >
+        <!-- Stage: animates height between the two views so the card grows /
+             shrinks smoothly instead of snapping. -->
+        <div id="contact-stage" class="relative overflow-hidden">
         <!-- View 1: Channel picker -->
         <div
           id="contact-picker"
@@ -284,12 +287,16 @@ import Container from "../ui/Container.astro";
             ></div>
           </div>
         </div>
+        </div><!-- /#contact-stage -->
       </div>
     </div>
   </Container>
 </section>
 
 <style>
+  #contact-stage {
+    transition: height 0.4s ease-out;
+  }
   .contact-view {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
   }
@@ -399,46 +406,67 @@ import Container from "../ui/Container.astro";
       inp.setAttribute("aria-invalid", String(!ok && inp.value.length > 0));
     }
 
-    // Crossfade between the picker view and the form view. While one is
-    // fading out we keep both display: block so the transition runs; once
-    // it's complete, the outgoing view gets display: none so the card
-    // auto-sizes to whatever's visible (no clipping, no stale whitespace).
+    // Crossfade between the picker view and the form view, with the stage
+    // wrapper animating its height between the two natural sizes so the card
+    // grows/shrinks smoothly instead of snapping.
+    let transitioning = false;
+    const stage = document.getElementById("contact-stage") as HTMLElement | null;
+
     function showView(view: "picker" | "form") {
-      if (!picker || !formView) return;
+      if (!picker || !formView || !stage) return;
+      if (transitioning) return;
+      transitioning = true;
+
       const FADE_MS = 400;
-      if (view === "form") {
-        picker.style.opacity = "0";
-        picker.style.transform = "translateY(-24px)";
-        (picker as HTMLElement).style.pointerEvents = "none";
+      const incoming = view === "form" ? formView : (picker as HTMLElement);
+      const outgoing = view === "form" ? (picker as HTMLElement) : formView;
+      const outgoingOffset = view === "form" ? "translateY(-24px)" : "translateY(24px)";
 
-        formView.style.display = "";
-        // Force reflow so the just-revealed element transitions from its
-        // initial offscreen state rather than snapping to the final values.
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        formView.offsetHeight;
-        formView.style.opacity = "1";
-        formView.style.transform = "translateY(0)";
-        formView.style.pointerEvents = "auto";
+      // 1. Measure the current stage height (it reflects the outgoing view).
+      const startH = stage.offsetHeight;
 
-        window.setTimeout(() => {
-          (picker as HTMLElement).style.display = "none";
-        }, FADE_MS);
-      } else {
-        formView.style.opacity = "0";
-        formView.style.transform = "translateY(24px)";
-        formView.style.pointerEvents = "none";
+      // 2. Briefly hide outgoing + show incoming alone to measure the target.
+      const prevOutDisplay = outgoing.style.display;
+      outgoing.style.display = "none";
+      incoming.style.display = "";
+      // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+      stage.offsetHeight; // reflow for measurement
+      const endH = stage.offsetHeight;
 
-        (picker as HTMLElement).style.display = "";
-        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-        picker.offsetHeight;
-        picker.style.opacity = "1";
-        picker.style.transform = "translateY(0)";
-        (picker as HTMLElement).style.pointerEvents = "auto";
+      // 3. Restore outgoing but lift it out of flow so it can fade in place
+      //    without affecting the stage's height during the animation.
+      outgoing.style.display = prevOutDisplay || "";
+      outgoing.style.position = "absolute";
+      outgoing.style.top = "0";
+      outgoing.style.left = "0";
+      outgoing.style.right = "0";
 
-        window.setTimeout(() => {
-          formView.style.display = "none";
-        }, FADE_MS);
-      }
+      // 4. Lock stage to start height, force reflow, then transition to end.
+      stage.style.height = startH + "px";
+      // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+      stage.offsetHeight;
+      stage.style.height = endH + "px";
+
+      // 5. Run the crossfade in parallel.
+      outgoing.style.opacity = "0";
+      outgoing.style.transform = outgoingOffset;
+      outgoing.style.pointerEvents = "none";
+      incoming.style.opacity = "1";
+      incoming.style.transform = "translateY(0)";
+      incoming.style.pointerEvents = "auto";
+
+      // 6. After the transition completes: hide outgoing, restore its
+      //    positioning, and clear the stage's inline height so it tracks
+      //    the incoming view's natural size from then on.
+      window.setTimeout(() => {
+        outgoing.style.display = "none";
+        outgoing.style.position = "";
+        outgoing.style.top = "";
+        outgoing.style.left = "";
+        outgoing.style.right = "";
+        stage.style.height = "";
+        transitioning = false;
+      }, FADE_MS);
     }
 
     function setStep(n: number) {
