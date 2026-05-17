@@ -1,88 +1,433 @@
 ---
-import { Image } from "astro:assets";
 import Container from "../ui/Container.astro";
-import dockImg from "../../assets/dock.jpg";
 ---
 
-<section id="contact" class="bg-cream/40 py-24 lg:py-36">
+<section id="contact" class="bg-cream/40 py-24 lg:py-32 overflow-hidden">
   <Container>
-    <div class="grid items-stretch gap-12 lg:grid-cols-2 lg:gap-20">
-      <!-- Left: text + form -->
-      <div class="flex flex-col">
-        <div data-reveal>
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-            Get in Touch
+    <!-- Header -->
+    <div class="mx-auto max-w-3xl text-center" data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+        Get in Touch
+      </p>
+      <h2
+        class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
+        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+      >
+        Begin Your Journey
+      </h2>
+      <div class="mx-auto mt-6 h-px w-10 bg-gold/40"></div>
+      <p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-taupe">
+        Whether you are seeking the perfect charter, looking to buy or sell, or
+        need expert yacht management — our team is ready to assist.
+      </p>
+    </div>
+
+    <!-- Contact card -->
+    <div class="mx-auto mt-14 max-w-2xl" data-reveal>
+      <div
+        id="contact-card"
+        class="relative overflow-hidden border border-charcoal/10 bg-white p-8 shadow-sm sm:p-12 lg:p-14"
+      >
+        <!-- View 1: Channel picker -->
+        <div
+          id="contact-picker"
+          class="contact-view"
+          style="opacity: 1; transform: translateY(0);"
+        >
+          <p class="text-center text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light">
+            How would you like to reach us?
           </p>
-          <h2 class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
-            style="font-family: 'Raleway', sans-serif; font-weight: 300;">
-            Begin Your Journey
-          </h2>
-        </div>
-        <p class="mt-6 text-base leading-relaxed text-taupe" data-reveal>
-          Whether you are seeking the perfect charter, looking to buy or sell,
-          or need expert yacht management — our team is ready to assist.
-        </p>
-
-        <!-- WhatsApp quick CTA -->
-        <div class="mt-8 flex items-center gap-4" data-reveal>
-          <a
-            href="https://wa.me/34971000000?text=Hi%2C%20I%27m%20interested%20in%20your%20yacht%20brokerage%20services."
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
-          >
-            Message on WhatsApp
-            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-            </svg>
-          </a>
-          <span class="text-xs text-taupe-light">Prefer a quick chat?</span>
-        </div>
-
-        <p class="mt-6 text-[11px] font-light tracking-[0.15em] uppercase text-taupe-light/60" data-reveal>Or send us a message</p>
-
-        <form class="mt-4 space-y-6 text-left flex-1 flex flex-col" data-reveal>
-          <div class="grid gap-6 sm:grid-cols-2">
-            <input
-              type="text"
-              placeholder="Your Name"
-              class="w-full border-b border-beige bg-transparent px-1 py-3 text-sm text-charcoal placeholder:text-taupe-light focus:border-gold focus:outline-none transition-colors duration-300"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              class="w-full border-b border-beige bg-transparent px-1 py-3 text-sm text-charcoal placeholder:text-taupe-light focus:border-gold focus:outline-none transition-colors duration-300"
-            />
-          </div>
-          <textarea
-            placeholder="Tell us about your inquiry..."
-            rows={4}
-            class="w-full border-b border-beige bg-transparent px-1 py-3 text-sm text-charcoal placeholder:text-taupe-light focus:border-gold focus:outline-none transition-colors duration-300 resize-none"
-          ></textarea>
-          <div class="pt-4">
+          <div class="mt-8 grid gap-3 sm:grid-cols-2">
             <button
-              type="submit"
-              class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-10 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal cursor-pointer"
+              type="button"
+              data-channel-pick="whatsapp"
+              class="contact-channel group flex flex-col items-start gap-4 border border-charcoal/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-charcoal hover:bg-charcoal"
             >
-              Send Inquiry
-              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M9 5l7 7-7 7" />
-              </svg>
+              <span class="flex h-10 w-10 items-center justify-center bg-charcoal text-white transition-colors duration-300 group-hover:bg-gold">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </span>
+              <span class="block">
+                <span
+                  class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
+                  style="font-family: 'Raleway', sans-serif;"
+                >WhatsApp</span>
+                <span class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60">
+                  Quick &amp; informal — fastest response
+                </span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              data-channel-pick="email"
+              class="contact-channel group flex flex-col items-start gap-4 border border-charcoal/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-charcoal hover:bg-charcoal"
+            >
+              <span class="flex h-10 w-10 items-center justify-center bg-charcoal text-white transition-colors duration-300 group-hover:bg-gold">
+                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8.5l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </span>
+              <span class="block">
+                <span
+                  class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
+                  style="font-family: 'Raleway', sans-serif;"
+                >Email</span>
+                <span class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60">
+                  A formal inquiry, on your time
+                </span>
+              </span>
             </button>
           </div>
-        </form>
-      </div>
+        </div>
 
-      <!-- Right: dock image -->
-      <div class="hidden lg:block relative" data-reveal="right">
-        <Image
-          src={dockImg}
-          alt="Yacht at dock"
-          class="w-full h-full object-cover"
-          widths={[600, 900]}
-          loading="lazy"
-        />
+        <!-- View 2: Multi-step form -->
+        <div
+          id="contact-form-view"
+          class="contact-view absolute inset-0 p-8 sm:p-12 lg:p-14"
+          style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+        >
+          <!-- Top bar: Back + channel + step count -->
+          <div class="flex items-center justify-between text-[10px] font-medium tracking-[0.25em] uppercase">
+            <button
+              id="contact-back"
+              type="button"
+              class="inline-flex items-center gap-2 text-taupe transition-colors duration-300 hover:cursor-pointer hover:text-charcoal"
+            >
+              <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+              Back
+            </button>
+            <span class="flex items-center gap-2 text-taupe">
+              <span id="contact-channel-label" class="text-charcoal"></span>
+              <span class="text-taupe-light">·</span>
+              <span class="num">
+                <span id="contact-step-num">1</span>
+                <span class="text-taupe-light"> / </span>
+                <span id="contact-step-total">3</span>
+              </span>
+            </span>
+          </div>
+
+          <!-- Steps -->
+          <div class="relative mt-10 sm:mt-12" style="min-height: 220px;">
+            <!-- Step 1: Name -->
+            <div
+              data-step="1"
+              class="contact-step absolute inset-0 transition-all duration-500"
+              style="opacity: 1; transform: translateY(0); pointer-events: auto;"
+            >
+              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold">01</p>
+              <label
+                for="contact-input-1"
+                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                What's your name?
+              </label>
+              <input
+                id="contact-input-1"
+                type="text"
+                placeholder="Type your answer here…"
+                autocomplete="off"
+                data-step-input
+                class="mt-6 w-full border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
+              />
+              <div class="mt-6 flex items-center gap-4">
+                <button
+                  type="button"
+                  data-step-next
+                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold"
+                >
+                  OK
+                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </button>
+                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
+                  press <kbd class="border border-charcoal/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 2: Contact info -->
+            <div
+              data-step="2"
+              class="contact-step absolute inset-0 transition-all duration-500"
+              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+            >
+              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold">02</p>
+              <label
+                for="contact-input-2"
+                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                What's your <span data-contact-mode-label>email</span>?
+              </label>
+              <input
+                id="contact-input-2"
+                type="text"
+                placeholder="Type your answer here…"
+                autocomplete="off"
+                data-step-input
+                class="mt-6 w-full border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
+              />
+              <div class="mt-6 flex items-center gap-4">
+                <button
+                  type="button"
+                  data-step-next
+                  class="inline-flex items-center gap-2 bg-charcoal px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold"
+                >
+                  OK
+                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </button>
+                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
+                  press <kbd class="border border-charcoal/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 3: Message -->
+            <div
+              data-step="3"
+              class="contact-step absolute inset-0 transition-all duration-500"
+              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+            >
+              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold">03</p>
+              <label
+                for="contact-input-3"
+                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                Tell us about your inquiry
+              </label>
+              <textarea
+                id="contact-input-3"
+                rows="3"
+                placeholder="Yacht, dates, region, anything we should know…"
+                data-step-input
+                class="mt-6 w-full resize-none border-b border-charcoal/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-gold focus:outline-none transition-colors duration-300"
+              ></textarea>
+              <div class="mt-6 flex items-center gap-4">
+                <button
+                  type="button"
+                  data-step-next
+                  data-step-submit
+                  class="inline-flex items-center gap-2 bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-gold-dim"
+                >
+                  Send
+                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
+                  <kbd class="border border-charcoal/15 px-1.5 py-0.5 text-[9px]">Shift</kbd>
+                  + <kbd class="border border-charcoal/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
+                  for newline
+                </span>
+              </div>
+            </div>
+
+            <!-- Step 4: Thanks (post-submit visual confirmation) -->
+            <div
+              data-step="4"
+              class="contact-step absolute inset-0 transition-all duration-500"
+              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+            >
+              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold">04</p>
+              <p
+                class="mt-3 text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                Thank you. We'll be in touch shortly.
+              </p>
+              <p class="mt-4 max-w-md text-sm leading-relaxed text-taupe">
+                One of our brokers will reach out via your preferred channel within
+                one business day.
+              </p>
+            </div>
+          </div>
+
+          <!-- Progress bar -->
+          <div class="mt-12 h-px w-full overflow-hidden bg-charcoal/10">
+            <div
+              id="contact-progress"
+              class="h-full bg-gold transition-all duration-500 ease-out"
+              style="width: 33.33%;"
+            ></div>
+          </div>
+        </div>
       </div>
     </div>
   </Container>
 </section>
+
+<style>
+  .contact-view {
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  }
+  /* keep the kbd consistent across browsers */
+  kbd {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.1em;
+  }
+</style>
+
+<script>
+  const picker = document.getElementById("contact-picker");
+  const formView = document.getElementById("contact-form-view");
+  const card = document.getElementById("contact-card") as HTMLElement | null;
+  const channelBtns =
+    document.querySelectorAll<HTMLButtonElement>("[data-channel-pick]");
+  const backBtn = document.getElementById("contact-back");
+  const channelLabel = document.getElementById("contact-channel-label");
+  const stepNumEl = document.getElementById("contact-step-num");
+  const stepTotalEl = document.getElementById("contact-step-total");
+  const progress = document.getElementById("contact-progress");
+  const modeLabels =
+    document.querySelectorAll<HTMLElement>("[data-contact-mode-label]");
+  const steps =
+    document.querySelectorAll<HTMLElement>(".contact-step");
+  const nextBtns =
+    document.querySelectorAll<HTMLButtonElement>("[data-step-next]");
+  const inputs =
+    document.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>(
+      "[data-step-input]",
+    );
+
+  if (picker && formView && card) {
+    // Total step count excludes the "thanks" confirmation step.
+    const TOTAL_STEPS = 3;
+    let currentStep = 1;
+    let channel: "whatsapp" | "email" | null = null;
+
+    // Lock the card height to the picker's natural height on first paint so
+    // the form view (which is absolutely positioned) doesn't collapse the
+    // card. Re-measure on resize for safety.
+    function syncCardHeight() {
+      if (!card || !picker) return;
+      // Only sync while picker is visible — once form is shown, form contents
+      // drive height because we let it flow.
+      if (formView!.style.opacity === "0") {
+        card.style.height = "";
+      }
+    }
+
+    function showView(view: "picker" | "form") {
+      if (!picker || !formView) return;
+      if (view === "form") {
+        // Hide picker
+        picker.style.opacity = "0";
+        picker.style.transform = "translateY(-24px)";
+        (picker as HTMLElement).style.pointerEvents = "none";
+        // Match card height to form so the absolute form stays inside
+        if (card) card.style.height = card.offsetHeight + "px";
+        // Reveal form after picker fades
+        window.setTimeout(() => {
+          (picker as HTMLElement).style.visibility = "hidden";
+          formView.style.opacity = "1";
+          formView.style.transform = "translateY(0)";
+          formView.style.pointerEvents = "auto";
+        }, 350);
+      } else {
+        // Hide form
+        formView.style.opacity = "0";
+        formView.style.transform = "translateY(24px)";
+        formView.style.pointerEvents = "none";
+        window.setTimeout(() => {
+          (picker as HTMLElement).style.visibility = "visible";
+          picker.style.opacity = "1";
+          picker.style.transform = "translateY(0)";
+          (picker as HTMLElement).style.pointerEvents = "auto";
+          if (card) card.style.height = "";
+        }, 350);
+      }
+    }
+
+    function setStep(n: number) {
+      const total = TOTAL_STEPS + 1; // includes the thanks slide
+      if (n < 1 || n > total) return;
+      steps.forEach((s) => {
+        const idx = parseInt(s.dataset.step || "0", 10);
+        if (idx === n) {
+          s.style.opacity = "1";
+          s.style.transform = "translateY(0)";
+          s.style.pointerEvents = "auto";
+          // Focus the first editable element after the transition
+          if (idx <= TOTAL_STEPS) {
+            window.setTimeout(() => {
+              const inp = s.querySelector<
+                HTMLInputElement | HTMLTextAreaElement
+              >("input, textarea");
+              inp?.focus();
+            }, 350);
+          }
+        } else {
+          s.style.opacity = "0";
+          s.style.transform =
+            idx < n ? "translateY(-24px)" : "translateY(24px)";
+          s.style.pointerEvents = "none";
+        }
+      });
+      currentStep = n;
+      if (stepNumEl) stepNumEl.textContent = String(Math.min(n, TOTAL_STEPS));
+      if (progress) {
+        const pct = Math.min(n / TOTAL_STEPS, 1) * 100;
+        progress.style.width = pct + "%";
+      }
+    }
+
+    channelBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        channel = (btn.dataset.channelPick as "whatsapp" | "email") || null;
+        if (channelLabel)
+          channelLabel.textContent =
+            channel === "whatsapp" ? "WhatsApp" : "Email";
+        modeLabels.forEach((el) => {
+          el.textContent = channel === "whatsapp" ? "phone number" : "email";
+        });
+        if (stepTotalEl) stepTotalEl.textContent = String(TOTAL_STEPS);
+        // Reset to step 1 each time a channel is picked
+        setStep(1);
+        showView("form");
+      });
+    });
+
+    backBtn?.addEventListener("click", () => {
+      if (currentStep > 1 && currentStep <= TOTAL_STEPS) {
+        setStep(currentStep - 1);
+      } else {
+        // From step 1 or thanks, leave the form entirely.
+        showView("picker");
+      }
+    });
+
+    nextBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        // Last regular step → show thanks (visual only, no submit).
+        if (currentStep >= TOTAL_STEPS) setStep(TOTAL_STEPS + 1);
+        else setStep(currentStep + 1);
+      });
+    });
+
+    // Enter to advance. In textarea, Shift+Enter inserts a newline.
+    inputs.forEach((inp) => {
+      inp.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter") return;
+        if (inp.tagName === "TEXTAREA" && e.shiftKey) return; // allow newline
+        e.preventDefault();
+        // Find the next button within this step and click it.
+        const step = inp.closest<HTMLElement>(".contact-step");
+        step?.querySelector<HTMLButtonElement>("[data-step-next]")?.click();
+      });
+    });
+
+    window.addEventListener("resize", syncCardHeight);
+  }
+</script>
