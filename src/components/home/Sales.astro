@@ -1,14 +1,23 @@
 ---
 import { Image } from "astro:assets";
 import salesImg from "../../assets/sales-main.jpeg";
+import salesImgMobile from "../../assets/sales-yacht.jpg";
 ---
 
 <section id="sales-section" class="relative w-full" style="height: 200vh;">
   <div class="sticky top-0 h-screen w-full overflow-hidden bg-black">
     <Image
+      src={salesImgMobile}
+      alt=""
+      class="absolute inset-0 h-full w-full object-cover md:hidden"
+      widths={[480, 768]}
+      sizes="100vw"
+      loading="lazy"
+    />
+    <Image
       src={salesImg}
       alt=""
-      class="absolute inset-0 h-full w-full object-cover"
+      class="absolute inset-0 h-full w-full object-cover hidden md:block"
       widths={[1280, 1920]}
       sizes="100vw"
       loading="lazy"
