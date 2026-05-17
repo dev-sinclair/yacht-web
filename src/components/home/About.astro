@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import Container from "../ui/Container.astro";
 import mapOutline from "../../assets/mapoutline.webp";
-import pano2 from "../../assets/pano2.jpg";
 
 const pillars = [
   { label: "Private", text: "One broker, one client. Direct and personal." },
@@ -27,8 +26,7 @@ const pillars = [
   </div>
 
   <Container>
-    <div class="relative grid items-center gap-12 lg:grid-cols-[1fr_minmax(0,520px)] lg:gap-20">
-      <!-- Left: text content -->
+    <div class="relative">
       <div>
         <div data-reveal>
           <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">About Us</p>
@@ -60,20 +58,6 @@ const pillars = [
               </p>
             </div>
           ))}
-        </div>
-      </div>
-
-      <!-- Right: photo -->
-      <div class="relative" data-reveal="right">
-        <div class="relative aspect-[4/5] w-full overflow-hidden">
-          <Image
-            src={pano2}
-            alt="Sinclair Yachting"
-            class="absolute inset-0 h-full w-full object-cover"
-            widths={[600, 900, 1200]}
-            sizes="(min-width: 1024px) 520px, 100vw"
-            loading="lazy"
-          />
         </div>
       </div>
     </div>
