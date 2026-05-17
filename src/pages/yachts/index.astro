@@ -197,6 +197,22 @@ const stubFacets: YachtFacets = {
     </Container>
   </section>
 
+  <!-- Mobile FAB: appears once the fleet grid has scrolled past the top so
+       the user can jump back to filters/sort without scrolling all the way up.
+       lg:hidden keeps it off the desktop layout (sticky sidebar covers it). -->
+  <button
+    id="filters-fab"
+    type="button"
+    aria-label="Show filters and sort"
+    aria-controls="filters-panel"
+    class="lg:hidden fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 border border-white/10 bg-charcoal px-4 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white shadow-lg opacity-0 translate-y-2 pointer-events-none transition-all duration-300"
+  >
+    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M6 12h12M10 18h4" />
+    </svg>
+    Filters
+  </button>
+
   <Footer />
 </BaseLayout>
 
@@ -663,6 +679,46 @@ const stubFacets: YachtFacets = {
       const open = panel.classList.toggle("hidden") === false;
       toggleBtn.setAttribute("aria-expanded", String(open));
       if (chevron) chevron.style.transform = open ? "rotate(180deg)" : "";
+    });
+  }
+
+  // Mobile floating "Filters" button: shown once the fleet grid has scrolled
+  // above the viewport top. Clicking it scrolls back to the filter toggle and
+  // expands the panel if it's collapsed.
+  const fab = document.getElementById("filters-fab");
+  const fleetTop = document.getElementById("fleet-top");
+  if (fab && fleetTop) {
+    const setVisible = (visible: boolean) => {
+      fab.classList.toggle("opacity-0", !visible);
+      fab.classList.toggle("translate-y-2", !visible);
+      fab.classList.toggle("pointer-events-none", !visible);
+    };
+    let ticking = false;
+    const update = () => {
+      const past = fleetTop.getBoundingClientRect().top < 0;
+      setVisible(past);
+      ticking = false;
+    };
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!ticking) {
+          requestAnimationFrame(update);
+          ticking = true;
+        }
+      },
+      { passive: true },
+    );
+
+    fab.addEventListener("click", () => {
+      // Auto-expand the collapsed filter panel so the user lands on visible content.
+      if (toggleBtn && panel && panel.classList.contains("hidden")) {
+        toggleBtn.click();
+      }
+      const aside = toggleBtn?.closest("aside");
+      const targetY =
+        (aside?.getBoundingClientRect().top ?? 0) + window.scrollY - 80; // navbar offset
+      window.scrollTo({ top: Math.max(targetY, 0), behavior: "smooth" });
     });
   }
 </script>
