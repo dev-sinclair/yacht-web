@@ -117,7 +117,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-length-min" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum length" />
       <input id="filter-length-max" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum length" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-length-display">15m – 150m</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-length-display">15m – 150m+</span></p>
   </div>
 
   <!-- Guests range -->
@@ -134,7 +134,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-guests-min" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum guests" />
       <input id="filter-guests-max" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum guests" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 30</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 30+</span></p>
   </div>
 
   <!-- Price range -->
@@ -151,7 +151,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-price-min" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum price" />
       <input id="filter-price-max" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum price" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">€0 – €2,000,000</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">€0 – €2,000,000+</span></p>
   </div>
 
 </aside>
@@ -203,6 +203,10 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: string;
     display: string;
     fmt: (v: number) => string;
+    /** When true, render the upper bound as "<value>+" so the slider's
+     *  hardcoded cap (30 guests, 150m, €2M) doesn't read as a hard limit
+     *  for yachts that exceed it (SH Vega has 152 guests, etc). */
+    treatMaxAsPlus?: boolean;
   };
 
   function setupRange(ids: RangeIds, onUpdate: () => void) {
@@ -230,7 +234,11 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       const right = ((maxV - lo) / range) * 100;
       (track as HTMLElement).style.left = `${left}%`;
       (track as HTMLElement).style.width = `${Math.max(right - left, 0)}%`;
-      display.textContent = `${ids.fmt(minV)} – ${ids.fmt(maxV)}`;
+      const maxLabel =
+        ids.treatMaxAsPlus && maxV === hi
+          ? `${ids.fmt(maxV)}+`
+          : ids.fmt(maxV);
+      display.textContent = `${ids.fmt(minV)} – ${maxLabel}`;
       if (minN) minN.value = String(minV);
       if (maxN) maxN.value = String(maxV);
     };
@@ -291,11 +299,27 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     const gstActive = !!(gstR && (gstR.min > guestsRange!.bounds.lo || gstR.max < guestsRange!.bounds.hi));
     const priActive = !!(priR && (priR.min > priceRange!.bounds.lo || priR.max < priceRange!.bounds.hi));
 
+    // When the upper thumb is parked at the slider's cap, treat it as "no
+    // upper limit" so outliers like SH Vega (152 guests) or yachts >150m /
+    // >€2M/week aren't silently filtered out.
+    const lenMax =
+      lenR && lenR.max === lengthRange!.bounds.hi
+        ? Number.POSITIVE_INFINITY
+        : lenR?.max ?? 0;
+    const gstMax =
+      gstR && gstR.max === guestsRange!.bounds.hi
+        ? Number.POSITIVE_INFINITY
+        : gstR?.max ?? 0;
+    const priMax =
+      priR && priR.max === priceRange!.bounds.hi
+        ? Number.POSITIVE_INFINITY
+        : priR?.max ?? 0;
+
     const detail = {
       search: searchQuery,
-      length: { min: lenR?.min ?? 0, max: lenR?.max ?? 0, active: lenActive },
-      guests: { min: gstR?.min ?? 0, max: gstR?.max ?? 0, active: gstActive },
-      price:  { min: priR?.min ?? 0, max: priR?.max ?? 0, active: priActive },
+      length: { min: lenR?.min ?? 0, max: lenMax, active: lenActive },
+      guests: { min: gstR?.min ?? 0, max: gstMax, active: gstActive },
+      price:  { min: priR?.min ?? 0, max: priMax, active: priActive },
     };
 
     window.dispatchEvent(new CustomEvent("yachts:filterchange", { detail }));
@@ -309,6 +333,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-length-track",
     display: "filter-length-display",
     fmt: (v) => `${v}m`,
+    treatMaxAsPlus: true,
   }, () => emitFilterChange());
 
   const guestsRange = setupRange({
@@ -319,6 +344,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-guests-track",
     display: "filter-guests-display",
     fmt: (v) => `${v}`,
+    treatMaxAsPlus: true,
   }, () => emitFilterChange());
 
   const priceRange = setupRange({
@@ -329,6 +355,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-price-track",
     display: "filter-price-display",
     fmt: (v) => `€${v.toLocaleString("en-US")}`,
+    treatMaxAsPlus: true,
   }, () => emitFilterChange());
 
   searchInput?.addEventListener("input", (e) => {
