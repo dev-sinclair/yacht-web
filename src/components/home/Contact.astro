@@ -26,7 +26,7 @@ import Container from "../ui/Container.astro";
     <div class="mx-auto mt-14 max-w-2xl" data-reveal>
       <div
         id="contact-card"
-        class="relative overflow-hidden border border-charcoal/10 bg-white p-8 shadow-sm sm:p-12 lg:p-14"
+        class="relative border border-charcoal/10 bg-white p-8 shadow-sm sm:p-12 lg:p-14"
       >
         <!-- View 1: Channel picker -->
         <div
@@ -85,8 +85,8 @@ import Container from "../ui/Container.astro";
         <!-- View 2: Multi-step form -->
         <div
           id="contact-form-view"
-          class="contact-view absolute inset-0 p-8 sm:p-12 lg:p-14"
-          style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+          class="contact-view"
+          style="display: none; opacity: 0; transform: translateY(24px); pointer-events: none;"
         >
           <!-- Top bar: Back + channel + step count -->
           <div class="flex items-center justify-between text-[10px] font-medium tracking-[0.25em] uppercase">
@@ -270,7 +270,6 @@ import Container from "../ui/Container.astro";
   .contact-view {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
   }
-  /* keep the kbd consistent across browsers */
   kbd {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -307,46 +306,45 @@ import Container from "../ui/Container.astro";
     let currentStep = 1;
     let channel: "whatsapp" | "email" | null = null;
 
-    // Lock the card height to the picker's natural height on first paint so
-    // the form view (which is absolutely positioned) doesn't collapse the
-    // card. Re-measure on resize for safety.
-    function syncCardHeight() {
-      if (!card || !picker) return;
-      // Only sync while picker is visible — once form is shown, form contents
-      // drive height because we let it flow.
-      if (formView!.style.opacity === "0") {
-        card.style.height = "";
-      }
-    }
-
+    // Crossfade between the picker view and the form view. While one is
+    // fading out we keep both display: block so the transition runs; once
+    // it's complete, the outgoing view gets display: none so the card
+    // auto-sizes to whatever's visible (no clipping, no stale whitespace).
     function showView(view: "picker" | "form") {
       if (!picker || !formView) return;
+      const FADE_MS = 400;
       if (view === "form") {
-        // Hide picker
         picker.style.opacity = "0";
         picker.style.transform = "translateY(-24px)";
         (picker as HTMLElement).style.pointerEvents = "none";
-        // Match card height to form so the absolute form stays inside
-        if (card) card.style.height = card.offsetHeight + "px";
-        // Reveal form after picker fades
+
+        formView.style.display = "";
+        // Force reflow so the just-revealed element transitions from its
+        // initial offscreen state rather than snapping to the final values.
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+        formView.offsetHeight;
+        formView.style.opacity = "1";
+        formView.style.transform = "translateY(0)";
+        formView.style.pointerEvents = "auto";
+
         window.setTimeout(() => {
-          (picker as HTMLElement).style.visibility = "hidden";
-          formView.style.opacity = "1";
-          formView.style.transform = "translateY(0)";
-          formView.style.pointerEvents = "auto";
-        }, 350);
+          (picker as HTMLElement).style.display = "none";
+        }, FADE_MS);
       } else {
-        // Hide form
         formView.style.opacity = "0";
         formView.style.transform = "translateY(24px)";
         formView.style.pointerEvents = "none";
+
+        (picker as HTMLElement).style.display = "";
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+        picker.offsetHeight;
+        picker.style.opacity = "1";
+        picker.style.transform = "translateY(0)";
+        (picker as HTMLElement).style.pointerEvents = "auto";
+
         window.setTimeout(() => {
-          (picker as HTMLElement).style.visibility = "visible";
-          picker.style.opacity = "1";
-          picker.style.transform = "translateY(0)";
-          (picker as HTMLElement).style.pointerEvents = "auto";
-          if (card) card.style.height = "";
-        }, 350);
+          formView.style.display = "none";
+        }, FADE_MS);
       }
     }
 
@@ -428,6 +426,5 @@ import Container from "../ui/Container.astro";
       });
     });
 
-    window.addEventListener("resize", syncCardHeight);
   }
 </script>
