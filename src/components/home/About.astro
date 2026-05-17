@@ -60,17 +60,31 @@ const pillars = [
           ))}
         </div>
 
-        <!-- CTA -->
-        <div class="mt-12" data-reveal>
+        <!-- Primary CTA: yacht charter is the main purpose of the site, so
+             this is the hero action. Centered, filled, oversized vs. other
+             buttons in the page rhythm. -->
+        <div class="mt-16 flex flex-col items-center lg:mt-20" data-reveal>
+          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold mb-6">
+            Start Your Journey
+          </p>
           <a
             href="/yachts"
-            class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+            class="group relative inline-flex items-center gap-4 overflow-hidden bg-charcoal px-10 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg sm:px-14 sm:text-[13px]"
           >
-            View Available Yachts
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <span class="relative z-10">View Available Yachts</span>
+            <svg
+              class="relative z-10 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
           </a>
+          <p class="mt-4 text-[10px] font-light tracking-[0.2em] uppercase text-taupe-light">
+            Browse over 1,000 charter yachts worldwide
+          </p>
         </div>
       </div>
     </div>
