@@ -1,16 +1,11 @@
 import type { APIRoute } from "astro";
-import { getAllYachts, getFacets } from "../../data/yacht-service";
+import { getAllYachts, getFacets, isYachtCategory } from "../../data/yacht-service";
 import { regionBySlug } from "../../lib/destinations/registry";
 import { getYachtSlugsForRegion } from "../../lib/destinations/location-yachts";
 
-const ANKOR_TYPES = [
-  "Gulet", "Sailing", "Catamaran", "Motor",
-  "Power Catamaran", "Classic", "Expedition", "Sport fishing",
-];
-
 export const GET: APIRoute = async ({ url }) => {
   const rawType = url.searchParams.get("yachtType") ?? "";
-  const activeType = ANKOR_TYPES.includes(rawType) ? rawType : "";
+  const activeType = isYachtCategory(rawType) ? rawType : "";
 
   const rawRegion = url.searchParams.get("region") ?? "";
   const region = rawRegion ? regionBySlug(rawRegion) : null;

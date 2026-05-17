@@ -15,10 +15,24 @@ import type { Yacht, YachtCard, YachtFacets } from "./types/yacht";
 import { entityToYacht } from "../lib/ankor/mappers";
 import { loadSnapshotIndex, loadSnapshotEntity } from "./snapshot";
 
-export async function getAllYachts(yachtType?: string): Promise<YachtCard[]> {
+export const YACHT_CATEGORIES = ["Sailing", "Motor", "Catamarans"] as const;
+export type YachtCategory = (typeof YACHT_CATEGORIES)[number];
+
+const CATEGORY_TO_TYPES: Record<YachtCategory, readonly string[]> = {
+  Sailing: ["Sailing", "Gulet"],
+  Motor: ["Motor", "Classic", "Expedition"],
+  Catamarans: ["Catamaran", "Power Catamaran"],
+};
+
+export function isYachtCategory(s: string): s is YachtCategory {
+  return (YACHT_CATEGORIES as readonly string[]).includes(s);
+}
+
+export async function getAllYachts(category?: string): Promise<YachtCard[]> {
   const cards = await loadSnapshotIndex();
-  if (!yachtType) return cards;
-  return cards.filter((c) => c.yachtType.includes(yachtType));
+  if (!category || !isYachtCategory(category)) return cards;
+  const allowed = new Set(CATEGORY_TO_TYPES[category]);
+  return cards.filter((c) => c.yachtType.some((t) => allowed.has(t)));
 }
 
 export async function getFeaturedYachts(limit = 10): Promise<YachtCard[]> {
