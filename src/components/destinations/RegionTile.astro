@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import type { Region } from "../../data/types/destination";
 import LocationsDropdown from "./LocationsDropdown.astro";
 
@@ -9,6 +11,31 @@ interface Props {
 
 const { region, index } = Astro.props;
 const locationsLower = region.locations.map((l) => l.name.toLowerCase()).join("|");
+
+// Local region hero images live in src/assets/regions/<short>.png. Glob-import
+// and look up by region slug → file basename. Falls back to the remote
+// heroImage if a region isn't mapped.
+const regionImages = import.meta.glob<{ default: ImageMetadata }>(
+  "../../assets/regions/*.{png,jpg,jpeg,webp,avif}",
+  { eager: true },
+);
+const imageByBasename: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(regionImages)) {
+  const name = path.split("/").pop()!.replace(/\.[^.]+$/, "");
+  imageByBasename[name] = mod.default;
+}
+const slugToFile: Record<string, string> = {
+  "west-mediterranean": "west-m",
+  "east-mediterranean": "east-m",
+  "caribbean": "carib",
+  "bahamas": "baham",
+  "indian-ocean-and-south-east-asia": "indo",
+  "australasia-and-south-pacific": "austral",
+  "arabian-gulf": "arab",
+  "north-america": "north-am",
+  "antarctica": "antarct",
+};
+const localHero = imageByBasename[slugToFile[region.slug] ?? ""];
 ---
 
 <li
@@ -27,14 +54,25 @@ const locationsLower = region.locations.map((l) => l.name.toLowerCase()).join("|
     class="region-toggle relative block w-full overflow-hidden border border-charcoal/10 bg-charcoal text-left cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2"
     style="aspect-ratio: 4 / 3;"
   >
-    <img
-      src={region.heroImage}
-      alt={region.name}
-      loading={index < 3 ? "eager" : "lazy"}
-      width="1600"
-      height="1000"
-      class="region-image absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-[900ms] ease-out group-hover:scale-105 group-hover:brightness-110"
-    />
+    {localHero ? (
+      <Image
+        src={localHero}
+        alt={region.name}
+        widths={[600, 900, 1200, 1600]}
+        sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+        loading={index < 3 ? "eager" : "lazy"}
+        class="region-image absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-[900ms] ease-out group-hover:scale-105 group-hover:brightness-110"
+      />
+    ) : (
+      <img
+        src={region.heroImage}
+        alt={region.name}
+        loading={index < 3 ? "eager" : "lazy"}
+        width="1600"
+        height="1000"
+        class="region-image absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-[900ms] ease-out group-hover:scale-105 group-hover:brightness-110"
+      />
+    )}
 
     <div
       class="region-overlay absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/35 to-charcoal/15 transition-opacity duration-500 group-hover:opacity-80"
