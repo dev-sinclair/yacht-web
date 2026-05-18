@@ -61,7 +61,7 @@ const localHero = imageByBasename[slugToFile[region.slug] ?? ""];
         widths={[600, 900, 1200, 1600]}
         sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
         loading={index < 3 ? "eager" : "lazy"}
-        class="region-image absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-[900ms] ease-out group-hover:scale-105 group-hover:brightness-110"
+        class="region-image absolute inset-0 h-full w-full object-cover"
       />
     ) : (
       <img
@@ -70,7 +70,7 @@ const localHero = imageByBasename[slugToFile[region.slug] ?? ""];
         loading={index < 3 ? "eager" : "lazy"}
         width="1600"
         height="1000"
-        class="region-image absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-[900ms] ease-out group-hover:scale-105 group-hover:brightness-110"
+        class="region-image absolute inset-0 h-full w-full object-cover"
       />
     )}
 
@@ -80,14 +80,8 @@ const localHero = imageByBasename[slugToFile[region.slug] ?? ""];
     </div>
 
     <div class="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
-      <span
-        class="text-[10px] font-medium tracking-[0.35em] uppercase text-gold-light/90"
-        style="font-family: 'Raleway', sans-serif;"
-      >
-        Region
-      </span>
       <h3
-        class="region-name relative mt-3 text-2xl font-light tracking-[0.18em] uppercase text-white sm:text-3xl"
+        class="region-name relative text-2xl font-light tracking-[0.18em] uppercase text-white sm:text-3xl"
         style="font-family: 'Raleway', sans-serif; font-weight: 300;"
       >
         {region.name}
