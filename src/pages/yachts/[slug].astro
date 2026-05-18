@@ -356,9 +356,9 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
     </div>
     <div data-gallery-grid class="mt-10 grid grid-cols-3 gap-2 sm:gap-3 lg:grid-cols-4 lg:gap-4" data-reveal-stagger>
       ${images.map((img, i) => `
-        <div class="aspect-[4/3] overflow-hidden bg-cream"${i >= INITIAL_VISIBLE ? ' data-gallery-extra="true"' : ''}>
-          <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.alt)}" class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" width="400" height="300" />
-        </div>
+        <button type="button" data-gallery-item data-gallery-index="${i}" class="group/cell aspect-[4/3] overflow-hidden bg-cream cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"${i >= INITIAL_VISIBLE ? ' data-gallery-extra="true"' : ''}>
+          <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.alt)}" class="h-full w-full object-cover transition-transform duration-500 group-hover/cell:scale-105" loading="lazy" width="400" height="300" />
+        </button>
       `).join("")}
     </div>
     ${hasMore ? `
@@ -371,6 +371,27 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       </button>
     </div>
     ` : ""}
+  </div>
+
+  <!-- Lightbox: hidden by default, toggled by JS when a thumbnail is clicked. -->
+  <div data-lightbox aria-hidden="true" role="dialog" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 px-4 py-12 sm:px-12">
+    <button type="button" data-lightbox-close aria-label="Close gallery" class="absolute top-4 right-4 flex h-10 w-10 items-center justify-center text-white/80 transition-colors duration-200 hover:cursor-pointer hover:text-white sm:top-6 sm:right-6">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <button type="button" data-lightbox-prev aria-label="Previous image" class="absolute left-2 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center text-white/80 transition-colors duration-200 hover:cursor-pointer hover:text-white sm:left-6">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+    <button type="button" data-lightbox-next aria-label="Next image" class="absolute right-2 top-1/2 flex h-12 w-12 -translate-y-1/2 items-center justify-center text-white/80 transition-colors duration-200 hover:cursor-pointer hover:text-white sm:right-6">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+    <img data-lightbox-image src="" alt="" class="max-h-full max-w-full object-contain pointer-events-none" />
+    <div data-lightbox-counter class="absolute bottom-4 left-1/2 -translate-x-1/2 text-[11px] font-medium tracking-[0.25em] uppercase text-white/60 num pointer-events-none"></div>
   </div>
 </section>`.trim();
   }
@@ -492,6 +513,65 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         galleryToggle.addEventListener("click", () => {
           galleryGrid.setAttribute("data-gallery-expanded", "true");
           (galleryToggle.parentElement as HTMLElement | null)?.style.setProperty("display", "none");
+        });
+      }
+
+      // Lightbox — click a thumbnail to open a fullscreen view with prev/next
+      // controls + keyboard nav (arrows, Esc).
+      const lightbox = content.querySelector<HTMLElement>("[data-lightbox]");
+      const lightboxImg = content.querySelector<HTMLImageElement>("[data-lightbox-image]");
+      const lightboxCounter = content.querySelector<HTMLElement>("[data-lightbox-counter]");
+      const lightboxClose = content.querySelector<HTMLButtonElement>("[data-lightbox-close]");
+      const lightboxPrev = content.querySelector<HTMLButtonElement>("[data-lightbox-prev]");
+      const lightboxNext = content.querySelector<HTMLButtonElement>("[data-lightbox-next]");
+      const galleryItems = content.querySelectorAll<HTMLButtonElement>("[data-gallery-item]");
+
+      if (lightbox && lightboxImg && lightboxCounter && galleryItems.length > 0) {
+        const sources = [...galleryItems].map((btn) => {
+          const i = btn.querySelector("img");
+          return { url: i?.getAttribute("src") || "", alt: i?.getAttribute("alt") || "" };
+        });
+        let lbIdx = 0;
+
+        const showAt = (idx: number) => {
+          lbIdx = ((idx % sources.length) + sources.length) % sources.length;
+          lightboxImg.src = sources[lbIdx].url;
+          lightboxImg.alt = sources[lbIdx].alt;
+          lightboxCounter.textContent = `${lbIdx + 1} / ${sources.length}`;
+        };
+
+        const open = (idx: number) => {
+          showAt(idx);
+          lightbox.classList.remove("hidden");
+          lightbox.classList.add("flex");
+          lightbox.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+        };
+        const close = () => {
+          lightbox.classList.add("hidden");
+          lightbox.classList.remove("flex");
+          lightbox.setAttribute("aria-hidden", "true");
+          document.body.style.overflow = "";
+        };
+
+        galleryItems.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const idx = parseInt(btn.dataset.galleryIndex || "0", 10);
+            open(idx);
+          });
+        });
+        lightboxClose?.addEventListener("click", close);
+        lightboxPrev?.addEventListener("click", () => showAt(lbIdx - 1));
+        lightboxNext?.addEventListener("click", () => showAt(lbIdx + 1));
+        // Click the backdrop (not the image / controls) to close.
+        lightbox.addEventListener("click", (e) => {
+          if (e.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (e) => {
+          if (lightbox.classList.contains("hidden")) return;
+          if (e.key === "Escape") { e.preventDefault(); close(); }
+          else if (e.key === "ArrowRight") { e.preventDefault(); showAt(lbIdx + 1); }
+          else if (e.key === "ArrowLeft") { e.preventDefault(); showAt(lbIdx - 1); }
         });
       }
 
