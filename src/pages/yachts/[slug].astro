@@ -2,6 +2,7 @@
 import "../../styles/global.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/layout/Navbar.astro";
+import Footer from "../../components/layout/Footer.astro";
 import YachtDetailSkeleton from "../../components/yacht/YachtDetailSkeleton.astro";
 
 // No data fetched in the frontmatter — page renders shell + skeleton instantly.
@@ -30,6 +31,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
     </div>
     <div id="yacht-content" hidden></div>
   </main>
+  <Footer />
 </BaseLayout>
 
 <style is:global>
@@ -80,6 +82,11 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   }
   .overview-toggle:hover {
     color: var(--color-gold);
+  }
+
+  /* Gallery: hide images past the initial set until the user expands. */
+  [data-gallery-grid]:not([data-gallery-expanded="true"]) [data-gallery-extra="true"] {
+    display: none;
   }
 </style>
 
@@ -333,6 +340,11 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   function renderGallery(yacht: Yacht): string {
     const images = yacht.images.slice(1);
     if (images.length === 0) return "";
+    // Initial visible count = one full mobile row of 3 × two rows = 6. The
+    // rest stay in the DOM but hidden by CSS until the user expands.
+    const INITIAL_VISIBLE = 6;
+    const hasMore = images.length > INITIAL_VISIBLE;
+    const extraCount = images.length - INITIAL_VISIBLE;
     return `
 <section class="bg-white py-16 lg:py-20">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -342,13 +354,23 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         ${escapeHtml(yacht.blueprint.name)}
       </h2>
     </div>
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-reveal-stagger>
-      ${images.map((img) => `
-        <div class="aspect-[4/3] overflow-hidden bg-cream">
+    <div data-gallery-grid class="mt-10 grid grid-cols-3 gap-2 sm:gap-3 lg:grid-cols-4 lg:gap-4" data-reveal-stagger>
+      ${images.map((img, i) => `
+        <div class="aspect-[4/3] overflow-hidden bg-cream"${i >= INITIAL_VISIBLE ? ' data-gallery-extra="true"' : ''}>
           <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.alt)}" class="h-full w-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy" width="400" height="300" />
         </div>
       `).join("")}
     </div>
+    ${hasMore ? `
+    <div class="mt-8 text-center">
+      <button type="button" data-gallery-toggle class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal cursor-pointer">
+        View ${extraCount} more ${extraCount === 1 ? "photo" : "photos"}
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    </div>
+    ` : ""}
   </div>
 </section>`.trim();
   }
@@ -459,6 +481,18 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         } else {
           wrapper.dataset.collapsed = "false";
         }
+      }
+
+      // Gallery "View more" — reveal hidden images on click, then remove the
+      // button. One-way reveal; no collapse-back to keep the interaction
+      // simple.
+      const galleryGrid = content.querySelector<HTMLElement>("[data-gallery-grid]");
+      const galleryToggle = content.querySelector<HTMLButtonElement>("[data-gallery-toggle]");
+      if (galleryGrid && galleryToggle) {
+        galleryToggle.addEventListener("click", () => {
+          galleryGrid.setAttribute("data-gallery-expanded", "true");
+          (galleryToggle.parentElement as HTMLElement | null)?.style.setProperty("display", "none");
+        });
       }
 
       // Trigger reveal animations on freshly-inserted [data-reveal] nodes
