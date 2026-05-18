@@ -377,17 +377,17 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
 
   function renderInquiry(yachtName: string): string {
     return `
-<section class="py-20 lg:py-24" style="background: linear-gradient(180deg, #151A24 0%, #1D2330 100%);">
+<section class="bg-white py-20 lg:py-24">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-    <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/60" data-reveal="fade">Interested?</p>
-    <h2 class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-white/90 sm:text-4xl lg:text-5xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;" data-reveal>
+    <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70" data-reveal="fade">Interested?</p>
+    <h2 class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;" data-reveal>
       Enquire About ${escapeHtml(yachtName)}
     </h2>
-    <p class="mx-auto mt-5 max-w-lg text-base text-white/50" data-reveal>
+    <p class="mx-auto mt-5 max-w-lg text-base text-taupe" data-reveal>
       Speak directly with our broker to check availability, discuss itineraries, or arrange a viewing.
     </p>
     <div class="mt-10" data-reveal>
-      <a href="${escapeHtml(waUrl(yachtName))}" target="_blank" rel="noopener noreferrer" class="btn-fill-light inline-flex items-center gap-3 border border-white/30 px-10 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white">
+      <a href="${escapeHtml(waUrl(yachtName))}" target="_blank" rel="noopener noreferrer" class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-10 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal">
         Chat on WhatsApp ${WA_SVG("w-5 h-5")}
       </a>
     </div>
