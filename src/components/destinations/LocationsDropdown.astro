@@ -52,6 +52,27 @@ const { region } = Astro.props;
           </li>
         ))}
       </ul>
+
+      <!-- View Region CTA: take the user to the full region page after they
+           browse the cruising areas inline. -->
+      <div class="mt-6 border-t border-charcoal/10 pt-6 text-center">
+        <a
+          href={`/destinations/${region.slug}`}
+          class="group/cta inline-flex items-center gap-3 bg-charcoal px-7 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-all duration-300 hover:bg-gold"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          View Region
+          <svg
+            class="h-3.5 w-3.5 transition-transform duration-300 group-hover/cta:translate-x-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 </div>
