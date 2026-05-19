@@ -1,0 +1,331 @@
+{
+  "lastModified": null,
+  "uri": "c::8294320436::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Greece\n\nExperience contemporary yachting at its finest aboard K2, a stunning Sanlorenzo built in 2024, where refined Italian design meets exceptional comfort and performance. With her elegant profile, sophisticated interiors, and expansive outdoor living spaces, K2 offers an exclusive charter experience for guests seeking style, relaxation, and effortless luxury at sea.\nDesigned with Sanlorenzo's signature attention to detail, K2 features a beautifully balanced combination of modern aesthetics and warm, welcoming ambiance. Her interior spaces are filled with natural light, premium materials, and a timeless sense of understated elegance, creating the perfect setting for both intimate escapes and memorable holidays with family or friends.\nAccommodating guests in 5 beautifully appointed cabins, K2 offers a versatile layout ideal for families, couples, or groups of friends. The yacht features 1 full-beam Master cabin, 2 elegant VIP cabins, 1 double and 1 convertible cabin, including a Pullman bed, that can be arranged to suit different guest requirements, ensuring both flexibility and comfort throughout the charter. Each cabin is designed as a private retreat, combining sophisticated styling with a calm and restful atmosphere.\nOn deck, guests can enjoy generous sunbathing areas, stylish lounge spaces, and inviting al fresco dining settings, perfect for long Mediterranean lunches, sunset cocktails, or simply taking in the surrounding views. Every area on board has been carefully designed to enhance comfort, privacy, and the pleasure of life at sea.",
+  "blueprint": {
+    "name": "K2",
+    "images": [
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f51200-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122ac800-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f53910-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122e7180-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122faa00-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f89470-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122dd540-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f53910-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::12112580-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120c4380-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122d11f0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122f0dc0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f40090-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::12098460-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f70dd0-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f75bf0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f64a80-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120e8d70-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f930b0-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::12108940-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120b0b00-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120abce0-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11fb0570-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f62370-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120cb8b0-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11fb5390-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::120df130-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f3b270-5387-11f1-b98a-b1d83aa777a9/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::11f84650-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::122b6440-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b5ad9b60-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b5afbe40-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b59be820-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8afca6e0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8aeacc90-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8ae638b0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8ae43ce0-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8ae83480-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::8ae5ea90-5387-11f1-ab1e-2bf34766ccda/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::7fce4170-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::7fca97f0-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::7fd51f40-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b59ad6b0-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b598dae0-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b5af4910-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}",
+      "/media/media::image::a::vessel::18c9f5a0-4ed7-11f1-9b05-ddfcfd2bbc9f::assets::b59f1c70-5387-11f1-a1e6-3f5aa81542cb/{imageVariant}"
+    ],
+    "make": "Sanlorenzo",
+    "model": "",
+    "maxCrew": 7,
+    "sleeps": 11,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
+    "cruisingCapacity": 11,
+    "builtYear": 2024,
+    "architect": "",
+    "interiorDesigner": "Patricia Urquiola",
+    "topSpeed": 19,
+    "cruiseSpeed": 14,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Convertible Cabin with Pullman bed",
+        "value": "1"
+      }
+    ],
+    "cabins": 5,
+    "length": 35.75,
+    "beam": 7.9,
+    "draft": 1.96,
+    "engines": "2x CAT C32 ACERT diesel engines, 1,622 hp",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Gym Equipment"
+      },
+      {
+        "label": "Balcony"
+      },
+      {
+        "label": "Lounge area"
+      },
+      {
+        "label": "Beach club"
+      },
+      {
+        "label": "Sundeck with bar"
+      },
+      {
+        "label": "Sunpads"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SiFly Efoil",
+        "quantity": "2"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Water skis"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Inflatable toys for kids"
+      },
+      {
+        "label": "Snorkeling Equipment"
+      },
+      {
+        "label": "Fishing Equipment"
+      }
+    ],
+    "entertainment": [
+      "Starlink",
+      "Apple TV",
+      "Netflix",
+      "Airplay",
+      "Control system that allows guests to operate lighting, music, and all onboard features in each cabin via iPads, ensuring intuitive and user-friendly control.",
+      "TV sizes 50”"
+    ],
+    "tenders": [
+      "Chase Technohull 38 grand sport 2024 2x500 Mercury"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 15000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 15000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 17000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 17000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 15000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15000000,
+              "amount": 15000000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 15000000,
+              "amount": 5250000
+            }
+          ],
+          "total": 21225000,
+          "subTotal": 20250000,
+          "totalTax": 975000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 17000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 17000000,
+              "amount": 17000000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 17000000,
+              "amount": 5950000
+            }
+          ],
+          "total": 24055000,
+          "subTotal": 22950000,
+          "totalTax": 1105000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

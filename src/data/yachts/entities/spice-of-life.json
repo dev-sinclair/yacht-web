@@ -1,0 +1,435 @@
+{
+  "lastModified": 1779192623756,
+  "uri": "c::8193426698::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Croatia, East Mediterranean\n\nSet sail on SPICE OF LIFE, a 2025 Sunreef 60 catamaran that takes luxury charters to the next level. Fusing brilliant design with flawless performance, this multihull beauty is built for both peaceful bay-hopping and thrilling open-water cruising. Designed as a sophisticated floating oasis, it features a generous flybridge, wide-open panoramic interiors, and a convenient hydraulic platform—guaranteeing you an unmatched blend of pure relaxation, adventure, and absolute comfort.",
+  "blueprint": {
+    "name": "SPICE OF LIFE",
+    "images": [
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::759210c0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::c::8193426698::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::efd2e4c0-5379-11f1-a801-3d79c45d70d9/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::755cf700-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::755c5ac0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75940c90-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75932230-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::758f78b0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75917480-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::758c4460-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75914d70-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::755b9770-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75934940-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75906310-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75937050-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::75925ee0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::755b4950-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::758df210-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::758eb560-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::755c0ca0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+      "/media/media::image::c::8193426698::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::ee384790-5379-11f1-a801-3d79c45d70d9/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "model": "Sunreef 60",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::738f24c0-dada-11ed-befa-d7914edd5e3a",
+      "name": "Marina Kastela",
+      "coordinates": {
+        "latitude": 43.54601254691691,
+        "longitude": 16.40283517494042
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 6,
+    "builtYear": 2025,
+    "topSpeed": 10,
+    "cruiseSpeed": 8,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 18.3,
+    "beam": 10.2,
+    "draft": 1.6,
+    "hullType": "Catamaran",
+    "hullConstruction": "",
+    "engines": "2 X Yanmar 4LV 170",
+    "amenities": [
+      {
+        "label": "Refrigerator",
+        "quantity": "3"
+      },
+      {
+        "label": "Cooker with oven"
+      },
+      {
+        "label": "Wine cooler in the saloon"
+      },
+      {
+        "label": "Icemaker"
+      },
+      {
+        "label": "Microwave Owen / Grill"
+      },
+      {
+        "label": "Dishwasher"
+      },
+      {
+        "label": "Washing Machine/Dryer"
+      },
+      {
+        "label": "Water heater"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Heating system"
+      },
+      {
+        "label": "Bimini top"
+      },
+      {
+        "label": "Awning"
+      },
+      {
+        "label": "Teak deck"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Water skies adult and for children"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Kneeboard"
+      },
+      {
+        "label": "Water tube and Towable ring"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Kayak with two seats"
+      },
+      {
+        "label": "Snorkeling Gear"
+      },
+      {
+        "label": "Floating mats"
+      },
+      {
+        "label": "Beach Games"
+      },
+      {
+        "label": "Fishing gear"
+      },
+      {
+        "label": "Seabob"
+      }
+    ],
+    "entertainment": [
+      "Board games"
+    ],
+    "tenders": [
+      "Rib WITH 70 hp outboard"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Edvin Korenov",
+      "role": "Captain",
+      "bio": "Nationality: Croatian\nLanguage: English, Croatian\n\nQualifications:\nYacht Master Category A (up to 100 GT), Boat Skipper Category C (up to 30 GT), STCW Basic Safety Training, GMDSS Certificate Skipper Academy – Skipper4you.com\n\nEdvin Korenov is a Croatian professional yacht skipper with more than 10 years of maritime experience and over 10,000 nautical miles completed across the Mediterranean, including international yacht deliveries between France, Spain, Italy, Greece, and Croatia. He began his maritime career through recreational sailing before progressing into full time professional yachting, gaining extensive experience on sailing yachts, catamarans, and motor yachts. Since 2020, he has served as skipper onboard a 60 ft luxury catamaran operating throughout the Mediterranean, working closely with a professional chef and hostess to deliver high end charter experiences focused on safety, smooth onboard operations, and attentive guest service. Prior to this, he worked as skipper and delivery captain across Croatia and the Mediterranean on private charters, multi day cruising programs, regattas, and yacht deliveries. Known for calm decision making, strong seamanship, and a guest oriented approach, his expertise includes advanced navigation and passage planning, yacht handling, anchoring and mooring operations, deck management, and crew coordination. Outside of yachting, his interests include diving, skiing where he also works as an instructor, hiking, and swimming."
+    },
+    {
+      "name": "Bartul Kacic",
+      "role": "Captain",
+      "bio": "Nationality: Croatian\nLanguage: English, Croatian\n\nQualifications:\nPrivate Academy of Culinary Arts Walner Split (Chef Certification), Michelin Guide Experience, First aid and Fire Safery certificate\n\nBorn and raised in Split, Chef Bartul Kačić is a highly accomplished culinary professional with more than eight years of experience in fine dining, luxury hospitality, and private yacht service. Known for his creativity, precision, and passion for Mediterranean ingredients, Bartul combines technical expertise with a modern approach to gastronomy, consistently delivering exceptional dining experiences. Throughout his career, Bartul has worked in some of Croatia’s respected kitchens, including Michelin-recommended restaurants, as well as aboard luxury\nyachts and exclusive private villas along the Adriatic coast. His experience in both high-end restaurants and yachting has refined his ability to adapt seamlessly to the expectations of private owners and charter guests while maintaining the highest standards of food quality,  presentation, and service. Bartul specializes in Mediterranean, Asian, Italian, and traditional Croatian cuisine, creating tailor-made menus that blend international sophistication with authentic local flavors. In addition to his culinary skills, he has demonstrated strong leadership in\nmanaging kitchen operations, sourcing premium ingredients, and ensuring consistency and excellence in every aspect of the dining experience that combines innovation, elegance, and authenticity.\n"
+    },
+    {
+      "name": "Tamara Pavelić",
+      "role": "Captain",
+      "bio": "NATIONALITY / AGE / LANGUAGE\nCroatian / Born - / ENGLISH, ITALIAN, CROATIAN\nQUALIFICATIONS\nFirst Aid (Red Cross Emergency Response Team), Boat Skipper\nLicense (Category B), Certified diver (CMAS/onestardiver),\nCertified Yoga teacher (200h YTT)\nWith over eight years of experience in hospitality and yachting, Tamara Pavelić brings exceptional service, culinary talent, and a warm, positive energy to every charter aboard Spirit of Life. Whether preparing delicious Mediterranean meals, setting elegant tables, maintaining immaculate interiors, or assisting on deck, she ensures that every aspect of your journey is\nseamless and enjoyable. Her professional background includes service aboard luxury sailing and motor yachts such as Lagoon 50, Lagoon 52, Fountaine Pajot 47, Bali 4.8, Leopard 50, and\nFerretti 680. She also serves as an instructor at the Croatia Sailing Academy, where she trains future yacht stewardesses in hospitality standards and onboard procedures. Tamara\nholds a Master of Laws degree from the University of Rijeka and combines her academic background with strong practical skills, including menu planning, provisioning, food safety, guest\nservice, and basic navigation support. In addition to her yachting expertise, Tamara is a certified diver, yoga teacher, first aid responder, and licensed Croatian skipper. Fluent in Croatian\nand English, with a basic knowledge of Italian, Tamara is known for her professionalism, adaptability, and genuine enthusiasm for life at sea. Always smiling and attentive to every detail, she is dedicated to making your charter aboard Spirit of Life truly unforgettable."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2300000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "25 April, 2026 - 30 May, 2026",
+        "effectiveDates": [
+          {
+            "from": "2026-04-25T00:00:00.000Z",
+            "to": "2026-05-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 3825000,
+          "subTotal": 3500000,
+          "totalTax": 325000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "30 May, 2026 - 27 June, 2026",
+        "effectiveDates": [
+          {
+            "from": "2026-05-30T00:00:00.000Z",
+            "to": "2026-06-27T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 4955000,
+          "subTotal": 4500000,
+          "totalTax": 455000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "27 June, 2026 - 3 October, 2026",
+        "effectiveDates": [
+          {
+            "from": "2026-06-27T00:00:00.000Z",
+            "to": "2026-10-03T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 5407000,
+          "subTotal": 4900000,
+          "totalTax": 507000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "From 3 October, 2026",
+        "effectiveDates": [
+          {
+            "from": "2026-10-03T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2300000,
+              "amount": 2300000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 3599000,
+          "subTotal": 3300000,
+          "totalTax": 299000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              16.818610292079534,
+              44.700266827856225
+            ],
+            "bbox": [
+              13.517187500000006,
+              42.432910156249996,
+              19.400976562500006,
+              46.534619140625
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
