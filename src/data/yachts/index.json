@@ -1477,6 +1477,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7819256863::vessel::ece51d30-7719-11ee-8795-3b423882fcc9",
+    "slug": "boreas",
+    "name": "BOREAS",
+    "hero": "/media/media::image::a::vessel::ece51d30-7719-11ee-8795-3b423882fcc9::assets::70e7cae0-bee2-11ef-a8eb-cd62a4b3835a/{imageVariant}",
+    "length": 43,
+    "sleeps": 36,
+    "cabins": 16,
+    "builtYear": 2002,
+    "builder": "Kale Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3850000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9333032772::vessel::d5cbab85-fe8c-11ed-889f-43d4bb723744",
     "slug": "behike",
     "name": "BEHIKE",
@@ -1525,24 +1543,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 6500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7819256863::vessel::ece51d30-7719-11ee-8795-3b423882fcc9",
-    "slug": "boreas",
-    "name": "BOREAS",
-    "hero": "/media/media::image::a::vessel::ece51d30-7719-11ee-8795-3b423882fcc9::assets::70e7cae0-bee2-11ef-a8eb-cd62a4b3835a/{imageVariant}",
-    "length": 43,
-    "sleeps": 36,
-    "cabins": 16,
-    "builtYear": 2002,
-    "builder": "Kale Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3850000,
     "currency": "EUR"
   },
   {
