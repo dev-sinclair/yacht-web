@@ -1981,7 +1981,7 @@
     "uri": "c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744",
     "slug": "bunker",
     "name": "BUNKER",
-    "hero": "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207df5a0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
+    "hero": "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::f4ec5b70-5519-11f1-b467-d1c5945105e2/{imageVariant}",
     "length": 40.5,
     "sleeps": 12,
     "cabins": 5,
@@ -2931,24 +2931,6 @@
       "Motor"
     ],
     "dayPricingFrom": 625000,
-    "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::14059390478::vessel::d5cc24b8-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lady-christa",
-    "name": "LADY CHRISTA",
-    "hero": "/media/media::image::a::vessel::d5cc24b8-fe8c-11ed-889f-43d4bb723744::assets::96b01c80-34be-11f0-ab92-cd4b130c0e2b/{imageVariant}",
-    "length": 36,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2007,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 320000,
     "weekPricingFrom": null,
     "currency": "EUR"
   },
@@ -6279,24 +6261,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::14059390478::vessel::da9e3180-9da1-11ee-836c-9dbcc75f90ae",
-    "slug": "ros-mare",
-    "name": "ROS MARE",
-    "hero": "/media/media::image::a::vessel::da9e3180-9da1-11ee-836c-9dbcc75f90ae::assets::49dbf1e0-34c8-11f0-8d86-db8b210b272e/{imageVariant}",
-    "length": 27,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1997,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 160000,
-    "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::18231269944::vessel::d5cca3cc-fe8c-11ed-889f-43d4bb723744",
     "slug": "derin-deniz",
     "name": "DERIN DENIZ",
@@ -7417,24 +7381,6 @@
     "dayPricingFrom": 220000,
     "weekPricingFrom": 8540000,
     "currency": "AUD"
-  },
-  {
-    "uri": "c::14059390478::vessel::88965340-29c3-11f0-817c-95e456a64f7c",
-    "slug": "gazella",
-    "name": "GAZELLA",
-    "hero": "/media/media::image::a::vessel::88965340-29c3-11f0-817c-95e456a64f7c::assets::c371ec70-34ba-11f0-bf8b-4322369097e8/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": null,
-    "currency": "EUR"
   },
   {
     "uri": "c::9333029659::vessel::5d006f50-cbdb-11ee-bf8a-ad14a1404930",
@@ -10224,24 +10170,6 @@
       "Motor"
     ],
     "dayPricingFrom": 326700,
-    "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::14059390478::vessel::d5cca45b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "primadonna",
-    "name": "PRIMADONNA",
-    "hero": "/media/media::image::a::vessel::d5cca45b-fe8c-11ed-889f-43d4bb723744::assets::53209ed0-34bf-11f0-b3dd-d94c58d4d45e/{imageVariant}",
-    "length": 21.5,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 1998,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 120000,
     "weekPricingFrom": null,
     "currency": "EUR"
   },

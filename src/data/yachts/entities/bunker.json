@@ -1,5 +1,5 @@
 {
-  "lastModified": 1778507677920,
+  "lastModified": 1779370772492,
   "uri": "c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -8,10 +8,11 @@
   "blueprint": {
     "name": "BUNKER",
     "images": [
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207df5a0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207b84a0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207e43c0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207961c0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::f4ec5b70-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::fbe15cf0-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::fbe18400-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::25f91eb0-551a-11f1-8ec1-87991bc3225f/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::d94001b0-5519-11f1-b466-d1c5945105e2/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::522890e0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::522869d0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::588e71c0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
@@ -24,22 +25,17 @@
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::65298690-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::65287520-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::65293870-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
-      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::8ab1ae10-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::90fc65d0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::7931da20-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
-      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::79324f50-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::846f33b1-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::846f33b0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
       "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::846f81d0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::20a26d90-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::20693520-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::20695c30-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::2079d6f0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::206abbc0-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::207b5d90-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}",
-      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::a4a9a110-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
-      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::a4a904d0-2e8e-11f1-8127-cf3d8444862c/{imageVariant}",
-      "/media/media::image::a::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::a1d2f010-f6d8-11f0-8c5e-dd6b71da0cc0/{imageVariant}"
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::e5beb4e0-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::e5bd5550-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::e5be18a0-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::e03db5c0-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::e03e5200-5519-11f1-b466-d1c5945105e2/{imageVariant}",
+      "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::d445e5d0-5519-11f1-b466-d1c5945105e2/{imageVariant}"
     ],
     "make": "CRN Ancona",
     "model": "",
