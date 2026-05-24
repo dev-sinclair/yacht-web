@@ -1,0 +1,6 @@
+# pnpm config (lives here in pnpm 11+ for non-workspace projects too).
+# Allowlist native deps so their install scripts run — sharp powers Astro's
+# image pipeline, esbuild is bundled via Vite.
+allowBuilds:
+  esbuild: true
+  sharp: true
