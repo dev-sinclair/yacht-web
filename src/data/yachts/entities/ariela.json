@@ -1,5 +1,5 @@
 {
-  "lastModified": 1777970355712,
+  "lastModified": 1779713268557,
   "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -250,7 +250,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "EXCLUSIVE",
           "subTotal": 11500000,
           "totalTax": 0,
           "total": 11500000,
@@ -326,7 +326,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "EXCLUSIVE",
           "subTotal": 13000000,
           "totalTax": 0,
           "total": 13000000,
