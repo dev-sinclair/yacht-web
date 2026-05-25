@@ -10308,8 +10308,8 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 365000,
-    "weekPricingFrom": 3750000,
+    "dayPricingFrom": 512500,
+    "weekPricingFrom": 5400000,
     "currency": "USD"
   },
   {
@@ -15901,6 +15901,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::28226710116::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5",
+    "slug": "molto-piaciuto",
+    "name": "MOLTO PIACIUTO",
+    "hero": "/media/media::image::a::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5::assets::a3c86500-5596-11f0-ac86-65639ba86c65/{imageVariant}",
+    "length": 16,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2017,
+    "builder": "Prestige Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 185000,
+    "weekPricingFrom": 3000000,
+    "currency": "USD"
+  },
+  {
     "uri": "c::18231584005::vessel::f70ea0d0-a4f1-11f0-9e4b-4d613f86d6cc",
     "slug": "lulu",
     "name": "LULU",
@@ -15917,23 +15934,6 @@
     "dayPricingFrom": null,
     "weekPricingFrom": 2200000,
     "currency": "EUR"
-  },
-  {
-    "uri": "c::28226710116::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5",
-    "slug": "whiskey-waves",
-    "name": "WHISKEY & WAVES",
-    "hero": "/media/media::image::a::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5::assets::a3c86500-5596-11f0-ac86-65639ba86c65/{imageVariant}",
-    "length": 16,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2017,
-    "builder": "Prestige Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 180000,
-    "weekPricingFrom": 3000000,
-    "currency": "USD"
   },
   {
     "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",

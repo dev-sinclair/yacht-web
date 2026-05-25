@@ -1,12 +1,12 @@
 {
-  "lastModified": 1768322073565,
+  "lastModified": 1779730133980,
   "uri": "c::28226710116::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Biscayne Bay, Miami, USA\n\nThe 52ft Prestige 500 Fly Yacht offers an exceptional blend of luxury, performance, comfort and five star service, making it an ideal choice for those seeking a premium Miami experience . This vessel is meticulously designed to provide a seamless cruising experience, with spacious interiors and cutting-edge amenities that cater to every need for the perfect yacht rental.",
+  "description": "Operating Area: Miami, Florida & Bahamas\n\nThe 2017 Prestige 500 Flybridge is an award-winning motor yacht that combines modern French design, spacious interiors, and exceptional comfort. Built with Prestige's signature focus on light and space, she offers a refined cruising experience ideal for both day charters and extended getaways.\n\nPowered by twin Volvo IPS engines, the 500 Fly delivers smooth performance, excellent fuel efficiency, and effortless maneuverability, making her perfectly suited for exploring Miami, the Keys, and the Bahamas.\n\nHer expansive flybridge is one of the largest in her class, featuring a helm station, wet bar, al fresco dining, and wide sun loungers with panoramic views. The aft cockpit connects seamlessly to the bright and open main salon through sliding glass doors, creating a spacious indoor-outdoor living area. Inside, the modern design emphasizes natural light, with large windows and elegant finishes throughout.\n\nBelow deck, the Prestige 500 offers a rare 3-cabin layout for her size, including a full-beam master stateroom with private access, a VIP cabin with ensuite bathroom, and a guest cabin; providing outstanding comfort for multi-day charters.\n\nStylish, versatile, and family-friendly, the 2017 Prestige 500 Flybridge is a standout choice for unforgettable yachting experiences, whether cruising Miami's waters for the day or embarking on longer adventures across the Keys and Bahamas.\n\nSUGGESTED ITINERARY\n\nYour adventure aboard is about to begin. Get ready to experience the thrill and the beauty of Biscayne Bay. Whether you're seeking adventure or relaxation, this boat offers the perfect mix of both.\n\n• Morning: Kick off your day with an exhilarating ride across Biscayne Bay, feeling the wind in your hair as you speed past the vibrant Miami coastline and the luxurious homes along Star Island.\n• Midday: Anchor at a secluded sandbar for a swim or snorkel in the crystal-clear waters, or explore the picturesque islands and mangroves that dot the bay. The shallow draft of the Prestige allows you to access areas that larger boats can't reach.\n• Afternoon: Head towards the popular Haulover Sandbar or Stiltsville, where you can join the lively scene of boats and enjoy the unique atmosphere. If you're into water activities, you can enjoy paddleboarding, swimming, or simply lounging on the spacious swim platform while soaking in the warm Miami sun.\n• Evening: Cruise back towards the city as the sun sets, taking in the breathtaking views of the Miami skyline. The spacious deck is perfect for enjoying drinks and snacks as you watch the sunset over the water.",
   "blueprint": {
-    "name": "WHISKEY & WAVES",
+    "name": "MOLTO PIACIUTO",
     "images": [
       "/media/media::image::a::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5::assets::a3c86500-5596-11f0-ac86-65639ba86c65/{imageVariant}",
       "/media/media::image::a::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5::assets::a3c7c8c0-5596-11f0-ac86-65639ba86c65/{imageVariant}",
@@ -49,28 +49,28 @@
     "hullType": "Fiberglass",
     "hullConstruction": "",
     "tonnage": 27,
-    "engines": "2 x 435 hp",
+    "engines": "twin Volvo IPS engines",
     "amenities": [
       {
-        "label": "Cooler"
+        "label": "Helm Station"
       },
       {
-        "label": "TV"
+        "label": "Wet bar"
       },
       {
-        "label": "Starlink Wifi"
+        "label": "Wide sun loungers"
+      },
+      {
+        "label": "Cooler, Ice, Sodas, Water and Towels"
       }
     ],
     "toys": [
-      {
-        "label": "Dinghy"
-      },
       {
         "label": "Large floating mat"
       }
     ],
     "entertainment": [
-      "Bluetooth Sound System"
+      "JL Audio Bluetooth System"
     ]
   },
   "crew": [
@@ -82,10 +82,10 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 180000,
+      "price": 185000,
       "displayCurrency": "USD",
-      "displayPrice": 180000,
-      "unit": "DAY"
+      "displayPrice": 185000,
+      "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "USD",
@@ -110,7 +110,7 @@
     },
     "pricingInfo": [
       {
-        "name": "Daily Rate: 4 Hours",
+        "name": "2 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -127,21 +127,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 180000,
+          "charterFee": 185000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "HOUR",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 180000,
-              "amount": 180000,
+              "unitPrice": 185000,
+              "amount": 185000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 180000,
-          "subTotal": 180000,
+          "total": 185000,
+          "subTotal": 185000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -199,13 +199,32 @@
               -66.98701171875,
               49.3696777343751
             ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Daily Rate: 6 Hours",
+        "name": "4 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -222,7 +241,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 240000,
+          "charterFee": 237500,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -230,13 +249,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 240000,
-              "amount": 240000,
+              "unitPrice": 237500,
+              "amount": 237500,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 240000,
-          "subTotal": 240000,
+          "total": 237500,
+          "subTotal": 237500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -294,13 +313,32 @@
               -66.98701171875,
               49.3696777343751
             ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Daily Rate: 8 Hours",
+        "name": "6 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -389,13 +427,32 @@
               -66.98701171875,
               49.3696777343751
             ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Daily Rate: 24 Hours",
+        "name": "8 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -412,7 +469,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 500000,
+          "charterFee": 375000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -420,13 +477,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 500000,
-              "amount": 500000,
+              "unitPrice": 375000,
+              "amount": 375000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 500000,
-          "subTotal": 500000,
+          "total": 375000,
+          "subTotal": 375000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -484,13 +541,32 @@
               -66.98701171875,
               49.3696777343751
             ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Weekly Rate",
+        "name": "24 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -507,21 +583,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 3000000,
+          "charterFee": 500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "WEEK",
+          "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3000000,
-              "amount": 3000000,
+              "unitPrice": 500000,
+              "amount": 500000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 3000000,
-          "subTotal": 3000000,
+          "total": 500000,
+          "subTotal": 500000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -597,6 +673,120 @@
               24.54233398437499,
               -66.98701171875,
               49.3696777343751
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "1 Week",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -52.64727122207621,
+              46.84073876556497
+            ],
+            "bbox": [
+              -179.1435033839999,
+              18.906117143000074,
+              179.78093509200005,
+              71.41250234600005
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -96.3420908403651,
+              38.73256771297787
+            ],
+            "bbox": [
+              -124.7099609375,
+              24.54233398437499,
+              -66.98701171875,
+              49.3696777343751
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
             ]
           }
         ],
