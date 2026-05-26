@@ -3889,23 +3889,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7655158652::vessel::691886a0-5642-11ef-a8a2-ed728478bcf0",
-    "slug": "nemesis",
-    "name": "NEMESIS",
-    "hero": "/media/media::image::a::vessel::691886a0-5642-11ef-a8a2-ed728478bcf0::assets::36cee2c0-e85f-11ef-8599-c11284123dea/{imageVariant}",
-    "length": 32,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2021,
-    "builder": "Azimut",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11000000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
     "slug": "alegria",
     "name": "ALEGRIA",
@@ -5914,23 +5897,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4000000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7655158652::vessel::0756fc80-f21d-11f0-90cb-c53e450681fd",
-    "slug": "michisan",
-    "name": "MICHISAN",
-    "hero": "/media/media::image::a::vessel::0756fc80-f21d-11f0-90cb-c53e450681fd::assets::d88ff140-f221-11f0-8645-97d410204221/{imageVariant}",
-    "length": 27.6,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sanlorenzo",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1416700,
-    "weekPricingFrom": 8500000,
     "currency": "EUR"
   },
   {
@@ -8864,23 +8830,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7655158652::vessel::d5cc24a9-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lady-m",
-    "name": "LADY M",
-    "hero": "/media/media::image::a::vessel::d5cc24a9-fe8c-11ed-889f-43d4bb723744::assets::8b35da70-f517-11ef-940b-418655bf791f/{imageVariant}",
-    "length": 23.6,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2019,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 847000,
-    "weekPricingFrom": 4200000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::13744993287::vessel::36cd2150-9541-11ee-9ac3-efe2c921baff",
     "slug": "life-is-life",
     "name": "LIFE IS LIFE",
@@ -9813,23 +9762,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7655158652::vessel::255f1b20-9f1a-11ee-b40f-c9b41e08132d",
-    "slug": "parodia",
-    "name": "PARODIA",
-    "hero": "/media/media::image::c::7655158652::vessel::255f1b20-9f1a-11ee-b40f-c9b41e08132d::assets::b4e45820-f204-11f0-8ca5-b1e04aa5ad0a/{imageVariant}",
-    "length": 22,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Guy Couach",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 363000,
-    "weekPricingFrom": 2100000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7580644139::vessel::1140ead0-edd8-11ee-bb82-ffeee555377a",
     "slug": "kuum",
     "name": "KUUM",
@@ -10626,40 +10558,6 @@
     ],
     "dayPricingFrom": 100000,
     "weekPricingFrom": 700000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7655158652::vessel::d5cc24b7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "blue-m",
-    "name": "BLUE M",
-    "hero": "/media/media::image::c::7655158652::vessel::d5cc24b7-fe8c-11ed-889f-43d4bb723744::assets::1ef3fd70-f1fa-11f0-b833-c33905e37a0d/{imageVariant}",
-    "length": 21,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2017,
-    "builder": "Prestige",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 605000,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7655158652::vessel::d5cc24ac-fe8c-11ed-889f-43d4bb723744",
-    "slug": "salacia",
-    "name": "SALACIA",
-    "hero": "/media/media::image::c::7655158652::vessel::d5cc24ac-fe8c-11ed-889f-43d4bb723744::assets::b9f9ee70-f208-11f0-8ca9-b1e04aa5ad0a/{imageVariant}",
-    "length": 21,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2019,
-    "builder": "Sirena Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 605000,
-    "weekPricingFrom": 3000000,
     "currency": "EUR"
   },
   {
@@ -12465,7 +12363,7 @@
   },
   {
     "uri": "c::7579668770::vessel::d5cbd304-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lady-m-d5cbd3",
+    "slug": "lady-m",
     "name": "LADY M",
     "hero": "/media/media::image::c::7579668770::vessel::d5cbd304-fe8c-11ed-889f-43d4bb723744::assets::624f9a20-12d6-11ef-8a22-53421d5f5d06.jpeg/{imageVariant}",
     "length": 18.9,
