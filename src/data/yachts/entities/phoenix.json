@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761132848790,
+  "lastModified": 1779873344840,
   "uri": "c::33048560166::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9",
   "yachtType": [
     "Motor"
@@ -119,16 +119,16 @@
         "name": "Daily Rate",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2026-12-31T00:00:00.000Z",
+            "to": "2027-01-01T23:59:59.999Z"
           },
           {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-12-31T00:00:00.000Z",
+            "to": "2028-01-01T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -178,22 +178,14 @@
         "name": "Weekly Rate",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-01-01T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
           "charterFee": 950000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
@@ -202,12 +194,23 @@
               "quantity": 1,
               "unitPrice": 950000,
               "amount": 950000,
-              "conditions": "Weekly"
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 950000,
+              "amount": 332500
             }
           ],
-          "total": 950000,
-          "subTotal": 950000,
-          "totalTax": 0
+          "total": 1396500,
+          "subTotal": 1282500,
+          "totalTax": 114000
         },
         "inclusionZones": [
           {

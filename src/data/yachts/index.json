@@ -14918,6 +14918,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::33048560166::vessel::ec94e630-36e4-11f0-a2ee-4da53da634f9",
+    "slug": "blue-dream",
+    "name": "BLUE DREAM",
+    "hero": "/media/media::image::a::vessel::ec94e630-36e4-11f0-a2ee-4da53da634f9::assets::f59c4590-36e7-11f0-9781-732fb3434464/{imageVariant}",
+    "length": 16.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2000,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 135000,
+    "weekPricingFrom": 950000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::18231584005::vessel::d5cca39e-fe8c-11ed-889f-43d4bb723744",
     "slug": "tiamo",
     "name": "TIAMO",
@@ -14950,23 +14967,6 @@
     ],
     "dayPricingFrom": 55500,
     "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::33048560166::vessel::ec94e630-36e4-11f0-a2ee-4da53da634f9",
-    "slug": "blue-dream",
-    "name": "BLUE DREAM",
-    "hero": "/media/media::image::a::vessel::ec94e630-36e4-11f0-a2ee-4da53da634f9::assets::f59c4590-36e7-11f0-9781-732fb3434464/{imageVariant}",
-    "length": 16.5,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2000,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 135000,
-    "weekPricingFrom": 950000,
     "currency": "EUR"
   },
   {
@@ -15611,6 +15611,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::33048560166::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9",
+    "slug": "phoenix",
+    "name": "PHOENIX",
+    "hero": "/media/media::image::a::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9::assets::8eda6fe0-36eb-11f0-a4fd-8dd61dee5325/{imageVariant}",
+    "length": 16,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 1978,
+    "builder": "Posillipo ",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 135000,
+    "weekPricingFrom": 950000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::28226710116::vessel::8fa32580-5594-11f0-aac6-3dcf30a3e2f5",
     "slug": "molto-piaciuto",
     "name": "MOLTO PIACIUTO",
@@ -15660,23 +15677,6 @@
     ],
     "dayPricingFrom": 165000,
     "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::33048560166::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9",
-    "slug": "phoenix",
-    "name": "PHOENIX",
-    "hero": "/media/media::image::a::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9::assets::8eda6fe0-36eb-11f0-a4fd-8dd61dee5325/{imageVariant}",
-    "length": 16,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 1978,
-    "builder": "Posillipo ",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 135000,
-    "weekPricingFrom": 950000,
     "currency": "EUR"
   },
   {
