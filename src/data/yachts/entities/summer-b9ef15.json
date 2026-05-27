@@ -1,11 +1,11 @@
 {
-  "lastModified": 1777033052481,
+  "lastModified": 1779881549958,
   "uri": "c::26934280528::vessel::b9ef1550-a952-11ee-9d0b-df76e04db727",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Operating Area: Sardinia, Corsica, French Riviera\n\nStep aboard the WAVE 60, a flagship sailing catamaran designed to offer exceptional comfort, space, and modern elegance at sea. Created for discerning travelers, this yacht combines innovative architecture with premium onboard amenities, delivering an experience comparable to a luxury floating apartment.\n\nWith over 180 m² of usable living space, WAVE 60 offers the openness and functionality typically found on much larger yachts. Its distinctive superstructure creates an unusually spacious saloon and forward lounge area — a rare feature among catamarans in this class. The sleek silhouette with inverted bows and an aerodynamic roof spoiler enhances both performance and contemporary design.\n\nThoughtfully arranged interiors include spacious cabins, elegant bathrooms, a stylish saloon, and a fully equipped galley, providing comfort for both short escapes and extended cruising. Expansive exterior areas allow guests to enjoy sunbathing, al fresco dining, and relaxing moments on deck.\n\nThanks to its shallow draft, WAVE 60 can anchor closer to shore than traditional monohull yachts, offering easy access to secluded bays and crystal-clear waters.Advanced navigation systems include autopilot, GPS plotter, radar, furling genoa, and a fully battened mainsail, ensuring safe and efficient sailing. Onboard comfort is enhanced by air conditioning, generator, solar panels, electric winches, and a protective bimini top.\n\nGuests can also enjoy premium amenities such as a Bose home cinema system, wine fridge, coffee machine, ice maker, and dishwasher. Water activities are supported by a 110 HP RIB tender, paddleboards, a spacious teak cockpit, and a flybridge lounge with panoramic sea views.\n\nWAVE 60 sets a new standard of space and comfort in the 60-foot catamaran class — a modern yacht designed for exceptional experiences at sea.",
+  "description": "SUMMER | WAVE 60 - KEY HIGHLIGHTS\n\n#1 - 18 m | 3+1 cabins | 6 guests | 2 crew\n#2 - Stylish and accessible catamaran with strong value\n#3 - Great fit for 3 couples or smaller groups\n#4 - 180 m² of usable living space\n#5 - Advanced low-noise energy management system\n#6 - Available in: Sardinia, Corsica and nearby Western Mediterranean areas\n\n\nOperating Area: Sardinia, Corsica, French Riviera\n\nLUXURY, SPACE AND MODERN CATAMARAN DESIGN\n\nStep aboard the WAVE 60, a flagship sailing catamaran designed to offer exceptional comfort, space, and modern elegance at sea. Created for discerning travelers, this yacht combines innovative architecture with premium onboard amenities, delivering an experience comparable to a luxury floating apartment.\n\nWith over 180 m² of usable living space, WAVE 60 offers the openness and functionality typically found on much larger yachts. Its distinctive superstructure creates an unusually spacious saloon and forward lounge area — a rare feature among catamarans in this class. The sleek silhouette with inverted bows and an aerodynamic roof spoiler enhances both performance and contemporary design.\n\nDESIGNED FOR COMFORT\n\nThoughtfully arranged interiors include spacious cabins, elegant bathrooms, a stylish saloon, and a fully equipped galley, providing comfort for both short escapes and extended cruising. Expansive exterior areas allow guests to enjoy sunbathing, al fresco dining, and relaxing moments on deck.\n\nThanks to its shallow draft, WAVE 60 can anchor closer to shore than traditional monohull yachts, offering easy access to secluded bays and crystal-clear waters.\n\nPREMIUM EQUIPMENT & LIFESTYLE\n\nAdvanced navigation systems include autopilot, GPS plotter, radar, furling genoa, and a fully battened mainsail, ensuring safe and efficient sailing. Onboard comfort is enhanced by air conditioning, solar panels, electric winches, and a protective bimini top.\n\nGuests can also enjoy premium amenities such as a Bose home cinema system, wine fridge, coffee machine, ice maker, and dishwasher. Water activities are supported by an Axis Northstar 3.8 50 HP tender, paddleboards, a spacious teak cockpit, and a flybridge lounge with panoramic sea views.\n\nWAVE 60 sets a new standard of space and comfort in the 60-foot catamaran class — a modern yacht designed for exceptional experiences at sea.\n\nAn advanced energy management system helps minimize generator use while at anchor, creating a quieter, more peaceful onboard atmosphere and enhancing the overall comfort of the charter experience.",
   "blueprint": {
     "name": "SUMMER",
     "images": [
@@ -55,6 +55,7 @@
     "topSpeed": 10,
     "cruiseSpeed": 7,
     "fuelCapacity": 0,
+    "cabinLayout": [],
     "cabins": 3,
     "bathrooms": 3,
     "length": 18.36,
@@ -116,10 +117,17 @@
       "Bose home cinema system"
     ],
     "tenders": [
-      "50 HP RIB Tender"
+      "Axis Northstar 3.8 50 HP, "
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Piotr Szczeszek",
+      "avatar": "/media/media::image::c::26934280528::vessel::b9ef1550-a952-11ee-9d0b-df76e04db727::assets::969eef60-59bf-11f1-adfc-8d0239e1d60a/{imageVariant}",
+      "role": "Captain",
+      "bio": "Piotr has spent many years travelling the world, skippering yachts and helping owners with their boats and challenges. These experiences made him very open-minded and comfortable in any situation at sea.\n\nOver the past four years he has completed more than 100 charters without a single bad review, always focused on making guests happy. On board, “good” is never enough – paradise is the goal.\n\nHe loves anchoring the catamaran as close as possible to beautiful beaches, always looking for the best views and the most special locations.\n\nPiotr also enjoys teaching guests to surf behind the tender or try e-foiling, often getting beginners on the board in less than 30 minutes.\nFor guests who prefer a slower pace, he creates a relaxed atmosphere on board – smooth sailing, calm anchorages and evenings with a rooftop cinema under the stars.\n"
+    }
+  ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",

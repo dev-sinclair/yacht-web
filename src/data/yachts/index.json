@@ -2310,6 +2310,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7646090758::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744",
+    "slug": "silent-world",
+    "name": "SILENT WORLD",
+    "hero": "/media/media::image::a::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744::assets::64df4840-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+    "length": 39,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2014,
+    "builder": "IAG Yacht Engineering Co LTD",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7819298091::vessel::d5cca1f0-fe8c-11ed-889f-43d4bb723744",
     "slug": "ottawa-iv",
     "name": "OTTAWA IV",
@@ -2342,23 +2359,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4900000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7646090758::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744",
-    "slug": "silent-world",
-    "name": "SILENT WORLD",
-    "hero": "/media/media::image::a::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744::assets::64df4840-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
-    "length": 39,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2014,
-    "builder": "IAG Yacht Engineering Co LTD",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12000000,
     "currency": "EUR"
   },
   {
