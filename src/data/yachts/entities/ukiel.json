@@ -1,10 +1,10 @@
 {
-  "lastModified": 1777033350575,
+  "lastModified": 1779832596805,
   "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Olbia, Italy\nOperating Area: Italy (Sardinia, Amalfi), France (French Riviera)\n\nStep aboard the AEGEAN Explorer M26, a 26-metre marvel blending elegance, nautical ingenuity, and sustainability for 12 guests. Harmony defines its three master suites, including an upper deck master stateroom with a private terrace. Customise your journey with a preference list for entertainment and culinary delights. Enjoy spacious common areas, a swim platform, and water toys. A dedicated crew of four ensures an exceptional experience. Embrace solar-powered elegance with a range exceeding 3,500 nautical miles, ideal for extended stays and remote explorations.\n\n\n\nUKIEL Key Features:\n\nBuilt by Aegean Yacht in 2022\nThree full-beam master suites on each deck, including an upper deck master stateroom\nSteel hull with aluminium superstructure\nSolar-powered elegance, fuel efficiency, and low environmental impact\n\nExceptional gross tonnage of 187 and 3500n/M range for it's length of 26m\n\nEquipped with infotainment system YachtEye\n\nAccommodates up to 12 guests over 6 guest cabins - unique for it's length\n\nSuperb fusion of sundeck, shading, and water recreational amenities",
+  "description": "M/Y UKIEL - KEY HIGHLIGHTS\n#1 - 26 m | 6 cabins | 12 guests | 4+1 crew\n#2 - Strong 12-guest option with 3 full beam master cabins\n#3 - Excellent value for size and capacity\n#4 - 9-meter chase boat with dedicated crew member\n#5 - Available in: Sardinia, Corsica, French Riviera, Amalfi / Naples\n#6 - From EUR 44,950 + 35% APA + VAT\n\n\nBase / Home Port: Olbia, Italy\nOperating Area: Italy (Sardinia, Amalfi), France (French Riviera)\n\nStep aboard the AEGEAN Explorer M26, a 26-metre explorer-style yacht built by Aegean Yachts in 2022, designed for comfortable Mediterranean cruising, intelligent functionality, and relaxed onboard living. Combining a steel hull with an aluminium superstructure, UKIEL offers an impressive accommodation setup for up to 12 guests — a particularly strong advantage within the 26m category and an excellent fit for family charters, larger groups, and mixed-generation holidays in Italy and France.\n\nThe yacht features six well-appointed cabins, including three full master suites across two decks — a rare configuration in this size segment and one of UKIEL’s strongest differentiators. The upper deck master additionally benefits from a private aft terrace with sun loungers, creating a more secluded owner-style experience with uninterrupted sea views. The accommodation is completed by one VIP cabin and two twin convertible guest cabins, all with en-suite facilities and modern amenities, offering a practical and highly comfortable setup for extended Mediterranean charters.\n\nA major highlight of the yacht is the brand-new 9m XO DFNDR 8 chase boat with twin 250 HP Mercury engines and a dedicated additional crew member. This significantly elevates the overall charter experience, allowing guests to enjoy stylish coastal exploration, smooth beach transfers, watersports support, lunch excursions ashore, and far greater flexibility throughout the itinerary. Combined with an extensive water toy selection, UKIEL offers a highly dynamic and guest-friendly setup for enjoying Sardinia, Corsica, the French Riviera, and the wider Western Mediterranean.\n\nPowered by twin MAN engines, UKIEL cruises comfortably while offering fuel-efficient performance, excellent stability, and long-range cruising capability. Her solar-assisted systems and explorer-style platform make her particularly well suited for relaxed itineraries and extended time on the water.\n\nThe onboard experience is completed by a professional crew of five delivering attentive, warm, and highly personalized service throughout the charter. Hospitality and dining are an important part of the experience onboard, with a strong culinary focus and menus tailored around guest preferences, cruising style, and the relaxed rhythm of Mediterranean life at sea.\n",
   "blueprint": {
     "name": "UKIEL",
     "images": [
@@ -44,6 +44,15 @@
     "model": "Aegean Explorer M26",
     "maxCrew": 5,
     "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::084d2f1c-b3ee-11ed-88e8-325096b39f47",
+      "name": "Olbia",
+      "coordinates": {
+        "latitude": 40.92518954,
+        "longitude": 9.507247173
+      },
+      "country": "Italy"
+    },
     "cruisingCapacity": 12,
     "staticCapacity": 0,
     "builtYear": 2022,
@@ -99,15 +108,15 @@
     ],
     "toys": [
       {
-        "label": "Stand Up Paddle Boards",
+        "label": "Seabob",
         "quantity": "2"
       },
       {
-        "label": " Inflatable slide",
-        "quantity": "1"
+        "label": "Electric Jetsurf ",
+        "quantity": "2"
       },
       {
-        "label": "Inflatable water toys",
+        "label": "Inflatable Slide",
         "quantity": "1"
       },
       {
@@ -115,11 +124,11 @@
         "quantity": "2"
       },
       {
-        "label": "Seabob",
+        "label": "Stand Up Paddle Boards",
         "quantity": "2"
       },
       {
-        "label": "E-foil",
+        "label": "Inflatable water toys",
         "quantity": "2"
       },
       {
@@ -131,34 +140,40 @@
       "Internet (local modems + Starlink)"
     ],
     "tenders": [
-      "Chase Boat 9 M XO DFNDR 8 Length Beam 2,6 M Max number of pax. 6-8; 2 x 250 Mercury",
+      "Chase boat - 9M XO DFNDR 8 Chase Boat (Twin 250 HP Mercury engines Capacity: 6–8 guests)",
       "Highfield Sport 600 - Yamaha F130 Tender"
     ]
   },
   "crew": [
     {
-      "name": "Oskar Ozen",
-      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::b6fa17d0-7e8c-11f0-b1c0-8fb4cb05b9ae/{imageVariant}",
+      "name": "Ben Edwards",
+      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::133b5c80-594c-11f1-8447-f1bda5bf257b/{imageVariant}",
       "role": "Captain",
-      "bio": "Captain Coskan Ozen is a highly experienced Master 500GT with over 10 years in both private and charter yachting, holding extensive cruising knowledge across the Mediterranean, Aegean, Red Sea, and Arabian Gulf. Skilled in ISM/ISPS compliance, crew leadership, and vessel operations, he has successfully managed yachts up to 56m, overseeing refits, surveys, and high-profile guest programs. Professional, safety-focused, and guest-oriented, he brings strong management, technical, and navigational expertise to every program.\n"
+      "bio": "With over 20 years of experience in the yachting industry, Ben is a highly\ncapable and approachable Captain with a strong background across both\nprivate and charter yachts. Having commanded vessels up to 40 metres\nand worked aboard yachts up to 114 metres, he brings extensive\nexpertise in navigation, yacht management, engineering, and guestfocused\noperations.\nThroughout his career, Ben has successfully managed busy charter\nseasons, Mediterranean cruising programmes, refits, and new-build\nprojects while consistently maintaining high standards of safety,\nprofessionalism, and onboard comfort. His calm leadership style,\ncombined with strong hands-on technical knowledge, ensures smooth\ndaily operations behind the scenes, allowing guests to fully relax and\nenjoy their experience onboard with complete confidence.\nKnown for his personable nature and professional approach, Ben creates\na welcoming, relaxed, and well-organised atmosphere for both guests\nand crew alike. His extensive cruising experience, attention to detail, and\ngenuine passion for hospitality help deliver seamless, memorable\ncharters aboard UKIEL, where guest comfort, safety, and enjoyment\nalways remain the priority."
     },
     {
-      "name": "Sinan Coskuner ",
+      "name": "Sinan Coskuner",
       "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::9aace550-318c-11f0-84ac-a19bd04c490e/{imageVariant}",
       "role": "Captain",
-      "bio": "Sinan, the First Mate embarked on a diverse and dynamic journey into the maritime world. Graduating from an Open Education High School, he set his course through various profession as a store manager at Magic Life Hotels, showcasing his aptitude for management. His passion for sailing then led him to the graceful vessel named White Wings, where he first embraced the art of sailing.\n\nIn 2010, he transitioned to the Sea Lion motor yacht, further honing his maritime skills and expertise. Following this, he assumed the role of a restaurant manager, a position that allowed him to expand his talents in hospitality. His journey also took him to Dubai, where he served as a chef and deck leader on the motor yacht named Free Day, deepening his understanding of both culinary and nautical arts.\n\nToday, he continues his maritime odyssey aboard Ukiel, contributing his skills and experience to ensure every voyage is a success.\n"
+      "bio": "Sinan brings a strong maritime and hospitality background to his role as First Officer aboard UKIEL. Combining guest-focused service with hands-on yacht operations, he plays an important role in ensuring every charter runs smoothly — from navigation and deck coordination to guest comfort and the overall onboard atmosphere.\n\nAfter beginning his career in hospitality, Sinan transitioned into the yachting industry, gaining valuable experience aboard both sailing and motor yachts, including White Wings, Sea Lion, and Free Day in Dubai. Over the years, he has developed solid seamanship, leadership, and operational expertise across both private and charter environments.\n\nHaving been onboard UKIEL for over three years, Sinan knows the yacht exceptionally well and is a key part of maintaining smooth daily operations, high safety standards, and the level of service guests can expect throughout each charter. Professional, calm, and approachable, he helps create a relaxed, welcoming, and well-organised atmosphere onboard for both guests and crew alike."
     },
     {
-      "name": "Omer Faruk Ozmen",
-      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::b6c1c4e0-318c-11f0-84ac-a19bd04c490e/{imageVariant}",
+      "name": "A. Selman ATİK",
+      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::9a24de10-594c-11f1-8447-f1bda5bf257b/{imageVariant}",
       "role": "Captain",
-      "bio": "Ömer’s passion for the sea and dedication to excellence make him a valuable asset to the UKIEL crew. With a strong maritime foundation from Piri Reis University, he has honed his skills through hands-on experience in the yachting industry, ensuring top-tier service and seamless deck operations.\n\nHis career began in ship management, where he developed a deep understanding of seamanship, vessel maintenance, and safety procedures. Transitioning into the luxury yachting sector, Ömer brings meticulous attention to detail, ensuring the highest standards of guest experience, deck upkeep, and water sports assistance.\n\nCertified in security, safety, and emergency response, Ömer is well-prepared for the dynamic demands of high-end charters. His strong work ethic, adaptability, and commitment to guest satisfaction make him an integral part of delivering exceptional experiences aboard M/Y UKIEL.\n"
+      "bio": "With over a decade of experience in the yachting industry, Selman is a highly experienced Bosun with a strong operational background and extensive knowledge of Mediterranean cruising. His career combines hands-on yacht operations with guest-focused service, giving him a well-rounded understanding of both technical deck management and the high standards expected aboard luxury charter yachts.\n\nOver the years, Selman has worked aboard both private and charter yachts in a variety of roles, including deckhand, skipper, and captain, developing solid expertise in navigation, safety management, deck operations, crew coordination, and guest interaction.\n\nHaving accumulated extensive sea mileage and many years of hands-on experience at sea, Selman combines strong seamanship with a calm, disciplined, and solution-oriented approach onboard. His background across charter, private, and training yachts allows him to confidently support all aspects of deck operations while helping maintain a relaxed and professional atmosphere for guests throughout the charter.\n\nProfessional, reliable, and highly adaptable, Selman plays an important role in maintaining the high presentation, safety, and service standards aboard UKIEL, contributing to smooth and enjoyable charter experiences throughout the season."
     },
     {
-      "name": "Hilal Ozlem Ergu",
-      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::c14e4500-318c-11f0-84ac-a19bd04c490e/{imageVariant}",
+      "name": "Kuba Kowalczyk",
+      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::c1ccb140-594c-11f1-8447-f1bda5bf257b/{imageVariant}",
       "role": "Captain",
       "bio": "Hilal’s culinary journey is marked by excellence. Graduating as valedictorian, she honed her craft by studying ship cooking at university and delving into maritime tourism and cookery.\n\nHer career set sail during a university internship on the private commercial motor yacht M/Y BRONKO 1 (35 meters). Quickly gaining recognition for her talents, she continued to impress on the same vessel and the M/Y BRONKO (24 meters) within the same company.\n\nDiversifying her experience, she spent seasons on the magnificent schooner S/Y Germania Nova (60 meters). Today, she delights palates as the chef on the M/Y UKIEL (26 meters). Committed to constant improvement, she participates in industry seminars, interviews, and competitions.\n"
+    },
+    {
+      "name": "Emre Güler",
+      "avatar": "/media/media::image::c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::b4b8a670-594d-11f1-8447-f1bda5bf257b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Emre is a talented and guest-focused yacht chef with experience across luxury resorts, fine dining restaurants, and charter yachts. Specialising in Mediterranean cuisine, seafood, and modern fine dining, he creates fresh and tailored menus designed around guest preferences and the relaxed luxury of life onboard.\n\nHaving worked in high-end hospitality environments including Maxx Royal Bodrum, Hilton, and Six Senses, Emre brings strong culinary discipline, creativity, and attention to presentation to every charter. His experience aboard charter yachts has further refined his ability to deliver elevated dining experiences within the dynamic rhythm of life at sea.\n\nEmre has also worked alongside Michelin-starred chefs Alfredo Russo and Cristina Bowerman, experiences that helped shape his refined approach to flavour, plating, and service standards. Calm, organised, and highly adaptable under pressure, he is passionate about creating memorable dining moments — from relaxed Mediterranean lunches to elegant dinners enjoyed at anchor.\n\nProfessional, approachable, and dedicated to guest satisfaction, Emre plays an important role in delivering the warm, welcoming, and high-quality onboard experience aboard UKIEL.\n"
     }
   ],
   "pricing": {

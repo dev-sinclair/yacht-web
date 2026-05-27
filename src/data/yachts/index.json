@@ -6696,23 +6696,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1",
-    "slug": "lycian-dream",
-    "name": "LYCIAN DREAM",
-    "hero": "/media/media::image::c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1::assets::fff06510-3474-11ef-8780-03bdb0021fb5.jpeg/{imageVariant}",
-    "length": 26,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Kurt Kardeşler Fethiye",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1400000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
     "slug": "ukiel",
     "name": "UKIEL",
@@ -6727,6 +6710,23 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4495000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1",
+    "slug": "lycian-dream",
+    "name": "LYCIAN DREAM",
+    "hero": "/media/media::image::c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1::assets::fff06510-3474-11ef-8780-03bdb0021fb5.jpeg/{imageVariant}",
+    "length": 26,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Kurt Kardeşler Fethiye",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1400000,
     "currency": "EUR"
   },
   {
