@@ -520,6 +520,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::8164602117::vessel::d5cc4f63-fe8c-11ed-889f-43d4bb723744",
+    "slug": "alfa-mario",
+    "name": "ALFA MARIO",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc4f63-fe8c-11ed-889f-43d4bb723744::assets::85b39b90-7768-11f0-9c89-fd1f707ba2e8/{imageVariant}",
+    "length": 52,
+    "sleeps": 32,
+    "cabins": 16,
+    "builtYear": 2021,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 11000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::25879711825::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe",
     "slug": "adriatic-king",
     "name": "ADRIATIC KING",
@@ -552,23 +569,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 5500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc4f63-fe8c-11ed-889f-43d4bb723744",
-    "slug": "alfa-mario",
-    "name": "ALFA MARIO",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc4f63-fe8c-11ed-889f-43d4bb723744::assets::85b39b90-7768-11f0-9c89-fd1f707ba2e8/{imageVariant}",
-    "length": 52,
-    "sleeps": 32,
-    "cabins": 16,
-    "builtYear": 2021,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11000000,
     "currency": "EUR"
   },
   {
