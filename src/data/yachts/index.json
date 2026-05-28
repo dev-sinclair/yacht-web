@@ -2796,23 +2796,6 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::7580644256::vessel::d5cca322-fe8c-11ed-889f-43d4bb723744",
-    "slug": "risk-reward",
-    "name": "RISK & REWARD",
-    "hero": "/media/media::image::a::vessel::d5cca322-fe8c-11ed-889f-43d4bb723744::assets::dff7eae0-edcd-11ef-affb-3db9728da06b/{imageVariant}",
-    "length": 36.6,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2004,
-    "builder": "Crescent Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8000000,
-    "currency": "USD"
-  },
-  {
     "uri": "c::7580644256::vessel::d5cb8422-fe8c-11ed-889f-43d4bb723744",
     "slug": "chanson",
     "name": "CHANSON",
@@ -2827,6 +2810,23 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 7500000,
+    "currency": "USD"
+  },
+  {
+    "uri": "c::7580644256::vessel::d5cca322-fe8c-11ed-889f-43d4bb723744",
+    "slug": "risk-reward",
+    "name": "RISK & REWARD",
+    "hero": "/media/media::image::a::vessel::d5cca322-fe8c-11ed-889f-43d4bb723744::assets::dff7eae0-edcd-11ef-affb-3db9728da06b/{imageVariant}",
+    "length": 36.6,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2004,
+    "builder": "Crescent Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8000000,
     "currency": "USD"
   },
   {
@@ -4374,6 +4374,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7580644256::vessel::d5cbd366-fe8c-11ed-889f-43d4bb723744",
+    "slug": "sovereign",
+    "name": "SOVEREIGN",
+    "hero": "/media/media::image::a::vessel::d5cbd366-fe8c-11ed-889f-43d4bb723744::assets::xHsvWE2Sn.jpeg/{imageVariant}",
+    "length": 30.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1966,
+    "builder": "Burger Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4800000,
+    "currency": "USD"
+  },
+  {
     "uri": "c::7819298091::vessel::c0ae64f0-2421-11ef-bd53-e5122ece92e9",
     "slug": "blues",
     "name": "BLUES",
@@ -4423,23 +4440,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4000000,
-    "currency": "USD"
-  },
-  {
-    "uri": "c::7580644256::vessel::d5cbd366-fe8c-11ed-889f-43d4bb723744",
-    "slug": "sovereign",
-    "name": "SOVEREIGN",
-    "hero": "/media/media::image::a::vessel::d5cbd366-fe8c-11ed-889f-43d4bb723744::assets::xHsvWE2Sn.jpeg/{imageVariant}",
-    "length": 30.5,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1966,
-    "builder": "Burger Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4800000,
     "currency": "USD"
   },
   {
@@ -15576,6 +15576,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",
+    "slug": "menorquin-yacht-160",
+    "name": "MENORQUIN YACHT 160",
+    "hero": "/media/media::image::a::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce::assets::89823c30-c48a-11f0-9345-2b07eb4d16a9/{imageVariant}",
+    "length": 16,
+    "sleeps": 4,
+    "cabins": 3,
+    "builtYear": 2005,
+    "builder": "Menorquin Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 165000,
+    "weekPricingFrom": null,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::33048560166::vessel::0c21b1a0-36e9-11f0-b03d-97a951c1e5f9",
     "slug": "phoenix",
     "name": "PHOENIX",
@@ -15625,23 +15642,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2200000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",
-    "slug": "menorquin-yacht-160",
-    "name": "MENORQUIN YACHT 160",
-    "hero": "/media/media::image::a::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce::assets::89823c30-c48a-11f0-9345-2b07eb4d16a9/{imageVariant}",
-    "length": 16,
-    "sleeps": 4,
-    "cabins": 3,
-    "builtYear": 2005,
-    "builder": "Menorquin Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 165000,
-    "weekPricingFrom": null,
     "currency": "EUR"
   },
   {
