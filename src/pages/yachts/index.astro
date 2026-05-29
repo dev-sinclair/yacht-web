@@ -50,7 +50,7 @@ const stubFacets: YachtFacets = {
           <button
             id="filters-toggle"
             type="button"
-            class="lg:hidden mb-4 flex w-full items-center justify-between border border-charcoal/15 bg-white px-4 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:bg-charcoal hover:text-white"
+            class="lg:hidden mb-4 flex w-full items-center justify-between border border-deep/15 bg-white px-4 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
             aria-expanded="false"
             aria-controls="filters-panel"
           >
@@ -98,11 +98,11 @@ const stubFacets: YachtFacets = {
 
           <!-- Sort bar: separate from filter sidebar. Sort is page-level state
                that composes with filters and pagination. -->
-          <div class="mb-6 flex flex-wrap items-center justify-end gap-3 border-b border-charcoal/10 pb-4 text-[11px] font-medium tracking-[0.2em] uppercase">
+          <div class="mb-6 flex flex-wrap items-center justify-end gap-3 border-b border-deep/10 pb-4 text-[11px] font-medium tracking-[0.2em] uppercase">
             <label for="yacht-sort" class="text-taupe">Sort</label>
             <select
               id="yacht-sort"
-              class="num border border-charcoal/20 bg-transparent px-3 py-1.5 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-charcoal cursor-pointer"
+              class="num border border-deep/20 bg-transparent px-3 py-1.5 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-deep cursor-pointer"
             >
               <option value="default">Default</option>
               <option value="name-asc">Name A–Z</option>
@@ -131,7 +131,7 @@ const stubFacets: YachtFacets = {
             <button
               id="page-prev"
               type="button"
-              class="inline-flex items-center gap-2 border border-charcoal/20 px-5 py-2.5 transition-colors duration-300 hover:bg-charcoal hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
+              class="inline-flex items-center gap-2 border border-deep/20 px-5 py-2.5 transition-colors duration-300 hover:bg-deep hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
             >
               <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path d="M15 18l-6-6 6-6" />
@@ -142,7 +142,7 @@ const stubFacets: YachtFacets = {
               <span>Page</span>
               <select
                 id="page-select"
-                class="num border border-charcoal/20 bg-transparent px-2 py-1 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-charcoal cursor-pointer"
+                class="num border border-deep/20 bg-transparent px-2 py-1 text-[11px] tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-deep cursor-pointer"
                 aria-label="Jump to page"
               >
                 <option value="1">1</option>
@@ -152,7 +152,7 @@ const stubFacets: YachtFacets = {
             <button
               id="page-next"
               type="button"
-              class="inline-flex items-center gap-2 border border-charcoal/20 px-5 py-2.5 transition-colors duration-300 hover:bg-charcoal hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
+              class="inline-flex items-center gap-2 border border-deep/20 px-5 py-2.5 transition-colors duration-300 hover:bg-deep hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-charcoal disabled:cursor-not-allowed"
             >
               Next
               <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -186,7 +186,7 @@ const stubFacets: YachtFacets = {
           href="https://wa.me/34971000000?text=Hi%2C%20I%27m%20looking%20for%20a%20specific%20yacht.%20Can%20you%20help%3F"
           target="_blank"
           rel="noopener noreferrer"
-          class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+          class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
           Chat on WhatsApp
           <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -205,7 +205,7 @@ const stubFacets: YachtFacets = {
     type="button"
     aria-label="Show filters and sort"
     aria-controls="filters-panel"
-    class="lg:hidden fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 border border-white/10 bg-charcoal px-4 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white shadow-lg opacity-0 translate-y-2 pointer-events-none transition-all duration-300"
+    class="lg:hidden fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 border border-white/10 bg-deep px-4 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white shadow-lg opacity-0 translate-y-2 pointer-events-none transition-all duration-300"
   >
     <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M6 12h12M10 18h4" />
@@ -219,7 +219,7 @@ const stubFacets: YachtFacets = {
 <style>
   .yacht-card {
     content-visibility: auto;
-    contain-intrinsic-size: 0 360px;
+    contain-intrinsic-size: 0 440px;
   }
 </style>
 
@@ -292,6 +292,7 @@ const stubFacets: YachtFacets = {
 
   function renderCard(yacht: YachtCard): string {
     const heroUrl = resolveImage(yacht.hero, "640x");
+    const heroUrlHi = resolveImage(yacht.hero, "1280x");
     const hasWeek = yacht.weekPricingFrom != null;
     const hasDay = yacht.dayPricingFrom != null;
     const priceMain = hasWeek
@@ -305,7 +306,7 @@ const stubFacets: YachtFacets = {
     return `
 <a
   href="/yachts/${escapeHtml(yacht.slug)}"
-  class="yacht-card group flex flex-col border border-beige/60 bg-white transition-all duration-500 hover:bg-charcoal hover:border-charcoal hover:shadow-lg"
+  class="yacht-card group flex flex-col border border-beige/60 bg-white transition-all duration-500 hover:bg-deep hover:border-deep hover:shadow-lg"
   data-yacht-type="${escapeHtml(yacht.yachtType[0] ?? "")}"
   data-yacht-name="${escapeHtml(yacht.name.toLowerCase())}"
   data-yacht-builder="${escapeHtml(builder.toLowerCase())}"
@@ -313,53 +314,55 @@ const stubFacets: YachtFacets = {
   data-yacht-guests="${yacht.sleeps}"
   data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
 >
-  <div class="px-5 pt-5">
-    <h3 class="marquee-on-overflow text-xl tracking-[0.1em] uppercase text-charcoal transition-colors duration-500 group-hover:text-white" style="font-family: 'Raleway', sans-serif; font-weight: 500;">
-      <span class="marquee-track">
-        <span class="marquee-text">${name}</span>
-        <span class="marquee-text marquee-clone" aria-hidden="true">${name}</span>
-      </span>
-    </h3>
-  </div>
-  <div class="flex items-baseline justify-between gap-3 px-5 pt-1.5 pb-3">
-    <span class="marquee-on-overflow min-w-0 flex-1 text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/50">
-      <span class="marquee-track">
-        <span class="marquee-text">${builderEsc}</span>
-        <span class="marquee-text marquee-clone" aria-hidden="true">${builderEsc}</span>
-      </span>
-    </span>
-    <p class="num text-sm tracking-[0.05em] text-charcoal transition-colors duration-500 group-hover:text-white whitespace-nowrap shrink-0">
-      <span
-        class="cur-price"
-        data-week-cents="${yacht.weekPricingFrom ?? ""}"
-        data-day-cents="${yacht.dayPricingFrom ?? ""}"
-        data-native="${escapeHtml(yacht.currency || "EUR")}"
-        data-unit-class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"
-      >${priceMain}${priceUnit ? `<span class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"> ${priceUnit}</span>` : ""}</span>
-    </p>
-  </div>
-  <div class="grid grid-cols-4 gap-x-4 border-t border-beige/60 px-5 py-2.5 transition-colors duration-500 group-hover:border-white/10">
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Length</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${formatLength(yacht.length)}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Guests</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.sleeps || "—"}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Year</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.builtYear ?? "—"}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Cabins</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.cabins || "—"}</p>
-    </div>
-  </div>
-  <div class="yacht-card-image flex-1 min-h-[220px] overflow-hidden bg-cream">
+  <div class="yacht-card-image aspect-[4/3] overflow-hidden bg-cream">
     ${heroUrl
-      ? `<img src="${escapeHtml(heroUrl)}" alt="${name}" class="h-full w-full object-cover" loading="lazy" />`
+      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="h-full w-full object-cover" loading="lazy" />`
       : `<div class="h-full w-full bg-cream"></div>`}
+  </div>
+  <div class="flex flex-1 flex-col">
+    <div class="px-5 pt-5">
+      <h3 class="marquee-on-overflow text-xl tracking-[0.1em] uppercase text-charcoal transition-colors duration-500 group-hover:text-white" style="font-family: 'Raleway', sans-serif; font-weight: 500;">
+        <span class="marquee-track">
+          <span class="marquee-text">${name}</span>
+          <span class="marquee-text marquee-clone" aria-hidden="true">${name}</span>
+        </span>
+      </h3>
+    </div>
+    <div class="flex items-baseline justify-between gap-3 px-5 pt-1.5 pb-3">
+      <span class="marquee-on-overflow min-w-0 flex-1 text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/50">
+        <span class="marquee-track">
+          <span class="marquee-text">${builderEsc}</span>
+          <span class="marquee-text marquee-clone" aria-hidden="true">${builderEsc}</span>
+        </span>
+      </span>
+      <p class="num text-sm tracking-[0.05em] text-charcoal transition-colors duration-500 group-hover:text-white whitespace-nowrap shrink-0">
+        <span
+          class="cur-price"
+          data-week-cents="${yacht.weekPricingFrom ?? ""}"
+          data-day-cents="${yacht.dayPricingFrom ?? ""}"
+          data-native="${escapeHtml(yacht.currency || "EUR")}"
+          data-unit-class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"
+        >${priceMain}${priceUnit ? `<span class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"> ${priceUnit}</span>` : ""}</span>
+      </p>
+    </div>
+    <div class="mt-auto grid grid-cols-4 gap-x-4 border-t border-beige/60 px-5 py-2.5 transition-colors duration-500 group-hover:border-white/10">
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Length</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${formatLength(yacht.length)}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Guests</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.sleeps || "—"}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Year</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.builtYear ?? "—"}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Cabins</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">${yacht.cabins || "—"}</p>
+      </div>
+    </div>
   </div>
 </a>`.trim();
   }

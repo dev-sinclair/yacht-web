@@ -1,5 +1,14 @@
 [
   {
+    "slug": "northern-europe-and-arctic",
+    "name": "Northern Europe & Arctic",
+    "ankorRegion": "Northern Europe & Arctic",
+    "tagline": "Fjords, midnight sun, and the high north under sail",
+    "heroImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": []
+  },
+  {
     "slug": "west-mediterranean",
     "name": "West Mediterranean",
     "ankorRegion": "West Mediterranean",
@@ -80,9 +89,9 @@
     ]
   },
   {
-    "slug": "caribbean",
-    "name": "Caribbean",
-    "ankorRegion": "Caribbean",
+    "slug": "caribbean-and-bahamas",
+    "name": "Caribbean & Bahamas",
+    "ankorRegion": "Caribbean & Bahamas",
     "tagline": "Trade-wind sailing across legendary island chains",
     "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
@@ -111,17 +120,7 @@
         "slug": "grenadines",
         "name": "Grenadines",
         "cruisingSpots": ["Bequia", "Mustique", "Tobago Cays", "Mayreau", "Union Island"]
-      }
-    ]
-  },
-  {
-    "slug": "bahamas",
-    "name": "Bahamas",
-    "ankorRegion": "Bahamas",
-    "tagline": "Translucent flats, swimming pigs, private cays",
-    "heroImage": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=1600&q=80&auto=format&fit=crop",
-    "heroCredit": "Unsplash",
-    "locations": [
+      },
       {
         "slug": "exumas",
         "name": "Exumas",
@@ -145,40 +144,19 @@
     ]
   },
   {
-    "slug": "indian-ocean-and-south-east-asia",
-    "name": "Indian Ocean & South East Asia",
-    "ankorRegion": "Indian Ocean & South East Asia",
-    "tagline": "Atolls, limestone karsts, and tropical seclusion",
-    "heroImage": "https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=1600&q=80&auto=format&fit=crop",
+    "slug": "central-and-south-america",
+    "name": "Central & South America",
+    "ankorRegion": "Central & South America",
+    "tagline": "From the Galápagos to Patagonia — the wild Americas under sail",
+    "heroImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
-    "locations": [
-      {
-        "slug": "maldives",
-        "name": "Maldives",
-        "cruisingSpots": ["North Malé Atoll", "Ari Atoll", "Baa Atoll", "Vaavu Atoll"]
-      },
-      {
-        "slug": "thailand",
-        "name": "Thailand",
-        "cruisingSpots": ["Phuket", "Phang Nga Bay", "Phi Phi Islands", "Krabi", "Similan Islands"]
-      },
-      {
-        "slug": "indonesia",
-        "name": "Indonesia",
-        "cruisingSpots": ["Bali", "Komodo", "Raja Ampat", "Lombok", "Flores"]
-      },
-      {
-        "slug": "seychelles",
-        "name": "Seychelles",
-        "cruisingSpots": ["Mahé", "Praslin", "La Digue", "Aldabra", "Inner Islands"]
-      }
-    ]
+    "locations": []
   },
   {
-    "slug": "australasia-and-south-pacific",
-    "name": "Australasia & South Pacific",
-    "ankorRegion": "Australasia & South Pacific",
-    "tagline": "Coral reefs, volcanic anchorages, untouched horizons",
+    "slug": "australia-and-new-zealand",
+    "name": "Australia & New Zealand",
+    "ankorRegion": "Australia & New Zealand",
+    "tagline": "Coral reefs, untouched coastlines, southern horizons",
     "heroImage": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
@@ -188,19 +166,29 @@
         "cruisingSpots": ["Great Barrier Reef", "Whitsundays", "Sydney Harbour", "Kimberley", "Tasmania"]
       },
       {
-        "slug": "fiji",
-        "name": "Fiji",
-        "cruisingSpots": ["Mamanuca Islands", "Yasawa Islands", "Lau Group", "Savusavu"]
-      },
-      {
-        "slug": "french-polynesia",
-        "name": "French Polynesia",
-        "cruisingSpots": ["Tahiti", "Bora Bora", "Moorea", "Marquesas", "Tuamotus"]
-      },
-      {
         "slug": "new-zealand",
         "name": "New Zealand",
         "cruisingSpots": ["Bay of Islands", "Auckland", "Marlborough Sounds", "Fiordland"]
+      }
+    ]
+  },
+  {
+    "slug": "indian-ocean",
+    "name": "Indian Ocean",
+    "ankorRegion": "Indian Ocean",
+    "tagline": "Atolls, reef passes, and quiet equatorial blues",
+    "heroImage": "https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": [
+      {
+        "slug": "maldives",
+        "name": "Maldives",
+        "cruisingSpots": ["North Malé Atoll", "Ari Atoll", "Baa Atoll", "Vaavu Atoll"]
+      },
+      {
+        "slug": "seychelles",
+        "name": "Seychelles",
+        "cruisingSpots": ["Mahé", "Praslin", "La Digue", "Aldabra", "Inner Islands"]
       }
     ]
   },
@@ -221,6 +209,46 @@
         "slug": "oman",
         "name": "Oman",
         "cruisingSpots": ["Muscat", "Musandam Peninsula", "Daymaniyat Islands", "Salalah"]
+      }
+    ]
+  },
+  {
+    "slug": "south-pacific",
+    "name": "South Pacific",
+    "ankorRegion": "South Pacific",
+    "tagline": "Volcanic anchorages and lagoons beyond the horizon",
+    "heroImage": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": [
+      {
+        "slug": "fiji",
+        "name": "Fiji",
+        "cruisingSpots": ["Mamanuca Islands", "Yasawa Islands", "Lau Group", "Savusavu"]
+      },
+      {
+        "slug": "french-polynesia",
+        "name": "French Polynesia",
+        "cruisingSpots": ["Tahiti", "Bora Bora", "Moorea", "Marquesas", "Tuamotus"]
+      }
+    ]
+  },
+  {
+    "slug": "south-east-asia",
+    "name": "South East Asia",
+    "ankorRegion": "South East Asia",
+    "tagline": "Limestone karsts, tropical archipelagos, hidden bays",
+    "heroImage": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": [
+      {
+        "slug": "thailand",
+        "name": "Thailand",
+        "cruisingSpots": ["Phuket", "Phang Nga Bay", "Phi Phi Islands", "Krabi", "Similan Islands"]
+      },
+      {
+        "slug": "indonesia",
+        "name": "Indonesia",
+        "cruisingSpots": ["Bali", "Komodo", "Raja Ampat", "Lombok", "Flores"]
       }
     ]
   },
@@ -255,10 +283,10 @@
     ]
   },
   {
-    "slug": "antarctica",
-    "name": "Antarctica",
-    "ankorRegion": "Antarctica",
-    "tagline": "The last frontier. Ice shelves, leopard seals, silence",
+    "slug": "antarctic",
+    "name": "Antarctic",
+    "ankorRegion": "Antarctic",
+    "tagline": "The last frontier — ice shelves, leopard seals, silence",
     "heroImage": "https://images.unsplash.com/photo-1551582045-6ec9c11d8697?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [

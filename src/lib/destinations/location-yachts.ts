@@ -88,6 +88,27 @@ function tokenize(s: string): string[] {
   return normalizeTerm(s).split(" ").filter(Boolean);
 }
 
+// Generic geographic modifier tokens. These appear in many place names (e.g.
+// "Papua **New** Guinea" and "**New** England") and create false positives
+// when used as standalone match keys. Phrase-level matching still uses them —
+// "new england" as a whole phrase will still match curated cruising spots —
+// only the *single-token* fallback excludes them. Without this stop-list a
+// yacht cruising Papua New Guinea would match the North America region via
+// the "new" token shared with "New England".
+const STOP_TOKENS = new Set([
+  "new", "old",
+  "north", "south", "east", "west", "central", "far",
+  "northern", "southern", "eastern", "western",
+  "great", "greater", "lesser", "upper", "lower",
+  "coast", "coastal", "bay", "gulf", "sea", "ocean", "lake", "river",
+  "island", "islands", "isles", "isle",
+  "cape", "point",
+]);
+
+function isMeaningfulToken(t: string): boolean {
+  return t.length >= 3 && !STOP_TOKENS.has(t);
+}
+
 export interface LocationMatch {
   yachts: YachtCard[];
   totalMatches: number;
@@ -111,7 +132,7 @@ export async function getYachtsForLocation(
   const tokenTerms = new Set(phraseTerms.flatMap((t) => tokenize(t)));
   // Filter out tokens that are too generic to be useful as standalone hits
   // (e.g. "of", "the"). Anything 3+ chars is kept.
-  const meaningfulTokens = [...tokenTerms].filter((t) => t.length >= 3);
+  const meaningfulTokens = [...tokenTerms].filter(isMeaningfulToken);
 
   const matches = all.filter((y) => {
     const zonesNorm = y.zones.map(normalizeTerm);
@@ -172,7 +193,7 @@ export async function getYachtSlugsForRegion(region: Region): Promise<Set<string
   }
   const cleanedPhrases = phraseTerms.filter(Boolean);
   const tokenTerms = new Set(cleanedPhrases.flatMap((t) => tokenize(t)));
-  const meaningfulTokens = [...tokenTerms].filter((t) => t.length >= 3);
+  const meaningfulTokens = [...tokenTerms].filter(isMeaningfulToken);
 
   const slugs = new Set<string>();
   for (const y of all) {

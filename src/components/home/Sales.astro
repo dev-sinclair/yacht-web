@@ -1,8 +1,27 @@
 ---
 import { Image } from "astro:assets";
+import Container from "../ui/Container.astro";
 import salesImg from "../../assets/sales-main.jpeg";
 import salesImgMobile from "../../assets/sales-yacht.jpg";
 ---
+
+<!-- Bridge band: light-bg intro into the dark Sales hero. Kept on solid
+     warm-white so the section ends at a clean edge — no visible gradient
+     strip on mobile. The transition between this section and the dark
+     Sales hero is a deliberate hard cut, framed by the bridge copy. -->
+<section class="relative bg-warm-white pt-10 pb-14 lg:pt-16 lg:pb-20">
+  <Container>
+    <div class="mx-auto max-w-2xl text-center" data-reveal>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+        Beyond Charter
+      </p>
+      <div class="mx-auto mt-6 h-px w-10 bg-gold/40"></div>
+      <p class="mt-8 text-base leading-[1.85] text-taupe sm:text-lg">
+        Charter is only one chapter. From sourcing the right yacht to commissioning a new build, our brokerage supports every stage of ownership. Privately, and on your terms.
+      </p>
+    </div>
+  </Container>
+</section>
 
 <section id="sales-section" class="relative w-full" style="height: 200vh;">
   <div class="sticky top-0 h-screen w-full overflow-hidden bg-black">

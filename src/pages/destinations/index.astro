@@ -19,7 +19,7 @@ Astro.response.headers.set(
 
 <BaseLayout
   title="Destinations — Sinclair Yachting"
-  description="Explore our curated cruising regions, from the West Mediterranean to Antarctica. Choose where in the world you want to wake up tomorrow."
+  description="Explore our curated cruising regions, from Northern Europe to Antarctica. Choose where in the world you want to wake up tomorrow."
 >
   <Navbar />
   <main>
@@ -50,51 +50,10 @@ Astro.response.headers.set(
     const totalLocations = Number(searchWrapper.dataset.locationCount ?? 0);
     const baseCountText = `${totalRegions} Regions · ${totalLocations} Destinations`;
 
-    let currentOpen: RegionCard | null = null;
-    let currentQuery = "";
     let debounceId: number | null = null;
-
-    function setOpen(card: RegionCard, open: boolean) {
-      const toggle = card.querySelector<HTMLButtonElement>("[data-region-toggle]");
-      const panel = card.querySelector<HTMLElement>("[data-region-panel]");
-      const ctaText = card.querySelector<HTMLElement>("[data-region-cta-text]");
-      if (!toggle || !panel) return;
-
-      card.dataset.open = open ? "true" : "false";
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
-      panel.setAttribute("aria-hidden", open ? "false" : "true");
-      if (ctaText) ctaText.textContent = open ? "Collapse" : "Explore";
-    }
-
-    function closeAll() {
-      if (currentOpen) {
-        setOpen(currentOpen, false);
-        currentOpen = null;
-      }
-    }
-
-    function openCard(card: RegionCard) {
-      if (currentOpen && currentOpen !== card) setOpen(currentOpen, false);
-      setOpen(card, true);
-      currentOpen = card;
-    }
-
-    cards.forEach((card) => {
-      const toggle = card.querySelector<HTMLButtonElement>("[data-region-toggle]");
-      if (!toggle) return;
-      toggle.addEventListener("click", () => {
-        if (card.dataset.open === "true") {
-          setOpen(card, false);
-          currentOpen = null;
-        } else {
-          openCard(card);
-        }
-      });
-    });
 
     function applyFilter(query: string) {
       const q = query.trim().toLowerCase();
-      currentQuery = q;
       let visibleRegions = 0;
       let visibleLocations = 0;
 
@@ -115,28 +74,6 @@ Astro.response.headers.set(
           visibleLocations += locationMatchCount;
         } else {
           card.dataset.dimmed = "true";
-        }
-
-        // Per-link dim within open dropdowns
-        const links = card.querySelectorAll<HTMLAnchorElement>("[data-location-link]");
-        links.forEach((link) => {
-          const name = (link.dataset.locationName ?? "").toLowerCase();
-          if (q === "" || name.includes(q) || regionMatch) {
-            link.style.opacity = "";
-            if (q !== "" && !regionMatch && name.includes(q)) {
-              link.classList.add("ring-1", "ring-gold");
-            } else {
-              link.classList.remove("ring-1", "ring-gold");
-            }
-          } else {
-            link.style.opacity = "0.35";
-            link.classList.remove("ring-1", "ring-gold");
-          }
-        });
-
-        // Auto-open region if query matches a location (not the region name)
-        if (q !== "" && !regionMatch && locationMatchCount > 0) {
-          if (card.dataset.open !== "true") openCard(card);
         }
       });
 

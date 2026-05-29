@@ -3,13 +3,12 @@ import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
 
 const links = [
-  { label: "About", href: "/#about" },
   { label: "Yacht Charter", href: "/yachts" },
   { label: "Destinations", href: "/destinations" },
+  { label: "Services", href: "/#services" },
   { label: "Sales", href: "/sales" },
   { label: "Build", href: "/build" },
-  { label: "Services", href: "/#services" },
-  { label: "Contact", href: "/#contact" },
+  { label: "About", href: "/#about" },
 ];
 ---
 
@@ -38,19 +37,28 @@ const links = [
     </div>
 
     <!-- Right: inline section links -->
-    <ul class="hidden md:flex items-center gap-8 lg:gap-10">
-      {links.map((link) => (
-        <li>
-          <a
-            href={link.href}
-            class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:text-gold"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            {link.label}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <div class="hidden md:flex items-center gap-8 lg:gap-10">
+      <ul class="flex items-center gap-8 lg:gap-10">
+        {links.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:text-gold"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <a
+        href="/#contact"
+        class="inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300 hover:bg-gold-dim"
+        style="font-family: 'Raleway', sans-serif;"
+      >
+        Enquire
+      </a>
+    </div>
 
     <!-- Mobile fallback: small toggle for the inline list on narrow screens -->
     <button
@@ -60,9 +68,9 @@ const links = [
       aria-expanded="false"
     >
       <span class="block h-px w-6 transition-transform duration-300" id="bar1"
-        style="background-color: #151A24"></span>
+        style="background-color: #88A9AA"></span>
       <span class="block h-px w-6 transition-transform duration-300" id="bar2"
-        style="background-color: #151A24"></span>
+        style="background-color: #88A9AA"></span>
     </button>
   </div>
 
@@ -71,7 +79,7 @@ const links = [
     id="mobile-panel"
     class="md:hidden overflow-hidden max-h-0 mt-2 transition-[max-height] duration-500 ease-out"
   >
-    <ul class="flex flex-col gap-4 px-6 py-6 border-t border-charcoal/10">
+    <ul class="flex flex-col gap-4 px-6 py-6 border-t border-deep/10">
       {links.map((link) => (
         <li>
           <a
@@ -83,6 +91,15 @@ const links = [
           </a>
         </li>
       ))}
+      <li>
+        <a
+          href="/#contact"
+          class="inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300 hover:bg-gold-dim"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          Enquire
+        </a>
+      </li>
     </ul>
   </div>
 </nav>

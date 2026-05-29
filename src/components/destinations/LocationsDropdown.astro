@@ -16,7 +16,7 @@ const { region } = Astro.props;
   style="grid-template-rows: 0fr;"
 >
   <div class="overflow-hidden">
-    <div data-region-panel-inner class="bg-cream/50 border-x border-b border-charcoal/10 px-6 sm:px-8 py-7 sm:py-8 transition-opacity duration-300 opacity-0">
+    <div data-region-panel-inner class="bg-cream/50 border-x border-b border-deep/10 px-6 sm:px-8 py-7 sm:py-8 transition-opacity duration-300 opacity-0">
       <p
         class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold-dim mb-5"
         style="font-family: 'Raleway', sans-serif;"
@@ -31,7 +31,7 @@ const { region } = Astro.props;
               data-location-link
               data-location-name={loc.name.toLowerCase()}
               data-location-slug={loc.slug}
-              class="group/link flex items-center justify-between gap-4 border border-charcoal/15 px-4 py-3 text-charcoal transition-all duration-300 hover:border-gold hover:bg-white"
+              class="group/link flex items-center justify-between gap-4 border border-deep/15 px-4 py-3 text-charcoal transition-all duration-300 hover:border-gold hover:bg-white"
             >
               <span
                 class="text-[12px] font-medium tracking-[0.18em] uppercase"
@@ -55,10 +55,10 @@ const { region } = Astro.props;
 
       <!-- View Region CTA: take the user to the full region page after they
            browse the cruising areas inline. -->
-      <div class="mt-6 border-t border-charcoal/10 pt-6 text-center">
+      <div class="mt-6 border-t border-deep/10 pt-6 text-center">
         <a
           href={`/destinations/${region.slug}`}
-          class="group/cta inline-flex items-center gap-3 bg-charcoal px-7 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-all duration-300 hover:bg-gold"
+          class="group/cta inline-flex items-center gap-3 bg-deep px-7 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-all duration-300 hover:bg-gold"
           style="font-family: 'Raleway', sans-serif;"
         >
           View Region

@@ -64,17 +64,20 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
           {region.tagline}.
         </p>
 
-        <p
-          class="mt-10 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
-          style="font-family: 'Raleway', sans-serif;"
-        >
-          <span class="num">{region.locations.length}</span> Countries &nbsp;&middot;&nbsp;
-          <span class="num">{totalSpots}</span> Anchorages
-        </p>
+        {region.locations.length > 0 && (
+          <p
+            class="mt-10 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+            style="font-family: 'Raleway', sans-serif;"
+          >
+            <span class="num">{region.locations.length}</span> Countries &nbsp;&middot;&nbsp;
+            <span class="num">{totalSpots}</span> Anchorages
+          </p>
+        )}
       </div>
     </header>
 
     <!-- Countries / locations grid -->
+    {region.locations.length > 0 ? (
     <section class="bg-warm-white py-20 sm:py-24">
       <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
         <div class="text-center">
@@ -111,7 +114,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
             <li>
               <a
                 href={`/destinations/${region.slug}/${location.slug}`}
-                class="group flex h-full flex-col justify-between border border-charcoal/10 bg-white px-6 py-7 transition-all duration-500 hover:-translate-y-1 hover:border-gold hover:shadow-lg"
+                class="group flex h-full flex-col justify-between border border-deep/10 bg-white px-6 py-7 transition-all duration-500 hover:-translate-y-1 hover:border-gold hover:shadow-lg"
               >
                 <div>
                   <p
@@ -133,7 +136,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
                     )}
                   </p>
                 </div>
-                <div class="mt-7 flex items-center justify-between border-t border-charcoal/10 pt-5">
+                <div class="mt-7 flex items-center justify-between border-t border-deep/10 pt-5">
                   <span
                     class="text-[10px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 group-hover:text-gold"
                     style="font-family: 'Raleway', sans-serif;"
@@ -156,6 +159,53 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
         </ul>
       </div>
     </section>
+    ) : (
+    <section class="bg-warm-white py-20 sm:py-24">
+      <div class="mx-auto max-w-[720px] px-6 text-center">
+        <p
+          data-reveal="fade"
+          class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          Itineraries In Curation
+        </p>
+        <h2
+          data-reveal="up"
+          class="mt-5 text-3xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-4xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          Speak To A Broker
+        </h2>
+        <div data-reveal-line class="mx-auto mt-6 h-px bg-gold"></div>
+        <p
+          data-reveal="up"
+          class="mx-auto mt-8 text-base font-light leading-[1.85] text-taupe"
+        >
+          We&rsquo;re still curating the public country list for {region.name}.
+          In the meantime, charters here are arranged privately — share what
+          you&rsquo;re after and a broker will design the route around you.
+        </p>
+        <a
+          data-reveal="up"
+          href={waUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-10 inline-flex items-center gap-3 bg-deep px-10 py-4 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg"
+        >
+          Plan A Charter
+          <svg
+            class="h-3.5 w-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </section>
+    )}
 
     <!-- How it works -->
     <section class="bg-cream/40 py-20 sm:py-24">
@@ -290,7 +340,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
           <div class="mt-12 text-center">
             <a
               href={`/yachts?region=${region.slug}`}
-              class="group inline-flex items-center gap-3 bg-charcoal px-10 py-4 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg sm:px-12"
+              class="group inline-flex items-center gap-3 bg-deep px-10 py-4 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg sm:px-12"
               style="font-family: 'Raleway', sans-serif;"
             >
               Browse All Yachts In {region.name}
@@ -336,7 +386,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
             href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
-            class="btn-fill inline-flex items-center gap-3 border border-charcoal/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal"
+            class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal"
             style="font-family: 'Raleway', sans-serif;"
           >
             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

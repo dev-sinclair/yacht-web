@@ -15,11 +15,12 @@ const hasDay = yacht.dayPricingFrom != null;
 const priceMain = hasWeek ? weekPrice : hasDay ? dayPrice : "On Request";
 const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
 const heroUrl = resolveImage(yacht.hero, "640x");
+const heroUrlHi = resolveImage(yacht.hero, "1280x");
 ---
 
 <a
   href={`/yachts/${yacht.slug}`}
-  class="yacht-card group flex flex-col border border-beige/60 bg-white transition-all duration-500 hover:bg-charcoal hover:border-charcoal hover:shadow-lg"
+  class="yacht-card group flex flex-col border border-beige/60 bg-white transition-all duration-500 hover:bg-deep hover:border-deep hover:shadow-lg"
   data-yacht-type={yacht.yachtType[0] ?? ""}
   data-yacht-name={yacht.name.toLowerCase()}
   data-yacht-builder={yacht.builder.toLowerCase()}
@@ -27,57 +28,13 @@ const heroUrl = resolveImage(yacht.hero, "640x");
   data-yacht-guests={yacht.sleeps}
   data-yacht-price={yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}
 >
-  <!-- Name (full width, marquee on overflow) -->
-  <div class="px-5 pt-5">
-    <h3 class="marquee-on-overflow text-xl tracking-[0.1em] uppercase text-charcoal transition-colors duration-500 group-hover:text-white"
-      style="font-family: 'Raleway', sans-serif; font-weight: 500;">
-      <span class="marquee-track">
-        <span class="marquee-text">{yacht.name}</span>
-        <span class="marquee-text marquee-clone" aria-hidden="true">{yacht.name}</span>
-      </span>
-    </h3>
-  </div>
-
-  <!-- Price + builder -->
-  <div class="flex items-baseline justify-between gap-3 px-5 pt-1.5 pb-3">
-    <span class="marquee-on-overflow min-w-0 flex-1 text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/50">
-      <span class="marquee-track">
-        <span class="marquee-text">{yacht.builder || "—"}</span>
-        <span class="marquee-text marquee-clone" aria-hidden="true">{yacht.builder || "—"}</span>
-      </span>
-    </span>
-    <p class="num text-sm tracking-[0.05em] text-charcoal transition-colors duration-500 group-hover:text-white whitespace-nowrap shrink-0">
-      {priceMain}{priceUnit && (
-        <span class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"> {priceUnit}</span>
-      )}
-    </p>
-  </div>
-
-  <!-- Specs row -->
-  <div class="grid grid-cols-4 gap-x-4 border-t border-beige/60 px-5 py-2.5 transition-colors duration-500 group-hover:border-white/10">
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Length</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{formatLength(yacht.length)}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Guests</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.sleeps || "—"}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Year</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.builtYear ?? "—"}</p>
-    </div>
-    <div>
-      <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Cabins</p>
-      <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.cabins || "—"}</p>
-    </div>
-  </div>
-
-  <!-- Image: fills remaining card height -->
-  <div class="yacht-card-image flex-1 min-h-[220px] overflow-hidden bg-cream">
+  <!-- Image: top, fixed 4:3 ratio crops cleanly at any card width -->
+  <div class="yacht-card-image aspect-[4/3] overflow-hidden bg-cream">
     {heroUrl ? (
       <img
         src={heroUrl}
+        srcset={`${heroUrl} 640w, ${heroUrlHi} 1280w`}
+        sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw"
         alt={yacht.name}
         class="h-full w-full object-cover"
         loading="lazy"
@@ -86,5 +43,53 @@ const heroUrl = resolveImage(yacht.hero, "640x");
       <div class="h-full w-full bg-cream"></div>
     )}
   </div>
-</a>
 
+  <!-- Info: below the image -->
+  <div class="flex flex-1 flex-col">
+    <!-- Name (full width, marquee on overflow) -->
+    <div class="px-5 pt-5">
+      <h3 class="marquee-on-overflow text-xl tracking-[0.1em] uppercase text-charcoal transition-colors duration-500 group-hover:text-white"
+        style="font-family: 'Raleway', sans-serif; font-weight: 500;">
+        <span class="marquee-track">
+          <span class="marquee-text">{yacht.name}</span>
+          <span class="marquee-text marquee-clone" aria-hidden="true">{yacht.name}</span>
+        </span>
+      </h3>
+    </div>
+
+    <!-- Price + builder -->
+    <div class="flex items-baseline justify-between gap-3 px-5 pt-1.5 pb-3">
+      <span class="marquee-on-overflow min-w-0 flex-1 text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/50">
+        <span class="marquee-track">
+          <span class="marquee-text">{yacht.builder || "—"}</span>
+          <span class="marquee-text marquee-clone" aria-hidden="true">{yacht.builder || "—"}</span>
+        </span>
+      </span>
+      <p class="num text-sm tracking-[0.05em] text-charcoal transition-colors duration-500 group-hover:text-white whitespace-nowrap shrink-0">
+        {priceMain}{priceUnit && (
+          <span class="text-[10px] font-light text-taupe-light transition-colors duration-500 group-hover:text-white/60"> {priceUnit}</span>
+        )}
+      </p>
+    </div>
+
+    <!-- Specs row -->
+    <div class="mt-auto grid grid-cols-4 gap-x-4 border-t border-beige/60 px-5 py-2.5 transition-colors duration-500 group-hover:border-white/10">
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Length</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{formatLength(yacht.length)}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Guests</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.sleeps || "—"}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Year</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.builtYear ?? "—"}</p>
+      </div>
+      <div>
+        <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light transition-colors duration-500 group-hover:text-white/40">Cabins</p>
+        <p class="num mt-0.5 text-[11px] text-charcoal transition-colors duration-500 group-hover:text-white/80">{yacht.cabins || "—"}</p>
+      </div>
+    </div>
+  </div>
+</a>

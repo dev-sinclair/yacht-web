@@ -13,6 +13,8 @@
   --color-warm-white: #FAF8F4;
   --color-charcoal: #151A24;
   --color-slate-800: #1D2330;
+  --color-deep: #88A9AA;
+  --color-deep-dim: #7A9B9C;
   --color-taupe: #6A6560;
   --color-taupe-light: #9A9590;
 }
@@ -125,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Dark fill for buttons on light backgrounds */
 .btn-fill::before {
-  background: var(--color-charcoal);
+  background: var(--color-deep);
 }
 .btn-fill:hover {
   color: #ffffff;

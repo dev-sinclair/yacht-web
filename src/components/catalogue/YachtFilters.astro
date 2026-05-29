@@ -36,11 +36,11 @@ const PRICE_STEP = 5_000;
 
 const pillClass = (selected: boolean) =>
   selected
-    ? "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-charcoal bg-charcoal text-white transition-all duration-300"
-    : "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-charcoal/20 text-charcoal transition-all duration-300 hover:bg-charcoal hover:text-white";
+    ? "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-deep bg-deep text-white transition-all duration-300"
+    : "filter-pill flex min-h-8 w-full items-center justify-center px-1.5 py-1 text-center text-[8px] font-medium tracking-[0.08em] uppercase leading-tight border border-deep/20 text-charcoal transition-all duration-300 hover:bg-deep hover:text-white";
 
 const sectionLabelClass = "text-[10px] font-medium tracking-[0.2em] uppercase text-taupe-light";
-const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-charcoal/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-charcoal";
+const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-deep/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-deep";
 ---
 
 <aside id="yacht-filters" class="space-y-5">
@@ -52,7 +52,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
         id="filter-search"
         type="search"
         placeholder="Name or builder…"
-        class="w-full px-3 py-2.5 pr-9 text-xs tracking-[0.05em] border border-charcoal/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-charcoal placeholder:text-taupe-light/70"
+        class="w-full px-3 py-2.5 pr-9 text-xs tracking-[0.05em] border border-deep/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-deep placeholder:text-taupe-light/70"
         autocomplete="off"
       />
       <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-taupe-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -79,7 +79,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     <div class="relative mt-2">
       <select
         id="filter-region"
-        class="num w-full appearance-none border border-charcoal/20 bg-transparent px-3 py-2.5 pr-9 text-xs tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-charcoal cursor-pointer"
+        class="num w-full appearance-none border border-deep/20 bg-transparent px-3 py-2.5 pr-9 text-xs tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-deep cursor-pointer"
       >
         <option value="">All regions</option>
         {regions.map((region) => (
@@ -112,8 +112,8 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-length-max-num" type="number" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class={numInputClass} aria-label="Maximum length" />
     </div>
     <div class="range-slider mt-3 relative h-5">
-      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
-      <div id="filter-length-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-deep/20"></div>
+      <div id="filter-length-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-deep"></div>
       <input id="filter-length-min" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum length" />
       <input id="filter-length-max" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum length" />
     </div>
@@ -129,8 +129,8 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-guests-max-num" type="number" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class={numInputClass} aria-label="Maximum guests" />
     </div>
     <div class="range-slider mt-3 relative h-5">
-      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
-      <div id="filter-guests-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-deep/20"></div>
+      <div id="filter-guests-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-deep"></div>
       <input id="filter-guests-min" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum guests" />
       <input id="filter-guests-max" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum guests" />
     </div>
@@ -146,8 +146,8 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-price-max-num" type="number" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class={numInputClass} aria-label="Maximum price" />
     </div>
     <div class="range-slider mt-3 relative h-5">
-      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-charcoal/20"></div>
-      <div id="filter-price-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-charcoal"></div>
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-deep/20"></div>
+      <div id="filter-price-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-deep"></div>
       <input id="filter-price-min" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum price" />
       <input id="filter-price-max" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum price" />
     </div>

@@ -13,7 +13,7 @@ const { regions } = Astro.props;
   <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
     <ul
       data-dest-grid
-      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
     >
       {regions.map((region, index) => (
         <RegionTile region={region} index={index} />
