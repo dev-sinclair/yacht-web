@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761140180057,
+  "lastModified": 1779873259253,
   "uri": "c::33048560166::vessel::ec94e630-36e4-11f0-a2ee-4da53da634f9",
   "yachtType": [
     "Motor"
@@ -209,12 +209,23 @@
               "quantity": 1,
               "unitPrice": 950000,
               "amount": 950000,
-              "conditions": "VAT & APA Excluded"
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 950000,
+              "amount": 332500
             }
           ],
-          "total": 950000,
-          "subTotal": 950000,
-          "totalTax": 0
+          "total": 1396500,
+          "subTotal": 1282500,
+          "totalTax": 114000
         },
         "inclusionZones": [
           {

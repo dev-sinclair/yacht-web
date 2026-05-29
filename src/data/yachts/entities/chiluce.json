@@ -1,5 +1,5 @@
 {
-  "lastModified": 1772726436558,
+  "lastModified": 1779989677182,
   "uri": "c::10819594065::vessel::d5cc4e1e-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -202,9 +202,9 @@
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 750000,
+      "price": 800000,
       "displayCurrency": "EUR",
-      "displayPrice": 750000,
+      "displayPrice": 800000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
@@ -216,9 +216,9 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 4500000,
+      "price": 5000000,
       "displayCurrency": "EUR",
-      "displayPrice": 4500000,
+      "displayPrice": 5000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -341,7 +341,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 750000,
+          "charterFee": 800000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -349,8 +349,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 750000,
-              "amount": 750000,
+              "unitPrice": 800000,
+              "amount": 800000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "VAT",
@@ -365,8 +365,8 @@
               "amount": 120000
             }
           ],
-          "total": 870000,
-          "subTotal": 870000,
+          "total": 920000,
+          "subTotal": 920000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -531,7 +531,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 4500000,
+          "charterFee": 5000000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -539,8 +539,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 4500000,
-              "amount": 4500000,
+              "unitPrice": 5000000,
+              "amount": 5000000,
               "conditions": "Weekly",
               "taxRate": {
                 "label": "VAT",
@@ -555,8 +555,8 @@
               "amount": 720000
             }
           ],
-          "total": 5220000,
-          "subTotal": 5220000,
+          "total": 5720000,
+          "subTotal": 5720000,
           "totalTax": 0
         },
         "inclusionZones": [

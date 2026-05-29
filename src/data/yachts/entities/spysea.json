@@ -1,5 +1,5 @@
 {
-  "lastModified": 1775079307467,
+  "lastModified": 1779732787100,
   "uri": "c::28226710116::vessel::e06b9bf0-b499-11f0-8221-31ce60d59e1a",
   "yachtType": [
     "Motor"
@@ -20,7 +20,7 @@
       "/media/media::image::a::vessel::e06b9bf0-b499-11f0-8221-31ce60d59e1a::assets::010c64e0-b49d-11f0-92c8-938eb55b00ef/{imageVariant}"
     ],
     "make": "Azimut",
-    "model": "68 Flybridge",
+    "model": "68 Fly",
     "maxCrew": 2,
     "sleeps": 8,
     "basePort": {
@@ -113,35 +113,35 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 365000,
+      "price": 512500,
       "displayCurrency": "USD",
-      "displayPrice": 365000,
+      "displayPrice": 512500,
       "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 2150000,
+      "price": 1250000,
       "displayCurrency": "USD",
-      "displayPrice": 2150000,
+      "displayPrice": 1250000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "USD",
-      "price": 3750000,
+      "price": 5400000,
       "displayCurrency": "USD",
-      "displayPrice": 3750000,
+      "displayPrice": 5400000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 3750000,
+      "price": 5400000,
       "displayCurrency": "USD",
-      "displayPrice": 3750000,
+      "displayPrice": 5400000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Day Charter - 4 Hours",
+        "name": "4 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -158,7 +158,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 365000,
+          "charterFee": 512500,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -166,13 +166,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 365000,
-              "amount": 365000,
+              "unitPrice": 512500,
+              "amount": 512500,
               "conditions": "VAT Excluded"
             }
           ],
-          "total": 365000,
-          "subTotal": 365000,
+          "total": 512500,
+          "subTotal": 512500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -255,7 +255,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Day Charter - 6 Hours",
+        "name": "6 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -272,7 +272,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 470000,
+          "charterFee": 650000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -280,13 +280,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 470000,
-              "amount": 470000,
+              "unitPrice": 650000,
+              "amount": 650000,
               "conditions": "VAT Excluded"
             }
           ],
-          "total": 470000,
-          "subTotal": 470000,
+          "total": 650000,
+          "subTotal": 650000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -369,7 +369,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Day Charter - 8 Hours",
+        "name": "8 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -386,7 +386,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 575000,
+          "charterFee": 787500,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -394,13 +394,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 575000,
-              "amount": 575000,
+              "unitPrice": 787500,
+              "amount": 787500,
               "conditions": "VAT Excluded"
             }
           ],
-          "total": 575000,
-          "subTotal": 575000,
+          "total": 787500,
+          "subTotal": 787500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -483,7 +483,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Term Charter - 24 Hours",
+        "name": "24 Hours",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -500,7 +500,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 725000,
+          "charterFee": 900000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -508,13 +508,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 725000,
-              "amount": 725000,
+              "unitPrice": 900000,
+              "amount": 900000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 725000,
-          "subTotal": 725000,
+          "total": 900000,
+          "subTotal": 900000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -597,7 +597,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Term Charter - 3 Days",
+        "name": "1 Week",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -614,121 +614,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 2150000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2150000,
-              "amount": 2150000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 2150000,
-          "subTotal": 2150000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Florida, US, United States",
-            "type": "State",
-            "category": [
-              "Florida"
-            ],
-            "coordinates": [
-              -83.13354787154184,
-              28.36636070660095
-            ],
-            "bbox": [
-              -87.6074378816535,
-              24.542349340056262,
-              -80.04130722193477,
-              31.00167331692866
-            ]
-          },
-          {
-            "label": "Bahamas",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Bahamas"
-            ],
-            "coordinates": [
-              -75.95477530284326,
-              23.98498842185528
-            ],
-            "bbox": [
-              -78.98564453124999,
-              20.937402343749994,
-              -72.747265625,
-              26.940087890624994
-            ]
-          },
-          {
-            "label": "United States of America",
-            "type": "Country",
-            "category": [
-              "North America",
-              "Northern America",
-              "United States of America"
-            ],
-            "coordinates": [
-              -52.64727122207621,
-              46.84073876556497
-            ],
-            "bbox": [
-              -179.1435033839999,
-              18.906117143000074,
-              179.78093509200005,
-              71.41250234600005
-            ]
-          },
-          {
-            "label": "United States of America",
-            "type": "Geo subunit",
-            "category": [
-              "North America",
-              "Northern America",
-              "United States of America"
-            ],
-            "coordinates": [
-              -96.3420908403651,
-              38.73256771297787
-            ],
-            "bbox": [
-              -124.7099609375,
-              24.54233398437499,
-              -66.98701171875,
-              49.3696777343751
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Term Charter - 1 Week",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 3750000,
+          "charterFee": 5400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -736,13 +622,127 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3750000,
-              "amount": 3750000,
+              "unitPrice": 5400000,
+              "amount": 5400000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 3750000,
-          "subTotal": 3750000,
+          "total": 5400000,
+          "subTotal": 5400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -52.64727122207621,
+              46.84073876556497
+            ],
+            "bbox": [
+              -179.1435033839999,
+              18.906117143000074,
+              179.78093509200005,
+              71.41250234600005
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -96.3420908403651,
+              38.73256771297787
+            ],
+            "bbox": [
+              -124.7099609375,
+              24.54233398437499,
+              -66.98701171875,
+              49.3696777343751
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Trip to Bimini",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1250000,
+              "amount": 1250000,
+              "conditions": "VAT Excluded"
+            }
+          ],
+          "total": 1250000,
+          "subTotal": 1250000,
           "totalTax": 0
         },
         "inclusionZones": [
