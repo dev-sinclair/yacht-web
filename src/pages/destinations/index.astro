@@ -56,6 +56,7 @@ Astro.response.headers.set(
       const q = query.trim().toLowerCase();
       let visibleRegions = 0;
       let visibleLocations = 0;
+      let firstMatch: HTMLElement | null = null;
 
       cards.forEach((card) => {
         const regionName = card.dataset.regionName ?? "";
@@ -72,6 +73,7 @@ Astro.response.headers.set(
           card.dataset.dimmed = "false";
           visibleRegions += 1;
           visibleLocations += locationMatchCount;
+          if (!firstMatch) firstMatch = card;
         } else {
           card.dataset.dimmed = "true";
         }
@@ -86,6 +88,21 @@ Astro.response.headers.set(
       } else {
         countLabel!.textContent = `Showing ${visibleRegions} of ${totalRegions} regions`;
         emptyState!.classList.add("hidden");
+      }
+
+      // Only scroll when the top match is actually OFFSCREEN — if it's already
+      // visible, leave the viewport alone (scrolling per keystroke feels jumpy).
+      if (q !== "" && firstMatch) {
+        const target = firstMatch as HTMLElement;
+        const rect = target.getBoundingClientRect();
+        const searchRect = searchWrapper!.getBoundingClientRect();
+        // Top edge of usable area: just below the sticky search bar.
+        const topBoundary = searchRect.bottom;
+        const bottomBoundary = window.innerHeight;
+        const isOffscreen = rect.top < topBoundary || rect.top > bottomBoundary;
+        if (isOffscreen) {
+          target.scrollIntoView({ behavior: "auto", block: "start" });
+        }
       }
     }
 
