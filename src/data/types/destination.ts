@@ -2,6 +2,8 @@ export interface Location {
   slug: string;
   name: string;
   cruisingSpots: string[];
+  tagline?: string;
+  image?: string;
 }
 
 export interface Region {

@@ -11,9 +11,9 @@ const { regionCount, locationCount } = Astro.props;
   data-dest-search-wrapper
   data-region-count={regionCount}
   data-location-count={locationCount}
-  class="sticky top-20 z-30 bg-white/95 backdrop-blur-md"
+  class="sticky top-11 sm:top-[100px] z-30 bg-white/95 backdrop-blur-md"
 >
-  <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12 py-4 sm:py-5">
+  <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12 py-6 sm:py-5">
     <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
       <label class="relative flex-1 group">
         <span class="absolute left-4 top-1/2 -translate-y-1/2 text-taupe-light pointer-events-none">
@@ -32,7 +32,7 @@ const { regionCount, locationCount } = Astro.props;
       </label>
       <p
         data-dest-count
-        class="text-[11px] font-medium tracking-[0.2em] uppercase text-taupe shrink-0"
+        class="text-[10px] font-medium tracking-[0.2em] uppercase text-taupe shrink-0"
         style="font-family: 'Raleway', sans-serif;"
       >
         {regionCount} Regions &middot; {locationCount} Destinations

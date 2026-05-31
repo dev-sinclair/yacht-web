@@ -25,189 +25,351 @@ const { yachts, totalMatches } = await getYachtsForRegion(region, 6);
 const waMessage = `Hi, I'm interested in chartering in ${region.name}. Could you help build an itinerary?`;
 const waUrl = `https://wa.me/34971000000?text=${encodeURIComponent(waMessage)}`;
 const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.length, 0);
+
+function unsplashAt(url: string, width: number): string {
+  return url.replace(/(\?|&)w=\d+/, `$1w=${width}`);
+}
+const heroSrcMobile = unsplashAt(region.heroImage, 960);
+const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
 ---
 
 <BaseLayout
   title={`${region.name} — Yacht Charter Destinations | Sinclair Yachting`}
-  description={`Charter yachts cruising ${region.name}. ${region.tagline}. ${region.locations.length} countries, ${totalSpots} curated anchorages.`}
+  description={`Charter yachts cruising ${region.name}. ${region.tagline}. ${region.locations.length} locations, ${totalSpots} curated anchorages.`}
 >
   <Navbar />
   <main>
-    <!-- Editorial header -->
-    <header class="bg-warm-white pt-32 pb-14 sm:pt-36 sm:pb-16 lg:pt-40 lg:pb-20">
-      <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
-        <nav
-          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
-          style="font-family: 'Raleway', sans-serif;"
-        >
-          <a href="/destinations" class="transition-colors duration-300 hover:text-charcoal">
-            Destinations
-          </a>
-          <span class="mx-3 text-taupe-light/60">/</span>
-          <span class="text-charcoal">{region.name}</span>
-        </nav>
+    <!-- ── Hero with parallax image ── -->
+    <header class="relative h-[88vh] min-h-[560px] overflow-hidden bg-charcoal">
+      <div data-hero-parallax class="absolute inset-0 will-change-transform">
+        <picture>
+          <source media="(min-width: 768px)" srcset={heroSrcDesktop} />
+          <img
+            src={heroSrcMobile}
+            alt={region.name}
+            class="h-[115%] w-full object-cover"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </picture>
+      </div>
 
-        <h1
-          data-reveal="up"
-          class="mt-10 text-5xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-6xl lg:text-7xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-        >
-          {region.name}
-        </h1>
+      <!-- Tinted gradient — darker at top + bottom so headings and tagline read clearly -->
+      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-black/90"></div>
 
-        <div data-reveal-line class="mt-8 h-px bg-gold"></div>
-
-        <p
-          data-reveal="up"
-          class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-taupe sm:text-xl"
-        >
-          {region.tagline}.
-        </p>
-
-        {region.locations.length > 0 && (
-          <p
-            class="mt-10 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+      <!-- Hero copy -->
+      <div class="relative z-10 flex h-full flex-col justify-end">
+        <div class="mx-auto w-full max-w-[1280px] px-6 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
+          <nav
+            data-reveal="fade"
+            class="text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
             style="font-family: 'Raleway', sans-serif;"
           >
-            <span class="num">{region.locations.length}</span> Countries &nbsp;&middot;&nbsp;
-            <span class="num">{totalSpots}</span> Anchorages
+            <a href="/destinations" class="transition-colors duration-300 hover:text-white">
+              Destinations
+            </a>
+            <span class="mx-3 text-white/40">/</span>
+            <span class="text-white">{region.name}</span>
+          </nav>
+
+          <h1
+            data-reveal="up"
+            class="mt-8 max-w-4xl text-5xl font-light tracking-[0.1em] uppercase text-white sm:text-6xl lg:text-7xl"
+            style="font-family: 'Raleway', sans-serif; font-weight: 300; text-shadow: 0 4px 22px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.7);"
+          >
+            {region.name}
+          </h1>
+
+          <div data-reveal-line class="mt-8 h-px bg-gold"></div>
+
+          <p
+            data-reveal="up"
+            class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-white/90 sm:text-xl"
+            style="text-shadow: 0 2px 14px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.6);"
+          >
+            {region.tagline}.
           </p>
-        )}
+
+          {region.locations.length > 0 && (
+            <p
+              data-reveal="fade"
+              class="mt-10 text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              <span class="num">{region.locations.length}</span>
+              {region.locations.length === 1 ? "Destination" : "Destinations"}
+              &nbsp;&middot;&nbsp;
+              <span class="num">{totalSpots}</span> Anchorages
+            </p>
+          )}
+        </div>
+
+        <!-- Scroll cue (hidden on mobile — only useful with a hover/mouse context) -->
+        <div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60 hidden sm:block">
+          <div class="flex flex-col items-center gap-2">
+            <span
+              class="text-[9px] font-medium tracking-[0.4em] uppercase"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              Scroll
+            </span>
+            <span class="block h-10 w-px bg-white/50 hero-scroll-line"></span>
+          </div>
+        </div>
       </div>
     </header>
 
-    <!-- Countries / locations grid -->
+    {region.locations.length > 0 && (
+      <!-- ── Quick-jump gallery rail ── -->
+      <section class="bg-warm-white border-b border-deep/10">
+        <div class="mx-auto max-w-[1440px] px-6 py-10 sm:px-8 sm:py-14 lg:px-12">
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p
+                data-reveal="fade"
+                class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                Inside The Region
+              </p>
+              <h2
+                data-reveal="up"
+                class="mt-3 text-2xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-3xl"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                {region.locations.length === 1 ? "The Destination" : "The Destinations"}
+              </h2>
+            </div>
+            <p
+              class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              Tap a tile to jump
+            </p>
+          </div>
+
+          <!-- Horizontal scrollable rail -->
+          <div
+            data-reveal-stagger
+            class="mt-8 -mx-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-3 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12 rail-scroll"
+          >
+            {region.locations.map((location, i) => {
+              const tileSrc = unsplashAt(location.image ?? region.heroImage, 480);
+              return (
+                <a
+                  href={`#loc-${location.slug}`}
+                  class="group relative block flex-none snap-start overflow-hidden bg-deep"
+                  style="aspect-ratio: 4 / 5; width: clamp(190px, 22vw, 240px);"
+                >
+                  <img
+                    src={tileSrc}
+                    alt={location.name}
+                    loading="lazy"
+                    decoding="async"
+                    class="absolute inset-0 h-full w-full object-cover brightness-[0.72] transition-[filter] duration-500 ease-out group-hover:brightness-[0.45]"
+                    data-img-fallback={region.heroImage}
+                  />
+                  <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent p-4">
+                    <p
+                      class="text-[9px] font-medium tracking-[0.35em] uppercase text-gold-light"
+                      style="font-family: 'Raleway', sans-serif;"
+                    >
+                      <span class="num">{String(i + 1).padStart(2, "0")}</span>
+                    </p>
+                    <h3
+                      class="mt-1 text-sm font-light tracking-[0.16em] uppercase text-white"
+                      style="font-family: 'Raleway', sans-serif; font-weight: 300; text-shadow: 0 2px 10px rgba(0,0,0,0.7);"
+                    >
+                      {location.name}
+                    </h3>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- ── Locations showcase (alternating zigzag with parallax cards) ── -->
     {region.locations.length > 0 ? (
-    <section class="bg-warm-white py-20 sm:py-24">
-      <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
-        <div class="text-center">
+      <section class="bg-warm-white">
+        <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
+          {region.locations.map((location, i) => {
+            const imgUrl = location.image ?? region.heroImage;
+            const src960 = unsplashAt(imgUrl, 960);
+            const src1600 = unsplashAt(imgUrl, 1600);
+            const isReversed = i % 2 === 1;
+            return (
+              <article
+                id={`loc-${location.slug}`}
+                class={`location-block group/loc relative pb-20 sm:pb-24 lg:pb-28 ${
+                  i === 0
+                    ? "pt-20 sm:pt-24 lg:pt-28"
+                    : "pt-2 sm:pt-3 lg:pt-4"
+                }`}
+                data-loc-index={i}
+              >
+                <div
+                  class={`grid items-center gap-10 lg:gap-16 ${
+                    isReversed
+                      ? "lg:grid-cols-[1fr_1.15fr] lg:[&>.loc-text]:order-first lg:[&>.loc-media]:order-last"
+                      : "lg:grid-cols-[1.15fr_1fr]"
+                  }`}
+                >
+                  <!-- Image side -->
+                  <div
+                    data-reveal={isReversed ? "right" : "left"}
+                    class="loc-media relative overflow-hidden bg-deep"
+                    style="aspect-ratio: 4 / 3;"
+                  >
+                    <img
+                      src={src960}
+                      srcset={`${src960} 960w, ${src1600} 1600w`}
+                      sizes="(min-width: 1024px) 48vw, 100vw"
+                      alt={location.name}
+                      loading={i < 2 ? "eager" : "lazy"}
+                      decoding="async"
+                      class="absolute inset-0 h-full w-full object-cover"
+                      data-img-fallback={region.heroImage}
+                    />
+                    <!-- Soft frame -->
+                    <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10"></div>
+
+                    <!-- Index badge -->
+                    <div
+                      class="absolute left-5 top-5 sm:left-6 sm:top-6 bg-black/30 backdrop-blur-sm px-3 py-1.5"
+                    >
+                      <span
+                        class="num text-[10px] font-medium tracking-[0.3em] uppercase text-white/95"
+                        style="font-family: 'Inter', sans-serif;"
+                      >
+                        {String(i + 1).padStart(2, "0")} / {String(region.locations.length).padStart(2, "0")}
+                      </span>
+                    </div>
+
+                    <!-- Floating label (bottom-right) -->
+                    <div
+                      class="absolute bottom-5 right-5 sm:bottom-6 sm:right-6 hidden sm:block"
+                    >
+                      <span
+                        class="inline-flex items-center gap-2 bg-white/90 px-4 py-2 text-[10px] font-medium tracking-[0.3em] uppercase text-charcoal backdrop-blur-sm"
+                        style="font-family: 'Raleway', sans-serif;"
+                      >
+                        <span class="h-px w-5 bg-gold"></span>
+                        {location.name}
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Text side -->
+                  <div data-reveal={isReversed ? "left" : "right"} class="loc-text">
+                    <p
+                      class="text-[10px] font-medium tracking-[0.35em] uppercase text-gold"
+                      style="font-family: 'Raleway', sans-serif;"
+                    >
+                      <span class="num">{String(i + 1).padStart(2, "0")}</span>
+                      <span class="mx-2 text-gold/40">·</span>
+                      Destination
+                    </p>
+
+                    <h3
+                      class="mt-4 text-4xl font-light tracking-[0.1em] uppercase text-charcoal sm:text-5xl"
+                      style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+                    >
+                      {location.name}
+                    </h3>
+
+                    <div data-reveal-line class="mt-6 h-px bg-gold"></div>
+
+                    {location.tagline && (
+                      <p class="mt-7 max-w-xl text-base font-light leading-[1.85] text-taupe sm:text-lg">
+                        {location.tagline}.
+                      </p>
+                    )}
+
+                    {location.cruisingSpots.length > 0 && (
+                      <div class="mt-9">
+                        <p
+                          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+                          style="font-family: 'Raleway', sans-serif;"
+                        >
+                          Cruising Areas
+                        </p>
+                        <ul class="mt-4 flex flex-wrap gap-2">
+                          {location.cruisingSpots.map((spot) => (
+                            <li
+                              class="chip group/chip inline-flex items-center gap-2 border border-deep/15 bg-white px-3.5 py-2 text-[11px] font-medium tracking-[0.16em] uppercase text-charcoal transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:text-gold-dim hover:shadow-sm"
+                              style="font-family: 'Raleway', sans-serif;"
+                            >
+                              <span class="h-px w-3 bg-gold/40 transition-all duration-300 group-hover/chip:w-5 group-hover/chip:bg-gold"></span>
+                              {spot}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Divider between locations (skip after last) */}
+                {i < region.locations.length - 1 && (
+                  <div class="mt-20 sm:mt-24 lg:mt-28 h-px w-full bg-gradient-to-r from-transparent via-deep/20 to-transparent"></div>
+                )}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ) : (
+      <section class="bg-warm-white py-20 sm:py-24">
+        <div class="mx-auto max-w-[720px] px-6 text-center">
           <p
             data-reveal="fade"
             class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
             style="font-family: 'Raleway', sans-serif;"
           >
-            Choose Your Country
+            Itineraries In Curation
           </p>
           <h2
             data-reveal="up"
             class="mt-5 text-3xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-4xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Cruising Countries
+            Speak To A Broker
           </h2>
           <div data-reveal-line class="mx-auto mt-6 h-px bg-gold"></div>
           <p
             data-reveal="up"
-            class="mx-auto mt-6 max-w-2xl text-base font-light leading-relaxed text-taupe"
+            class="mx-auto mt-8 text-base font-light leading-[1.85] text-taupe"
           >
-            {region.name} spans {region.locations.length}
-            {region.locations.length === 1 ? "country" : "countries"}.
-            Pick the one you want to wake up in &mdash; we&rsquo;ll plan the rest.
+            We&rsquo;re still curating the public destination list for {region.name}.
+            In the meantime, charters here are arranged privately — share what
+            you&rsquo;re after and a broker will design the route around you.
           </p>
-        </div>
-
-        <ul
-          data-reveal-stagger
-          class="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6"
-        >
-          {region.locations.map((location) => (
-            <li>
-              <a
-                href={`/destinations/${region.slug}/${location.slug}`}
-                class="group flex h-full flex-col justify-between border border-deep/10 bg-white px-6 py-7 transition-all duration-500 hover:-translate-y-1 hover:border-gold hover:shadow-lg"
-              >
-                <div>
-                  <p
-                    class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold"
-                    style="font-family: 'Raleway', sans-serif;"
-                  >
-                    Country
-                  </p>
-                  <h3
-                    class="mt-3 text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-                    style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-                  >
-                    {location.name}
-                  </h3>
-                  <p class="mt-4 text-sm font-light leading-relaxed text-taupe">
-                    {location.cruisingSpots.slice(0, 3).join(" · ")}
-                    {location.cruisingSpots.length > 3 && (
-                      <span class="text-taupe-light"> &amp; more</span>
-                    )}
-                  </p>
-                </div>
-                <div class="mt-7 flex items-center justify-between border-t border-deep/10 pt-5">
-                  <span
-                    class="text-[10px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 group-hover:text-gold"
-                    style="font-family: 'Raleway', sans-serif;"
-                  >
-                    Plan In {location.name}
-                  </span>
-                  <svg
-                    class="h-3.5 w-3.5 text-taupe-light transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                  >
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-    ) : (
-    <section class="bg-warm-white py-20 sm:py-24">
-      <div class="mx-auto max-w-[720px] px-6 text-center">
-        <p
-          data-reveal="fade"
-          class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
-          style="font-family: 'Raleway', sans-serif;"
-        >
-          Itineraries In Curation
-        </p>
-        <h2
-          data-reveal="up"
-          class="mt-5 text-3xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-4xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-        >
-          Speak To A Broker
-        </h2>
-        <div data-reveal-line class="mx-auto mt-6 h-px bg-gold"></div>
-        <p
-          data-reveal="up"
-          class="mx-auto mt-8 text-base font-light leading-[1.85] text-taupe"
-        >
-          We&rsquo;re still curating the public country list for {region.name}.
-          In the meantime, charters here are arranged privately — share what
-          you&rsquo;re after and a broker will design the route around you.
-        </p>
-        <a
-          data-reveal="up"
-          href={waUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="mt-10 inline-flex items-center gap-3 bg-deep px-10 py-4 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg"
-        >
-          Plan A Charter
-          <svg
-            class="h-3.5 w-3.5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
+          <a
+            data-reveal="up"
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-10 inline-flex items-center gap-3 bg-deep px-10 py-4 text-[12px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-    </section>
+            Plan A Charter
+            <svg
+              class="h-3.5 w-3.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </section>
     )}
 
-    <!-- How it works -->
+    <!-- ── How it works ── -->
     <section class="bg-cream/40 py-20 sm:py-24">
       <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
         <div class="text-center">
@@ -250,7 +412,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
               Choose Your Waters
             </h3>
             <p class="mx-auto mt-4 max-w-xs text-sm font-light leading-relaxed text-taupe">
-              You tell us where you want to wake up. The cruising area you choose
+              You tell us where you want to wake up. The destination you choose
               defines where you embark and disembark &mdash; everything else
               follows from there.
             </p>
@@ -296,10 +458,34 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
             </p>
           </li>
         </ol>
+
+        <div data-reveal="up" class="mt-16 flex justify-center">
+          <a
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group inline-flex items-center gap-3 bg-deep px-10 py-4 text-[11px] font-medium tracking-[0.3em] uppercase text-white shadow-md transition-all duration-300 hover:bg-gold hover:shadow-lg sm:text-[12px]"
+            style="font-family: 'Raleway', sans-serif;"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Know More
+            <svg
+              class="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- Yachts cruising the region -->
+    <!-- ── Yachts cruising the region ── -->
     {yachts.length > 0 && (
       <section class="bg-warm-white py-20 sm:py-24">
         <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
@@ -359,7 +545,7 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
       </section>
     )}
 
-    <!-- CTA -->
+    <!-- ── CTA ── -->
     <section class="bg-white py-20 sm:py-24">
       <div class="mx-auto max-w-2xl px-6 text-center sm:px-8">
         <p
@@ -410,3 +596,70 @@ const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.len
   </main>
   <Footer />
 </BaseLayout>
+
+<style>
+  /* Hero scroll cue */
+  .hero-scroll-line {
+    transform-origin: top;
+    animation: scrollCue 2.2s cubic-bezier(0.55, 0, 0.45, 1) infinite;
+  }
+  @keyframes scrollCue {
+    0%   { transform: scaleY(0);   opacity: 0; }
+    30%  { transform: scaleY(1);   opacity: 1; }
+    70%  { transform: scaleY(1);   opacity: 1; }
+    100% { transform: scaleY(0);   opacity: 0; transform-origin: bottom; }
+  }
+
+  /* Quick-jump rail: hide scrollbar but keep scroll */
+  .rail-scroll { scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.15) transparent; }
+  .rail-scroll::-webkit-scrollbar { height: 6px; }
+  .rail-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 9999px; }
+  .rail-scroll::-webkit-scrollbar-track { background: transparent; }
+
+  /* Smooth scroll-snap for #loc-* anchors, with a small offset for the nav */
+  :global(html) { scroll-padding-top: 90px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-scroll-line { animation: none; }
+  }
+</style>
+
+<script>
+  // ── Hero parallax (translate the bg image as you scroll) ──
+  const heroBg = document.querySelector<HTMLElement>("[data-hero-parallax]");
+  if (heroBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let ticking = false;
+    const apply = () => {
+      const y = window.scrollY;
+      // Cap the translation so the image doesn't pull out of frame too aggressively
+      const offset = Math.min(y * 0.35, 220);
+      heroBg.style.transform = `translate3d(0, ${offset}px, 0)`;
+      ticking = false;
+    };
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!ticking) {
+          window.requestAnimationFrame(apply);
+          ticking = true;
+        }
+      },
+      { passive: true },
+    );
+  }
+
+  // ── Image fallback: if a per-location Unsplash photo 404s, swap to the region hero ──
+  document.querySelectorAll<HTMLImageElement>("img[data-img-fallback]").forEach((img) => {
+    img.addEventListener(
+      "error",
+      () => {
+        const fallback = img.getAttribute("data-img-fallback");
+        if (fallback && img.src !== fallback) {
+          img.src = fallback;
+          img.removeAttribute("srcset");
+        }
+      },
+      { once: true },
+    );
+  });
+</script>

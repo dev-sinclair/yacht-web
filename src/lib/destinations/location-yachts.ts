@@ -4,7 +4,7 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 import type { YachtCard } from "../../data/types/yacht";
-import type { Location, Region } from "../../data/types/destination";
+import type { Region } from "../../data/types/destination";
 import type { VesselEntity } from "../ankor/types";
 import { summaryToCard } from "../ankor/mappers";
 import { loadSnapshotIndex } from "../../data/snapshot";
@@ -112,51 +112,6 @@ function isMeaningfulToken(t: string): boolean {
 export interface LocationMatch {
   yachts: YachtCard[];
   totalMatches: number;
-}
-
-/**
- * Find yachts cruising a given location. Matches a yacht's geographicZones
- * (free-text labels from Ankor pricing data) against the location's name
- * plus its curated cruising spots, normalised to ASCII and case-insensitive.
- */
-export async function getYachtsForLocation(
-  location: Location,
-  limit = 6,
-): Promise<LocationMatch> {
-  const all = await loadEnrichedYachts();
-
-  const terms = [location.name, ...location.cruisingSpots].map(normalizeTerm);
-  // Track multi-word terms separately so we can do whole-phrase matching
-  // for things like "great barrier reef" before falling back to tokens.
-  const phraseTerms = terms.filter(Boolean);
-  const tokenTerms = new Set(phraseTerms.flatMap((t) => tokenize(t)));
-  // Filter out tokens that are too generic to be useful as standalone hits
-  // (e.g. "of", "the"). Anything 3+ chars is kept.
-  const meaningfulTokens = [...tokenTerms].filter(isMeaningfulToken);
-
-  const matches = all.filter((y) => {
-    const zonesNorm = y.zones.map(normalizeTerm);
-    return zonesNorm.some((zone) => {
-      // Phrase match (zone contains the term, or the term contains the zone)
-      for (const term of phraseTerms) {
-        if (zone.includes(term) || term.includes(zone)) return true;
-      }
-      // Token match — any meaningful token from our terms appearing in the zone
-      const zoneTokens = new Set(tokenize(zone));
-      for (const t of meaningfulTokens) {
-        if (zoneTokens.has(t)) return true;
-      }
-      return false;
-    });
-  });
-
-  // Strip zones from public output — the page only needs YachtCard fields.
-  const publicCards: YachtCard[] = matches.map(({ zones: _zones, ...rest }) => rest);
-
-  return {
-    yachts: publicCards.slice(0, limit),
-    totalMatches: publicCards.length,
-  };
 }
 
 /**

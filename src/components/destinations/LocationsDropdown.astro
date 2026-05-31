@@ -27,7 +27,7 @@ const { region } = Astro.props;
         {region.locations.map((loc) => (
           <li>
             <a
-              href={`/destinations/${region.slug}/${loc.slug}`}
+              href={`/destinations/${region.slug}#loc-${loc.slug}`}
               data-location-link
               data-location-name={loc.name.toLowerCase()}
               data-location-slug={loc.slug}

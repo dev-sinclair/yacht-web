@@ -4,87 +4,105 @@
     "name": "Northern Europe & Arctic",
     "ankorRegion": "Northern Europe & Arctic",
     "tagline": "Fjords, midnight sun, and the high north under sail",
-    "heroImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1600&q=80&auto=format&fit=crop",
+    "heroImage": "https://plus.unsplash.com/premium_photo-1667997960054-b80d11b53a9a?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
-    "locations": []
+    "locations": [
+      {
+        "slug": "greenland",
+        "name": "Greenland",
+        "tagline": "Calving glaciers, silent fjords, the last edge of the map",
+        "image": "https://plus.unsplash.com/premium_photo-1667997887667-8c12bcd2a36e?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Disko Bay", "Ilulissat Icefjord", "Scoresby Sund", "Nuuk"]
+      },
+      {
+        "slug": "norway",
+        "name": "Norway",
+        "tagline": "Deep fjords, sea eagles, midnight sun above the Arctic Circle",
+        "image": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Geirangerfjord", "Lofoten", "Bergen", "Tromsø", "Svalbard"]
+      },
+      {
+        "slug": "scotland",
+        "name": "Scotland",
+        "tagline": "Hebridean lochs, single-malt harbours, wild Atlantic light",
+        "image": "https://images.unsplash.com/photo-1754303734809-2f4497c109e0?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Inner Hebrides", "Outer Hebrides", "Isle of Skye", "Mull", "West Coast"]
+      }
+    ]
   },
   {
     "slug": "west-mediterranean",
-    "name": "West Mediterranean",
+    "name": "Western Mediterranean",
     "ankorRegion": "West Mediterranean",
     "tagline": "Riviera glamour, Tyrrhenian shores, Balearic blues",
-    "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600&q=80&auto=format&fit=crop",
+    "heroImage": "https://images.unsplash.com/photo-1697490601026-c0539f2ceb67?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
       {
         "slug": "france",
         "name": "France",
-        "cruisingSpots": ["French Riviera", "Saint-Tropez", "Cannes", "Antibes", "Côte d'Azur", "Provence"]
-      },
-      {
-        "slug": "italy",
-        "name": "Italy",
-        "cruisingSpots": ["Amalfi Coast", "Capri", "Naples", "Aeolian Islands", "Italian Riviera", "Portofino", "Cinque Terre", "Liguria"]
-      },
-      {
-        "slug": "spain",
-        "name": "Spain",
-        "cruisingSpots": ["Costa Brava", "Barcelona", "Valencia", "Costa del Sol", "Marbella"]
+        "tagline": "Côte d'Azur summers, pine-scented Corsican coves",
+        "image": "https://images.unsplash.com/photo-1596010179162-bfdca08fd5a5?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["French Riviera", "Corsica", "Saint-Tropez", "Cannes", "Antibes", "Bonifacio"]
       },
       {
         "slug": "monaco",
         "name": "Monaco",
-        "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail", "Beaulieu-sur-Mer"]
+        "tagline": "The Principality — front row at the Grand Prix and beyond",
+        "image": "https://images.unsplash.com/photo-1703966140617-3a648f140917?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail", "Fontvieille"]
       },
       {
-        "slug": "balearics",
-        "name": "Balearics",
-        "cruisingSpots": ["Mallorca", "Ibiza", "Menorca", "Formentera", "Palma"]
+        "slug": "italy",
+        "name": "Italy",
+        "tagline": "Lemon-grove coastlines, Tyrrhenian islands, ancient harbours",
+        "image": "https://images.unsplash.com/photo-1549893072-4bc678117f45?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Italian Riviera", "Amalfi Coast", "Sardinia", "Sicily", "Portofino", "Capri", "Costa Smeralda"]
       },
       {
-        "slug": "corsica",
-        "name": "Corsica",
-        "cruisingSpots": ["Bonifacio", "Calvi", "Porto-Vecchio", "Ajaccio", "Lavezzi Islands"]
-      },
-      {
-        "slug": "sardinia",
-        "name": "Sardinia",
-        "cruisingSpots": ["Costa Smeralda", "Porto Cervo", "La Maddalena", "Cagliari", "Alghero"]
+        "slug": "spain",
+        "name": "Spain",
+        "tagline": "Balearic blues — turquoise coves and white-washed ports",
+        "image": "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Balearics", "Mallorca", "Ibiza", "Menorca", "Formentera", "Palma"]
       }
     ]
   },
   {
     "slug": "east-mediterranean",
-    "name": "East Mediterranean",
+    "name": "Eastern Mediterranean",
     "ankorRegion": "East Mediterranean",
     "tagline": "Aegean islands, ancient harbours, sun-bleached coasts",
     "heroImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
       {
-        "slug": "greece",
-        "name": "Greece",
-        "cruisingSpots": ["Cyclades", "Mykonos", "Santorini", "Ionian Islands", "Corfu", "Dodecanese", "Athens", "Crete"]
-      },
-      {
-        "slug": "turkey",
-        "name": "Turkey",
-        "cruisingSpots": ["Bodrum", "Göcek", "Marmaris", "Fethiye", "Turkish Riviera"]
-      },
-      {
         "slug": "croatia",
         "name": "Croatia",
-        "cruisingSpots": ["Dubrovnik", "Hvar", "Split", "Korčula", "Dalmatian Coast"]
+        "tagline": "Dalmatian island-hopping along a thousand-island coast",
+        "image": "https://images.unsplash.com/photo-1626699848008-7e419bc4e237?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Dubrovnik", "Hvar", "Split", "Korčula", "Vis", "Kornati"]
       },
       {
         "slug": "montenegro",
         "name": "Montenegro",
+        "tagline": "The Bay of Kotor — fjord-like waters under Balkan peaks",
+        "image": "https://plus.unsplash.com/premium_photo-1697730104948-43575659bf0a?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Bay of Kotor", "Porto Montenegro", "Sveti Stefan", "Budva"]
       },
       {
-        "slug": "albania",
-        "name": "Albania",
-        "cruisingSpots": ["Albanian Riviera", "Saranda", "Vlorë", "Himarë"]
+        "slug": "greece",
+        "name": "Greece",
+        "tagline": "Cyclades sunrises, Ionian pines, taverna tables at the water",
+        "image": "https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Cyclades", "Mykonos", "Santorini", "Ionian Islands", "Corfu", "Dodecanese", "Crete"]
+      },
+      {
+        "slug": "turkey",
+        "name": "Turkey",
+        "tagline": "Turquoise Coast — gulets, ruins, pine-fringed bays",
+        "image": "https://images.unsplash.com/photo-1569660073216-1a6762baad6a?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Bodrum", "Göcek", "Marmaris", "Fethiye", "Kaş", "Turkish Riviera"]
       }
     ]
   },
@@ -97,49 +115,39 @@
     "heroCredit": "Unsplash",
     "locations": [
       {
+        "slug": "leeward-islands",
+        "name": "Leeward Islands",
+        "tagline": "The northern arc — beach clubs, regattas, hidden anchorages",
+        "image": "https://images.unsplash.com/photo-1582300857444-5ddd87c86797?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["St Martin", "Antigua", "Anguilla", "U.S. Virgin Islands", "British Virgin Islands", "St. Barts", "Saba", "St. Kitts & Nevis", "Antigua & Barbuda"]
+      },
+      {
+        "slug": "windward-islands",
+        "name": "Windward Islands",
+        "tagline": "Volcanic peaks, rainforest interiors, the wilder south",
+        "image": "https://images.unsplash.com/photo-1542741082-254873c23996?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Dominica", "Martinique", "St. Lucia", "St. Vincent & The Grenadines", "Grenada"]
+      },
+      {
         "slug": "british-virgin-islands",
         "name": "British Virgin Islands",
-        "cruisingSpots": ["Tortola", "Virgin Gorda", "Jost Van Dyke", "Anegada", "Norman Island"]
+        "tagline": "Sir Francis Drake Channel — short hops, easy nights at anchor",
+        "image": "https://images.unsplash.com/photo-1547066884-3bd00fcf62f5?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Tortola", "Virgin Gorda", "Jost Van Dyke", "Anegada", "Norman Island", "The Baths"]
       },
       {
-        "slug": "st-barths",
-        "name": "St. Barths",
-        "cruisingSpots": ["Gustavia", "St. Jean", "Colombier", "Île Fourchue"]
+        "slug": "us-virgin-islands",
+        "name": "U.S. Virgin Islands",
+        "tagline": "St. Thomas, St. John, St. Croix — three islands, one US clearance",
+        "image": "https://images.unsplash.com/photo-1581517001637-a720d0135b87?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["St. Thomas", "St. John", "St. Croix", "Cruz Bay", "Magens Bay"]
       },
       {
-        "slug": "st-martin",
-        "name": "St. Martin",
-        "cruisingSpots": ["Marigot", "Philipsburg", "Anguilla", "Tintamarre"]
-      },
-      {
-        "slug": "antigua",
-        "name": "Antigua",
-        "cruisingSpots": ["English Harbour", "Falmouth", "Barbuda", "Nelson's Dockyard"]
-      },
-      {
-        "slug": "grenadines",
-        "name": "Grenadines",
-        "cruisingSpots": ["Bequia", "Mustique", "Tobago Cays", "Mayreau", "Union Island"]
-      },
-      {
-        "slug": "exumas",
-        "name": "Exumas",
-        "cruisingSpots": ["Staniel Cay", "Compass Cay", "Big Major Cay", "Warderick Wells"]
-      },
-      {
-        "slug": "abacos",
-        "name": "Abacos",
-        "cruisingSpots": ["Hope Town", "Marsh Harbour", "Green Turtle Cay", "Treasure Cay"]
-      },
-      {
-        "slug": "nassau",
-        "name": "Nassau",
-        "cruisingSpots": ["Paradise Island", "Atlantis", "Rose Island", "Cabbage Beach"]
-      },
-      {
-        "slug": "eleuthera",
-        "name": "Eleuthera",
-        "cruisingSpots": ["Harbour Island", "Spanish Wells", "Pink Sands Beach", "Governor's Harbour"]
+        "slug": "bahamas",
+        "name": "Bahamas",
+        "tagline": "Translucent water across 700 islands — Exumas, Abacos, Eleuthera",
+        "image": "https://plus.unsplash.com/premium_photo-1754254967148-18f221106e21?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Exumas", "Abacos", "Eleuthera", "Nassau", "Harbour Island", "Staniel Cay"]
       }
     ]
   },
@@ -150,25 +158,41 @@
     "tagline": "From the Galápagos to Patagonia — the wild Americas under sail",
     "heroImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
-    "locations": []
-  },
-  {
-    "slug": "australia-and-new-zealand",
-    "name": "Australia & New Zealand",
-    "ankorRegion": "Australia & New Zealand",
-    "tagline": "Coral reefs, untouched coastlines, southern horizons",
-    "heroImage": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?w=1600&q=80&auto=format&fit=crop",
-    "heroCredit": "Unsplash",
     "locations": [
       {
-        "slug": "australia",
-        "name": "Australia",
-        "cruisingSpots": ["Great Barrier Reef", "Whitsundays", "Sydney Harbour", "Kimberley", "Tasmania"]
+        "slug": "costa-rica",
+        "name": "Costa Rica",
+        "tagline": "Pacific surf, rainforest reaching to the shore, sloth-spotting at anchor",
+        "image": "https://images.unsplash.com/photo-1663946457157-476b36a0b99a?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Papagayo", "Nicoya Peninsula", "Drake Bay", "Cocos Island", "Manuel Antonio"]
       },
       {
-        "slug": "new-zealand",
-        "name": "New Zealand",
-        "cruisingSpots": ["Bay of Islands", "Auckland", "Marlborough Sounds", "Fiordland"]
+        "slug": "panama",
+        "name": "Panama",
+        "tagline": "The Canal transit, San Blas atolls, two oceans in one charter",
+        "image": "https://plus.unsplash.com/premium_photo-1681223447322-46794b8cdfd5?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["San Blas Islands", "Pearl Islands", "Bocas del Toro", "Panama Canal"]
+      },
+      {
+        "slug": "colombia",
+        "name": "Colombia",
+        "tagline": "Colonial Cartagena, the Rosario archipelago, a coast on the rise",
+        "image": "https://images.unsplash.com/photo-1539617546058-a8f9510b464e?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Cartagena", "Rosario Islands", "San Andrés", "Providencia", "Santa Marta"]
+      },
+      {
+        "slug": "galapagos",
+        "name": "Galápagos",
+        "tagline": "Darwin's archipelago — wildlife encounters found nowhere else",
+        "image": "https://plus.unsplash.com/premium_photo-1701085275737-99c0abca10a4?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Santa Cruz", "Isabela", "San Cristóbal", "Floreana", "Española"]
+      },
+      {
+        "slug": "brazil",
+        "name": "Brazil",
+        "tagline": "Bahia coast, Fernando de Noronha — the Atlantic's wildest beaches",
+        "image": "https://images.unsplash.com/photo-1544991337-95176b5233c4?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Rio de Janeiro", "Búzios", "Angra dos Reis", "Fernando de Noronha", "Salvador"]
       }
     ]
   },
@@ -183,12 +207,23 @@
       {
         "slug": "maldives",
         "name": "Maldives",
-        "cruisingSpots": ["North Malé Atoll", "Ari Atoll", "Baa Atoll", "Vaavu Atoll"]
+        "tagline": "Over-water dawns, drift dives, atoll-to-atoll under sail",
+        "image": "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["North Malé Atoll", "South Malé Atoll", "Ari Atoll", "Baa Atoll", "Vaavu Atoll"]
       },
       {
         "slug": "seychelles",
         "name": "Seychelles",
-        "cruisingSpots": ["Mahé", "Praslin", "La Digue", "Aldabra", "Inner Islands"]
+        "tagline": "Granite boulders, takamaka shade, ancient inner islands",
+        "image": "https://plus.unsplash.com/premium_photo-1661962432490-6188a6420a81?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Mahé", "Praslin", "La Digue", "Aldabra", "Inner Islands", "Outer Islands"]
+      },
+      {
+        "slug": "mauritius",
+        "name": "Mauritius",
+        "tagline": "Lagoon-fringed volcanic island — sugar coasts and reef passes",
+        "image": "https://images.unsplash.com/photo-1513415431848-a433b3de449f?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Port Louis", "Le Morne", "Île aux Cerfs", "Black River", "Grand Baie"]
       }
     ]
   },
@@ -197,38 +232,36 @@
     "name": "Arabian Gulf",
     "ankorRegion": "Arabian Gulf",
     "tagline": "Modern skylines meet ancient trade-route waters",
-    "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1600&q=80&auto=format&fit=crop",
+    "heroImage": "https://plus.unsplash.com/premium_photo-1697730117675-21d537b6fa12?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
       {
-        "slug": "uae",
-        "name": "United Arab Emirates",
-        "cruisingSpots": ["Dubai", "Abu Dhabi", "Palm Jumeirah", "World Islands", "Musandam"]
+        "slug": "dubai",
+        "name": "Dubai",
+        "tagline": "Skyline backdrops, Palm Jumeirah, fjord runs into Musandam",
+        "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Dubai Marina", "Palm Jumeirah", "World Islands", "Bluewaters", "Musandam"]
+      },
+      {
+        "slug": "abu-dhabi",
+        "name": "Abu Dhabi",
+        "tagline": "Capital coastline — desert islands and the corniche at dusk",
+        "image": "https://plus.unsplash.com/premium_photo-1697729798591-8b7e1b271515?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Yas Island", "Saadiyat", "Sir Bani Yas", "Corniche", "Zaya Nurai"]
       },
       {
         "slug": "oman",
         "name": "Oman",
-        "cruisingSpots": ["Muscat", "Musandam Peninsula", "Daymaniyat Islands", "Salalah"]
-      }
-    ]
-  },
-  {
-    "slug": "south-pacific",
-    "name": "South Pacific",
-    "ankorRegion": "South Pacific",
-    "tagline": "Volcanic anchorages and lagoons beyond the horizon",
-    "heroImage": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1600&q=80&auto=format&fit=crop",
-    "heroCredit": "Unsplash",
-    "locations": [
-      {
-        "slug": "fiji",
-        "name": "Fiji",
-        "cruisingSpots": ["Mamanuca Islands", "Yasawa Islands", "Lau Group", "Savusavu"]
+        "tagline": "Musandam's hidden fjords — frankincense coasts and untouched bays",
+        "image": "https://images.unsplash.com/photo-1585134339424-0fc98d0bfe86?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Musandam Peninsula", "Muscat", "Daymaniyat Islands", "Khasab", "Salalah"]
       },
       {
-        "slug": "french-polynesia",
-        "name": "French Polynesia",
-        "cruisingSpots": ["Tahiti", "Bora Bora", "Moorea", "Marquesas", "Tuamotus"]
+        "slug": "red-sea",
+        "name": "Red Sea",
+        "tagline": "Saudi & Egyptian coasts — pristine reefs, NEOM, the new frontier",
+        "image": "https://images.unsplash.com/photo-1568575621216-ca74d9a8c687?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["NEOM", "Sharm El Sheikh", "Hurghada", "Tiran Island", "Ras Mohammed"]
       }
     ]
   },
@@ -243,12 +276,92 @@
       {
         "slug": "thailand",
         "name": "Thailand",
-        "cruisingSpots": ["Phuket", "Phang Nga Bay", "Phi Phi Islands", "Krabi", "Similan Islands"]
+        "tagline": "Phang Nga karsts, Andaman blues, long-tail night markets",
+        "image": "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Phuket", "Phang Nga Bay", "Phi Phi Islands", "Krabi", "Similan Islands", "Koh Lanta"]
       },
       {
         "slug": "indonesia",
         "name": "Indonesia",
-        "cruisingSpots": ["Bali", "Komodo", "Raja Ampat", "Lombok", "Flores"]
+        "tagline": "Komodo dragons, Raja Ampat reefs — the world's richest marine zone",
+        "image": "https://plus.unsplash.com/premium_photo-1668883189361-9c754861dbd6?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Raja Ampat", "Komodo", "Bali", "Lombok", "Flores", "Sumba"]
+      },
+      {
+        "slug": "malaysia",
+        "name": "Malaysia",
+        "tagline": "Langkawi archipelago, jungled islands, mangrove backwaters",
+        "image": "https://images.unsplash.com/photo-1671364978178-002a8dc97362?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Langkawi", "Penang", "Tioman", "Perhentian Islands", "Redang"]
+      }
+    ]
+  },
+  {
+    "slug": "south-pacific",
+    "name": "South Pacific",
+    "ankorRegion": "South Pacific",
+    "tagline": "Volcanic anchorages and lagoons beyond the horizon",
+    "heroImage": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": [
+      {
+        "slug": "fiji",
+        "name": "Fiji",
+        "tagline": "Mamanuca surf breaks, Yasawa lagoons, kava nights ashore",
+        "image": "https://images.unsplash.com/photo-1516091877740-fde016699f2c?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Mamanuca Islands", "Yasawa Islands", "Lau Group", "Savusavu", "Vanua Levu"]
+      },
+      {
+        "slug": "tahiti",
+        "name": "Tahiti",
+        "tagline": "The Society Islands' capital — volcanic peaks rising from the lagoon",
+        "image": "https://images.unsplash.com/photo-1706868957973-8b656c240dbc?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Papeete", "Moorea", "Tetiaroa", "Bora Bora", "Society Islands"]
+      },
+      {
+        "slug": "french-polynesia",
+        "name": "French Polynesia",
+        "tagline": "Atolls of the Tuamotus, Marquesan cliffs, motus and palms",
+        "image": "https://images.unsplash.com/photo-1676405328043-85738f8473ba?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Tuamotus", "Marquesas", "Bora Bora", "Rangiroa", "Fakarava"]
+      },
+      {
+        "slug": "tonga",
+        "name": "Tonga",
+        "tagline": "Vava'u group — humpback whale season at the right time of year",
+        "image": "https://plus.unsplash.com/premium_photo-1664121799894-eb6c2af13bc8?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Vava'u", "Ha'apai", "Nuku'alofa", "Niuatoputapu"]
+      },
+      {
+        "slug": "new-caledonia",
+        "name": "New Caledonia",
+        "tagline": "The world's largest lagoon — a UNESCO marine playground",
+        "image": "https://images.unsplash.com/photo-1575469680795-19f3d6c61bfb?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Nouméa", "Île des Pins", "Loyalty Islands", "Lifou", "Maré"]
+      }
+    ]
+  },
+  {
+    "slug": "australia-and-new-zealand",
+    "name": "Australia & New Zealand",
+    "ankorRegion": "Australia & New Zealand",
+    "tagline": "Coral reefs, untouched coastlines, southern horizons",
+    "heroImage": "https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=1600&q=80&auto=format&fit=crop",
+    "heroCredit": "Unsplash",
+    "locations": [
+      {
+        "slug": "australia",
+        "name": "Australia",
+        "tagline": "Great Barrier Reef, Whitsundays, harbour lights of Sydney",
+        "image": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Great Barrier Reef", "Whitsundays", "Sydney Harbour", "Kimberley", "Tasmania", "Hamilton Island"]
+      },
+      {
+        "slug": "new-zealand",
+        "name": "New Zealand",
+        "tagline": "Bay of Islands' green coast, Fiordland's silent sounds",
+        "image": "https://plus.unsplash.com/premium_photo-1661962302792-4b05d3e08513?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Bay of Islands", "Auckland", "Marlborough Sounds", "Fiordland", "Hauraki Gulf"]
       }
     ]
   },
@@ -257,48 +370,53 @@
     "name": "North America",
     "ankorRegion": "North America",
     "tagline": "From New England harbours to glacial fjords",
-    "heroImage": "https://images.unsplash.com/photo-1499363536502-87642509e31b?w=1600&q=80&auto=format&fit=crop",
+    "heroImage": "https://images.unsplash.com/photo-1663528885556-6af28023b917?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
       {
-        "slug": "new-england",
-        "name": "New England",
-        "cruisingSpots": ["Newport", "Nantucket", "Martha's Vineyard", "Maine Coast", "Cape Cod"]
+        "slug": "florida",
+        "name": "Florida",
+        "tagline": "Miami marinas, Keys sunsets, the Gulf Stream at your back",
+        "image": "https://images.unsplash.com/photo-1494112399815-f895b47a0404?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Miami", "Florida Keys", "Key West", "Naples", "Fort Lauderdale", "Marco Island"]
+      },
+      {
+        "slug": "maine",
+        "name": "Maine",
+        "tagline": "Granite coves, lobster ports, the classic New England summer",
+        "image": "https://images.unsplash.com/photo-1634670788411-be9aad50d637?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Bar Harbor", "Acadia", "Penobscot Bay", "Boothbay", "Camden", "Mount Desert Island"]
       },
       {
         "slug": "pacific-northwest",
         "name": "Pacific Northwest",
-        "cruisingSpots": ["San Juan Islands", "Vancouver", "Seattle", "Desolation Sound"]
+        "tagline": "San Juans, Desolation Sound — orca waters and old-growth coast",
+        "image": "https://plus.unsplash.com/premium_photo-1664127685095-a2e20c21a796?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["San Juan Islands", "Desolation Sound", "Princess Louisa", "Gulf Islands", "Seattle", "Vancouver"]
       },
       {
         "slug": "alaska",
         "name": "Alaska",
-        "cruisingSpots": ["Inside Passage", "Glacier Bay", "Juneau", "Prince William Sound"]
-      },
-      {
-        "slug": "florida-keys",
-        "name": "Florida Keys",
-        "cruisingSpots": ["Key West", "Key Largo", "Marathon", "Dry Tortugas"]
+        "tagline": "Inside Passage glaciers, calving ice, humpback bubble-nets",
+        "image": "https://images.unsplash.com/photo-1574788901656-6a9ee34a3fa7?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Inside Passage", "Glacier Bay", "Juneau", "Prince William Sound", "Tracy Arm", "Sitka"]
       }
     ]
   },
   {
     "slug": "antarctic",
-    "name": "Antarctic",
+    "name": "Antarctica",
     "ankorRegion": "Antarctic",
     "tagline": "The last frontier — ice shelves, leopard seals, silence",
-    "heroImage": "https://images.unsplash.com/photo-1551582045-6ec9c11d8697?w=1600&q=80&auto=format&fit=crop",
+    "heroImage": "https://images.unsplash.com/photo-1486566584569-b9319dc74315?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
       {
-        "slug": "antarctic-peninsula",
-        "name": "Antarctic Peninsula",
-        "cruisingSpots": ["Lemaire Channel", "Paradise Bay", "Deception Island", "Port Lockroy"]
-      },
-      {
-        "slug": "south-georgia",
-        "name": "South Georgia",
-        "cruisingSpots": ["Grytviken", "Salisbury Plain", "St. Andrews Bay", "Drygalski Fjord"]
+        "slug": "antarctica",
+        "name": "Antarctica",
+        "tagline": "Crossing the Drake to penguins, whales, and ice that never stops moving",
+        "image": "https://images.unsplash.com/photo-1493328967571-819121ed5085?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": ["Antarctic Peninsula", "South Georgia", "Lemaire Channel", "Paradise Bay", "Deception Island", "Port Lockroy"]
       }
     ]
   }
