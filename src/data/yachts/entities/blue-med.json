@@ -1,0 +1,450 @@
+{
+  "lastModified": 1780047614732,
+  "uri": "c::32909588388::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Greece\n\nBLUE MED is a stylish Azimut 68′ motor yacht, it was built in 2001 and underwent a total refit in 2021. She has four cabins, all with en-suite facilities, built with cherry wood, beautiful Alcadara wall leathers and fine Italian fabrics.\n\nThe four cabins accommodate eight guests with one Master cabin, one VIP, one twin cabin and one twin cabin with upper and lower beds.\n\nHer exterior living is plentiful, perfect to enjoy the warm weather and stunning blue seas. The aft deck is adjacent to the salon, shaded and boasts an alfresco dining option. Wrap around decks lead forward to the foredeck, where a double sun pad beckons the sun lovers.\n\nAbove the main deck, the flybridge has a further alfresco dining option, sunbeds and BBQ station. Water sport enthusiasts will be pleased with the choice of water toys available onboard, all effortlessly accessed from the extended swimming platform.",
+  "blueprint": {
+    "name": "BLUE MED",
+    "images": [
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08fda0d0-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08ff0060-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::090038e0-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08ff9ca0-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08ff2770-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08fe3d10-5437-11f1-80ed-19cbe60a4916/{imageVariant}"
+    ],
+    "make": "Azimut Yachts",
+    "model": "Azimut 68",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::a31e48a0-6456-11ee-870a-199a53404905",
+      "name": "Agios Kosmas Marina ",
+      "coordinates": {
+        "latitude": 37.87735755960358,
+        "longitude": 23.72709068608145
+      },
+      "country": "Greece"
+    },
+    "cruisingCapacity": 11,
+    "staticCapacity": 25,
+    "builtYear": 2001,
+    "refitYear": 2024,
+    "topSpeed": 30,
+    "cruiseSpeed": 21,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 20.8,
+    "beam": 5.52,
+    "draft": 1.67,
+    "hullType": "",
+    "hullConstruction": "GRP",
+    "superStructure": [],
+    "engines": "2 x MTU 1150hp",
+    "amenities": [
+      {
+        "label": "Autopilot"
+      },
+      {
+        "label": "Gangway"
+      },
+      {
+        "label": "GPS"
+      },
+      {
+        "label": "VHF"
+      },
+      {
+        "label": "Radar"
+      },
+      {
+        "label": " Bow Thruster"
+      },
+      {
+        "label": "Awning"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Heating"
+      },
+      {
+        "label": "Refrigerator"
+      },
+      {
+        "label": "Cooker "
+      },
+      {
+        "label": "Oven"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy "
+      },
+      {
+        "label": "Swim Ladder"
+      },
+      {
+        "label": "Swim Platform"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": " Sea Scooter"
+      },
+      {
+        "label": "eFoil"
+      },
+      {
+        "label": "Snorkeling"
+      },
+      {
+        "label": "Sea Bob"
+      }
+    ],
+    "entertainment": [
+      "TV",
+      " Bluetooth Connection",
+      "Audio System"
+    ],
+    "tenders": [
+      "Zodiac RIB Tender 5m with Suzuki 90HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "TBA",
+      "role": "Captain"
+    },
+    {
+      "name": "TBA",
+      "role": "Captain"
+    },
+    {
+      "name": "TBA",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 225000,
+      "displayCurrency": "EUR",
+      "displayPrice": 225000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 275000,
+      "displayCurrency": "EUR",
+      "displayPrice": 275000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 1900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2200000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2200000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Daily Rate: Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 225000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 225000,
+              "amount": 225000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.24
+              }
+            }
+          ],
+          "total": 279000,
+          "subTotal": 225000,
+          "totalTax": 54000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily Rate: High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 275000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 275000,
+              "amount": 275000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.24
+              }
+            }
+          ],
+          "total": 341000,
+          "subTotal": 275000,
+          "totalTax": 66000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1900000,
+              "amount": 1900000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 1900000,
+              "amount": 665000
+            }
+          ],
+          "total": 2812000,
+          "subTotal": 2565000,
+          "totalTax": 247000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2200000,
+              "amount": 2200000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 2200000,
+              "amount": 770000
+            }
+          ],
+          "total": 3256000,
+          "subTotal": 2970000,
+          "totalTax": 286000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
