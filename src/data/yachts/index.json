@@ -10370,6 +10370,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::32909588388::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744",
+    "slug": "blue-med",
+    "name": "BLUE MED",
+    "hero": "/media/media::image::a::vessel::d5cca3b3-fe8c-11ed-889f-43d4bb723744::assets::08fda0d0-5437-11f1-80ed-19cbe60a4916/{imageVariant}",
+    "length": 20.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2001,
+    "builder": "Azimut Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 225000,
+    "weekPricingFrom": 1900000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::29886948373::vessel::232f0650-832f-11ee-a4d8-f9b7feed7408",
     "slug": "bella-zio",
     "name": "BELLA ZIO",
