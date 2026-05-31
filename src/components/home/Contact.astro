@@ -122,7 +122,7 @@ import Container from "../ui/Container.astro";
           </div>
 
           <!-- Steps -->
-          <div class="relative mt-10 sm:mt-12" style="min-height: 220px;">
+          <div id="contact-steps" class="relative mt-10 sm:mt-12" style="min-height: 220px;">
             <!-- Step 1: Name -->
             <div
               data-step="1"
@@ -304,6 +304,12 @@ import Container from "../ui/Container.astro";
   #contact-stage {
     transition: height 0.4s ease-out;
   }
+  #contact-steps {
+    /* Steps are absolutely positioned inside this wrapper, so the wrapper's
+       height has to be driven by JS to fit the active step's natural content.
+       The transition keeps the resize smooth as the user advances. */
+    transition: height 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
   .contact-view {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
   }
@@ -476,6 +482,21 @@ import Container from "../ui/Container.astro";
       }, FADE_MS);
     }
 
+    const stepsWrapper = document.getElementById(
+      "contact-steps",
+    ) as HTMLElement | null;
+
+    // Steps are `absolute inset-0` inside #contact-steps, so the wrapper has
+    // no natural height — without this it stays at the inline `min-height`
+    // and clips taller steps (e.g. step 3's textarea + Send button).
+    function syncStepsHeight(activeStep: HTMLElement): void {
+      if (!stepsWrapper) return;
+      // scrollHeight is the active step's true content height regardless of
+      // how the absolute box is currently sized.
+      const h = activeStep.scrollHeight;
+      stepsWrapper.style.height = h + "px";
+    }
+
     function setStep(n: number) {
       const total = TOTAL_STEPS + 1; // includes the thanks slide
       if (n < 1 || n > total) return;
@@ -485,6 +506,8 @@ import Container from "../ui/Container.astro";
           s.style.opacity = "1";
           s.style.transform = "translateY(0)";
           s.style.pointerEvents = "auto";
+          // Grow/shrink the wrapper so the active step's button is never clipped.
+          syncStepsHeight(s);
           // Focus the first editable element after the transition
           if (idx <= TOTAL_STEPS) {
             window.setTimeout(() => {
@@ -508,6 +531,15 @@ import Container from "../ui/Container.astro";
         progress.style.width = pct + "%";
       }
     }
+
+    // Re-fit on viewport resize — labels can wrap and change the active
+    // step's natural height when the column width changes.
+    window.addEventListener("resize", () => {
+      const active = steps.find(
+        (s) => parseInt(s.dataset.step || "0", 10) === currentStep,
+      );
+      if (active) syncStepsHeight(active);
+    });
 
     channelBtns.forEach((btn) => {
       btn.addEventListener("click", () => {

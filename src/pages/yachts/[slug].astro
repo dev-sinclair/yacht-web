@@ -18,7 +18,7 @@ Astro.response.headers.set(
 
 // Generic title until data loads. SEO regression vs the previous SSR — see
 // plan note about Option B's tradeoff.
-const title = "Charter Yacht — Sinclair Yachting";
+const title = "Charter Yacht · Sinclair Yachting";
 const description = "Detailed specs, gallery, pricing, and inquiry for this charter yacht in our curated fleet.";
 ---
 
@@ -477,7 +477,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       content.removeAttribute("hidden");
 
       // Update page title now that we know the yacht name
-      document.title = `${yacht.blueprint.name} — Charter | Sinclair Yachting`;
+      document.title = `${yacht.blueprint.name} · Charter | Sinclair Yachting`;
 
       // Notify the navbar's transparency check so it re-evaluates against
       // the freshly inserted #hero element.
