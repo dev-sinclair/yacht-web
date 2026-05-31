@@ -1,23 +1,16 @@
-// Client-side currency handling for the yacht catalogue.
-// Yachts are priced in their native currency (mostly EUR, sometimes USD).
-// We let the user pick a display currency on /yachts pages and convert
-// client-side using rates fetched from /api/fx-rates.json (proxied + edge-cached
-// from open.er-api.com), with a hardcoded fallback for resilience.
+// Client-side FX conversion for the yacht catalogue.
+// Yachts are priced in their native currency (mostly EUR, sometimes USD/AUD/AED).
+// We convert client-side using rates fetched from /api/fx-rates.json
+// (proxied + edge-cached from open.er-api.com), with a hardcoded fallback for
+// resilience. Today there's no user-facing currency switcher — `convertCents`
+// is used by /yachts to fold prices to EUR-equivalents so the catalogue can
+// sort by price across mixed currencies.
 
-// Currencies we both display in AND convert from. The user-facing display
-// switcher exposes a subset (EUR/USD/GBP) — see DISPLAY_CURRENCIES below — but
-// the catalogue's sort needs to convert FROM AUD and AED yacht prices into
-// EUR-equivalents for accurate "Price: low to high" ordering, so they live
-// in the support set too.
 export type SupportedCurrency = "EUR" | "USD" | "GBP" | "AUD" | "AED";
 
 export const SUPPORTED_CURRENCIES: SupportedCurrency[] = [
   "EUR", "USD", "GBP", "AUD", "AED",
 ];
-
-// User-selectable display currencies (powers the price-display switcher).
-// AUD and AED are conversion-source-only; we don't expose them as targets.
-export const DISPLAY_CURRENCIES: SupportedCurrency[] = ["EUR", "USD", "GBP"];
 
 // Hardcoded fallback rates relative to EUR, used when the live fetch hasn't
 // arrived yet OR when both the API and the localStorage cache are unavailable.
@@ -30,43 +23,20 @@ const FALLBACK_RATES: Record<SupportedCurrency, number> = {
   AED: 3.95,
 };
 
-const CURRENCY_STORAGE_KEY = "sinclair:currency";
 const RATES_STORAGE_KEY = "sinclair:fx-rates";
 const RATES_TTL_MS = 6 * 60 * 60 * 1000; // 6 hours
-export const CURRENCY_EVENT = "sinclair:currency-changed";
 
 interface CachedRates {
   rates: Record<SupportedCurrency, number>;
   fetchedAt: number; // ms epoch
 }
 
-// Module-level mutable state. Any caller of convertCents/formatPriceConverted
-// gets whichever rates are currently loaded.
+// Module-level mutable state. Any caller of convertCents gets whichever rates
+// are currently loaded.
 let activeRates: Record<SupportedCurrency, number> = { ...FALLBACK_RATES };
 
-export function isSupported(c: string): c is SupportedCurrency {
+function isSupported(c: string): c is SupportedCurrency {
   return SUPPORTED_CURRENCIES.includes(c as SupportedCurrency);
-}
-
-export function getActiveCurrency(): SupportedCurrency {
-  if (typeof window === "undefined") return "EUR";
-  try {
-    const stored = window.localStorage.getItem(CURRENCY_STORAGE_KEY);
-    if (stored && isSupported(stored)) return stored;
-  } catch {
-    // localStorage may be blocked
-  }
-  return "EUR";
-}
-
-export function setActiveCurrency(c: SupportedCurrency): void {
-  if (typeof window === "undefined") return;
-  try {
-    window.localStorage.setItem(CURRENCY_STORAGE_KEY, c);
-  } catch {
-    // ignore write failure
-  }
-  window.dispatchEvent(new CustomEvent(CURRENCY_EVENT, { detail: c }));
 }
 
 // ---- live rates ----
@@ -127,7 +97,8 @@ async function fetchLiveRates(): Promise<CachedRates | null> {
 }
 
 // Initialize on module load: prefer fresh-enough cached rates, then refresh in
-// the background. Re-paint via CURRENCY_EVENT once new rates land.
+// the background. Re-sort/paint is the caller's responsibility — today no one
+// listens for rate updates, so a refresh applies on the next page load.
 function initRates(): void {
   if (typeof window === "undefined") return;
 
@@ -144,8 +115,6 @@ function initRates(): void {
     if (!live) return;
     activeRates = live.rates;
     saveCachedRates(live);
-    // Notify .cur-price elements to re-paint with the new rates.
-    window.dispatchEvent(new CustomEvent(CURRENCY_EVENT, { detail: getActiveCurrency() }));
   });
 }
 
@@ -158,21 +127,7 @@ export function convertCents(
   from: string,
   to: SupportedCurrency,
 ): number {
-  const fromRate = activeRates[from as SupportedCurrency] ?? activeRates.EUR;
+  const fromRate = isSupported(from) ? activeRates[from] : activeRates.EUR;
   const toRate = activeRates[to];
   return amountCents * (toRate / fromRate);
-}
-
-export function formatPriceConverted(
-  amountCents: number | null | undefined,
-  fromCurrency: string,
-  toCurrency: SupportedCurrency = getActiveCurrency(),
-): string {
-  if (!amountCents) return "On Request";
-  const converted = convertCents(amountCents, fromCurrency, toCurrency);
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: toCurrency,
-    maximumFractionDigits: 0,
-  }).format(converted / 100);
 }

@@ -48,7 +48,7 @@
       {
         "slug": "monaco",
         "name": "Monaco",
-        "tagline": "The Principality — front row at the Grand Prix and beyond",
+        "tagline": "The Principality. Front row at the Grand Prix and beyond",
         "image": "https://images.unsplash.com/photo-1703966140617-3a648f140917?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail", "Fontvieille"]
       },
@@ -62,7 +62,7 @@
       {
         "slug": "spain",
         "name": "Spain",
-        "tagline": "Balearic blues — turquoise coves and white-washed ports",
+        "tagline": "Balearic blues. Turquoise coves and white-washed ports",
         "image": "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Balearics", "Mallorca", "Ibiza", "Menorca", "Formentera", "Palma"]
       }
@@ -86,7 +86,7 @@
       {
         "slug": "montenegro",
         "name": "Montenegro",
-        "tagline": "The Bay of Kotor — fjord-like waters under Balkan peaks",
+        "tagline": "The Bay of Kotor. Fjord-like waters under Balkan peaks",
         "image": "https://plus.unsplash.com/premium_photo-1697730104948-43575659bf0a?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Bay of Kotor", "Porto Montenegro", "Sveti Stefan", "Budva"]
       },
@@ -100,7 +100,7 @@
       {
         "slug": "turkey",
         "name": "Turkey",
-        "tagline": "Turquoise Coast — gulets, ruins, pine-fringed bays",
+        "tagline": "Turquoise Coast. Gulets, ruins, pine-fringed bays",
         "image": "https://images.unsplash.com/photo-1569660073216-1a6762baad6a?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Bodrum", "Göcek", "Marmaris", "Fethiye", "Kaş", "Turkish Riviera"]
       }
@@ -117,7 +117,7 @@
       {
         "slug": "leeward-islands",
         "name": "Leeward Islands",
-        "tagline": "The northern arc — beach clubs, regattas, hidden anchorages",
+        "tagline": "The northern arc. Beach clubs, regattas, hidden anchorages",
         "image": "https://images.unsplash.com/photo-1582300857444-5ddd87c86797?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["St Martin", "Antigua", "Anguilla", "U.S. Virgin Islands", "British Virgin Islands", "St. Barts", "Saba", "St. Kitts & Nevis", "Antigua & Barbuda"]
       },
@@ -131,21 +131,21 @@
       {
         "slug": "british-virgin-islands",
         "name": "British Virgin Islands",
-        "tagline": "Sir Francis Drake Channel — short hops, easy nights at anchor",
+        "tagline": "Sir Francis Drake Channel. Short hops, easy nights at anchor",
         "image": "https://images.unsplash.com/photo-1547066884-3bd00fcf62f5?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Tortola", "Virgin Gorda", "Jost Van Dyke", "Anegada", "Norman Island", "The Baths"]
       },
       {
         "slug": "us-virgin-islands",
         "name": "U.S. Virgin Islands",
-        "tagline": "St. Thomas, St. John, St. Croix — three islands, one US clearance",
+        "tagline": "St. Thomas, St. John, St. Croix. Three islands, one US clearance",
         "image": "https://images.unsplash.com/photo-1581517001637-a720d0135b87?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["St. Thomas", "St. John", "St. Croix", "Cruz Bay", "Magens Bay"]
       },
       {
         "slug": "bahamas",
         "name": "Bahamas",
-        "tagline": "Translucent water across 700 islands — Exumas, Abacos, Eleuthera",
+        "tagline": "Translucent water across 700 islands. Exumas, Abacos, Eleuthera",
         "image": "https://plus.unsplash.com/premium_photo-1754254967148-18f221106e21?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Exumas", "Abacos", "Eleuthera", "Nassau", "Harbour Island", "Staniel Cay"]
       }
@@ -155,7 +155,7 @@
     "slug": "central-and-south-america",
     "name": "Central & South America",
     "ankorRegion": "Central & South America",
-    "tagline": "From the Galápagos to Patagonia — the wild Americas under sail",
+    "tagline": "From the Galápagos to Patagonia. The wild Americas under sail",
     "heroImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [
@@ -183,14 +183,14 @@
       {
         "slug": "galapagos",
         "name": "Galápagos",
-        "tagline": "Darwin's archipelago — wildlife encounters found nowhere else",
+        "tagline": "Darwin's archipelago. Wildlife encounters found nowhere else",
         "image": "https://plus.unsplash.com/premium_photo-1701085275737-99c0abca10a4?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Santa Cruz", "Isabela", "San Cristóbal", "Floreana", "Española"]
       },
       {
         "slug": "brazil",
         "name": "Brazil",
-        "tagline": "Bahia coast, Fernando de Noronha — the Atlantic's wildest beaches",
+        "tagline": "Bahia coast, Fernando de Noronha. The Atlantic's wildest beaches",
         "image": "https://images.unsplash.com/photo-1544991337-95176b5233c4?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Rio de Janeiro", "Búzios", "Angra dos Reis", "Fernando de Noronha", "Salvador"]
       }
@@ -221,7 +221,7 @@
       {
         "slug": "mauritius",
         "name": "Mauritius",
-        "tagline": "Lagoon-fringed volcanic island — sugar coasts and reef passes",
+        "tagline": "Lagoon-fringed volcanic island. Sugar coasts and reef passes",
         "image": "https://images.unsplash.com/photo-1513415431848-a433b3de449f?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Port Louis", "Le Morne", "Île aux Cerfs", "Black River", "Grand Baie"]
       }
@@ -245,21 +245,21 @@
       {
         "slug": "abu-dhabi",
         "name": "Abu Dhabi",
-        "tagline": "Capital coastline — desert islands and the corniche at dusk",
+        "tagline": "Capital coastline. Desert islands and the corniche at dusk",
         "image": "https://plus.unsplash.com/premium_photo-1697729798591-8b7e1b271515?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Yas Island", "Saadiyat", "Sir Bani Yas", "Corniche", "Zaya Nurai"]
       },
       {
         "slug": "oman",
         "name": "Oman",
-        "tagline": "Musandam's hidden fjords — frankincense coasts and untouched bays",
+        "tagline": "Musandam's hidden fjords. Frankincense coasts and untouched bays",
         "image": "https://images.unsplash.com/photo-1585134339424-0fc98d0bfe86?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Musandam Peninsula", "Muscat", "Daymaniyat Islands", "Khasab", "Salalah"]
       },
       {
         "slug": "red-sea",
         "name": "Red Sea",
-        "tagline": "Saudi & Egyptian coasts — pristine reefs, NEOM, the new frontier",
+        "tagline": "Saudi & Egyptian coasts. Pristine reefs, NEOM, the new frontier",
         "image": "https://images.unsplash.com/photo-1568575621216-ca74d9a8c687?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["NEOM", "Sharm El Sheikh", "Hurghada", "Tiran Island", "Ras Mohammed"]
       }
@@ -283,7 +283,7 @@
       {
         "slug": "indonesia",
         "name": "Indonesia",
-        "tagline": "Komodo dragons, Raja Ampat reefs — the world's richest marine zone",
+        "tagline": "Komodo dragons, Raja Ampat reefs. The world's richest marine zone",
         "image": "https://plus.unsplash.com/premium_photo-1668883189361-9c754861dbd6?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Raja Ampat", "Komodo", "Bali", "Lombok", "Flores", "Sumba"]
       },
@@ -328,14 +328,14 @@
       {
         "slug": "tonga",
         "name": "Tonga",
-        "tagline": "Vava'u group — humpback whale season at the right time of year",
+        "tagline": "Vava'u group. Humpback whale season at the right time of year",
         "image": "https://plus.unsplash.com/premium_photo-1664121799894-eb6c2af13bc8?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Vava'u", "Ha'apai", "Nuku'alofa", "Niuatoputapu"]
       },
       {
         "slug": "new-caledonia",
         "name": "New Caledonia",
-        "tagline": "The world's largest lagoon — a UNESCO marine playground",
+        "tagline": "The world's largest lagoon. A UNESCO marine playground",
         "image": "https://images.unsplash.com/photo-1575469680795-19f3d6c61bfb?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["Nouméa", "Île des Pins", "Loyalty Islands", "Lifou", "Maré"]
       }
@@ -390,7 +390,7 @@
       {
         "slug": "pacific-northwest",
         "name": "Pacific Northwest",
-        "tagline": "San Juans, Desolation Sound — orca waters and old-growth coast",
+        "tagline": "San Juans, Desolation Sound. Orca waters and old-growth coast",
         "image": "https://plus.unsplash.com/premium_photo-1664127685095-a2e20c21a796?w=1600&q=80&auto=format&fit=crop",
         "cruisingSpots": ["San Juan Islands", "Desolation Sound", "Princess Louisa", "Gulf Islands", "Seattle", "Vancouver"]
       },
@@ -407,7 +407,7 @@
     "slug": "antarctic",
     "name": "Antarctica",
     "ankorRegion": "Antarctic",
-    "tagline": "The last frontier — ice shelves, leopard seals, silence",
+    "tagline": "The last frontier. Ice shelves, leopard seals, silence",
     "heroImage": "https://images.unsplash.com/photo-1486566584569-b9319dc74315?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
     "locations": [

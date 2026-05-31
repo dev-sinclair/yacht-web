@@ -1,0 +1,387 @@
+---
+import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/layout/Navbar.astro";
+import Footer from "../components/layout/Footer.astro";
+
+// Last reviewed date is hard-coded so the page is stable across rebuilds and
+// across user time-zones. Bump it whenever this document is revised.
+const lastUpdated = "31 May 2026";
+
+Astro.response.headers.set(
+  "Cache-Control",
+  "public, s-maxage=86400, stale-while-revalidate=604800",
+);
+---
+
+<BaseLayout
+  title="Privacy Policy — Sinclair Yachting"
+  description="How Sinclair Yachting collects, uses, and protects the personal data you share with us."
+>
+  <Navbar />
+
+  <main class="bg-warm-white">
+    <!-- Editorial header -->
+    <header class="pt-32 pb-14 sm:pt-36 sm:pb-16 lg:pt-40 lg:pb-20">
+      <div class="mx-auto max-w-3xl px-6 sm:px-8 lg:px-12">
+        <nav
+          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          <a href="/" class="transition-colors duration-300 hover:text-charcoal">Home</a>
+          <span class="mx-3 text-taupe-light/60">/</span>
+          <span class="text-charcoal">Privacy Policy</span>
+        </nav>
+
+        <h1
+          data-reveal="up"
+          class="mt-10 text-4xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          Privacy Policy
+        </h1>
+
+        <div data-reveal-line class="mt-8 h-px bg-gold"></div>
+
+        <p
+          data-reveal="up"
+          class="mt-8 text-base font-light leading-[1.85] text-taupe sm:text-lg"
+        >
+          This page explains what personal data Sinclair Yachting collects when
+          you use this website, why we collect it, and the rights you have over it.
+        </p>
+
+        <p
+          class="mt-6 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
+          style="font-family: 'Raleway', sans-serif;"
+        >
+          Last updated &middot; <span class="num">{lastUpdated}</span>
+        </p>
+      </div>
+    </header>
+
+    <!-- Body -->
+    <section class="pb-24 sm:pb-28 lg:pb-32">
+      <div class="mx-auto max-w-3xl px-6 sm:px-8 lg:px-12">
+        <article class="space-y-12 text-base font-light leading-[1.85] text-taupe sm:text-[17px]">
+
+          <!-- 1. Who we are -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              1. Who we are
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              In this policy, &ldquo;we&rdquo;, &ldquo;us&rdquo; and &ldquo;our&rdquo;
+              refer to Sinclair Yachting (the &ldquo;Brokerage&rdquo;), a yacht
+              brokerage operating from Palma de Mallorca, Spain. We are the data
+              controller for personal data processed through this website.
+            </p>
+            <ul class="mt-4 space-y-1 text-taupe">
+              <li>Paseo Marítimo 28, 3º &middot; 07014 Palma de Mallorca &middot; Illes Balears, Spain</li>
+              <li>Email: <a href="mailto:info@sinclairyachting.com" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">info@sinclairyachting.com</a></li>
+              <li>Phone: <a href="tel:+447779130021" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">+44 7779 130021</a></li>
+            </ul>
+          </div>
+
+          <!-- 2. Data we collect -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              2. The data we collect
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+
+            <h3 class="mt-6 text-[12px] font-medium tracking-[0.22em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif;">
+              a. Data you give us
+            </h3>
+            <p class="mt-3">
+              When you use the enquiry form on this site, we ask for:
+            </p>
+            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
+              <li>Your <strong class="text-charcoal font-medium">name</strong>;</li>
+              <li>An <strong class="text-charcoal font-medium">email address or phone number</strong> (you choose which), so we can reply;</li>
+              <li>The <strong class="text-charcoal font-medium">message</strong> you send us &mdash; anything you choose to share about the charter, sale, build or service you&rsquo;re interested in.</li>
+            </ul>
+            <p class="mt-4">
+              When you reach out via the WhatsApp, email or phone links in the
+              site, you also share whatever data those channels expose to us
+              (your phone number, your email address, the contents of your
+              message, and metadata your messaging app may attach).
+            </p>
+
+            <h3 class="mt-8 text-[12px] font-medium tracking-[0.22em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif;">
+              b. Data your browser stores locally
+            </h3>
+            <p class="mt-3">
+              The yacht catalogue caches public foreign-exchange rates in your
+              browser&rsquo;s <strong class="text-charcoal font-medium">localStorage</strong>
+              under the key
+              <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">sinclair:fx-rates</code>,
+              refreshed roughly every six hours. This avoids re-fetching the
+              same rates on every page load and lets us sort yachts by price
+              even when prices are quoted in different currencies.
+            </p>
+            <p class="mt-4">
+              This value stays on your device. It is not transmitted to us, it
+              doesn&rsquo;t identify you, and you can clear it at any time from
+              your browser&rsquo;s site-data settings.
+            </p>
+
+            <h3 class="mt-8 text-[12px] font-medium tracking-[0.22em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif;">
+              c. Data collected automatically
+            </h3>
+            <p class="mt-3">
+              When you visit a website, your browser sends technical information
+              that our hosting provider (see &sect;4) records for security and
+              operational reasons. This typically includes your IP address,
+              browser type and version, the page requested, the time of the
+              request, and the referring URL. We do not use this data to build
+              advertising profiles.
+            </p>
+
+            <h3 class="mt-8 text-[12px] font-medium tracking-[0.22em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif;">
+              d. What we do <em>not</em> collect
+            </h3>
+            <p class="mt-3">
+              We do not use analytics or tracking pixels (no Google Analytics,
+              no Meta Pixel, no Hotjar or similar). We do not set advertising
+              cookies. We do not run session-replay tools. We do not buy or
+              enrich your data from third parties.
+            </p>
+          </div>
+
+          <!-- 3. How we use it -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              3. How we use your data
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              We use the personal data you share with us only to:
+            </p>
+            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
+              <li>Reply to your enquiry and discuss the charter, yacht, sale, build or service you&rsquo;ve asked about;</li>
+              <li>Prepare proposals, itineraries and quotes you request;</li>
+              <li>Keep records required by Spanish commercial, tax and anti-money-laundering law where a transaction proceeds;</li>
+              <li>Secure the site against abuse and keep it running.</li>
+            </ul>
+            <p class="mt-4">
+              Under the EU General Data Protection Regulation (GDPR), our legal
+              bases are: your <strong class="text-charcoal font-medium">consent</strong>
+              (when you submit an enquiry), the
+              <strong class="text-charcoal font-medium">performance of pre-contractual measures</strong>
+              you ask us to take, our
+              <strong class="text-charcoal font-medium">legitimate interest</strong>
+              in keeping the website safe and operational, and our
+              <strong class="text-charcoal font-medium">legal obligations</strong>
+              for record-keeping.
+            </p>
+          </div>
+
+          <!-- 4. Third parties -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              4. Third parties
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              We rely on a small number of service providers to operate the
+              site. They process limited data on our behalf or, where you
+              choose to interact with them, under their own terms:
+            </p>
+            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
+              <li><strong class="text-charcoal font-medium">Hosting</strong> &mdash; the site is served from Vercel Inc. (USA). Vercel processes request metadata (including IP) for delivery, caching and abuse prevention.</li>
+              <li><strong class="text-charcoal font-medium">Google Fonts</strong> &mdash; fonts are loaded from <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">fonts.googleapis.com</code> and <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">fonts.gstatic.com</code>. Google may receive your IP address when fonts are fetched.</li>
+              <li><strong class="text-charcoal font-medium">Unsplash</strong> &mdash; some imagery is served from <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">images.unsplash.com</code> or <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">plus.unsplash.com</code>. Unsplash may receive your IP address when images are loaded.</li>
+              <li><strong class="text-charcoal font-medium">WhatsApp / Meta</strong> &mdash; if you tap a WhatsApp link, your conversation is handled by WhatsApp under Meta&rsquo;s terms and privacy policy.</li>
+              <li><strong class="text-charcoal font-medium">Email &amp; phone</strong> &mdash; messages sent to <a href="mailto:info@sinclairyachting.com" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">info@sinclairyachting.com</a> or to <a href="tel:+447779130021" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">+44 7779 130021</a> reach us through our email and telephony providers.</li>
+              <li><strong class="text-charcoal font-medium">Ankor</strong> &mdash; we synchronise yacht specifications and availability from the Ankor charter platform. This sync runs server-side as part of our publishing process; your browser never contacts Ankor directly, and no data about you is sent to them.</li>
+              <li><strong class="text-charcoal font-medium">Exchange-rate data</strong> &mdash; the currency converter uses public rates from open.er-api.com via a proxy on our own server. The upstream provider only sees a request from our server, not from you.</li>
+            </ul>
+            <p class="mt-4">
+              Some of these providers are based outside the European Economic
+              Area. Where data is transferred internationally we rely on the
+              appropriate safeguards, such as Standard Contractual Clauses or
+              an adequacy decision, under Articles 45&ndash;49 GDPR.
+            </p>
+          </div>
+
+          <!-- 5. Cookies -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              5. Cookies
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              We do not set any cookies of our own. The single
+              <code class="rounded bg-cream/60 px-1.5 py-0.5 text-[13px] text-charcoal">sinclair:fx-rates</code>
+              value described in &sect;2(b) is stored in your browser&rsquo;s
+              localStorage and is strictly necessary for the catalogue&rsquo;s
+              FX-conversion feature to function efficiently.
+            </p>
+            <p class="mt-4">
+              Third parties listed in &sect;4 may set their own cookies under
+              their own policies when their resources are loaded by your browser.
+            </p>
+          </div>
+
+          <!-- 6. Sharing -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              6. Who we share your data with
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              We do not sell your personal data and we don&rsquo;t share it for
+              advertising purposes. We may share data only:
+            </p>
+            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
+              <li>With the yacht owner or management company strictly necessary to progress an enquiry you&rsquo;ve sent us;</li>
+              <li>With our service providers in &sect;4 to the extent needed to operate the site;</li>
+              <li>With professional advisors (e.g. legal, accounting) where required;</li>
+              <li>With public authorities where the law requires it.</li>
+            </ul>
+          </div>
+
+          <!-- 7. Retention -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              7. How long we keep your data
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              Enquiries that don&rsquo;t lead to a transaction are kept for up
+              to <span class="num">24</span> months and then deleted, unless a
+              shorter period applies on request. Where a charter, sale or build
+              proceeds, we keep the related records for the period required by
+              Spanish commercial and tax law (typically up to
+              <span class="num">10</span> years). Server logs are kept for a
+              short retention period set by our hosting provider.
+            </p>
+          </div>
+
+          <!-- 8. Your rights -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              8. Your rights
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              Under the GDPR and Spain&rsquo;s Organic Law
+              <span class="num">3/2018</span> on Data Protection (LOPDGDD), you
+              have the right to:
+            </p>
+            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
+              <li>Access the personal data we hold about you;</li>
+              <li>Have inaccurate data rectified;</li>
+              <li>Have your data erased where one of the GDPR grounds applies;</li>
+              <li>Restrict or object to certain processing;</li>
+              <li>Receive your data in a portable format;</li>
+              <li>Withdraw a consent you previously gave us, without affecting prior processing;</li>
+              <li>Lodge a complaint with the Spanish Data Protection Agency (AEPD &mdash; <a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">www.aepd.es</a>).</li>
+            </ul>
+            <p class="mt-4">
+              To exercise any of these rights, write to
+              <a href="mailto:info@sinclairyachting.com" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">info@sinclairyachting.com</a>.
+              We aim to respond within one month.
+            </p>
+          </div>
+
+          <!-- 9. Security -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              9. Security
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              The site is served over HTTPS. We apply technical and
+              organisational measures appropriate to the limited data we
+              handle. No transmission over the internet is ever entirely
+              secure, however, and we cannot guarantee the absolute security
+              of any data sent to us.
+            </p>
+          </div>
+
+          <!-- 10. Children -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              10. Children
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              This site is intended for adults. We don&rsquo;t knowingly
+              collect personal data from anyone under <span class="num">16</span>.
+              If you believe a child has sent us personal data, please contact
+              us and we will delete it.
+            </p>
+          </div>
+
+          <!-- 11. Changes -->
+          <div>
+            <h2
+              data-reveal="up"
+              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              11. Changes to this policy
+            </h2>
+            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
+            <p class="mt-6">
+              We may revise this policy from time to time. When we do, we
+              update the &ldquo;Last updated&rdquo; date above and, for
+              material changes, will take reasonable steps to bring the
+              update to your attention.
+            </p>
+          </div>
+
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
