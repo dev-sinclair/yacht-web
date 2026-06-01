@@ -2830,6 +2830,23 @@
     "currency": "USD"
   },
   {
+    "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
+    "slug": "tosca",
+    "name": "TOSCA",
+    "hero": "/media/media::image::c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36::assets::ee7f2c70-5dbd-11f1-a677-d724567dd957/{imageVariant}",
+    "length": 36,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2026,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2700000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7580644139::vessel::d5cc24f9-fe8c-11ed-889f-43d4bb723744",
     "slug": "queen-of-datca",
     "name": "QUEEN OF DATCA",
@@ -2864,23 +2881,6 @@
     ],
     "dayPricingFrom": 225000,
     "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
-    "slug": "tosca",
-    "name": "TOSCA",
-    "hero": "/media/media::image::c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36::assets::4a706d20-236f-11f1-b35c-75b2e0cf38a8/{imageVariant}",
-    "length": 36,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2026,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2700000,
     "currency": "EUR"
   },
   {
@@ -3280,24 +3280,6 @@
     "currency": "AUD"
   },
   {
-    "uri": "c::18231584005::vessel::d5cc239f-fe8c-11ed-889f-43d4bb723744",
-    "slug": "arktos",
-    "name": "ARKTOS",
-    "hero": "/media/media::image::a::vessel::d5cc239f-fe8c-11ed-889f-43d4bb723744::assets::8913ab70-f528-11f0-ac73-8b62158d2e78/{imageVariant}",
-    "length": 34.6,
-    "sleeps": 11,
-    "cabins": 5,
-    "builtYear": 2004,
-    "builder": "Custom Gulet-Motor Sailor",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
-    "currency": "EUR"
-  },
-  {
     "uri": "c::7819256863::vessel::d5c9adde-fe8c-11ed-889f-43d4bb723744",
     "slug": "virtuoso",
     "name": "VIRTUOSO",
@@ -3313,6 +3295,24 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3500000,
+    "currency": "EUR"
+  },
+  {
+    "uri": "c::18231584005::vessel::d5cc239f-fe8c-11ed-889f-43d4bb723744",
+    "slug": "arktos",
+    "name": "ARKTOS",
+    "hero": "/media/media::image::a::vessel::d5cc239f-fe8c-11ed-889f-43d4bb723744::assets::8913ab70-f528-11f0-ac73-8b62158d2e78/{imageVariant}",
+    "length": 34.6,
+    "sleeps": 11,
+    "cabins": 5,
+    "builtYear": 2004,
+    "builder": "Custom Gulet-Motor Sailor",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
     "currency": "EUR"
   },
   {
@@ -15796,6 +15796,24 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::10317073198::vessel::a68079c0-272b-11f0-a066-c74ca504e262",
+    "slug": "dione-ii",
+    "name": "DIONE II",
+    "hero": "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0af5c0-272f-11f0-815b-33d40b74316a/{imageVariant}",
+    "length": 15.91,
+    "sleeps": 14,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": null,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::18231584005::vessel::77940a04-486c-11ee-a45f-fdfff6163a60",
     "slug": "amante",
     "name": "AMANTE",
@@ -15865,24 +15883,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1900000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::10317073198::vessel::a68079c0-272b-11f0-a066-c74ca504e262",
-    "slug": "dione-ii",
-    "name": "DIONE II",
-    "hero": "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0af5c0-272f-11f0-815b-33d40b74316a/{imageVariant}",
-    "length": 15.91,
-    "sleeps": 14,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
     "currency": "EUR"
   },
   {
