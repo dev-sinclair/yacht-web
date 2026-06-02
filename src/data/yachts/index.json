@@ -934,6 +934,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::25941359203::vessel::d5c7ffaf-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ambassador",
+    "name": "AMBASSADOR",
+    "hero": "/media/media::image::a::vessel::d5c7ffaf-fe8c-11ed-889f-43d4bb723744::assets::c40ec6c0-bc6b-11ef-aa27-19e1098c9e1a/{imageVariant}",
+    "length": 48,
+    "sleeps": 40,
+    "cabins": 19,
+    "builtYear": 2019,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4500000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
     "slug": "sanctuary",
     "name": "SANCTUARY",
@@ -966,23 +983,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 5500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::25941359203::vessel::d5c7ffaf-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ambassador",
-    "name": "AMBASSADOR",
-    "hero": "/media/media::image::a::vessel::d5c7ffaf-fe8c-11ed-889f-43d4bb723744::assets::c40ec6c0-bc6b-11ef-aa27-19e1098c9e1a/{imageVariant}",
-    "length": 48,
-    "sleeps": 40,
-    "cabins": 19,
-    "builtYear": 2019,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4500000,
     "currency": "EUR"
   },
   {
@@ -1214,6 +1214,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::25941359203::vessel::e4e19900-bc6a-11ef-9c85-61a4c9d73f37",
+    "slug": "mama-marija",
+    "name": "MAMA MARIJA",
+    "hero": "/media/media::image::a::vessel::e4e19900-bc6a-11ef-9c85-61a4c9d73f37::assets::229d5f80-bc71-11ef-bf1a-b34f97f01eda/{imageVariant}",
+    "length": 46,
+    "sleeps": 42,
+    "cabins": 18,
+    "builtYear": 2018,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1800000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::18633696598::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744",
     "slug": "mutiara-laut",
     "name": "MUTIARA LAUT",
@@ -1229,23 +1246,6 @@
     ],
     "dayPricingFrom": 75000,
     "weekPricingFrom": null,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::25941359203::vessel::e4e19900-bc6a-11ef-9c85-61a4c9d73f37",
-    "slug": "mama-marija",
-    "name": "MAMA MARIJA",
-    "hero": "/media/media::image::a::vessel::e4e19900-bc6a-11ef-9c85-61a4c9d73f37::assets::229d5f80-bc71-11ef-bf1a-b34f97f01eda/{imageVariant}",
-    "length": 46,
-    "sleeps": 42,
-    "cabins": 18,
-    "builtYear": 2018,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1800000,
     "currency": "EUR"
   },
   {
@@ -1770,6 +1770,23 @@
     "currency": "AED"
   },
   {
+    "uri": "c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744",
+    "slug": "invictus",
+    "name": "INVICTUS",
+    "hero": "/media/media::image::c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744::assets::1215e120-bd28-11ef-b214-2d0593b0f223/{imageVariant}",
+    "length": 41,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2500000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc79b8-fe8c-11ed-889f-43d4bb723744",
     "slug": "sophie-blue",
     "name": "SOPHIE BLUE",
@@ -1855,23 +1872,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3900000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744",
-    "slug": "invictus",
-    "name": "INVICTUS",
-    "hero": "/media/media::image::c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744::assets::1215e120-bd28-11ef-b214-2d0593b0f223/{imageVariant}",
-    "length": 41,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2500000,
     "currency": "EUR"
   },
   {
