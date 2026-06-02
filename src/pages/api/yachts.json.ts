@@ -1,5 +1,10 @@
 import type { APIRoute } from "astro";
-import { getAllYachts, getFacets, isYachtCategory } from "../../data/yacht-service";
+import {
+  getAllYachts,
+  getFacets,
+  isYachtCategory,
+  isYachtSeason,
+} from "../../data/yacht-service";
 import { regionBySlug } from "../../lib/destinations/registry";
 import { getYachtSlugsForRegion } from "../../lib/destinations/location-yachts";
 import type { YachtCard } from "../../data/types/yacht";
@@ -36,6 +41,9 @@ export const GET: APIRoute = async ({ url }) => {
   const rawRegion = url.searchParams.get("region") ?? "";
   const region = rawRegion ? regionBySlug(rawRegion) : null;
 
+  const rawSeason = url.searchParams.get("season") ?? "";
+  const activeSeason = isYachtSeason(rawSeason) ? rawSeason : "";
+
   try {
     let items = await getAllYachts(activeType || undefined);
     items = items.filter(meetsMinimumWeekPrice);
@@ -43,6 +51,12 @@ export const GET: APIRoute = async ({ url }) => {
     if (region) {
       const allowed = await getYachtSlugsForRegion(region);
       items = items.filter((y) => allowed.has(y.slug));
+    }
+
+    if (activeSeason) {
+      // Yachts with no seasons array (older snapshots or no pricing dates)
+      // get dropped — we can't confirm they have inventory in that window.
+      items = items.filter((y) => y.seasons?.includes(activeSeason));
     }
 
     const facets = getFacets(items);

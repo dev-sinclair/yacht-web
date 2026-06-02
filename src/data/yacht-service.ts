@@ -18,6 +18,29 @@ import { loadSnapshotIndex, loadSnapshotEntity } from "./snapshot";
 export const YACHT_CATEGORIES = ["Sailing", "Motor", "Catamarans"] as const;
 export type YachtCategory = (typeof YACHT_CATEGORIES)[number];
 
+// User-facing season filter options. The snapshot carries tags for many more
+// years (currently 2022–2029 fall in the priced ranges) but we surface only
+// the next two summer/winter pairs in the UI to keep the dropdown short. To
+// add 2028, just append `"summer-2028", "winter-2028"` here — the snapshot
+// data is already there.
+export const YACHT_SEASONS = [
+  "summer-2026",
+  "winter-2026",
+  "summer-2027",
+  "winter-2027",
+] as const;
+export type YachtSeason = (typeof YACHT_SEASONS)[number];
+
+export function isYachtSeason(s: string): s is YachtSeason {
+  return (YACHT_SEASONS as readonly string[]).includes(s);
+}
+
+export function formatSeason(s: YachtSeason): string {
+  const [season, year] = s.split("-");
+  const cap = season ? season.charAt(0).toUpperCase() + season.slice(1) : "";
+  return `${cap} ${year}`;
+}
+
 const CATEGORY_TO_TYPES: Record<YachtCategory, readonly string[]> = {
   Sailing: ["Sailing", "Gulet"],
   Motor: ["Motor", "Classic", "Expedition"],

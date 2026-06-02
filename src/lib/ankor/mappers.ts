@@ -119,6 +119,51 @@ function mapPricingInfo(info: AnkorPricingInfo[] | undefined, currency: string):
   return out;
 }
 
+/**
+ * Derive season-year tags from a yacht's pricing date ranges.
+ *
+ * Windows (Northern-hemisphere convention):
+ *   Summer YYYY = May 1 YYYY → Oct 31 YYYY
+ *   Winter YYYY = Nov 1 YYYY → Apr 30 (YYYY+1)
+ *
+ * A yacht qualifies for a tag if ANY priced effective-date range intersects
+ * that season window. Yachts with only an annual rate (Jan 1 → Dec 31) will
+ * intersect every Summer Y window inside the range AND the adjacent Winter
+ * (Y-1) + Winter Y windows via the Jan–Apr / Nov–Dec legs respectively — so
+ * "available year-round" charters surface in both summer and winter filters.
+ */
+export function computeSeasonTags(
+  info: AnkorPricingInfo[] | undefined,
+): string[] {
+  if (!info) return [];
+  const tags = new Set<string>();
+  for (const item of info) {
+    for (const d of item.effectiveDates ?? []) {
+      addSeasonsForRange(d.from, d.to, tags);
+    }
+  }
+  return [...tags].sort();
+}
+
+function addSeasonsForRange(fromIso: string, toIso: string, out: Set<string>): void {
+  const fromMs = Date.parse(fromIso);
+  const toMs = Date.parse(toIso);
+  if (!Number.isFinite(fromMs) || !Number.isFinite(toMs) || toMs < fromMs) return;
+  const sy = new Date(fromMs).getUTCFullYear();
+  const ey = new Date(toMs).getUTCFullYear();
+  // Start one year earlier so a range that begins in Jan–Apr can still tag
+  // the prior year's Winter (Nov (Y-1) → Apr Y).
+  for (let y = sy - 1; y <= ey; y++) {
+    const summerStart = Date.UTC(y, 4, 1);
+    const summerEnd = Date.UTC(y, 9, 31, 23, 59, 59, 999);
+    if (fromMs <= summerEnd && toMs >= summerStart) out.add(`summer-${y}`);
+
+    const winterStart = Date.UTC(y, 10, 1);
+    const winterEnd = Date.UTC(y + 1, 3, 30, 23, 59, 59, 999);
+    if (fromMs <= winterEnd && toMs >= winterStart) out.add(`winter-${y}`);
+  }
+}
+
 function collectZones(info: AnkorPricingInfo[] | undefined): string[] {
   if (!info) return [];
   const set = new Set<string>();

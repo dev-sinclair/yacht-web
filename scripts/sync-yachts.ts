@@ -29,7 +29,7 @@ import { fileURLToPath } from "node:url";
 import { ankorConfig } from "../src/lib/ankor/config";
 import { ankorGet } from "../src/lib/ankor/client";
 import { ensureRegistered } from "../src/lib/ankor/registry";
-import { summaryToCard, uniqueSlug } from "../src/lib/ankor/mappers";
+import { summaryToCard, uniqueSlug, computeSeasonTags } from "../src/lib/ankor/mappers";
 import type { DiscoveryResponse, VesselEntity, VesselSummary } from "../src/lib/ankor/types";
 import type { YachtCard } from "../src/data/types/yacht";
 
@@ -195,6 +195,7 @@ async function main(): Promise<void> {
       currency:
         pricing.currency ?? pricing.weekPricingFrom?.currency ?? card.currency,
       yachtType: card.yachtType.length ? card.yachtType : (entity.yachtType ?? []),
+      seasons: computeSeasonTags(pricing.pricingInfo),
     };
   });
 

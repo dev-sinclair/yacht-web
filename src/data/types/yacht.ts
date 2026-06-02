@@ -80,6 +80,12 @@ export interface YachtCard {
   dayPricingFrom: number | null;
   weekPricingFrom: number | null;
   currency: string;
+  // Season-year tags derived from pricing.pricingInfo[].effectiveDates at
+  // sync time. Format: "summer-YYYY" / "winter-YYYY". A yacht qualifies for
+  // a tag if any of its priced date ranges intersects that season window
+  // (Summer = May 1–Oct 31, Winter = Nov 1–Apr 30 of the following year).
+  // Optional for backward compat with snapshots predating this field.
+  seasons?: string[];
 }
 
 export interface YachtFacets {

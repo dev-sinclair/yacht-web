@@ -8,7 +8,7 @@ import YachtFilters from "../../components/catalogue/YachtFilters.astro";
 import Footer from "../../components/layout/Footer.astro";
 import type { YachtFacets } from "../../data/types/yacht";
 import { regionBySlug } from "../../lib/destinations/registry";
-import { isYachtCategory } from "../../data/yacht-service";
+import { isYachtCategory, isYachtSeason, formatSeason } from "../../data/yacht-service";
 
 // No data fetched in the frontmatter — page renders shell + skeleton instantly.
 // Real data is loaded client-side from /api/yachts.json so the user lands on
@@ -25,6 +25,10 @@ const activeType = isYachtCategory(rawType) ? rawType : "";
 const rawRegion = Astro.url.searchParams.get("region") ?? "";
 const activeRegionData = rawRegion ? regionBySlug(rawRegion) : null;
 const activeRegion = activeRegionData?.slug ?? "";
+
+const rawSeason = Astro.url.searchParams.get("season") ?? "";
+const activeSeason = isYachtSeason(rawSeason) ? rawSeason : "";
+const activeSeasonLabel = activeSeason ? formatSeason(activeSeason) : "";
 
 // YachtFilters only uses `facets` for typing today (its actual sliders are
 // hard-coded). Pass an empty stub so the component renders without data.
@@ -65,11 +69,11 @@ const stubFacets: YachtFacets = {
             </svg>
           </button>
           <div id="filters-panel" class="hidden lg:block">
-            <YachtFilters facets={stubFacets} activeType={activeType} activeRegion={activeRegion} />
+            <YachtFilters facets={stubFacets} activeType={activeType} activeRegion={activeRegion} activeSeason={activeSeason} />
           </div>
         </aside>
 
-        <div data-yachts-root data-active-type={activeType} data-active-region={activeRegion}>
+        <div data-yachts-root data-active-type={activeType} data-active-region={activeRegion} data-active-season={activeSeason}>
           <div class="mb-8" data-reveal>
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
               {activeRegionData ? "Region" : "Hand-picked"}
@@ -385,6 +389,7 @@ const stubFacets: YachtFacets = {
   let allYachts: YachtCard[] = [];
   let activeYachtType = "";
   let activeRegion = "";
+  let activeSeason = "";
   let currentPage = 1;
   let filterState: FilterState = EMPTY_FILTER;
   let sortMode: SortMode = "default";
@@ -454,6 +459,7 @@ const stubFacets: YachtFacets = {
     const params = new URLSearchParams();
     if (activeYachtType) params.set("yachtType", activeYachtType);
     if (activeRegion) params.set("region", activeRegion);
+    if (activeSeason) params.set("season", activeSeason);
     if (sortMode !== "default") params.set("sort", sortMode);
     if (currentPage > 1) params.set("page", String(currentPage));
     const qs = params.toString();
@@ -560,9 +566,11 @@ const stubFacets: YachtFacets = {
     if (!root) return;
     activeYachtType = root.dataset.activeType ?? "";
     activeRegion = root.dataset.activeRegion ?? "";
+    activeSeason = root.dataset.activeSeason ?? "";
     const params = new URLSearchParams();
     if (activeYachtType) params.set("yachtType", activeYachtType);
     if (activeRegion) params.set("region", activeRegion);
+    if (activeSeason) params.set("season", activeSeason);
     const qs = params.toString();
     const url = qs ? `/api/yachts.json?${qs}` : "/api/yachts.json";
 
