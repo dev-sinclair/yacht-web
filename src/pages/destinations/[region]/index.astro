@@ -194,7 +194,7 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
     <!-- ── Locations showcase (alternating zigzag with parallax cards) ── -->
     {region.locations.length > 0 ? (
       <section class="bg-warm-white">
-        <div class="mx-auto max-w-[1280px] px-6 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
           {region.locations.map((location, i) => {
             const imgUrl = location.image ?? region.heroImage;
             const src960 = unsplashAt(imgUrl, 960);
@@ -209,8 +209,8 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
                 <div
                   class={`grid items-center gap-10 lg:gap-16 ${
                     isReversed
-                      ? "lg:grid-cols-[1fr_1.15fr] lg:[&>.loc-text]:order-first lg:[&>.loc-media]:order-last"
-                      : "lg:grid-cols-[1.15fr_1fr]"
+                      ? "lg:grid-cols-[1fr_1.4fr] lg:[&>.loc-text]:order-first lg:[&>.loc-media]:order-last"
+                      : "lg:grid-cols-[1.4fr_1fr]"
                   }`}
                 >
                   <!-- Image side -->
@@ -222,7 +222,7 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
                     <img
                       src={src960}
                       srcset={`${src960} 960w, ${src1600} 1600w`}
-                      sizes="(min-width: 1024px) 48vw, 100vw"
+                      sizes="(min-width: 1024px) 56vw, 100vw"
                       alt={location.name}
                       loading={i < 2 ? "eager" : "lazy"}
                       decoding="async"
