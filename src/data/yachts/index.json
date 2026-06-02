@@ -780,20 +780,20 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::25941359203::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c",
-    "slug": "mama-marija-ii",
-    "name": "MAMA MARIJA II",
-    "hero": "/media/media::image::a::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c::assets::5f453510-bc63-11ef-9d92-cf1792365c93/{imageVariant}",
+    "uri": "c::27074328118::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38",
+    "slug": "swallow",
+    "name": "SWALLOW",
+    "hero": "/media/media::image::a::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38::assets::7b882290-50d9-11f0-93d9-c9a3efbbfc51/{imageVariant}",
     "length": 49,
-    "sleeps": 42,
-    "cabins": 19,
-    "builtYear": 2020,
-    "builder": "",
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "Iskra Shipyard",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
+    "weekPricingFrom": 7700000,
     "currency": "EUR"
   },
   {
@@ -814,20 +814,20 @@
     "currency": "EUR"
   },
   {
-    "uri": "c::27074328118::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38",
-    "slug": "swallow",
-    "name": "SWALLOW",
-    "hero": "/media/media::image::a::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38::assets::7b882290-50d9-11f0-93d9-c9a3efbbfc51/{imageVariant}",
+    "uri": "c::25941359203::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c",
+    "slug": "mama-marija-ii",
+    "name": "MAMA MARIJA II",
+    "hero": "/media/media::image::a::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c::assets::5f453510-bc63-11ef-9d92-cf1792365c93/{imageVariant}",
     "length": 49,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "Iskra Shipyard",
+    "sleeps": 42,
+    "cabins": 19,
+    "builtYear": 2020,
+    "builder": "",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 7700000,
+    "weekPricingFrom": 4200000,
     "currency": "EUR"
   },
   {
@@ -3801,6 +3801,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
+    "slug": "alegria",
+    "name": "ALEGRIA",
+    "hero": "/media/media::image::a::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe::assets::51c525c0-f2e6-11f0-bcdc-79116c3d1303/{imageVariant}",
+    "length": 32,
+    "sleeps": 9,
+    "cabins": 5,
+    "builtYear": 2023,
+    "builder": "Azimut",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 10000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744",
     "slug": "s-dogu",
     "name": "S DOGU",
@@ -3833,23 +3850,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3700000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
-    "slug": "alegria",
-    "name": "ALEGRIA",
-    "hero": "/media/media::image::a::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe::assets::51c525c0-f2e6-11f0-bcdc-79116c3d1303/{imageVariant}",
-    "length": 32,
-    "sleeps": 9,
-    "cabins": 5,
-    "builtYear": 2023,
-    "builder": "Azimut",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 10000000,
     "currency": "EUR"
   },
   {
@@ -7039,6 +7039,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "champagne-hippy",
+    "name": "CHAMPAGNE HIPPY",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744::assets::fbc5cd00-122c-11ef-b0da-f913e1fbb5b2.jpeg/{imageVariant}",
+    "length": 25.15,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2014,
+    "builder": "Oyster Marine Ltd",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::17949224288::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa",
     "slug": "matrix",
     "name": "MATRIX",
@@ -7065,23 +7082,6 @@
     "cabins": 3,
     "builtYear": 1991,
     "builder": "Wally Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "champagne-hippy",
-    "name": "CHAMPAGNE HIPPY",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744::assets::fbc5cd00-122c-11ef-b0da-f913e1fbb5b2.jpeg/{imageVariant}",
-    "length": 25.15,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2014,
-    "builder": "Oyster Marine Ltd",
     "yachtType": [
       "Sailing"
     ],
@@ -8013,6 +8013,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
+    "slug": "houbara",
+    "name": "HOUBARA",
+    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 7,
+    "cabins": 3,
+    "builtYear": 2012,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9938368400::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7",
     "slug": "bohemia",
     "name": "BOHEMIA",
@@ -8028,23 +8045,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 8500000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
-    "slug": "houbara",
-    "name": "HOUBARA",
-    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
-    "length": 23.99,
-    "sleeps": 7,
-    "cabins": 3,
-    "builtYear": 2012,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3400000,
     "currency": "EUR"
   },
   {
@@ -8152,6 +8152,23 @@
     "currency": "EUR"
   },
   {
+    "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ola",
+    "name": "OLA",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744::assets::PGbGg8Xlk.png/{imageVariant}",
+    "length": 23.95,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1997,
+    "builder": "Sanlorenzo",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2100000,
+    "currency": "EUR"
+  },
+  {
     "uri": "c::9938368400::vessel::79c64f10-84b2-11f0-a6b0-25a977754392",
     "slug": "tesni",
     "name": "TESNI",
@@ -8167,23 +8184,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 9000000,
-    "currency": "EUR"
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ola",
-    "name": "OLA",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744::assets::PGbGg8Xlk.png/{imageVariant}",
-    "length": 23.95,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1997,
-    "builder": "Sanlorenzo",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2100000,
     "currency": "EUR"
   },
   {
