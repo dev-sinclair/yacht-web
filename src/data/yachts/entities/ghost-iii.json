@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761235717534,
+  "lastModified": 1780321619997,
   "uri": "c::8864389904::vessel::d5cc4fcd-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -151,7 +151,14 @@
       "1 x 19'2 / 5.85m Williams Tender 110 HP engine"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Damera Elsabet Girmay",
+      "avatar": "/media/media::image::c::8864389904::vessel::d5cc4fcd-fe8c-11ed-889f-43d4bb723744::assets::4b7e7a00-5dc0-11f1-bf3f-e9bbcb6284f1/{imageVariant}",
+      "role": "Captain",
+      "bio": "With one full charter season as a Sole Stewardess on a 30m yacht in the Pacific Northwest, she brings strong organisational skills, a proactive attitude, and a genuine enthusiasm for guest service. Confidently managing the interior independently, she ensures a high standard of presentation and comfort, while her excellent communication skills help create a seamless experience between crew and guests. Having worked back-to-back charters and completed an Atlantic delivery crossing, she is adaptable, safety-conscious, and comfortable supporting both interior and deck operations when needed."
+    }
+  ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
