@@ -1,38 +1,339 @@
 ---
 import Container from "../ui/Container.astro";
-import RegionTile from "../destinations/RegionTile.astro";
 import { getAllRegions } from "../../lib/destinations/registry";
 
 const regions = getAllRegions();
+
+// Duplicate the list so the marquee can loop seamlessly: when the track
+// drifts past one full copy's width, we snap back by exactly that width,
+// landing on a visually identical position thanks to the duplicate.
+const looped = [...regions, ...regions];
+
+function unsplashAt(url: string, width: number): string {
+  return url.replace(/(\?|&)w=\d+/, `$1w=${width}`);
+}
 ---
 
-<section id="destinations" class="relative bg-warm-white py-24 lg:py-32">
+<section
+  id="destinations"
+  class="relative bg-warm-white py-32 lg:py-32 sm:pt-32 sm:pb-24 overflow-hidden"
+>
   <Container>
-    <!-- Header -->
-    <div class="max-w-2xl" data-reveal>
-      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-        Where We Sail
-      </p>
-      <h2
-        class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
-        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-      >
-        Destinations
-      </h2>
-      <div class="mt-6 h-px w-10 bg-gold/40"></div>
-      <p class="mt-8 text-base leading-[1.8] text-taupe">
-        From Mediterranean classics to the polar extremes, our brokers source charters across every major cruising ground. Choose a region to see what's possible.
-      </p>
-    </div>
+    <div class="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-2xl" data-reveal>
+        <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+          Where We Sail
+        </p>
+        <h2
+          class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
+          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+        >
+          Destinations
+        </h2>
+        <div class="mt-6 h-px w-10 bg-gold/40"></div>
+        <p class="hidden sm:block mt-8 text-base leading-[1.8] text-taupe">
+          From Mediterranean classics to the polar extremes, our brokers source charters across every major cruising ground. Drift through, or jump ahead.
+        </p>
+      </div>
 
-    <!-- Region grid (edge-to-edge, no gaps) -->
-    <ul
-      class="mt-14 lg:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
-      data-reveal
+    </div>
+  </Container>
+
+  <div
+    class="relative mt-14 lg:mt-20"
+    data-carousel
+    data-reveal
+  >
+    <div class="mb-5 flex items-center justify-between px-4 sm:hidden">
+      <button
+        type="button"
+        data-carousel-prev
+        aria-label="Previous destinations"
+        class="inline-flex items-center justify-center p-2 text-charcoal/60 transition-colors duration-300 hover:text-gold focus:outline-none focus-visible:text-gold cursor-pointer"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        data-carousel-next
+        aria-label="Next destinations"
+        class="inline-flex items-center justify-center p-2 text-charcoal/60 transition-colors duration-300 hover:text-gold focus:outline-none focus-visible:text-gold cursor-pointer"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+    <button
+      type="button"
+      data-carousel-prev
+      aria-label="Previous destinations"
+      class="hidden sm:inline-flex absolute sm:left-5 lg:left-8 top-1/2 z-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-white/15 p-4 backdrop-blur-sm text-white transition-colors duration-300 hover:text-gold hover:border-gold/60 hover:bg-white/25 focus:outline-none focus-visible:text-gold focus-visible:border-gold cursor-pointer"
+      style="filter: drop-shadow(0 2px 10px rgba(0,0,0,0.55));"
     >
-      {regions.map((region, index) => (
-        <RegionTile region={region} index={index} />
-      ))}
-    </ul>
+      <svg class="h-9 w-9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      data-carousel-next
+      aria-label="Next destinations"
+      class="hidden sm:inline-flex absolute sm:right-5 lg:right-8 top-1/2 z-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-white/15 p-4 backdrop-blur-sm text-white transition-colors duration-300 hover:text-gold hover:border-gold/60 hover:bg-white/25 focus:outline-none focus-visible:text-gold focus-visible:border-gold cursor-pointer"
+      style="filter: drop-shadow(0 2px 10px rgba(0,0,0,0.55));"
+    >
+      <svg class="h-9 w-9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+    <div class="overflow-hidden">
+      <div
+        class="flex gap-4 px-4 sm:gap-5 sm:px-6 lg:gap-6 lg:px-8"
+        data-carousel-track
+        style="will-change: transform;"
+      >
+        {looped.map((region, index) => {
+          const src640 = unsplashAt(region.heroImage, 640);
+          const src960 = unsplashAt(region.heroImage, 960);
+          const src1600 = unsplashAt(region.heroImage, 1600);
+          return (
+            <a
+              href={`/destinations/${region.slug}`}
+              class="carousel-card group relative block shrink-0 overflow-hidden bg-deep focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              style="aspect-ratio: 4 / 3;"
+              aria-label={`Explore ${region.name}`}
+              {...(index >= regions.length ? { tabindex: -1, "aria-hidden": "true" } : {})}
+            >
+              <img
+                src={src960}
+                srcset={`${src640} 640w, ${src960} 960w, ${src1600} 1600w`}
+                sizes="(min-width: 1536px) 32vw, (min-width: 1024px) 38vw, (min-width: 640px) 40vw, 62vw"
+                alt={region.name}
+                loading={index < 4 ? "eager" : "lazy"}
+                decoding="async"
+                width="1600"
+                height="1200"
+                class="absolute inset-0 h-full w-full object-cover transition-[transform,filter] duration-700 ease-out group-hover:scale-[1.04] group-hover:blur-md group-hover:brightness-[0.45]"
+              />
+
+              <div
+                class="absolute inset-x-0 bottom-0 px-5 pb-4 sm:px-6 sm:pb-5 transition-[opacity,transform] duration-500 ease-out group-hover:opacity-0 group-hover:translate-y-1"
+              >
+                <h3
+                  class="text-[13px] font-light tracking-[0.22em] uppercase text-white sm:text-[14px]"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300; text-shadow: 0 2px 14px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,0.75), 0 0 2px rgba(0,0,0,0.6);"
+                >
+                  {region.name}
+                </h3>
+                <p
+                  class="mt-1 max-w-[18rem] text-[10px] font-light leading-snug text-white/85 sm:text-[11px]"
+                  style="font-family: 'Raleway', sans-serif; text-shadow: 0 2px 12px rgba(0,0,0,0.85), 0 1px 3px rgba(0,0,0,0.7), 0 0 2px rgba(0,0,0,0.55);"
+                >
+                  {region.tagline}
+                </p>
+              </div>
+
+              <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 scale-95 transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:scale-100"
+              >
+                <span
+                  class="inline-flex items-center gap-3 text-[11px] font-medium tracking-[0.5em] uppercase text-white"
+                  style="font-family: 'Raleway', sans-serif;"
+                >
+                  Explore
+                  <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+  <Container class="mt-14 lg:mt-20 flex justify-center" data-reveal>
+    <a
+      href="/destinations"
+      class="btn-fill inline-flex items-center gap-4 border border-deep/20 px-12 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-charcoal"
+    >
+      View All Destinations
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
   </Container>
 </section>
+
+<style>
+  .carousel-card {
+    width: 62vw;
+    max-width: 260px;
+  }
+  @media (min-width: 480px) {
+    .carousel-card {
+      width: 54vw;
+      max-width: 300px;
+    }
+  }
+  @media (min-width: 640px) {
+    .carousel-card {
+      width: 40vw;
+      max-width: 380px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .carousel-card {
+      width: 38vw;
+      max-width: 580px;
+    }
+  }
+  @media (min-width: 1536px) {
+    .carousel-card {
+      width: 32vw;
+      max-width: 640px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-carousel-track] {
+      transform: none !important;
+    }
+  }
+</style>
+
+<script>
+  function initDestinationsCarousel() {
+    const carousel = document.querySelector<HTMLElement>("[data-carousel]");
+    const track = carousel?.querySelector<HTMLElement>("[data-carousel-track]");
+    const prevBtns = Array.from(
+      document.querySelectorAll<HTMLButtonElement>("[data-carousel-prev]"),
+    );
+    const nextBtns = Array.from(
+      document.querySelectorAll<HTMLButtonElement>("[data-carousel-next]"),
+    );
+    if (!carousel || !track || prevBtns.length === 0 || nextBtns.length === 0) return;
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const cards = Array.from(track.children) as HTMLElement[];
+    if (cards.length < 2) return;
+    const halfCount = Math.floor(cards.length / 2);
+
+    const SPEED_PPS = 22; // editorial drift: ~22px/sec
+    const EASE_K = 8;     // larger = snappier arrow jumps
+
+    let copyWidth = 0;
+    let cardStep = 320;
+    let offset = 0;
+    let target = 0;
+    let easing = false;
+    let paused = false;
+    let last = performance.now();
+    let raf = 0;
+
+    function measure() {
+      const first = cards[0];
+      const startOfSecondCopy = cards[halfCount];
+      if (!first || !startOfSecondCopy) return;
+      // Distance from the first card of copy 1 to the first card of copy 2.
+      // That's exactly one loop period — wrapping by this distance lands on
+      // a pixel-identical position.
+      copyWidth = startOfSecondCopy.offsetLeft - first.offsetLeft;
+      const gap = parseFloat(getComputedStyle(track).columnGap || "0") || 24;
+      cardStep = first.offsetWidth + gap;
+
+      // First measurement: park the track at -copyWidth so the rightward
+      // auto-drift has the full loop to traverse before wrapping.
+      if (offset === 0 && copyWidth > 0) {
+        offset = -copyWidth;
+        target = offset;
+        apply();
+      }
+    }
+
+    function apply() {
+      track.style.transform = `translate3d(${offset}px, 0, 0)`;
+    }
+
+    function wrap(v: number): number {
+      if (copyWidth <= 0) return v;
+      while (v > 0) v -= copyWidth;
+      while (v < -copyWidth) v += copyWidth;
+      return v;
+    }
+
+    function frame(now: number) {
+      const dt = Math.min(0.05, (now - last) / 1000);
+      last = now;
+
+      if (easing) {
+        const k = 1 - Math.exp(-dt * EASE_K);
+        offset += (target - offset) * k;
+        if (Math.abs(target - offset) < 0.5) {
+          offset = target;
+          easing = false;
+        }
+      } else if (!paused) {
+        // Auto drift: offset increases (track moves rightward → items
+        // visually slide from left to right).
+        offset += SPEED_PPS * dt;
+        target = offset;
+      }
+
+      const wrapped = wrap(offset);
+      if (wrapped !== offset) {
+        const delta = wrapped - offset;
+        offset = wrapped;
+        target += delta;
+      }
+      apply();
+      raf = requestAnimationFrame(frame);
+    }
+
+    function jump(direction: 1 | -1) {
+      // direction +1 = "next" (continue rightward in auto direction)
+      // direction -1 = "prev" (rewind leftward)
+      target = (easing ? target : offset) + direction * cardStep;
+      easing = true;
+    }
+
+    nextBtns.forEach((btn) => btn.addEventListener("click", () => jump(1)));
+    prevBtns.forEach((btn) => btn.addEventListener("click", () => jump(-1)));
+
+    carousel.addEventListener("mouseenter", () => { paused = true; });
+    carousel.addEventListener("mouseleave", () => { paused = false; });
+    carousel.addEventListener("focusin", () => { paused = true; });
+    carousel.addEventListener("focusout", () => { paused = false; });
+
+    const ro = new ResizeObserver(measure);
+    ro.observe(track);
+
+    measure();
+
+    if (!reduceMotion) {
+      last = performance.now();
+      raf = requestAnimationFrame(frame);
+    } else {
+      // Static layout: park at start, allow only arrow nudges.
+      offset = -copyWidth;
+      target = offset;
+      apply();
+    }
+
+    // Clean up if Astro view-transitions ever swap this page out.
+    document.addEventListener("astro:before-swap", () => {
+      cancelAnimationFrame(raf);
+      ro.disconnect();
+    }, { once: true });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initDestinationsCarousel);
+  } else {
+    initDestinationsCarousel();
+  }
+</script>

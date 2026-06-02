@@ -9,11 +9,11 @@ interface Props {
 const { regions } = Astro.props;
 ---
 
-<section class="bg-warm-white py-12 sm:py-16 lg:py-20">
-  <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
+<section class="bg-warm-white pt-10 pb-12 sm:pt-10 sm:pb-12 lg:pt-16 lg:pb-16">
+  <div class="mx-auto w-full px-8 sm:px-12 lg:px-16">
     <ul
       data-dest-grid
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1"
     >
       {regions.map((region, index) => (
         <RegionTile region={region} index={index} />
