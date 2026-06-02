@@ -15280,6 +15280,25 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405",
+    "slug": "lady-rose",
+    "name": "LADY ROSE",
+    "hero": "/media/media::image::a::vessel::e98677f0-83f7-11f0-871d-25f497afe405::assets::5ff950d0-83fb-11f0-bf18-0bf831954a7e/{imageVariant}",
+    "length": 20.55,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2026,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6900000,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::7819307041::vessel::d5cca3a0-fe8c-11ed-889f-43d4bb723744",
     "slug": "white-caps",
     "name": "WHITE CAPS",
@@ -15332,25 +15351,6 @@
       "winter-2025",
       "winter-2026"
     ]
-  },
-  {
-    "uri": "c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405",
-    "slug": "lady-rose",
-    "name": "LADY ROSE",
-    "hero": "/media/media::image::a::vessel::e98677f0-83f7-11f0-871d-25f497afe405::assets::5ff950d0-83fb-11f0-bf18-0bf831954a7e/{imageVariant}",
-    "length": 20.55,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2026,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6900000,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::18277099312::vessel::d5cc4e2e-fe8c-11ed-889f-43d4bb723744",
@@ -24593,6 +24593,29 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
+    "slug": "curanta-cridhe",
+    "name": "CURANTA CRIDHE",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744::assets::32ac7c30-12da-11ef-8a22-53421d5f5d06.jpeg/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2011,
+    "builder": "Discovery Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::19057481779::vessel::a69b8070-1d3f-11f1-856b-dd024e10e2b6",
     "slug": "errant-vagabond",
     "name": "ERRANT VAGABOND",
@@ -24643,29 +24666,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
-    "slug": "curanta-cridhe",
-    "name": "CURANTA CRIDHE",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744::assets::32ac7c30-12da-11ef-8a22-53421d5f5d06.jpeg/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2011,
-    "builder": "Discovery Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
