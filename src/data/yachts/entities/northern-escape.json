@@ -1,5 +1,5 @@
 {
-  "lastModified": 1763770448512,
+  "lastModified": 1780471277882,
   "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -187,30 +187,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 13970000,
+      "price": 20000000,
       "displayCurrency": "AUD",
-      "displayPrice": 13970000,
+      "displayPrice": 20000000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 31500000,
+      "price": 35000000,
       "displayCurrency": "AUD",
-      "displayPrice": 31500000,
+      "displayPrice": 35000000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 31570000,
+      "price": 35000000,
       "displayCurrency": "AUD",
-      "displayPrice": 31570000,
+      "displayPrice": 35000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 31570000,
+      "price": 42350000,
       "displayCurrency": "AUD",
-      "displayPrice": 31570000,
+      "displayPrice": 42350000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -218,21 +218,17 @@
         "name": "Overnight Charter rates: 3 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 13970000,
+          "charterFee": 20000000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -240,21 +236,25 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 13970000,
-              "amount": 13970000,
-              "conditions": "Daily"
+              "unitPrice": 20000000,
+              "amount": 20000000,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 13970000,
-              "amount": 3492500
+              "unitPrice": 20000000,
+              "amount": 5000000
             }
           ],
-          "total": 17462500,
-          "subTotal": 17462500,
-          "totalTax": 0
+          "total": 25000000,
+          "subTotal": 25000000,
+          "totalTax": 2000000
         },
         "inclusionZones": [
           {
@@ -299,21 +299,17 @@
         "name": "Overnight Charter rates: 4 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 18370000,
+          "charterFee": 23750000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -321,20 +317,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 18370000,
-              "amount": 18370000,
+              "unitPrice": 23750000,
+              "amount": 23750000,
               "conditions": "Daily"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 18370000,
-              "amount": 4592500
+              "unitPrice": 23750000,
+              "amount": 5937500
             }
           ],
-          "total": 22962500,
-          "subTotal": 22962500,
+          "total": 29687500,
+          "subTotal": 29687500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -380,21 +376,17 @@
         "name": "Overnight Charter rates: 5 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 22770000,
+          "charterFee": 27500000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -402,20 +394,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 22770000,
-              "amount": 22770000,
+              "unitPrice": 27500000,
+              "amount": 27500000,
               "conditions": "Daily"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 22770000,
-              "amount": 5692500
+              "unitPrice": 27500000,
+              "amount": 6875000
             }
           ],
-          "total": 28462500,
-          "subTotal": 28462500,
+          "total": 34375000,
+          "subTotal": 34375000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -461,21 +453,17 @@
         "name": "Overnight Charter rates: 6 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 27170000,
+          "charterFee": 31250000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -483,20 +471,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 27170000,
-              "amount": 27170000,
+              "unitPrice": 31250000,
+              "amount": 31250000,
               "conditions": "Daily"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 27170000,
-              "amount": 6792500
+              "unitPrice": 31250000,
+              "amount": 7812500
             }
           ],
-          "total": 33962500,
-          "subTotal": 33962500,
+          "total": 39062500,
+          "subTotal": 39062500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -542,21 +530,17 @@
         "name": "Overnight Charter rates: 7 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31570000,
+          "charterFee": 35000000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -564,20 +548,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31570000,
-              "amount": 31570000,
+              "unitPrice": 35000000,
+              "amount": 35000000,
               "conditions": "Weekly"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 31570000,
-              "amount": 7892500
+              "unitPrice": 35000000,
+              "amount": 8750000
             }
           ],
-          "total": 39462500,
-          "subTotal": 39462500,
+          "total": 43750000,
+          "subTotal": 43750000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -620,16 +604,20 @@
         "petsAllowed": false
       },
       {
-        "name": "Fiji (May and June 2026)",
+        "name": "Fiji (May and June 2026 | May and June 2027)",
         "effectiveDates": [
           {
             "from": "2026-05-01T00:00:00.000Z",
             "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31500000,
+          "charterFee": 35000000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -637,8 +625,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31500000,
-              "amount": 31500000,
+              "unitPrice": 35000000,
+              "amount": 35000000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "TAX ",
@@ -649,13 +637,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 0,
-              "amount": 0
+              "unitPrice": 35000000,
+              "amount": 10500000
             }
           ],
-          "total": 31500000,
-          "subTotal": 31500000,
-          "totalTax": 1575000
+          "total": 45500000,
+          "subTotal": 45500000,
+          "totalTax": 1750000
         },
         "inclusionZones": [
           {
@@ -682,16 +670,20 @@
         "petsAllowed": false
       },
       {
-        "name": "French Polynesia and Tahiti (July - October 2026)",
+        "name": "French Polynesia and Tahiti (July - October 2026 | July - November 2027)",
         "effectiveDates": [
           {
-            "from": "2025-07-01T00:00:00.000Z",
+            "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31500000,
+          "charterFee": 35000000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -699,8 +691,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31500000,
-              "amount": 31500000,
+              "unitPrice": 35000000,
+              "amount": 35000000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "TAX",
@@ -711,13 +703,63 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 0,
-              "amount": 0
+              "unitPrice": 35000000,
+              "amount": 10500000
             }
           ],
-          "total": 31500000,
-          "subTotal": 31500000,
-          "totalTax": 1575000
+          "total": 45500000,
+          "subTotal": 45500000,
+          "totalTax": 1750000
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Festive Period (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 42350000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 42350000,
+              "amount": 42350000,
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              },
+              "conditions": ""
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 42350000,
+              "amount": 10587500
+            }
+          ],
+          "total": 57172500,
+          "subTotal": 52937500,
+          "totalTax": 4235000
         },
         "inclusionZones": [],
         "exclusionZones": [],

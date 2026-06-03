@@ -1,5 +1,5 @@
 {
-  "lastModified": 1737561599262,
+  "lastModified": 1780470574043,
   "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -191,52 +191,48 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 2400000,
+      "price": 1650000,
       "displayCurrency": "AUD",
-      "displayPrice": 2400000,
+      "displayPrice": 1650000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 7800000,
+      "price": 9900000,
       "displayCurrency": "AUD",
-      "displayPrice": 7800000,
+      "displayPrice": 9900000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 9000000,
+      "price": 10150000,
       "displayCurrency": "AUD",
-      "displayPrice": 9000000,
+      "displayPrice": 10150000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 9000000,
+      "price": 11165000,
       "displayCurrency": "AUD",
-      "displayPrice": 9000000,
+      "displayPrice": 11165000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "DAY / 1 NIGHT CHARTER",
+        "name": "DAY CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 2400000,
+          "charterFee": 1650000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -244,8 +240,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2400000,
-              "amount": 2400000,
+              "unitPrice": 1650000,
+              "amount": 1650000,
               "conditions": "Daily",
               "taxRate": {
                 "label": " GST",
@@ -253,16 +249,20 @@
               }
             },
             {
-              "item": "APA (non-commissionable)",
+              "item": "Food and Standard Beverages Per Person",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 2640000,
-              "amount": 660000
+              "quantity": 1,
+              "unitPrice": 27500,
+              "amount": 27500,
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             }
           ],
-          "total": 3300000,
-          "subTotal": 3060000,
-          "totalTax": 240000
+          "total": 1845250,
+          "subTotal": 1677500,
+          "totalTax": 167750
         },
         "inclusionZones": [
           {
@@ -292,21 +292,17 @@
         "name": "2 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 3000000,
+          "charterFee": 4400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -314,8 +310,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3000000,
-              "amount": 3000000,
+              "unitPrice": 4400000,
+              "amount": 4400000,
               "taxRate": {
                 "label": " GST",
                 "value": 0.1
@@ -325,14 +321,14 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 3300000,
-              "amount": 825000
+              "quantity": 0.3,
+              "unitPrice": 4400300,
+              "amount": 1320090
             }
           ],
-          "total": 4125000,
-          "subTotal": 3825000,
-          "totalTax": 300000
+          "total": 6160090,
+          "subTotal": 5720090,
+          "totalTax": 440000
         },
         "inclusionZones": [
           {
@@ -362,21 +358,17 @@
         "name": "3 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 4200000,
+          "charterFee": 5550000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -384,8 +376,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 4200000,
-              "amount": 4200000,
+              "unitPrice": 5550000,
+              "amount": 5550000,
               "conditions": "3 Night",
               "taxRate": {
                 "label": " GST",
@@ -395,14 +387,14 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 4620000,
-              "amount": 1155000
+              "quantity": 0.3,
+              "unitPrice": 5550000,
+              "amount": 1665000
             }
           ],
-          "total": 5775000,
-          "subTotal": 5355000,
-          "totalTax": 420000
+          "total": 7770000,
+          "subTotal": 7215000,
+          "totalTax": 555000
         },
         "inclusionZones": [
           {
@@ -432,21 +424,17 @@
         "name": "4 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 5400000,
+          "charterFee": 6700000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -454,8 +442,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5400000,
-              "amount": 5400000,
+              "unitPrice": 6700000,
+              "amount": 6700000,
               "conditions": "4 Night",
               "taxRate": {
                 "label": " GST",
@@ -465,14 +453,14 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 5940000,
-              "amount": 1485000
+              "quantity": 0.3,
+              "unitPrice": 6700000,
+              "amount": 2010000
             }
           ],
-          "total": 7425000,
-          "subTotal": 6885000,
-          "totalTax": 540000
+          "total": 9380000,
+          "subTotal": 8710000,
+          "totalTax": 670000
         },
         "inclusionZones": [
           {
@@ -502,21 +490,17 @@
         "name": "5 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 6600000,
+          "charterFee": 7850000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -524,8 +508,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6600000,
-              "amount": 6600000,
+              "unitPrice": 7850000,
+              "amount": 7850000,
               "conditions": "5 Night",
               "taxRate": {
                 "label": " GST",
@@ -535,14 +519,14 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 7260000,
-              "amount": 1815000
+              "quantity": 0.3,
+              "unitPrice": 7850000,
+              "amount": 2355000
             }
           ],
-          "total": 9075000,
-          "subTotal": 8415000,
-          "totalTax": 660000
+          "total": 10990000,
+          "subTotal": 10205000,
+          "totalTax": 785000
         },
         "inclusionZones": [
           {
@@ -572,21 +556,17 @@
         "name": "6 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 7800000,
+          "charterFee": 9000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -594,8 +574,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7800000,
-              "amount": 7800000,
+              "unitPrice": 9000000,
+              "amount": 9000000,
               "conditions": "6 Night",
               "taxRate": {
                 "label": " GST",
@@ -605,14 +585,14 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 8580000,
-              "amount": 2145000
+              "quantity": 0.3,
+              "unitPrice": 9000000,
+              "amount": 2700000
             }
           ],
-          "total": 10725000,
-          "subTotal": 9945000,
-          "totalTax": 780000
+          "total": 12600000,
+          "subTotal": 11700000,
+          "totalTax": 900000
         },
         "inclusionZones": [
           {
@@ -642,21 +622,17 @@
         "name": "7 NIGHT CHARTER",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 9000000,
+          "charterFee": 10150000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -664,8 +640,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 9000000,
-              "amount": 9000000,
+              "unitPrice": 10150000,
+              "amount": 10150000,
               "conditions": "Weekly",
               "taxRate": {
                 "label": " GST",
@@ -675,16 +651,315 @@
             {
               "item": "APA (non-commissionable)",
               "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 9900000,
-              "amount": 2475000
+              "quantity": 0.3,
+              "unitPrice": 10150000,
+              "amount": 3045000
             }
           ],
-          "total": 12375000,
-          "subTotal": 11475000,
-          "totalTax": 900000
+          "total": 14210000,
+          "subTotal": 13195000,
+          "totalTax": 1015000
         },
         "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "5 NIGHT FESTIVE CHARTER (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-21T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2028-01-04T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 8635000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8635000,
+              "amount": 8635000,
+              "conditions": "",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 8635000,
+              "amount": 2590500
+            }
+          ],
+          "total": 12089000,
+          "subTotal": 11225500,
+          "totalTax": 863500
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "6 NIGHT FESTIVE CHARTER (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-21T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2028-01-04T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9900000,
+              "amount": 9900000,
+              "conditions": "",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9900000,
+              "amount": 2970000
+            }
+          ],
+          "total": 13860000,
+          "subTotal": 12870000,
+          "totalTax": 990000
+        },
+        "inclusionZones": [
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "7 NIGHT FESTIVE CHARTER (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-21T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2028-01-04T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 11165000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11165000,
+              "amount": 11165000,
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 11165000,
+              "amount": 3349500
+            }
+          ],
+          "total": 15631000,
+          "subTotal": 14514500,
+          "totalTax": 1116500
+        },
+        "inclusionZones": [
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
           {
             "label": "Australia",
             "type": "Country",

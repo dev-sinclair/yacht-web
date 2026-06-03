@@ -777,6 +777,28 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "olimp",
+    "name": "OLIMP",
+    "hero": "/media/media::image::a::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744::assets::dd715e70-5f21-11f1-9471-49936d7058fe/{imageVariant}",
+    "length": 52,
+    "sleeps": 20,
+    "cabins": 10,
+    "builtYear": 2017,
+    "builder": "Posejdon D.o.o.",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cc4f63-fe8c-11ed-889f-43d4bb723744",
     "slug": "alfa-mario",
     "name": "ALFA MARIO",
@@ -1153,28 +1175,24 @@
     ]
   },
   {
-    "uri": "c::27074328118::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38",
-    "slug": "swallow",
-    "name": "SWALLOW",
-    "hero": "/media/media::image::a::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38::assets::7b882290-50d9-11f0-93d9-c9a3efbbfc51/{imageVariant}",
+    "uri": "c::25941359203::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c",
+    "slug": "mama-marija-ii",
+    "name": "MAMA MARIJA II",
+    "hero": "/media/media::image::a::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c::assets::5f453510-bc63-11ef-9d92-cf1792365c93/{imageVariant}",
     "length": 49,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "Iskra Shipyard",
+    "sleeps": 42,
+    "cabins": 19,
+    "builtYear": 2020,
+    "builder": "",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 7700000,
+    "weekPricingFrom": 4200000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
+      "winter-2024"
     ]
   },
   {
@@ -1203,24 +1221,28 @@
     ]
   },
   {
-    "uri": "c::25941359203::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c",
-    "slug": "mama-marija-ii",
-    "name": "MAMA MARIJA II",
-    "hero": "/media/media::image::a::vessel::9d7baad0-bc5e-11ef-8320-3f237ded502c::assets::5f453510-bc63-11ef-9d92-cf1792365c93/{imageVariant}",
+    "uri": "c::27074328118::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38",
+    "slug": "swallow",
+    "name": "SWALLOW",
+    "hero": "/media/media::image::a::vessel::47cb8120-a8de-11ef-93f4-c151b7193f38::assets::7b882290-50d9-11f0-93d9-c9a3efbbfc51/{imageVariant}",
     "length": 49,
-    "sleeps": 42,
-    "cabins": 19,
-    "builtYear": 2020,
-    "builder": "",
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "Iskra Shipyard",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
+    "weekPricingFrom": 7700000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
-      "winter-2024"
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026"
     ]
   },
   {
@@ -2675,6 +2697,32 @@
     ]
   },
   {
+    "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "northern-escape",
+    "name": "NORTHERN ESCAPE",
+    "hero": "/media/media::image::a::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744::assets::87523da0-e8a0-11ef-b8b5-af15ae0d9691/{imageVariant}",
+    "length": 40.8,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2022,
+    "builder": "Benetti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 20000000,
+    "weekPricingFrom": 35000000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8294320436::vessel::d5b7fd20-9de2-11f0-acee-af15cde16442",
     "slug": "how-much-is-enough",
     "name": "HOW MUCH IS ENOUGH",
@@ -2698,32 +2746,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "northern-escape",
-    "name": "NORTHERN ESCAPE",
-    "hero": "/media/media::image::a::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744::assets::87523da0-e8a0-11ef-b8b5-af15ae0d9691/{imageVariant}",
-    "length": 40.8,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2022,
-    "builder": "Benetti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 13970000,
-    "weekPricingFrom": 31570000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -4695,14 +4717,12 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 3550000,
-    "weekPricingFrom": 14000000,
+    "dayPricingFrom": 10050000,
+    "weekPricingFrom": 17850000,
     "currency": "AUD",
     "seasons": [
-      "summer-2025",
       "summer-2026",
       "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -5446,6 +5466,30 @@
     ]
   },
   {
+    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
+    "slug": "flying-fish",
+    "name": "FLYING FISH",
+    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1991,
+    "builder": "Warren Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1650000,
+    "weekPricingFrom": 10150000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
     "slug": "alegria",
     "name": "ALEGRIA",
@@ -5708,32 +5752,6 @@
     "dayPricingFrom": 1050000,
     "weekPricingFrom": 7000000,
     "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
-    "slug": "flying-fish",
-    "name": "FLYING FISH",
-    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1991,
-    "builder": "Warren Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 2400000,
-    "weekPricingFrom": 9000000,
-    "currency": "AUD",
     "seasons": [
       "summer-2025",
       "summer-2026",
