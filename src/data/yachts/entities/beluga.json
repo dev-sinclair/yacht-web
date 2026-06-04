@@ -1,10 +1,10 @@
 {
-  "lastModified": 1780471191317,
+  "lastModified": 1780534021600,
   "uri": "c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Cairns, Queensland, Australia\nOperating Area: Australia\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2024. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10-12 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds. Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
+  "description": "Base / Home Port: Cairns, Queensland, Australia\nOperating Area: Australia & South Pacific\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2026. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds (allowing an additional 2 guest). Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
   "blueprint": {
     "name": "BELUGA",
     "images": [
@@ -12,7 +12,6 @@
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::98732d80-e57a-11ee-8565-d741043754b1.jpeg/{imageVariant}",
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::987661d1-e57a-11ee-8565-d741043754b1.jpeg/{imageVariant}",
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::9876d700-e57a-11ee-8565-d741043754b1.jpeg/{imageVariant}",
-      "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::9875c590-e57a-11ee-8565-d741043754b1.jpeg/{imageVariant}",
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::9875eca1-e57a-11ee-8565-d741043754b1.jpeg/{imageVariant}",
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::1cd136c0-f40d-11ef-8113-77a8f8cb108e/{imageVariant}",
       "/media/media::image::c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744::assets::70a3a620-f40d-11ef-ad68-870f375f1821/{imageVariant}",
@@ -35,10 +34,18 @@
     "model": "Moonen 114 Explorer",
     "maxCrew": 6,
     "sleeps": 12,
+    "basePort": {
+      "name": "Cairns, Queensland, Australia",
+      "coordinates": {
+        "longitude": 145.77678,
+        "latitude": -16.92133
+      },
+      "country": "Australia"
+    },
     "builtYear": 2006,
     "architect": "",
     "interiorDesigner": "",
-    "refitYear": 2024,
+    "refitYear": 2026,
     "topSpeed": "",
     "cruiseSpeed": 10,
     "fuelCapacity": 45180,
@@ -57,7 +64,7 @@
       }
     ],
     "cabins": 5,
-    "bathrooms": "",
+    "bathrooms": 7,
     "decks": 4,
     "length": 34.7,
     "beam": 7.9,
@@ -115,7 +122,7 @@
         "quantity": "12"
       },
       {
-        "label": "Seabobs F5",
+        "label": "Sea Scooters",
         "quantity": "2"
       },
       {
@@ -150,14 +157,15 @@
     ],
     "entertainment": [
       "Sonos Speakers",
-      "Broadband VSAT Internet",
-      "Netflix",
+      "Marine Starlink Wi-Fi",
+      "Netflix Streaming Service",
       "Kayo Streaming Services",
       "32” Smart TV ",
       "Samsung BlueRay DVD Player"
     ],
     "tenders": [
-      "2 x 4.3m Swift Mirage RIB 60hp tender"
+      "BRIG Eagle 8 - 8m Rigid Inflatable Cruiser 350hp Yamaha Engine",
+      "4.3m Swift Mirage RIB 60hp tender"
     ]
   },
   "crew": [
