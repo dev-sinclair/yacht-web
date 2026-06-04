@@ -2939,7 +2939,7 @@
     "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
     "slug": "ariela",
     "name": "ARIELA",
-    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::23add3a0-8d3d-11ee-93dd-617b2970d5d9.jpeg/{imageVariant}",
+    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::0507dec0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
     "length": 40,
     "sleeps": 12,
     "cabins": 6,
@@ -7551,32 +7551,6 @@
     ]
   },
   {
-    "uri": "c::21836669044::vessel::bb5908b0-8d80-11f0-b597-afb9a86615c6",
-    "slug": "dream-chaser",
-    "name": "DREAM CHASER",
-    "hero": "/media/media::image::a::vessel::bb5908b0-8d80-11f0-b597-afb9a86615c6::assets::fd9f40b0-8d83-11f0-bd8e-5550877256eb/{imageVariant}",
-    "length": 28.65,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2001,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::21836669044::vessel::d5cc7852-fe8c-11ed-889f-43d4bb723744",
     "slug": "tranquility",
     "name": "TRANQUILITY",
@@ -7600,6 +7574,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::21836669044::vessel::bb5908b0-8d80-11f0-b597-afb9a86615c6",
+    "slug": "dream-chaser",
+    "name": "DREAM CHASER",
+    "hero": "/media/media::image::a::vessel::bb5908b0-8d80-11f0-b597-afb9a86615c6::assets::fd9f40b0-8d83-11f0-bd8e-5550877256eb/{imageVariant}",
+    "length": 28.65,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2001,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
