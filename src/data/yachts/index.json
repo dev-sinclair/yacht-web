@@ -2223,6 +2223,28 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5",
+    "slug": "dodo",
+    "name": "DODO",
+    "hero": "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d52fb0-5ffb-11f1-adb6-972375bd7f5f/{imageVariant}",
+    "length": 42.85,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2005,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7580644881::vessel::d5cbd2f1-fe8c-11ed-889f-43d4bb723744",
     "slug": "son-of-wind",
     "name": "SON OF WIND",
@@ -5460,6 +5482,32 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744",
+    "slug": "sema-tuana",
+    "name": "SEMA TUANA",
+    "hero": "/media/media::image::c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744::assets::5vCeIhQNa.png/{imageVariant}",
+    "length": 32,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2008,
+    "builder": "Bodrum Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2275000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
     "slug": "flying-fish",
     "name": "FLYING FISH",
@@ -5654,32 +5702,6 @@
     "seasons": [
       "summer-2026",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744",
-    "slug": "sema-tuana",
-    "name": "SEMA TUANA",
-    "hero": "/media/media::image::c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744::assets::5vCeIhQNa.png/{imageVariant}",
-    "length": 32,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2008,
-    "builder": "Bodrum Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2275000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -7930,6 +7952,33 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::d5cc4d52-fe8c-11ed-889f-43d4bb723744",
+    "slug": "amazon-solo",
+    "name": "AMAZON SOLO",
+    "hero": "/media/media::image::c::13745145528::vessel::d5cc4d52-fe8c-11ed-889f-43d4bb723744::assets::yachts-3139-cCXc4lk3r.jpg/{imageVariant}",
+    "length": 28,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 1998,
+    "builder": "Coban Denizcilik",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1260000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7646090758::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744",
     "slug": "grace",
     "name": "GRACE",
@@ -8079,33 +8128,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::13745145528::vessel::d5cc4d52-fe8c-11ed-889f-43d4bb723744",
-    "slug": "amazon-solo",
-    "name": "AMAZON SOLO",
-    "hero": "/media/media::image::c::13745145528::vessel::d5cc4d52-fe8c-11ed-889f-43d4bb723744::assets::yachts-3139-cCXc4lk3r.jpg/{imageVariant}",
-    "length": 28,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 1998,
-    "builder": "Coban Denizcilik",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1260000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -8650,6 +8672,32 @@
     ]
   },
   {
+    "uri": "c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539",
+    "slug": "segara",
+    "name": "SEGARA",
+    "hero": "/media/media::image::c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539::assets::6088da80-b147-11ee-af5c-7d01dad09539.jpeg/{imageVariant}",
+    "length": 27,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2013,
+    "builder": "Shoreline Marine",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1500000,
+    "weekPricingFrom": 9796500,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819298091::vessel::f84cb300-486c-11f1-988b-69d6e1eb52a5",
     "slug": "carolina",
     "name": "CAROLINA",
@@ -8848,32 +8896,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539",
-    "slug": "segara",
-    "name": "SEGARA",
-    "hero": "/media/media::image::c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539::assets::6088da80-b147-11ee-af5c-7d01dad09539.jpeg/{imageVariant}",
-    "length": 27,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2013,
-    "builder": "Shoreline Marine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1500000,
-    "weekPricingFrom": 9796500,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
