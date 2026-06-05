@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780589172534,
+  "lastModified": 1780681068828,
   "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -8,10 +8,11 @@
   "blueprint": {
     "name": "ARIELA",
     "images": [
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::0507dec0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::10806c90-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::18d43ac0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::810274e0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::cf4257e0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::dbc66240-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::e84626e0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::f83d37f0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::72a79120-60fe-11f1-8aff-7f730ba4328b/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::381469a0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::779c7360-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::779b8900-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
@@ -19,7 +20,6 @@
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::54932e90-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::48ca5de0-602e-11f1-a4c8-07a14dfbb57c/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::4546a420-9ff7-11ee-8340-1d71d4321472.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::269b2f90-8d3d-11ee-93dd-617b2970d5d9.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b07950-c8df-11ef-a3b8-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69c316f0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69c3b330-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
@@ -33,20 +33,19 @@
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69cab810-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69c33e01-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b163b0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b22700-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b3ada0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b31160-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b38690-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b33870-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b2ea50-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b1d8e0-c8df-11ef-a3b8-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b422d0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b27520-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69bf6d70-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b7cc50-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b1fff0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69be8310-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b5a970-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b7cc50-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b27520-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b3ada0-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}"
+      "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::69b5a970-c8df-11ef-a3b9-0b7e72a1321a/{imageVariant}"
     ],
     "make": "CRN Ancona",
     "model": "CRN 128",
