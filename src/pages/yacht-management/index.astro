@@ -1,61 +1,72 @@
 ---
-import { Image } from "astro:assets";
 import "../../styles/global.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/layout/Navbar.astro";
 import Footer from "../../components/layout/Footer.astro";
 import Container from "../../components/ui/Container.astro";
-import heroImg from "../../assets/pano2.jpg";
-import portraitImg from "../../assets/dock.jpg";
+
+// Hero: photo by Mathias Reding on Unsplash
+// https://unsplash.com/photos/GjYDZXCLGRQ — white and black speedboat on the ocean
+const heroSrc =
+  "https://images.unsplash.com/photo-1571769637676-619b62e64f94?w=1920&q=80&auto=format&fit=crop";
+const heroSrcMd =
+  "https://images.unsplash.com/photo-1571769637676-619b62e64f94?w=1280&q=80&auto=format&fit=crop";
+
+// Why-Sinclair portrait: photo by Maurits Bausenhart on Unsplash
+// https://unsplash.com/photos/v-5m2uAzhYM — large modern yacht on calm sea
+const portraitSrc =
+  "https://images.unsplash.com/photo-1759135695910-0a6aaaab6b14?w=1200&q=80&auto=format&fit=crop";
+const portraitSrcHi =
+  "https://images.unsplash.com/photo-1759135695910-0a6aaaab6b14?w=1800&q=80&auto=format&fit=crop";
 
 const WHATSAPP_HREF =
-  "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20discuss%20charter%20management%20with%20Sinclair.";
+  "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20discuss%20yacht%20management%20with%20Sinclair.";
 
 const pillars = [
-  { label: "Marketing", text: "Photography, dossier, central agent network and listing placement. Your yacht presented to the audience it deserves." },
-  { label: "Bookings", text: "Enquiries qualified, contracts drafted and dates protected. Every charter vetted before it touches your calendar." },
-  { label: "APA & Finance", text: "Advance Provisioning Allowance held, reconciled and reported per charter. Owner statements you can audit at a glance." },
-  { label: "Compliance", text: "Charter licensing, flag state requirements, VAT and crew agreements, kept current so every booking is legally clean." },
+  { label: "Technical", text: "Maintenance schedules, refit planning, vendor management and condition reporting. The yacht stays in survey-ready shape, all year." },
+  { label: "Crew", text: "Recruitment, payroll, visas, training and rotation. Quietly retained, properly rewarded, ready when the owner is." },
+  { label: "Compliance", text: "Flag state, MLC, class, surveys and safety certification, kept current so the yacht is always cleared to sail." },
+  { label: "Finance", text: "Budgets, monthly P&L, year-end accounts and insurance. You always know what the yacht costs and why." },
 ];
 
 const steps = [
   {
     n: "01",
-    title: "Listing",
-    text: "We produce the dossier, set the rate card and place the yacht with the central agent network. Quietly positioned, properly priced.",
+    title: "Audit",
+    text: "We open with a private review: current contracts, accounts, crew, systems and condition. Honest, end-to-end, no blame.",
   },
   {
     n: "02",
-    title: "Bookings",
-    text: "Every enquiry qualified, every contract drafted on your terms. Calendar, embark/disembark and APA confirmed before a guest steps aboard.",
+    title: "Setup",
+    text: "Banking, payroll, vendors, insurance and compliance moved onto our systems. One handover, no parallel running, no lost data.",
   },
   {
     n: "03",
-    title: "Charter",
-    text: "Captain runs the trip; we coordinate guest logistics, preference sheets, transfers and any change of plan that comes mid-cruise.",
+    title: "Operate",
+    text: "Single broker accountable for the entire programme. Issues escalated before they become emergencies, decisions cleared with you, not around you.",
   },
   {
     n: "04",
-    title: "Reconciliation",
-    text: "APA closed and refunded, charter fee remitted, owner statement issued. Each charter wrapped clean within days of disembark.",
+    title: "Report",
+    text: "Monthly P&L, year-end accounts and an annual strategy session. You always know where the yacht stands financially and operationally.",
   },
 ];
 ---
 
 <BaseLayout
-  title="Charter Management · Sinclair Yachting"
-  description="Charter management from Sinclair. Marketing, bookings, contracts and APA. We commercialise your yacht and reconcile every cent."
+  title="Yacht Management · Sinclair Yachting"
+  description="Full-service yacht management from Sinclair. Technical, crew, compliance and finance. The operational running of the yacht, whether it charters or not."
 >
   <Navbar />
 
   <!-- Hero -->
   <section class="relative h-[70vh] min-h-[520px] w-full overflow-hidden bg-deep">
-    <Image
-      src={heroImg}
-      alt="Yacht under charter"
-      class="absolute inset-0 h-full w-full object-cover"
-      widths={[1280, 1920]}
+    <img
+      src={heroSrc}
+      srcset={`${heroSrcMd} 1280w, ${heroSrc} 1920w`}
       sizes="100vw"
+      alt="White and black speedboat on the ocean"
+      class="absolute inset-0 h-full w-full object-cover"
       loading="eager"
     />
     <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/45"></div>
@@ -63,18 +74,18 @@ const steps = [
     <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-16 sm:px-8 lg:px-12">
       <div class="mx-auto max-w-[1440px]" style="text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);">
         <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/80">
-          Charter Revenue
+          Management
         </p>
         <h1
           class="mt-4 text-4xl leading-[1.1] tracking-[0.08em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
-          Charter Management<br />
+          Yacht Management<br />
           done quietly
         </h1>
         <p class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base">
-          Marketing, bookings, contracts and APA. Handled by a single broker so the calendar fills,
-          the cashflow lands, and you never have to chase a payment or vet an enquiry yourself.
+          Technical, crew, compliance and finance. Handled end-to-end by a single broker, so the
+          yacht stays legal, maintained and crewed year-round. Whether or not it charters.
         </p>
         <div class="mt-8 flex flex-wrap items-center gap-4">
           <a
@@ -115,15 +126,15 @@ const steps = [
             class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            A Filled Calendar,<br />
-            Quietly Run
+            Quiet Standards,<br />
+            Year-Round
           </h2>
           <div class="mt-6 h-px w-10 bg-gold/40"></div>
           <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
-            Chartering should generate revenue, not anxiety. We commercialise a small number of
-            yachts at a time: present them properly, qualify every enquiry, draft every contract,
-            hold the APA, reconcile each trip and send a clean owner statement. You see the
-            calendar, the cashflow, and very little of the noise in between.
+            A managed yacht should feel like a private residence: always ready, always accounted for,
+            never the subject of an awkward phone call. We take a small number of vessels under
+            management at a time, treat each as a programme rather than a portfolio, and let the
+            owner spend their attention elsewhere. Charter or no charter, we handle the running.
           </p>
 
           <!-- Pillars -->
@@ -142,15 +153,16 @@ const steps = [
           </div>
         </div>
 
-        <!-- Right: portrait image -->
+        <!-- Right: portrait image. Remote Unsplash asset — plain <img> since
+             Astro's <Image> is tuned for local imports. -->
         <div class="relative hidden lg:block">
           <div class="relative aspect-[4/5] w-full overflow-hidden">
-            <Image
-              src={portraitImg}
-              alt="Yacht in port"
-              class="absolute inset-0 h-full w-full object-cover"
-              widths={[600, 900, 1200]}
+            <img
+              src={portraitSrc}
+              srcset={`${portraitSrc} 1200w, ${portraitSrcHi} 1800w`}
               sizes="(min-width: 1024px) 480px, 100vw"
+              alt="Large modern yacht on calm sea"
+              class="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
             />
           </div>
@@ -159,32 +171,32 @@ const steps = [
     </Container>
   </section>
 
-  <!-- Yacht Management cross-link -->
+  <!-- Charter Management cross-link -->
   <section class="bg-white pb-24 lg:pb-32">
     <Container>
       <div class="border-t border-deep/10 pt-12 lg:pt-16">
         <div class="grid items-end gap-8 sm:grid-cols-[1fr_auto] sm:gap-12">
           <div class="max-w-2xl">
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-              Also Need The Boat Run?
+              Also Chartering?
             </p>
             <h3
               class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
               style="font-family: 'Raleway', sans-serif; font-weight: 300;"
             >
-              Add Yacht Management
+              Add Charter Management
             </h3>
             <p class="mt-5 text-base leading-[1.8] text-taupe">
-              Charter Management commercialises the yacht. Yacht Management keeps it running.
-              Technical, crew, compliance and finance. Many owners want both under one roof:
-              same broker, same standard, two distinct programmes.
+              Yacht Management keeps the boat running. Charter Management commercialises it.
+              Many owners want both under one roof: same broker, same standard, two distinct
+              programmes.
             </p>
           </div>
           <a
-            href="/yacht-management"
+            href="/charter-management"
             class="inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
           >
-            Yacht Management
+            Charter Management
             <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
@@ -203,7 +215,7 @@ const steps = [
           class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
-          From Listing to Settled Statement
+          A Single Handover, A Single Point of Contact
         </h2>
         <div class="mt-6 h-px w-10 bg-gold/40"></div>
       </div>
@@ -236,16 +248,16 @@ const steps = [
         Begin a Confidential Conversation
       </h2>
       <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
-        We'll review the yacht, the current charter programme (if any), the realistic revenue
-        and whether our way of working would suit yours. Initial review costs nothing and is
-        entirely private. No obligation either way.
+        An initial audit costs nothing and is entirely private. We'll review the current state of
+        the yacht, the operating costs, and whether our way of working would suit yours. With no
+        obligation either way.
       </p>
       <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
         <a
           href="/#contact"
           class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
-          Request a review
+          Request an audit
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
           </svg>

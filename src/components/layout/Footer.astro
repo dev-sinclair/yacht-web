@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
 import pano from "../../assets/pano3.jpeg";
+import services from "../../data/services.json";
 ---
 
 <footer class="relative py-16 overflow-hidden"
@@ -51,14 +52,25 @@ import pano from "../../assets/pano3.jpeg";
         </p>
       </div>
 
-      <!-- Navigation (mirrors the header navbar) -->
+      <!-- Services + explore. Services are mapped from services.json so this
+           stays in sync if the list is reordered or extended. -->
       <div>
+        <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-white/40 mb-3">Services</p>
         <ul class="space-y-3">
-          <li><a href="/yachts" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Yacht Charter</a></li>
+          {services.map((s) => (
+            <li>
+              <a
+                href={s.href}
+                class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light"
+              >
+                {s.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-white/40 mb-3 mt-8">Explore</p>
+        <ul class="space-y-3">
           <li><a href="/destinations" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Destinations</a></li>
-          <li><a href="/#services" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Services</a></li>
-          <li><a href="/sales" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Sales</a></li>
-          <li><a href="/build" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">Build</a></li>
           <li><a href="/#about" class="text-sm font-medium text-white/60 transition-colors duration-300 hover:text-gold-light">About</a></li>
         </ul>
       </div>

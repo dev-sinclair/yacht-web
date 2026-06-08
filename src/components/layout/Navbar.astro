@@ -41,7 +41,7 @@ const links = [
           <li>
             <a
               href={link.href}
-              class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:text-gold"
+              class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
               style="font-family: 'Raleway', sans-serif;"
             >
               {link.label}
@@ -51,7 +51,7 @@ const links = [
       </ul>
       <a
         href="/#contact"
-        class="inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300 hover:bg-gold-dim"
+        class="enquire-btn inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300"
         style="font-family: 'Raleway', sans-serif;"
       >
         Enquire
@@ -82,7 +82,7 @@ const links = [
         <li>
           <a
             href={link.href}
-            class="nav-link block text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300 hover:text-gold"
+            class="nav-link block text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
             style="font-family: 'Raleway', sans-serif;"
           >
             {link.label}
@@ -92,7 +92,7 @@ const links = [
       <li>
         <a
           href="/#contact"
-          class="inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300 hover:bg-gold-dim"
+          class="enquire-btn inline-flex items-center justify-center bg-gold px-6 py-3 text-[11px] font-medium tracking-[0.25em] uppercase text-white transition-colors duration-300"
           style="font-family: 'Raleway', sans-serif;"
         >
           Enquire
@@ -101,6 +101,19 @@ const links = [
     </ul>
   </div>
 </nav>
+
+<style>
+  /* Hover color for nav links (desktop + mobile lists) and the Enquire
+     CTA. Using scoped CSS instead of Tailwind arbitrary-hex hover utilities
+     because Tailwind v4 has been unreliable picking those up at build time
+     in this project. */
+  .nav-link:hover {
+    color: #6e8e8f;
+  }
+  .enquire-btn:hover {
+    background-color: #6e8e8f;
+  }
+</style>
 
 <script>
   const toggle = document.getElementById("menu-toggle")!;

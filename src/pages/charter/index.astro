@@ -5,83 +5,90 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Navbar from "../../components/layout/Navbar.astro";
 import Footer from "../../components/layout/Footer.astro";
 import Container from "../../components/ui/Container.astro";
-import heroImg from "../../assets/pano2.jpg";
-import portraitImg from "../../assets/dock.jpg";
+import heroImg from "../../assets/catalogue-banner.jpg";
+
+// Why-Sinclair portrait: photo by ERIK SETH on Unsplash
+// https://unsplash.com/photos/snoX2DPdVE0 — boat in Porto Santo Stefano.
+const portraitSrc =
+  "https://images.unsplash.com/photo-1678122878191-79b60410779f?w=1200&q=80&auto=format&fit=crop";
+const portraitSrcHi =
+  "https://images.unsplash.com/photo-1678122878191-79b60410779f?w=1800&q=80&auto=format&fit=crop";
 
 const WHATSAPP_HREF =
-  "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20discuss%20charter%20management%20with%20Sinclair.";
+  "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20charter%20a%20yacht%20with%20Sinclair.";
 
 const pillars = [
-  { label: "Marketing", text: "Photography, dossier, central agent network and listing placement. Your yacht presented to the audience it deserves." },
-  { label: "Bookings", text: "Enquiries qualified, contracts drafted and dates protected. Every charter vetted before it touches your calendar." },
-  { label: "APA & Finance", text: "Advance Provisioning Allowance held, reconciled and reported per charter. Owner statements you can audit at a glance." },
-  { label: "Compliance", text: "Charter licensing, flag state requirements, VAT and crew agreements, kept current so every booking is legally clean." },
+  { label: "Curation", text: "A fleet personally vetted, not aggregated. Every yacht earns its place by build, crew and condition." },
+  { label: "Itinerary", text: "Routes plotted around your party, your dates and the season. Never a template, never a brochure." },
+  { label: "Crew", text: "Captains and stewards chosen for service as much as seamanship. The week is theirs to make seamless." },
+  { label: "Brokerage", text: "One broker from first call to final disembark. No handoffs, no concierge desk in the middle." },
 ];
 
 const steps = [
   {
     n: "01",
-    title: "Listing",
-    text: "We produce the dossier, set the rate card and place the yacht with the central agent network. Quietly positioned, properly priced.",
+    title: "Conversation",
+    text: "We start with a private call: Group size, dates, the kind of week you want. We listen more than we sell.",
   },
   {
     n: "02",
-    title: "Bookings",
-    text: "Every enquiry qualified, every contract drafted on your terms. Calendar, embark/disembark and APA confirmed before a guest steps aboard.",
+    title: "Selection",
+    text: "A shortlist of two or three yachts that genuinely suit, with honest notes on each. Not a 40-page dossier you'll never read.",
   },
   {
     n: "03",
-    title: "Charter",
-    text: "Captain runs the trip; we coordinate guest logistics, preference sheets, transfers and any change of plan that comes mid-cruise.",
+    title: "Itinerary",
+    text: "Anchorages, restaurants, shore excursions and tender plans shaped around your guests and the captain's local knowledge.",
   },
   {
     n: "04",
-    title: "Reconciliation",
-    text: "APA closed and refunded, charter fee remitted, owner statement issued. Each charter wrapped clean within days of disembark.",
+    title: "Sail",
+    text: "We stay reachable throughout. The crew runs the week; we handle anything they can't, from rebookings to last-minute requests.",
   },
 ];
 ---
 
 <BaseLayout
-  title="Charter Management · Sinclair Yachting"
-  description="Charter management from Sinclair. Marketing, bookings, contracts and APA. We commercialise your yacht and reconcile every cent."
+  title="Yacht Charter · Sinclair Yachting"
+  description="Crewed yacht charter from Sinclair. A personally vetted fleet, itineraries built around your party, one broker from first call to final disembark."
 >
   <Navbar />
 
   <!-- Hero -->
-  <section class="relative h-[70vh] min-h-[520px] w-full overflow-hidden bg-deep">
+  <section class="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-deep">
     <Image
       src={heroImg}
-      alt="Yacht under charter"
+      alt="Yacht under sail"
       class="absolute inset-0 h-full w-full object-cover"
+      style="transform: scaleX(-1);"
       widths={[1280, 1920]}
       sizes="100vw"
       loading="eager"
     />
-    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/45"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/55"></div>
 
     <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-16 sm:px-8 lg:px-12">
       <div class="mx-auto max-w-[1440px]" style="text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);">
         <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/80">
-          Charter Revenue
+          Charter
         </p>
         <h1
           class="mt-4 text-4xl leading-[1.1] tracking-[0.08em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
-          Charter Management<br />
-          done quietly
+          A Week At Sea,<br />
+          Quietly Arranged
         </h1>
         <p class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base">
-          Marketing, bookings, contracts and APA. Handled by a single broker so the calendar fills,
-          the cashflow lands, and you never have to chase a payment or vet an enquiry yourself.
+          A personally vetted fleet of crewed yachts across the world's finest cruising grounds.
+          We listen first, propose three, and stay close through to the final disembark.
         </p>
         <div class="mt-8 flex flex-wrap items-center gap-4">
           <a
-            href="/#contact"
+            href="/yachts"
             class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
           >
-            Speak with a broker
+            Browse the Fleet
             <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
@@ -102,7 +109,7 @@ const steps = [
     </div>
   </section>
 
-  <!-- Why Sinclair / pillars -->
+  <!-- Why charter with Sinclair / pillars -->
   <section class="bg-white py-24 lg:py-32">
     <Container>
       <div class="grid items-start gap-12 lg:grid-cols-[1fr_minmax(0,480px)] lg:gap-20">
@@ -115,15 +122,14 @@ const steps = [
             class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            A Filled Calendar,<br />
-            Quietly Run
+            Less Catalogue,<br />
+            More Conversation
           </h2>
           <div class="mt-6 h-px w-10 bg-gold/40"></div>
           <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
-            Chartering should generate revenue, not anxiety. We commercialise a small number of
-            yachts at a time: present them properly, qualify every enquiry, draft every contract,
-            hold the APA, reconcile each trip and send a clean owner statement. You see the
-            calendar, the cashflow, and very little of the noise in between.
+            A charter week is too short to spend negotiating with a desk. Our brokers handle a
+            small number of clients at a time and treat each week as a single project, from the
+            opening shortlist through to the dock at the end of the cruise.
           </p>
 
           <!-- Pillars -->
@@ -140,17 +146,31 @@ const steps = [
               </div>
             ))}
           </div>
+
+          <!-- Inline CTA after pillars -->
+          <div class="mt-12">
+            <a
+              href="/yachts"
+              class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+            >
+              See Available Yachts
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
         </div>
 
-        <!-- Right: portrait image -->
+        <!-- Right: portrait image. Remote Unsplash asset — uses a plain <img>
+             since Astro's <Image> component is tuned for local imports. -->
         <div class="relative hidden lg:block">
           <div class="relative aspect-[4/5] w-full overflow-hidden">
-            <Image
-              src={portraitImg}
-              alt="Yacht in port"
-              class="absolute inset-0 h-full w-full object-cover"
-              widths={[600, 900, 1200]}
+            <img
+              src={portraitSrc}
+              srcset={`${portraitSrc} 1200w, ${portraitSrcHi} 1800w`}
               sizes="(min-width: 1024px) 480px, 100vw"
+              alt="Blue and white yacht moored in Porto Santo Stefano"
+              class="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
             />
           </div>
@@ -159,37 +179,37 @@ const steps = [
     </Container>
   </section>
 
-  <!-- Yacht Management cross-link -->
-  <section class="bg-white pb-24 lg:pb-32">
+  <!-- Mid-page CTA strip — dimmed sage. Same layering pattern as the footer:
+       a base hex plus a low-opacity dark-teal overlay tints the color toward
+       depth without changing its hue family. -->
+  <section class="relative overflow-hidden py-20 lg:py-24" style="background-color: #6e8e8f;">
+    <!-- Slight dim overlay (matches the footer's base+tint technique). -->
+    <div class="absolute inset-0 pointer-events-none" style="background-color: rgba(15, 24, 25, 0.14);"></div>
     <Container>
-      <div class="border-t border-deep/10 pt-12 lg:pt-16">
-        <div class="grid items-end gap-8 sm:grid-cols-[1fr_auto] sm:gap-12">
-          <div class="max-w-2xl">
-            <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-              Also Need The Boat Run?
-            </p>
-            <h3
-              class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              Add Yacht Management
-            </h3>
-            <p class="mt-5 text-base leading-[1.8] text-taupe">
-              Charter Management commercialises the yacht. Yacht Management keeps it running.
-              Technical, crew, compliance and finance. Many owners want both under one roof:
-              same broker, same standard, two distinct programmes.
-            </p>
-          </div>
-          <a
-            href="/yacht-management"
-            class="inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
+      <div class="relative flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
+        <div class="max-w-xl">
+          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/80">
+            Already Have a Week in Mind?
+          </p>
+          <h2
+            class="mt-4 text-2xl font-light tracking-[0.12em] uppercase text-white sm:text-3xl"
+            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Yacht Management
-            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </a>
+            Explore the Fleet
+          </h2>
+          <p class="mt-3 text-sm leading-relaxed text-white/70">
+            Hundreds of crewed yachts across every major cruising ground. Filter by season, length, guests, region.
+          </p>
         </div>
+        <a
+          href="/yachts"
+          class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-8 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
+        >
+          Browse the Fleet
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
       </div>
     </Container>
   </section>
@@ -203,7 +223,7 @@ const steps = [
           class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
-          From Listing to Settled Statement
+          From First Call to Final Disembark
         </h2>
         <div class="mt-6 h-px w-10 bg-gold/40"></div>
       </div>
@@ -225,27 +245,69 @@ const steps = [
     </Container>
   </section>
 
+  <!-- Destinations cross-link -->
+  <section class="bg-white py-20 lg:py-24">
+    <Container>
+      <div class="grid items-end gap-8 sm:grid-cols-[1fr_auto] sm:gap-12">
+        <div class="max-w-2xl">
+          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+            Where to Sail
+          </p>
+          <h2
+            class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl"
+            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+          >
+            Pick a Region First
+          </h2>
+          <p class="mt-6 text-base leading-[1.8] text-taupe">
+            Not sure where the week should start? Browse our destinations to see what each
+            cruising ground offers, then filter the fleet by where they're based.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="/destinations"
+            class="inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
+          >
+            Explore Destinations
+            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a
+            href="/yachts"
+            class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+          >
+            Or browse all yachts
+            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </Container>
+  </section>
+
   <!-- Closing CTA -->
-  <section class="bg-white py-24 lg:py-32 text-center">
+  <section class="bg-cream/30 py-24 lg:py-32 text-center">
     <Container>
       <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Ready When You Are</p>
       <h2
         class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
         style="font-family: 'Raleway', sans-serif; font-weight: 300;"
       >
-        Begin a Confidential Conversation
+        Start With a Yacht or a Conversation
       </h2>
       <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
-        We'll review the yacht, the current charter programme (if any), the realistic revenue
-        and whether our way of working would suit yours. Initial review costs nothing and is
-        entirely private. No obligation either way.
+        Browse the fleet to see what's available, or message a broker directly. Either way leads to
+        the same place — a week at sea, quietly arranged on your terms.
       </p>
       <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
         <a
-          href="/#contact"
+          href="/yachts"
           class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
-          Request a review
+          Browse the Fleet
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
           </svg>
