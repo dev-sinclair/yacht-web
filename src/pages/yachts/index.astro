@@ -8,7 +8,8 @@ import YachtFilters from "../../components/catalogue/YachtFilters.astro";
 import Footer from "../../components/layout/Footer.astro";
 import type { YachtFacets } from "../../data/types/yacht";
 import { regionBySlug } from "../../lib/destinations/registry";
-import { isYachtCategory, isYachtSeason, formatSeason } from "../../data/yacht-service";
+import { locationBySlug } from "../../lib/destinations/location-yachts";
+import { getAllYachts, getFacets, isYachtCategory, isYachtSeason, formatSeason } from "../../data/yacht-service";
 
 // No data fetched in the frontmatter — page renders shell + skeleton instantly.
 // Real data is loaded client-side from /api/yachts.json so the user lands on
@@ -26,18 +27,21 @@ const rawRegion = Astro.url.searchParams.get("region") ?? "";
 const activeRegionData = rawRegion ? regionBySlug(rawRegion) : null;
 const activeRegion = activeRegionData?.slug ?? "";
 
+const rawLocation = Astro.url.searchParams.get("location") ?? "";
+const activeLocationData =
+  activeRegionData && rawLocation ? locationBySlug(activeRegionData, rawLocation) : undefined;
+const activeLocation = activeLocationData?.slug ?? "";
+
 const rawSeason = Astro.url.searchParams.get("season") ?? "";
 const activeSeason = isYachtSeason(rawSeason) ? rawSeason : "";
 const activeSeasonLabel = activeSeason ? formatSeason(activeSeason) : "";
 
-// YachtFilters only uses `facets` for typing today (its actual sliders are
-// hard-coded). Pass an empty stub so the component renders without data.
-const stubFacets: YachtFacets = {
-  yachtTypes: [],
-  lengthRange: { min: 0, max: 0 },
-  guestRange: { min: 0, max: 0 },
-  priceRange: { min: 0, max: 0 },
-};
+// Compute real facets server-side so YachtFilters can size its sliders to
+// the actual catalog (chiefly the price slider's max). The snapshot index
+// is memoized in src/data/snapshot.ts so this is a near-free per-request
+// hit after the first one. Categories filter doesn't apply here — we want
+// facet bounds for the full eligible catalog, not just the active type.
+const facets: YachtFacets = getFacets(await getAllYachts());
 ---
 
 <BaseLayout
@@ -68,25 +72,29 @@ const stubFacets: YachtFacets = {
               <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </button>
-          <div id="filters-panel" class="hidden lg:block">
-            <YachtFilters facets={stubFacets} activeType={activeType} activeRegion={activeRegion} activeSeason={activeSeason} />
+          <div id="filters-panel" class="hidden lg:block lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-2 filters-scroll">
+            <YachtFilters facets={facets} activeType={activeType} activeRegion={activeRegion} activeLocation={activeLocation} activeSeason={activeSeason} />
           </div>
         </aside>
 
-        <div data-yachts-root data-active-type={activeType} data-active-region={activeRegion} data-active-season={activeSeason}>
+        <div data-yachts-root data-active-type={activeType} data-active-region={activeRegion} data-active-location={activeLocation} data-active-season={activeSeason}>
           <div class="mb-8" data-reveal>
             <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
-              {activeRegionData ? "Region" : "Hand-picked"}
+              {activeLocationData ? "Location" : activeRegionData ? "Region" : "Hand-picked"}
             </p>
             <h2
               class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
               style="font-family: 'Raleway', sans-serif; font-weight: 300;"
             >
-              {activeRegionData ? `Yachts Cruising ${activeRegionData.name}` : "Featured Yachts"}
+              {activeLocationData
+                ? `Yachts Cruising ${activeLocationData.name}`
+                : activeRegionData
+                  ? `Yachts Cruising ${activeRegionData.name}`
+                  : "Featured Yachts"}
             </h2>
             {activeRegionData && (
               <p class="mt-3 max-w-2xl text-sm font-light leading-relaxed text-taupe">
-                {activeRegionData.tagline}.
+                {(activeLocationData?.tagline ?? activeRegionData.tagline)}.
                 <a
                   href={`/destinations/${activeRegionData.slug}`}
                   class="ml-2 inline-flex items-center gap-1 text-gold transition-colors duration-300 hover:text-gold-dim"
@@ -225,6 +233,14 @@ const stubFacets: YachtFacets = {
     content-visibility: auto;
     contain-intrinsic-size: 0 440px;
   }
+
+  /* Sticky filter column: internal scroll when content exceeds viewport
+     (the sidebar is taller than 100vh−96px on dense filter pages). Thin,
+     near-invisible scrollbar to stay editorial. */
+  .filters-scroll { scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.18) transparent; }
+  .filters-scroll::-webkit-scrollbar { width: 6px; }
+  .filters-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.18); border-radius: 9999px; }
+  .filters-scroll::-webkit-scrollbar-track { background: transparent; }
 </style>
 
 <script>
@@ -282,7 +298,7 @@ const stubFacets: YachtFacets = {
 
   function formatLength(meters: number): string {
     const feet = Math.round(meters * 3.28084);
-    return `${meters.toFixed(2)}m / ${feet}'`;
+    return `${meters.toFixed(1)}m / ${feet}'`;
   }
 
   function escapeHtml(s: string): string {
@@ -297,12 +313,17 @@ const stubFacets: YachtFacets = {
   function renderCard(yacht: YachtCard): string {
     const heroUrl = resolveImage(yacht.hero, "640x");
     const heroUrlHi = resolveImage(yacht.hero, "1280x");
-    const hasWeek = yacht.weekPricingFrom != null;
-    const hasDay = yacht.dayPricingFrom != null;
-    const priceMain = hasWeek
-      ? formatPrice(yacht.weekPricingFrom, yacht.currency)
-      : hasDay ? formatPrice(yacht.dayPricingFrom, yacht.currency) : "On Request";
-    const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
+    // Week-only display. Day-only yachts that clear the €15k/week eligibility
+    // gate are shown with their aggregated week price (day × 7). API only
+    // ships eligible yachts so this branch is non-empty whenever it runs.
+    const weekCents =
+      yacht.weekPricingFrom != null && yacht.weekPricingFrom > 0
+        ? yacht.weekPricingFrom
+        : yacht.dayPricingFrom != null && yacht.dayPricingFrom > 0
+          ? yacht.dayPricingFrom * 7
+          : null;
+    const priceMain = weekCents != null ? formatPrice(weekCents, yacht.currency) : "On Request";
+    const priceUnit = weekCents != null ? "/ week" : "";
     const builder = yacht.builder || "—";
     const name = escapeHtml(yacht.name);
     const builderEsc = escapeHtml(builder);
@@ -318,7 +339,7 @@ const stubFacets: YachtFacets = {
   data-yacht-guests="${yacht.sleeps}"
   data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
 >
-  <div class="yacht-card-image aspect-[4/3] overflow-hidden bg-cream">
+  <div class="yacht-card-image aspect-[3/2] overflow-hidden bg-cream">
     ${heroUrl
       ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="h-full w-full object-cover" loading="lazy" />`
       : `<div class="h-full w-full bg-cream"></div>`}
@@ -389,6 +410,7 @@ const stubFacets: YachtFacets = {
   let allYachts: YachtCard[] = [];
   let activeYachtType = "";
   let activeRegion = "";
+  let activeLocation = "";
   let activeSeason = "";
   let currentPage = 1;
   let filterState: FilterState = EMPTY_FILTER;
@@ -459,6 +481,7 @@ const stubFacets: YachtFacets = {
     const params = new URLSearchParams();
     if (activeYachtType) params.set("yachtType", activeYachtType);
     if (activeRegion) params.set("region", activeRegion);
+    if (activeLocation) params.set("location", activeLocation);
     if (activeSeason) params.set("season", activeSeason);
     if (sortMode !== "default") params.set("sort", sortMode);
     if (currentPage > 1) params.set("page", String(currentPage));
@@ -566,10 +589,12 @@ const stubFacets: YachtFacets = {
     if (!root) return;
     activeYachtType = root.dataset.activeType ?? "";
     activeRegion = root.dataset.activeRegion ?? "";
+    activeLocation = root.dataset.activeLocation ?? "";
     activeSeason = root.dataset.activeSeason ?? "";
     const params = new URLSearchParams();
     if (activeYachtType) params.set("yachtType", activeYachtType);
     if (activeRegion) params.set("region", activeRegion);
+    if (activeLocation) params.set("location", activeLocation);
     if (activeSeason) params.set("season", activeSeason);
     const qs = params.toString();
     const url = qs ? `/api/yachts.json?${qs}` : "/api/yachts.json";

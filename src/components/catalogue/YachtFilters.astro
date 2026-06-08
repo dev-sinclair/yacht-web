@@ -7,12 +7,27 @@ interface Props {
   facets: YachtFacets;
   activeType?: string;
   activeRegion?: string;
+  activeLocation?: string;
   activeSeason?: string;
 }
 
-const { activeType = "", activeRegion = "", activeSeason = "" } = Astro.props;
+const {
+  facets,
+  activeType = "",
+  activeRegion = "",
+  activeLocation = "",
+  activeSeason = "",
+} = Astro.props;
 
 const regions = getAllRegions();
+
+const activeRegionForLabel = activeRegion ? regions.find((r) => r.slug === activeRegion) : undefined;
+const activeLocationForLabel =
+  activeRegionForLabel && activeLocation
+    ? activeRegionForLabel.locations.find((l) => l.slug === activeLocation)
+    : undefined;
+const locationButtonLabel =
+  activeLocationForLabel?.name ?? activeRegionForLabel?.name ?? "All locations";
 
 function withParam(base: Record<string, string>, key: string, value: string): string {
   const params = new URLSearchParams();
@@ -23,17 +38,48 @@ function withParam(base: Record<string, string>, key: string, value: string): st
   return qs ? `/yachts?${qs}` : "/yachts";
 }
 
-const LENGTH_MIN = 15;
+// Region/location URL helpers: a region link drops any active location;
+// a location link keeps both region and location set (the API needs both).
+function regionHref(regionSlug: string): string {
+  return withParam(
+    { yachtType: activeType, season: activeSeason },
+    "region",
+    regionSlug,
+  );
+}
+
+function locationHref(regionSlug: string, locationSlug: string): string {
+  const params = new URLSearchParams();
+  if (activeType) params.set("yachtType", activeType);
+  if (activeSeason) params.set("season", activeSeason);
+  params.set("region", regionSlug);
+  params.set("location", locationSlug);
+  return `/yachts?${params.toString()}`;
+}
+
+// 24m is the lowest eligible length (catamaran cutoff); non-catamarans start
+// at 30m. See isEligibleYacht in yacht-service.ts.
+const LENGTH_MIN = 24;
 const LENGTH_MAX = 150;
 const LENGTH_STEP = 1;
 
 const GUESTS_MIN = 1;
-const GUESTS_MAX = 30;
+// 12 is a hard cap globally (see isEligibleYacht in yacht-service.ts) —
+// no yacht in the catalog can exceed it, so the upper bound is firm rather
+// than a "+" soft-max.
+const GUESTS_MAX = 12;
 const GUESTS_STEP = 1;
 
 const PRICE_MIN = 0;
-const PRICE_MAX = 2_000_000;
 const PRICE_STEP = 5_000;
+// Adapt the price slider's upper bound to the most expensive yacht in the
+// eligible catalog (facets.priceRange.max comes from yacht-service.getFacets
+// in EUR cents). Round up to the nearest €50k so the cap reads cleanly, and
+// floor at €500k so an empty/sparse catalog doesn't collapse the slider.
+const PRICE_MAX = Math.max(
+  500_000,
+  Math.ceil(facets.priceRange.max / 100 / 50_000) * 50_000,
+);
 
 const pillClass = (selected: boolean) =>
   selected
@@ -42,66 +88,28 @@ const pillClass = (selected: boolean) =>
 
 const sectionLabelClass = "text-[10px] font-medium tracking-[0.2em] uppercase text-taupe-light";
 const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-deep/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-deep";
+
+const regionHeaderClass = (active: boolean) =>
+  active
+    ? "block w-full px-2 py-1 text-[11px] font-semibold tracking-[0.15em] uppercase bg-deep text-white transition-colors duration-200"
+    : "block w-full px-2 py-1 text-[11px] font-semibold tracking-[0.15em] uppercase text-charcoal transition-colors duration-200 hover:text-deep";
+
+const locationItemClass = (active: boolean) =>
+  active
+    ? "block w-full pl-4 pr-2 py-1 text-[11px] font-light tracking-[0.05em] bg-deep text-white transition-colors duration-200"
+    : "block w-full pl-4 pr-2 py-1 text-[11px] font-light tracking-[0.05em] text-deep transition-colors duration-200 hover:text-charcoal";
 ---
 
 <aside id="yacht-filters" class="space-y-5">
-  <!-- Search -->
-  <div>
-    <label class={sectionLabelClass} for="filter-search">Search</label>
-    <div class="relative mt-2">
-      <input
-        id="filter-search"
-        type="search"
-        placeholder="Name or builder…"
-        class="w-full px-3 py-2.5 pr-9 text-xs tracking-[0.05em] border border-deep/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-deep placeholder:text-taupe-light/70"
-        autocomplete="off"
-      />
-      <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-taupe-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7" />
-        <path d="m20 20-3.5-3.5" />
-      </svg>
-    </div>
-  </div>
-
   <!-- Type pills -->
   <div>
     <p class={sectionLabelClass}>Type</p>
     <div class="mt-2 grid grid-cols-2 gap-1.5">
-      <a class={pillClass(activeType === "")} href={withParam({ region: activeRegion, season: activeSeason }, "yachtType", "")}>All</a>
+      <a class={pillClass(activeType === "")} href={withParam({ region: activeRegion, location: activeLocation, season: activeSeason }, "yachtType", "")}>All</a>
       {YACHT_CATEGORIES.map((type) => (
-        <a class={pillClass(activeType === type)} href={withParam({ region: activeRegion, season: activeSeason }, "yachtType", type)}>{type}</a>
+        <a class={pillClass(activeType === type)} href={withParam({ region: activeRegion, location: activeLocation, season: activeSeason }, "yachtType", type)}>{type}</a>
       ))}
     </div>
-  </div>
-
-  <!-- Region select -->
-  <div>
-    <p class={sectionLabelClass}>Region</p>
-    <div class="relative mt-2">
-      <select
-        id="filter-region"
-        class="num w-full appearance-none border border-deep/20 bg-transparent px-3 py-2.5 pr-9 text-xs tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-deep cursor-pointer"
-      >
-        <option value="">All regions</option>
-        {regions.map((region) => (
-          <option value={region.slug} selected={activeRegion === region.slug}>{region.name}</option>
-        ))}
-      </select>
-      <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-taupe-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-      </svg>
-    </div>
-    {activeRegion && (
-      <a
-        href={withParam({ yachtType: activeType, season: activeSeason }, "region", "")}
-        class="mt-2 inline-flex items-center gap-1 text-[10px] font-medium tracking-[0.2em] uppercase text-taupe transition-colors duration-300 hover:text-charcoal"
-      >
-        <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-        Clear region
-      </a>
-    )}
   </div>
 
   <!-- Season select -->
@@ -123,7 +131,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     </div>
     {activeSeason && (
       <a
-        href={withParam({ yachtType: activeType, region: activeRegion }, "season", "")}
+        href={withParam({ yachtType: activeType, region: activeRegion, location: activeLocation }, "season", "")}
         class="mt-2 inline-flex items-center gap-1 text-[10px] font-medium tracking-[0.2em] uppercase text-taupe transition-colors duration-300 hover:text-charcoal"
       >
         <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -132,6 +140,105 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
         Clear season
       </a>
     )}
+  </div>
+
+  <!-- Location dropdown: button opens a panel with the nested region/location tree -->
+  <div>
+    <p class={sectionLabelClass}>Location</p>
+    <div class="relative mt-2" data-location-dropdown>
+      <button
+        id="filter-location-button"
+        type="button"
+        aria-haspopup="listbox"
+        aria-expanded="false"
+        aria-controls="filter-location-panel"
+        class="num w-full appearance-none border border-deep/20 bg-transparent px-3 py-2.5 pr-9 text-xs tracking-[0.05em] text-charcoal transition-colors duration-300 focus:outline-none focus:border-deep cursor-pointer text-left"
+      >
+        <span data-location-label class="block truncate">{locationButtonLabel}</span>
+      </button>
+      <svg
+        class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-taupe-light transition-transform duration-200"
+        data-location-chevron
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+
+      <div
+        id="filter-location-panel"
+        hidden
+        class="absolute left-0 right-0 top-full z-30 mt-1 max-h-96 overflow-y-auto border border-deep/20 bg-white shadow-lg"
+        role="listbox"
+        tabindex="-1"
+      >
+        <ul class="py-1 space-y-1">
+          <li>
+            <a
+              href="/yachts"
+              class={regionHeaderClass(!activeRegion && !activeLocation)}
+            >
+              All locations
+            </a>
+          </li>
+          {regions.map((region) => (
+            <li>
+              <a
+                href={regionHref(region.slug)}
+                class={regionHeaderClass(activeRegion === region.slug && !activeLocation)}
+              >
+                {region.name}
+              </a>
+              {region.locations.length > 0 && (
+                <ul class="mt-0.5 space-y-0.5">
+                  {region.locations.map((loc) => (
+                    <li>
+                      <a
+                        href={locationHref(region.slug, loc.slug)}
+                        class={locationItemClass(activeRegion === region.slug && activeLocation === loc.slug)}
+                      >
+                        {loc.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+    {(activeRegion || activeLocation) && (
+      <a
+        href={withParam({ yachtType: activeType, season: activeSeason }, "region", "")}
+        class="mt-2 inline-flex items-center gap-1 text-[10px] font-medium tracking-[0.2em] uppercase text-taupe transition-colors duration-300 hover:text-charcoal"
+      >
+        <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        Clear location
+      </a>
+    )}
+  </div>
+
+  <!-- Search -->
+  <div>
+    <label class={sectionLabelClass} for="filter-search">Name &amp; builder</label>
+    <div class="relative mt-2">
+      <input
+        id="filter-search"
+        type="search"
+        placeholder="Name or builder…"
+        class="w-full px-3 py-2.5 pr-9 text-xs tracking-[0.05em] border border-deep/20 text-charcoal bg-transparent transition-colors duration-300 focus:outline-none focus:border-deep placeholder:text-taupe-light/70"
+        autocomplete="off"
+      />
+      <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-taupe-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.5-3.5" />
+      </svg>
+    </div>
   </div>
 
   <!-- Length range -->
@@ -148,7 +255,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-length-min" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum length" />
       <input id="filter-length-max" type="range" min={LENGTH_MIN} max={LENGTH_MAX} step={LENGTH_STEP} value={LENGTH_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum length" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-length-display">15m – 150m+</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-length-display">24m – 150m+</span></p>
   </div>
 
   <!-- Guests range -->
@@ -165,7 +272,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-guests-min" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum guests" />
       <input id="filter-guests-max" type="range" min={GUESTS_MIN} max={GUESTS_MAX} step={GUESTS_STEP} value={GUESTS_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum guests" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 30+</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 12</span></p>
   </div>
 
   <!-- Price range -->
@@ -182,7 +289,7 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
       <input id="filter-price-min" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum price" />
       <input id="filter-price-max" type="range" min={PRICE_MIN} max={PRICE_MAX} step={PRICE_STEP} value={PRICE_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum price" />
     </div>
-    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">€0 – €2,000,000+</span></p>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-price-display">{`€${PRICE_MIN.toLocaleString("en-US")} – €${PRICE_MAX.toLocaleString("en-US")}+`}</span></p>
   </div>
 
 </aside>
@@ -375,7 +482,8 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     track: "filter-guests-track",
     display: "filter-guests-display",
     fmt: (v) => `${v}`,
-    treatMaxAsPlus: true,
+    // 12 is a hard cap globally — no "+" suffix.
+    treatMaxAsPlus: false,
   }, () => emitFilterChange());
 
   const priceRange = setupRange({
@@ -397,21 +505,6 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     }, 150);
   });
 
-  // Region select: navigate to /yachts with the new region param. Region is
-  // a server-side filter (the API needs to load entity zones), so it lives
-  // in the URL alongside yachtType — full page transition keeps both
-  // filter dimensions in sync with the URL state machine.
-  const regionSelect = document.getElementById("filter-region") as HTMLSelectElement | null;
-  regionSelect?.addEventListener("change", () => {
-    const params = new URL(window.location.href).searchParams;
-    if (regionSelect.value) params.set("region", regionSelect.value);
-    else params.delete("region");
-    // Drop pagination — a new region collapses the result set.
-    params.delete("page");
-    const qs = params.toString();
-    window.location.href = qs ? `/yachts?${qs}` : "/yachts";
-  });
-
   // Season select: same shape as Region — server-side filter (the snapshot's
   // seasons array is read on the API path), full-page reload to keep URL
   // state authoritative.
@@ -423,5 +516,36 @@ const numInputClass = "w-full px-2 py-2 text-xs tracking-[0.05em] border border-
     params.delete("page");
     const qs = params.toString();
     window.location.href = qs ? `/yachts?${qs}` : "/yachts";
+  });
+
+  // Location dropdown: click toggles the panel; outside-click and Escape close it.
+  // Each item inside the panel is a plain <a href> so selecting one triggers a
+  // full page navigation — no need to manage the panel state across selection.
+  const locationDropdown = document.querySelector<HTMLElement>("[data-location-dropdown]");
+  const locationButton = document.getElementById("filter-location-button");
+  const locationPanel = document.getElementById("filter-location-panel");
+  const locationChevron = document.querySelector<HTMLElement>("[data-location-chevron]");
+
+  function setLocationOpen(open: boolean) {
+    if (!locationButton || !locationPanel) return;
+    locationButton.setAttribute("aria-expanded", String(open));
+    if (open) locationPanel.removeAttribute("hidden");
+    else locationPanel.setAttribute("hidden", "");
+    if (locationChevron) locationChevron.style.transform = open ? "rotate(180deg)" : "";
+  }
+
+  locationButton?.addEventListener("click", () => {
+    const isOpen = locationButton.getAttribute("aria-expanded") === "true";
+    setLocationOpen(!isOpen);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!locationDropdown) return;
+    if (locationDropdown.contains(e.target as Node)) return;
+    setLocationOpen(false);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") setLocationOpen(false);
   });
 </script>

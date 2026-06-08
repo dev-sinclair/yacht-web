@@ -4,10 +4,11 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 import type { YachtCard } from "../../data/types/yacht";
-import type { Region } from "../../data/types/destination";
+import type { Region, Location } from "../../data/types/destination";
 import type { VesselEntity } from "../ankor/types";
 import { summaryToCard } from "../ankor/mappers";
 import { loadSnapshotIndex } from "../../data/snapshot";
+import { isEligibleYacht } from "../../data/yacht-service";
 
 interface YachtForLocation extends YachtCard {
   zones: string[];
@@ -43,7 +44,9 @@ function extractZones(entity: VesselEntity): string[] {
 async function loadEnrichedYachts(): Promise<YachtForLocation[]> {
   if (cachePromise) return cachePromise;
   cachePromise = (async () => {
-    const cards = await loadSnapshotIndex();
+    // Apply the global eligibility gate up front so every region/location
+    // matcher (and its consumers) sees the same yacht universe as the catalog.
+    const cards = (await loadSnapshotIndex()).filter(isEligibleYacht);
     const cardBySlug = new Map(cards.map((c) => [c.slug, c]));
 
     let entityFiles: string[];
@@ -137,8 +140,6 @@ export async function getYachtsForRegion(
  * Used by `/api/yachts.json?region=<slug>` to filter the catalogue server-side.
  */
 export async function getYachtSlugsForRegion(region: Region): Promise<Set<string>> {
-  const all = await loadEnrichedYachts();
-
   const phraseTerms: string[] = [normalizeTerm(region.name)];
   for (const location of region.locations) {
     phraseTerms.push(normalizeTerm(location.name));
@@ -146,6 +147,26 @@ export async function getYachtSlugsForRegion(region: Region): Promise<Set<string
       phraseTerms.push(normalizeTerm(spot));
     }
   }
+  return matchSlugsForPhrases(phraseTerms);
+}
+
+/**
+ * Return the set of yacht slugs that match a single location within a region.
+ * Used by `/api/yachts.json?region=<slug>&location=<slug>` to drill down
+ * below the region filter. Matching uses only the location's own name and
+ * cruisingSpots — sibling locations and the region name are excluded so the
+ * result is a strict subset of `getYachtSlugsForRegion`.
+ */
+export async function getYachtSlugsForLocation(location: Location): Promise<Set<string>> {
+  const phraseTerms: string[] = [normalizeTerm(location.name)];
+  for (const spot of location.cruisingSpots) {
+    phraseTerms.push(normalizeTerm(spot));
+  }
+  return matchSlugsForPhrases(phraseTerms);
+}
+
+async function matchSlugsForPhrases(phraseTerms: string[]): Promise<Set<string>> {
+  const all = await loadEnrichedYachts();
   const cleanedPhrases = phraseTerms.filter(Boolean);
   const tokenTerms = new Set(cleanedPhrases.flatMap((t) => tokenize(t)));
   const meaningfulTokens = [...tokenTerms].filter(isMeaningfulToken);
@@ -166,6 +187,11 @@ export async function getYachtSlugsForRegion(region: Region): Promise<Set<string
     if (matches) slugs.add(y.slug);
   }
   return slugs;
+}
+
+/** Find a Location by slug under a Region. Returns undefined if not present. */
+export function locationBySlug(region: Region, slug: string): Location | undefined {
+  return region.locations.find((l) => l.slug === slug);
 }
 
 // Re-export summaryToCard so callers don't need to dig into ankor/mappers.

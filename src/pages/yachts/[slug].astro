@@ -84,9 +84,18 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
     color: var(--color-gold);
   }
 
-  /* Gallery: hide images past the initial set until the user expands. */
-  [data-gallery-grid]:not([data-gallery-expanded="true"]) [data-gallery-extra="true"] {
+  /* Gallery: two visibility thresholds — 6 on mobile, 8 on desktop.
+     Items past the mobile threshold get extra-mobile; items past the desktop
+     threshold get extra-desktop (a strict subset). Default: hide both.
+     At lg+, un-hide items that are mobile-only extras (positions 7–8). */
+  [data-gallery-grid]:not([data-gallery-expanded="true"]) [data-gallery-extra-mobile="true"],
+  [data-gallery-grid]:not([data-gallery-expanded="true"]) [data-gallery-extra-desktop="true"] {
     display: none;
+  }
+  @media (min-width: 1024px) {
+    [data-gallery-grid]:not([data-gallery-expanded="true"]) [data-gallery-extra-mobile="true"]:not([data-gallery-extra-desktop="true"]) {
+      display: block;
+    }
   }
 </style>
 
@@ -105,7 +114,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
 
   function formatLength(meters: number): string {
     const feet = Math.round(meters * 3.28084);
-    return `${meters.toFixed(2)}m / ${feet}'`;
+    return `${meters.toFixed(1)}m / ${feet}'`;
   }
 
   function escapeHtml(s: string | number | null | undefined): string {
@@ -116,6 +125,50 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  /**
+   * Pulls "Summer/Winter Base Port" and "Summer/Winter Operating Area" lines
+   * (plus a bare "Operating Area: X" line when no seasonal split is present)
+   * out of the Ankor description so they can be rendered as their own titled
+   * blocks. Returns the description with those lines removed and orphan
+   * blank lines collapsed.
+   */
+  function extractCruisingInfo(desc: string | null | undefined): {
+    summerPort: string | null;
+    winterPort: string | null;
+    summerArea: string | null;
+    winterArea: string | null;
+    operatingArea: string | null;
+    body: string;
+  } {
+    const text = desc ?? "";
+    const summerPortRe = /^[ \t]*Summer\s+Base\s+Port\s*:\s*(.+?)[ \t]*$/im;
+    const winterPortRe = /^[ \t]*Winter\s+Base\s+Port\s*:\s*(.+?)[ \t]*$/im;
+    const summerAreaRe = /^[ \t]*Summer\s+Operating\s+Area\s*:\s*(.+?)[ \t]*$/im;
+    const winterAreaRe = /^[ \t]*Winter\s+Operating\s+Area\s*:\s*(.+?)[ \t]*$/im;
+    // Bare "Operating Area:" — value may be empty (often is when seasonal
+    // variants follow). We strip the line either way.
+    const operatingAreaRe = /^[ \t]*Operating\s+Area\s*:\s*(.*?)[ \t]*$/im;
+
+    const summerPort = text.match(summerPortRe)?.[1]?.trim() || null;
+    const winterPort = text.match(winterPortRe)?.[1]?.trim() || null;
+    const summerArea = text.match(summerAreaRe)?.[1]?.trim() || null;
+    const winterArea = text.match(winterAreaRe)?.[1]?.trim() || null;
+    const opValue = text.match(operatingAreaRe)?.[1]?.trim() || null;
+    // Only surface the bare Operating Area when seasonal variants are absent —
+    // otherwise it duplicates information already in the Summer/Winter rows.
+    const operatingArea = summerArea || winterArea ? null : opValue;
+
+    const body = text
+      .replace(summerPortRe, "")
+      .replace(winterPortRe, "")
+      .replace(summerAreaRe, "")
+      .replace(winterAreaRe, "")
+      .replace(operatingAreaRe, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+    return { summerPort, winterPort, summerArea, winterArea, operatingArea, body };
   }
 
   // WhatsApp SVG path used by Hero, pricing card, and Inquiry CTA
@@ -222,12 +275,44 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   }
 
   function renderDescriptionPricing(yacht: Yacht): string {
-    const hasWeek = yacht.weekPricingFrom != null;
-    const hasDay = yacht.dayPricingFrom != null;
-    const priceMain = hasWeek
-      ? formatPrice(yacht.weekPricingFrom, yacht.currency)
-      : hasDay ? formatPrice(yacht.dayPricingFrom, yacht.currency) : "On Request";
-    const priceUnit = hasWeek ? "week" : hasDay ? "day" : "";
+    // Week-only display. Day-only yachts get their aggregated week price
+    // (day × 7) so the user never sees a "/day" rate on this page.
+    const weekCents =
+      yacht.weekPricingFrom != null && yacht.weekPricingFrom > 0
+        ? yacht.weekPricingFrom
+        : yacht.dayPricingFrom != null && yacht.dayPricingFrom > 0
+          ? yacht.dayPricingFrom * 7
+          : null;
+    const priceMain = weekCents != null
+      ? formatPrice(weekCents, yacht.currency)
+      : "On Request";
+    const priceUnit = weekCents != null ? "week" : "";
+    const {
+      summerPort,
+      winterPort,
+      summerArea,
+      winterArea,
+      operatingArea,
+      body: descriptionBody,
+    } = extractCruisingInfo(yacht.description);
+    const field = (label: string, value: string) => `
+      <div>
+        <p class="text-[10px] font-medium tracking-[0.15em] uppercase text-taupe-light">${escapeHtml(label)}</p>
+        <p class="mt-1 text-sm text-charcoal">${escapeHtml(value)}</p>
+      </div>`;
+    const portsRow = summerPort || winterPort ? `
+      <div class="grid gap-5 ${summerPort && winterPort ? "sm:grid-cols-2" : ""}">
+        ${summerPort ? field("Summer Base Port", summerPort) : ""}
+        ${winterPort ? field("Winter Base Port", winterPort) : ""}
+      </div>` : "";
+    const areasRow = summerArea || winterArea ? `
+      <div class="grid gap-5 ${summerArea && winterArea ? "sm:grid-cols-2" : ""}">
+        ${summerArea ? field("Summer Operating Area", summerArea) : ""}
+        ${winterArea ? field("Winter Operating Area", winterArea) : ""}
+      </div>` : "";
+    const opRow = operatingArea ? field("Operating Area", operatingArea) : "";
+    const cruisingInfoHtml = portsRow || areasRow || opRow ? `
+      <div class="mt-6 space-y-5">${portsRow}${areasRow}${opRow}</div>` : "";
     const zonesHtml = yacht.geographicZones.length > 0 ? `
       <div class="mt-6">
         <p class="text-xs font-medium tracking-[0.1em] uppercase text-taupe-light mb-2">Cruising Areas</p>
@@ -247,8 +332,9 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         <h2 class="mt-3 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">
           About ${escapeHtml(yacht.blueprint.name)}
         </h2>
+        ${cruisingInfoHtml}
         <div class="overview-collapse mt-6" data-collapsed="true">
-          <p class="overview-text text-base leading-[1.8] text-taupe">${escapeHtml(yacht.description)}</p>
+          <p class="overview-text text-base leading-[1.8] text-taupe">${escapeHtml(descriptionBody)}</p>
           <div class="overview-fade" aria-hidden="true"></div>
         </div>
         <button type="button" class="overview-toggle group" aria-expanded="false">
@@ -274,7 +360,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
           <div class="mt-6 grid grid-cols-2 gap-3 border-t border-beige/40 pt-6">
             <div>
               <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Length</p>
-              <p class="num mt-0.5 text-sm text-charcoal">${yacht.blueprint.length}m</p>
+              <p class="num mt-0.5 text-sm text-charcoal">${yacht.blueprint.length.toFixed(1)}m</p>
             </div>
             <div>
               <p class="text-[8px] font-medium tracking-[0.15em] uppercase text-taupe-light">Guests</p>
@@ -340,11 +426,17 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   function renderGallery(yacht: Yacht): string {
     const images = yacht.images.slice(1);
     if (images.length === 0) return "";
-    // Initial visible count = one full mobile row of 3 × two rows = 6. The
-    // rest stay in the DOM but hidden by CSS until the user expands.
-    const INITIAL_VISIBLE = 6;
-    const hasMore = images.length > INITIAL_VISIBLE;
-    const extraCount = images.length - INITIAL_VISIBLE;
+    // Two visibility thresholds — mobile shows 6 (two rows of 3), desktop
+    // shows 8 (two rows of 4). Each image gets per-viewport flags so CSS
+    // can reveal the right set per breakpoint. The "View more" button is
+    // hidden on lg+ when desktop already shows everything.
+    const MOBILE_VISIBLE = 6;
+    const DESKTOP_VISIBLE = 8;
+    const mobileExtra = images.length - MOBILE_VISIBLE;
+    const desktopExtra = images.length - DESKTOP_VISIBLE;
+    const hasMoreMobile = mobileExtra > 0;
+    const hasMoreDesktop = desktopExtra > 0;
+    const moreLabel = (n: number) => `View ${n} more ${n === 1 ? "photo" : "photos"}`;
     return `
 <section class="bg-white py-16 lg:py-20">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -355,16 +447,22 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       </h2>
     </div>
     <div data-gallery-grid class="mt-10 grid grid-cols-3 gap-2 sm:gap-3 lg:grid-cols-4 lg:gap-4" data-reveal-stagger>
-      ${images.map((img, i) => `
-        <button type="button" data-gallery-item data-gallery-index="${i}" class="group/cell aspect-[4/3] overflow-hidden bg-cream cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"${i >= INITIAL_VISIBLE ? ' data-gallery-extra="true"' : ''}>
+      ${images.map((img, i) => {
+        const flags =
+          (i >= MOBILE_VISIBLE ? ' data-gallery-extra-mobile="true"' : "") +
+          (i >= DESKTOP_VISIBLE ? ' data-gallery-extra-desktop="true"' : "");
+        return `
+        <button type="button" data-gallery-item data-gallery-index="${i}" class="group/cell aspect-[4/3] overflow-hidden bg-cream cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"${flags}>
           <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.alt)}" class="h-full w-full object-cover transition-transform duration-500 group-hover/cell:scale-105" loading="lazy" width="400" height="300" />
-        </button>
-      `).join("")}
+        </button>`;
+      }).join("")}
     </div>
-    ${hasMore ? `
-    <div class="mt-8 text-center">
+    ${hasMoreMobile ? `
+    <div class="mt-8 text-center${!hasMoreDesktop ? " lg:hidden" : ""}">
       <button type="button" data-gallery-toggle class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal cursor-pointer">
-        View ${extraCount} more ${extraCount === 1 ? "photo" : "photos"}
+        ${hasMoreDesktop
+          ? `<span class="lg:hidden">${moreLabel(mobileExtra)}</span><span class="hidden lg:inline">${moreLabel(desktopExtra)}</span>`
+          : moreLabel(mobileExtra)}
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
         </svg>

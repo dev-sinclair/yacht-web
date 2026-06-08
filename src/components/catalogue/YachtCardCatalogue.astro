@@ -1,6 +1,6 @@
 ---
 import type { YachtCard } from "../../data/types/yacht";
-import { formatPrice, formatLength } from "../../data/yacht-service";
+import { formatPrice, formatLength, weekEquivalentCents } from "../../data/yacht-service";
 import { resolveImage } from "../../lib/ankor/image";
 
 interface Props {
@@ -8,12 +8,11 @@ interface Props {
 }
 
 const { yacht } = Astro.props;
-const weekPrice = formatPrice(yacht.weekPricingFrom, yacht.currency);
-const dayPrice = formatPrice(yacht.dayPricingFrom, yacht.currency);
-const hasWeek = yacht.weekPricingFrom != null;
-const hasDay = yacht.dayPricingFrom != null;
-const priceMain = hasWeek ? weekPrice : hasDay ? dayPrice : "On Request";
-const priceUnit = hasWeek ? "/ week" : hasDay ? "/ day" : "";
+// Week-only display. Day-only yachts that cleared the eligibility gate are
+// shown with their aggregated week price (day × 7).
+const weekCents = weekEquivalentCents(yacht);
+const priceMain = weekCents != null ? formatPrice(weekCents, yacht.currency) : "On Request";
+const priceUnit = weekCents != null ? "/ week" : "";
 const heroUrl = resolveImage(yacht.hero, "640x");
 const heroUrlHi = resolveImage(yacht.hero, "1280x");
 ---

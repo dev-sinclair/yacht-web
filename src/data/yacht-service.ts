@@ -51,22 +51,115 @@ export function isYachtCategory(s: string): s is YachtCategory {
   return (YACHT_CATEGORIES as readonly string[]).includes(s);
 }
 
+// ─── Global eligibility ────────────────────────────────────────────────────
+// Single source of truth for "should this yacht appear anywhere on the
+// site". Anything user-facing — catalog, region pages, featured carousel,
+// detail page — should run candidates through `isEligibleYacht` (or the
+// helpers below) so we never leak ineligible yachts to one surface and
+// hide them on another.
+
+const LENGTH_MIN_DEFAULT = 30;     // meters
+const LENGTH_MIN_CATAMARAN = 24;   // meters — catamarans are wider for their length
+const CATAMARAN_TYPES = new Set(["Catamaran", "Power Catamaran"]);
+const GUESTS_MAX = 12;             // private-charter market cap
+
+// Minimum acceptable price = €15,000 / week-equivalent. Day-only yachts
+// are aggregated as day × 7 before comparison so high-end day charters
+// still surface with their weekly equivalent.
+const MIN_WEEK_EUR_CENTS = 15_000 * 100;
+
+// Reciprocal of FALLBACK_RATES in src/lib/currency.ts (native → EUR factor).
+// This is a business gate, not a live quote — fallback rates are stable
+// enough and avoid pulling in the client-side rates module on the server.
+const TO_EUR: Record<string, number> = {
+  EUR: 1,
+  USD: 1 / 1.08,
+  GBP: 1 / 0.85,
+  AUD: 1 / 1.65,
+  AED: 1 / 3.95,
+};
+
+function isCatamaran(yachtType: readonly string[]): boolean {
+  return yachtType.some((t) => CATAMARAN_TYPES.has(t));
+}
+
+/**
+ * Week-equivalent price in NATIVE-currency cents (no FX conversion).
+ * Returns weekPricingFrom verbatim when present; otherwise day × 7 when
+ * a positive day price exists; otherwise null.
+ */
+export function weekEquivalentCents(y: Pick<YachtCard, "weekPricingFrom" | "dayPricingFrom">): number | null {
+  if (y.weekPricingFrom != null && y.weekPricingFrom > 0) return y.weekPricingFrom;
+  if (y.dayPricingFrom != null && y.dayPricingFrom > 0) return y.dayPricingFrom * 7;
+  return null;
+}
+
+/**
+ * Week-equivalent price converted to EUR cents using the static fallback
+ * FX rates. Use for cross-currency comparisons (filter ranges, sorting,
+ * the €15k eligibility gate) — not for displayed quotes.
+ */
+export function weekEquivalentEurCents(
+  y: Pick<YachtCard, "weekPricingFrom" | "dayPricingFrom" | "currency">,
+): number | null {
+  const cents = weekEquivalentCents(y);
+  if (cents == null) return null;
+  const rate = TO_EUR[y.currency || "EUR"] ?? 1;
+  return Math.round(cents * rate);
+}
+
+export function meetsMinimumWeekPrice(y: Pick<YachtCard, "weekPricingFrom" | "dayPricingFrom" | "currency">): boolean {
+  const cents = weekEquivalentCents(y);
+  if (cents == null) return false;
+  const rate = TO_EUR[y.currency || "EUR"] ?? 1;
+  return cents * rate >= MIN_WEEK_EUR_CENTS;
+}
+
+/**
+ * Returns true if the yacht should be shown anywhere on the site. Applies:
+ * - length: 24m+ for catamarans, 30m+ for all other yacht types
+ * - guests (sleeps): 1–12 inclusive; yachts with no/zero sleep data are
+ *   rejected since we can't confirm they fit the cap
+ * - price: week-equivalent ≥ €15,000 (day-only yachts aggregated as day × 7)
+ */
+export function isEligibleYacht(
+  y: Pick<YachtCard, "yachtType" | "length" | "sleeps" | "weekPricingFrom" | "dayPricingFrom" | "currency">,
+): boolean {
+  const minLength = isCatamaran(y.yachtType) ? LENGTH_MIN_CATAMARAN : LENGTH_MIN_DEFAULT;
+  if (!y.length || y.length < minLength) return false;
+  if (!y.sleeps || y.sleeps <= 0 || y.sleeps > GUESTS_MAX) return false;
+  return meetsMinimumWeekPrice(y);
+}
+
 export async function getAllYachts(category?: string): Promise<YachtCard[]> {
   const cards = await loadSnapshotIndex();
-  if (!category || !isYachtCategory(category)) return cards;
+  const eligible = cards.filter(isEligibleYacht);
+  if (!category || !isYachtCategory(category)) return eligible;
   const allowed = new Set(CATEGORY_TO_TYPES[category]);
-  return cards.filter((c) => c.yachtType.some((t) => allowed.has(t)));
+  return eligible.filter((c) => c.yachtType.some((t) => allowed.has(t)));
 }
 
 export async function getFeaturedYachts(limit = 10): Promise<YachtCard[]> {
   const cards = await loadSnapshotIndex();
-  return cards.slice(0, limit);
+  return cards.filter(isEligibleYacht).slice(0, limit);
 }
 
 export async function getYachtBySlug(slug: string): Promise<Yacht | null> {
   const entity = await loadSnapshotEntity(slug);
   if (!entity) return null;
-  return entityToYacht(entity, slug);
+  const yacht = entityToYacht(entity, slug);
+  // Gate detail-page access on the same eligibility rules as the catalog —
+  // direct URLs to ineligible yachts 404 (the detail page then redirects to /yachts).
+  const eligibilityProbe = {
+    yachtType: yacht.yachtType,
+    length: yacht.blueprint.length,
+    sleeps: yacht.blueprint.sleeps,
+    weekPricingFrom: yacht.weekPricingFrom,
+    dayPricingFrom: yacht.dayPricingFrom,
+    currency: yacht.currency,
+  };
+  if (!isEligibleYacht(eligibilityProbe)) return null;
+  return yacht;
 }
 
 /**
@@ -83,8 +176,10 @@ export function getFacets(yachts: YachtCard[]): YachtFacets {
   const types = [...new Set(yachts.flatMap((y) => y.yachtType))].filter(Boolean);
   const lengths = yachts.map((y) => y.length).filter((n) => n > 0);
   const guests = yachts.map((y) => y.sleeps).filter((n) => n > 0);
+  // EUR-cents week-equivalent so the range is comparable across currencies
+  // and aggregates day-only yachts as day × 7 (mirrors the catalog display).
   const prices = yachts
-    .map((y) => y.weekPricingFrom ?? y.dayPricingFrom)
+    .map(weekEquivalentEurCents)
     .filter((p): p is number => p != null);
 
   const safe = (arr: number[]) => (arr.length ? arr : [0]);
@@ -111,5 +206,5 @@ export function formatPrice(
 
 export function formatLength(meters: number): string {
   const feet = Math.round(meters * 3.28084);
-  return `${meters.toFixed(2)}m / ${feet}'`;
+  return `${meters.toFixed(1)}m / ${feet}'`;
 }
