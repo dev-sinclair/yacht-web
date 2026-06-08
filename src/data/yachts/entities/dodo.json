@@ -1,0 +1,372 @@
+{
+  "lastModified": 1780574913157,
+  "uri": "c::13745145528::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Turkey\n\nM/S Dodo is a beautifully refitted 43-meter luxury gulet offering an elegant blue cruise experience along the stunning coasts of Turkey and the nearby Greek islands. Accommodating up to 12 guests in 6 spacious cabins, she combines modern comfort with refined interior design by Fatma Kısar. Equipped with premium amenities and supported by a professional 5-member crew, Dodo promises a relaxed, stylish and unforgettable charter with flexible cruising itineraries in the Eastern Mediterranean.",
+  "blueprint": {
+    "name": "DODO",
+    "images": [
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d52fb0-5ffb-11f1-adb6-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d15f20-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d27090-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d026a0-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d9eaa0-5ffb-11f1-b82b-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d3f730-5ffb-11f1-adb5-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d38200-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d97570-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3daadf0-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d1d450-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d41e40-5ffb-11f1-adb5-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d4ba80-5ffb-11f1-adb6-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d46c60-5ffb-11f1-adb5-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dd4600-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d1fb60-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d1fb61-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dc0d80-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dbbf60-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dc5ba0-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3def3b0-5ffb-11f1-b82d-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d13810-5ffb-11f1-adb4-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dfb700-5ffb-11f1-b82d-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3dd9420-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d8d930-5ffb-11f1-b82b-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3df1ac0-5ffb-11f1-b82d-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d35af0-5ffb-11f1-adb5-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3de0950-5ffb-11f1-b82c-0772db5ea7d6/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3d41e40-5ffb-11f1-adb6-972375bd7f5f/{imageVariant}",
+      "/media/media::image::a::vessel::5c6022d0-486f-11f1-988b-69d6e1eb52a5::assets::d3ddbb30-5ffb-11f1-b82d-0772db5ea7d6/{imageVariant}"
+    ],
+    "make": "Custom",
+    "maxCrew": 6,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::dc73d328-b3ed-11ed-ae75-325096b39f47",
+      "name": "Fethiye",
+      "coordinates": {
+        "latitude": 36.62406379163476,
+        "longitude": 29.11319680908866
+      },
+      "country": "Türkiye"
+    },
+    "builtYear": 2005,
+    "architect": "",
+    "interiorDesigner": "Fatma Kısar",
+    "refitYear": 2025,
+    "topSpeed": 14,
+    "cruiseSpeed": 12,
+    "cabinLayout": [
+      {
+        "label": "Master Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 42.85,
+    "beam": 8.1,
+    "draft": 3.8,
+    "engines": "2 x 450 HP",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Hair dryers"
+      },
+      {
+        "label": "Fire extinguishers"
+      },
+      {
+        "label": "Radar"
+      },
+      {
+        "label": "GPS"
+      },
+      {
+        "label": " Depth sounder"
+      },
+      {
+        "label": "Autopilot"
+      },
+      {
+        "label": "VHF"
+      },
+      {
+        "label": " GSM telephone"
+      },
+      {
+        "label": "Water maker"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Canoe"
+      },
+      {
+        "label": "Paddle Board"
+      },
+      {
+        "label": "Ringo"
+      },
+      {
+        "label": "Water-skis (child & adult)"
+      },
+      {
+        "label": "Wake Board"
+      },
+      {
+        "label": "E-Foil"
+      },
+      {
+        "label": "Awake Flyboard"
+      },
+      {
+        "label": "Seabob"
+      },
+      {
+        "label": "Jet-ski (One Jet–ski is included; 2nd Jet-ski is optional and extra)"
+      },
+      {
+        "label": "Snorkeling & Fishing Gear"
+      }
+    ],
+    "entertainment": [
+      "Satellite  TV",
+      "Music system",
+      "Wi-Fi"
+    ],
+    "tenders": [
+      "8 meters Chase Boat with 350hp (Optional and extra)"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 5000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 6800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "May & October",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5000000,
+              "amount": 5000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 5000000,
+          "subTotal": 5000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              35.10531997715448,
+              39.093802942376584
+            ],
+            "bbox": [
+              25.6689453125,
+              35.831445312499994,
+              44.81718750000002,
+              42.09326171875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "June & September",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6000000,
+              "amount": 6000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 6000000,
+          "subTotal": 6000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              35.10531997715448,
+              39.093802942376584
+            ],
+            "bbox": [
+              25.6689453125,
+              35.831445312499994,
+              44.81718750000002,
+              42.09326171875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "July to August",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6800000,
+              "amount": 6800000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 6800000,
+          "subTotal": 6800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              35.10531997715448,
+              39.093802942376584
+            ],
+            "bbox": [
+              25.6689453125,
+              35.831445312499994,
+              44.81718750000002,
+              42.09326171875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

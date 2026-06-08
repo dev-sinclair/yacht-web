@@ -1,5 +1,5 @@
 {
-  "lastModified": 1778703229915,
+  "lastModified": 1780502321450,
   "uri": "c::28226710116::vessel::7794a746-486c-11ee-a45f-fdfff6163a60",
   "yachtType": [
     "Motor"
@@ -41,12 +41,13 @@
       "country": "United States"
     },
     "cruisingCapacity": 13,
+    "staticCapacity": 13,
     "builtYear": 2020,
     "architect": "",
     "interiorDesigner": "",
     "refitYear": "",
-    "topSpeed": 0,
-    "cruiseSpeed": 0,
+    "topSpeed": 20,
+    "cruiseSpeed": 12,
     "fuelCapacity": "",
     "cabinLayout": [
       {
@@ -68,7 +69,7 @@
     "length": 28.17,
     "beam": 6.83,
     "draft": 1.96,
-    "hullType": "",
+    "hullType": "Fiberglass",
     "hullConstruction": "",
     "tonnage": 0,
     "superStructure": [],

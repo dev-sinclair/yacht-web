@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780406740662,
+  "lastModified": 1780494989197,
   "uri": "c::7579668770::vessel::d5cc77d0-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -153,9 +153,9 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 9800000,
+      "price": 9000000,
       "displayCurrency": "EUR",
-      "displayPrice": 9800000,
+      "displayPrice": 9000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -360,7 +360,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 9800000,
+          "charterFee": 9000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -368,13 +368,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 9800000,
-              "amount": 9800000,
+              "unitPrice": 9000000,
+              "amount": 9000000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 9800000,
-          "subTotal": 9800000,
+          "total": 9000000,
+          "subTotal": 9000000,
           "totalTax": 0
         },
         "inclusionZones": [

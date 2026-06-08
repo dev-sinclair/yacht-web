@@ -1,10 +1,10 @@
 {
-  "lastModified": 1763770448512,
+  "lastModified": 1780530565492,
   "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Tropical North Queensland, South Pacific\nRelocation to:\n- Fiji (May and June 2026)\n- French Polynesia and Tahiti (July - October 2026)\n\nM.Y. Northern Escape, a 41 metre Benetti Oasis yacht, offers guests the very best chartering experience with the highest level of bespoke service and custom-designed accommodation.\n\nBathed in natural light, the interiors feature a formal dining room with two large wine cellars, a private salon and terrace. The expansive upper deck offers ample space for sunbathing, complete with jacuzzi, sun beds, bar, grill and alfresco dining for 12 guests. The main deck salon is the perfect place to enjoy unobstructed views of the open sea and kick-back on soft white sofas.\n\nM.Y. Northern Escape can accommodate up to 12 guests comfortably in a flexible cabin layout. The main-deck full-beam master suite features an office area, dressing rooms and his and her bathrooms including a steam shower. One of M.Y. Northern Escape’s best features is ultimately her outstanding beach club. The swim platform connects seamlessly to the main deck and its infinity pool, while twofold-down sea-level side platforms are added to create a truly outstanding beach club terrace.",
+  "description": "Operating Area: Tropical North Queensland | Great Barrier Reef | South Pacific\n- Fiji (May and June 2026 & 2027)\n- French Polynesia and Tahiti (July - October 2026 & July to November 2027)\n\nM.Y. Northern Escape, a 41 metre Benetti Oasis yacht, offers guests the very best chartering experience with the highest level of bespoke service and custom-designed accommodation.\n\nBathed in natural light, the interiors feature a formal dining room with two large wine cellars, a private salon and terrace. The expansive upper deck offers ample space for sunbathing, complete with jacuzzi, sun beds, bar, grill and alfresco dining for 12 guests. The main deck salon is the perfect place to enjoy unobstructed views of the open sea and kick-back on soft white sofas.\n\nM.Y. Northern Escape can accommodate up to 12 guests comfortably in a flexible cabin layout. The main-deck full-beam master suite features an office area, dressing rooms and his and her bathrooms including a steam shower. One of M.Y. Northern Escape’s best features is ultimately her outstanding beach club. The swim platform connects seamlessly to the main deck and its infinity pool, while twofold-down sea-level side platforms are added to create a truly outstanding beach club terrace.",
   "blueprint": {
     "name": "NORTHERN ESCAPE",
     "images": [
@@ -55,6 +55,7 @@
     "builtYear": 2022,
     "architect": "",
     "interiorDesigner": "Bonetti/Kozerski",
+    "refitYear": 0,
     "topSpeed": 0,
     "cruiseSpeed": 15,
     "fuelCapacity": 0,
@@ -70,10 +71,15 @@
       {
         "label": "Convertible Cabin with pullman bed",
         "value": "2"
+      },
+      {
+        "label": "Additional Flexible Cabin with pullman beds",
+        "value": "1"
       }
     ],
     "cabins": 5,
-    "bathrooms": 5,
+    "bathrooms": 8,
+    "decks": 4,
     "length": 40.8,
     "beam": 8.5,
     "draft": 2.05,
@@ -139,10 +145,6 @@
         "quantity": "2"
       },
       {
-        "label": "Ravik jet boards",
-        "quantity": "2"
-      },
-      {
         "label": "Flite boards / E-foils",
         "quantity": "2"
       },
@@ -187,30 +189,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 13970000,
+      "price": 20000000,
       "displayCurrency": "AUD",
-      "displayPrice": 13970000,
+      "displayPrice": 20000000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 31500000,
+      "price": 35000000,
       "displayCurrency": "AUD",
-      "displayPrice": 31500000,
+      "displayPrice": 35000000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 31570000,
+      "price": 35000000,
       "displayCurrency": "AUD",
-      "displayPrice": 31570000,
+      "displayPrice": 35000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 31570000,
+      "price": 42350000,
       "displayCurrency": "AUD",
-      "displayPrice": 31570000,
+      "displayPrice": 42350000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -218,43 +220,43 @@
         "name": "Overnight Charter rates: 3 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 13970000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 20000000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 13970000,
-              "amount": 13970000,
-              "conditions": "Daily"
+              "unitPrice": 20000000,
+              "amount": 20000000,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 13970000,
-              "amount": 3492500
+              "unitPrice": 20000000,
+              "amount": 5000000
             }
           ],
-          "total": 17462500,
-          "subTotal": 17462500,
-          "totalTax": 0
+          "total": 27000000,
+          "subTotal": 25000000,
+          "totalTax": 2000000
         },
         "inclusionZones": [
           {
@@ -275,20 +277,73 @@
             ]
           },
           {
-            "label": "South Pacific Ocean",
+            "label": "Cairns, Queensland, Australia",
             "type": "Custom Area",
             "category": [
-              "South Pacific Ocean"
+              "Cairns"
             ],
             "coordinates": [
-              1.2255982864116675,
-              -28.98200678234066
+              145.7375,
+              -16.9375
             ],
             "bbox": [
-              -180,
-              -60.53346241642455,
-              179.99989708894586,
-              3.651301988129177
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Australasia & South Pacific",
+            "type": "Custom Area",
+            "category": [
+              "Australasia & South Pacific"
+            ],
+            "coordinates": [
+              176.0373536146721,
+              -25.326024744494514
+            ],
+            "bbox": [
+              100.011138382046,
+              -54.0018394574465,
+              245.934798084613,
+              -0.015995706679534
             ]
           }
         ],
@@ -299,43 +354,43 @@
         "name": "Overnight Charter rates: 4 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 18370000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 23750000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 18370000,
-              "amount": 18370000,
-              "conditions": "Daily"
+              "unitPrice": 23750000,
+              "amount": 23750000,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 18370000,
-              "amount": 4592500
+              "unitPrice": 23750000,
+              "amount": 5937500
             }
           ],
-          "total": 22962500,
-          "subTotal": 22962500,
-          "totalTax": 0
+          "total": 32062500,
+          "subTotal": 29687500,
+          "totalTax": 2375000
         },
         "inclusionZones": [
           {
@@ -356,20 +411,73 @@
             ]
           },
           {
-            "label": "South Pacific Ocean",
+            "label": "Cairns, Queensland, Australia",
             "type": "Custom Area",
             "category": [
-              "South Pacific Ocean"
+              "Cairns"
             ],
             "coordinates": [
-              1.2255982864116675,
-              -28.98200678234066
+              145.7375,
+              -16.9375
             ],
             "bbox": [
-              -180,
-              -60.53346241642455,
-              179.99989708894586,
-              3.651301988129177
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Australasia & South Pacific",
+            "type": "Custom Area",
+            "category": [
+              "Australasia & South Pacific"
+            ],
+            "coordinates": [
+              176.0373536146721,
+              -25.326024744494514
+            ],
+            "bbox": [
+              100.011138382046,
+              -54.0018394574465,
+              245.934798084613,
+              -0.015995706679534
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
             ]
           }
         ],
@@ -380,43 +488,43 @@
         "name": "Overnight Charter rates: 5 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 22770000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 27500000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 22770000,
-              "amount": 22770000,
-              "conditions": "Daily"
+              "unitPrice": 27500000,
+              "amount": 27500000,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 22770000,
-              "amount": 5692500
+              "unitPrice": 27500000,
+              "amount": 6875000
             }
           ],
-          "total": 28462500,
-          "subTotal": 28462500,
-          "totalTax": 0
+          "total": 37125000,
+          "subTotal": 34375000,
+          "totalTax": 2750000
         },
         "inclusionZones": [
           {
@@ -437,20 +545,73 @@
             ]
           },
           {
-            "label": "South Pacific Ocean",
+            "label": "Cairns, Queensland, Australia",
             "type": "Custom Area",
             "category": [
-              "South Pacific Ocean"
+              "Cairns"
             ],
             "coordinates": [
-              1.2255982864116675,
-              -28.98200678234066
+              145.7375,
+              -16.9375
             ],
             "bbox": [
-              -180,
-              -60.53346241642455,
-              179.99989708894586,
-              3.651301988129177
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Australasia & South Pacific",
+            "type": "Custom Area",
+            "category": [
+              "Australasia & South Pacific"
+            ],
+            "coordinates": [
+              176.0373536146721,
+              -25.326024744494514
+            ],
+            "bbox": [
+              100.011138382046,
+              -54.0018394574465,
+              245.934798084613,
+              -0.015995706679534
             ]
           }
         ],
@@ -461,43 +622,43 @@
         "name": "Overnight Charter rates: 6 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 27170000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 31250000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 27170000,
-              "amount": 27170000,
-              "conditions": "Daily"
+              "unitPrice": 31250000,
+              "amount": 31250000,
+              "conditions": "Daily",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 27170000,
-              "amount": 6792500
+              "unitPrice": 31250000,
+              "amount": 7812500
             }
           ],
-          "total": 33962500,
-          "subTotal": 33962500,
-          "totalTax": 0
+          "total": 42187500,
+          "subTotal": 39062500,
+          "totalTax": 3125000
         },
         "inclusionZones": [
           {
@@ -518,20 +679,73 @@
             ]
           },
           {
-            "label": "South Pacific Ocean",
+            "label": "Cairns, Queensland, Australia",
             "type": "Custom Area",
             "category": [
-              "South Pacific Ocean"
+              "Cairns"
             ],
             "coordinates": [
-              1.2255982864116675,
-              -28.98200678234066
+              145.7375,
+              -16.9375
             ],
             "bbox": [
-              -180,
-              -60.53346241642455,
-              179.99989708894586,
-              3.651301988129177
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Australasia & South Pacific",
+            "type": "Custom Area",
+            "category": [
+              "Australasia & South Pacific"
+            ],
+            "coordinates": [
+              176.0373536146721,
+              -25.326024744494514
+            ],
+            "bbox": [
+              100.011138382046,
+              -54.0018394574465,
+              245.934798084613,
+              -0.015995706679534
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
             ]
           }
         ],
@@ -542,43 +756,43 @@
         "name": "Overnight Charter rates: 7 nights",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "from": "2027-01-06T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31570000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 35000000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31570000,
-              "amount": 31570000,
-              "conditions": "Weekly"
+              "unitPrice": 35000000,
+              "amount": 35000000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.25,
-              "unitPrice": 31570000,
-              "amount": 7892500
+              "unitPrice": 35000000,
+              "amount": 8750000
             }
           ],
-          "total": 39462500,
-          "subTotal": 39462500,
-          "totalTax": 0
+          "total": 47250000,
+          "subTotal": 43750000,
+          "totalTax": 3500000
         },
         "inclusionZones": [
           {
@@ -599,20 +813,73 @@
             ]
           },
           {
-            "label": "South Pacific Ocean",
+            "label": "Great Barrier Reef",
             "type": "Custom Area",
             "category": [
-              "South Pacific Ocean"
+              "Great Barrier Reef"
             ],
             "coordinates": [
-              1.2255982864116675,
-              -28.98200678234066
+              147.77471376964013,
+              -17.443523176627277
             ],
             "bbox": [
-              -180,
-              -60.53346241642455,
-              179.99989708894586,
-              3.651301988129177
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Australasia & South Pacific",
+            "type": "Custom Area",
+            "category": [
+              "Australasia & South Pacific"
+            ],
+            "coordinates": [
+              176.0373536146721,
+              -25.326024744494514
+            ],
+            "bbox": [
+              100.011138382046,
+              -54.0018394574465,
+              245.934798084613,
+              -0.015995706679534
             ]
           }
         ],
@@ -620,25 +887,29 @@
         "petsAllowed": false
       },
       {
-        "name": "Fiji (May and June 2026)",
+        "name": "Fiji (May and June 2026 | May and June 2027)",
         "effectiveDates": [
           {
             "from": "2026-05-01T00:00:00.000Z",
             "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31500000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 35000000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31500000,
-              "amount": 31500000,
+              "unitPrice": 35000000,
+              "amount": 35000000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "TAX ",
@@ -649,13 +920,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 0,
-              "amount": 0
+              "unitPrice": 35000000,
+              "amount": 10500000
             }
           ],
-          "total": 31500000,
-          "subTotal": 31500000,
-          "totalTax": 1575000
+          "total": 47250000,
+          "subTotal": 45500000,
+          "totalTax": 1750000
         },
         "inclusionZones": [
           {
@@ -682,25 +953,29 @@
         "petsAllowed": false
       },
       {
-        "name": "French Polynesia and Tahiti (July - October 2026)",
+        "name": "French Polynesia and Tahiti (July - October 2026 | July - November 2027)",
         "effectiveDates": [
           {
-            "from": "2025-07-01T00:00:00.000Z",
+            "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 31500000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 35000000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 31500000,
-              "amount": 31500000,
+              "unitPrice": 35000000,
+              "amount": 35000000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "TAX",
@@ -711,15 +986,146 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 0,
-              "amount": 0
+              "unitPrice": 35000000,
+              "amount": 10500000
             }
           ],
-          "total": 31500000,
-          "subTotal": 31500000,
-          "totalTax": 1575000
+          "total": 47250000,
+          "subTotal": 45500000,
+          "totalTax": 1750000
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Papeete, French Polynesia",
+            "type": "Custom Area",
+            "category": [
+              "Papeete"
+            ],
+            "coordinates": [
+              -149.57083350000002,
+              -17.579167
+            ],
+            "bbox": [
+              -149.625,
+              -17.641667,
+              -149.516667,
+              -17.516667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Festive Period (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-21T00:00:00.000Z",
+            "to": "2027-01-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 42350000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 42350000,
+              "amount": 42350000,
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              },
+              "conditions": ""
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 42350000,
+              "amount": 10587500
+            }
+          ],
+          "total": 57172500,
+          "subTotal": 52937500,
+          "totalTax": 4235000
+        },
+        "inclusionZones": [
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }
