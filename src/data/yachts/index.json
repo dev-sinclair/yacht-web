@@ -17460,6 +17460,32 @@
     "seasons": []
   },
   {
+    "uri": "c::18231584005::vessel::a03cd870-f341-11ee-b878-7b042b431e70",
+    "slug": "7th-heaven",
+    "name": "7TH HEAVEN",
+    "hero": "/media/media::image::a::vessel::a03cd870-f341-11ee-b878-7b042b431e70::assets::e17dea30-b8bd-11ef-8c5d-c36ad8904fc9/{imageVariant}",
+    "length": 18.78,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2490000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::d5cc2478-fe8c-11ed-889f-43d4bb723744",
     "slug": "astoria",
     "name": "ASTORIA",
@@ -17482,32 +17508,6 @@
       "summer-2027",
       "summer-2028",
       "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18231584005::vessel::a03cd870-f341-11ee-b878-7b042b431e70",
-    "slug": "7th-heaven",
-    "name": "7TH HEAVEN",
-    "hero": "/media/media::image::a::vessel::a03cd870-f341-11ee-b878-7b042b431e70::assets::e17dea30-b8bd-11ef-8c5d-c36ad8904fc9/{imageVariant}",
-    "length": 18.78,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2490000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2026",
       "winter-2027",
       "winter-2028"
