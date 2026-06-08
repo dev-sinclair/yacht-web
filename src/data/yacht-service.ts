@@ -51,17 +51,25 @@ export function isYachtCategory(s: string): s is YachtCategory {
   return (YACHT_CATEGORIES as readonly string[]).includes(s);
 }
 
-// ─── Global eligibility ────────────────────────────────────────────────────
-// Single source of truth for "should this yacht appear anywhere on the
-// site". Anything user-facing — catalog, region pages, featured carousel,
-// detail page — should run candidates through `isEligibleYacht` (or the
-// helpers below) so we never leak ineligible yachts to one surface and
-// hide them on another.
+// ─── Eligibility ───────────────────────────────────────────────────────────
+// Two separate gates:
+//
+//  • `isEligibleYacht` (relaxed) — applies everywhere yachts surface in the
+//    main flow: the /yachts catalog, the /yachts/[slug] detail page, region
+//    pages. Rule: length ≥ 15m, price ≥ €15k/week-equivalent. No guest cap.
+//
+//  • `isFeaturedYacht` (strict) — applies only to the curated home-page
+//    carousel. Rule: length ≥ 30m (or ≥ 24m for catamarans), 1–12 guests,
+//    price ≥ €15k/week-equivalent. Tighter so the marquee surface only
+//    shows premium private-charter inventory.
+//
+// Both share the price logic; only length and guests differ.
 
-const LENGTH_MIN_DEFAULT = 30;     // meters
-const LENGTH_MIN_CATAMARAN = 24;   // meters — catamarans are wider for their length
+const CATALOG_LENGTH_MIN = 15;        // meters — main catalog floor
+const FEATURED_LENGTH_MIN_DEFAULT = 30;
+const FEATURED_LENGTH_MIN_CATAMARAN = 24; // catamarans are wider for length
+const FEATURED_GUESTS_MAX = 12;       // private-charter market cap
 const CATAMARAN_TYPES = new Set(["Catamaran", "Power Catamaran"]);
-const GUESTS_MAX = 12;             // private-charter market cap
 
 // Minimum acceptable price = €15,000 / week-equivalent. Day-only yachts
 // are aggregated as day × 7 before comparison so high-end day charters
@@ -116,18 +124,34 @@ export function meetsMinimumWeekPrice(y: Pick<YachtCard, "weekPricingFrom" | "da
 }
 
 /**
- * Returns true if the yacht should be shown anywhere on the site. Applies:
- * - length: 24m+ for catamarans, 30m+ for all other yacht types
+ * Catalog-wide gate. True if the yacht qualifies for the /yachts catalog,
+ * /yachts/[slug] detail page, and region pages. Applies:
+ * - length: ≥ 15m
+ * - price: week-equivalent ≥ €15,000 (day-only yachts aggregated as day × 7)
+ * No guest cap.
+ */
+export function isEligibleYacht(
+  y: Pick<YachtCard, "length" | "weekPricingFrom" | "dayPricingFrom" | "currency">,
+): boolean {
+  if (!y.length || y.length < CATALOG_LENGTH_MIN) return false;
+  return meetsMinimumWeekPrice(y);
+}
+
+/**
+ * Strict gate for the home-page featured carousel. Applies:
+ * - length: ≥ 30m (or ≥ 24m for catamarans — wider for length)
  * - guests (sleeps): 1–12 inclusive; yachts with no/zero sleep data are
  *   rejected since we can't confirm they fit the cap
  * - price: week-equivalent ≥ €15,000 (day-only yachts aggregated as day × 7)
  */
-export function isEligibleYacht(
+export function isFeaturedYacht(
   y: Pick<YachtCard, "yachtType" | "length" | "sleeps" | "weekPricingFrom" | "dayPricingFrom" | "currency">,
 ): boolean {
-  const minLength = isCatamaran(y.yachtType) ? LENGTH_MIN_CATAMARAN : LENGTH_MIN_DEFAULT;
+  const minLength = isCatamaran(y.yachtType)
+    ? FEATURED_LENGTH_MIN_CATAMARAN
+    : FEATURED_LENGTH_MIN_DEFAULT;
   if (!y.length || y.length < minLength) return false;
-  if (!y.sleeps || y.sleeps <= 0 || y.sleeps > GUESTS_MAX) return false;
+  if (!y.sleeps || y.sleeps <= 0 || y.sleeps > FEATURED_GUESTS_MAX) return false;
   return meetsMinimumWeekPrice(y);
 }
 

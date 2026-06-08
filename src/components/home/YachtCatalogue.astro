@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import Container from "../ui/Container.astro";
-import { formatPrice, formatLength, isEligibleYacht, weekEquivalentCents } from "../../data/yacht-service";
+import { formatPrice, formatLength, isFeaturedYacht, weekEquivalentCents } from "../../data/yacht-service";
 import { resolveImage } from "../../lib/ankor/image";
 import type { YachtCard } from "../../data/types/yacht";
 import featuredYachts from "../../data/featured-yachts.json";
@@ -10,9 +10,10 @@ import featuredYachts from "../../data/featured-yachts.json";
 // Hard-coded featured set — avoids any Ankor API calls on the home page so the
 // shell renders instantly. The detail page (`/yachts/{slug}`) still hits Ankor
 // for live data; if the slug has been delisted, it redirects to `/yachts`.
-// Apply the same eligibility gate as the catalog so the home carousel never
-// surfaces a yacht the user can't then find on /yachts.
-const featured = (featuredYachts as YachtCard[]).filter(isEligibleYacht);
+// Apply the STRICT featured gate (30m+/24m catamaran, ≤12 guests, ≥€15k/wk)
+// so the marquee carousel stays premium even though /yachts uses a more
+// permissive catalog filter.
+const featured = (featuredYachts as YachtCard[]).filter(isFeaturedYacht);
 const track = [...featured, ...featured, ...featured]; // triple for true infinite loop
 
 // Local hero override: drop a file at `src/assets/yachts/{slug}.{jpg,png,webp,avif}`
