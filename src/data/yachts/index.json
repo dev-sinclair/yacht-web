@@ -55,7 +55,7 @@
     "uri": "c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802",
     "slug": "premier",
     "name": "PREMIER",
-    "hero": "/media/media::image::a::vessel::4b541b90-cb79-11f0-acd2-fd114d639802::assets::67ad5a50-cb7d-11f0-8145-9be16bba53fe/{imageVariant}",
+    "hero": "/media/media::image::c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802::assets::0bbc7fc0-63fb-11f1-bc19-4b78139e214a/{imageVariant}",
     "length": 55,
     "sleeps": 22,
     "cabins": 11,
@@ -2546,27 +2546,6 @@
     ]
   },
   {
-    "uri": "c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744",
-    "slug": "invictus",
-    "name": "INVICTUS",
-    "hero": "/media/media::image::c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744::assets::1215e120-bd28-11ef-b214-2d0593b0f223/{imageVariant}",
-    "length": 41,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "winter-2024"
-    ]
-  },
-  {
     "uri": "c::7579668770::vessel::d5cc79b8-fe8c-11ed-889f-43d4bb723744",
     "slug": "sophie-blue",
     "name": "SOPHIE BLUE",
@@ -2586,6 +2565,27 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
+    ]
+  },
+  {
+    "uri": "c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744",
+    "slug": "invictus",
+    "name": "INVICTUS",
+    "hero": "/media/media::image::c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744::assets::1215e120-bd28-11ef-b214-2d0593b0f223/{imageVariant}",
+    "length": 41,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "winter-2024"
     ]
   },
   {
@@ -4348,8 +4348,8 @@
   },
   {
     "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ps5",
-    "name": "PS5",
+    "slug": "ps5-playstation",
+    "name": "PS5 PLAYSTATION",
     "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
     "length": 35,
     "sleeps": 9,
@@ -22335,25 +22335,6 @@
     ]
   },
   {
-    "uri": "c::10317073198::vessel::a68079c0-272b-11f0-a066-c74ca504e262",
-    "slug": "dione-ii",
-    "name": "DIONE II",
-    "hero": "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0af5c0-272f-11f0-815b-33d40b74316a/{imageVariant}",
-    "length": 15.91,
-    "sleeps": 14,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
-  },
-  {
     "uri": "c::18231584005::vessel::77940a04-486c-11ee-a45f-fdfff6163a60",
     "slug": "amante",
     "name": "AMANTE",
@@ -22380,6 +22361,25 @@
       "winter-2027",
       "winter-2028"
     ]
+  },
+  {
+    "uri": "c::10317073198::vessel::a68079c0-272b-11f0-a066-c74ca504e262",
+    "slug": "dione-ii",
+    "name": "DIONE II",
+    "hero": "/media/media::image::a::vessel::a68079c0-272b-11f0-a066-c74ca504e262::assets::3d0af5c0-272f-11f0-815b-33d40b74316a/{imageVariant}",
+    "length": 15.91,
+    "sleeps": 14,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
   },
   {
     "uri": "c::30662703947::vessel::fc5f7100-bc7a-11ef-a23b-0feec8e96c56",
