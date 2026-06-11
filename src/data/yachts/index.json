@@ -4292,6 +4292,35 @@
     ]
   },
   {
+    "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
+    "slug": "endemic",
+    "name": "ENDEMIC",
+    "hero": "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4c7580-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+    "length": 35,
+    "sleeps": 16,
+    "cabins": 8,
+    "builtYear": 2018,
+    "builder": "",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7449000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
     "slug": "ps5-playstation",
     "name": "PS5 PLAYSTATION",
@@ -4531,35 +4560,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
-    "slug": "endemic",
-    "name": "ENDEMIC",
-    "hero": "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4c7580-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
-    "length": 35,
-    "sleeps": 16,
-    "cabins": 8,
-    "builtYear": 2018,
-    "builder": "",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": 9239000,
-    "weekPricingFrom": 7449000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "summer-2029",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028",
-      "winter-2029"
     ]
   },
   {
@@ -9956,12 +9956,8 @@
     "currency": "EUR",
     "seasons": [
       "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
+      "winter-2026"
     ]
   },
   {
