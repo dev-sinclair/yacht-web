@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781081766215,
+  "lastModified": 1781256044404,
   "uri": "c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -8,12 +8,12 @@
   "blueprint": {
     "name": "FREE AT LAST",
     "images": [
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b593b290-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b59475e0-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5907e41-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b594c400-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b593d9a0-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b58f6cd0-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b593b290-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b59475e0-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5907e41-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b594eb10-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5907e40-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5931650-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
@@ -90,7 +90,24 @@
         "label": "Generators"
       }
     ],
-    "toys": [],
+    "toys": [
+      {
+        "label": "Brand-new SUPs",
+        "quantity": "2"
+      },
+      {
+        "label": "Duotone wingfoil",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkelling Equipment",
+        "quantity": "8"
+      },
+      {
+        "label": "Giant floating pillows",
+        "quantity": "2"
+      }
+    ],
     "tenders": [
       "Highfield 3,80m with a 25HP engine "
     ]
