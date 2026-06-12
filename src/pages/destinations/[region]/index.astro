@@ -40,80 +40,82 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
   <Navbar />
   <main>
     <!-- ── Hero with parallax image ── -->
-    <header class="relative h-[88vh] min-h-[560px] overflow-hidden bg-charcoal">
-      <div data-hero-parallax class="absolute inset-0 will-change-transform">
-        <picture>
-          <source media="(min-width: 768px)" srcset={heroSrcDesktop} />
-          <img
-            src={heroSrcMobile}
-            alt={region.name}
-            class="h-[115%] w-full object-cover"
-            fetchpriority="high"
-            decoding="async"
-          />
-        </picture>
-      </div>
-
-      <!-- Tinted gradient — darker at top + bottom so headings and tagline read clearly -->
-      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-black/90"></div>
-
-      <!-- Hero copy -->
-      <div class="relative z-10 flex h-full flex-col justify-end">
-        <div class="mx-auto w-full max-w-[1280px] px-6 pb-16 sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
-          <nav
-            data-reveal="fade"
-            class="text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            <a href="/destinations" class="transition-colors duration-300 hover:text-white">
-              Destinations
-            </a>
-            <span class="mx-3 text-white/40">/</span>
-            <span class="text-white">{region.name}</span>
-          </nav>
-
-          <h1
-            data-reveal="up"
-            class="mt-8 max-w-4xl text-5xl font-light tracking-[0.1em] uppercase text-white sm:text-6xl lg:text-7xl"
-            style="font-family: 'Raleway', sans-serif; font-weight: 300; text-shadow: 0 4px 22px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.7);"
-          >
-            {region.name}
-          </h1>
-
-          <div data-reveal-line class="mt-8 h-px bg-gold"></div>
-
-          <p
-            data-reveal="up"
-            class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-white/85 sm:text-xl"
-            style="text-shadow: 0 1px 12px rgba(0,0,0,0.45);"
-          >
-            {region.tagline}.
-          </p>
-
-          {region.locations.length > 0 && (
-            <p
-              data-reveal="fade"
-              class="mt-10 text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
-              style="font-family: 'Raleway', sans-serif;"
-            >
-              <span class="num">{region.locations.length}</span>
-              {region.locations.length === 1 ? "Destination" : "Destinations"}
-              &nbsp;&middot;&nbsp;
-              <span class="num">{totalSpots}</span> Anchorages
-            </p>
-          )}
+    <header class="relative h-screen w-full bg-white px-3 pb-3 sm:px-4 sm:pb-4 lg:px-5 lg:pb-5">
+      <div class="relative h-full w-full overflow-hidden bg-charcoal">
+        <div data-hero-parallax class="absolute inset-0 will-change-transform">
+          <picture>
+            <source media="(min-width: 768px)" srcset={heroSrcDesktop} />
+            <img
+              src={heroSrcMobile}
+              alt={region.name}
+              class="h-[115%] w-full object-cover"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
         </div>
 
-        <!-- Scroll cue -->
-        <div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60">
-          <div class="flex flex-col items-center gap-2">
-            <span
-              class="text-[9px] font-medium tracking-[0.4em] uppercase"
+        <!-- Tinted gradient — darker at top + bottom so headings and tagline read clearly -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-black/90"></div>
+
+        <!-- Hero copy -->
+        <div class="relative z-10 flex h-full flex-col justify-end">
+          <div class="mx-auto w-full max-w-[1280px] px-6 pb-36 sm:px-8 lg:px-12">
+            <nav
+              data-reveal="fade"
+              class="text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
               style="font-family: 'Raleway', sans-serif;"
             >
-              Scroll
-            </span>
-            <span class="block h-10 w-px bg-white/50 hero-scroll-line"></span>
+              <a href="/destinations" class="transition-colors duration-300 hover:text-white">
+                Destinations
+              </a>
+              <span class="mx-3 text-white/40">/</span>
+              <span class="text-white">{region.name}</span>
+            </nav>
+
+            <h1
+              data-reveal="up"
+              class="mt-8 max-w-4xl text-5xl font-light tracking-[0.1em] uppercase text-white sm:text-6xl lg:text-7xl"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300; text-shadow: 0 4px 22px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.7);"
+            >
+              {region.name}
+            </h1>
+
+            <div data-reveal-line class="mt-8 h-px bg-gold"></div>
+
+            <p
+              data-reveal="up"
+              class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-white/85 sm:text-xl"
+              style="text-shadow: 0 1px 12px rgba(0,0,0,0.45);"
+            >
+              {region.tagline}.
+            </p>
+
+            {region.locations.length > 0 && (
+              <p
+                data-reveal="fade"
+                class="mt-10 text-[10px] font-medium tracking-[0.35em] uppercase text-white/70"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                <span class="num">{region.locations.length}</span>
+                {region.locations.length === 1 ? "Destination" : "Destinations"}
+                &nbsp;&middot;&nbsp;
+                <span class="num">{totalSpots}</span> Anchorages
+              </p>
+            )}
+          </div>
+
+          <!-- Scroll cue -->
+          <div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60">
+            <div class="flex flex-col items-center gap-2">
+              <span
+                class="text-[9px] font-medium tracking-[0.4em] uppercase"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                Scroll
+              </span>
+              <span class="block h-10 w-px bg-white/50 hero-scroll-line"></span>
+            </div>
           </div>
         </div>
       </div>

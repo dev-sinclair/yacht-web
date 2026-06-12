@@ -19,7 +19,16 @@ const {
   activeSeason = "",
 } = Astro.props;
 
-const regions = getAllRegions();
+// Reorder regions to match the homepage Destinations carousel: lead with
+// the Mediterraneans and the Caribbean, then append the rest in registry
+// order. Missing slugs are skipped silently.
+const LEAD_SLUGS = ["west-mediterranean", "east-mediterranean", "caribbean-and-bahamas"];
+const allRegions = getAllRegions();
+const leadRegions = LEAD_SLUGS
+  .map((slug) => allRegions.find((r) => r.slug === slug))
+  .filter((r): r is NonNullable<typeof r> => Boolean(r));
+const restRegions = allRegions.filter((r) => !LEAD_SLUGS.includes(r.slug));
+const regions = [...leadRegions, ...restRegions];
 
 const activeRegionForLabel = activeRegion ? regions.find((r) => r.slug === activeRegion) : undefined;
 const activeLocationForLabel =

@@ -1,12 +1,60 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
+import { getAllRegions } from "../../lib/destinations/registry";
 
-const links = [
-  { label: "Yacht Charter", href: "/yachts" },
-  { label: "Destinations", href: "/destinations" },
-  { label: "Services", href: "/#services" },
-  { label: "About", href: "/#about" },
+// Destinations dropdown order: lead with the Med + Caribbean to match the
+// homepage carousel and the /yachts Location dropdown.
+const LEAD_SLUGS = ["west-mediterranean", "east-mediterranean", "caribbean-and-bahamas"];
+const allRegions = getAllRegions();
+const leadRegions = LEAD_SLUGS
+  .map((slug) => allRegions.find((r) => r.slug === slug))
+  .filter((r): r is NonNullable<typeof r> => Boolean(r));
+const restRegions = allRegions.filter((r) => !LEAD_SLUGS.includes(r.slug));
+const orderedRegions = [...leadRegions, ...restRegions];
+
+interface NavChild {
+  label: string;
+  href: string;
+}
+interface NavLink {
+  label: string;
+  href: string;
+  children: NavChild[];
+}
+
+const links: NavLink[] = [
+  {
+    label: "Yacht Charter",
+    href: "/charter",
+    children: [
+      { label: "Charter", href: "/charter" },
+      { label: "Yachts", href: "/yachts" },
+    ],
+  },
+  {
+    label: "Destinations",
+    href: "/destinations",
+    children: orderedRegions.map((r) => ({
+      label: r.name,
+      href: `/destinations/${r.slug}`,
+    })),
+  },
+  {
+    label: "Services",
+    href: "/#services",
+    children: [
+      { label: "Charter Management", href: "/charter-management" },
+      { label: "Yacht Management", href: "/yacht-management" },
+      { label: "Acquisition & Sales", href: "/sales" },
+      { label: "Yacht Builds", href: "/build" },
+    ],
+  },
+  {
+    label: "About",
+    href: "/#about",
+    children: [],
+  },
 ];
 ---
 
@@ -34,19 +82,67 @@ const links = [
       </a>
     </div>
 
-    <!-- Right: inline section links -->
+    <!-- Right: inline section links (desktop) -->
     <div class="hidden md:flex items-center gap-8 lg:gap-10">
       <ul class="flex items-center gap-8 lg:gap-10">
         {links.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
-              style="font-family: 'Raleway', sans-serif;"
-            >
-              {link.label}
-            </a>
-          </li>
+          link.children.length > 0 ? (
+            <li class="group relative">
+              <a
+                href={link.href}
+                class="nav-link inline-flex items-center gap-1.5 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                {link.label}
+                <svg
+                  class="h-2.5 w-2.5 transition-transform duration-300 group-hover:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+
+              <!-- Dropdown: pt-3 acts as an invisible bridge between the
+                   nav link and the panel so hover stays alive across the gap. -->
+              <div
+                class="invisible absolute left-1/2 top-full z-40 -translate-x-1/2 pt-3 opacity-0 transition-[opacity,visibility] duration-300 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+              >
+                <div class="min-w-[220px] border border-deep/10 bg-white px-5 py-4 shadow-lg">
+                  <!-- Dimmed line that cues "below this are subsections of the
+                       nav title you just hovered". The title itself isn't
+                       repeated — clicking the navbar link still navigates. -->
+                  <div class="h-px w-8 bg-deep/25"></div>
+                  <ul class="mt-3 flex flex-col gap-2.5">
+                    {link.children.map((child) => (
+                      <li>
+                        <a
+                          href={child.href}
+                          class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-taupe transition-colors duration-300"
+                          style="font-family: 'Raleway', sans-serif;"
+                        >
+                          {child.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          ) : (
+            <li>
+              <a
+                href={link.href}
+                class="nav-link text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                {link.label}
+              </a>
+            </li>
+          )
         ))}
       </ul>
       <a
@@ -72,22 +168,79 @@ const links = [
     </button>
   </div>
 
-  <!-- Mobile dropdown panel (compact, NOT fullscreen) -->
+  <!-- Mobile dropdown panel. overflow-y is flipped to auto on open so a
+       fully expanded sheet (e.g. all destinations visible) scrolls inside
+       the panel rather than getting clipped below the viewport. -->
   <div
     id="mobile-panel"
     class="md:hidden overflow-hidden max-h-0 mt-2 transition-[max-height] duration-500 ease-out"
   >
     <ul class="flex flex-col gap-4 px-6 py-6 border-t border-deep/10">
       {links.map((link) => (
-        <li>
-          <a
-            href={link.href}
-            class="nav-link block text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            {link.label}
-          </a>
-        </li>
+        link.children.length > 0 ? (
+          <li data-mobile-item>
+            <!-- Split row: tapping the label navigates to the parent page;
+                 tapping the chevron toggles the subsection list. -->
+            <div class="flex w-full items-center justify-between gap-2">
+              <a
+                href={link.href}
+                class="nav-link flex-1 text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
+                style="font-family: 'Raleway', sans-serif;"
+              >
+                {link.label}
+              </a>
+              <button
+                type="button"
+                data-mobile-toggle
+                aria-expanded="false"
+                aria-label={`Toggle ${link.label} subsections`}
+                class="inline-flex items-center justify-center p-2 -mr-2 text-charcoal/70 transition-colors duration-300 hover:text-charcoal"
+              >
+                <svg
+                  class="h-3 w-3 transition-transform duration-300"
+                  data-mobile-chevron
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+
+            <div
+              data-mobile-sub
+              class="overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out"
+            >
+              <div class="mt-3 h-px w-8 bg-deep/25"></div>
+              <ul class="mt-3 flex flex-col gap-3 pb-1">
+                {link.children.map((child) => (
+                  <li>
+                    <a
+                      href={child.href}
+                      class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-taupe transition-colors duration-300"
+                      style="font-family: 'Raleway', sans-serif;"
+                    >
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </li>
+        ) : (
+          <li>
+            <a
+              href={link.href}
+              class="nav-link block text-[11px] font-medium tracking-[0.25em] uppercase text-charcoal transition-colors duration-300"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              {link.label}
+            </a>
+          </li>
+        )
       ))}
       <li>
         <a
@@ -103,12 +256,14 @@ const links = [
 </nav>
 
 <style>
-  /* Hover color for nav links (desktop + mobile lists) and the Enquire
-     CTA. Using scoped CSS instead of Tailwind arbitrary-hex hover utilities
-     because Tailwind v4 has been unreliable picking those up at build time
-     in this project. */
+  /* Hover colour for nav links (desktop + mobile lists) and the Enquire
+     CTA. Scoped CSS rather than Tailwind arbitrary-hex hovers because
+     Tailwind v4 has been unreliable picking those up in this project. */
   .nav-link:hover {
     color: #6e8e8f;
+  }
+  .nav-sub:hover {
+    color: #2a2a2a;
   }
   .enquire-btn:hover {
     background-color: #6e8e8f;
@@ -123,28 +278,84 @@ const links = [
 
   let menuOpen = false;
 
+  // Open height is generous (viewport minus the navbar row) so any combination
+  // of expanded sub-menus fits without clipping; if the user somehow exceeds
+  // it, overflow-y: auto lets them scroll inside the sheet.
+  function openHeight() {
+    return Math.max(window.innerHeight - 60, 480);
+  }
+
   toggle.addEventListener("click", () => {
     menuOpen = !menuOpen;
     toggle.setAttribute("aria-expanded", String(menuOpen));
     if (menuOpen) {
-      mobilePanel.style.maxHeight = mobilePanel.scrollHeight + "px";
+      mobilePanel.style.maxHeight = openHeight() + "px";
+      mobilePanel.style.overflowY = "auto";
       bar1.style.transform = "rotate(45deg) translate(3px, 3.5px)";
       bar2.style.transform = "rotate(-45deg) translate(3px, -3.5px)";
     } else {
       mobilePanel.style.maxHeight = "0px";
+      mobilePanel.style.overflowY = "hidden";
       bar1.style.transform = "";
       bar2.style.transform = "";
     }
   });
 
-  // Close mobile panel on link click
+  // Sub-menu expand/collapse inside the mobile panel. The parent panel's
+  // max-height stays pegged to the viewport — no per-toggle recompute needed.
+  mobilePanel.querySelectorAll<HTMLButtonElement>("[data-mobile-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const item = btn.closest<HTMLElement>("[data-mobile-item]");
+      const sub = item?.querySelector<HTMLElement>("[data-mobile-sub]");
+      const chev = item?.querySelector<HTMLElement>("[data-mobile-chevron]");
+      if (!sub) return;
+      const isOpen = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", String(!isOpen));
+      if (!isOpen) {
+        sub.style.maxHeight = sub.scrollHeight + "px";
+        if (chev) chev.style.transform = "rotate(180deg)";
+      } else {
+        sub.style.maxHeight = "0px";
+        if (chev) chev.style.transform = "";
+      }
+    });
+  });
+
+  // Parent labels: first tap (when the sub-panel is closed) reveals the
+  // children instead of navigating; the next tap navigates as usual. The
+  // chevron button still toggles open/closed independently. This handler
+  // runs BEFORE the close-on-link handler below so stopImmediatePropagation
+  // is enough to suppress the menu-wide close on the open-only tap.
+  mobilePanel.querySelectorAll<HTMLElement>("[data-mobile-item]").forEach((item) => {
+    const label = item.querySelector<HTMLAnchorElement>(":scope > div > a");
+    const toggleBtn = item.querySelector<HTMLButtonElement>("[data-mobile-toggle]");
+    if (!label || !toggleBtn) return;
+    label.addEventListener("click", (e) => {
+      const isOpen = toggleBtn.getAttribute("aria-expanded") === "true";
+      if (!isOpen) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        toggleBtn.click();
+      }
+    });
+  });
+
+  // Close mobile panel on any link click (parent labels + sub-menu links).
+  // The data-mobile-toggle buttons aren't <a>, so they're excluded.
   mobilePanel.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       menuOpen = false;
       toggle.setAttribute("aria-expanded", "false");
       mobilePanel.style.maxHeight = "0px";
+      mobilePanel.style.overflowY = "hidden";
       bar1.style.transform = "";
       bar2.style.transform = "";
     });
+  });
+
+  // Recompute on orientation/viewport change while the menu is open so a
+  // device rotation doesn't leave the panel sized to the old viewport.
+  window.addEventListener("resize", () => {
+    if (menuOpen) mobilePanel.style.maxHeight = openHeight() + "px";
   });
 </script>

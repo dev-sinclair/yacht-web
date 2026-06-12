@@ -2,7 +2,17 @@
 import Container from "../ui/Container.astro";
 import { getAllRegions } from "../../lib/destinations/registry";
 
-const regions = getAllRegions();
+// Carousel parks the second copy of this array at the left edge on load,
+// so the order here determines the first cards visible. Lead with the
+// Mediterraneans and the Caribbean, then append the remaining regions in
+// their registry order.
+const LEAD_SLUGS = ["west-mediterranean", "east-mediterranean", "caribbean-and-bahamas"];
+const all = getAllRegions();
+const lead = LEAD_SLUGS
+  .map((slug) => all.find((r) => r.slug === slug))
+  .filter((r): r is NonNullable<typeof r> => Boolean(r));
+const rest = all.filter((r) => !LEAD_SLUGS.includes(r.slug));
+const regions = [...lead, ...rest];
 
 // Duplicate the list so the marquee can loop seamlessly: when the track
 // drifts past one full copy's width, we snap back by exactly that width,
