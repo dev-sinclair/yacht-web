@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780494989197,
+  "lastModified": 1781002007315,
   "uri": "c::7579668770::vessel::d5cc77d0-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -32,6 +32,14 @@
     "model": "",
     "maxCrew": 7,
     "sleeps": 8,
+    "basePort": {
+      "name": "Rotterdam, South Holland, Netherlands",
+      "coordinates": {
+        "longitude": 4.487597,
+        "latitude": 51.92079
+      },
+      "country": "Netherlands"
+    },
     "cruisingCapacity": 8,
     "builtYear": 1999,
     "architect": "Ed Dubois",

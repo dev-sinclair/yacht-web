@@ -1,5 +1,5 @@
 {
-  "lastModified": 1778682728807,
+  "lastModified": 1781189631746,
   "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
   "yachtType": [
     "Motor"
@@ -79,31 +79,43 @@
     "hullType": "",
     "hullConstruction": "",
     "tonnage": 86,
-    "engines": "",
+    "engines": "MTU 1900",
     "amenities": [
       {
-        "label": "Air conditioning"
+        "label": "Air conditioning",
+        "quantity": "1"
       },
       {
-        "label": "Beach Club"
+        "label": "Beach Club",
+        "quantity": "1"
       },
       {
-        "label": "Hydraulic swim platform"
+        "label": "Hydraulic swim platform",
+        "quantity": "1"
       },
       {
-        "label": "Flybridge"
+        "label": "Flybridge",
+        "quantity": "1"
       },
       {
-        "label": "Sunbathing & Lounge areas"
+        "label": "Sunbathing & Lounge areas",
+        "quantity": "2"
       },
       {
-        "label": "Wet bar"
+        "label": "Wet bar",
+        "quantity": "1"
       },
       {
-        "label": "Apple TV"
+        "label": "Apple TV",
+        "quantity": "5"
       },
       {
-        "label": "Fold-down sides"
+        "label": "Fold-down sides",
+        "quantity": "2"
+      },
+      {
+        "label": "Wi-Fi",
+        "quantity": "1"
       }
     ],
     "toys": [
@@ -123,22 +135,22 @@
   },
   "crew": [
     {
-      "name": "Tanguy Simon",
-      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::0d41bc30-615d-11f0-9a8e-21a506a6552a/{imageVariant}",
+      "name": "TIAGO GONÇALVES ARGOLO",
+      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::db47e540-65a4-11f1-9cad-6fef5d61686d/{imageVariant}",
       "role": "Captain",
-      "bio": "With over ten years in the yachting industry, I have been sailing since my early age, first in family\nand as captain since 2018, Based for several years in the south of France , I have a passion for\nnavigation in the Mediterranean, There are so many beautiful stopovers and anchorages that I love\nto attend. It is with the same passion that I take charge of a ship with self-reliance, a collaborative\nspirit, and a constant focus on my passengers’ well-being."
+      "bio": "Tiago is a Spanish Captain with 25 years of experience in the maritime sector, bringing a calm, seasoned presence to every voyage. He has commanded both sailing and motor yachts of up to 43 metres, cruising extensively across the Mediterranean, the Caribbean and the U.S. East Coast, and has successfully completed numerous Atlantic crossings. He combines deep technical knowledge with a refined approach to private and charter operations. Speaking Spanish, English, Portuguese, Italian and Catalan,."
     },
     {
-      "name": "Callan McCulley",
-      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::c0d8fd00-5c15-11f0-83a0-814f59ba7179/{imageVariant}",
+      "name": "MERISHEN WESSELS",
+      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::f3ce6df0-65a4-11f1-b666-5b69fe490ad6/{imageVariant}",
       "role": "Captain",
-      "bio": "I am an enthusiastic and quick-learning South African with a passion for the yachting industry, seeking to further develop my expertise. Over the past two seasons, I have gained valuable experience in various roles, including deck chef, crew cook, steward, and deckhand. I am particularly interested in pursuing a position as a chef/cook or deckhand.\n\nMy background combines creativity and practicality, enabling me to thrive in high-pressure, fast-paced environments that often require long hours. I spent nearly two years working in a professional kitchen in Germany, where I catered to events with up to 350 guests. This experience honed my skills in teamwork, reliability, efficiency,\nand responsibility.I excel in managing social interactions with guests, supported by a positive attitude and strong problem-solving capabilities.\nI"
+      "bio": "Merishen brings a unique blend of creativity, warmth and refined attention to detail to every charter. She draws on an award-winning 17-year career as a Production Designer and Art Director in the South African film and television industry, where she developed a deep appreciation for aesthetics, presentation and seamless guest experiences. Energetic, calm under pressure and genuinely devoted to making every onboard moment special, including for the kids."
     },
     {
-      "name": "Thays Monteiro",
-      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::547e8a70-615c-11f0-9796-218f8660e3e0/{imageVariant}",
+      "name": "EZINTLE MONDILE ",
+      "avatar": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::055d3600-65a5-11f1-9d92-9504d959ef2f/{imageVariant}",
       "role": "Captain",
-      "bio": "With over 2,000 nautical miles logged in the Caribbean and along the Brazilian coast, Thays is a skilled and adaptable stewardess with experience on both private and charter yachts. She combines top-tier guest service with hands-on support in sailing, provisioning, and interior care. Fluent in Portuguese, English, and Spanish, Thays is known for her warm demeanor, creativity, and dedication to delivering an exceptional onboard experience."
+      "bio": "Ezintle brings warmth and a genuine love of the sea to every charter. Raised in South Africa, spent time on sea both in her home country and in the mediterranean. Fully trained across both interior and exterior. Ezintle, or Ezzy for friends, combines a positive, adaptable attitude with the attention to detail guests expect aboard a luxury yacht."
     }
   ],
   "pricing": {
@@ -172,19 +184,15 @@
     },
     "pricingInfo": [
       {
-        "name": "Summer Mediterranean - Weekly Rate",
+        "name": "Low Season Mediterranean - Weekly Rate",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -303,19 +311,15 @@
         "petsAllowed": false
       },
       {
-        "name": "Summer Mediterranean - Day Rate",
+        "name": "Low Season Mediterranean - Day Rate",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1773074216370,
+  "lastModified": 1781173877501,
   "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
   "yachtType": [
     "Motor",
@@ -118,20 +118,6 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
-      "currency": "USD",
-      "price": 9239000,
-      "displayCurrency": "USD",
-      "displayPrice": 9239000,
-      "unit": "DAY"
-    },
-    "dayPricingTo": {
-      "currency": "USD",
-      "price": 11719000,
-      "displayCurrency": "USD",
-      "displayPrice": 11719000,
-      "unit": "DAY"
-    },
     "weekPricingFrom": {
       "currency": "USD",
       "price": 7449000,
@@ -227,7 +213,7 @@
           "charterFee": 11179000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
@@ -286,7 +272,7 @@
           "charterFee": 9239000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
@@ -443,7 +429,7 @@
           "charterFee": 11719000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
@@ -502,7 +488,7 @@
           "charterFee": 9779000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
