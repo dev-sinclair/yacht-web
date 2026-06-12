@@ -13779,6 +13779,33 @@
     ]
   },
   {
+    "uri": "c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff",
+    "slug": "ankawer-vi",
+    "name": "ANKAWER VI",
+    "hero": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::a5ddb0e0-668c-11f1-9290-07304bd16c81/{imageVariant}",
+    "length": 21.64,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::35182310185::vessel::fd72d4b0-9532-11f0-8dd0-cf690c27ae06",
     "slug": "zee-draak",
     "name": "ZEE DRAAK",
@@ -15015,8 +15042,8 @@
       "Power Catamaran"
     ],
     "dayPricingFrom": 200000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
+    "weekPricingFrom": 4200000,
+    "currency": "USD",
     "seasons": [
       "summer-2026",
       "summer-2027",
@@ -22361,6 +22388,34 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::d5cc4e71-fe8c-11ed-889f-43d4bb723744",
+    "slug": "summer-star",
+    "name": "SUMMER STAR",
+    "hero": "/media/media::image::c::7579706445::vessel::d5cc4e71-fe8c-11ed-889f-43d4bb723744::assets::7051e320-a414-11ee-a3ef-0b2547cdbcf3.jpeg/{imageVariant}",
+    "length": 15.84,
+    "sleeps": 10,
+    "cabins": 6,
+    "builtYear": 2019,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1512000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2023",
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "winter-2023",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::d5cbabc6-fe8c-11ed-889f-43d4bb723744",
     "slug": "flo",
     "name": "FLO",
@@ -22413,34 +22468,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579706445::vessel::d5cc4e71-fe8c-11ed-889f-43d4bb723744",
-    "slug": "summer-star",
-    "name": "SUMMER STAR",
-    "hero": "/media/media::image::c::7579706445::vessel::d5cc4e71-fe8c-11ed-889f-43d4bb723744::assets::7051e320-a414-11ee-a3ef-0b2547cdbcf3.jpeg/{imageVariant}",
-    "length": 15.84,
-    "sleeps": 10,
-    "cabins": 6,
-    "builtYear": 2019,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1512000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2023",
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2023",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {

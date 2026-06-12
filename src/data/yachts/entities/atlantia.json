@@ -1,5 +1,5 @@
 {
-  "lastModified": 1772145165422,
+  "lastModified": 1781282686792,
   "uri": "c::51632648983::vessel::437e1f70-11c3-11f1-9865-a73622f46bb4",
   "yachtType": [
     "Motor",
@@ -142,6 +142,20 @@
       "displayCurrency": "USD",
       "displayPrice": 600000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 4200000,
+      "displayCurrency": "USD",
+      "displayPrice": 4200000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 7000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7000000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -308,6 +322,323 @@
           "total": 684000,
           "subTotal": 600000,
           "totalTax": 84000.00000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Pricing 2 People ",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.14
+              }
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 0,
+              "amount": 0
+            }
+          ],
+          "total": 4788000,
+          "subTotal": 4200000,
+          "totalTax": 588000
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Pricing 4 People",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.14
+              }
+            }
+          ],
+          "total": 5586000,
+          "subTotal": 4900000,
+          "totalTax": 686000.0000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Pricing 6 People",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5600000,
+              "amount": 5600000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.14
+              }
+            }
+          ],
+          "total": 6384000,
+          "subTotal": 5600000,
+          "totalTax": 784000.0000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Pricing 8 People",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6300000,
+              "amount": 6300000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.14
+              }
+            }
+          ],
+          "total": 7182000,
+          "subTotal": 6300000,
+          "totalTax": 882000.0000000001
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Pricing 10 People",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7000000,
+              "amount": 7000000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.14
+              }
+            }
+          ],
+          "total": 7980000,
+          "subTotal": 7000000,
+          "totalTax": 980000.0000000001
         },
         "inclusionZones": [
           {
