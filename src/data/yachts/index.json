@@ -9383,33 +9383,6 @@
     ]
   },
   {
-    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tango-charlie",
-    "name": "TANGO CHARLIE",
-    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
-    "length": 26,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Cobanoglu Shipyards",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
     "slug": "ukiel",
     "name": "UKIEL",
@@ -9434,6 +9407,33 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tango-charlie",
+    "name": "TANGO CHARLIE",
+    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
+    "length": 26,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Cobanoglu Shipyards",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -12849,6 +12849,33 @@
     ]
   },
   {
+    "uri": "c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff",
+    "slug": "ankawer-vi",
+    "name": "ANKAWER VI",
+    "hero": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::a5ddb0e0-668c-11f1-9290-07304bd16c81/{imageVariant}",
+    "length": 22.78,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::d5cca497-fe8c-11ed-889f-43d4bb723744",
     "slug": "agata-blu",
     "name": "AGATA BLU",
@@ -13767,33 +13794,6 @@
     ],
     "dayPricingFrom": 326700,
     "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff",
-    "slug": "ankawer-vi",
-    "name": "ANKAWER VI",
-    "hero": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::a5ddb0e0-668c-11f1-9290-07304bd16c81/{imageVariant}",
-    "length": 21.64,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6000000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
