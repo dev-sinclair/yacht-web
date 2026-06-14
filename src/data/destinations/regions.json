@@ -3,30 +3,119 @@
     "slug": "northern-europe-and-arctic",
     "name": "Northern Europe & Arctic",
     "ankorRegion": "Northern Europe & Arctic",
-    "tagline": "Fjords, midnight sun, and the high north under sail",
+    "tagline": "Fjords, wilderness, and the midnight sun",
     "heroImage": "https://plus.unsplash.com/premium_photo-1667997960054-b80d11b53a9a?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "Northern Europe and the Arctic represent the furthest reach of the superyacht charter world — and for those who seek them out, some of the most extraordinary cruising available.",
+      "This is expedition territory. The season runs from June to August, the conditions are variable, and the fleet is specialist. The reward is something entirely different from the Mediterranean and Caribbean: scale, silence, and a level of remoteness that is increasingly rare.",
+      "Norway is the natural entry point. The fjords — Hardangerfjord, Sognefjord, Geirangerfjord — are among the most dramatic landscapes in Europe. Waterfalls drop directly into calm, dark water, and mountains rise vertically from the sea. In midsummer, the midnight sun extends daylight well into the night, giving each anchorage a distinctive atmosphere.",
+      "Scotland offers a different kind of wildness — the Hebrides, the West Coast and the Caledonian Canal. Whisky distilleries, ancient castles, seabird colonies and weather that forms part of the experience. St Kilda, forty miles beyond the Outer Hebrides, rewards those who make the passage.",
+      "Greenland is the furthest expression of this region — icebergs, vast fjords and near-total wilderness. A small number of specialist expedition yachts operate here. For those who do, the experience is difficult to replicate elsewhere."
+    ],
+    "idealFor": [
+      "Adventure & expedition",
+      "Sailing enthusiasts",
+      "Couples",
+      "Wildlife & nature",
+      "Photography",
+      "Experienced charterers"
+    ],
+    "seasonConditions": {
+      "charterSeason": "June – August",
+      "peakPeriod": "July",
+      "waterTemperature": "8°C – 16°C",
+      "charterBases": "Bergen · Tromsø · Inverness"
+    },
     "locations": [
       {
-        "slug": "greenland",
-        "name": "Greenland",
-        "tagline": "Calving glaciers, silent fjords, the last edge of the map",
-        "image": "https://plus.unsplash.com/premium_photo-1667997887667-8c12bcd2a36e?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Disko Bay", "Ilulissat Icefjord", "Scoresby Sund", "Nuuk"]
-      },
-      {
         "slug": "norway",
-        "name": "Norway",
-        "tagline": "Deep fjords, sea eagles, midnight sun above the Arctic Circle",
+        "name": "Norway & the Fjords",
+        "tagline": "Geirangerfjord, Sognefjord, the midnight sun. The most dramatic coastal scenery in Europe",
         "image": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Geirangerfjord", "Lofoten", "Bergen", "Tromsø", "Svalbard"]
+        "cruisingSpots": [
+          "Bergen",
+          "Hardangerfjord",
+          "Sognefjord",
+          "Geirangerfjord",
+          "Flåm",
+          "Lofoten Islands",
+          "Tromsø"
+        ],
+        "description": [
+          "Norway is where most Northern Europe charters begin — and for many, where the concept of expedition sailing becomes real for the first time.",
+          "Bergen is the natural gateway. The UNESCO-listed Bryggen wharf, the fish market and the surrounding mountains make it one of the most distinctive port cities in Europe. From here, the fjords open in every direction.",
+          "Hardangerfjord is the most approachable — softer in character, lined with orchards and punctuated by waterfalls that drop directly to the water. Sognefjord is the longest and deepest fjord in Norway, its innermost arms extending far into the mountains, with Flåm at the end of one of the most dramatic valley passages in Scandinavia. Geirangerfjord is the headline — steep cliff walls, the Seven Sisters waterfall cascading in parallel streams, and a scale that requires time to absorb. UNESCO listed, and deservedly so.",
+          "The Lofoten Islands, further north, are in a different register entirely. Jagged peaks rise directly from the sea, traditional red fishing villages cling to rocky outcrops, and the light — particularly in the long evenings of midsummer — is unlike anywhere else in Europe.",
+          "Norwegian infrastructure is excellent throughout. The experience is remote by character, not by logistics."
+        ],
+        "whyCharter": [
+          "Geirangerfjord — UNESCO World Heritage fjord, one of the most dramatic in Europe",
+          "Seven Sisters waterfall — one of Norway's most recognised natural landmarks",
+          "Lofoten Islands — jagged peaks, red villages, exceptional midsummer light",
+          "Midnight sun — continuous daylight in June and July",
+          "Bergen — one of Europe's most distinctive port cities",
+          "Strong marina infrastructure — remote by character, not by logistics"
+        ]
       },
       {
         "slug": "scotland",
         "name": "Scotland",
-        "tagline": "Hebridean lochs, single-malt harbours, wild Atlantic light",
+        "tagline": "The Hebrides, the West Coast and St Kilda. Wild, historic and entirely its own",
         "image": "https://images.unsplash.com/photo-1754303734809-2f4497c109e0?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Inner Hebrides", "Outer Hebrides", "Isle of Skye", "Mull", "West Coast"]
+        "cruisingSpots": [
+          "Oban",
+          "Sound of Mull",
+          "Tobermory",
+          "Islay",
+          "Isle of Skye",
+          "Outer Hebrides",
+          "St Kilda",
+          "Orkney",
+          "Shetland"
+        ],
+        "description": [
+          "Scotland is not a charter destination for those seeking guaranteed sunshine. It is a destination for those drawn to something more genuine — wild coastlines, layered history, extraordinary wildlife and sailing that asks something of you in return.",
+          "The West Coast and the Hebrides form the heart of Scottish charter. Oban is the natural base — well connected, well equipped and the gateway to an archipelago of over 900 islands. The Sound of Mull, Tobermory's painted houses, Fingal's Cave on Staffa, and Skye's Cuillin mountains rising above the anchorage at Portree — the west coast delivers something distinctive on every passage.",
+          "Islay, the southernmost of the Inner Hebrides, is home to some of the world's most respected whisky distilleries — Laphroaig, Ardbeg, Bowmore — several of which sit directly on the waterfront and can be reached by tender.",
+          "The Outer Hebrides — Lewis and Harris — extend the cruising ground into genuinely remote waters. St Kilda, forty miles beyond, rewards those who wait for the right weather window. A UNESCO dual World Heritage site, it is unlike anywhere else in the British Isles.",
+          "Orkney and Shetland, at the northern extreme, offer Norse heritage, dramatic cliff scenery and wildlife that includes puffins, orcas and seals."
+        ],
+        "whyCharter": [
+          "St Kilda — UNESCO dual World Heritage site, unlike anywhere else in the British Isles",
+          "Islay whisky distilleries — Laphroaig, Ardbeg, Bowmore — accessible by tender",
+          "West Coast and Hebrides — over 900 islands, wild and largely untouched",
+          "Fingal's Cave — one of Europe's most distinctive natural formations",
+          "Orkney and Shetland — Norse heritage, puffins, orcas",
+          "Genuine remoteness within reach of the UK mainland"
+        ]
+      },
+      {
+        "slug": "greenland",
+        "name": "Greenland",
+        "tagline": "Icebergs, vast fjords, near-total wilderness. Expedition sailing at its most elemental",
+        "image": "https://plus.unsplash.com/premium_photo-1667997887667-8c12bcd2a36e?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Ilulissat",
+          "Disko Bay",
+          "Prince Christian Sound",
+          "East Greenland Fjords"
+        ],
+        "description": [
+          "Greenland is not a charter destination in the conventional sense. There are no marinas, no beach clubs, no established itineraries. There is ice, silence, scale, and a landscape so indifferent to human presence that the experience of moving through it leaves a lasting impression.",
+          "A very small number of expedition yachts operate in Greenlandic waters — ice-strengthened, properly equipped, and crewed by people who understand what is required. For those aboard, the experience is unlike anything the established charter world can offer.",
+          "Disko Bay and the Ilulissat Icefjord form the most accessible entry point. The fjord, a UNESCO World Heritage site, produces some of the largest icebergs in the northern hemisphere — vast, silent structures drifting at a pace that alters your sense of time. The light in July and August, with the midnight sun still present, gives the ice a quality that is difficult to capture.",
+          "Prince Christian Sound, at the southern tip, is one of the great fjord passages in the world — a narrow channel flanked by glaciers and near-vertical rock faces, largely inaccessible except by sea.",
+          "The season is July and August. Ice conditions shape the itinerary more than any plan — and that is part of its appeal."
+        ],
+        "whyCharter": [
+          "Ilulissat Icefjord — UNESCO World Heritage site, icebergs on an exceptional scale",
+          "Prince Christian Sound — one of the great fjord passages in the world",
+          "Midnight sun — continuous light throughout July and August",
+          "Near-total wilderness — one of the least visited coastlines globally",
+          "Expedition sailing at its most elemental — a different category entirely",
+          "For clients who have explored widely and are looking for something further"
+        ]
       }
     ]
   },
@@ -66,7 +155,10 @@
         "name": "France",
         "tagline": "The Riviera, Saint-Tropez, Corsica. Effortlessly the standard",
         "image": "https://images.unsplash.com/photo-1596010179162-bfdca08fd5a5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["French Riviera", "Corsica"],
+        "cruisingSpots": [
+          "French Riviera",
+          "Corsica"
+        ],
         "description": [
           "France moves between two entirely different expressions of the Mediterranean — and does both with a clarity few destinations can match.",
           "The Côte d'Azur is the season. Saint-Tropez at anchor off Pampelonne, a tender ashore to Club 55, an evening in the old port — this is what people mean when they talk about the Riviera. The Cannes Film Festival, the Monaco Grand Prix and the Cannes Yachting Festival define the calendar. Belle époque facades, casino terraces and Michelin-starred tables sit steps from the dock. Unapologetic, unhurried, and entirely itself.",
@@ -74,6 +166,14 @@
           "The Riviera defines the season. Corsica is where you step away from it.",
           "France is, by almost any measure, the most complete charter destination in the Mediterranean. It has the infrastructure, the coastline, the culture, and a way of life that is entirely its own. The south of France in particular — from the Italian border to the wild creeks of Corsica — offers a charter experience that moves seamlessly between Riviera glamour and genuine, unhurried seclusion.",
           "The Riviera defines the season — Corsica is where you step away from it."
+        ],
+        "whyCharter": [
+          "World-class marinas and superyacht infrastructure",
+          "Iconic beaches — Pampelonne, Porquerolles, Lavezzi Islands",
+          "Established social and events calendar",
+          "Exceptional dining — from beach clubs to Michelin-starred tables",
+          "Fashion, art and cultural depth",
+          "Access to Corsica's more remote anchorages"
         ]
       },
       {
@@ -81,11 +181,23 @@
         "name": "Monaco",
         "tagline": "Small in scale. Singular in influence",
         "image": "https://images.unsplash.com/photo-1703966140617-3a648f140917?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail"],
+        "cruisingSpots": [
+          "Port Hercule",
+          "Monte Carlo",
+          "Cap d'Ail"
+        ],
         "description": [
           "Monaco does not need context. Port Hercule is one of the most recognised harbours on earth, Monte Carlo one of the most storied addresses. The principality is small by every geographical measure and outsized in every other — in ambition, atmosphere and the density of exceptional experiences available within walking distance of the dock.",
           "Yachts base here, particularly for the Monaco Grand Prix, when the harbour transforms into the most electric setting on the Riviera calendar. Outside of race weekend, Monaco rewards those who look beyond the obvious. The Casino de Monte-Carlo, long associated with James Bond and still drawing an international crowd each evening. The grand hotels — Hôtel de Paris, the Hermitage, the Monte-Carlo Beach — each operating at a standard few cities in the world can match. Jimmy'z and Twiga draw an international crowd throughout the summer season, with world-class DJs and a clientele that reflects Monaco's singular position. And Fontvieille, the quieter quarter below the palace rock, for those who want to step away from the theatre of the port.",
           "Everything here is condensed. Nothing is diluted."
+        ],
+        "whyCharter": [
+          "The Monaco Grand Prix — the defining event charter experience",
+          "Casino de Monte-Carlo — one of the most recognisable gaming rooms in the world",
+          "Grand hotels — Hôtel de Paris, Hermitage, Monte-Carlo Beach",
+          "Jimmy'z and Twiga — established nightlife, international crowd",
+          "Exceptional fine dining and private members' culture",
+          "Year-round destination — no defined off-season"
         ]
       },
       {
@@ -93,7 +205,12 @@
         "name": "Italy",
         "tagline": "Four distinct cruising grounds. Each one a different Italy",
         "image": "https://images.unsplash.com/photo-1549893072-4bc678117f45?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Italian Riviera", "Amalfi Coast", "Sardinia", "Sicily"],
+        "cruisingSpots": [
+          "Italian Riviera",
+          "Amalfi Coast",
+          "Sardinia",
+          "Sicily"
+        ],
         "description": [
           "Italy's charter grounds are among the most varied in the Mediterranean — and unlike most regions, each territory is a self-contained itinerary. Most clients choose one."
         ],
@@ -114,6 +231,14 @@
             "heading": "Sicily & the Aeolian Islands",
             "body": "Demand more time — a ten-day minimum to do the passage justice. Stromboli, Lipari and Panarea are the stepping stones south, with Sicily itself offering ancient cities, baroque architecture and water that turns every shade of blue."
           }
+        ],
+        "whyCharter": [
+          "Four distinct territories — each a different experience",
+          "Portofino — one of Europe's finest small harbours",
+          "Amalfi Coast — dramatic scenery, cultural depth, Capri",
+          "Costa Smeralda — world-class marina and remote wilderness",
+          "Sicily — ancient history, baroque cities, extraordinary water",
+          "Aeolian Islands — volcanic, raw and largely unspoiled"
         ]
       },
       {
@@ -121,7 +246,12 @@
         "name": "Spain",
         "tagline": "The Balearic Islands. Home waters",
         "image": "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Mallorca", "Menorca", "Ibiza", "Formentera"],
+        "cruisingSpots": [
+          "Mallorca",
+          "Menorca",
+          "Ibiza",
+          "Formentera"
+        ],
         "description": [
           "The Balearic Islands are the heart of Western Mediterranean charter — and for Sinclair Yachting, home waters."
         ],
@@ -143,7 +273,15 @@
             "body": "Reached by tender — shallow, translucent water, minimal development and a complete shift in pace."
           }
         ],
-        "footer": "Barcelona operates as an occasional static or event charter base — well positioned, but not a primary cruising ground at this level."
+        "footer": "Barcelona operates as an occasional static or event charter base — well positioned, but not a primary cruising ground at this level.",
+        "whyCharter": [
+          "Four islands, four distinct cruising experiences",
+          "Cabrera — protected national park, exceptional anchorages",
+          "Serra de Tramuntana — UNESCO coastline, dramatic and largely sea-accessed",
+          "Ibiza — beach clubs, nightlife and hidden coves",
+          "Formentera — exceptional shallow-water cruising",
+          "Outstanding food — Michelin-starred dining to relaxed chiringuitos"
+        ]
       }
     ]
   },
@@ -151,37 +289,116 @@
     "slug": "east-mediterranean",
     "name": "Eastern Mediterranean",
     "ankorRegion": "East Mediterranean",
-    "tagline": "Aegean islands, ancient harbours, sun-bleached coasts",
+    "tagline": "Ancient coastlines, crystalline water, island light",
     "heroImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The Eastern Mediterranean is where the sea takes on a different character. The light is sharper, more golden, and the coastlines carry a depth of history that the western basin cannot match. From the Ionian Islands to the Turquoise Coast, from the Dalmatian archipelago to the Dodecanese, this is a region that rewards those who take the time to explore properly.",
+      "The infrastructure has matured significantly. Athens, Dubrovnik, Bodrum and Split are all established charter bases with strong technical support and provisioning. The season runs from May to October, with the Aegean at its best in June and September, when the meltemi eases and anchorages are quieter.",
+      "But the Eastern Mediterranean is defined by what lies beyond the marinas. Remote island anchorages, ancient cities approached from the water, and landscapes that have changed little in centuries. Croatia's Dalmatian islands, the volcanic Cyclades, the pine-scented bays of the Turkish coast — these are the places that stay with you.",
+      "Three distinct territories, each offering a different expression of the Eastern Mediterranean."
+    ],
+    "idealFor": [
+      "Sailing enthusiasts",
+      "Culture & history",
+      "First-time charterers",
+      "Families",
+      "Couples",
+      "Adventure & expedition",
+      "Food & wine"
+    ],
+    "seasonConditions": {
+      "charterSeason": "May – October",
+      "peakPeriod": "July – August",
+      "shoulderSeason": "May – June · September – October",
+      "waterTemperature": "18°C – 28°C",
+      "charterBases": "Athens · Dubrovnik · Bodrum · Split"
+    },
     "locations": [
-      {
-        "slug": "croatia",
-        "name": "Croatia",
-        "tagline": "Dalmatian island-hopping along a thousand-island coast",
-        "image": "https://images.unsplash.com/photo-1626699848008-7e419bc4e237?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Dubrovnik", "Hvar", "Split", "Korčula", "Vis", "Kornati"]
-      },
-      {
-        "slug": "montenegro",
-        "name": "Montenegro",
-        "tagline": "The Bay of Kotor. Fjord-like waters under Balkan peaks",
-        "image": "https://plus.unsplash.com/premium_photo-1697730104948-43575659bf0a?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Bay of Kotor", "Porto Montenegro", "Sveti Stefan", "Budva"]
-      },
       {
         "slug": "greece",
         "name": "Greece",
-        "tagline": "Cyclades sunrises, Ionian pines, taverna tables at the water",
+        "tagline": "The Ionian, the Aegean, the Dodecanese. Ancient, luminous, inexhaustible",
         "image": "https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Cyclades", "Mykonos", "Santorini", "Ionian Islands", "Corfu", "Dodecanese", "Crete"]
+        "cruisingSpots": [
+          "Saronic Gulf",
+          "Cyclades",
+          "Ionian Islands",
+          "Dodecanese",
+          "Corinth Canal"
+        ],
+        "description": [
+          "Greece is one of the most varied and rewarding charter destinations in the Eastern Mediterranean — and one that benefits from a considered approach.",
+          "Athens serves as the primary starting point for most charters. The Saronic Gulf — Hydra, Spetses, Poros — is particularly well suited to shorter itineraries, with immediate access to the islands. The Cyclades are accessible within a standard week, though the southern islands, including Santorini, are best explored over a longer itinerary.",
+          "The Ionian Islands — Corfu, Kefalonia, Lefkada, Zakynthos — sit on the western coast, greener and calmer than the Aegean, with a more sheltered style of cruising. The region can be explored independently or incorporated into a wider itinerary.",
+          "Further east, the Dodecanese — Rhodes, Patmos, Symi, Kos — offer a more expansive and largely uncrowded cruising ground, close to the Turkish coast. For those who venture here, it is among the most rewarding sailing in the Mediterranean.",
+          "The meltemi shapes the Aegean through July and August, while June and September offer particularly favourable conditions."
+        ],
+        "whyCharter": [
+          "The Saronic Gulf — accessible, well suited to shorter charters",
+          "Cyclades — Mykonos, Paros, Milos, Santorini — iconic and varied",
+          "Ionian Islands — calmer waters, greener landscape, consistent sailing",
+          "Dodecanese — historic, remote and largely uncrowded",
+          "The Corinth Canal — one of the defining passages in Mediterranean sailing",
+          "Ancient history present at every stage of the itinerary"
+        ]
+      },
+      {
+        "slug": "croatia-and-montenegro",
+        "name": "Croatia & Montenegro",
+        "tagline": "The Dalmatian coast, a thousand islands, and Kotor Bay",
+        "image": "https://images.unsplash.com/photo-1626699848008-7e419bc4e237?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Dubrovnik",
+          "Split",
+          "Hvar",
+          "Korčula",
+          "Brač",
+          "Kornati Islands",
+          "Kotor Bay"
+        ],
+        "description": [
+          "Croatia has become one of the most compelling charter destinations in the Mediterranean — and one of the fastest rising. The Dalmatian coast offers a combination of medieval walled cities, crystal-clear Adriatic water and an archipelago of over a thousand islands that rewards exploration in a way few coastlines can match.",
+          "Dubrovnik is the natural anchor — one of the most beautiful cities in Europe, and extraordinary when approached by sea. Hvar has evolved into a genuinely high-end destination, with restaurants, beach clubs and energy to stand alongside the best of the Riviera. Korčula and Brač offer a quieter, more unhurried character, while the Kornati Islands — a national park of bare limestone and translucent water — are among the most dramatic sailing grounds in the Mediterranean. Split operates as the primary charter base, well connected and well equipped.",
+          "Montenegro sits at the southern end of the cruising ground and deserves consideration in its own right. Kotor Bay — a fjord-like inlet ringed by medieval fortifications and mountain walls — is one of the most striking anchorages in Europe. The country's favourable tax environment also makes it an attractive base for certain charter arrangements. A conversation worth having with your broker."
+        ],
+        "whyCharter": [
+          "Over a thousand islands — one of the great sailing archipelagos",
+          "Dubrovnik — medieval walled city, extraordinary from the sea",
+          "Hvar — high-end destination competing with the best of the Riviera",
+          "Kornati Islands — national park, raw and dramatic",
+          "Kotor Bay — one of the most striking anchorages in Europe",
+          "Favourable tax environment in Montenegro"
+        ]
       },
       {
         "slug": "turkey",
         "name": "Turkey",
-        "tagline": "Turquoise Coast. Gulets, ruins, pine-fringed bays",
+        "tagline": "The Turquoise Coast. Bodrum, Göcek and the bays that remain largely undiscovered",
         "image": "https://images.unsplash.com/photo-1569660073216-1a6762baad6a?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Bodrum", "Göcek", "Marmaris", "Fethiye", "Kaş", "Turkish Riviera"]
+        "cruisingSpots": [
+          "Bodrum",
+          "Göcek",
+          "Gulf of Fethiye",
+          "Pine Islands",
+          "Marmaris",
+          "Bozburun Peninsula"
+        ],
+        "description": [
+          "Turkey is one of the most beautiful and least understood charter destinations in the Mediterranean. The Turquoise Coast is verdant, sheltered and distinctive — pine forests running to the water's edge, bays accessible only by sea, and a style of hospitality that feels entirely its own.",
+          "The Gulf of Fethiye is the centre of it. The Pine Islands, the Blue Lagoon at Ölüdeniz, and the anchorages scattered across the gulf offer some of the most relaxed cruising in the Mediterranean. The water is clear, the bays are protected, and the quality of light — particularly in the early morning and late evening — is exceptional.",
+          "Bodrum is the primary charter base — cosmopolitan, well equipped and well connected — with access to both the peninsula and the wider Aegean coast. Göcek, further south, is quieter and more contained, often preferred for its immediate access to the Pine Islands and the gulf.",
+          "Marmaris extends the cruising ground south and west, opening access to the Bozburun Peninsula — a largely unspoiled coastline of small harbours and quiet anchorages.",
+          "The cuisine throughout is a defining feature. Turkish hospitality, aboard and ashore, sets a standard few regions match."
+        ],
+        "whyCharter": [
+          "Gulf of Fethiye — Pine Islands, protected bays, exceptional cruising conditions",
+          "Verdant coastline — greener and more sheltered than much of the Aegean",
+          "Turkish cuisine and hospitality — consistently outstanding",
+          "Largely unspoiled anchorages — fewer crowds than the Western Mediterranean",
+          "Bodrum — established charter base with strong infrastructure",
+          "Bozburun Peninsula — quiet, traditional and lightly developed"
+        ]
       }
     ]
   },
@@ -189,44 +406,218 @@
     "slug": "caribbean-and-bahamas",
     "name": "Caribbean & Bahamas",
     "ankorRegion": "Caribbean & Bahamas",
-    "tagline": "Trade-wind sailing across legendary island chains",
+    "tagline": "Trade winds, turquoise water, and the other great charter season",
     "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The Caribbean and the Bahamas represent the second chapter of the superyacht charter calendar — running from November through to May, when the Mediterranean is out of season, and offering a breadth of experience that rivals anything the Med can provide.",
+      "The region divides into distinct territories, each with its own character, infrastructure and licensing jurisdiction. The British Virgin Islands and US Virgin Islands sit side by side but operate as separate charter grounds. St Martin is the gateway to St Barths and the Leeward Islands. Antigua anchors the sailing heritage of the eastern Caribbean. The Grenadines offer some of the most unspoiled cruising in the region.",
+      "The Bahamas is distinct — and uniquely, open year-round. Positioned off the Florida coast, with a longer operating season than much of the Caribbean, it is defined by shallow turquoise water, deserted cays and a style of cruising entirely its own. The fleet typically operates from Nassau, with Fort Lauderdale and Miami serving as key access points.",
+      "The trade winds blow consistently from the east, the water is warm and clear, and the pace of life aboard is unlike anything in the Mediterranean. For clients who charter in the Med during summer, the Caribbean is the natural winter extension — same fleet, same standard, an entirely different setting.",
+      "Six territories. Each one worth a season in its own right."
+    ],
+    "idealFor": [
+      "Sailing enthusiasts",
+      "First-time charterers",
+      "Families",
+      "Couples",
+      "Food & wine",
+      "Remote cruising",
+      "Adventure & expedition",
+      "Event charters"
+    ],
+    "seasonConditions": {
+      "charterSeason": "November – May (Caribbean) · Year-round (Bahamas)",
+      "peakPeriod": "December – April",
+      "hurricaneSeason": "June – November (Caribbean islands — Bahamas less affected but still seasonal)",
+      "waterTemperature": "25°C – 29°C",
+      "charterBases": "Tortola · St Thomas · St Martin · Antigua · Grenada · Nassau · Fort Lauderdale"
+    },
     "locations": [
-      {
-        "slug": "leeward-islands",
-        "name": "Leeward Islands",
-        "tagline": "The northern arc. Beach clubs, regattas, hidden anchorages",
-        "image": "https://images.unsplash.com/photo-1582300857444-5ddd87c86797?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["St Martin", "Antigua", "Anguilla", "U.S. Virgin Islands", "British Virgin Islands", "St. Barts", "Saba", "St. Kitts & Nevis", "Antigua & Barbuda"]
-      },
-      {
-        "slug": "windward-islands",
-        "name": "Windward Islands",
-        "tagline": "Volcanic peaks, rainforest interiors, the wilder south",
-        "image": "https://images.unsplash.com/photo-1542741082-254873c23996?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Dominica", "Martinique", "St. Lucia", "St. Vincent & The Grenadines", "Grenada"]
-      },
       {
         "slug": "british-virgin-islands",
         "name": "British Virgin Islands",
-        "tagline": "Sir Francis Drake Channel. Short hops, easy nights at anchor",
+        "tagline": "The classic Caribbean charter ground. Protected waters, consistent trade winds, exceptional sailing",
         "image": "https://images.unsplash.com/photo-1547066884-3bd00fcf62f5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Tortola", "Virgin Gorda", "Jost Van Dyke", "Anegada", "Norman Island", "The Baths"]
+        "cruisingSpots": [
+          "Tortola",
+          "Road Town",
+          "Virgin Gorda",
+          "The Baths",
+          "Jost Van Dyke",
+          "Norman Island",
+          "North Sound"
+        ],
+        "description": [
+          "The British Virgin Islands are where many clients begin their Caribbean charter experience — and where many return, season after season, for good reason.",
+          "The Sir Francis Drake Channel is one of the finest protected sailing passages in the world. Consistent trade winds, short distances between islands, and an infrastructure built around charter for decades — the BVI delivers the classic Caribbean sailing experience with a reliability few territories can match.",
+          "Tortola is the principal base. Road Town provides the core charter infrastructure — well equipped, well connected, and the natural starting point for most itineraries. From here, the islands open up in every direction.",
+          "Virgin Gorda is often the first stop — The Baths, the extraordinary granite boulder formations at the southern tip, and the calmer waters of North Sound to the north. Jost Van Dyke is the social centre of the BVI — White Bay, the Soggy Dollar Bar, and afternoons that extend into the evening. Norman Island, often associated with Treasure Island, offers excellent snorkelling at The Caves and one of the more atmospheric anchorages in the Caribbean.",
+          "The BVI is compact, varied and consistent — equally suited to first-time charterers and returning clients."
+        ],
+        "whyCharter": [
+          "Sir Francis Drake Channel — one of the world's great protected sailing passages",
+          "The Baths — distinctive granite formations unique to Virgin Gorda",
+          "Jost Van Dyke — the social centre of the BVI",
+          "Established charter infrastructure — developed specifically for sailing itineraries",
+          "Compact cruising ground — multiple islands within short reach",
+          "Well suited to both first-time and experienced charterers"
+        ]
       },
       {
         "slug": "us-virgin-islands",
-        "name": "U.S. Virgin Islands",
-        "tagline": "St. Thomas, St. John, St. Croix. Three islands, one US clearance",
+        "name": "US Virgin Islands",
+        "tagline": "St Thomas, St John and the American gateway to the Caribbean",
         "image": "https://images.unsplash.com/photo-1581517001637-a720d0135b87?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["St. Thomas", "St. John", "St. Croix", "Cruz Bay", "Magens Bay"]
+        "cruisingSpots": [
+          "St Thomas",
+          "Charlotte Amalie",
+          "St John",
+          "Trunk Bay",
+          "St Croix",
+          "Buck Island",
+          "Christiansted"
+        ],
+        "description": [
+          "The US Virgin Islands are the American gateway to the Caribbean — and for many US clients, the natural starting point for a first charter.",
+          "St Thomas is the base. Charlotte Amalie is one of the most well-connected ports in the Caribbean — strong infrastructure, direct access from the US mainland, and a harbour that opens onto sailing grounds far quieter than the port itself suggests.",
+          "St John, a short passage east, is the reason many clients choose the USVI. Two thirds of the island is US National Park — protected, largely undeveloped, and exceptionally beautiful. Trunk Bay is one of the most recognised beaches in the Caribbean, and the anchorages along the north shore are consistently outstanding.",
+          "St Croix lies forty miles to the south — quieter and less visited, with Buck Island's protected reef offering excellent snorkelling and Christiansted's Danish colonial architecture adding a different dimension ashore.",
+          "The USVI requires no passport for US citizens and operates in US dollars — practical advantages that matter when planning a first Caribbean charter. The British Virgin Islands lie immediately to the east but operate as a separate charter jurisdiction — a conversation worth having with your broker."
+        ],
+        "whyCharter": [
+          "St John — US National Park, Trunk Bay, outstanding north shore anchorages",
+          "No passport required for US citizens — seamless access from the mainland",
+          "St Thomas — well connected, strong charter infrastructure",
+          "St Croix — Buck Island reef, colonial architecture, less visited",
+          "US dollars throughout — familiar and straightforward",
+          "Natural stepping stone into the broader Caribbean"
+        ]
+      },
+      {
+        "slug": "leeward-islands",
+        "name": "St Barths, St Martin & the Leeward Islands",
+        "tagline": "The energy of St Barths, the base of St Martin, and the islands between",
+        "image": "https://images.unsplash.com/photo-1582300857444-5ddd87c86797?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "St Martin",
+          "Sint Maarten",
+          "St Barths",
+          "Anguilla",
+          "Saba",
+          "St Kitts",
+          "Nevis"
+        ],
+        "description": [
+          "St Martin sits at the centre of the Leeward Islands charter circuit — a well-connected base from which some of the most varied and rewarding sailing in the Caribbean unfolds within a short passage.",
+          "The island divides between the French north — Marigot, Grand Case, quiet lagoon anchorages — and the Dutch south, Sint Maarten, which provides the marina infrastructure, provisioning and nightlife. Between them, they service the charter fleet effectively.",
+          "St Barths is the headline destination. Twenty miles to the southeast, Gustavia is one of the most refined small harbours in the world — expensive, beautiful and worth the journey. The anchorage, the restaurants, the boutiques, and the sense of being at the centre of Caribbean high season — St Barths delivers it all.",
+          "Anguilla lies five miles to the north — low-key and unhurried, with some of the finest beaches in the Caribbean and a restaurant scene that far exceeds its size.",
+          "Saba, to the southwest, is volcanic, dramatic and largely undeveloped — a world-class diving destination for those looking to step away from the social circuit.",
+          "St Kitts and Nevis extend the itinerary further south — lush, historic and less frequented than the islands to the north."
+        ],
+        "whyCharter": [
+          "St Barths — Gustavia harbour, world-class restaurants, Caribbean at its most refined",
+          "Anguilla — pristine beaches, outstanding food, relaxed luxury",
+          "Saba — dramatic volcanic island, world-class diving",
+          "St Martin — strong charter infrastructure across both sides of the island",
+          "St Kitts & Nevis — lush, historic and less visited",
+          "Six islands within easy reach of a single base"
+        ]
+      },
+      {
+        "slug": "antigua-and-barbuda",
+        "name": "Antigua & Barbuda",
+        "tagline": "English Harbour, Sailing Week, and one of the region's defining charter bases",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "English Harbour",
+          "Falmouth Harbour",
+          "Barbuda",
+          "Guadeloupe",
+          "Dominica",
+          "Martinique",
+          "St Lucia"
+        ],
+        "description": [
+          "Antigua is one of the Caribbean's most established charter bases — and one that rewards those who take the time to explore it properly.",
+          "English Harbour and Falmouth Harbour sit side by side on the southern coast — two of the most historically significant and best-equipped anchorages in the region. Nelson's Dockyard, a UNESCO World Heritage site, gives the harbour a depth of character that few Caribbean bases can match. Antigua Sailing Week, held each April, draws an international racing fleet and remains one of the defining events on the Caribbean calendar.",
+          "The island offers remarkable variety — consistent trade winds, over 365 beaches, and anchorages that range from the social atmosphere of the harbours to the quieter bays along the north and west coasts.",
+          "Barbuda lies thirty miles to the north — largely undeveloped, exceptionally quiet, with pink sand beaches and one of the largest frigate bird colonies in the world. It is among the least visited and most distinctive islands in the Caribbean.",
+          "For those with more time, Antigua provides a natural starting point for a southbound passage through the Windward Islands — Guadeloupe, Dominica, Martinique and St Lucia — one of the great extended itineraries in Caribbean sailing."
+        ],
+        "whyCharter": [
+          "Nelson's Dockyard — UNESCO World Heritage site and a defining Caribbean anchorage",
+          "Antigua Sailing Week — one of the region's premier sailing events",
+          "Barbuda — pink sand beaches, frigate bird sanctuary, largely undeveloped",
+          "Over 365 beaches — exceptional variety for a single island",
+          "Gateway to the Windward Islands for extended itineraries",
+          "Consistent trade winds and strong sailing conditions"
+        ]
+      },
+      {
+        "slug": "grenadines",
+        "name": "St Lucia, St Vincent & The Grenadines",
+        "tagline": "The unspoiled Caribbean. Islands that have retained their original pace",
+        "image": "https://images.unsplash.com/photo-1542741082-254873c23996?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "St Lucia",
+          "Rodney Bay",
+          "Bequia",
+          "Mustique",
+          "Canouan",
+          "Tobago Cays",
+          "Palm Island",
+          "Petit St Vincent",
+          "Carriacou"
+        ],
+        "description": [
+          "For those who have chartered the Caribbean widely, the Grenadines tend to become the answer. This is the region at its most elemental — unspoiled islands, exceptional water, and a pace that more developed territories have long since left behind.",
+          "St Lucia is the natural starting point from the north. The twin volcanic Pitons rising from the sea at Soufrière create one of the defining arrival moments in Caribbean sailing. Marigot Bay, Rodney Bay and the island's lush interior make St Lucia one of the most visually striking destinations in the region.",
+          "From St Vincent southward, the chain begins to open up. Bequia is the first stop — relaxed, unhurried, with a genuine sailing community and restaurants that reward the short passage. Mustique offers something entirely different — private, discreet, and deliberately removed.",
+          "Further south, the Tobago Cays Marine Park is the anchorage that stays with people longest. Uninhabited islands, protected reef, turtles and water of exceptional clarity — accessible only by sea.",
+          "Palm Island, Petit St Vincent and Carriacou extend the itinerary toward Grenada, each adding depth to what is, for many, the most rewarding cruising ground in the Caribbean."
+        ],
+        "whyCharter": [
+          "Tobago Cays — protected marine park, turtles, uninhabited islands, exceptional water",
+          "St Lucia — the Pitons, Marigot Bay, one of the Caribbean's most striking landscapes",
+          "Mustique — private, discreet, highly curated",
+          "Bequia — authentic character with a strong sailing community",
+          "Unspoiled throughout — fewer crowds than most Caribbean territories",
+          "For many, the most rewarding cruising ground in the region"
+        ]
       },
       {
         "slug": "bahamas",
-        "name": "Bahamas",
-        "tagline": "Translucent water across 700 islands. Exumas, Abacos, Eleuthera",
+        "name": "The Bahamas",
+        "tagline": "Shallow water, deserted cays, extraordinary light. A different kind of charter entirely",
         "image": "https://plus.unsplash.com/premium_photo-1754254967148-18f221106e21?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Exumas", "Abacos", "Eleuthera", "Nassau", "Harbour Island", "Staniel Cay"]
+        "cruisingSpots": [
+          "Nassau",
+          "Exuma Cays",
+          "Big Major Cay",
+          "Allen's Cay",
+          "Eleuthera",
+          "Harbour Island",
+          "Abacos",
+          "Hope Town"
+        ],
+        "description": [
+          "The Bahamas is a different kind of charter — and that is precisely its appeal.",
+          "The water is shallow, warm and exceptionally clear. Sandbars emerge from the sea, colour shifts from deep blue to pale turquoise within metres, and the light is unlike anywhere else in the Caribbean. One of the most visually distinctive cruising grounds in the world.",
+          "The Exuma Cays are the centre of it. The Exuma Cays Land and Sea Park offers pristine reef and exceptional clarity. Big Major Cay — where wild pigs swim out to meet passing yachts — is one of the most recognised locations in the Bahamas. Allen's Cay's iguanas and the blue holes throughout the chain add to a cruising ground that rewards exploration.",
+          "The shallow nature of the Exumas means deeper-draft vessels rely on tenders for many anchorages. Explorer yachts and shallower motor yachts are particularly well suited.",
+          "Nassau is the primary gateway, with Fort Lauderdale and Miami as key US access points. The Abacos offer a more sailing-oriented cruising ground — the Sea of Abaco and Hope Town's lighthouse among the highlights.",
+          "Open year-round, the Bahamas operates on a different seasonal pattern to much of the Caribbean."
+        ],
+        "whyCharter": [
+          "Exuma Cays — Land and Sea Park, exceptional reef, outstanding water clarity",
+          "Big Major Cay — swimming pigs, one of the region's most distinctive experiences",
+          "Shallow turquoise water unlike anywhere else in the Caribbean",
+          "Year-round cruising, with a longer operating window than many island groups",
+          "Harbour Island — pink sand beach, one of the most recognised in the region",
+          "Well positioned for US clients — Fort Lauderdale and Miami access"
+        ]
       }
     ]
   },
@@ -234,44 +625,165 @@
     "slug": "central-and-south-america",
     "name": "Central & South America",
     "ankorRegion": "Central & South America",
-    "tagline": "From the Galápagos to Patagonia. The wild Americas under sail",
+    "tagline": "Wild coasts, ancient cultures, and some of the least chartered waters in the world",
     "heroImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "Central and South America represent some of the most diverse and least chartered waters globally — a region where the gap between what exists and what most clients have experienced remains significant.",
+      "The Pacific and Caribbean coasts of Central America, the island archipelagos of Panama, the colonial ports of Colombia, the wildlife-led itineraries of the Galapagos, and the more remote waters of Brazil all contribute to a charter landscape that is broad, varied, and still developing. Infrastructure is more limited than in the Mediterranean or Caribbean, but sufficient for those planning with the right expertise.",
+      "Panama is the natural entry point. The San Blas Islands — Kuna Yala — are one of the more distinctive cruising grounds in the Americas: hundreds of low-lying islands, clear water and an indigenous culture that continues to define the region. The Panama Canal itself remains a passage of particular interest.",
+      "Colombia, Costa Rica, the Galapagos and Brazil each offer a different experience. This is not a region for the familiar — it is for clients who have chartered widely and are looking for something less conventional.",
+      "The season broadly aligns with the Caribbean — November to April — though individual territories vary."
+    ],
+    "idealFor": [
+      "Adventure & expedition",
+      "Sailing enthusiasts",
+      "Wildlife & nature",
+      "Culture & history",
+      "Experienced charterers",
+      "Photography",
+      "Remote cruising"
+    ],
+    "seasonConditions": {
+      "charterSeason": "November – April (broadly)",
+      "waterTemperature": "24°C – 30°C",
+      "charterBases": "Panama City · Cartagena · Puerto Caldera · Puerto Ayora"
+    },
     "locations": [
       {
-        "slug": "costa-rica",
-        "name": "Costa Rica",
-        "tagline": "Pacific surf, rainforest reaching to the shore, sloth-spotting at anchor",
-        "image": "https://images.unsplash.com/photo-1663946457157-476b36a0b99a?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Papagayo", "Nicoya Peninsula", "Drake Bay", "Cocos Island", "Manuel Antonio"]
-      },
-      {
         "slug": "panama",
-        "name": "Panama",
-        "tagline": "The Canal transit, San Blas atolls, two oceans in one charter",
+        "name": "Panama & the San Blas Islands",
+        "tagline": "Kuna Yala, the Panama Canal, and one of the more distinctive cruising grounds in the Americas",
         "image": "https://plus.unsplash.com/premium_photo-1681223447322-46794b8cdfd5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["San Blas Islands", "Pearl Islands", "Bocas del Toro", "Panama Canal"]
+        "cruisingSpots": [
+          "San Blas Islands",
+          "Kuna Yala",
+          "Bocas del Toro",
+          "Pearl Islands",
+          "Gulf of Panama"
+        ],
+        "description": [
+          "Panama offers two entirely different charter experiences — and sits alongside one of the most significant engineering projects in the world.",
+          "The San Blas Islands — Kuna Yala — are the Caribbean coast at its most elemental. Three hundred and sixty-five low-lying coral islands stretch along the shoreline, governed and protected by the Kuna people, who have maintained sovereignty here for generations. There is no outside development, no hotel infrastructure, no road access. The only way to experience it properly is by sea. The water is shallow, clear and notably unspoiled — one of the more distinctive cruising grounds in the Americas.",
+          "Bocas del Toro, to the west, offers a different character — mangrove channels, surf breaks, and accessible infrastructure while retaining strong natural appeal.",
+          "The Panama Canal — connecting the Caribbean to the Pacific across 83 kilometres of engineered waterway — defines Panama's place in maritime history. It is not a charter itinerary, but its presence shapes the country and makes Panama a natural base for yachts repositioning between oceans.",
+          "The Pacific coast opens access to the Pearl Islands and the Gulf of Panama — less visited, with seasonal diving and whale activity."
+        ],
+        "whyCharter": [
+          "San Blas Islands — no development, no road access, experienced primarily by sea",
+          "Kuna Yala — indigenous governance and a culturally distinct cruising ground",
+          "Bocas del Toro — accessible nature, mangroves and surf",
+          "Pearl Islands — seasonal diving and whale activity",
+          "Panama Canal — a defining feature of global maritime routes",
+          "Two distinct coastlines within a single charter destination"
+        ]
       },
       {
         "slug": "colombia",
         "name": "Colombia",
-        "tagline": "Colonial Cartagena, the Rosario archipelago, a coast on the rise",
+        "tagline": "Cartagena — one of the most established colonial ports in the Americas, approached from the sea",
         "image": "https://images.unsplash.com/photo-1539617546058-a8f9510b464e?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Cartagena", "Rosario Islands", "San Andrés", "Providencia", "Santa Marta"]
+        "cruisingSpots": [
+          "Cartagena",
+          "Rosario Islands",
+          "Santa Marta",
+          "Tayrona National Park"
+        ],
+        "description": [
+          "Cartagena is one of the most established colonial cities in the Americas — and one that is best approached from the water.",
+          "The walled old city, a UNESCO World Heritage site, rises above the waterfront in a palette of ochre, terracotta and deep blue, with the Castillo San Felipe set above the skyline. The streets within the walls are among the most atmospheric in South America: balconies, shaded plazas, and restaurants that open into the evening. The city rewards time ashore, and arrival by yacht offers a considered introduction.",
+          "Thirty minutes offshore, the Rosario Islands provide a clear contrast — twenty-seven islands of shallow water, coral reef and near-total quiet, accessible within a single day.",
+          "Further east, Santa Marta and Tayrona National Park extend the cruising ground along one of the more dramatic coastlines in the region. Jungle meets the sea, the beaches remain largely undeveloped, and the park protects a stretch of coastline that still sees relatively limited access.",
+          "Colombia's reputation has shifted significantly. Cartagena in particular is now a sophisticated and welcoming destination — culturally rich and deserving of more time than most itineraries allow."
+        ],
+        "whyCharter": [
+          "Cartagena — UNESCO World Heritage walled city, best approached from the sea",
+          "Rosario Islands — coral reefs, clear water, within easy reach",
+          "Tayrona National Park — jungle coastline, largely undeveloped",
+          "Strong cultural identity — architecture, food and music",
+          "Growing charter infrastructure in Cartagena",
+          "A destination that rewards extended itineraries"
+        ]
+      },
+      {
+        "slug": "costa-rica",
+        "name": "Costa Rica & the Pacific",
+        "tagline": "The Gulf of Papagayo and a coastline defined by wildlife and seasonality",
+        "image": "https://images.unsplash.com/photo-1663946457157-476b36a0b99a?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Gulf of Papagayo",
+          "Nicoya Peninsula",
+          "Cocos Island",
+          "Gulf of Nicoya"
+        ],
+        "description": [
+          "Costa Rica is defined as much by what surrounds the water as what lies within it — a coastline of exceptional biodiversity where jungle, wildlife and sea exist in close proximity.",
+          "The Gulf of Papagayo on the Pacific northwest coast is the primary charter base — a protected bay with established marina infrastructure and reliable conditions during the dry season from December to April. The Nicoya Peninsula extends south along a more dramatic and less visited stretch of coastline, with surf breaks and anchorages that reward exploration.",
+          "Offshore, Cocos Island lies over 500 kilometres into the Pacific — one of the most remote and biodiverse marine environments in the region. A UNESCO World Heritage site, accessible only by specialist expedition vessel and known for hammerhead sharks, whale sharks and manta rays. Not a conventional charter itinerary, but for the right client and vessel, it is a notable extension.",
+          "Along the coast, humpback whales migrate through Pacific waters between December and April. Sea turtles nest on protected beaches, and birdlife and forest wildlife are often present near anchorages.",
+          "Costa Rica rewards those who pay attention to their surroundings."
+        ],
+        "whyCharter": [
+          "Gulf of Papagayo — protected bay, established infrastructure, reliable dry season conditions",
+          "Humpback whales — seasonal migration along the Pacific coast",
+          "Cocos Island — remote, biodiverse, expedition-led extension",
+          "Nicoya Peninsula — less visited coastline with surf and remote anchorages",
+          "Wildlife throughout — marine and coastal ecosystems in close proximity",
+          "A nature-led charter experience distinct from traditional cruising grounds"
+        ]
       },
       {
         "slug": "galapagos",
-        "name": "Galápagos",
-        "tagline": "Darwin's archipelago. Wildlife encounters found nowhere else",
+        "name": "Galápagos Islands",
+        "tagline": "Expedition-led itineraries shaped by wildlife found nowhere else",
         "image": "https://plus.unsplash.com/premium_photo-1701085275737-99c0abca10a4?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Santa Cruz", "Isabela", "San Cristóbal", "Floreana", "Española"]
+        "cruisingSpots": [
+          "Santa Cruz",
+          "Isabela",
+          "Fernandina",
+          "Española",
+          "San Cristóbal",
+          "Bartolomé"
+        ],
+        "description": [
+          "The Galápagos Islands are unlike any charter destination — and the regulations that govern them are central to what defines the experience.",
+          "Access is strictly controlled by the Ecuadorian government. Charter vessels must be licensed, itineraries are pre-approved, and visitor numbers at each site are limited. This is not a constraint — it is what has preserved an archipelago that Darwin described as a living laboratory, and what ensures wildlife encounters remain consistent and protected.",
+          "The wildlife here shows little fear of humans. Giant tortoises, marine iguanas, blue-footed boobies, Galápagos sea lions and flightless cormorants continue their natural behaviour in close proximity to visitors. Underwater, hammerhead sharks, whale sharks, manta rays and sea turtles are encountered regularly. The density and variety of species — many endemic — is the reason clients come.",
+          "Puerto Ayora on Santa Cruz is the primary base. Itineraries move between islands along approved routes, with each location offering a distinct ecosystem.",
+          "A Galápagos charter requires specialist planning and advance booking. The experience justifies both."
+        ],
+        "whyCharter": [
+          "Endemic wildlife — giant tortoises, marine iguanas, blue-footed boobies",
+          "Underwater encounters — hammerheads, whale sharks, manta rays, sea turtles",
+          "Strictly regulated — preserving consistent wildlife experiences",
+          "Each island offers a distinct ecosystem",
+          "Year-round destination — seasonal variation shapes encounters",
+          "One of the most significant natural environments in the world"
+        ]
       },
       {
         "slug": "brazil",
         "name": "Brazil",
-        "tagline": "Bahia coast, Fernando de Noronha. The Atlantic's wildest beaches",
+        "tagline": "Fernando de Noronha, the Amazon, and an emerging charter destination of exceptional range",
         "image": "https://images.unsplash.com/photo-1544991337-95176b5233c4?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Rio de Janeiro", "Búzios", "Angra dos Reis", "Fernando de Noronha", "Salvador"]
+        "cruisingSpots": [
+          "Fernando de Noronha",
+          "Amazon River",
+          "Manaus"
+        ],
+        "description": [
+          "Brazil is an emerging charter destination — vast, biodiverse and still developing the infrastructure that more established regions take for granted. For those prepared to plan carefully with specialist operators, the rewards are significant.",
+          "Fernando de Noronha is the most compelling coastal proposition. This UNESCO World Heritage archipelago, approximately 350 kilometres off the northeast coast, operates under strict visitor controls — a daily environmental tax, limited access and no large-scale tourism. The water is exceptionally clear, spinner dolphins are frequently present, and the level of preservation is among the highest in the South Atlantic. Charter options are limited and specialist — advance planning with the right operator is essential.",
+          "The Amazon offers a completely different experience. River vessels navigate one of the most biodiverse environments in the world — pink river dolphins, caimans, extensive birdlife and a scale of landscape that is difficult to anticipate. Manaus is the primary gateway. These are specialist itineraries operated by experienced local operators, and they are not directly comparable to conventional charter.",
+          "Brazil rewards those who approach it with patience and the right guidance. It is not a destination for the unprepared — but for those who engage with it properly, it is highly rewarding."
+        ],
+        "whyCharter": [
+          "Fernando de Noronha — UNESCO World Heritage, clear water, protected access",
+          "Strict visitor controls — high levels of environmental preservation",
+          "Amazon river charters — pink dolphins, caimans, exceptional biodiversity",
+          "Specialist local operators with deep regional knowledge",
+          "Limited access — a defining part of the experience"
+        ]
       }
     ]
   },
@@ -279,68 +791,236 @@
     "slug": "indian-ocean",
     "name": "Indian Ocean",
     "ankorRegion": "Indian Ocean",
-    "tagline": "Atolls, reef passes, and quiet equatorial blues",
+    "tagline": "Turquoise atolls, granite islands and some of the finest diving in the world",
     "heroImage": "https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The Indian Ocean is one of the most naturally distinctive charter regions — and one that rewards a more considered approach.",
+      "The Maldives, the Seychelles and Mauritius each offer a different expression of the region. Shallow turquoise atolls, granite islands rising from deep water, and coral reef systems of exceptional biodiversity define the landscape. The diving — particularly in the Maldives — ranks among the finest available globally.",
+      "The fleet is more limited than in the Mediterranean or Caribbean, and planning is correspondingly more important. The Maldives has the most established local charter fleet, offering strong regional experience and access to the atolls. In the Seychelles, a smaller number of yachts operate across both the inner and outer islands, with the latter requiring more time and careful planning. Mauritius is less defined by cruising alone, but offers a well-positioned base with strong shoreside depth.",
+      "The season runs from November to April ahead of the southwest monsoon. Early booking is essential, particularly in the Seychelles where availability can be limited.",
+      "The Indian Ocean rewards patience. The destination consistently justifies it."
+    ],
+    "idealFor": [
+      "Diving & water sports",
+      "Couples",
+      "Honeymoons",
+      "Wildlife & nature",
+      "Remote cruising",
+      "Photography",
+      "Adventure & expedition"
+    ],
+    "seasonConditions": {
+      "charterSeason": "November – April",
+      "peakPeriod": "December – March",
+      "waterTemperature": "27°C – 30°C",
+      "charterBases": "Malé · Mahé · Port Louis"
+    },
     "locations": [
       {
         "slug": "maldives",
-        "name": "Maldives",
-        "tagline": "Over-water dawns, drift dives, atoll-to-atoll under sail",
+        "name": "The Maldives",
+        "tagline": "Atolls, exceptional diving and a destination that operates on two entirely different seasons",
         "image": "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["North Malé Atoll", "South Malé Atoll", "Ari Atoll", "Baa Atoll", "Vaavu Atoll"]
+        "cruisingSpots": [
+          "North Malé Atoll",
+          "South Malé Atoll",
+          "Baa Atoll",
+          "Ari Atoll",
+          "Huvadhoo",
+          "Gaafu Alifu",
+          "Gaafu Dhaalu"
+        ],
+        "description": [
+          "The Maldives is one of the few charter destinations that genuinely functions year-round — though the experience changes completely depending on when you arrive.",
+          "From November to April, the northeast monsoon brings calm seas and exceptional visibility. The atolls — North and South Malé, Baa and Ari — offer some of the finest diving in the world. Manta rays, whale sharks and reef systems of remarkable biodiversity define the experience, supported by a well-established local fleet with strong regional knowledge.",
+          "From May to October, the southwest monsoon brings swell — and with it, a very different charter. The south atolls, particularly Huvadhoo and the Gaafu groups, offer some of the most consistent and uncrowded surf breaks globally. This is liveaboard territory, where itineraries are built around conditions and access to remote reef passes.",
+          "One of the Maldives' defining advantages is regulatory. Charter vessels are often licensed to carry more than twelve guests — allowing larger groups to travel together in a way that is rarely possible in the Mediterranean or Caribbean.",
+          "The Maldives rewards those who understand when to go — and what they want from it."
+        ],
+        "whyCharter": [
+          "Dual-season destination — diving and surfing at different times of year",
+          "Exceptional diving — manta rays, whale sharks, high biodiversity",
+          "South atolls — consistent, uncrowded surf breaks",
+          "Larger group capacity — vessels often licensed beyond twelve guests",
+          "Well-established local fleet with strong regional expertise",
+          "A destination defined by water, space and flexibility"
+        ]
       },
       {
         "slug": "seychelles",
-        "name": "Seychelles",
-        "tagline": "Granite boulders, takamaka shade, ancient inner islands",
+        "name": "The Seychelles",
+        "tagline": "Granite islands, deep water and one of the most visually distinctive cruising grounds in the world",
         "image": "https://plus.unsplash.com/premium_photo-1661962432490-6188a6420a81?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Mahé", "Praslin", "La Digue", "Aldabra", "Inner Islands", "Outer Islands"]
+        "cruisingSpots": [
+          "Mahé",
+          "Praslin",
+          "La Digue",
+          "Curieuse",
+          "Cousin Island",
+          "Aldabra",
+          "Outer Islands"
+        ],
+        "description": [
+          "The Seychelles offer a charter experience defined by contrast — granite islands rising sharply from deep blue water, dense vegetation running to the shoreline, and anchorages that feel both dramatic and protected.",
+          "Mahé is the natural starting point, with access to Praslin and La Digue within a short passage. This inner island group forms the core of most charters — manageable distances, reliable conditions and a concentration of some of the most recognisable landscapes in the Indian Ocean. Beaches such as Anse Source d'Argent are as striking from the water as they are ashore, and the cruising between islands is as much a part of the experience as the destinations themselves.",
+          "Beyond this, the outer islands introduce a more remote character. Aldabra and the far reaches of the archipelago are accessible only with time, range and careful planning — a different category of charter entirely, but one that rewards those who commit to it.",
+          "The fleet is limited, and availability can be tight in peak season. Those who plan early find one of the most complete sailing environments in the Indian Ocean."
+        ],
+        "whyCharter": [
+          "Granite island landscape — visually unique within the Indian Ocean",
+          "Inner islands — ideal distances and consistent cruising conditions",
+          "Anse Source d'Argent — one of the most recognisable beaches globally",
+          "Outer islands — remote, lightly visited and expedition-level access",
+          "Clear, deep water and strong sailing environment",
+          "A natural balance between accessibility and remoteness"
+        ]
       },
       {
         "slug": "mauritius",
         "name": "Mauritius",
-        "tagline": "Lagoon-fringed volcanic island. Sugar coasts and reef passes",
+        "tagline": "Volcanic landscape, reef-protected lagoons and a more private expression of the Indian Ocean",
         "image": "https://images.unsplash.com/photo-1513415431848-a433b3de449f?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Port Louis", "Le Morne", "Île aux Cerfs", "Black River", "Grand Baie"]
+        "cruisingSpots": [
+          "Port Louis",
+          "Grand Baie",
+          "Le Morne",
+          "Île aux Cerfs",
+          "Black River"
+        ],
+        "description": [
+          "Mauritius offers a different kind of charter experience — less defined by extensive cruising, more by the combination of sea, landscape and refined shoreside life.",
+          "The island is encircled by coral reef, creating sheltered lagoons along much of the coastline. Le Morne, on the southwest tip, is the defining landscape — a UNESCO-listed mountain rising above clear, shallow water, with kitesurfers and yachts sharing the same horizon. The east coast offers a series of protected anchorages and access to Île aux Cerfs, while the north around Grand Baie provides the most developed marina infrastructure and provisioning.",
+          "Mauritius is not a high-volume charter market. A very limited number of yachts operate here, alongside a small selection of well-managed local vessels. Availability is tight, and most charters require early planning or access to privately positioned yachts in the region.",
+          "What Mauritius offers instead is control and discretion — a destination where time is split easily between water and shore. World-class resorts, golf, and a cultural mix of Indian, French and Creole influence give it a depth that extends beyond the coastline.",
+          "For those who approach it with the right expectations, Mauritius delivers a quieter, more private version of the Indian Ocean."
+        ],
+        "whyCharter": [
+          "Limited fleet — access-driven and inherently exclusive",
+          "Reef-protected lagoons — calm, sheltered cruising",
+          "Le Morne — one of the most striking landscapes in the Indian Ocean",
+          "Strong shoreside offering — resorts, golf and cultural depth",
+          "A natural complement to Seychelles or South Africa itineraries",
+          "A more private, less trafficked charter environment"
+        ]
       }
     ]
   },
   {
-    "slug": "arabian-gulf",
-    "name": "Arabian Gulf",
-    "ankorRegion": "Arabian Gulf",
-    "tagline": "Modern skylines meet ancient trade-route waters",
+    "slug": "arabian-gulf-and-red-sea",
+    "name": "Arabian Gulf & Red Sea",
+    "ankorRegion": "Arabian Gulf & Red Sea",
+    "tagline": "Winter sun, exceptional diving, and a distinctly different charter experience",
     "heroImage": "https://plus.unsplash.com/premium_photo-1697730117675-21d537b6fa12?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The Arabian Gulf and Red Sea offer a charter experience entirely distinct from the Mediterranean or Caribbean — different light, different culture, and a pace shaped as much by place as by season.",
+      "The Gulf has developed rapidly as a charter destination. Dubai is the headline — a city defined by scale, with world-class marina infrastructure and some of the most ambitious hospitality in the world. Abu Dhabi offers a more considered counterpart, with cultural depth and a quieter expression of the same standard. Oman, particularly the Musandam Peninsula, provides something the UAE cannot — dramatic fjord-like inlets, near-total quiet, and a landscape that feels entirely removed from the developments to the north.",
+      "The Red Sea is one of the world's most established diving regions. The coral reefs along the Egyptian coast — among the most biodiverse in the region — support a specialist charter fleet operating from Hurghada and Sharm el-Sheikh. The water is warm, clear, and well suited to itineraries built around diving and snorkelling.",
+      "The charter season runs from October to April across both regions — winter sun at its most accessible."
+    ],
+    "idealFor": [
+      "Diving & water sports",
+      "Couples",
+      "First-time charterers",
+      "Corporate charter",
+      "Food & wine",
+      "Adventure & expedition",
+      "Families"
+    ],
+    "seasonConditions": {
+      "charterSeason": "October – April",
+      "peakPeriod": "November – March",
+      "waterTemperature": "22°C – 32°C",
+      "charterBases": "Dubai · Abu Dhabi · Muscat · Hurghada · Sharm el-Sheikh"
+    },
     "locations": [
       {
-        "slug": "dubai",
-        "name": "Dubai",
-        "tagline": "Skyline backdrops, Palm Jumeirah, fjord runs into Musandam",
+        "slug": "dubai-and-uae",
+        "name": "Dubai & the UAE",
+        "tagline": "World-class marina infrastructure, ambitious hospitality, and a contemporary charter environment",
         "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Dubai Marina", "Palm Jumeirah", "World Islands", "Bluewaters", "Musandam"]
-      },
-      {
-        "slug": "abu-dhabi",
-        "name": "Abu Dhabi",
-        "tagline": "Capital coastline. Desert islands and the corniche at dusk",
-        "image": "https://plus.unsplash.com/premium_photo-1697729798591-8b7e1b271515?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Yas Island", "Saadiyat", "Sir Bani Yas", "Corniche", "Zaya Nurai"]
+        "cruisingSpots": [
+          "Dubai Marina",
+          "Palm Jumeirah",
+          "Burj Al Arab",
+          "Abu Dhabi",
+          "Louvre Abu Dhabi",
+          "Sir Bani Yas Island"
+        ],
+        "description": [
+          "Dubai is unlike any other charter destination — and that is precisely what makes it worth experiencing.",
+          "The city is the itinerary. Cruising past the Burj Al Arab, anchoring off the Palm Jumeirah, watching the Dubai Fountain from the water at dusk — Dubai delivers a charter experience that no traditional cruising ground can replicate. It is urban, ambitious, and executed to a standard that reflects a city built on scale and intent.",
+          "Dubai Marina is the charter base — one of the most developed marina environments in the world, surrounded by restaurants, beach clubs and waterfront infrastructure that makes every aspect of the charter seamless. The fleet is predominantly motor yachts, well suited to a destination where the experience is shaped by what you see rather than how far you travel.",
+          "Abu Dhabi, ninety minutes up the coast, offers a natural extension. The Louvre Abu Dhabi seen from the water is one of the more distinctive architectural moments in the region. Sir Bani Yas Island, a wildlife reserve accessible by sea, adds a different dimension to what might otherwise be a purely urban itinerary.",
+          "Between the two cities, the Arabian Gulf charter experience is complete."
+        ],
+        "whyCharter": [
+          "Dubai Marina — one of the most developed charter bases globally",
+          "The city as the destination — Burj Al Arab, Palm Jumeirah, Dubai Fountain",
+          "World-class restaurants, beach clubs and hospitality directly on the waterfront",
+          "Abu Dhabi — Louvre, Sir Bani Yas Island, Formula One circuit",
+          "Predominantly motor yacht fleet — well suited to the cruising environment",
+          "Winter sun at its most consistent and accessible"
+        ]
       },
       {
         "slug": "oman",
         "name": "Oman",
-        "tagline": "Musandam's hidden fjords. Frankincense coasts and untouched bays",
+        "tagline": "The Musandam Peninsula, the khors, and a quieter expression of the Arabian Gulf",
         "image": "https://images.unsplash.com/photo-1585134339424-0fc98d0bfe86?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Musandam Peninsula", "Muscat", "Daymaniyat Islands", "Khasab", "Salalah"]
+        "cruisingSpots": [
+          "Khasab",
+          "Musandam Peninsula",
+          "Muscat",
+          "Bandar Khayran",
+          "Muttrah Corniche"
+        ],
+        "description": [
+          "Oman is the quieter, more natural counterpart to the UAE — and for those who find it, often the more memorable of the two.",
+          "The Musandam Peninsula is the defining experience. Known as the Norway of Arabia, its khors — dramatic fjord-like inlets cut into limestone mountains — are largely inaccessible except by sea. The water is clear, the cliffs are vertical, and dolphins are frequently present. Khasab is the base, a small town at the northern tip that feels entirely removed from the development of the cities to the south.",
+          "Muscat, the capital, offers a completely different character. The city has preserved its architecture and pace with unusual care — the Grand Mosque, the old corniche, the Sultan's Palace seen from the water. It is one of the more elegant capitals in the region and rewards those who arrive by sea.",
+          "Bandar Khayran, south of Muscat, is well known to those familiar with Oman — quiet anchorages, sea turtles, excellent snorkelling and a sense of having found somewhere that remains largely overlooked.",
+          "Oman's hospitality is genuine and unhurried. The landscape is ancient. The charter experience here is something the Gulf's more developed destinations cannot easily replicate."
+        ],
+        "whyCharter": [
+          "Musandam Peninsula — the Norway of Arabia, khors accessible primarily by sea",
+          "Dolphins — regularly encountered throughout the Musandam",
+          "Muscat — one of the more elegant capitals in the region",
+          "Bandar Khayran — sea turtles, quiet anchorages, largely overlooked",
+          "Genuine hospitality and an ancient landscape",
+          "A quieter, more natural expression of the Gulf charter experience"
+        ]
       },
       {
         "slug": "red-sea",
-        "name": "Red Sea",
-        "tagline": "Saudi & Egyptian coasts. Pristine reefs, NEOM, the new frontier",
+        "name": "The Red Sea",
+        "tagline": "Egypt's coral coast. One of the most established diving regions in the world",
         "image": "https://images.unsplash.com/photo-1568575621216-ca74d9a8c687?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["NEOM", "Sharm El Sheikh", "Hurghada", "Tiran Island", "Ras Mohammed"]
+        "cruisingSpots": [
+          "Hurghada",
+          "Sharm el-Sheikh",
+          "Ras Mohammed",
+          "The Brothers Islands",
+          "Elphinstone",
+          "Daedalus Reef",
+          "Thistlegorm"
+        ],
+        "description": [
+          "The Red Sea is, first and foremost, a diving destination. The coral reefs along the Egyptian coast are among the most biodiverse and best preserved in the region — warm, clear water, strong visibility, and a marine ecosystem that attracts specialist charter clients globally.",
+          "Hurghada is the primary charter base on the northern coast — well connected, well equipped, with access to the offshore reef systems that define the region. Sharm el-Sheikh, at the southern tip of the Sinai Peninsula, sits alongside Ras Mohammed National Park — one of the most recognised dive sites in the world, where reef walls drop into deep water and marine life is abundant.",
+          "Further offshore, The Brothers Islands, Elphinstone and Daedalus Reef offer some of the most consistent big-fish diving in the region. Hammerhead sharks, oceanic whitetips and manta rays are regularly encountered. The Thistlegorm wreck — one of the most established dive sites in the world — lies within reach of both bases.",
+          "The Red Sea's liveaboard charter tradition is well established. Purpose-built diving vessels combine comfortable accommodation with access to remote reefs that day boats cannot reach.",
+          "For itineraries shaped by what lies beneath the surface, the Red Sea remains in a category of its own."
+        ],
+        "whyCharter": [
+          "Ras Mohammed — one of the most recognised dive sites globally",
+          "The Brothers Islands & Elphinstone — consistent big-fish diving",
+          "Thistlegorm wreck — one of the most established wreck dives in the world",
+          "Warm, clear water year-round with strong visibility",
+          "Established liveaboard fleet — access to remote reef systems",
+          "A specialist charter destination built around the underwater environment"
+        ]
       }
     ]
   },
@@ -348,30 +1028,145 @@
     "slug": "south-east-asia",
     "name": "South East Asia",
     "ankorRegion": "South East Asia",
-    "tagline": "Limestone karsts, tropical archipelagos, hidden bays",
+    "tagline": "Ancient waters, exceptional biodiversity, and a region defined by range",
     "heroImage": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "South East Asia is one of the most varied charter regions in the world — a collection of cruising grounds that differ as much from each other as they do from the Mediterranean or Caribbean.",
+      "The region spans some of the most biodiverse marine environments globally. Indonesia's Raja Ampat, Thailand's Andaman Sea and Malaysia's Langkawi archipelago together offer an unusual breadth of experience — from limestone karsts and sheltered bays to remote island chains and open water. Infrastructure varies accordingly, from the established facilities of Singapore and Phuket to the more remote waters of eastern Indonesia.",
+      "Singapore sits at the centre of the region — a natural gateway and operational base — while the surrounding cruising grounds define the experience. Thailand offers the most accessible charter environment, Indonesia the greatest sense of scale and remoteness, and Malaysia a quieter, well-protected alternative.",
+      "The charter season varies by territory. Thailand and the Andaman Sea are best from November to April. Indonesia operates across much of the year, with seasonal movement between regions. Singapore functions year-round.",
+      "South East Asia rewards those who plan carefully. The further you move beyond the familiar, the more it offers."
+    ],
+    "idealFor": [
+      "Diving & water sports",
+      "Adventure & expedition",
+      "Wildlife & nature",
+      "Sailing enthusiasts",
+      "Corporate charter",
+      "Food & wine",
+      "Couples",
+      "Families"
+    ],
+    "seasonConditions": {
+      "charterSeason": "November – April (Thailand) · Year-round (Indonesia & Singapore)",
+      "peakPeriod": "December – March",
+      "waterTemperature": "26°C – 30°C",
+      "charterBases": "Singapore · Phuket · Bali · Langkawi"
+    },
     "locations": [
       {
-        "slug": "thailand",
-        "name": "Thailand",
-        "tagline": "Phang Nga karsts, Andaman blues, long-tail night markets",
-        "image": "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Phuket", "Phang Nga Bay", "Phi Phi Islands", "Krabi", "Similan Islands", "Koh Lanta"]
+        "slug": "singapore",
+        "name": "Singapore",
+        "tagline": "The gateway to South East Asia and one of the region's leading maritime hubs",
+        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Sentosa Cove",
+          "ONE°15 Marina",
+          "Marina Bay",
+          "Gardens by the Bay"
+        ],
+        "description": [
+          "Singapore is the natural starting point for charter in South East Asia — a city where infrastructure, access and service operate at a consistently high standard.",
+          "ONE°15 Marina Sentosa Cove is the primary base — a well-established superyacht facility with direct access to the city, strong provisioning and a level of efficiency that makes embarkation straightforward. From the water, the approach to Marina Bay — the skyline, Gardens by the Bay and the density of the city — provides a distinctive arrival.",
+          "Ashore, Singapore offers one of the most refined urban experiences in Asia. The food scene is exceptional, from local hawker centres to Michelin-starred restaurants, and the cultural mix reflects its position between Chinese, Malay, Indian and Western influences. It is safe, efficient and easy to navigate — a practical advantage for both short stays and charter transitions.",
+          "Singapore is less about extended cruising and more about positioning — a base from which Thailand, Indonesia and Malaysia are all within reach."
+        ],
+        "whyCharter": [
+          "ONE°15 Marina — established superyacht base with strong infrastructure",
+          "Marina Bay — distinctive urban arrival from the water",
+          "Gateway to Thailand, Indonesia and Malaysia",
+          "Exceptional food scene across all levels",
+          "Reliable, year-round conditions",
+          "A practical and efficient starting point for regional charters"
+        ]
       },
       {
         "slug": "indonesia",
         "name": "Indonesia",
-        "tagline": "Komodo dragons, Raja Ampat reefs. The world's richest marine zone",
+        "tagline": "Bali, Komodo and Raja Ampat. One of the most biodiverse marine regions in the world",
         "image": "https://plus.unsplash.com/premium_photo-1668883189361-9c754861dbd6?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Raja Ampat", "Komodo", "Bali", "Lombok", "Flores", "Sumba"]
+        "cruisingSpots": [
+          "Bali",
+          "Nusa Penida",
+          "Lombok",
+          "Gili Islands",
+          "Komodo",
+          "Flores",
+          "Raja Ampat"
+        ],
+        "description": [
+          "Indonesia is a different proposition entirely. Spread across over 17,000 islands, it offers one of the richest marine environments on earth, and a scale of landscape that sets it apart from more established charter regions.",
+          "Bali is the natural entry point — a charter base with established facilities at Benoa Harbour, significant cultural depth ashore, and access to Nusa Penida, where manta rays gather regularly at cleaning stations.",
+          "The passage east opens up the archipelago. Lombok and the Gili Islands provide a first extension — quieter, less visited, with strong reef systems. Komodo comes next — the dragons are the headline, but the diving, pink sand beaches and volcanic landscape define the experience.",
+          "Raja Ampat is the furthest reach and the defining reward. Limestone islands rise from calm water in near-abstract formations, and beneath the surface, marine biodiversity is among the highest recorded globally. This is liveaboard territory, requiring expedition-level planning and time to do properly.",
+          "Indonesia rewards commitment. The further east you go, the more it reveals."
+        ],
+        "whyCharter": [
+          "Raja Ampat — among the most biodiverse marine environments globally",
+          "Nusa Penida — consistent manta ray encounters",
+          "Komodo — unique wildlife and dramatic landscapes",
+          "Bali — cultural depth with established charter infrastructure",
+          "Pink sand beaches and volcanic island chains",
+          "A charter experience defined by scale and progression"
+        ]
+      },
+      {
+        "slug": "thailand",
+        "name": "Thailand",
+        "tagline": "The Andaman Sea, Phang Nga Bay and the Similan Islands",
+        "image": "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Phuket",
+          "Phang Nga Bay",
+          "James Bond Island",
+          "Ko Phi Phi",
+          "Similan Islands",
+          "Ko Lipe"
+        ],
+        "description": [
+          "Thailand is the most established and accessible charter destination in South East Asia — and for many clients, the natural introduction to the region.",
+          "Phuket is the primary base. Royal Phuket Marina and Yacht Haven provide well-established superyacht facilities, strong provisioning and direct international access. Most seven-day charters head north into Phang Nga Bay.",
+          "Phang Nga Bay is the defining experience. Limestone karsts rise vertically from calm, green water — some hollow, others concealing hidden lagoons accessible only by tender. The light in early morning and late afternoon, and the scale of the bay, set it apart from more familiar cruising grounds. James Bond Island sits within the bay, though it is the surrounding anchorages that define the experience.",
+          "Ko Phi Phi, to the south, is reachable on a standard charter — steep cliff walls, clear water and some of the most recognisable scenery in Thailand.",
+          "Those with more time are rewarded further afield. The Similan Islands offer exceptional diving and near-total quiet but require ten days or more to reach comfortably. Ko Lipe, close to the Malaysian border, is similarly suited to longer itineraries.",
+          "Thai hospitality, aboard and ashore, is a defining part of the experience."
+        ],
+        "whyCharter": [
+          "Phang Nga Bay — limestone karsts, hidden lagoons, distinctive light",
+          "Ko Phi Phi — accessible within a standard seven-day charter",
+          "Similan Islands — exceptional diving, suited to longer itineraries",
+          "Phuket — established base with strong infrastructure",
+          "Thai hospitality — consistently high standard aboard and ashore",
+          "Natural introduction to South East Asian charter"
+        ]
       },
       {
         "slug": "malaysia",
         "name": "Malaysia",
-        "tagline": "Langkawi archipelago, jungled islands, mangrove backwaters",
+        "tagline": "Langkawi — a protected archipelago with established charter infrastructure",
         "image": "https://images.unsplash.com/photo-1671364978178-002a8dc97362?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Langkawi", "Penang", "Tioman", "Perhentian Islands", "Redang"]
+        "cruisingSpots": [
+          "Langkawi",
+          "Telaga Harbour",
+          "Kilim Karst Geoforest Park",
+          "Penang"
+        ],
+        "description": [
+          "Langkawi sits at the northwest tip of Malaysia — an archipelago of around 100 islands, with sheltered waters and reliable conditions for much of the year.",
+          "The Langkawi International Yacht Registry and the marinas at Telaga Harbour and the Royal Langkawi Yacht Club provide solid infrastructure — making it a practical base for yachts moving between Thailand and Singapore.",
+          "As a charter destination, Langkawi is quieter and more contained than neighbouring cruising grounds. The islands offer sheltered anchorages, mangrove channels and limestone karst scenery, with a pace that encourages a more relaxed itinerary. The Kilim Karst Geoforest Park — Asia's first UNESCO Geopark — is accessible by sea, and duty-free status simplifies provisioning.",
+          "Langkawi is best understood as part of a wider regional itinerary — a place to pause between Thailand and Singapore, with enough natural appeal and infrastructure to justify time in its own right.",
+          "Penang, to the south, adds a further dimension — a multicultural island with colonial heritage and one of the strongest food scenes in the region."
+        ],
+        "whyCharter": [
+          "Langkawi — sheltered waters, duty-free provisioning, established infrastructure",
+          "Kilim Karst Geoforest Park — UNESCO-listed, accessible by sea",
+          "Natural link between Thailand and Singapore",
+          "Mangrove channels and protected anchorages throughout",
+          "Penang — colonial heritage and a standout regional food scene",
+          "A quieter alternative to more established cruising grounds"
+        ]
       }
     ]
   },
@@ -379,44 +1174,142 @@
     "slug": "south-pacific",
     "name": "South Pacific",
     "ankorRegion": "South Pacific",
-    "tagline": "Volcanic anchorages and lagoons beyond the horizon",
+    "tagline": "Reef lagoons, volcanic peaks and some of the most remote cruising on earth",
     "heroImage": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The South Pacific is one of the most visually distinctive charter regions in the world — and one of the most geographically remote.",
+      "French Polynesia, Fiji and Tonga together form a cruising ground of exceptional range. Each is defined by its own character, landscape and relationship with the sea. What connects them is the quality of the water, the consistency of the conditions and a sense of remoteness that is increasingly difficult to find elsewhere.",
+      "French Polynesia sits at the centre of the region — Bora Bora, the Society Islands and the Tuamotu Atolls forming a cruising ground as refined as it is distinctive. Fiji offers a different proposition: a well-established charter fleet, exceptional diving and an archipelago of over 300 islands, supported by solid infrastructure and genuine warmth. Tonga lies further east — remote, lightly visited and defined by one of the most remarkable wildlife encounters in the Pacific, as humpback whales migrate through the Vava'u group between July and October.",
+      "The charter season runs broadly from May to November, outside the cyclone period. Distances between island groups are significant, and itineraries are built around time, wind and range.",
+      "This is a region that rewards commitment. The further you travel, the more it offers."
+    ],
+    "idealFor": [
+      "Couples",
+      "Honeymoons",
+      "Diving & water sports",
+      "Wildlife & nature",
+      "Photography",
+      "Adventure & expedition",
+      "Extended itineraries"
+    ],
+    "seasonConditions": {
+      "charterSeason": "May – November",
+      "peakPeriod": "July – October",
+      "waterTemperature": "24°C – 28°C",
+      "charterBases": "Papeete · Port Denarau · Neiafu"
+    },
     "locations": [
       {
         "slug": "fiji",
         "name": "Fiji",
-        "tagline": "Mamanuca surf breaks, Yasawa lagoons, kava nights ashore",
+        "tagline": "Island chains, reef systems and a cruising ground defined by variety rather than uniformity",
         "image": "https://images.unsplash.com/photo-1516091877740-fde016699f2c?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Mamanuca Islands", "Yasawa Islands", "Lau Group", "Savusavu", "Vanua Levu"]
+        "cruisingSpots": [
+          "Mamanuca Islands",
+          "Yasawa Islands",
+          "Viti Levu",
+          "Vanua Levu"
+        ],
+        "description": [
+          "Fiji offers a broader, less structured charter experience than French Polynesia — a destination where the appeal lies in the range of its cruising rather than a single defining landscape.",
+          "The Mamanuca and Yasawa Islands form the core of most itineraries. Located to the west of Viti Levu, these island groups provide the most accessible cruising — reef-protected waters, consistent conditions and a balance between developed anchorages and quieter bays. Distances are manageable and well suited to a standard charter.",
+          "The character shifts further afield. The Yasawas become more remote toward the north — fewer resorts, more open anchorages and a stronger sense of separation from the mainland. Reef systems throughout offer clear water and strong diving, with coral health and marine life varying noticeably between locations.",
+          "Fiji's charter fleet is developing rather than established. A small number of well-managed yachts operate here, supported by locally based vessels with strong regional knowledge. Availability is limited, and itineraries often require flexibility.",
+          "What Fiji offers is contrast — between islands, between anchorages, and between the accessible and the remote. It is a destination that benefits from a considered approach, and rewards those who allow the itinerary to evolve as they move through it."
+        ],
+        "whyCharter": [
+          "Mamanuca Islands — accessible, reef-protected cruising close to base",
+          "Yasawa Islands — increasingly remote and less developed to the north",
+          "Varied anchorages — from resort-backed bays to quieter open water",
+          "Strong snorkelling and diving across multiple reef systems",
+          "Developing charter fleet — limited, but improving",
+          "A destination defined by contrast rather than repetition"
+        ]
       },
       {
         "slug": "tahiti",
         "name": "Tahiti",
         "tagline": "The Society Islands' capital. Volcanic peaks rising from the lagoon",
         "image": "https://images.unsplash.com/photo-1706868957973-8b656c240dbc?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Papeete", "Moorea", "Tetiaroa", "Bora Bora", "Society Islands"]
+        "cruisingSpots": [
+          "Papeete",
+          "Moorea",
+          "Tetiaroa",
+          "Bora Bora",
+          "Society Islands"
+        ]
       },
       {
         "slug": "french-polynesia",
         "name": "French Polynesia",
-        "tagline": "Atolls of the Tuamotus, Marquesan cliffs, motus and palms",
+        "tagline": "Bora Bora, reef lagoons and one of the most visually distinctive charter destinations in the world",
         "image": "https://images.unsplash.com/photo-1676405328043-85738f8473ba?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Tuamotus", "Marquesas", "Bora Bora", "Rangiroa", "Fakarava"]
+        "cruisingSpots": [
+          "Tahiti",
+          "Bora Bora",
+          "Raiatea",
+          "Taha'a",
+          "Moorea",
+          "Huahine",
+          "Tuamotu Atolls"
+        ],
+        "description": [
+          "French Polynesia is the centre of South Pacific charter — a destination where the landscape is as defining as the cruising itself.",
+          "The Society Islands form the core. Tahiti is the gateway, but it is Raiatea and Taha'a that establish the rhythm — shared lagoon cruising, short passages and anchorages set between reef edge and sheltered interior. Bora Bora sits at the southern edge, its lagoon and volcanic peak forming one of the most recognisable anchorages in the world. Approached by sea, it remains as striking as its reputation suggests.",
+          "Moorea, just northwest of Tahiti, offers immediate contrast — steep green peaks rising directly from the water, deep bays and a sense of scale that feels closer and more dramatic than the outer islands.",
+          "The cruising is defined by the reef. Lagoons provide protected water and extraordinary clarity, while passes introduce a more technical element when moving between island groups.",
+          "Further afield, the Tuamotu Atolls offer a different experience — low-lying coral formations, narrow passes and some of the most advanced diving in the Pacific, best suited to yachts with the range to reach them.",
+          "French Polynesia is not about variety in the Mediterranean sense. It is about refinement — a single landscape explored properly."
+        ],
+        "whyCharter": [
+          "Bora Bora — one of the most recognisable lagoon anchorages in the world",
+          "Society Islands — structured cruising with short, well-balanced passages",
+          "Reef-protected lagoons — calm water and exceptional clarity throughout",
+          "Moorea — dramatic topography within immediate reach of Tahiti",
+          "Tuamotu Atolls — remote, technically rewarding diving and cruising",
+          "A visually defined destination — consistent, distinctive and unmistakable"
+        ]
       },
       {
         "slug": "tonga",
         "name": "Tonga",
-        "tagline": "Vava'u group. Humpback whale season at the right time of year",
+        "tagline": "Remote anchorages, clear water and one of the few places in the world where you can swim with whales",
         "image": "https://plus.unsplash.com/premium_photo-1664121799894-eb6c2af13bc8?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Vava'u", "Ha'apai", "Nuku'alofa", "Niuatoputapu"]
+        "cruisingSpots": [
+          "Vava'u",
+          "Neiafu",
+          "Ha'apai",
+          "Tongatapu"
+        ],
+        "description": [
+          "Tonga is one of the most specialised charter destinations in the South Pacific — a place defined not by infrastructure or scale, but by a single, extraordinary natural encounter.",
+          "The Vava'u island group forms the centre of charter activity. A protected network of islands, deep anchorages and short passages, it offers calm, clear cruising in a setting that feels largely unchanged. The landscape is less dramatic than French Polynesia, but the water — and what moves through it — defines the experience.",
+          "From July to October, humpback whales migrate to these waters to breed and calve. Tonga is one of the few places in the world where regulated in-water encounters are permitted. For many clients, this is the reason to come — and the reason itineraries are built almost entirely around the whales.",
+          "Outside this period, the cruising is quiet and lightly visited. Anchorages are simple, distances manageable, and the pace unhurried. Infrastructure is limited, and the fleet typically consists of smaller expedition yachts or locally based vessels with strong regional knowledge.",
+          "Tonga does not offer variety in the conventional sense. It offers focus — a charter shaped around a moment that very few places in the world can provide."
+        ],
+        "whyCharter": [
+          "Humpback whales — one of the only places globally for regulated in-water encounters",
+          "Vava'u — protected island group with calm, accessible cruising",
+          "Low charter density — quiet, lightly visited and highly selective",
+          "Clear water — excellent visibility throughout the season",
+          "A highly focused experience — built around wildlife rather than itinerary",
+          "A destination that cannot be replicated elsewhere"
+        ]
       },
       {
         "slug": "new-caledonia",
         "name": "New Caledonia",
         "tagline": "The world's largest lagoon. A UNESCO marine playground",
         "image": "https://images.unsplash.com/photo-1575469680795-19f3d6c61bfb?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Nouméa", "Île des Pins", "Loyalty Islands", "Lifou", "Maré"]
+        "cruisingSpots": [
+          "Nouméa",
+          "Île des Pins",
+          "Loyalty Islands",
+          "Lifou",
+          "Maré"
+        ]
       }
     ]
   },
@@ -424,23 +1317,87 @@
     "slug": "australia-and-new-zealand",
     "name": "Australia & New Zealand",
     "ankorRegion": "Australia & New Zealand",
-    "tagline": "Coral reefs, untouched coastlines, southern horizons",
+    "tagline": "Great Barrier Reef, open coastlines and a charter region defined by scale, access and intent",
     "heroImage": "https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "Australia and New Zealand offer a charter experience defined by quality rather than density — a region where the right yacht, the right timing and the right itinerary deliver something genuinely exceptional.",
+      "The Whitsundays and the Great Barrier Reef form the core of Australian charter. Protected waters, consistent conditions and a natural island chain make the region well suited to multi-day itineraries, with Hamilton Island and Airlie Beach as the primary bases.",
+      "Sydney operates differently — one of the world's great harbour cities and a major centre for event and static charters. Demand is calendar-driven: New Year's Eve, major sporting events and private functions. For those willing to extend beyond the harbour, longer itineraries north toward Pittwater are possible.",
+      "New Zealand introduces a more conditional charter environment. Auckland is the principal gateway, with the Bay of Islands offering the most practical cruising ground — sheltered, wildlife-rich and well suited to a considered itinerary. Beyond this, charter activity depends largely on repositioning yachts and extended programmes.",
+      "The season runs from November to April, aligning with the southern hemisphere summer.",
+      "A region that rewards planning — and, for those who approach it correctly, delivers something few others can."
+    ],
+    "idealFor": [
+      "Families",
+      "Couples",
+      "Event charters",
+      "Wildlife & nature",
+      "First-time charterers",
+      "Extended itineraries"
+    ],
+    "seasonConditions": {
+      "charterSeason": "November – April",
+      "peakPeriod": "December – February",
+      "waterTemperature": "22°C – 27°C (varies by latitude)",
+      "charterBases": "Airlie Beach · Hamilton Island · Sydney · Auckland"
+    },
     "locations": [
       {
         "slug": "australia",
         "name": "Australia",
-        "tagline": "Great Barrier Reef, Whitsundays, harbour lights of Sydney",
+        "tagline": "Whitehaven Beach, reef passages and one of the most naturally protected cruising grounds in the southern hemisphere",
         "image": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Great Barrier Reef", "Whitsundays", "Sydney Harbour", "Kimberley", "Tasmania", "Hamilton Island"]
+        "cruisingSpots": [
+          "Whitsundays",
+          "Whitehaven Beach",
+          "Hook Island",
+          "Hayman Island",
+          "Great Barrier Reef",
+          "Sydney Harbour"
+        ],
+        "description": [
+          "The Whitsundays are where Australian charter works best — a compact island chain set within the protection of the Great Barrier Reef, where distances are short, anchorages are reliable and the pace of the itinerary feels naturally balanced.",
+          "Hamilton Island and Airlie Beach serve as the primary gateways. From here, the cruising ground opens quickly — Hook Island, Hayman Island and the outer reef systems all within reach of a standard charter. The quality of anchorage defines the experience: calm water, consistent holding and a sense of space that is increasingly rare in more congested regions.",
+          "Whitehaven Beach remains the standout. The silica sand shifts with the tide, creating patterns that change throughout the day, and the anchorage off Tongue Bay is one of the most recognisable in Australia. Early mornings and late afternoons are when the landscape is at its best.",
+          "The outer reef introduces a different rhythm — reef passages and snorkelling that move from protected lagoon to open coral wall within the same itinerary.",
+          "Sydney sits outside this cruising ground but remains commercially relevant — a global harbour used primarily for event and static charters.",
+          "Australia rewards a measured approach. Done properly, it is simple, spacious and quietly exceptional."
+        ],
+        "whyCharter": [
+          "Protected cruising — reef shelter creates consistently calm conditions",
+          "Whitehaven Beach — one of the most distinctive landscapes in Australia",
+          "Strong anchorage quality — reliable, well-spaced and uncrowded",
+          "Access to outer reef systems — varied snorkelling and diving within one itinerary",
+          "Low traffic — a noticeably quieter experience than the Mediterranean",
+          "Sydney Harbour — globally recognised setting for event-led charters"
+        ]
       },
       {
         "slug": "new-zealand",
         "name": "New Zealand",
-        "tagline": "Bay of Islands' green coast, Fiordland's silent sounds",
+        "tagline": "Sheltered cruising, long passages and a destination shaped by timing rather than volume",
         "image": "https://plus.unsplash.com/premium_photo-1661962302792-4b05d3e08513?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Bay of Islands", "Auckland", "Marlborough Sounds", "Fiordland", "Hauraki Gulf"]
+        "cruisingSpots": [
+          "Auckland",
+          "Bay of Islands",
+          "Northland Coast"
+        ],
+        "description": [
+          "New Zealand is a charter destination defined by availability. It is not driven by fleet density or established routes, but by the presence of the right yacht — and the willingness to build an itinerary around it.",
+          "Auckland is the natural starting point — a serious yachting city with the infrastructure and technical depth to support larger vessels. From here, the Bay of Islands provides the most coherent cruising ground. Over 140 islands form a sheltered network of anchorages, where movement between them is as much a part of the experience as the stops themselves.",
+          "Distance shapes the charter. Reaching the Bay of Islands is a passage, and itineraries tend to favour a slower rhythm — fewer locations, more time at anchor, and a sense of progression that feels deliberate rather than compressed. Wildlife is a constant presence, from dolphins to seabirds, with seasonal migrations adding another layer.",
+          "Beyond the north, New Zealand opens into something far less structured. More remote coastlines and southern cruising grounds are accessible, but typically only to privately positioned or repositioning yachts, and with the time to justify the distance.",
+          "New Zealand rewards flexibility. The best charters here are not selected — they are assembled."
+        ],
+        "whyCharter": [
+          "Bay of Islands — extensive, sheltered cruising across a large island network",
+          "Auckland — one of the southern hemisphere's key yachting centres",
+          "Wildlife — dolphins, seabirds and seasonal migration throughout",
+          "Low charter density — access-led and inherently selective",
+          "A slower, more deliberate pace — fewer stops, more time in place",
+          "A destination shaped by opportunity rather than fixed itinerary"
+        ]
       }
     ]
   },
@@ -448,37 +1405,131 @@
     "slug": "north-america",
     "name": "North America",
     "ankorRegion": "North America",
-    "tagline": "From New England harbours to glacial fjords",
+    "tagline": "Old-world summering, expedition wilderness and a charter market defined by intent rather than continuity",
     "heroImage": "https://images.unsplash.com/photo-1663528885556-6af28023b917?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "North America is not a single cruising ground, but a collection of distinct, highly seasonal destinations — each with its own character, pace and purpose.",
+      "New England defines the summer season. From Newport to Nantucket and Martha's Vineyard, the coastline becomes one of the most established yachting circuits in the United States — understated, elegant and shaped as much by time ashore as time on the water. The anchorages are well known, and the rhythm is social: beach clubs, private houses, long lunches and a calendar that reflects a more traditional kind of wealth.",
+      "Florida operates in a different capacity — Miami and Fort Lauderdale are among the most important yachting centres in the world, primarily as event bases, departure points for the Bahamas and Caribbean, and staging grounds for the major yacht shows.",
+      "Alaska sits at the opposite end of the spectrum. Vast, remote and largely untouched, it offers one of the most compelling expedition charter environments in the Northern Hemisphere. Glaciers, wildlife and protected waterways shape the experience, with itineraries built around distance, conditions and access.",
+      "This is a region that rewards clarity. Each destination serves a different purpose — and when chosen correctly, each delivers exactly what it should."
+    ],
+    "idealFor": [
+      "Event charters",
+      "Couples",
+      "Families",
+      "Wildlife & nature",
+      "Adventure & expedition",
+      "Experienced charterers"
+    ],
+    "seasonConditions": {
+      "charterSeason": "June – September",
+      "peakPeriod": "July – August",
+      "waterTemperature": "New England 18°C – 22°C · Alaska 8°C – 14°C",
+      "charterBases": "Newport · Nantucket · Juneau"
+    },
     "locations": [
       {
-        "slug": "florida",
-        "name": "Florida",
-        "tagline": "Miami marinas, Keys sunsets, the Gulf Stream at your back",
-        "image": "https://images.unsplash.com/photo-1494112399815-f895b47a0404?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Miami", "Florida Keys", "Key West", "Naples", "Fort Lauderdale", "Marco Island"]
+        "slug": "new-england-and-new-york",
+        "name": "New England & New York",
+        "tagline": "Nantucket, Martha's Vineyard and a summer season defined by tradition, discretion and time well spent",
+        "image": "https://images.unsplash.com/photo-1617804211136-3827dccad16e?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Newport",
+          "Nantucket",
+          "Martha's Vineyard",
+          "Edgartown",
+          "The Hamptons",
+          "Montauk",
+          "New York"
+        ],
+        "description": [
+          "New England and New York together form one of the most established summer yachting circuits in the United States — understated, elegant and shaped as much by time ashore as time on the water.",
+          "The coastline from Newport to Nantucket and Martha's Vineyard forms the core. Distances are short, the waters are protected, and the experience is defined by arriving well rather than sailing far. Edgartown and Nantucket Town offer some of the most picturesque harbours on the East Coast — weathered shingle houses, strong restaurants and a sense of place that feels preserved rather than constructed.",
+          "Further west, the Hamptons and Montauk bring a faster pace — beach clubs, private houses and a weekend energy that draws New York out to the water. Newport, with its sailing heritage and historic estates, remains the natural starting point for most itineraries.",
+          "This is a short-season destination that rewards timing. July and August bring the full rhythm of the East Coast summer — regattas, events and a social calendar that quietly defines the experience.",
+          "New England and New York do not compete with the Mediterranean. They offer something entirely different — more contained, more discreet, and, for many clients, more personal."
+        ],
+        "whyCharter": [
+          "Nantucket & Martha's Vineyard — iconic East Coast summer destinations",
+          "Short cruising distances — ideal for relaxed, unhurried itineraries",
+          "Newport — historic sailing capital with strong charter infrastructure",
+          "The Hamptons & Montauk — beach clubs, private houses, New York's summer escape",
+          "Refined, understated atmosphere — distinct from Mediterranean charter"
+        ]
       },
       {
         "slug": "maine",
         "name": "Maine",
         "tagline": "Granite coves, lobster ports, the classic New England summer",
         "image": "https://images.unsplash.com/photo-1634670788411-be9aad50d637?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Bar Harbor", "Acadia", "Penobscot Bay", "Boothbay", "Camden", "Mount Desert Island"]
+        "cruisingSpots": [
+          "Bar Harbor",
+          "Acadia",
+          "Penobscot Bay",
+          "Boothbay",
+          "Camden",
+          "Mount Desert Island"
+        ]
+      },
+      {
+        "slug": "florida",
+        "name": "Florida",
+        "tagline": "Miami marinas, Keys sunsets, the Gulf Stream at your back",
+        "image": "https://images.unsplash.com/photo-1494112399815-f895b47a0404?w=1600&q=80&auto=format&fit=crop",
+        "cruisingSpots": [
+          "Miami",
+          "Florida Keys",
+          "Key West",
+          "Naples",
+          "Fort Lauderdale",
+          "Marco Island"
+        ]
       },
       {
         "slug": "pacific-northwest",
         "name": "Pacific Northwest",
         "tagline": "San Juans, Desolation Sound. Orca waters and old-growth coast",
         "image": "https://plus.unsplash.com/premium_photo-1664127685095-a2e20c21a796?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["San Juan Islands", "Desolation Sound", "Princess Louisa", "Gulf Islands", "Seattle", "Vancouver"]
+        "cruisingSpots": [
+          "San Juan Islands",
+          "Desolation Sound",
+          "Princess Louisa",
+          "Gulf Islands",
+          "Seattle",
+          "Vancouver"
+        ]
       },
       {
         "slug": "alaska",
         "name": "Alaska",
-        "tagline": "Inside Passage glaciers, calving ice, humpback bubble-nets",
+        "tagline": "Glaciers, wildlife and one of the most compelling expedition charter environments in the Northern Hemisphere",
         "image": "https://images.unsplash.com/photo-1574788901656-6a9ee34a3fa7?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Inside Passage", "Glacier Bay", "Juneau", "Prince William Sound", "Tracy Arm", "Sitka"]
+        "cruisingSpots": [
+          "Inside Passage",
+          "Glacier Bay",
+          "Juneau",
+          "Sitka",
+          "Ketchikan"
+        ],
+        "description": [
+          "Alaska is where North American charter moves into a different category entirely — a destination defined by scale, distance and environment rather than infrastructure or itinerary.",
+          "The Inside Passage forms the backbone of most charters — a protected network of channels, fjords and anchorages from Ketchikan to Juneau and Sitka, running through largely untouched landscape. The experience is shaped by movement through wilderness rather than between destinations.",
+          "Glacier Bay National Park is the defining highlight. Tidewater glaciers descend into the sea, calving ice at a scale that is difficult to anticipate. Access is permit-controlled — a reflection of the environment's sensitivity.",
+          "Wildlife is a constant presence — humpback whales, orcas, bears along remote shorelines, bald eagles and sea lions — creating a landscape that feels active without ever feeling crowded.",
+          "This is not a destination for conventional itineraries. Distances, weather and light shape each charter, and the best programmes remain flexible — allowing time to follow wildlife, adjust to conditions and fully engage with the scale of what surrounds you.",
+          "The fleet is limited, with expedition yachts and experienced crews.",
+          "Alaska is not about arrival. It is about progression — a charter defined by the journey itself, and by a landscape that reveals its scale gradually."
+        ],
+        "whyCharter": [
+          "Inside Passage — protected, extended cruising through wilderness",
+          "Glacier Bay — one of the most dramatic glacier environments in the world",
+          "Wildlife — whales, bears, orcas and eagles throughout the region",
+          "Expedition cruising — serious, remote and experience-led",
+          "Low charter density — vast, uncrowded and largely untouched",
+          "A Northern Hemisphere counterpart to Norway and Greenland"
+        ]
       }
     ]
   },
@@ -486,16 +1537,72 @@
     "slug": "antarctic",
     "name": "Antarctica",
     "ankorRegion": "Antarctic",
-    "tagline": "The last frontier. Ice shelves, leopard seals, silence",
+    "tagline": "Ice, silence and the furthest reach of the charter world",
     "heroImage": "https://images.unsplash.com/photo-1486566584569-b9319dc74315?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "Antarctica is not a destination in the conventional sense. It is the point at which the idea of travel changes entirely — where infrastructure disappears, itineraries dissolve, and the experience becomes defined by environment rather than intention.",
+      "For most clients, the journey begins long before arrival. Ushuaia, at the southern tip of Argentina, is the last recognisable port before the crossing south. Beyond it lies the Drake Passage — a stretch of open water that has, for centuries, marked the boundary between the inhabited world and something far more remote. Two days later, conditions permitting, the first ice appears.",
+      "From here, everything slows."
+    ],
+    "idealFor": [
+      "Adventure & expedition",
+      "Wildlife & nature",
+      "Photography",
+      "Experienced charterers",
+      "Once-in-a-lifetime travel"
+    ],
     "locations": [
       {
         "slug": "antarctica",
         "name": "Antarctica",
         "tagline": "Crossing the Drake to penguins, whales, and ice that never stops moving",
         "image": "https://images.unsplash.com/photo-1493328967571-819121ed5085?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Antarctic Peninsula", "South Georgia", "Lemaire Channel", "Paradise Bay", "Deception Island", "Port Lockroy"]
+        "cruisingSpots": [
+          "Antarctic Peninsula",
+          "South Shetland Islands",
+          "Deception Island",
+          "Paradise Bay"
+        ],
+        "sections": [
+          {
+            "heading": "The Reality of Chartering Antarctica",
+            "body": [
+              "Antarctica is one of the most complex and restricted environments on earth. Access is governed under the Antarctic Treaty System, with strict environmental controls that dictate how vessels operate, where landings can be made, and how many people can go ashore at any one time.",
+              "There is no meaningful charter fleet in the traditional sense.",
+              "At the private level, only a small number of ice-strengthened expedition yachts globally are capable of operating safely in these waters. These are not standard superyachts — they are purpose-built vessels, equipped for polar navigation and crewed by teams with genuine expedition experience. Availability is limited, and programmes are typically planned many months, if not years, in advance.",
+              "Alongside this, a separate category exists: expedition cruise vessels. These offer structured itineraries on a cabin basis, often with strong guiding teams and access to the same landscapes, but without the privacy or flexibility of a fully chartered yacht.",
+              "Understanding the distinction is essential. The experience is exceptional in both cases — but fundamentally different."
+            ]
+          },
+          {
+            "heading": "The Experience",
+            "body": [
+              "The Antarctic Peninsula provides the most accessible entry point into the continent, though \"accessible\" remains relative. Glaciers descend directly into the sea, icebergs drift in silence, and anchorages are temporary — defined by shelter, light and shifting ice rather than charted harbours.",
+              "Movement is dictated by conditions. Wind, visibility and ice density determine each day's plan, and the best itineraries are those that remain deliberately flexible.",
+              "Wildlife encounters are constant, but never staged. Penguin colonies occupy exposed shorelines, seals rest on drifting ice, and whales move through feeding grounds with little regard for human presence. Landings are made by tender, often onto ice or remote beaches, with each arrival feeling provisional — part of a landscape that does not adjust to accommodate visitors.",
+              "What defines Antarctica is not a single moment, but a cumulative sense of scale and stillness. Sound carries differently. Light behaves differently. Time, for most, begins to feel less structured."
+            ]
+          },
+          {
+            "heading": "Yachts & Access",
+            "body": [
+              "For those considering Antarctica privately, vessel choice is everything.",
+              "True expedition yachts — typically larger, heavily built and ice-capable — allow for a fully bespoke programme, with the flexibility to adapt daily based on conditions. These charters are rare, expensive and logistically complex, but represent the highest level of access available.",
+              "Expedition cruise vessels offer a more structured alternative. Larger in scale, they operate fixed itineraries with experienced guides, often delivering exceptional wildlife and landing opportunities within a shared environment.",
+              "Both approaches are valid. The decision is less about destination, and more about how you choose to experience it."
+            ]
+          }
+        ],
+        "footer": "Antarctica is not about choice or variety. It is about commitment — to the journey, to the conditions, and to a destination that offers very little compromise. For those who make it there, it rarely compares to anything that comes before or after.",
+        "whyCharter": [
+          "Antarctic Peninsula — the most visually striking and accessible part of the continent",
+          "Ice-scale environment — glaciers, icebergs and landscapes on an unmatched scale",
+          "Wildlife encounters — penguins, seals and whales in a protected ecosystem",
+          "Expedition access — one of the few remaining truly remote travel experiences",
+          "Highly regulated — preserving the integrity of the environment",
+          "A destination that sits entirely outside conventional charter"
+        ]
       }
     ]
   }

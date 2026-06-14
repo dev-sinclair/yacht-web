@@ -1,6 +1,6 @@
 export interface LocationSection {
   heading: string;
-  body: string;
+  body: string | string[];
 }
 
 export interface Location {
@@ -12,12 +12,14 @@ export interface Location {
   description?: string[];
   sections?: LocationSection[];
   footer?: string;
+  whyCharter?: string[];
 }
 
 export interface SeasonConditions {
   charterSeason?: string;
   peakPeriod?: string;
   shoulderSeason?: string;
+  hurricaneSeason?: string;
   waterTemperature?: string;
   charterBases?: string;
 }
