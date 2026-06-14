@@ -1,9 +1,25 @@
+export interface LocationSection {
+  heading: string;
+  body: string;
+}
+
 export interface Location {
   slug: string;
   name: string;
   cruisingSpots: string[];
   tagline?: string;
   image?: string;
+  description?: string[];
+  sections?: LocationSection[];
+  footer?: string;
+}
+
+export interface SeasonConditions {
+  charterSeason?: string;
+  peakPeriod?: string;
+  shoulderSeason?: string;
+  waterTemperature?: string;
+  charterBases?: string;
 }
 
 export interface Region {
@@ -14,4 +30,7 @@ export interface Region {
   heroImage: string;
   heroCredit?: string;
   locations: Location[];
+  intro?: string[];
+  idealFor?: string[];
+  seasonConditions?: SeasonConditions;
 }

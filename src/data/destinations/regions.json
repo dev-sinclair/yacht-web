@@ -37,34 +37,113 @@
     "tagline": "Riviera glamour, Tyrrhenian shores, Balearic blues",
     "heroImage": "https://images.unsplash.com/photo-1697490601026-c0539f2ceb67?w=1600&q=80&auto=format&fit=crop",
     "heroCredit": "Unsplash",
+    "intro": [
+      "The Western Mediterranean is where superyacht charter began, and it remains one of the most established charter regions in the world. From the Côte d'Azur to the Balearic Islands, from the southern tip of Corsica to the coastline of Sicily, this is a region of extraordinary range — in landscape, culture and overall experience.",
+      "The infrastructure here is unmatched anywhere in the world. Antibes is the largest superyacht base on earth. Palma de Mallorca, Cannes, Monaco, Olbia and Naples together cover the full sweep of the region, with world-class marinas, exceptional provisioning, and a depth of technical support that allows captains and crew to plan ambitious itineraries with confidence. The season runs from May to October, with July and August bringing the full theatre of the Mediterranean summer.",
+      "But the Western Mediterranean is not only defined by the well-known names. Corsica's southern anchorages, the Lavezzi Islands, the quieter corners of Sardinia's La Maddalena archipelago, and the smaller Balearic islands of Formentera and Menorca — these are the places that define the region. The area rewards both the first-time charterer and the client who has been returning for decades and still finds something new.",
+      "Four countries, four distinct characters — each offering a different expression of the Mediterranean."
+    ],
+    "idealFor": [
+      "First-time charterers",
+      "Event charters",
+      "Sailing enthusiasts",
+      "Families",
+      "Food & wine",
+      "Culture & history",
+      "Remote cruising",
+      "Couples"
+    ],
+    "seasonConditions": {
+      "charterSeason": "May – October",
+      "peakPeriod": "July – August",
+      "shoulderSeason": "May – June · September – October",
+      "waterTemperature": "18°C – 27°C",
+      "charterBases": "Antibes · Palma · Cannes · Olbia · Naples"
+    },
     "locations": [
       {
         "slug": "france",
         "name": "France",
-        "tagline": "Côte d'Azur summers, pine-scented Corsican coves",
+        "tagline": "The Riviera, Saint-Tropez, Corsica. Effortlessly the standard",
         "image": "https://images.unsplash.com/photo-1596010179162-bfdca08fd5a5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["French Riviera", "Corsica", "Saint-Tropez", "Cannes", "Antibes", "Bonifacio"]
+        "cruisingSpots": ["French Riviera", "Corsica"],
+        "description": [
+          "France moves between two entirely different expressions of the Mediterranean — and does both with a clarity few destinations can match.",
+          "The Côte d'Azur is the season. Saint-Tropez at anchor off Pampelonne, a tender ashore to Club 55, an evening in the old port — this is what people mean when they talk about the Riviera. The Cannes Film Festival, the Monaco Grand Prix and the Cannes Yachting Festival define the calendar. Belle époque facades, casino terraces and Michelin-starred tables sit steps from the dock. Unapologetic, unhurried, and entirely itself.",
+          "Corsica is the counterpoint. Six hours offshore, the tone changes completely — maquis-scented hillsides, limestone cliffs dropping into clear water, and anchorages that feel genuinely remote even in August. Bonifacio and the Lavezzi Islands are among the finest cruising grounds in the Mediterranean. Saint-Florent and Calvi offer a quieter rhythm, with strong restaurants and easy provisioning.",
+          "The Riviera defines the season. Corsica is where you step away from it.",
+          "France is, by almost any measure, the most complete charter destination in the Mediterranean. It has the infrastructure, the coastline, the culture, and a way of life that is entirely its own. The south of France in particular — from the Italian border to the wild creeks of Corsica — offers a charter experience that moves seamlessly between Riviera glamour and genuine, unhurried seclusion.",
+          "The Riviera defines the season — Corsica is where you step away from it."
+        ]
       },
       {
         "slug": "monaco",
         "name": "Monaco",
-        "tagline": "The Principality. Front row at the Grand Prix and beyond",
+        "tagline": "Small in scale. Singular in influence",
         "image": "https://images.unsplash.com/photo-1703966140617-3a648f140917?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail", "Fontvieille"]
+        "cruisingSpots": ["Port Hercule", "Monte Carlo", "Cap d'Ail"],
+        "description": [
+          "Monaco does not need context. Port Hercule is one of the most recognised harbours on earth, Monte Carlo one of the most storied addresses. The principality is small by every geographical measure and outsized in every other — in ambition, atmosphere and the density of exceptional experiences available within walking distance of the dock.",
+          "Yachts base here, particularly for the Monaco Grand Prix, when the harbour transforms into the most electric setting on the Riviera calendar. Outside of race weekend, Monaco rewards those who look beyond the obvious. The Casino de Monte-Carlo, long associated with James Bond and still drawing an international crowd each evening. The grand hotels — Hôtel de Paris, the Hermitage, the Monte-Carlo Beach — each operating at a standard few cities in the world can match. Jimmy'z and Twiga draw an international crowd throughout the summer season, with world-class DJs and a clientele that reflects Monaco's singular position. And Fontvieille, the quieter quarter below the palace rock, for those who want to step away from the theatre of the port.",
+          "Everything here is condensed. Nothing is diluted."
+        ]
       },
       {
         "slug": "italy",
         "name": "Italy",
-        "tagline": "Lemon-grove coastlines, Tyrrhenian islands, ancient harbours",
+        "tagline": "Four distinct cruising grounds. Each one a different Italy",
         "image": "https://images.unsplash.com/photo-1549893072-4bc678117f45?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Italian Riviera", "Amalfi Coast", "Sardinia", "Sicily", "Portofino", "Capri", "Costa Smeralda"]
+        "cruisingSpots": ["Italian Riviera", "Amalfi Coast", "Sardinia", "Sicily"],
+        "description": [
+          "Italy's charter grounds are among the most varied in the Mediterranean — and unlike most regions, each territory is a self-contained itinerary. Most clients choose one."
+        ],
+        "sections": [
+          {
+            "heading": "The Italian Riviera",
+            "body": "Runs from the French border through Portofino and Santa Margherita along the Ligurian coast — refined, unhurried, and well suited to shorter charters. Portofino in particular remains one of the most beautiful small harbours in Europe."
+          },
+          {
+            "heading": "The Amalfi Coast",
+            "body": "Based out of Naples. From here, Capri, Positano, Procida and the dramatic cliff towns of the Amalfi coastline are all within easy reach — a compact cruising ground of extraordinary beauty and cultural depth."
+          },
+          {
+            "heading": "Sardinia",
+            "body": "Sardinia means the Costa Smeralda. Porto Cervo, the La Maddalena archipelago and the wild Bonifacio Strait offer a combination of world-class marina infrastructure and genuinely remote anchorages — often in the same day."
+          },
+          {
+            "heading": "Sicily & the Aeolian Islands",
+            "body": "Demand more time — a ten-day minimum to do the passage justice. Stromboli, Lipari and Panarea are the stepping stones south, with Sicily itself offering ancient cities, baroque architecture and water that turns every shade of blue."
+          }
+        ]
       },
       {
         "slug": "spain",
         "name": "Spain",
-        "tagline": "Balearic blues. Turquoise coves and white-washed ports",
+        "tagline": "The Balearic Islands. Home waters",
         "image": "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=1600&q=80&auto=format&fit=crop",
-        "cruisingSpots": ["Balearics", "Mallorca", "Ibiza", "Menorca", "Formentera", "Palma"]
+        "cruisingSpots": ["Mallorca", "Menorca", "Ibiza", "Formentera"],
+        "description": [
+          "The Balearic Islands are the heart of Western Mediterranean charter — and for Sinclair Yachting, home waters."
+        ],
+        "sections": [
+          {
+            "heading": "Mallorca",
+            "body": "The most varied of the four. The northwest coast rises into the Serra de Tramuntana — a UNESCO mountain range dropping dramatically to the sea, with coves accessible only by boat. To the south, the protected waters around Cabrera offer some of the finest anchorages in the archipelago. Ashore, the island moves between Michelin-starred tables in Palma's old town and unhurried chiringuitos that explain why people keep returning."
+          },
+          {
+            "heading": "Menorca",
+            "body": "Quieter to the north — a UNESCO biosphere reserve with natural anchorages, clear water and a pace the other islands have long since left behind."
+          },
+          {
+            "heading": "Ibiza",
+            "body": "Needs no introduction. Beach clubs, open-air venues and an energy that runs from noon to dawn — balanced by some of the most beautiful anchorages in the Mediterranean. Es Vedrà at sunset remains one of the great charter experiences."
+          },
+          {
+            "heading": "Formentera",
+            "body": "Reached by tender — shallow, translucent water, minimal development and a complete shift in pace."
+          }
+        ],
+        "footer": "Barcelona operates as an occasional static or event charter base — well positioned, but not a primary cruising ground at this level."
       }
     ]
   },

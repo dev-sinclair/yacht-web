@@ -31,6 +31,34 @@ function unsplashAt(url: string, width: number): string {
 }
 const heroSrcMobile = unsplashAt(region.heroImage, 960);
 const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
+
+/**
+ * Map an "ideal for" label to a small SVG icon key. Matching is
+ * case-insensitive and based on keywords in the label so future additions
+ * (e.g. "Honeymoons") fall back to a sensible default rather than breaking.
+ */
+function idealForIcon(label: string): string {
+  const l = label.toLowerCase();
+  if (l.includes("first-time") || l.includes("first time")) return "compass";
+  if (l.includes("event")) return "calendar";
+  if (l.includes("sailing")) return "sailboat";
+  if (l.includes("famil")) return "family";
+  if (l.includes("food") || l.includes("wine")) return "wine";
+  if (l.includes("culture") || l.includes("history")) return "column";
+  if (l.includes("remote")) return "mountain";
+  if (l.includes("couple") || l.includes("honeymoon") || l.includes("romant")) return "heart";
+  return "compass";
+}
+
+const seasonRows: Array<{ label: string; value?: string }> = region.seasonConditions
+  ? [
+      { label: "Charter Season", value: region.seasonConditions.charterSeason },
+      { label: "Peak Period", value: region.seasonConditions.peakPeriod },
+      { label: "Shoulder Season", value: region.seasonConditions.shoulderSeason },
+      { label: "Water Temperature", value: region.seasonConditions.waterTemperature },
+      { label: "Charter Bases", value: region.seasonConditions.charterBases },
+    ].filter((r): r is { label: string; value: string } => Boolean(r.value))
+  : [];
 ---
 
 <BaseLayout
@@ -83,13 +111,105 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
 
             <div data-reveal-line class="mt-8 h-px bg-gold"></div>
 
-            <p
-              data-reveal="up"
-              class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-white/85 sm:text-xl"
-              style="text-shadow: 0 1px 12px rgba(0,0,0,0.45);"
-            >
-              {region.tagline}.
-            </p>
+            {region.idealFor && region.idealFor.length > 0 ? (
+              <div data-reveal="up" class="mt-8 max-w-3xl">
+                <p
+                  class="text-[10px] font-medium tracking-[0.35em] uppercase text-gold-light"
+                  style="font-family: 'Raleway', sans-serif;"
+                >
+                  Ideal For
+                </p>
+                <ul class="mt-4 flex flex-wrap gap-2">
+                  {region.idealFor.map((item) => {
+                    const icon = idealForIcon(item);
+                    return (
+                      <li
+                        class="ideal-pill inline-flex items-center gap-2 border border-white/25 bg-white/10 px-3.5 py-1.5 text-[11px] font-medium tracking-[0.16em] uppercase text-white backdrop-blur-sm transition-colors duration-300 hover:border-gold/60 hover:bg-white/15"
+                        style="font-family: 'Raleway', sans-serif;"
+                      >
+                        <svg
+                          class="h-3.5 w-3.5 flex-none text-gold-light"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.6"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          {icon === "compass" && (
+                            <g>
+                              <circle cx="12" cy="12" r="9" />
+                              <polygon points="15.5 8.5 10.5 10.5 8.5 15.5 13.5 13.5 15.5 8.5" />
+                            </g>
+                          )}
+                          {icon === "calendar" && (
+                            <g>
+                              <rect x="3.5" y="5" width="17" height="15" rx="1.5" />
+                              <path d="M3.5 9.5h17" />
+                              <path d="M8 3v4" />
+                              <path d="M16 3v4" />
+                            </g>
+                          )}
+                          {icon === "sailboat" && (
+                            <g>
+                              <path d="M12 3v14" />
+                              <path d="M12 5l6.5 10H12z" />
+                              <path d="M12 7L6 15h6" />
+                              <path d="M3.5 18.5h17l-1.5 2.5h-14z" />
+                            </g>
+                          )}
+                          {icon === "family" && (
+                            <g>
+                              <circle cx="8" cy="8" r="2.5" />
+                              <circle cx="16" cy="8" r="2.5" />
+                              <path d="M3.5 19v-1.5a3.5 3.5 0 013.5-3.5h2a3.5 3.5 0 013.5 3.5V19" />
+                              <path d="M12 19v-1.5a3.5 3.5 0 013.5-3.5h2a3.5 3.5 0 013.5 3.5V19" />
+                            </g>
+                          )}
+                          {icon === "wine" && (
+                            <g>
+                              <path d="M8 3h8l-.6 6a3.4 3.4 0 11-6.8 0z" />
+                              <path d="M12 14v6" />
+                              <path d="M9 20h6" />
+                            </g>
+                          )}
+                          {icon === "column" && (
+                            <g>
+                              <path d="M4 5h16" />
+                              <path d="M5 19h14" />
+                              <path d="M5 19l1-2h12l1 2" />
+                              <path d="M4 5l1 2h14l1-2" />
+                              <path d="M8 7v10" />
+                              <path d="M12 7v10" />
+                              <path d="M16 7v10" />
+                            </g>
+                          )}
+                          {icon === "mountain" && (
+                            <g>
+                              <path d="M3 19l5.5-9 3.5 5 2-3 7 7z" />
+                              <circle cx="16" cy="6.5" r="1.5" />
+                            </g>
+                          )}
+                          {icon === "heart" && (
+                            <path d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.5-7 10-7 10z" />
+                          )}
+                        </svg>
+                        {item}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            ) : (
+              <p
+                data-reveal="up"
+                class="mt-8 max-w-2xl text-lg font-light leading-relaxed text-white/85 sm:text-xl"
+                style="text-shadow: 0 1px 12px rgba(0,0,0,0.45);"
+              >
+                {region.tagline}.
+              </p>
+            )}
 
             {region.locations.length > 0 && (
               <p
@@ -120,6 +240,32 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
         </div>
       </div>
     </header>
+
+    {region.intro && region.intro.length > 0 && (
+      <!-- ── Editorial introduction ── -->
+      <section class="bg-warm-white">
+        <div class="mx-auto max-w-[860px] px-6 py-20 sm:px-8 sm:py-24 lg:px-12">
+          <p
+            data-reveal="fade"
+            class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
+            style="font-family: 'Raleway', sans-serif;"
+          >
+            The Region
+          </p>
+          <div data-reveal-line class="mt-6 h-px w-16 bg-gold"></div>
+          <div class="mt-8 space-y-6">
+            {region.intro.map((para) => (
+              <p
+                data-reveal="up"
+                class="text-base font-light leading-[1.85] text-taupe sm:text-lg"
+              >
+                {para}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
 
     {region.locations.length > 0 && (
       <!-- ── Quick-jump gallery rail ── -->
@@ -196,7 +342,7 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
     <!-- ── Locations showcase (alternating zigzag with parallax cards) ── -->
     {region.locations.length > 0 ? (
       <section class="bg-warm-white">
-        <div class="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-5xl px-6 sm:px-8 lg:px-12">
           {region.locations.map((location, i) => {
             const imgUrl = location.image ?? region.heroImage;
             const src960 = unsplashAt(imgUrl, 960);
@@ -208,13 +354,7 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
                 class="location-block group/loc relative py-16 sm:py-12 lg:py-20"
                 data-loc-index={i}
               >
-                <div
-                  class={`grid items-center gap-10 lg:gap-16 ${
-                    isReversed
-                      ? "lg:grid-cols-[1fr_1.4fr] lg:[&>.loc-text]:order-first lg:[&>.loc-media]:order-last"
-                      : "lg:grid-cols-[1.4fr_1fr]"
-                  }`}
-                >
+                <div class={`loc-wrap ${isReversed ? "loc-wrap--reversed" : ""}`}>
                   <!-- Image side -->
                   <div
                     data-reveal={isReversed ? "right" : "left"}
@@ -278,11 +418,45 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
                       {location.name}
                     </h3>
 
+                    {location.tagline && (
+                      <p class="mt-4 text-base font-light italic leading-snug text-taupe-light sm:text-lg">
+                        {location.tagline}.
+                      </p>
+                    )}
+
                     <div data-reveal-line class="mt-6 h-px bg-gold"></div>
 
-                    {location.tagline && (
-                      <p class="mt-7 max-w-xl text-base font-light leading-[1.85] text-taupe sm:text-lg">
-                        {location.tagline}.
+                    {location.description && location.description.length > 0 && (
+                      <div class="mt-7 space-y-5">
+                        {location.description.map((para) => (
+                          <p class="text-base font-light leading-[1.85] text-taupe sm:text-lg">
+                            {para}
+                          </p>
+                        ))}
+                      </div>
+                    )}
+
+                    {location.sections && location.sections.length > 0 && (
+                      <div class="mt-8 space-y-6">
+                        {location.sections.map((section) => (
+                          <div>
+                            <h4
+                              class="text-[11px] font-medium tracking-[0.3em] uppercase text-gold"
+                              style="font-family: 'Raleway', sans-serif;"
+                            >
+                              {section.heading}
+                            </h4>
+                            <p class="mt-2 text-base font-light leading-[1.85] text-taupe sm:text-lg">
+                              {section.body}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {location.footer && (
+                      <p class="mt-7 text-sm font-light italic leading-[1.75] text-taupe-light sm:text-base">
+                        {location.footer}
                       </p>
                     )}
 
@@ -367,6 +541,50 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
       </section>
     )}
 
+
+    {seasonRows.length > 0 && (
+      <!-- ── Season & conditions ── -->
+      <section class="bg-white py-20 sm:py-24">
+        <div class="mx-auto max-w-[1100px] px-6 sm:px-8 lg:px-12">
+          <div class="text-center">
+            <p
+              data-reveal="fade"
+              class="text-[11px] font-medium tracking-[0.35em] uppercase text-gold"
+              style="font-family: 'Raleway', sans-serif;"
+            >
+              Plan The Trip
+            </p>
+            <h2
+              data-reveal="up"
+              class="mt-4 text-3xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-4xl"
+              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            >
+              Season &amp; Conditions
+            </h2>
+            <div data-reveal-line class="mx-auto mt-6 h-px w-16 bg-gold"></div>
+          </div>
+
+          <dl
+            data-reveal-stagger
+            class="mt-14 grid grid-cols-1 gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            {seasonRows.map((row) => (
+              <div class="flex flex-col gap-2 border-t border-deep/10 pt-4">
+                <dt
+                  class="text-[10px] font-medium tracking-[0.3em] uppercase text-gold"
+                  style="font-family: 'Raleway', sans-serif;"
+                >
+                  {row.label}
+                </dt>
+                <dd class="text-base font-light leading-snug text-charcoal sm:text-lg">
+                  {row.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+    )}
 
     <!-- ── Yachts cruising the region ── -->
     {yachts.length > 0 && (
@@ -501,6 +719,24 @@ const heroSrcDesktop = unsplashAt(region.heroImage, 2000);
 
   /* Smooth scroll-snap for #loc-* anchors, with a small offset for the nav */
   :global(html) { scroll-padding-top: 90px; }
+
+  /* Location row: stacked on mobile, float-wrap (L-shape) on desktop so
+     long copy continues underneath the image instead of leaving a gap. */
+  .loc-wrap { display: block; }
+  .loc-wrap > .loc-media { margin-bottom: 2.5rem; }
+
+  @media (min-width: 1024px) {
+    .loc-wrap::after { content: ""; display: table; clear: both; }
+    .loc-wrap > .loc-media {
+      width: 48%;
+      float: left;
+      margin: 0.5rem 2.5rem 1rem 0;
+    }
+    .loc-wrap--reversed > .loc-media {
+      float: right;
+      margin: 0.5rem 0 1rem 2.5rem;
+    }
+  }
 
   @media (prefers-reduced-motion: reduce) {
     .hero-scroll-line { animation: none; }
