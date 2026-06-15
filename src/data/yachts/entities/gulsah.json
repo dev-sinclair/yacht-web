@@ -1,0 +1,329 @@
+{
+  "lastModified": 1781533174909,
+  "uri": "c::7819298091::vessel::7684cc80-d10d-11f0-9439-bd657697007c",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Turkey, Aegean Sea\n\nThe 36-meter Baglietto motor yacht combines timeless Italian craftsmanship with contemporary refinemen. Originally\nbuilt in 1990 and extensively refitted in 2025, she features an elegant aluminum hull and offers exceptional comfort and\nperformance.\nPowered by twin 1800HP MTU engines, she cruises at 12 knots and reaches a maximum speed of 20 knots.\nAccommodation is provided for up to 10-12 guests in 5 beautifully appointed cabins, including a full-beam master suite,\ntwo VIP cabins, and two twins with Pullman berths.\nThe yacht’s refined interiors, spacious flybridge with hardtop, and hydraulic swim platform create an ideal setting for\nboth relaxation and entertainment. Onboard highlights include a 65” LED TV with Bose cinema system, Pro DJ Set on the\nflybridge, and a range of water toys such as paddleboard, water-skis, and snorkeling gear.\nWith her extensive refit, elegant design, and Baglietto pedigree, this 36m yacht stands as a statement of sophistication\nand superior seakeeping.",
+  "blueprint": {
+    "name": "GULSAH",
+    "images": [
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91ccc250-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91bc95b0-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::920c6360-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91c52130-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91bf54d0-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91b19930-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91b20e60-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91ba4bc0-d111-11f0-9caa-9dee0c5663b6/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91b98870-d111-11f0-9caa-9dee0c5663b6/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91eb46d0-d111-11f0-9caa-9dee0c5663b6/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91d01db0-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91e134b0-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91bc4790-d111-11f0-9caa-9dee0c5663b6/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91b0fcf0-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91c7e050-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91b62d10-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
+      "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91af7650-d111-11f0-af7c-cbd8b054b84d/{imageVariant}"
+    ],
+    "make": "Baglietto",
+    "maxCrew": 6,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
+      "name": "Bodrum",
+      "coordinates": {
+        "latitude": 37.03482562918905,
+        "longitude": 27.42932494208488
+      },
+      "country": "Türkiye"
+    },
+    "builtYear": 1990,
+    "refitYear": 2025,
+    "topSpeed": 20,
+    "cruiseSpeed": 12,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 5,
+    "length": 36,
+    "beam": 7.24,
+    "hullType": "Planing",
+    "hullConstruction": "Aluminum",
+    "engines": "2 x 1800HP MTU",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Swim platforrm"
+      },
+      {
+        "label": "Beach Club"
+      },
+      {
+        "label": "Ipad/ipod/mobile docking station"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Donut"
+      },
+      {
+        "label": "Stand-up Paddle board"
+      },
+      {
+        "label": " Snorkeling gear"
+      },
+      {
+        "label": "Wake board"
+      },
+      {
+        "label": "Water-skis"
+      }
+    ],
+    "entertainment": [
+      "65\" LED TV",
+      "Bose cinema system in saloon / aft deck",
+      "Pro DJ set system",
+      "Satellite TV system",
+      "Wi-fi internet access"
+    ],
+    "tenders": [
+      "1 x 7.00m Capelli tender with outboard 200HP",
+      "1 x 12.00m chase tender with twin outboard 400HP (optional)"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 7500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-11-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-11-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-11-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6500000,
+              "amount": 6500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 6500000,
+          "subTotal": 6500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              35.10531997715448,
+              39.093802942376584
+            ],
+            "bbox": [
+              25.6689453125,
+              35.831445312499994,
+              44.81718750000002,
+              42.09326171875
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7500000,
+              "amount": 7500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 7500000,
+          "subTotal": 7500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              35.10531997715448,
+              39.093802942376584
+            ],
+            "bbox": [
+              25.6689453125,
+              35.831445312499994,
+              44.81718750000002,
+              42.09326171875
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
