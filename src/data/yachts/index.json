@@ -926,6 +926,30 @@
     ]
   },
   {
+    "uri": "c::22608329829::vessel::d5c9387d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "diamond",
+    "name": "DIAMOND",
+    "hero": "/media/media::image::a::vessel::d5c9387d-fe8c-11ed-889f-43d4bb723744::assets::e1573e00-0054-11f1-ac5f-8b980b3b1253/{imageVariant}",
+    "length": 50,
+    "sleeps": 38,
+    "cabins": 18,
+    "builtYear": 2015,
+    "builder": "",
+    "yachtType": [
+      "Sailing",
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::d5cc7772-fe8c-11ed-889f-43d4bb723744",
     "slug": "la-pellegrina-1",
     "name": "LA PELLEGRINA 1",
@@ -1020,30 +1044,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::22608329829::vessel::d5c9387d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "diamond",
-    "name": "DIAMOND",
-    "hero": "/media/media::image::a::vessel::d5c9387d-fe8c-11ed-889f-43d4bb723744::assets::e1573e00-0054-11f1-ac5f-8b980b3b1253/{imageVariant}",
-    "length": 50,
-    "sleeps": 38,
-    "cabins": 18,
-    "builtYear": 2015,
-    "builder": "",
-    "yachtType": [
-      "Sailing",
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5300000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "summer-2029"
     ]
   },
   {
