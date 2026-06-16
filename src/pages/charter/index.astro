@@ -12,7 +12,10 @@ import { getAllYachts } from "../../data/yacht-service";
 // so the editorial "X+ yachts" claim stays comfortably below the actual
 // catalog size even after a sync removes a handful of listings.
 const totalYachts = (await getAllYachts()).length;
-const yachtCountLabel = Math.max(50, Math.floor(totalYachts / 50) * 50).toLocaleString("en-US");
+const yachtCountLabel = Math.max(
+  50,
+  Math.floor(totalYachts / 50) * 50,
+).toLocaleString("en-US");
 
 // Why-Sinclair portrait: photo by ERIK SETH on Unsplash
 // https://unsplash.com/photos/snoX2DPdVE0 — boat in Porto Santo Stefano.
@@ -25,10 +28,22 @@ const WHATSAPP_HREF =
   "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20charter%20a%20yacht%20with%20Sinclair.";
 
 const pillars = [
-  { label: "Curation", text: "A fleet personally vetted, not aggregated. Every yacht earns its place by build, crew and condition." },
-  { label: "Itinerary", text: "Routes plotted around your party, your dates and the season. Never a template, never a brochure." },
-  { label: "Crew", text: "Captains and stewards chosen for service as much as seamanship. The week is theirs to make seamless." },
-  { label: "Brokerage", text: "One broker from first call to final disembark. No handoffs, no concierge desk in the middle." },
+  {
+    label: "Curation",
+    text: "A fleet personally vetted, not aggregated. Every yacht earns its place by build, crew and condition.",
+  },
+  {
+    label: "Itinerary",
+    text: "Routes plotted around your party, your dates and the season. Never a template, never a brochure.",
+  },
+  {
+    label: "Crew",
+    text: "Captains and stewards chosen for service as much as seamanship. The week is theirs to make seamless.",
+  },
+  {
+    label: "Brokerage",
+    text: "One broker from first call to final disembark. No handoffs, no concierge desk in the middle.",
+  },
 ];
 
 const steps = [
@@ -62,7 +77,9 @@ const steps = [
   <Navbar />
 
   <!-- Hero -->
-  <section class="relative h-screen w-full bg-white px-3 pb-3 sm:px-4 sm:pb-4 lg:px-5 lg:pb-5">
+  <section
+    class="relative h-screen w-full bg-white px-3 pb-3 sm:px-4 sm:pb-4 lg:px-5 lg:pb-5"
+  >
     <div class="relative h-full w-full overflow-hidden bg-deep">
       <Image
         src={heroImg}
@@ -73,13 +90,18 @@ const steps = [
         sizes="100vw"
         loading="eager"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/55"></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/55"
+      >
+      </div>
 
-      <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-36 sm:px-8 lg:px-12">
-        <div class="mx-auto max-w-[1440px]" style="text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);">
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/80">
-            Charter
-          </p>
+      <div
+        class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-36 sm:px-8 lg:px-12"
+      >
+        <div
+          class="mx-auto max-w-[1440px]"
+          style="text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);"
+        >
           <h1
             class="mt-4 text-4xl leading-[1.1] tracking-[0.08em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
@@ -87,23 +109,40 @@ const steps = [
             A Week At Sea,<br />
             Quietly Arranged
           </h1>
-          <p class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base">
-            A personally vetted fleet of crewed yachts across the world's finest cruising grounds.
-            We listen first, propose three, and stay close through to the final disembark.
+          <p
+            class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base"
+          >
+            A personally vetted fleet of crewed yachts across the world's finest
+            cruising grounds. We listen first, propose three, and stay close
+            through to the final disembark.
           </p>
-          <div class="mt-8 flex flex-col items-start gap-6 sm:flex-row sm:flex-wrap sm:items-start sm:gap-x-8 sm:gap-y-6">
+          <div
+            class="mt-8 flex flex-col items-start gap-6 sm:flex-row sm:flex-wrap sm:items-start sm:gap-x-8 sm:gap-y-6"
+          >
             <div class="flex flex-col items-start">
               <a
                 href="/yachts"
-                class="group inline-flex items-center gap-3 bg-white px-10 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-charcoal shadow-xl transition-all duration-300 hover:bg-gold hover:text-white hover:shadow-2xl"
+                class="group inline-flex items-center gap-3 bg-white px-10 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-charcoal shadow-xl transition-all duration-300 hover:bg-charcoal hover:text-white hover:shadow-2xl"
               >
                 Browse the Fleet
-                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                <svg
+                  class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 5l7 7-7 7"></path>
                 </svg>
               </a>
-              <p class="mt-3 text-[11px] font-light leading-relaxed text-white/75">
-                Over <span class="num text-white">{yachtCountLabel}</span> crewed yachts across every major cruising ground.
+              <p
+                class="mt-3 text-[11px] font-light leading-relaxed text-white/75"
+              >
+                Over <span class="num text-white">{yachtCountLabel}</span> crewed
+                yachts across every major cruising ground.
               </p>
             </div>
             <a
@@ -114,7 +153,9 @@ const steps = [
             >
               Or message on WhatsApp
               <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                ></path>
               </svg>
             </a>
           </div>
@@ -126,10 +167,14 @@ const steps = [
   <!-- Why charter with Sinclair / pillars -->
   <section class="bg-white py-24 lg:py-32">
     <Container>
-      <div class="grid items-start gap-12 lg:grid-cols-[1fr_minmax(0,480px)] lg:gap-20">
+      <div
+        class="grid items-start gap-12 lg:grid-cols-[1fr_minmax(0,480px)] lg:gap-20"
+      >
         <!-- Left: intro copy -->
         <div>
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+          <p
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
+          >
             Why Sinclair
           </p>
           <h2
@@ -139,26 +184,29 @@ const steps = [
             Less Catalogue,<br />
             More Conversation
           </h2>
-          <div class="mt-6 h-px w-10 bg-gold/40"></div>
+          <div class="mt-6 h-px w-10 bg-deep/40"></div>
           <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
-            A charter week is too short to spend negotiating with a desk. Our brokers handle a
-            small number of clients at a time and treat each week as a single project, from the
-            opening shortlist through to the dock at the end of the cruise.
+            A charter week is too short to spend negotiating with a desk. Our
+            brokers handle a small number of clients at a time and treat each
+            week as a single project, from the opening shortlist through to the
+            dock at the end of the cruise.
           </p>
 
           <!-- Pillars -->
           <div class="mt-12 grid grid-cols-2 gap-y-8 gap-x-8">
-            {pillars.map((p) => (
-              <div>
-                <p
-                  class="text-xl font-light tracking-[0.25em] uppercase text-charcoal sm:text-2xl"
-                  style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-                >
-                  {p.label}
-                </p>
-                <p class="mt-2 text-sm leading-[1.7] text-taupe">{p.text}</p>
-              </div>
-            ))}
+            {
+              pillars.map((p) => (
+                <div>
+                  <p
+                    class="text-xl font-light tracking-[0.25em] uppercase text-charcoal sm:text-2xl"
+                    style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+                  >
+                    {p.label}
+                  </p>
+                  <p class="mt-2 text-sm leading-[1.7] text-taupe">{p.text}</p>
+                </div>
+              ))
+            }
           </div>
 
           <!-- Inline CTA after pillars -->
@@ -168,8 +216,17 @@ const steps = [
               class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
             >
               See Available Yachts
-              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              <svg
+                class="w-3.5 h-3.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
@@ -196,13 +253,24 @@ const steps = [
   <!-- Mid-page CTA strip — dimmed sage. Same layering pattern as the footer:
        a base hex plus a low-opacity dark-teal overlay tints the color toward
        depth without changing its hue family. -->
-  <section class="relative overflow-hidden py-20 lg:py-24" style="background-color: #6e8e8f;">
+  <section
+    class="relative overflow-hidden py-20 lg:py-24"
+    style="background-color: #6e8e8f;"
+  >
     <!-- Slight dim overlay (matches the footer's base+tint technique). -->
-    <div class="absolute inset-0 pointer-events-none" style="background-color: rgba(15, 24, 25, 0.14);"></div>
+    <div
+      class="absolute inset-0 pointer-events-none"
+      style="background-color: rgba(15, 24, 25, 0.14);"
+    >
+    </div>
     <Container>
-      <div class="relative flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
+      <div
+        class="relative flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center"
+      >
         <div class="max-w-xl">
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold-light/80">
+          <p
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/100"
+          >
             Already Have a Week in Mind?
           </p>
           <h2
@@ -212,7 +280,8 @@ const steps = [
             Explore the Fleet
           </h2>
           <p class="mt-3 text-sm leading-relaxed text-white/70">
-            Hundreds of crewed yachts across every major cruising ground. Filter by season, length, guests, region.
+            Hundreds of crewed yachts across every major cruising ground. Filter
+            by season, length, guests, region.
           </p>
         </div>
         <a
@@ -220,8 +289,17 @@ const steps = [
           class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-8 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
         >
           Browse the Fleet
-          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          <svg
+            class="w-3.5 h-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"></path>
           </svg>
         </a>
       </div>
@@ -232,29 +310,37 @@ const steps = [
   <section class="bg-cream/40 py-24 lg:py-32">
     <Container>
       <div class="max-w-3xl">
-        <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">The Process</p>
+        <p
+          class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
+        >
+          The Process
+        </p>
         <h2
           class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
           From First Call to Final Disembark
         </h2>
-        <div class="mt-6 h-px w-10 bg-gold/40"></div>
+        <div class="mt-6 h-px w-10 bg-deep/40"></div>
       </div>
 
       <div class="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        {steps.map((step) => (
-          <div class="border-t border-deep/15 pt-6">
-            <p class="num text-[11px] font-medium tracking-[0.25em] text-gold">{step.n}</p>
-            <h3
-              class="mt-4 text-xl font-light tracking-[0.15em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              {step.title}
-            </h3>
-            <p class="mt-4 text-sm leading-[1.75] text-taupe">{step.text}</p>
-          </div>
-        ))}
+        {
+          steps.map((step) => (
+            <div class="border-t border-deep/15 pt-6">
+              <p class="num text-[11px] font-medium tracking-[0.25em] text-deep">
+                {step.n}
+              </p>
+              <h3
+                class="mt-4 text-xl font-light tracking-[0.15em] uppercase text-charcoal"
+                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              >
+                {step.title}
+              </h3>
+              <p class="mt-4 text-sm leading-[1.75] text-taupe">{step.text}</p>
+            </div>
+          ))
+        }
       </div>
     </Container>
   </section>
@@ -264,7 +350,9 @@ const steps = [
     <Container>
       <div class="grid items-end gap-8 sm:grid-cols-[1fr_auto] sm:gap-12">
         <div class="max-w-2xl">
-          <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+          <p
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
+          >
             Where to Sail
           </p>
           <h2
@@ -274,8 +362,9 @@ const steps = [
             Pick a Region First
           </h2>
           <p class="mt-6 text-base leading-[1.8] text-taupe">
-            Not sure where the week should start? Browse our destinations to see what each
-            cruising ground offers, then filter the fleet by where they're based.
+            Not sure where the week should start? Browse our destinations to see
+            what each cruising ground offers, then filter the fleet by where
+            they're based.
           </p>
         </div>
         <div class="flex flex-wrap gap-4">
@@ -284,8 +373,17 @@ const steps = [
             class="inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
           >
             Explore Destinations
-            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            <svg
+              class="w-3.5 h-3.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7"></path>
             </svg>
           </a>
           <a
@@ -293,8 +391,17 @@ const steps = [
             class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
           >
             Or browse all yachts
-            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            <svg
+              class="w-3.5 h-3.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
@@ -305,7 +412,9 @@ const steps = [
   <!-- Closing CTA -->
   <section class="bg-cream/30 py-24 lg:py-32 text-center">
     <Container>
-      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">Ready When You Are</p>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70">
+        Ready When You Are
+      </p>
       <h2
         class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
         style="font-family: 'Raleway', sans-serif; font-weight: 300;"
@@ -313,8 +422,9 @@ const steps = [
         Start With a Yacht or a Conversation
       </h2>
       <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
-        Browse the fleet to see what's available, or message a broker directly. Either way leads to
-        the same place — a week at sea, quietly arranged on your terms.
+        Browse the fleet to see what's available, or message a broker directly.
+        Either way leads to the same place — a week at sea, quietly arranged on
+        your terms.
       </p>
       <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
         <a
@@ -322,8 +432,17 @@ const steps = [
           class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
           Browse the Fleet
-          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          <svg
+            class="w-3.5 h-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"></path>
           </svg>
         </a>
         <a
@@ -334,7 +453,9 @@ const steps = [
         >
           Chat on WhatsApp
           <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+            ></path>
           </svg>
         </a>
       </div>

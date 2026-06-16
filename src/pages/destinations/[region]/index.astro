@@ -390,18 +390,18 @@ const seasonRows: Array<{ label: string; value?: string }> = region.seasonCondit
                     )}
 
                     {location.whyCharter && location.whyCharter.length > 0 && (
-                      <div class="mt-9">
+                      <div class="mt-12 text-center">
                         <p
-                          class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep"
+                          class="text-[10px] font-medium tracking-[0.35em] uppercase text-deep"
                           style="font-family: 'Raleway', sans-serif;"
                         >
                           Why Charter {location.name}
                         </p>
-                        <ul class="mt-4 space-y-2">
+                        <div class="mx-auto mt-4 h-px w-10 bg-deep/40"></div>
+                        <ul class="mx-auto mt-7 max-w-2xl space-y-3">
                           {location.whyCharter.map((item) => (
-                            <li class="flex items-start gap-3 text-base font-light leading-relaxed text-taupe-dark sm:text-lg">
-                              <span class="mt-3 inline-block h-px w-4 flex-none bg-deep/60"></span>
-                              <span>{item}</span>
+                            <li class="text-base font-light leading-relaxed text-taupe-dark sm:text-lg">
+                              {item}
                             </li>
                           ))}
                         </ul>

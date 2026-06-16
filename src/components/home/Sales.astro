@@ -12,12 +12,14 @@ import salesImgMobile from "../../assets/sales-yacht.jpg";
 <section class="relative bg-warm-white pt-10 pb-14 lg:pt-0 lg:pb-20">
   <Container>
     <div class="mx-auto max-w-2xl text-center" data-reveal>
-      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-gold/70">
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70">
         Beyond Charter
       </p>
-      <div class="mx-auto mt-6 h-px w-10 bg-gold/40"></div>
+      <div class="mx-auto mt-6 h-px w-10 bg-deep/40"></div>
       <p class="mt-8 text-base leading-[1.85] text-taupe sm:text-lg">
-        Charter is only one chapter. From sourcing the right yacht to commissioning a new build, our brokerage supports every stage of ownership. Privately, and on your terms.
+        Charter is only one chapter. From sourcing the right yacht to
+        commissioning a new build, our brokerage supports every stage of
+        ownership. Privately, and on your terms.
       </p>
     </div>
   </Container>
@@ -43,12 +45,19 @@ import salesImgMobile from "../../assets/sales-yacht.jpg";
     />
     <div class="absolute inset-0 bg-black/75"></div>
 
-    <div class="relative z-10 flex h-full w-full items-center justify-center px-6">
+    <div
+      class="relative z-10 flex h-full w-full items-center justify-center px-6"
+    >
       <div class="relative w-full max-w-3xl" style="min-height: 220px;">
         <!-- Stage 1: Title -->
-        <div id="sales-stage-1" class="absolute inset-0 flex items-center justify-center text-center">
+        <div
+          id="sales-stage-1"
+          class="absolute inset-0 flex items-center justify-center text-center"
+        >
           <div>
-            <p class="text-[11px] font-light tracking-[0.3em] uppercase text-white/70">
+            <p
+              class="text-[11px] font-light tracking-[0.3em] uppercase text-white/70"
+            >
               Brokerage
             </p>
             <h2
@@ -62,14 +71,27 @@ import salesImgMobile from "../../assets/sales-yacht.jpg";
         </div>
 
         <!-- Stage 2: Button -->
-        <div id="sales-stage-2" class="absolute inset-0 flex items-center justify-center" style="opacity: 0; pointer-events: none;">
+        <div
+          id="sales-stage-2"
+          class="absolute inset-0 flex items-center justify-center"
+          style="opacity: 0; pointer-events: none;"
+        >
           <a
             href="/sales"
             class="btn-fill-light inline-flex items-center gap-4 border border-white/40 px-12 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-white"
           >
             Explore Sales
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            <svg
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
@@ -119,7 +141,7 @@ import salesImgMobile from "../../assets/sales-yacht.jpg";
           ticking = true;
         }
       },
-      { passive: true }
+      { passive: true },
     );
 
     window.addEventListener("resize", render);
