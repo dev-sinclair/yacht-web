@@ -1,136 +1,154 @@
 {
-  "lastModified": 1775128342770,
-  "uri": "c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d",
+  "lastModified": 1781711959320,
+  "uri": "c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Sicily, Italy, Sardinia, Malta, Calabria, Gulf of Naples\n\nAlfamarine 78 Hardtop is a sleek and powerful yacht, measuring 27 meters in length with a 6-meter beam. Powered by twin 1650 hp Caterpillar engines, it offers both speed and smooth cruising. Its refined interior features three cabins, including a spacious master suite, three bathrooms, and a large, elegant salon. All areas are fully air-conditioned, and generators ensure comfort at all times. This yacht blends performance, luxury and Italian design, perfect for stylish and comfortable cruising.",
+  "description": "Operating Area: Sicily, Italy, Sardinia, Naples, Malta, Calabria, Gulf of Naples, Taormina, Amalfitanian Coast\n\nFairline 55 Fly is a 17 meters timeless flybridge motor yacht equipped with twin 715 hp D-12 Volvo Penta engines that offers both speed and smooth cruising. \n\nThe large flybridge offers plenty of space for relaxing, entertaining and sunbathing while the interior provides 3 cabins to comfortably accommodate 6 guests overnight (1 Master and 1 VIP with double bed, and 1 Twin cabin with separate beds), plus 1 cabin, 2 berths, crew with head. All cabins include ensuite bathrooms and individually managed climate zones.\n\nThe aft deck is equipped with a large table for al fresco dining and is the ideal place to enjoy breakfast. At the bow there is a sunbathing area with a folding table. Further moments of relaxation can be spent on the upper deck with panoramic views of the sea.",
   "blueprint": {
-    "name": "ALFAMARINE 78HT",
+    "name": "PALADINO",
     "images": [
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::0039b5f0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003a7940-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003940c0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003a5230-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003aa050-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::0082a5d0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::00398ee0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003b3c90-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003967d0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::0039dd00-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003b8ab0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003a2b20-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::003b63a0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::36761060-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::36791da0-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::36765e80-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::3676aca0-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::3676fac1-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::367748e0-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::3674fef0-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::36752600-237c-11f1-90d3-b99243358b88/{imageVariant}",
-      "/media/media::image::c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::3676fac0-237c-11f1-90d3-b99243358b88/{imageVariant}"
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75e16b0-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75e8be0-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75d0540-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75d5360-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75f0110-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75eda00-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75eb2f0-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75f2820-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+      "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75feb70-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}"
     ],
-    "make": "Alfamarine",
-    "model": "78 HT",
-    "maxCrew": 3,
-    "sleeps": 7,
+    "make": "Fairline",
+    "model": "Squadron 55",
+    "maxCrew": 2,
+    "sleeps": 6,
     "basePort": {
-      "uri": "a::place::084d33fe-b3ee-11ed-989f-325096b39f47",
-      "name": "Palermo",
+      "uri": "a::place::27c2963e-b3ee-11ed-8e2e-325096b39f47",
+      "name": "Taormina",
       "coordinates": {
-        "latitude": 38.12310447695344,
-        "longitude": 13.36915389584564
+        "latitude": 37.85171699,
+        "longitude": 15.28617534
       },
       "country": "Italy"
     },
-    "cruisingCapacity": 13,
-    "staticCapacity": 13,
+    "cruisingCapacity": 12,
+    "staticCapacity": 12,
     "builtYear": 2004,
-    "architect": "Andrea Macigalupo",
-    "refitYear": 2019,
-    "topSpeed": 40,
-    "cruiseSpeed": 30,
-    "fuelCapacity": 5000,
+    "architect": "",
+    "interiorDesigner": "Andrew Pope",
+    "refitYear": 2017,
+    "topSpeed": 30,
+    "cruiseSpeed": 22,
+    "fuelCapacity": 2180,
     "cabinLayout": [
       {
-        "label": "Master Suite",
+        "label": "Master cabin ",
         "value": "1"
       },
       {
-        "label": "VIP Cabin ",
+        "label": "VIP cabin with double bed",
         "value": "1"
       },
       {
-        "label": "Twin Cabin",
+        "label": "Twin cabin with separate beds",
         "value": "1"
       }
     ],
     "cabins": 3,
     "bathrooms": 3,
-    "length": 27,
-    "beam": 5.9,
-    "draft": 1.9,
-    "hullType": "deep-V ",
-    "hullConstruction": "GFRP",
-    "tonnage": 42,
-    "engines": "2 x Caterpillar 1650 hp",
+    "decks": 0,
+    "length": 17,
+    "beam": 4.65,
+    "draft": 1.2,
+    "hullType": "",
+    "engines": "twin 715 hp D-12  Volvo Penta",
     "amenities": [
       {
-        "label": "Lounge"
-      },
-      {
-        "label": "Air Conditioning"
-      },
-      {
-        "label": "Generator"
+        "label": "Air conditioning",
+        "quantity": "0"
       },
       {
         "label": "Sundeck"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Washer and Dryer"
+      },
+      {
+        "label": "Wet bar"
       }
     ],
     "toys": [
       {
-        "label": "SUP Stand Up Paddle"
+        "label": "SUP Stand Up Paddle",
+        "quantity": "1"
       },
       {
-        "label": "Snorkeling equipment"
+        "label": "Snorkelling equipment",
+        "quantity": "6"
+      },
+      {
+        "label": "Sea Scooter",
+        "quantity": "1"
+      },
+      {
+        "label": "Floating Mat",
+        "quantity": "1"
       }
     ],
     "entertainment": [
-      "Flat Screen TV",
+      "Flat-screen TV",
       "Audio System",
       "Speakers System"
+    ],
+    "tenders": [
+      ""
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Antonio Calcara",
+      "avatar": "/media/media::image::c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::9eb1f720-ebfa-11f0-a467-4d0c4b1ebe8c/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Shara Amodio",
+      "avatar": "/media/media::image::c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::e043b390-ebfa-11f0-a467-4d0c4b1ebe8c/{imageVariant}",
+      "role": "Captain"
+    }
+  ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 375000,
+      "price": 285000,
       "displayCurrency": "EUR",
-      "displayPrice": 375000,
+      "displayPrice": 285000,
       "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 500000,
+      "price": 350000,
       "displayCurrency": "EUR",
-      "displayPrice": 500000,
+      "displayPrice": 350000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 3000000,
+      "price": 2050000,
       "displayCurrency": "EUR",
-      "displayPrice": 3000000,
+      "displayPrice": 2050000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3750000,
+      "price": 2500000,
       "displayCurrency": "EUR",
-      "displayPrice": 3750000,
+      "displayPrice": 2500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -152,7 +170,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 375000,
+          "charterFee": 285000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -160,20 +178,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 375000,
-              "amount": 375000,
+              "unitPrice": 285000,
+              "amount": 285000,
               "conditions": "VAT not Included"
             },
             {
               "item": "APA",
               "conditions": "VAT Included",
               "quantity": 0.3,
-              "unitPrice": 450000,
-              "amount": 135000
+              "unitPrice": 350000,
+              "amount": 105000
             }
           ],
-          "total": 510000,
-          "subTotal": 510000,
+          "total": 390000,
+          "subTotal": 390000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -197,20 +215,20 @@
             ]
           },
           {
-            "label": "Palermo, Sicily, Italy",
+            "label": "Catania, Sicily, Italy",
             "type": "Custom Area",
             "category": [
-              "Palermo"
+              "Catania"
             ],
             "coordinates": [
-              13.3208335,
-              38.116667
+              15.0625,
+              37.512499999999996
             ],
             "bbox": [
-              13.05,
-              38.016667,
-              13.591667,
-              38.216667
+              14.941667,
+              37.408333,
+              15.183333,
+              37.616667
             ]
           }
         ],
@@ -235,7 +253,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 500000,
+          "charterFee": 350000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -243,20 +261,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 500000,
-              "amount": 500000,
+              "unitPrice": 350000,
+              "amount": 350000,
               "conditions": "VAT not Included"
             },
             {
               "item": "APA",
               "conditions": "VAT Included",
               "quantity": 0.3,
-              "unitPrice": 600000,
-              "amount": 180000
+              "unitPrice": 420000,
+              "amount": 126000
             }
           ],
-          "total": 680000,
-          "subTotal": 680000,
+          "total": 476000,
+          "subTotal": 476000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -280,20 +298,20 @@
             ]
           },
           {
-            "label": "Palermo, Sicily, Italy",
+            "label": "Catania, Sicily, Italy",
             "type": "Custom Area",
             "category": [
-              "Palermo"
+              "Catania"
             ],
             "coordinates": [
-              13.3208335,
-              38.116667
+              15.0625,
+              37.512499999999996
             ],
             "bbox": [
-              13.05,
-              38.016667,
-              13.591667,
-              38.216667
+              14.941667,
+              37.408333,
+              15.183333,
+              37.616667
             ]
           }
         ],
@@ -330,7 +348,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3000000,
+          "charterFee": 2050000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -338,20 +356,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3000000,
-              "amount": 3000000,
-              "conditions": "VAT not Inclusive"
+              "unitPrice": 2050000,
+              "amount": 2050000,
+              "conditions": "VAT not Included"
             },
             {
               "item": "APA",
-              "conditions": "VAT is inclusive",
+              "conditions": "VAT is Included",
               "quantity": 0.3,
-              "unitPrice": 3600000,
-              "amount": 1080000
+              "unitPrice": 2500000,
+              "amount": 750000
             }
           ],
-          "total": 4080000,
-          "subTotal": 4080000,
+          "total": 2800000,
+          "subTotal": 2800000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -394,25 +412,6 @@
             ]
           },
           {
-            "label": "Malta",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Malta"
-            ],
-            "coordinates": [
-              14.377222348503812,
-              35.94020291192098
-            ],
-            "bbox": [
-              14.180371093750011,
-              35.820214843749994,
-              14.566210937500017,
-              36.07578125
-            ]
-          },
-          {
             "label": "Sardinia",
             "type": "Geo subunit",
             "category": [
@@ -429,6 +428,25 @@
               38.90966796875,
               9.805273437500006,
               41.257080078125
+            ]
+          },
+          {
+            "label": "Tunisia",
+            "type": "Sovereign country",
+            "category": [
+              "Africa",
+              "Northern Africa",
+              "Tunisia"
+            ],
+            "coordinates": [
+              9.65037873717645,
+              34.09420588974774
+            ],
+            "bbox": [
+              7.49560546875,
+              30.229394531249994,
+              11.535937500000017,
+              37.340380859374996
             ]
           },
           {
@@ -489,7 +507,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3750000,
+          "charterFee": 2500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -497,20 +515,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3750000,
-              "amount": 3750000,
-              "conditions": "VAT not Inclusive"
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "VAT not Included"
             },
             {
               "item": "APA",
-              "conditions": "VAT is Inclusive",
+              "conditions": "VAT is Included",
               "quantity": 0.3,
-              "unitPrice": 3750000,
-              "amount": 1125000
+              "unitPrice": 3000000,
+              "amount": 900000
             }
           ],
-          "total": 4875000,
-          "subTotal": 4875000,
+          "total": 3400000,
+          "subTotal": 3400000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -591,6 +609,25 @@
             ]
           },
           {
+            "label": "Tunisia",
+            "type": "Sovereign country",
+            "category": [
+              "Africa",
+              "Northern Africa",
+              "Tunisia"
+            ],
+            "coordinates": [
+              9.65037873717645,
+              34.09420588974774
+            ],
+            "bbox": [
+              7.49560546875,
+              30.229394531249994,
+              11.535937500000017,
+              37.340380859374996
+            ]
+          },
+          {
             "label": "Pantelleria",
             "type": "Geo subunit",
             "category": [
@@ -608,27 +645,10 @@
               12.05126953125,
               36.843066406249996
             ]
-          },
-          {
-            "label": "Naples, Campania, Italy",
-            "type": "Custom Area",
-            "category": [
-              "Naples"
-            ],
-            "coordinates": [
-              14.5625,
-              40.9125
-            ],
-            "bbox": [
-              14.025,
-              40.683333,
-              15.1,
-              41.141667
-            ]
           }
         ],
         "exclusionZones": [],
-        "petsAllowed": true
+        "petsAllowed": false
       }
     ]
   }
