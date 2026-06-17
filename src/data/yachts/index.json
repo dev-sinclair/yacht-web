@@ -829,6 +829,32 @@
     ]
   },
   {
+    "uri": "c::25879711825::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe",
+    "slug": "adriatic-king",
+    "name": "ADRIATIC KING",
+    "hero": "/media/media::image::a::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe::assets::c6cb1500-f81e-11ef-a63b-a1948a1aaa40/{imageVariant}",
+    "length": 52,
+    "sleeps": 38,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "Nujik Nautika",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5920000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744",
     "slug": "olimp",
     "name": "OLIMP",
@@ -848,32 +874,6 @@
       "summer-2027",
       "summer-2028",
       "summer-2029"
-    ]
-  },
-  {
-    "uri": "c::25879711825::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe",
-    "slug": "adriatic-king",
-    "name": "ADRIATIC KING",
-    "hero": "/media/media::image::a::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe::assets::c6cb1500-f81e-11ef-a63b-a1948a1aaa40/{imageVariant}",
-    "length": 52,
-    "sleeps": 38,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "Nujik Nautika",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5300000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -14588,32 +14588,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::9333100108::vessel::c8dd0060-afcc-11ee-bd25-114a036cbb42",
-    "slug": "northern-explorer-adventures",
-    "name": "NORTHERN EXPLORER ADVENTURES",
-    "hero": "/media/media::image::c::9333100108::vessel::c8dd0060-afcc-11ee-bd25-114a036cbb42::assets::9eca6a90-afd3-11ee-bd25-114a036cbb42.jpeg/{imageVariant}",
-    "length": 20.73,
-    "sleeps": 6,
-    "cabins": 4,
-    "builtYear": null,
-    "builder": "Bertram",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1700000,
-    "weekPricingFrom": 275000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1773145154660,
+  "lastModified": 1781686056178,
   "uri": "c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -30,7 +30,7 @@
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::8f0ef200-afca-11ee-bd25-114a036cbb42.jpeg/{imageVariant}"
     ],
     "make": "CRN Ancona",
-    "model": "",
+    "model": "CRN",
     "maxCrew": 15,
     "sleeps": 12,
     "basePort": {
@@ -42,12 +42,13 @@
       },
       "country": "France"
     },
+    "cruisingCapacity": 0,
     "builtYear": 2008,
     "architect": "Zuccon",
     "interiorDesigner": "Claude Missir",
     "refitYear": 2018,
     "topSpeed": 16.5,
-    "cruiseSpeed": 14,
+    "cruiseSpeed": 12,
     "fuelCapacity": "",
     "cabinLayout": [
       {
