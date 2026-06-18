@@ -211,7 +211,7 @@ const seasonRows: Array<{ label: string; value?: string }> = region.seasonCondit
           <!-- Horizontal scrollable rail -->
           <div
             data-reveal-stagger
-            class="mt-8 -mx-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-3 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12 rail-scroll"
+            class="mt-8 -mx-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 scroll-pl-6 pb-3 sm:-mx-8 sm:px-8 sm:scroll-pl-8 lg:-mx-12 lg:px-12 lg:scroll-pl-12 rail-scroll"
           >
             {region.locations.map((location, i) => {
               const tileSrc = unsplashAt(location.image ?? region.heroImage, 480);
