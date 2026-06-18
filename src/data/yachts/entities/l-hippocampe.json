@@ -1,10 +1,10 @@
 {
-  "lastModified": 1758554778189,
+  "lastModified": 1781792837462,
   "uri": "c::15746043527::vessel::9520bce0-a0cb-11ee-a424-e7fecd9db876",
   "yachtType": [
     "Sailing"
   ],
-  "description": "Base / Home Port: Spain, South Of France and Italy\nOperating Area: Italy, France, Corsica, Sardinia, Spain, U.S. Virgin Islands, British Virgin Islands, Bahamas, Leeward Islands, Windward Islands\n\nThe 30.48m (100‘0“) luxury performance cruiser L´ Hippocampe (ex. Varsovie) was built by Nautor´s Swan at their Pietarsaarishipyard in Finland in 2008. She is a pedigree sailing yacht with an elegant interior and exterior design by a revered design house German Frers. In 2023, she underwent an extensive technical refit and is now in top-tier condition, ready to take her charter guests on new sailing adventures in comfort and style. L´ Hippocampe was built to be easy to sail and offers excellent sail handling. The yacht easily reaches speeds of 10 knots+ and regularly achieves 240 miles of sailing in a day. Modified from the Swan 100S version features a coach roof raised at the front, giving additional forward-facing salon windows and an additional 5in of headroom in the engine room.",
+  "description": "Base / Home Port: Spain, South Of France and Italy\nOperating Area: Italy, France, Corsica, Sardinia, Spain, U.S. Virgin Islands, British Virgin Islands, Bahamas, Leeward Islands, Windward Islands\n\nThe 30.48m (100‘0“) luxury performance cruiser L´ Hippocampe (ex. Varsovie) was built by Nautor´s Swan at their Pietarsaarishipyard in Finland in 2008. She is a pedigree sailing yacht with an elegant interior and exterior design by a revered design house German Frers. In 2024, she underwent an extensive refit and is now in top-tier condition, ready to take her charter guests on new sailing adventures in comfort and style. L´ Hippocampe was built to be easy to sail and offers excellent sail handling. The yacht easily reaches speeds of 10 knots+ and regularly achieves 240 miles of sailing in a day. Modified from the Swan 100S version features a coach roof raised at the front, giving additional forward-facing salon windows and an additional 5in of headroom in the engine room.",
   "blueprint": {
     "name": "L'HIPPOCAMPE",
     "images": [
@@ -63,7 +63,7 @@
     "builtYear": 2008,
     "architect": "Nautor´s Swan",
     "interiorDesigner": "German Frers",
-    "refitYear": 2023,
+    "refitYear": 2024,
     "topSpeed": 12,
     "cruiseSpeed": 9,
     "fuelCapacity": 3400,
@@ -158,16 +158,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 5000000,
+      "price": 5500000,
       "displayCurrency": "EUR",
-      "displayPrice": 5000000,
+      "displayPrice": 5500000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 6000000,
+      "price": 6600000,
       "displayCurrency": "EUR",
-      "displayPrice": 6000000,
+      "displayPrice": 6600000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -203,26 +203,26 @@
           "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "EXCLUSIVE",
-          "subTotal": 6500000,
+          "subTotal": 6875000,
           "totalTax": 0,
-          "total": 6500000,
+          "total": 6875000,
           "lineItems": [
             {
               "item": "Charter Fee",
               "conditions": "VAT & APA Excluded",
               "quantity": 1,
-              "unitPrice": 5000000,
-              "amount": 5000000
+              "unitPrice": 5500000,
+              "amount": 5500000
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 5000000,
-              "amount": 1500000
+              "quantity": 0.25,
+              "unitPrice": 5500000,
+              "amount": 1375000
             }
           ],
-          "charterFee": 5000000,
+          "charterFee": 5500000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -342,7 +342,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 6000000,
+          "charterFee": 6600000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -350,20 +350,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6000000,
-              "amount": 6000000,
+              "unitPrice": 6600000,
+              "amount": 6600000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 6000000,
-              "amount": 1800000
+              "quantity": 0.25,
+              "unitPrice": 6600000,
+              "amount": 1650000
             }
           ],
-          "total": 7800000,
-          "subTotal": 7800000,
+          "total": 8250000,
+          "subTotal": 8250000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -484,7 +484,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 5000000,
+          "charterFee": 5500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -492,20 +492,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5000000,
-              "amount": 5000000,
+              "unitPrice": 5500000,
+              "amount": 5500000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 5000000,
-              "amount": 1500000
+              "quantity": 0.25,
+              "unitPrice": 5500000,
+              "amount": 1375000
             }
           ],
-          "total": 6500000,
-          "subTotal": 6500000,
+          "total": 6875000,
+          "subTotal": 6875000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -854,7 +854,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 6000000,
+          "charterFee": 6600000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -862,20 +862,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6000000,
-              "amount": 6000000,
+              "unitPrice": 6600000,
+              "amount": 6600000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 6000000,
-              "amount": 1800000
+              "quantity": 0.25,
+              "unitPrice": 6600000,
+              "amount": 1650000
             }
           ],
-          "total": 7800000,
-          "subTotal": 7800000,
+          "total": 8250000,
+          "subTotal": 8250000,
           "totalTax": 0
         },
         "inclusionZones": [

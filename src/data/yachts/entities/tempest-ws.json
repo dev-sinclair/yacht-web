@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781777253603,
+  "lastModified": 1781777906356,
   "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -8,14 +8,30 @@
   "blueprint": {
     "name": "TEMPEST WS",
     "images": [
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2820-full-1_HERO.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3339-full-1.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2821-full-4.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2822-full-6.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2823-full-2.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3340-full-3.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3341-full-7.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3342-full-5.jpg/{imageVariant}"
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab3f00-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae4c40-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea9df70-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea68410-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea6f940-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab6610-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea5e7d0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beacc5a0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea91c20-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab8d20-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea831c0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beac0250-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beadd710-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaec170-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea94330-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bead88f0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a1-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab17f0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae2530-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae7350-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaee880-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa7bb0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}"
     ],
     "make": "Esterel",
     "model": "",
