@@ -1,5 +1,10 @@
 ---
 import Container from "../ui/Container.astro";
+
+// Sinclair's WhatsApp number, in international format without +/spaces.
+// Mirrors the number used across the rest of the site (Hero, yacht pages,
+// service pages). Update here and the multi-step contact form picks it up.
+const WHATSAPP_NUMBER = "447779130021";
 ---
 
 <section id="contact" class="bg-cream/40 py-24 lg:py-32 overflow-hidden">
@@ -21,279 +26,393 @@ import Container from "../ui/Container.astro";
     <div class="mx-auto mt-14 max-w-2xl" data-reveal>
       <div
         id="contact-card"
+        data-whatsapp-number={WHATSAPP_NUMBER}
         class="relative border border-deep/10 bg-white p-8 shadow-sm sm:p-12 lg:p-14"
       >
         <!-- Stage: animates height between the two views so the card grows /
              shrinks smoothly instead of snapping. -->
         <div id="contact-stage" class="relative overflow-hidden">
-        <!-- View 1: Channel picker -->
-        <div
-          id="contact-picker"
-          class="contact-view"
-          style="opacity: 1; transform: translateY(0);"
-        >
-          <p class="text-center text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light">
-            How would you like to reach us?
-          </p>
-          <div class="mt-8 grid gap-3 sm:grid-cols-2">
-            <button
-              type="button"
-              data-channel-pick="whatsapp"
-              class="contact-channel group flex flex-col items-start gap-4 border border-deep/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-deep hover:bg-deep"
+          <!-- View 1: Channel picker -->
+          <div
+            id="contact-picker"
+            class="contact-view"
+            style="opacity: 1; transform: translateY(0);"
+          >
+            <p
+              class="text-center text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
             >
-              <svg
-                class="h-7 w-7 text-charcoal transition-colors duration-300 group-hover:text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+              How would you like to reach us?
+            </p>
+            <div class="mt-8 grid gap-3 sm:grid-cols-2">
+              <button
+                type="button"
+                data-channel-pick="whatsapp"
+                class="contact-channel group flex flex-col items-start gap-4 border border-deep/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-deep hover:bg-deep"
               >
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-              </svg>
-              <span class="block">
-                <span
-                  class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
-                  style="font-family: 'Raleway', sans-serif;"
-                >WhatsApp</span>
-                <span class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60">
-                  Quick &amp; informal. Fastest response
+                <svg
+                  class="h-7 w-7 text-charcoal transition-colors duration-300 group-hover:text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                  ></path>
+                </svg>
+                <span class="block">
+                  <span
+                    class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
+                    style="font-family: 'Raleway', sans-serif;">WhatsApp</span
+                  >
+                  <span
+                    class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60"
+                  >
+                    Quick &amp; informal. Fastest response
+                  </span>
+                </span>
+              </button>
+
+              <button
+                type="button"
+                data-channel-pick="email"
+                class="contact-channel group flex flex-col items-start gap-4 border border-deep/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-deep hover:bg-deep"
+              >
+                <svg
+                  class="h-7 w-7 text-charcoal transition-colors duration-300 group-hover:text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M3 8.5l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  ></path>
+                </svg>
+                <span class="block">
+                  <span
+                    class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
+                    style="font-family: 'Raleway', sans-serif;">Email</span
+                  >
+                  <span
+                    class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60"
+                  >
+                    A formal inquiry, on your time
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- View 2: Multi-step form -->
+          <div
+            id="contact-form-view"
+            class="contact-view"
+            style="display: none; opacity: 0; transform: translateY(24px); pointer-events: none;"
+          >
+            <!-- Top bar: Back + channel + step count -->
+            <div
+              class="flex items-center justify-between text-[10px] font-medium tracking-[0.25em] uppercase"
+            >
+              <button
+                id="contact-back"
+                type="button"
+                class="inline-flex items-center gap-2 text-taupe transition-colors duration-300 hover:cursor-pointer hover:text-charcoal"
+              >
+                <svg
+                  class="h-3 w-3"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Back
+              </button>
+              <span class="flex items-center gap-2 text-taupe">
+                <span id="contact-channel-label" class="text-charcoal"></span>
+                <span class="text-taupe-light">·</span>
+                <span class="num">
+                  <span id="contact-step-num">1</span>
+                  <span class="text-taupe-light"> / </span>
+                  <span id="contact-step-total">3</span>
                 </span>
               </span>
-            </button>
+            </div>
 
-            <button
-              type="button"
-              data-channel-pick="email"
-              class="contact-channel group flex flex-col items-start gap-4 border border-deep/15 p-6 text-left transition-all duration-300 hover:cursor-pointer hover:border-deep hover:bg-deep"
-            >
-              <svg
-                class="h-7 w-7 text-charcoal transition-colors duration-300 group-hover:text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M3 8.5l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              <span class="block">
-                <span
-                  class="block text-sm font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 group-hover:text-white"
-                  style="font-family: 'Raleway', sans-serif;"
-                >Email</span>
-                <span class="mt-2 block text-[11px] font-light leading-relaxed text-taupe transition-colors duration-300 group-hover:text-white/60">
-                  A formal inquiry, on your time
-                </span>
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <!-- View 2: Multi-step form -->
-        <div
-          id="contact-form-view"
-          class="contact-view"
-          style="display: none; opacity: 0; transform: translateY(24px); pointer-events: none;"
-        >
-          <!-- Top bar: Back + channel + step count -->
-          <div class="flex items-center justify-between text-[10px] font-medium tracking-[0.25em] uppercase">
-            <button
-              id="contact-back"
-              type="button"
-              class="inline-flex items-center gap-2 text-taupe transition-colors duration-300 hover:cursor-pointer hover:text-charcoal"
-            >
-              <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-              Back
-            </button>
-            <span class="flex items-center gap-2 text-taupe">
-              <span id="contact-channel-label" class="text-charcoal"></span>
-              <span class="text-taupe-light">·</span>
-              <span class="num">
-                <span id="contact-step-num">1</span>
-                <span class="text-taupe-light"> / </span>
-                <span id="contact-step-total">3</span>
-              </span>
-            </span>
-          </div>
-
-          <!-- Steps -->
-          <div id="contact-steps" class="relative mt-10 sm:mt-12" style="min-height: 220px;">
-            <!-- Step 1: Name -->
+            <!-- Steps -->
             <div
-              data-step="1"
-              class="contact-step absolute inset-0 transition-all duration-500"
-              style="opacity: 1; transform: translateY(0); pointer-events: auto;"
+              id="contact-steps"
+              class="relative mt-10 sm:mt-12"
+              style="min-height: 220px;"
             >
-              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep">01</p>
-              <label
-                for="contact-input-1"
-                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
-                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+              <!-- Step 1: Name -->
+              <div
+                data-step="1"
+                class="contact-step absolute inset-0 transition-all duration-500"
+                style="opacity: 1; transform: translateY(0); pointer-events: auto;"
               >
-                What's your name?
-              </label>
-              <input
-                id="contact-input-1"
-                type="text"
-                placeholder="Type your answer here…"
-                autocomplete="name"
-                maxlength="80"
-                spellcheck="false"
-                aria-describedby="contact-counter-1 contact-error-1"
-                data-step-input
-                class="mt-6 w-full border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
-              />
-              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
-                <span id="contact-error-1" class="text-rose-700/80" aria-live="polite"></span>
-                <span id="contact-counter-1" class="num text-taupe-light/70">0 / 80</span>
-              </div>
-              <div class="mt-6 flex items-center gap-4">
-                <button
-                  type="button"
-                  data-step-next
-                  disabled
-                  class="inline-flex items-center gap-2 bg-deep px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-charcoal disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-deep"
+                <p
+                  class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep"
                 >
-                  OK
-                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                </button>
-                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
-                  press <kbd class="border border-deep/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
-                </span>
-              </div>
-            </div>
-
-            <!-- Step 2: Contact info -->
-            <div
-              data-step="2"
-              class="contact-step absolute inset-0 transition-all duration-500"
-              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
-            >
-              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep">02</p>
-              <label
-                for="contact-input-2"
-                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
-                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-              >
-                What's your <span data-contact-mode-label>email</span>?
-              </label>
-              <input
-                id="contact-input-2"
-                type="email"
-                placeholder="you@example.com"
-                autocomplete="email"
-                maxlength="254"
-                spellcheck="false"
-                aria-describedby="contact-counter-2 contact-error-2"
-                data-step-input
-                class="mt-6 w-full border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
-              />
-              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
-                <span id="contact-error-2" class="text-rose-700/80" aria-live="polite"></span>
-                <span id="contact-counter-2" class="num text-taupe-light/70">0 / 254</span>
-              </div>
-              <div class="mt-6 flex items-center gap-4">
-                <button
-                  type="button"
-                  data-step-next
-                  disabled
-                  class="inline-flex items-center gap-2 bg-deep px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-charcoal disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-deep"
+                  01
+                </p>
+                <label
+                  for="contact-input-1"
+                  class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;"
                 >
-                  OK
-                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                </button>
-                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
-                  press <kbd class="border border-deep/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
-                </span>
-              </div>
-            </div>
-
-            <!-- Step 3: Message -->
-            <div
-              data-step="3"
-              class="contact-step absolute inset-0 transition-all duration-500"
-              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
-            >
-              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep">03</p>
-              <label
-                for="contact-input-3"
-                class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
-                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-              >
-                Tell us about your inquiry
-              </label>
-              <textarea
-                id="contact-input-3"
-                rows="3"
-                placeholder="Yacht, dates, region, anything we should know…"
-                maxlength="2000"
-                aria-describedby="contact-counter-3 contact-error-3"
-                data-step-input
-                class="mt-6 w-full resize-none border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
-              ></textarea>
-              <div class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase">
-                <span id="contact-error-3" class="text-rose-700/80" aria-live="polite"></span>
-                <span id="contact-counter-3" class="num text-taupe-light/70">0 / 2000</span>
-              </div>
-              <div class="mt-6 flex items-center gap-4">
-                <button
-                  type="button"
-                  data-step-next
-                  data-step-submit
-                  disabled
-                  class="inline-flex items-center gap-2 bg-deep px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-deep-dim disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-charcoal"
+                  What's your name?
+                </label>
+                <input
+                  id="contact-input-1"
+                  type="text"
+                  placeholder="Type your answer here…"
+                  autocomplete="name"
+                  maxlength="80"
+                  spellcheck="false"
+                  aria-describedby="contact-counter-1 contact-error-1"
+                  data-step-input
+                  class="mt-6 w-full border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
+                />
+                <div
+                  class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase"
                 >
-                  Send
-                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
-                <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">
-                  <kbd class="border border-deep/15 px-1.5 py-0.5 text-[9px]">Shift</kbd>
-                  + <kbd class="border border-deep/15 px-1.5 py-0.5 text-[9px]">Enter</kbd>
-                  for newline
-                </span>
+                  <span
+                    id="contact-error-1"
+                    class="text-rose-700/80"
+                    aria-live="polite"></span>
+                  <span id="contact-counter-1" class="num text-taupe-light/70"
+                    >0 / 80</span
+                  >
+                </div>
+                <div class="mt-6 flex items-center gap-4">
+                  <button
+                    type="button"
+                    data-step-next
+                    disabled
+                    class="inline-flex items-center gap-2 bg-deep px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-charcoal disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-deep"
+                  >
+                    OK
+                    <svg
+                      class="h-3.5 w-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </button>
+                  <span
+                    class="text-[10px] tracking-[0.2em] uppercase text-taupe-light"
+                  >
+                    press <kbd
+                      class="border border-deep/15 px-1.5 py-0.5 text-[9px]"
+                      >Enter</kbd
+                    >
+                  </span>
+                </div>
+              </div>
+
+              <!-- Step 2: Contact info -->
+              <div
+                data-step="2"
+                class="contact-step absolute inset-0 transition-all duration-500"
+                style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+              >
+                <p
+                  class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep"
+                >
+                  02
+                </p>
+                <label
+                  for="contact-input-2"
+                  class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+                >
+                  What's your <span data-contact-mode-label>email</span>?
+                </label>
+                <input
+                  id="contact-input-2"
+                  type="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  maxlength="254"
+                  spellcheck="false"
+                  aria-describedby="contact-counter-2 contact-error-2"
+                  data-step-input
+                  class="mt-6 w-full border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
+                />
+                <div
+                  class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase"
+                >
+                  <span
+                    id="contact-error-2"
+                    class="text-rose-700/80"
+                    aria-live="polite"></span>
+                  <span id="contact-counter-2" class="num text-taupe-light/70"
+                    >0 / 254</span
+                  >
+                </div>
+                <div class="mt-6 flex items-center gap-4">
+                  <button
+                    type="button"
+                    data-step-next
+                    disabled
+                    class="inline-flex items-center gap-2 bg-deep px-5 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-charcoal disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-deep"
+                  >
+                    OK
+                    <svg
+                      class="h-3.5 w-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </button>
+                  <span
+                    class="text-[10px] tracking-[0.2em] uppercase text-taupe-light"
+                  >
+                    press <kbd
+                      class="border border-deep/15 px-1.5 py-0.5 text-[9px]"
+                      >Enter</kbd
+                    >
+                  </span>
+                </div>
+              </div>
+
+              <!-- Step 3: Message -->
+              <div
+                data-step="3"
+                class="contact-step absolute inset-0 transition-all duration-500"
+                style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+              >
+                <p
+                  class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep"
+                >
+                  03
+                </p>
+                <label
+                  for="contact-input-3"
+                  class="mt-3 block text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+                >
+                  Tell us about your inquiry
+                </label>
+                <textarea
+                  id="contact-input-3"
+                  rows="3"
+                  placeholder="Yacht, dates, region, anything we should know…"
+                  maxlength="2000"
+                  aria-describedby="contact-counter-3 contact-error-3"
+                  data-step-input
+                  class="mt-6 w-full resize-none border-b border-deep/20 bg-transparent py-3 text-lg text-charcoal placeholder:text-taupe-light/50 focus:border-deep focus:outline-none transition-colors duration-300"
+                ></textarea>
+                <div
+                  class="mt-2 flex items-center justify-between text-[10px] tracking-[0.15em] uppercase"
+                >
+                  <span
+                    id="contact-error-3"
+                    class="text-rose-700/80"
+                    aria-live="polite"></span>
+                  <span id="contact-counter-3" class="num text-taupe-light/70"
+                    >0 / 2000</span
+                  >
+                </div>
+                <div class="mt-6 flex items-center gap-4">
+                  <button
+                    type="button"
+                    data-step-next
+                    data-step-submit
+                    disabled
+                    class="inline-flex items-center gap-2 bg-deep px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors duration-300 hover:cursor-pointer hover:bg-deep-dim disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-charcoal"
+                  >
+                    <span id="contact-submit-label">Send</span>
+                    <svg
+                      class="h-3.5 w-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 5l7 7-7 7"></path>
+                    </svg>
+                  </button>
+                  <span
+                    class="text-[10px] tracking-[0.2em] uppercase text-taupe-light"
+                  >
+                    <kbd class="border border-deep/15 px-1.5 py-0.5 text-[9px]"
+                      >Shift</kbd
+                    >
+                    + <kbd
+                      class="border border-deep/15 px-1.5 py-0.5 text-[9px]"
+                      >Enter</kbd
+                    >
+                    for newline
+                  </span>
+                </div>
+                <p
+                  id="contact-submit-error"
+                  class="mt-4 text-[11px] tracking-[0.15em] uppercase text-rose-700/80"
+                  aria-live="polite"
+                  hidden
+                ></p>
+              </div>
+
+              <!-- Step 4: Thanks (post-submit visual confirmation) -->
+              <div
+                data-step="4"
+                class="contact-step absolute inset-0 transition-all duration-500"
+                style="opacity: 0; transform: translateY(24px); pointer-events: none;"
+              >
+                <p
+                  class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep"
+                >
+                  04
+                </p>
+                <p
+                  class="mt-3 text-2xl font-light leading-snug text-charcoal sm:text-3xl"
+                  style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+                >
+                  Thank you. We'll be in touch shortly.
+                </p>
+                <p class="mt-4 max-w-md text-sm leading-relaxed text-taupe">
+                  One of our brokers will reach out via your preferred channel
+                  within one business day.
+                </p>
               </div>
             </div>
 
-            <!-- Step 4: Thanks (post-submit visual confirmation) -->
-            <div
-              data-step="4"
-              class="contact-step absolute inset-0 transition-all duration-500"
-              style="opacity: 0; transform: translateY(24px); pointer-events: none;"
-            >
-              <p class="text-[10px] font-medium tracking-[0.3em] uppercase text-deep">04</p>
-              <p
-                class="mt-3 text-2xl font-light leading-snug text-charcoal sm:text-3xl"
-                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+            <!-- Progress bar -->
+            <div class="mt-12 h-px w-full overflow-hidden bg-deep/10">
+              <div
+                id="contact-progress"
+                class="h-full bg-deep transition-all duration-500 ease-out"
+                style="width: 33.33%;"
               >
-                Thank you. We'll be in touch shortly.
-              </p>
-              <p class="mt-4 max-w-md text-sm leading-relaxed text-taupe">
-                One of our brokers will reach out via your preferred channel within
-                one business day.
-              </p>
+              </div>
             </div>
           </div>
-
-          <!-- Progress bar -->
-          <div class="mt-12 h-px w-full overflow-hidden bg-deep/10">
-            <div
-              id="contact-progress"
-              class="h-full bg-deep transition-all duration-500 ease-out"
-              style="width: 33.33%;"
-            ></div>
-          </div>
-        </div>
         </div><!-- /#contact-stage -->
       </div>
     </div>
@@ -311,10 +430,12 @@ import Container from "../ui/Container.astro";
     transition: height 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
   .contact-view {
-    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    transition:
+      opacity 0.4s ease-out,
+      transform 0.4s ease-out;
   }
   kbd {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.1em;
@@ -325,23 +446,23 @@ import Container from "../ui/Container.astro";
   const picker = document.getElementById("contact-picker");
   const formView = document.getElementById("contact-form-view");
   const card = document.getElementById("contact-card") as HTMLElement | null;
-  const channelBtns =
-    document.querySelectorAll<HTMLButtonElement>("[data-channel-pick]");
+  const channelBtns = document.querySelectorAll<HTMLButtonElement>(
+    "[data-channel-pick]",
+  );
   const backBtn = document.getElementById("contact-back");
   const channelLabel = document.getElementById("contact-channel-label");
   const stepNumEl = document.getElementById("contact-step-num");
   const stepTotalEl = document.getElementById("contact-step-total");
   const progress = document.getElementById("contact-progress");
-  const modeLabels =
-    document.querySelectorAll<HTMLElement>("[data-contact-mode-label]");
-  const steps =
-    document.querySelectorAll<HTMLElement>(".contact-step");
+  const modeLabels = document.querySelectorAll<HTMLElement>(
+    "[data-contact-mode-label]",
+  );
+  const steps = document.querySelectorAll<HTMLElement>(".contact-step");
   const nextBtns =
     document.querySelectorAll<HTMLButtonElement>("[data-step-next]");
-  const inputs =
-    document.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>(
-      "[data-step-input]",
-    );
+  const inputs = document.querySelectorAll<
+    HTMLInputElement | HTMLTextAreaElement
+  >("[data-step-input]");
 
   if (picker && formView && card) {
     // Total step count excludes the "thanks" confirmation step.
@@ -357,9 +478,9 @@ import Container from "../ui/Container.astro";
     const PHONE_RE = /^[+()\d\s.-]{7,20}$/;
 
     function validateStep(stepEl: HTMLElement): { ok: boolean; msg: string } {
-      const inp = stepEl.querySelector<
-        HTMLInputElement | HTMLTextAreaElement
-      >("input, textarea");
+      const inp = stepEl.querySelector<HTMLInputElement | HTMLTextAreaElement>(
+        "input, textarea",
+      );
       if (!inp) return { ok: false, msg: "" };
       const val = inp.value.trim();
       const step = parseInt(stepEl.dataset.step || "0", 10);
@@ -396,9 +517,9 @@ import Container from "../ui/Container.astro";
     function refreshStepValidity(stepEl: HTMLElement | null) {
       if (!stepEl) return;
       const next = stepEl.querySelector<HTMLButtonElement>("[data-step-next]");
-      const inp = stepEl.querySelector<
-        HTMLInputElement | HTMLTextAreaElement
-      >("input, textarea");
+      const inp = stepEl.querySelector<HTMLInputElement | HTMLTextAreaElement>(
+        "input, textarea",
+      );
       const step = parseInt(stepEl.dataset.step || "0", 10);
       const counter = document.getElementById(`contact-counter-${step}`);
       const errEl = document.getElementById(`contact-error-${step}`);
@@ -423,7 +544,9 @@ import Container from "../ui/Container.astro";
     // wrapper animating its height between the two natural sizes so the card
     // grows/shrinks smoothly instead of snapping.
     let transitioning = false;
-    const stage = document.getElementById("contact-stage") as HTMLElement | null;
+    const stage = document.getElementById(
+      "contact-stage",
+    ) as HTMLElement | null;
 
     function showView(view: "picker" | "form") {
       if (!picker || !formView || !stage) return;
@@ -433,7 +556,8 @@ import Container from "../ui/Container.astro";
       const FADE_MS = 400;
       const incoming = view === "form" ? formView : (picker as HTMLElement);
       const outgoing = view === "form" ? (picker as HTMLElement) : formView;
-      const outgoingOffset = view === "form" ? "translateY(-24px)" : "translateY(24px)";
+      const outgoingOffset =
+        view === "form" ? "translateY(-24px)" : "translateY(24px)";
 
       // 1. Measure the current stage height (it reflects the outgoing view).
       const startH = stage.offsetHeight;
@@ -579,20 +703,22 @@ import Container from "../ui/Container.astro";
         }
         // Clear name and message too so re-entry starts clean.
         steps.forEach((s) => {
-          const inp = s.querySelector<
-            HTMLInputElement | HTMLTextAreaElement
-          >("input, textarea");
+          const inp = s.querySelector<HTMLInputElement | HTMLTextAreaElement>(
+            "input, textarea",
+          );
           if (inp) inp.value = "";
           refreshStepValidity(s);
         });
 
         // Reset to step 1 each time a channel is picked
         setStep(1);
+        setSubmitError("");
         showView("form");
       });
     });
 
     backBtn?.addEventListener("click", () => {
+      setSubmitError("");
       if (currentStep > 1 && currentStep <= TOTAL_STEPS) {
         setStep(currentStep - 1);
       } else {
@@ -601,14 +727,114 @@ import Container from "../ui/Container.astro";
       }
     });
 
+    function readAnswers() {
+      const get = (id: string) =>
+        (
+          document.getElementById(id) as
+            | HTMLInputElement
+            | HTMLTextAreaElement
+            | null
+        )?.value.trim() || "";
+      return {
+        name: get("contact-input-1"),
+        contact: get("contact-input-2"),
+        message: get("contact-input-3"),
+      };
+    }
+
+    function buildPrefilledMessage(a: {
+      name: string;
+      contact: string;
+      message: string;
+    }): string {
+      // Single message body that mirrors the three answers the form already
+      // collected, so the user doesn't have to retype anything in WhatsApp.
+      const lines = [
+        `Hi Sinclair, I'm ${a.name}.`,
+        "",
+        a.message,
+        "",
+        channel === "whatsapp"
+          ? `You can reach me on ${a.contact}.`
+          : `You can reach me at ${a.contact}.`,
+      ];
+      return lines.join("\n");
+    }
+
+    function openWhatsAppHandoff(): void {
+      const a = readAnswers();
+      const body = buildPrefilledMessage(a);
+      const waNumber = card?.dataset.whatsappNumber || "";
+      if (!waNumber) return;
+      const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(body)}`;
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    const submitLabel = document.getElementById("contact-submit-label");
+    const submitError = document.getElementById("contact-submit-error");
+
+    function setSubmitError(msg: string): void {
+      if (!submitError) return;
+      if (msg) {
+        submitError.textContent = msg;
+        submitError.hidden = false;
+      } else {
+        submitError.textContent = "";
+        submitError.hidden = true;
+      }
+    }
+
+    async function submitEmail(submitBtn: HTMLButtonElement): Promise<boolean> {
+      const a = readAnswers();
+      setSubmitError("");
+      const originalLabel = submitLabel?.textContent || "Send";
+      submitBtn.disabled = true;
+      if (submitLabel) submitLabel.textContent = "Sending…";
+      try {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: a.name,
+            email: a.contact,
+            message: a.message,
+          }),
+        });
+        const data = (await res.json().catch(() => ({}))) as {
+          ok?: boolean;
+          error?: string;
+        };
+        if (!res.ok || !data.ok) {
+          setSubmitError(data.error || "Something went wrong. Try again.");
+          return false;
+        }
+        return true;
+      } catch {
+        setSubmitError("Network error. Try again.");
+        return false;
+      } finally {
+        if (submitLabel) submitLabel.textContent = originalLabel;
+        submitBtn.disabled = false;
+      }
+    }
+
     nextBtns.forEach((btn) => {
-      btn.addEventListener("click", () => {
+      btn.addEventListener("click", async () => {
         // Guard against bypassing validation via stray clicks.
         if (btn.disabled) return;
         const stepEl = btn.closest<HTMLElement>(".contact-step");
         if (stepEl && !validateStep(stepEl).ok) return;
-        if (currentStep >= TOTAL_STEPS) setStep(TOTAL_STEPS + 1);
-        else setStep(currentStep + 1);
+        if (currentStep >= TOTAL_STEPS) {
+          if (channel === "whatsapp") {
+            openWhatsAppHandoff();
+            setStep(TOTAL_STEPS + 1);
+          } else if (channel === "email") {
+            const ok = await submitEmail(btn);
+            if (ok) setStep(TOTAL_STEPS + 1);
+          }
+        } else {
+          setStep(currentStep + 1);
+        }
       });
     });
 
@@ -629,6 +855,5 @@ import Container from "../ui/Container.astro";
         stepEl?.querySelector<HTMLButtonElement>("[data-step-next]")?.click();
       });
     });
-
   }
 </script>
