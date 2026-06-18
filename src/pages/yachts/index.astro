@@ -441,7 +441,22 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   }
 
   function sortYachts(items: YachtCard[], mode: SortMode): YachtCard[] {
-    if (mode === "default") return items;
+    if (mode === "default") {
+      // On the broad /yachts listing, lead with the curated subset: skip
+      // boats >100m and any Sailing/Classic. Excluded boats aren't removed —
+      // they fall to later pages via pagination. Category-filtered views
+      // (?yachtType=...) keep the snapshot order untouched.
+      if (activeYachtType) return items;
+      const eligible: YachtCard[] = [];
+      const tail: YachtCard[] = [];
+      for (const y of items) {
+        const types = y.yachtType ?? [];
+        const excluded =
+          y.length > 100 || types.includes("Sailing") || types.includes("Classic");
+        (excluded ? tail : eligible).push(y);
+      }
+      return [...eligible, ...tail];
+    }
     const out = items.slice();
     switch (mode) {
       case "name-asc":    out.sort((a, b) => a.name.localeCompare(b.name)); break;
