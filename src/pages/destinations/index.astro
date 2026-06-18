@@ -6,9 +6,9 @@ import Footer from "../../components/layout/Footer.astro";
 import DestinationsHero from "../../components/destinations/DestinationsHero.astro";
 import DestinationSearch from "../../components/destinations/DestinationSearch.astro";
 import DestinationGrid from "../../components/destinations/DestinationGrid.astro";
-import { getAllRegions } from "../../lib/destinations/registry";
+import { getOrderedRegions } from "../../lib/destinations/registry";
 
-const regions = getAllRegions();
+const regions = getOrderedRegions();
 const locationCount = regions.reduce((acc, r) => acc + r.locations.length, 0);
 
 Astro.response.headers.set(

@@ -1,17 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../../assets/logo.png";
-import { getAllRegions } from "../../lib/destinations/registry";
+import { getOrderedRegions } from "../../lib/destinations/registry";
 
-// Destinations dropdown order: lead with the Med + Caribbean to match the
-// homepage carousel and the /yachts Location dropdown.
-const LEAD_SLUGS = ["west-mediterranean", "east-mediterranean", "caribbean-and-bahamas"];
-const allRegions = getAllRegions();
-const leadRegions = LEAD_SLUGS
-  .map((slug) => allRegions.find((r) => r.slug === slug))
-  .filter((r): r is NonNullable<typeof r> => Boolean(r));
-const restRegions = allRegions.filter((r) => !LEAD_SLUGS.includes(r.slug));
-const orderedRegions = [...leadRegions, ...restRegions];
+const orderedRegions = getOrderedRegions();
 
 interface NavChild {
   label: string;
