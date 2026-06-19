@@ -4275,6 +4275,32 @@
     ]
   },
   {
+    "uri": "c::7584683786::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744",
+    "slug": "gitanes",
+    "name": "GITANES",
+    "hero": "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8b6860-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+    "length": 35.4,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 1982,
+    "builder": "Benetti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7646090758::vessel::d5cc798d-fe8c-11ed-889f-43d4bb723744",
     "slug": "to-je-to",
     "name": "TO JE TO",
@@ -16411,6 +16437,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7584683786::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4",
+    "slug": "amaterasu",
+    "name": "AMATERASU",
+    "hero": "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e35be0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+    "length": 19.03,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2025,
+    "builder": "Itama",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 428500,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {

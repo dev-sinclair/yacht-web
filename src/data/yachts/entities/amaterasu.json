@@ -1,0 +1,474 @@
+{
+  "lastModified": null,
+  "uri": "c::7584683786::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: South of France (Monaco, Nice, Cannes, St Tropez)\n\nExperience the ultimate freedom at sea aboard the iconic Itama 62RS. Live the essence of Italian yachting style. Charter the Itama 62RS and set sail for a perfect day.\n\nWith its unmistakable Mediterranean style, the Itama 62RS combines timeless elegance and thrilling performance. This 62-foot open yacht boasts sleek, powerful lines and an expansive deck layout that invites you to embrace the open air and sunshine.\n\nRelax on the generous fore and aft sun pads, or dive straight into the crystal-clear waters from the spacious swim platform. The wide cockpit offers plenty of room for socialising, with a comfortable dining area and well-designed spaces that let you make the most of every moment at sea.\n\nPowered by twin MAN engines, the Itama 62RS effortlessly delivers speed and stability, promising a smooth, exhilarating cruise along the coast. Whether you're seeking a stylish day out with friends, a romantic getaway, or a luxurious escape to hidden coves, this yacht promises an unforgettable experience.",
+  "blueprint": {
+    "name": "AMATERASU",
+    "images": [
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e35be0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d467c0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d63c80-6be7-11f1-8b0b-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e22360-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dd6870-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e2e6b0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e3f820-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e75380-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e41f30-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d83850-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30daa950-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e4bb70-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e75381-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e18720-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30da5b30-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30db6ca0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d9e600-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d81140-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d55220-6be7-11f1-8b0b-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d2e120-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30cdb100-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d0e550-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dd8f80-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30cf37a0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d8fba0-6be7-11f1-8b0b-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d6d8c0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dc5700-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d07020-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dbbac0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e6de50-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30daa950-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d61570-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dddda0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dc7e10-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30da5b30-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dcf340-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30ce7450-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d21dd0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dd4160-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e69030-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d77500-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d15a80-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d02200-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30cf85c0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}"
+    ],
+    "make": "Itama",
+    "model": "",
+    "maxCrew": 1,
+    "sleeps": 6,
+    "basePort": {
+      "name": "Bormes-les-Mimosas, Var, France",
+      "coordinates": {
+        "longitude": 6.342613,
+        "latitude": 43.15091
+      },
+      "country": "France"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2025,
+    "topSpeed": 40,
+    "cruiseSpeed": 37,
+    "cabinLayout": [],
+    "cabins": 3,
+    "length": 19.03,
+    "beam": 4.75,
+    "draft": 1.7,
+    "amenities": [
+      {
+        "label": "Sunpads"
+      },
+      {
+        "label": "Swim Platform"
+      },
+      {
+        "label": "At-anchor Stabilizers"
+      },
+      {
+        "label": "Underway Stabilizers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Various Snorkeling Equipment"
+      },
+      {
+        "label": "Seascooter",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddle board",
+        "quantity": "1"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 428500,
+      "displayCurrency": "EUR",
+      "displayPrice": 428500,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 543000,
+      "displayCurrency": "EUR",
+      "displayPrice": 543000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3800000,
+              "amount": 3800000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3800000,
+          "subTotal": 3800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily Rate Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 428500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 428500,
+              "amount": 428500,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 428500,
+          "subTotal": 428500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily Rate High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 543000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 543000,
+              "amount": 543000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 543000,
+          "subTotal": 543000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
