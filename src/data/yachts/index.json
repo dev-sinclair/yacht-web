@@ -1126,32 +1126,6 @@
     ]
   },
   {
-    "uri": "c::7819198774::vessel::d5cc25dd-fe8c-11ed-889f-43d4bb723744",
-    "slug": "teleost",
-    "name": "TELEOST",
-    "hero": "/media/media::image::a::vessel::d5cc25dd-fe8c-11ed-889f-43d4bb723744::assets::a082ca60-dbf2-11f0-b444-61339ebdcb68/{imageVariant}",
-    "length": 49.1,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 1998,
-    "builder": "Feadship",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 19500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::7580644256::vessel::d5cca340-fe8c-11ed-889f-43d4bb723744",
     "slug": "asteria",
     "name": "ASTERIA",
@@ -1168,6 +1142,32 @@
     "dayPricingFrom": null,
     "weekPricingFrom": 25000000,
     "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7819198774::vessel::d5cc25dd-fe8c-11ed-889f-43d4bb723744",
+    "slug": "teleost",
+    "name": "TELEOST",
+    "hero": "/media/media::image::a::vessel::d5cc25dd-fe8c-11ed-889f-43d4bb723744::assets::a082ca60-dbf2-11f0-b444-61339ebdcb68/{imageVariant}",
+    "length": 49.1,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 1998,
+    "builder": "Feadship",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 19500000,
+    "currency": "USD",
     "seasons": [
       "summer-2026",
       "summer-2027",
