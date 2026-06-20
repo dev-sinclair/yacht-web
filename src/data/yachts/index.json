@@ -14883,33 +14883,6 @@
     ]
   },
   {
-    "uri": "c::51632648983::vessel::437e1f70-11c3-11f1-9865-a73622f46bb4",
-    "slug": "atlantia",
-    "name": "ATLANTIA",
-    "hero": "/media/media::image::a::vessel::437e1f70-11c3-11f1-9865-a73622f46bb4::assets::44d9b070-11c6-11f1-bbe5-6316c49d3624/{imageVariant}",
-    "length": 20.43,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2020,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": 4200000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::9511881484::vessel::d5cc4f30-fe8c-11ed-889f-43d4bb723744",
     "slug": "semper-fidelis",
     "name": "SEMPER FIDELIS",
@@ -14925,6 +14898,33 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 5600000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::51632648983::vessel::437e1f70-11c3-11f1-9865-a73622f46bb4",
+    "slug": "atlantia",
+    "name": "ATLANTIA",
+    "hero": "/media/media::image::a::vessel::437e1f70-11c3-11f1-9865-a73622f46bb4::assets::44d9b070-11c6-11f1-bbe5-6316c49d3624/{imageVariant}",
+    "length": 20.43,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2020,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": 200000,
+    "weekPricingFrom": 4200000,
     "currency": "USD",
     "seasons": [
       "summer-2026",
