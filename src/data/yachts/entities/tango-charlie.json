@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780039844817,
+  "lastModified": 1782130570161,
   "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -149,7 +149,32 @@
       " 4.60m Zodiac Tender 70hp (8 guests)"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Captain Çağlar",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::7362f000-6e32-11f1-9d1f-399cb1d23bcc/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Çağlar has been in the yachting business for more than 25 years and has served onboard many private yachts and charter vessels.  He is very knowledgeable of the cruising area having sailed many miles along the Turkish shores.   With his attention to detail he keeps his yacht in tip top condition and he is very guest orientated.\nCaptain Çağlar speaks Turkish and English.\n"
+    },
+    {
+      "name": "Chef Mumtaz",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::a76b18f0-6e32-11f1-a527-fd90b9557a32/{imageVariant}",
+      "role": "Captain",
+      "bio": "Mumtaz comes from the beautiful coastal town of Bodrum.  He began working onboard Tango Charlie in 2023 after a number of years working on both private and charter yachts.  He loves to provide his guests with fresh baked bread and pastries.  His international desserts are particularly complimented on by the guests.  His speciality is tasty Mediterranean cuisine which he always prepares with a smile.  He is a positive member of any crew with his jolly personality.\nMumtaz speaks Turkish and  intermediate English.\n"
+    },
+    {
+      "name": "First Mate Çağatay",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::e4353b30-6e32-11f1-abfb-91670ace8e88/{imageVariant}",
+      "role": "Captain",
+      "bio": "Çağatay gained excellent hospitality experience working in high end hotels on the Turkish coast before transitioning to the yachting sector where he has worked on Charter Yachts for a number of years.  Çağatay developed a love of water sports through his previous experience as a lifeguard.\n\nHe speaks Turkish, English and beginner level Spanish.\n"
+    },
+    {
+      "name": "Steward Cenk",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::13b638e0-6e34-11f1-9720-8d8e4026db46/{imageVariant}",
+      "role": "Captain",
+      "bio": "\nCenk has been in hospitality for over 20 years and is dedicated to providing an excellent guest experience.   He began work onboard Tango Charlie in 2026 and has completed a number of successful charters.\nHaving lived in France and the USA Cenk speaks French and fluent English as well as Turkish.\n"
+    }
+  ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",

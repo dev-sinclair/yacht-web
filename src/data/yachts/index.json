@@ -4823,31 +4823,6 @@
     ]
   },
   {
-    "uri": "c::20333192254::vessel::d5cbfc23-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lucky-lady",
-    "name": "LUCKY LADY",
-    "hero": "/media/media::image::c::20333192254::vessel::d5cbfc23-fe8c-11ed-889f-43d4bb723744::assets::96f1d8a0-e4aa-11ef-be80-c15fe937f539/{imageVariant}",
-    "length": 34.14,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2015,
-    "builder": "Westport",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::7580644256::vessel::d5cca323-fe8c-11ed-889f-43d4bb723744",
     "slug": "sleepover",
     "name": "SLEEPOVER",
@@ -4871,6 +4846,31 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::20333192254::vessel::d5cbfc23-fe8c-11ed-889f-43d4bb723744",
+    "slug": "lucky-lady",
+    "name": "LUCKY LADY",
+    "hero": "/media/media::image::c::20333192254::vessel::d5cbfc23-fe8c-11ed-889f-43d4bb723744::assets::96f1d8a0-e4aa-11ef-be80-c15fe937f539/{imageVariant}",
+    "length": 34.14,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2015,
+    "builder": "Westport",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
@@ -9263,33 +9263,6 @@
     ]
   },
   {
-    "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
-    "slug": "ukiel",
-    "name": "UKIEL",
-    "hero": "/media/media::image::a::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::da16c580-be19-11ef-ac15-61911423263c/{imageVariant}",
-    "length": 26,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2022,
-    "builder": "Aegean Yacht",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4495000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
     "slug": "tango-charlie",
     "name": "TANGO CHARLIE",
@@ -9314,6 +9287,33 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
+    "slug": "ukiel",
+    "name": "UKIEL",
+    "hero": "/media/media::image::a::vessel::764623f0-017e-11ef-af1a-49a51012e18e::assets::da16c580-be19-11ef-ac15-61911423263c/{imageVariant}",
+    "length": 26,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2022,
+    "builder": "Aegean Yacht",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4495000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
@@ -13082,32 +13082,6 @@
     ]
   },
   {
-    "uri": "c::39480359087::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92",
-    "slug": "anita-ii",
-    "name": "ANITA II",
-    "hero": "/media/media::image::a::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92::assets::48c735e0-08d4-11f1-8df4-e73fb2b54ce6/{imageVariant}",
-    "length": 22.1,
-    "sleeps": 8,
-    "cabins": 2,
-    "builtYear": 2007,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 280000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::35404802089::vessel::d5cbfbde-fe8c-11ed-889f-43d4bb723744",
     "slug": "happy-3",
     "name": "HAPPY 3",
@@ -13131,6 +13105,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::39480359087::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92",
+    "slug": "anita-ii",
+    "name": "ANITA II",
+    "hero": "/media/media::image::a::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92::assets::48c735e0-08d4-11f1-8df4-e73fb2b54ce6/{imageVariant}",
+    "length": 22.1,
+    "sleeps": 8,
+    "cabins": 2,
+    "builtYear": 2007,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 280000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
