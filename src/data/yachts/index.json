@@ -829,6 +829,29 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::17b4bd10-832a-11ee-a4d8-f9b7feed7408",
+    "slug": "bellezza",
+    "name": "BELLEZZA",
+    "hero": "/media/media::image::c::8164602117::vessel::17b4bd10-832a-11ee-a4d8-f9b7feed7408::assets::f105c750-b0bd-11ef-aa97-dbd17ae8ee5d/{imageVariant}",
+    "length": 52,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2019,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::25879711825::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe",
     "slug": "adriatic-king",
     "name": "ADRIATIC KING",
@@ -877,29 +900,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::17b4bd10-832a-11ee-a4d8-f9b7feed7408",
-    "slug": "bellezza",
-    "name": "BELLEZZA",
-    "hero": "/media/media::image::c::8164602117::vessel::17b4bd10-832a-11ee-a4d8-f9b7feed7408::assets::f105c750-b0bd-11ef-aa97-dbd17ae8ee5d/{imageVariant}",
-    "length": 52,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2019,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
     "uri": "c::7819256862::vessel::aa909db0-db7b-11f0-b958-13ce975d99cf",
     "slug": "ycm-fifty",
     "name": "YCM FIFTY",
@@ -923,6 +923,26 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::a179e330-2923-11f1-962b-3df8577e7cf9",
+    "slug": "roko",
+    "name": "ROKO",
+    "hero": "/media/media::image::a::vessel::a179e330-2923-11f1-962b-3df8577e7cf9::assets::c39607a0-2c3e-11f1-b33d-f5128839d14d/{imageVariant}",
+    "length": 50,
+    "sleeps": 38,
+    "cabins": 14,
+    "builtYear": 2021,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
     ]
   },
   {
@@ -1024,26 +1044,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::a179e330-2923-11f1-962b-3df8577e7cf9",
-    "slug": "roko",
-    "name": "ROKO",
-    "hero": "/media/media::image::a::vessel::a179e330-2923-11f1-962b-3df8577e7cf9::assets::c39607a0-2c3e-11f1-b33d-f5128839d14d/{imageVariant}",
-    "length": 50,
-    "sleeps": 38,
-    "cabins": 14,
-    "builtYear": 2021,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9900000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027"
     ]
   },
   {
@@ -1179,6 +1179,49 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744",
+    "slug": "queen-eleganza",
+    "name": "QUEEN ELEGANZA",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744::assets::6d6f5420-1387-11ef-821d-f1a8c6d3224a.webp/{imageVariant}",
+    "length": 49,
+    "sleeps": 34,
+    "cabins": 17,
+    "builtYear": 2018,
+    "builder": "Radez Shipyard",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::d5cb83cc-fe8c-11ed-889f-43d4bb723744",
+    "slug": "anima-maris",
+    "name": "ANIMA MARIS",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cb83cc-fe8c-11ed-889f-43d4bb723744::assets::fbdfec00-775f-11f0-8282-99d7aa478a11/{imageVariant}",
+    "length": 49,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2021,
+    "builder": "Nuić Nautika, Split",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 10000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cbfbeb-fe8c-11ed-889f-43d4bb723744",
     "slug": "ohana",
     "name": "OHANA",
@@ -1273,49 +1316,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::d5cb83cc-fe8c-11ed-889f-43d4bb723744",
-    "slug": "anima-maris",
-    "name": "ANIMA MARIS",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cb83cc-fe8c-11ed-889f-43d4bb723744::assets::fbdfec00-775f-11f0-8282-99d7aa478a11/{imageVariant}",
-    "length": 49,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2021,
-    "builder": "Nuić Nautika, Split",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 10000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744",
-    "slug": "queen-eleganza",
-    "name": "QUEEN ELEGANZA",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744::assets::6d6f5420-1387-11ef-821d-f1a8c6d3224a.webp/{imageVariant}",
-    "length": 49,
-    "sleeps": 34,
-    "cabins": 17,
-    "builtYear": 2018,
-    "builder": "Radez Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
-    ]
-  },
-  {
     "uri": "c::8164602117::vessel::d5cc4d71-fe8c-11ed-889f-43d4bb723744",
     "slug": "cristal",
     "name": "CRISTAL",
@@ -1362,6 +1362,28 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cb5ca0-fe8c-11ed-889f-43d4bb723744",
+    "slug": "freedom",
+    "name": "FREEDOM",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cb5ca0-fe8c-11ed-889f-43d4bb723744::assets::70720d40-777f-11f0-a341-edb5d011cf8f/{imageVariant}",
+    "length": 48.2,
+    "sleeps": 24,
+    "cabins": 11,
+    "builtYear": 2019,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
     "slug": "nocturno",
     "name": "NOCTURNO",
@@ -1384,25 +1406,24 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::d5cb5ca0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "freedom",
-    "name": "FREEDOM",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cb5ca0-fe8c-11ed-889f-43d4bb723744::assets::70720d40-777f-11f0-a341-edb5d011cf8f/{imageVariant}",
-    "length": 48.2,
-    "sleeps": 24,
-    "cabins": 11,
-    "builtYear": 2019,
+    "uri": "c::8164602117::vessel::77945882-486c-11ee-a45f-fdfff6163a60",
+    "slug": "karizma",
+    "name": "KARIZMA",
+    "hero": "/media/media::image::c::8164602117::vessel::77945882-486c-11ee-a45f-fdfff6163a60::assets::9ba46260-7761-11f0-a36b-13ab928facc1/{imageVariant}",
+    "length": 48,
+    "sleeps": 34,
+    "cabins": 17,
+    "builtYear": 2016,
     "builder": "Custom",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 12000000,
+    "weekPricingFrom": 7000000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
-      "winter-2025",
-      "winter-2026"
+      "winter-2025"
     ]
   },
   {
@@ -1554,27 +1575,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::77945882-486c-11ee-a45f-fdfff6163a60",
-    "slug": "karizma",
-    "name": "KARIZMA",
-    "hero": "/media/media::image::c::8164602117::vessel::77945882-486c-11ee-a45f-fdfff6163a60::assets::9ba46260-7761-11f0-a36b-13ab928facc1/{imageVariant}",
-    "length": 48,
-    "sleeps": 34,
-    "cabins": 17,
-    "builtYear": 2016,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025"
-    ]
-  },
-  {
     "uri": "c::7819198761::vessel::d5cb5cb4-fe8c-11ed-889f-43d4bb723744",
     "slug": "aslec-4",
     "name": "ASLEC 4",
@@ -1621,32 +1621,6 @@
     ]
   },
   {
-    "uri": "c::26954197137::vessel::e6c050c0-ae3f-11ee-ba34-6fc23990fe90",
-    "slug": "king-benji",
-    "name": "KING BENJI",
-    "hero": "/media/media::image::a::vessel::e6c050c0-ae3f-11ee-ba34-6fc23990fe90::assets::5ea3e4f0-bd74-11ef-84cd-397c1c09bedc/{imageVariant}",
-    "length": 47,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2024,
-    "builder": "Dunya Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 25000000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::7580644139::vessel::d5cbfb9a-fe8c-11ed-889f-43d4bb723744",
     "slug": "carpe-diem-v",
     "name": "CARPE DIEM V",
@@ -1668,6 +1642,32 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::26954197137::vessel::e6c050c0-ae3f-11ee-ba34-6fc23990fe90",
+    "slug": "king-benji",
+    "name": "KING BENJI",
+    "hero": "/media/media::image::a::vessel::e6c050c0-ae3f-11ee-ba34-6fc23990fe90::assets::5ea3e4f0-bd74-11ef-84cd-397c1c09bedc/{imageVariant}",
+    "length": 47,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Dunya Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 25000000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
       "winter-2024",
       "winter-2025",
       "winter-2026",
@@ -2326,6 +2326,28 @@
     ]
   },
   {
+    "uri": "c::7580644139::vessel::d5cc4d63-fe8c-11ed-889f-43d4bb723744",
+    "slug": "crocus",
+    "name": "CROCUS",
+    "hero": "/media/media::image::c::7580644139::vessel::d5cc4d63-fe8c-11ed-889f-43d4bb723744::assets::a1f59af0-f731-11ee-933f-31da797f7725.jpeg/{imageVariant}",
+    "length": 42,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2002,
+    "builder": "Custom Made",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5620000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::8344947358::vessel::256d3450-a38f-11f0-9d8f-d7f711ce4693",
     "slug": "liberdade",
     "name": "LIBERDADE",
@@ -2371,28 +2393,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7580644139::vessel::d5cc4d63-fe8c-11ed-889f-43d4bb723744",
-    "slug": "crocus",
-    "name": "CROCUS",
-    "hero": "/media/media::image::c::7580644139::vessel::d5cc4d63-fe8c-11ed-889f-43d4bb723744::assets::a1f59af0-f731-11ee-933f-31da797f7725.jpeg/{imageVariant}",
-    "length": 42,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2002,
-    "builder": "Custom Made",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5620000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
     ]
   },
   {
@@ -2786,32 +2786,6 @@
     ]
   },
   {
-    "uri": "c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744",
-    "slug": "bunker",
-    "name": "BUNKER",
-    "hero": "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::f4ec5b70-5519-11f1-b467-d1c5945105e2/{imageVariant}",
-    "length": 40.5,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2005,
-    "builder": "CRN Ancona",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::7584683786::vessel::d5cca1a4-fe8c-11ed-889f-43d4bb723744",
     "slug": "black-swan-of-1899",
     "name": "BLACK SWAN OF 1899",
@@ -2835,6 +2809,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744",
+    "slug": "bunker",
+    "name": "BUNKER",
+    "hero": "/media/media::image::c::8294320436::vessel::d5cb83ee-fe8c-11ed-889f-43d4bb723744::assets::f4ec5b70-5519-11f1-b467-d1c5945105e2/{imageVariant}",
+    "length": 40.5,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2005,
+    "builder": "CRN Ancona",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 11000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -2933,6 +2933,27 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::d5cc248e-fe8c-11ed-889f-43d4bb723744",
+    "slug": "alessandro-i",
+    "name": "ALESSANDRO I",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc248e-fe8c-11ed-889f-43d4bb723744::assets::676b4d40-ba2f-11f0-ba2e-810b2fc17b64/{imageVariant}",
+    "length": 40,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2011,
+    "builder": "Ruth Yachting",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
     ]
   },
   {
@@ -3079,27 +3100,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc248e-fe8c-11ed-889f-43d4bb723744",
-    "slug": "alessandro-i",
-    "name": "ALESSANDRO I",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc248e-fe8c-11ed-889f-43d4bb723744::assets::676b4d40-ba2f-11f0-ba2e-810b2fc17b64/{imageVariant}",
-    "length": 40,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2011,
-    "builder": "Ruth Yachting",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
     ]
   },
   {
@@ -4302,6 +4302,29 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::dabc4520-ed55-11f0-9b8a-471ca0fd6a08",
+    "slug": "belgin-sultan",
+    "name": "BELGIN SULTAN",
+    "hero": "/media/media::image::a::vessel::dabc4520-ed55-11f0-9b8a-471ca0fd6a08::assets::6468f370-ed58-11f0-b0e1-67a39b98eed0/{imageVariant}",
+    "length": 35,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing",
+      "Gulet"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2520000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
     "slug": "endemic",
     "name": "ENDEMIC",
@@ -4570,29 +4593,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::dabc4520-ed55-11f0-9b8a-471ca0fd6a08",
-    "slug": "belgin-sultan",
-    "name": "BELGIN SULTAN",
-    "hero": "/media/media::image::a::vessel::dabc4520-ed55-11f0-9b8a-471ca0fd6a08::assets::6468f370-ed58-11f0-b0e1-67a39b98eed0/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2024,
-    "builder": "Custom",
-    "yachtType": [
-      "Sailing",
-      "Gulet"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2520000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
@@ -5362,6 +5362,28 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc24f3-fe8c-11ed-889f-43d4bb723744",
+    "slug": "croatia",
+    "name": "CROATIA",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc24f3-fe8c-11ed-889f-43d4bb723744::assets::cc995f70-7783-11f0-a220-75c70cb2fd71/{imageVariant}",
+    "length": 32,
+    "sleeps": 14,
+    "cabins": 7,
+    "builtYear": 1998,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1950000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025"
+    ]
+  },
+  {
     "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
     "slug": "tempest-ws",
     "name": "TEMPEST WS",
@@ -5578,28 +5600,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc24f3-fe8c-11ed-889f-43d4bb723744",
-    "slug": "croatia",
-    "name": "CROATIA",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc24f3-fe8c-11ed-889f-43d4bb723744::assets::cc995f70-7783-11f0-a220-75c70cb2fd71/{imageVariant}",
-    "length": 32,
-    "sleeps": 14,
-    "cabins": 7,
-    "builtYear": 1998,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1950000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -8450,6 +8450,52 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::c5c31720-0651-11f0-b7c7-ff859b9da4a4",
+    "slug": "eleganza",
+    "name": "ELEGANZA",
+    "hero": "/media/media::image::c::8164602117::vessel::c5c31720-0651-11f0-b7c7-ff859b9da4a4::assets::5c722580-777c-11f0-a611-e3c928d3cb23/{imageVariant}",
+    "length": 27,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1997,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1950000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "winter-2025"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::d5cc4fad-fe8c-11ed-889f-43d4bb723744",
+    "slug": "andeo",
+    "name": "ANDEO",
+    "hero": "/media/media::image::a::vessel::d5cc4fad-fe8c-11ed-889f-43d4bb723744::assets::d73d00e0-f438-11ef-870f-a3ca3892ed79/{imageVariant}",
+    "length": 27,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2000,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1980000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d",
     "slug": "tamurel-ii",
     "name": "TAMUREL II",
@@ -8604,29 +8650,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::d5cc4fad-fe8c-11ed-889f-43d4bb723744",
-    "slug": "andeo",
-    "name": "ANDEO",
-    "hero": "/media/media::image::a::vessel::d5cc4fad-fe8c-11ed-889f-43d4bb723744::assets::d73d00e0-f438-11ef-870f-a3ca3892ed79/{imageVariant}",
-    "length": 27,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2000,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1980000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
     "uri": "c::8165627241::vessel::d5cbfb96-fe8c-11ed-889f-43d4bb723744",
     "slug": "donna-marisa",
     "name": "DONNA MARISA",
@@ -8753,29 +8776,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::c5c31720-0651-11f0-b7c7-ff859b9da4a4",
-    "slug": "eleganza",
-    "name": "ELEGANZA",
-    "hero": "/media/media::image::c::8164602117::vessel::c5c31720-0651-11f0-b7c7-ff859b9da4a4::assets::5c722580-777c-11f0-a611-e3c928d3cb23/{imageVariant}",
-    "length": 27,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 1997,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1950000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "winter-2025"
     ]
   },
   {
@@ -9263,6 +9263,29 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37",
+    "slug": "andi-star",
+    "name": "ANDI STAR",
+    "hero": "/media/media::image::c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37::assets::45647d00-7783-11f0-b8fd-355a2b7d5d19/{imageVariant}",
+    "length": 26,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2001,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1950000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
     "slug": "ukiel",
     "name": "UKIEL",
@@ -9493,29 +9516,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37",
-    "slug": "andi-star",
-    "name": "ANDI STAR",
-    "hero": "/media/media::image::c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37::assets::45647d00-7783-11f0-b8fd-355a2b7d5d19/{imageVariant}",
-    "length": 26,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2001,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1950000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
     "uri": "c::7646090758::vessel::d5cc4ea5-fe8c-11ed-889f-43d4bb723744",
     "slug": "insieme",
     "name": "INSIEME",
@@ -9741,6 +9741,31 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "korab",
+    "name": "KORAB",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744::assets::53f7a771-cc29-11f0-b32b-2bc4f0ba53ec/{imageVariant}",
+    "length": 25.5,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2002,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1850000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744",
     "slug": "kaftan",
     "name": "KAFTAN",
@@ -9791,31 +9816,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "korab",
-    "name": "KORAB",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744::assets::53f7a771-cc29-11f0-b32b-2bc4f0ba53ec/{imageVariant}",
-    "length": 25.5,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2002,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1850000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -14885,6 +14885,28 @@
     ]
   },
   {
+    "uri": "c::7819240017::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744",
+    "slug": "princess-mila",
+    "name": "PRINCESS MILA",
+    "hero": "/media/media::image::a::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744::assets::297d8040-7cde-11f0-b4be-cf24347c6c78/{imageVariant}",
+    "length": 20.42,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2022,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::8275378522::vessel::b44670d0-79b9-11ee-8c61-3d799f112022",
     "slug": "indulgence",
     "name": "INDULGENCE",
@@ -14909,28 +14931,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7819240017::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744",
-    "slug": "princess-mila",
-    "name": "PRINCESS MILA",
-    "hero": "/media/media::image::a::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744::assets::297d8040-7cde-11f0-b4be-cf24347c6c78/{imageVariant}",
-    "length": 20.42,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2022,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -19661,6 +19661,33 @@
     ]
   },
   {
+    "uri": "c::10244694328::vessel::4b2a0b20-7e64-11ee-b353-45ccf65feac5",
+    "slug": "nomad",
+    "name": "NOMAD",
+    "hero": "/media/media::image::a::vessel::4b2a0b20-7e64-11ee-b353-45ccf65feac5::assets::ab0cb2a0-b990-11ef-bd33-835e2369dbe4/{imageVariant}",
+    "length": 16.76,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1990000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::21222387982::vessel::78f27c00-7e68-11ee-b353-45ccf65feac5",
     "slug": "kayachtic",
     "name": "KAYACHTIC",
@@ -19707,33 +19734,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::10244694328::vessel::4b2a0b20-7e64-11ee-b353-45ccf65feac5",
-    "slug": "nomad",
-    "name": "NOMAD",
-    "hero": "/media/media::image::a::vessel::4b2a0b20-7e64-11ee-b353-45ccf65feac5::assets::ab0cb2a0-b990-11ef-bd33-835e2369dbe4/{imageVariant}",
-    "length": 16.76,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1990000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {

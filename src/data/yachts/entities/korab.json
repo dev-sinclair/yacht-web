@@ -1,5 +1,5 @@
 {
-  "lastModified": 1764313935421,
+  "lastModified": 1782239661993,
   "uri": "c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -38,6 +38,15 @@
     "model": "",
     "maxCrew": 4,
     "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
     "builtYear": 2002,
     "architect": "",
     "interiorDesigner": "",
