@@ -6384,28 +6384,6 @@
     ]
   },
   {
-    "uri": "c::18490529117::vessel::66302670-a654-11ef-94af-49d9e7888b31",
-    "slug": "olga",
-    "name": "OLGA",
-    "hero": "/media/media::image::a::vessel::66302670-a654-11ef-94af-49d9e7888b31::assets::c61626f0-a65b-11ef-ab84-fd158cf2e1f7/{imageVariant}",
-    "length": 30.3,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 1977,
-    "builder": "Cantieri di Pisa",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
     "uri": "c::7580644256::vessel::4c0f4240-a752-11ef-98a6-c783fcd23fe2",
     "slug": "a-great-escape",
     "name": "A GREAT ESCAPE",
@@ -6429,6 +6407,28 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18490529117::vessel::66302670-a654-11ef-94af-49d9e7888b31",
+    "slug": "olga",
+    "name": "OLGA",
+    "hero": "/media/media::image::a::vessel::66302670-a654-11ef-94af-49d9e7888b31::assets::c61626f0-a65b-11ef-ab84-fd158cf2e1f7/{imageVariant}",
+    "length": 30.3,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1977,
+    "builder": "Cantieri di Pisa",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
     ]
   },
   {
