@@ -1,8 +1,9 @@
 {
-  "lastModified": null,
+  "lastModified": 1782223595040,
   "uri": "c::7584683786::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
-    "Motor"
+    "Motor",
+    "Classic"
   ],
   "description": "Operating Area: South of France, Corsica, Italy & Sardinia\n\nThe 35.1m/115'2\" motor yacht 'Gitanes' by the Italian shipyard Benetti offers flexible accommodation for up to 10 guests in 4 cabins.\n\nBoasting an array of sumptuous living areas laid out invitingly to create a warm and welcoming atmosphere onboard, motor yacht Gitanes is the perfect luxury charter yacht for friends and family. Families will particularly love Gitanes thanks to her child friendly setup. Built in 1982, She offers guest accommodation for up to 10 guests with a layout comprising a master suite, one double cabin and two twin cabins. There are 10 beds in total, including 1 king, 1 queen, 4 singles and 2 pullmans.\n\nGitanes is built with a steel hull and aluminium superstructure. Powered by twin Caterpillar engines, she comfortably cruises at 10 knots, reaches a maximum speed of 12 knots with a range of up to 3,800 nautical miles from her 36,700 litre fuel tanks at 12 knots. An on board stabilization system ensures comfort when underway.\n\nThis luxury motor yacht for charter is in prime condition to host your next holiday of a lifetime.",
   "blueprint": {
@@ -79,18 +80,22 @@
     "engines": "2 x Caterpillar",
     "amenities": [
       {
-        "label": "Air conditioning"
+        "label": "Air conditioning",
+        "quantity": "1"
       },
       {
-        "label": "Watermakers"
+        "label": "Watermakers",
+        "quantity": "1"
       },
       {
-        "label": "Stabilisers at anchor"
+        "label": "Stabilisers at anchor",
+        "quantity": "0"
       }
     ],
     "toys": [
       {
-        "label": "Various Snorkeling Equipment"
+        "label": "Various Snorkeling Equipment",
+        "quantity": "1"
       },
       {
         "label": "Water-skis",
@@ -110,7 +115,7 @@
       },
       {
         "label": "Sea-Doo Scooter RS-2",
-        "quantity": "1"
+        "quantity": "0"
       },
       {
         "label": "Yamaha Jet Ski Wave Runner",

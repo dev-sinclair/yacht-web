@@ -1,10 +1,10 @@
 {
-  "lastModified": null,
+  "lastModified": 1782222069010,
   "uri": "c::7584683786::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: South of France (Monaco, Nice, Cannes, St Tropez)\n\nExperience the ultimate freedom at sea aboard the iconic Itama 62RS. Live the essence of Italian yachting style. Charter the Itama 62RS and set sail for a perfect day.\n\nWith its unmistakable Mediterranean style, the Itama 62RS combines timeless elegance and thrilling performance. This 62-foot open yacht boasts sleek, powerful lines and an expansive deck layout that invites you to embrace the open air and sunshine.\n\nRelax on the generous fore and aft sun pads, or dive straight into the crystal-clear waters from the spacious swim platform. The wide cockpit offers plenty of room for socialising, with a comfortable dining area and well-designed spaces that let you make the most of every moment at sea.\n\nPowered by twin MAN engines, the Itama 62RS effortlessly delivers speed and stability, promising a smooth, exhilarating cruise along the coast. Whether you're seeking a stylish day out with friends, a romantic getaway, or a luxurious escape to hidden coves, this yacht promises an unforgettable experience.",
+  "description": "Operating Area: South of France (Monaco, Nice, Cannes, St Tropez)\n\nExperience the ultimate freedom at sea aboard the iconic AMATERASU. Live the essence of Italian yachting style. Charter AMATERASU and set sail for a perfect day.\n\nWith its unmistakable Mediterranean style, AMATERASU combines timeless elegance and thrilling performance. This 62-foot open yacht boasts sleek, powerful lines and an expansive deck layout that invites you to embrace the open air and sunshine.\n\nRelax on the generous fore and aft sun pads, or dive straight into the crystal-clear waters from the spacious swim platform. The wide cockpit offers plenty of room for socialising, with a comfortable dining area and well-designed spaces that let you make the most of every moment at sea.\n\nPowered by twin MAN engines, AMATERASU effortlessly delivers speed and stability, promising a smooth, exhilarating cruise along the coast. Whether you're seeking a stylish day out with friends, a romantic getaway, or a luxurious escape to hidden coves, this yacht promises an unforgettable experience.",
   "blueprint": {
     "name": "AMATERASU",
     "images": [
@@ -44,17 +44,17 @@
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dc7e10-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30da5b30-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dcf340-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
-      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30ce7450-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d21dd0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30ce7450-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d77500-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
+      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d02200-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30dd4160-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e69030-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
-      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d77500-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d15a80-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
-      "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30d02200-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}",
       "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30cf85c0-6be7-11f1-9b29-9b3e13f4513a/{imageVariant}"
     ],
     "make": "Itama",
-    "model": "",
+    "model": "Itama 62RS",
     "maxCrew": 1,
     "sleeps": 6,
     "basePort": {
@@ -68,24 +68,45 @@
     "cruisingCapacity": 12,
     "builtYear": 2025,
     "topSpeed": 40,
-    "cruiseSpeed": 37,
-    "cabinLayout": [],
+    "cruiseSpeed": 33,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "01"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
     "cabins": 3,
+    "bathrooms": 3,
+    "decks": 1,
     "length": 19.03,
     "beam": 4.75,
     "draft": 1.7,
+    "hullConstruction": "",
+    "tonnage": 0,
     "amenities": [
       {
-        "label": "Sunpads"
+        "label": "Sunpads (Bow & Aft)",
+        "quantity": "2"
       },
       {
-        "label": "Swim Platform"
+        "label": "Swim Platform",
+        "quantity": "1"
       },
       {
-        "label": "At-anchor Stabilizers"
+        "label": "At-anchor Stabilizers",
+        "quantity": "1"
       },
       {
-        "label": "Underway Stabilizers"
+        "label": "Underway Stabilizers",
+        "quantity": "1"
       }
     ],
     "toys": [
@@ -100,9 +121,17 @@
         "label": "Paddle board",
         "quantity": "1"
       }
+    ],
+    "entertainment": [
+      ""
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Alexandre Magreau",
+      "role": "Captain"
+    }
+  ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
@@ -118,189 +147,7 @@
       "displayPrice": 543000,
       "unit": "DAY"
     },
-    "weekPricingFrom": {
-      "currency": "EUR",
-      "price": 3000000,
-      "displayCurrency": "EUR",
-      "displayPrice": 3000000,
-      "unit": "WEEK"
-    },
-    "weekPricingTo": {
-      "currency": "EUR",
-      "price": 3800000,
-      "displayCurrency": "EUR",
-      "displayPrice": 3800000,
-      "unit": "WEEK"
-    },
     "pricingInfo": [
-      {
-        "name": "Weekly Rate Low Season",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3000000,
-              "amount": 3000000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 3000000,
-          "subTotal": 3000000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Monaco",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "Monaco"
-            ],
-            "coordinates": [
-              7.406276768562416,
-              43.75274626720091
-            ],
-            "bbox": [
-              7.377734375000017,
-              43.731738281249996,
-              7.438671875000011,
-              43.770898437499994
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              -3.676762491181631,
-              13.257370810531999
-            ],
-            "bbox": [
-              -61.79784094999991,
-              -21.37078215899993,
-              55.854502800000034,
-              51.08754088371883
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Weekly Rate High Season",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3800000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3800000,
-              "amount": 3800000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 3800000,
-          "subTotal": 3800000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Monaco",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "Monaco"
-            ],
-            "coordinates": [
-              7.406276768562416,
-              43.75274626720091
-            ],
-            "bbox": [
-              7.377734375000017,
-              43.731738281249996,
-              7.438671875000011,
-              43.770898437499994
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              -3.676762491181631,
-              13.257370810531999
-            ],
-            "bbox": [
-              -61.79784094999991,
-              -21.37078215899993,
-              55.854502800000034,
-              51.08754088371883
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "Daily Rate Low Season",
         "effectiveDates": [
