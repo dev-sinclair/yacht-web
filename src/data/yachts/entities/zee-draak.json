@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781700639975,
+  "lastModified": 1782206531150,
   "uri": "c::35182310185::vessel::fd72d4b0-9532-11f0-8dd0-cf690c27ae06",
   "yachtType": [
     "Motor"
@@ -26,34 +26,41 @@
     ],
     "make": "NED Yacht",
     "model": "NED 70",
-    "maxCrew": 1,
-    "sleeps": 6,
-    "cruisingCapacity": 12,
+    "maxCrew": 2,
+    "sleeps": 4,
+    "cruisingCapacity": 10,
     "staticCapacity": 12,
     "builtYear": 2011,
     "architect": "Vripack",
     "interiorDesigner": "Vripack",
+    "refitYear": 2026,
     "topSpeed": 15,
     "cruiseSpeed": 9,
     "cabinLayout": [
       {
         "label": "Double Cabin",
-        "value": "1"
-      },
-      {
-        "label": "Twin Cabins",
         "value": "2"
       }
     ],
-    "cabins": 3,
-    "bathrooms": 3,
+    "cabins": 2,
+    "bathrooms": 2,
     "decks": 2,
     "length": 21.45,
     "beam": 5.49,
     "draft": 0.9,
     "hullType": "Semi-displacement",
     "engines": "2x John Deere 6068 SFM 50 M5",
-    "amenities": []
+    "amenities": [],
+    "toys": [
+      {
+        "label": "Stand Up Paddle Boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Snorkeling Kit",
+        "quantity": "4"
+      }
+    ]
   },
   "crew": [],
   "pricing": {
@@ -73,16 +80,16 @@
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2100000,
+      "price": 2400000,
       "displayCurrency": "EUR",
-      "displayPrice": 2100000,
+      "displayPrice": 2400000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2100000,
+      "price": 2400000,
       "displayCurrency": "EUR",
-      "displayPrice": 2100000,
+      "displayPrice": 2400000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -113,13 +120,13 @@
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.3,
               "unitPrice": 400000,
-              "amount": 100000
+              "amount": 120000
             }
           ],
-          "total": 584000,
-          "subTotal": 584000,
+          "total": 604000,
+          "subTotal": 604000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -187,7 +194,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2100000,
+          "charterFee": 2400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -195,27 +202,27 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2100000,
-              "amount": 2100000,
+              "unitPrice": 2400000,
+              "amount": 2400000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "VAT",
               "conditions": "",
               "quantity": 0.21,
-              "unitPrice": 2100000,
-              "amount": 441000
+              "unitPrice": 2400000,
+              "amount": 504000
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.3,
               "unitPrice": 2100000,
-              "amount": 525000
+              "amount": 630000
             }
           ],
-          "total": 3066000,
-          "subTotal": 3066000,
+          "total": 3534000,
+          "subTotal": 3534000,
           "totalTax": 0
         },
         "inclusionZones": [

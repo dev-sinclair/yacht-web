@@ -13689,15 +13689,15 @@
     "name": "ZEE DRAAK",
     "hero": "/media/media::image::a::vessel::fd72d4b0-9532-11f0-8dd0-cf690c27ae06::assets::e1b890e0-9535-11f0-b5f8-110503a27ec8/{imageVariant}",
     "length": 21.45,
-    "sleeps": 6,
-    "cabins": 3,
+    "sleeps": 4,
+    "cabins": 2,
     "builtYear": 2011,
     "builder": "NED Yacht",
     "yachtType": [
       "Motor"
     ],
     "dayPricingFrom": 400000,
-    "weekPricingFrom": 2100000,
+    "weekPricingFrom": 2400000,
     "currency": "EUR",
     "seasons": []
   },
@@ -14207,28 +14207,6 @@
       "summer-2025",
       "summer-2026",
       "winter-2023",
-      "winter-2024",
-      "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::7646090758::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440",
-    "slug": "felicita-cf7190",
-    "name": "FELICITA",
-    "hero": "/media/media::image::a::vessel::cf7190e0-7e82-11f0-8aef-6f5139717440::assets::5a924190-7e85-11f0-82e9-a3df79b1eab4/{imageVariant}",
-    "length": 21.01,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Azimut",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3360000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
       "winter-2024",
       "winter-2025"
     ]
