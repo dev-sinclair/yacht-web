@@ -1,10 +1,10 @@
 {
-  "lastModified": 1771339659734,
+  "lastModified": 1782313719405,
   "uri": "c::7580644139::vessel::1140ead0-edd8-11ee-bb82-ffeee555377a",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Bodrum, Turkey\nOperating Area: Turkey\n\nMotor Yacht KUUM has 3 cabins, 1 master , 1 twin for 6 guests. San Lorenzo 22 metre Motor Yacht KUUM was built in 2009. She is available for yacht charters in Greece with her crew members. Please send your inquiry today to check her availability and to receive our special offers!",
+  "description": "Operating Area: Turkey\n\nMotor Yacht KUUM has 3 cabins, 1 master , 1 twin for 6 guests. San Lorenzo 22 metre Motor Yacht KUUM was built in 2009. She is available for yacht charters in Greece with her crew members. Please send your inquiry today to check her availability and to receive our special offers!",
   "blueprint": {
     "name": "KUUM",
     "images": [
@@ -35,6 +35,15 @@
     "model": "",
     "maxCrew": 3,
     "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
+      "name": "Bodrum",
+      "coordinates": {
+        "latitude": 37.03482562918905,
+        "longitude": 27.42932494208488
+      },
+      "country": "Türkiye"
+    },
     "builtYear": 2009,
     "refitYear": "",
     "topSpeed": 17,
