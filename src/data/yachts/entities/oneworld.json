@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782094980636,
+  "lastModified": 1782281979621,
   "uri": "c::16875063630::vessel::d5cbfb71-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -114,6 +114,20 @@
       "displayPrice": 370000,
       "unit": "HOUR"
     },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 12500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 12500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
     "pricingInfo": [
       {
         "name": "Hourly Rate",
@@ -148,6 +162,87 @@
           ],
           "total": 370000,
           "subTotal": 370000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000,
+              "conditions": "APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 12500000,
+              "amount": 3125000
+            }
+          ],
+          "total": 15625000,
+          "subTotal": 15625000,
           "totalTax": 0
         },
         "inclusionZones": [
