@@ -5362,6 +5362,32 @@
     ]
   },
   {
+    "uri": "c::7580644139::vessel::d5cbfc1f-fe8c-11ed-889f-43d4bb723744",
+    "slug": "arabella",
+    "name": "ARABELLA",
+    "hero": "/media/media::image::c::7580644139::vessel::d5cbfc1f-fe8c-11ed-889f-43d4bb723744::assets::f985cab0-1914-11ef-a4a2-df0c75334a61.jpeg/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1750000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "winter-2023",
+      "winter-2024",
+      "winter-2025"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cc24f3-fe8c-11ed-889f-43d4bb723744",
     "slug": "croatia",
     "name": "CROATIA",
@@ -5603,32 +5629,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2026",
-      "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::7580644139::vessel::d5cbfc1f-fe8c-11ed-889f-43d4bb723744",
-    "slug": "arabella",
-    "name": "ARABELLA",
-    "hero": "/media/media::image::c::7580644139::vessel::d5cbfc1f-fe8c-11ed-889f-43d4bb723744::assets::f985cab0-1914-11ef-a4a2-df0c75334a61.jpeg/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1750000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2023",
-      "winter-2024",
       "winter-2025"
     ]
   },
@@ -6162,6 +6162,29 @@
     ]
   },
   {
+    "uri": "c::7580644139::vessel::d5cbabba-fe8c-11ed-889f-43d4bb723744",
+    "slug": "rigel",
+    "name": "RIGEL",
+    "hero": "/media/media::image::c::7580644139::vessel::d5cbabba-fe8c-11ed-889f-43d4bb723744::assets::b81eacd0-f74b-11ee-9a43-97e7c2aa8174.jpeg/{imageVariant}",
+    "length": 30.5,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 1994,
+    "builder": "Custom Made",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1530000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::7580644256::vessel::d5cbd366-fe8c-11ed-889f-43d4bb723744",
     "slug": "sovereign",
     "name": "SOVEREIGN",
@@ -6255,29 +6278,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7580644139::vessel::d5cbabba-fe8c-11ed-889f-43d4bb723744",
-    "slug": "rigel",
-    "name": "RIGEL",
-    "hero": "/media/media::image::c::7580644139::vessel::d5cbabba-fe8c-11ed-889f-43d4bb723744::assets::b81eacd0-f74b-11ee-9a43-97e7c2aa8174.jpeg/{imageVariant}",
-    "length": 30.5,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 1994,
-    "builder": "Custom Made",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1530000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
     ]
   },
   {
@@ -6458,6 +6458,28 @@
     ]
   },
   {
+    "uri": "c::7580644139::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26",
+    "slug": "calm-down",
+    "name": "CALM DOWN",
+    "hero": "/media/media::image::a::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26::assets::c743dbf0-8d62-11f0-bad9-7fbde39b26b2/{imageVariant}",
+    "length": 30,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2023,
+    "builder": "Fethiye Shipyard",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744",
     "slug": "serenity-86",
     "name": "SERENITY 86",
@@ -6580,28 +6602,6 @@
     "seasons": [
       "summer-2026",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::7580644139::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26",
-    "slug": "calm-down",
-    "name": "CALM DOWN",
-    "hero": "/media/media::image::a::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26::assets::c743dbf0-8d62-11f0-bad9-7fbde39b26b2/{imageVariant}",
-    "length": 30,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2023,
-    "builder": "Fethiye Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -7778,6 +7778,29 @@
     ]
   },
   {
+    "uri": "c::7580644139::vessel::d5cca49f-fe8c-11ed-889f-43d4bb723744",
+    "slug": "dea-del-mare",
+    "name": "DEA DEL MARE",
+    "hero": "/media/media::image::a::vessel::d5cca49f-fe8c-11ed-889f-43d4bb723744::assets::816b91a0-8d61-11f0-8f3f-237d856d4b66/{imageVariant}",
+    "length": 28,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2009,
+    "builder": "Bodrum Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1470000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::13745145528::vessel::d5cc4d52-fe8c-11ed-889f-43d4bb723744",
     "slug": "amazon-solo",
     "name": "AMAZON SOLO",
@@ -7819,29 +7842,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::7580644139::vessel::d5cca49f-fe8c-11ed-889f-43d4bb723744",
-    "slug": "dea-del-mare",
-    "name": "DEA DEL MARE",
-    "hero": "/media/media::image::a::vessel::d5cca49f-fe8c-11ed-889f-43d4bb723744::assets::816b91a0-8d61-11f0-8f3f-237d856d4b66/{imageVariant}",
-    "length": 28,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2009,
-    "builder": "Bodrum Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1470000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
