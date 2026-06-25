@@ -1,10 +1,10 @@
 {
-  "lastModified": 1782281979621,
+  "lastModified": 1782348203761,
   "uri": "c::16875063630::vessel::d5cbfb71-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia\n\nOneworld is a 31.5-meter (103-foot) luxury motor yacht, featuring expansive front, upper, and aft decks designed for all leisure and entertainment needs. Built with modern elegance by Gulf Craft, she is the perfect yacht for hosting intimate cruises, private parties, or corporate events, accommodating up to 100 guests. \n\nThe main deck offers a spacious, user-friendly area complete with a full-size bar and lounge space, ideal for entertaining guests. On the bow, relax in luxury with custom seating or soak up the sun on the sunbeds. Alternatively, enjoy the expansive sundeck with a jacuzzi, sunbeds, and a bar for added comfort. \n\nOneworld blends comfort and craftsmanship, with sophisticated interiors that highlight the yacht’s natural beauty. Large windows throughout the yacht provide exceptional light penetration, creating a bright and airy atmosphere on both the main deck and guest cabins. \n\nThe vessel boasts five elegant cabins for up to 12 guests, each with an en-suite bathroom. The main deck features a welcoming saloon where guests can relax and entertain in complete comfort. \n\nOneworld is the ultimate companion for your day on the water, offering luxury, style, and unforgettable experiences.",
+  "description": "Discover Oneworld: Australia's Premier Luxury Superyacht Charter\n\nStep aboard Oneworld, a magnificent 100ft Majesty superyacht offering one of Australia's most prestigious luxury charter experiences. Built in 2018, Oneworld combines contemporary design, expansive entertaining spaces, and five-star amenities, making her the perfect choice for corporate events, weddings, luxury holidays, private celebrations, and exclusive overnight charters.\n\nAccommodating up to 100 guests for day charters and 12 guests overnight, Oneworld delivers an unforgettable experience across Sydney Harbour and the Whitsundays.\n\nDesigned for Exceptional Entertaining\n\nOneworld has been thoughtfully designed to offer multiple indoor and outdoor entertaining areas, allowing guests to relax, socialise, and celebrate in complete comfort. The spacious semi-convertible flybridge, elegant saloons, expansive aft deck, and luxurious outdoor lounges provide the perfect setting for everything from cocktail events and corporate functions to family celebrations and luxury escapes.\n\nEvery detail onboard has been crafted to deliver a seamless blend of sophistication, comfort, and contemporary luxury.\n\nLuxury Without Compromise\n\nInside, Oneworld features beautifully appointed interiors finished to the highest standard, complemented by spacious guest accommodation and premium onboard amenities. Every space has been designed to maximise comfort while offering a refined and welcoming atmosphere for guests throughout their charter.\n\nWhether enjoying a gourmet meal, relaxing on the sun deck, or spending time with family and friends, Oneworld provides a truly world-class yachting experience.\n\nCruise Australia's Most Spectacular Destinations\n\nSeasonally based between Sydney Harbour and the Whitsundays, Oneworld offers guests the opportunity to experience two of Australia's most iconic cruising destinations. Cruise beneath the Sydney Harbour Bridge, admire the Sydney Opera House from the water, or explore the crystal-clear waters, secluded bays, and world-famous beaches of the Whitsundays.\n\nEvery itinerary can be tailored to create an unforgettable experience, whether you're celebrating a special occasion or simply escaping for a luxury getaway.\n\nCreate Unforgettable Moments\n\nFrom elegant weddings and milestone celebrations to executive entertaining and multi-day private charters, Oneworld offers the space, luxury, and flexibility to suit every occasion. Supported by an experienced professional crew, every charter is delivered with exceptional service and attention to detail.\n\nBook Your Oneworld Charter Today\n\nCombining award-winning design, luxurious accommodation, exceptional entertaining spaces, and access to Australia's most spectacular waterways, Oneworld offers one of the finest superyacht charter experiences available.\n\nDiscover more luxury yacht charters and boating experiences at Chapman Yachting.",
   "blueprint": {
     "name": "ONEWORLD",
     "images": [
@@ -80,7 +80,10 @@
         "label": "Sunbeds"
       },
       {
-        "label": "Deck Jacuzzi"
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Air Conditioning "
       }
     ],
     "toys": [
@@ -109,10 +112,10 @@
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 370000,
+      "price": 2500000,
       "displayCurrency": "AUD",
-      "displayPrice": 370000,
-      "unit": "HOUR"
+      "displayPrice": 2500000,
+      "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
@@ -198,6 +201,42 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
           }
         ],
         "exclusionZones": [],
@@ -278,6 +317,159 @@
               -34.091667,
               151.341667,
               -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "24 hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 2500000,
+              "amount": 625000
+            }
+          ],
+          "total": 3125000,
+          "subTotal": 3125000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
             ]
           }
         ],

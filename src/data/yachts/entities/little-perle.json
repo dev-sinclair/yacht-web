@@ -1,10 +1,10 @@
 {
-  "lastModified": 1772813624179,
+  "lastModified": 1782349076937,
   "uri": "c::16875063630::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia\n\nIn 2008, Moonen, the renowned Dutch yacht builder, delivered LITTLE PERLE, a 30-metre superyacht that promises adventure while exuding class and elegance.\n\nDesigned by Rene Van Der Velden on the exterior and styled by Art-Line on the interior, LITTLE PERLE serves as a sophisticated platform for superyacht charters.\n\nUpon entering the wide main salon, guests are greeted with comfortable seating and a spacious formal dining table. Aft of the yacht, al fresco dining facilities accommodate up to 9 people, offering unforgettable experiences in the outdoor environment. Up to the flybridge, guests can relax in the Jacuzzi, enjoy cocktails at the bar, and bask in the sun across the expansive deck space.\n\nLITTLE PERLE’s 4 cabins provide flexible accommodation for up to 9 guests overnight, including a Master cabin, VIP suite, and two Twin cabins – one featuring a Pullman, perfect for large families. The yacht’s cruising capacity extends to 36 guests.\n\nAs a complete platform for exploration and adventure, LITTLE PERLE creates a gateway to unforgettable memories. Led by an experienced captain, the well-traveled and experienced crew ensures that guests’ every need is met with a warm smile, making charters truly exceptional.",
+  "description": "Discover Little Perle: A Masterpiece of Dutch Craftsmanship\nDelivered in 2008 by the acclaimed Dutch yacht builder Moonen, Little Perle is a 30-metre superyacht designed for those who seek both adventure and refinement. With exterior styling by Rene Van Der Velden and interiors by Art-Line, this exceptional vessel exudes timeless elegance. A standout in the world of luxury charters, Little Perle is more than a yacht—she’s a floating sanctuary crafted to deliver unforgettable moments at sea.\n\nEntertain in Elegance, Relax in Luxury\nThe wide main salon welcomes guests with an inviting blend of comfort and sophistication, featuring plush seating and a grand formal dining area. Step aft to enjoy al fresco dining for up to nine guests, where the ocean breeze enhances every occasion. On the flybridge, a Jacuzzi, full-service bar, and expansive sun lounges create a sanctuary for both day and night cruising, ideal for entertaining in true style.\n\nSpace, Style and Seamless Service\nAccommodating up to eight guests overnight across four beautifully appointed cabins—including a Master suite, VIP cabin, and two Twins with a Pullman—Little Perle is perfect for families and private groups. With a generous cruising capacity for up to 36 guests, she’s also ideal for larger celebrations and corporate events. Every charter is elevated by a professional crew and experienced captain, ensuring every moment aboard Little Perle is effortless, elegant, and entirely unforgettable.\n",
   "blueprint": {
     "name": "LITTLE PERLE",
     "images": [
@@ -23,7 +23,7 @@
     "make": "Moonen",
     "model": "Moonen 97",
     "maxCrew": 5,
-    "sleeps": 20,
+    "sleeps": 9,
     "basePort": {
       "uri": "a::place::2128b790-5806-11f0-afec-89efeaf4321d",
       "name": "Jones Bay Wharf",
@@ -158,7 +158,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 250000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -191,6 +191,59 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
           }
         ],
         "exclusionZones": [],
@@ -215,7 +268,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 200000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -247,6 +300,42 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
           }
         ],
         "exclusionZones": [],
@@ -271,7 +360,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 2000000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
@@ -303,6 +392,59 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
           }
         ],
         "exclusionZones": [],
@@ -327,7 +469,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 8800000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
@@ -336,11 +478,18 @@
               "quantity": 1,
               "unitPrice": 8800000,
               "amount": 8800000,
-              "conditions": "VAT & APA Excluded"
+              "conditions": ""
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 8800000,
+              "amount": 2200000
             }
           ],
-          "total": 8800000,
-          "subTotal": 8800000,
+          "total": 11000000,
+          "subTotal": 11000000,
           "totalTax": 0
         },
         "inclusionZones": [

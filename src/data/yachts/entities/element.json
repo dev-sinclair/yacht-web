@@ -1,10 +1,10 @@
 {
-  "lastModified": 1777426490233,
+  "lastModified": 1782350087422,
   "uri": "c::16875063630::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia\n\nElement boasts a timeless and elegant exterior, striking the perfect balance between spaciousness and refined interiors. The expansive teak aft deck provides an idyllic setting for al fresco lunches or indulging in champagne and canapes. The foredeck offers ample space for sun lounging while anchored.\n\nThe flybridge, a captivating area dedicated to entertaining and enjoying panoramic views. The enclosed cockpit features a retractable sunroof, ensuring optimal comfort for guests throughout the day, regardless of the elements. With its versatile spaces, Element is the ideal venue for any event, including weddings, birthdays, corporate functions, and unforgettable New Year’s Eve celebrations, accommodating up to 36 guests. Additionally, it offers luxurious overnight stays for up to 8 guests across four bedrooms.",
+  "description": "Charter Element: Sydney Harbour’s Signature in Luxury Yachting\nStep aboard Element, an 82-foot Warren Yacht that encapsulates Australian sophistication and timeless marine design. Purpose-built for opulence and flexibility, Element is exclusively based in Sydney Harbour, offering a refined platform for unforgettable yacht charters. Whether hosting a luxurious celebration or seeking a serene retreat on the water, this superyacht delivers an elevated charter experience with precision and elegance. Accommodating up to 35 guests for day charters and sleeping 8 overnight, Element is the perfect choice for everything from high-end corporate gatherings to romantic sunset cruises and milestone events.\n\nExpansive Outdoor Living with Unmatched Sydney Views\nElement shines with its spacious outdoor features designed for effortless entertaining. The expansive teak aft deck invites guests to dine alfresco in absolute comfort, while the foredeck is tailored for indulgent sun lounging under Sydney’s blue skies. Above, the flybridge creates a panoramic escape complete with a retractable sunroof, offering unrivaled views of the harbour skyline and sparkling sea. Whether you’re enjoying a sunset cocktail or lounging between dips in the water, every inch of Element’s outdoor spaces is curated for leisure, connection, and pure coastal charm.\n\nInteriors That Redefine Private Yacht Luxury\nInside, Element impresses with a contemporary layout finished in fine materials and bathed in natural light. The main saloon offers an open-plan lounge and dining area with generous seating for 16 guests, surrounded by floor-to-ceiling windows that frame the city’s most iconic seascapes. The yacht’s four luxurious cabins include a full-beam master suite with a king-size bed and en-suite bathroom, a VIP double suite, and two elegant twin cabins, making overnight stays both private and indulgent. Entertainment flows seamlessly thanks to a surround sound system, Bluetooth connectivity, and a curated suite of water toys, including paddleboards, a floating water mat, and an optional inflatable waterslide.\n\nDiscover the essence of yachting luxury with Element. From the moment you step aboard, every detail is tailored to deliver an elite charter experience. Book now to reserve your private escape across the pristine waters of Sydney Harbour.",
   "blueprint": {
     "name": "ELEMENT",
     "images": [
@@ -47,8 +47,8 @@
     "architect": "",
     "interiorDesigner": "",
     "refitYear": 2018,
-    "topSpeed": "",
-    "cruiseSpeed": "",
+    "topSpeed": 18,
+    "cruiseSpeed": 13,
     "fuelCapacity": "",
     "cabinLayout": [
       {
@@ -65,7 +65,7 @@
       }
     ],
     "cabins": 4,
-    "bathrooms": "",
+    "bathrooms": 3,
     "length": 25,
     "beam": 5.5,
     "draft": 1.4,
@@ -80,6 +80,12 @@
       },
       {
         "label": "Surround Sound system via Bluetooth connectivity"
+      },
+      {
+        "label": "Sunbeds"
+      },
+      {
+        "label": "Air Conditioning "
       }
     ],
     "toys": [
@@ -97,7 +103,9 @@
         "label": "Inflatable Waterslide"
       }
     ],
-    "entertainment": [],
+    "entertainment": [
+      "Wifi"
+    ],
     "tenders": []
   },
   "crew": [],
@@ -111,10 +119,24 @@
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 145000,
+      "price": 1500000,
       "displayCurrency": "AUD",
-      "displayPrice": 145000,
-      "unit": "HOUR"
+      "displayPrice": 1500000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 6500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 6500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 6500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 6500000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -136,7 +158,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 125000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -170,6 +192,23 @@
               153.61689453125,
               -10.0517578125
             ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
           }
         ],
         "exclusionZones": [],
@@ -194,7 +233,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 145000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -210,6 +249,187 @@
           "totalTax": 0
         },
         "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1500000,
+              "amount": 1500000
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 1500000,
+              "amount": 375000
+            }
+          ],
+          "total": 1875000,
+          "subTotal": 1875000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Package",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 6500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6500000,
+              "amount": 6500000
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 6500000,
+              "amount": 1625000
+            }
+          ],
+          "total": 8125000,
+          "subTotal": 8125000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
           {
             "label": "Australia",
             "type": "Country",

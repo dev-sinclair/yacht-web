@@ -6097,17 +6097,19 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": 8400000,
+    "currency": "AUD",
     "seasons": [
       "summer-2025",
       "summer-2026",
       "summer-2027",
+      "summer-2028",
       "winter-2024",
       "winter-2025",
       "winter-2026",
-      "winter-2027"
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -6808,6 +6810,32 @@
     ]
   },
   {
+    "uri": "c::16875063630::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47",
+    "slug": "little-perle",
+    "name": "LITTLE PERLE",
+    "hero": "/media/media::image::a::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47::assets::f8f06dd0-6d46-11f0-b4ec-4126d86b0baa/{imageVariant}",
+    "length": 29.9,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Moonen",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 200000,
+    "weekPricingFrom": 8800000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::52021850498::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539",
     "slug": "belle",
     "name": "BELLE",
@@ -6849,32 +6877,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::16875063630::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47",
-    "slug": "little-perle",
-    "name": "LITTLE PERLE",
-    "hero": "/media/media::image::a::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47::assets::f8f06dd0-6d46-11f0-b4ec-4126d86b0baa/{imageVariant}",
-    "length": 29.9,
-    "sleeps": 20,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Moonen",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": 8800000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -9963,6 +9965,34 @@
     ]
   },
   {
+    "uri": "c::16875063630::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744",
+    "slug": "element",
+    "name": "ELEMENT",
+    "hero": "/media/media::image::a::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744::assets::92c46540-50b2-11ef-9310-597e32e8421f.jpeg/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1999,
+    "builder": "Warren Yacht",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 125000,
+    "weekPricingFrom": 6500000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744",
     "slug": "magic-cat",
     "name": "MAGIC CAT",
@@ -9983,33 +10013,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::16875063630::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744",
-    "slug": "element",
-    "name": "ELEMENT",
-    "hero": "/media/media::image::a::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744::assets::92c46540-50b2-11ef-9310-597e32e8421f.jpeg/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1999,
-    "builder": "Warren Yacht",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 125000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -12317,16 +12320,18 @@
       "Motor"
     ],
     "dayPricingFrom": 135000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
+    "weekPricingFrom": 6000000,
+    "currency": "AUD",
     "seasons": [
       "summer-2025",
       "summer-2026",
       "summer-2027",
+      "summer-2028",
       "winter-2024",
       "winter-2025",
       "winter-2026",
-      "winter-2027"
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
