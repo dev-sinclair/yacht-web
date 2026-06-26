@@ -8452,6 +8452,32 @@
     ]
   },
   {
+    "uri": "c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744",
+    "slug": "magenta",
+    "name": "MAGENTA",
+    "hero": "/media/media::image::c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744::assets::88c029b0-2c9c-11ef-8344-97dfc81b1c7a.png/{imageVariant}",
+    "length": 27,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2002,
+    "builder": "Leopard (Arno)",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 590000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7580644139::vessel::653ea180-2019-11f0-a184-e73234dfe0ab",
     "slug": "beyefendi-h",
     "name": "BEYEFENDI H",
@@ -8769,32 +8795,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1890000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744",
-    "slug": "magenta",
-    "name": "MAGENTA",
-    "hero": "/media/media::image::c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744::assets::88c029b0-2c9c-11ef-8344-97dfc81b1c7a.png/{imageVariant}",
-    "length": 27,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2002,
-    "builder": "Leopard (Arno)",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 550000,
-    "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -12180,34 +12180,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::18231584005::vessel::d13fe200-e53b-11ee-b920-55fb0f77b85c",
-    "slug": "jack",
-    "name": "JACK",
-    "hero": "/media/media::image::a::vessel::d13fe200-e53b-11ee-b920-55fb0f77b85c::assets::cd04e580-e53d-11ee-b920-55fb0f77b85c.jpeg/{imageVariant}",
-    "length": 23.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Mc Conaghy Boats",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
