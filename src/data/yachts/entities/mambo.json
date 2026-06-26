@@ -1,0 +1,670 @@
+{
+  "lastModified": null,
+  "uri": "c::7819240017::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: \nSummer/Winter: Fort Lauderdale, FL and Nassau, The Bahamas\n\nMAMBO is a stunning 112’ Custom Line motor yacht offering an exceptional charter experience throughout South Florida and the Bahamas. Based in Fort Lauderdale, FL, this elegant yacht combines timeless Italian design with spacious luxury accommodations, making her the perfect choice for unforgettable escapes on the water.\n\nMAMBO features a beautifully designed layout with expansive indoor and outdoor living spaces ideal for entertaining, relaxing, and enjoying life at sea. Her spacious salon is filled with natural light and flows seamlessly into formal dining areas, while the exterior decks offer multiple lounging and alfresco dining spaces and panoramic ocean views.\n\nAccommodating up to 8 guests in 4 well-appointed staterooms, MAMBO provides comfort and privacy for every guest onboard. The layout includes a full-beam master suite along with elegant guest cabins designed with refined finishes and luxurious amenities throughout.\n\nPowered by twin MTU 12V4000 engines producing 2,775 HP each, MAMBO delivers impressive performance with a cruising speed of approximately 10 knots and a top speed of up to 24 knots, allowing guests to island-hop with ease and style.\n\nWhether cruising the crystal-clear waters of the Bahamas or enjoying the vibrant coastline of South Florida, MAMBO offers a first-class yachting experience paired with exceptional comfort and sophistication.",
+  "blueprint": {
+    "name": "MAMBO",
+    "images": [
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::434dd4f0-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4358f880-cd40-11ef-9a60-0b6180944364/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4358f880-cd40-11ef-8827-bfa60d191530/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::435b9090-cd40-11ef-8827-bfa60d191530/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4356fcb0-cd40-11ef-9a60-0b6180944364/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4357c000-cd40-11ef-9a26-45e0b96b8b63/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4351f3a0-cd40-11ef-b524-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4352de00-cd40-11ef-b524-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::43528fe0-cd40-11ef-b524-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4350bb20-cd40-11ef-b524-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::434fa9b0-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::43517e70-cd40-11ef-b524-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::434f5b90-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4358d170-cd40-11ef-9a60-0b6180944364/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::435acd40-cd40-11ef-8827-bfa60d191530/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::434f0d70-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4359e2e0-cd40-11ef-9a26-45e0b96b8b63/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::434fd0c0-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::4350e230-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::43583530-cd40-11ef-9a60-0b6180944364/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::435b1b60-cd40-11ef-8827-bfa60d191530/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::43506d00-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::43506d01-cd40-11ef-b523-bdfb1d6524d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd320-fe8c-11ed-889f-43d4bb723744::assets::435af450-cd40-11ef-8827-bfa60d191530/{imageVariant}"
+    ],
+    "make": "Ferretti Custom Line",
+    "model": "Custom Line 112",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::dc73d6ca-b3ed-11ed-907c-325096b39f47",
+      "name": "Fort Lauderdale ",
+      "coordinates": {
+        "latitude": 26.12063116545865,
+        "longitude": -80.10978381132306
+      },
+      "country": "United States"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2004,
+    "architect": "CRN",
+    "interiorDesigner": "Zuccon International Project",
+    "refitYear": 2022,
+    "topSpeed": 27,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Queen Cabin",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 34.14,
+    "beam": 6.78,
+    "draft": 1.98,
+    "hullType": "Planing",
+    "hullConstruction": "GRP",
+    "tonnage": 220,
+    "superStructure": [
+      "GRP"
+    ],
+    "engines": "2 x 2775 HP MTU 12V 4000 M90",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Salon TV"
+      },
+      {
+        "label": "Sun Awning"
+      },
+      {
+        "label": "Salon Stereo"
+      },
+      {
+        "label": "Hairdryers"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Sun Loungers"
+      },
+      {
+        "label": "Sun cushions"
+      },
+      {
+        "label": "TV in all cabins"
+      },
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Sunpads"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sunbathing Area"
+      },
+      {
+        "label": "Sun Deck"
+      },
+      {
+        "label": "Tender Garage"
+      },
+      {
+        "label": "At-Anchor Stabilizers"
+      },
+      {
+        "label": "Bow Thruster"
+      },
+      {
+        "label": "Crane"
+      },
+      {
+        "label": "Flybridge"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dinghy",
+        "quantity": "2"
+      },
+      {
+        "label": "Rigid stand-up paddle boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Waverunners (2-person)",
+        "quantity": "2"
+      },
+      {
+        "label": "Wakesurfer",
+        "quantity": "1"
+      },
+      {
+        "label": "Towable toys"
+      },
+      {
+        "label": "Snorkeling Gear (various sizes)",
+        "quantity": "12"
+      },
+      {
+        "label": "Fishing Gear"
+      },
+      {
+        "label": "Swimming platform"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "Salon TV",
+      "Salon Stereo",
+      "TV in all cabins"
+    ],
+    "tenders": [
+      "35’/10.7m Scout towed tender w/3x 300hp engines (2017 model, side dive door, mini cabin w/AC, outriggers)",
+      "13.5’/4.11m Novurania w/ 50 hp engine"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Max Davis",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 400000,
+      "displayCurrency": "USD",
+      "displayPrice": 400000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 800000,
+      "displayCurrency": "USD",
+      "displayPrice": 800000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 6400000,
+      "displayCurrency": "USD",
+      "displayPrice": 6400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 7400000,
+      "displayCurrency": "USD",
+      "displayPrice": 7400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate: Low Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 6400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6400000,
+              "amount": 6400000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 6400000,
+              "amount": 2240000
+            }
+          ],
+          "total": 8640000,
+          "subTotal": 8640000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Nassau, The Bahamas",
+            "type": "Custom Area",
+            "category": [
+              "Nassau"
+            ],
+            "coordinates": [
+              -77.3291665,
+              25.0458335
+            ],
+            "bbox": [
+              -77.4,
+              25,
+              -77.258333,
+              25.091667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: High Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 7400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7400000,
+              "amount": 7400000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 7400000,
+              "amount": 2590000
+            }
+          ],
+          "total": 9990000,
+          "subTotal": 9990000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter Rate - 4 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 400000,
+              "amount": 400000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 400000,
+              "amount": 140000
+            }
+          ],
+          "total": 540000,
+          "subTotal": 540000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Nassau, The Bahamas",
+            "type": "Custom Area",
+            "category": [
+              "Nassau"
+            ],
+            "coordinates": [
+              -77.3291665,
+              25.0458335
+            ],
+            "bbox": [
+              -77.4,
+              25,
+              -77.258333,
+              25.091667
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter Rate - 6 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 600000,
+              "amount": 600000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 600000,
+              "amount": 210000
+            }
+          ],
+          "total": 810000,
+          "subTotal": 810000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Nassau, The Bahamas",
+            "type": "Custom Area",
+            "category": [
+              "Nassau"
+            ],
+            "coordinates": [
+              -77.3291665,
+              25.0458335
+            ],
+            "bbox": [
+              -77.4,
+              25,
+              -77.258333,
+              25.091667
+            ]
+          },
+          {
+            "label": "Bahía Blanca, Ciudad de Buenos Aires, Argentina",
+            "type": "Custom Area",
+            "category": [
+              "Bahía Blanca"
+            ],
+            "coordinates": [
+              -62.2458335,
+              -38.7208335
+            ],
+            "bbox": [
+              -62.35,
+              -38.791667,
+              -62.141667,
+              -38.65
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter Rate - 8 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 800000,
+              "amount": 800000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 800000,
+              "amount": 280000
+            }
+          ],
+          "total": 1080000,
+          "subTotal": 1080000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Nassau, The Bahamas",
+            "type": "Custom Area",
+            "category": [
+              "Nassau"
+            ],
+            "coordinates": [
+              -77.3291665,
+              25.0458335
+            ],
+            "bbox": [
+              -77.4,
+              25,
+              -77.258333,
+              25.091667
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -75.95477530284326,
+              23.98498842185528
+            ],
+            "bbox": [
+              -78.98564453124999,
+              20.937402343749994,
+              -72.747265625,
+              26.940087890624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
