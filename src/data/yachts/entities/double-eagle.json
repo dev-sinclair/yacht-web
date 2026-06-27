@@ -1,5 +1,5 @@
 {
-  "lastModified": 1777975486570,
+  "lastModified": 1782245623665,
   "uri": "c::7580644139::vessel::d5cca295-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -39,6 +39,15 @@
     "model": "",
     "maxCrew": 6,
     "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
+      "name": "Bodrum",
+      "coordinates": {
+        "latitude": 37.03482562918905,
+        "longitude": 27.42932494208488
+      },
+      "country": "Türkiye"
+    },
     "builtYear": 2005,
     "architect": "",
     "interiorDesigner": "",

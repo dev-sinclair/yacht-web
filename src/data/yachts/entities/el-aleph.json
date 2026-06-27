@@ -1,5 +1,5 @@
 {
-  "lastModified": 1773073694597,
+  "lastModified": 1781854961357,
   "uri": "c::18402418711::vessel::d5cc7959-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -147,16 +147,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 1000000,
+      "price": 1200000,
       "displayCurrency": "USD",
-      "displayPrice": 1000000,
+      "displayPrice": 1200000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 1000000,
+      "price": 1200000,
       "displayCurrency": "USD",
-      "displayPrice": 1000000,
+      "displayPrice": 1200000,
       "unit": "DAY"
     },
     "pricingInfo": [
@@ -178,7 +178,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1000000,
+          "charterFee": 1200000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -186,8 +186,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1000000,
-              "amount": 1000000,
+              "unitPrice": 1200000,
+              "amount": 1200000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -195,9 +195,9 @@
               }
             }
           ],
-          "total": 1110000,
-          "subTotal": 1000000,
-          "totalTax": 110000
+          "total": 1332000,
+          "subTotal": 1200000,
+          "totalTax": 132000
         },
         "inclusionZones": [
           {

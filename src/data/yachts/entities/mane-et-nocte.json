@@ -1,5 +1,5 @@
 {
-  "lastModified": 1779292522335,
+  "lastModified": 1782220882169,
   "uri": "c::7579668770::vessel::d5cbfb64-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -164,17 +164,17 @@
   ],
   "pricing": {
     "weekPricingFrom": {
-      "currency": "EUR",
+      "currency": "USD",
       "price": 7200000,
-      "displayCurrency": "EUR",
+      "displayCurrency": "USD",
       "displayPrice": 7200000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
-      "currency": "EUR",
-      "price": 8200000,
-      "displayCurrency": "EUR",
-      "displayPrice": 8200000,
+      "currency": "USD",
+      "price": 10000000,
+      "displayCurrency": "USD",
+      "displayPrice": 10000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -182,27 +182,31 @@
         "name": "High Season - Winter 2026/27",
         "effectiveDates": [
           {
-            "from": "2026-12-19T00:00:00.000Z",
-            "to": "2027-01-08T23:59:59.999Z"
+            "from": "2026-12-17T00:00:00.000Z",
+            "to": "2027-01-06T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-07T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
-          "currency": "EUR",
-          "charterFee": 8200000,
-          "inputAmountTaxed": "NONE",
+          "currency": "USD",
+          "charterFee": 10000000,
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8200000,
-              "amount": 8200000,
+              "unitPrice": 10000000,
+              "amount": 10000000,
               "conditions": "1 week"
             }
           ],
-          "total": 8200000,
-          "subTotal": 8200000,
+          "total": 10000000,
+          "subTotal": 10000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -240,7 +244,7 @@
           }
         ],
         "pricing": {
-          "currency": "EUR",
+          "currency": "USD",
           "charterFee": 7200000,
           "inputAmountTaxed": "NONE",
           "note": "",

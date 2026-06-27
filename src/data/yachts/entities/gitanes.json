@@ -1,0 +1,397 @@
+{
+  "lastModified": 1782223595040,
+  "uri": "c::7584683786::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor",
+    "Classic"
+  ],
+  "description": "Operating Area: South of France, Corsica, Italy & Sardinia\n\nThe 35.1m/115'2\" motor yacht 'Gitanes' by the Italian shipyard Benetti offers flexible accommodation for up to 10 guests in 4 cabins.\n\nBoasting an array of sumptuous living areas laid out invitingly to create a warm and welcoming atmosphere onboard, motor yacht Gitanes is the perfect luxury charter yacht for friends and family. Families will particularly love Gitanes thanks to her child friendly setup. Built in 1982, She offers guest accommodation for up to 10 guests with a layout comprising a master suite, one double cabin and two twin cabins. There are 10 beds in total, including 1 king, 1 queen, 4 singles and 2 pullmans.\n\nGitanes is built with a steel hull and aluminium superstructure. Powered by twin Caterpillar engines, she comfortably cruises at 10 knots, reaches a maximum speed of 12 knots with a range of up to 3,800 nautical miles from her 36,700 litre fuel tanks at 12 knots. An on board stabilization system ensures comfort when underway.\n\nThis luxury motor yacht for charter is in prime condition to host your next holiday of a lifetime.",
+  "blueprint": {
+    "name": "GITANES",
+    "images": [
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8b6860-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8b6861-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8a7e00-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b89e1c0-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8770c0-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b89bab0-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8c04a1-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8a2fe0-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8ca0e1-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8a7e00-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b888231-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b894580-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8a56f0-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b896c90-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b88d050-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8ca0e0-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b891e70-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8af330-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8ca0e2-6be9-11f1-9181-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b888230-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8a56f1-6be9-11f1-9180-5be37fc48e59/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744::assets::3b8c04a0-6be9-11f1-9181-5be37fc48e59/{imageVariant}"
+    ],
+    "make": "Benetti",
+    "model": "",
+    "maxCrew": 7,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::f8cef408-b3ed-11ed-9ad9-325096b39f47",
+      "name": "Nice",
+      "coordinates": {
+        "latitude": 43.69693862,
+        "longitude": 7.283912845
+      },
+      "country": "France"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 1982,
+    "architect": "",
+    "refitYear": 2025,
+    "topSpeed": 12,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 36700,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 35.4,
+    "beam": 7.6,
+    "draft": 2.77,
+    "hullType": "Displacement",
+    "hullConstruction": "Steel",
+    "tonnage": 180,
+    "superStructure": [
+      "Aluminium"
+    ],
+    "engines": "2 x Caterpillar",
+    "amenities": [
+      {
+        "label": "Air conditioning",
+        "quantity": "1"
+      },
+      {
+        "label": "Watermakers",
+        "quantity": "1"
+      },
+      {
+        "label": "Stabilisers at anchor",
+        "quantity": "0"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Various Snorkeling Equipment",
+        "quantity": "1"
+      },
+      {
+        "label": "Water-skis",
+        "quantity": "1"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Multi Position Board",
+        "quantity": "1"
+      },
+      {
+        "label": "Stand up paddles",
+        "quantity": "2"
+      },
+      {
+        "label": "Sea-Doo Scooter RS-2",
+        "quantity": "0"
+      },
+      {
+        "label": "Yamaha Jet Ski Wave Runner",
+        "quantity": "1"
+      }
+    ],
+    "entertainment": [
+      "4/5G Internet",
+      "TV in all cabins",
+      "Bluetooth speakers/sound system connection"
+    ],
+    "tenders": [
+      "Focchi 5.7m  Tender"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4500000,
+              "amount": 4500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4500000,
+          "subTotal": 4500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4900000,
+          "subTotal": 4900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

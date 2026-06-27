@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761207449395,
+  "lastModified": 1782461543141,
   "uri": "c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -124,16 +124,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 550000,
+      "price": 590000,
       "displayCurrency": "EUR",
-      "displayPrice": 550000,
+      "displayPrice": 590000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 550000,
+      "price": 590000,
       "displayCurrency": "EUR",
-      "displayPrice": 550000,
+      "displayPrice": 590000,
       "unit": "DAY"
     },
     "pricingInfo": [
@@ -155,7 +155,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 550000,
+          "charterFee": 590000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -163,8 +163,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 550000,
-              "amount": 550000,
+              "unitPrice": 590000,
+              "amount": 590000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -172,8 +172,8 @@
               }
             }
           ],
-          "total": 550000,
-          "subTotal": 550000,
+          "total": 590000,
+          "subTotal": 590000,
           "totalTax": 0
         },
         "inclusionZones": [

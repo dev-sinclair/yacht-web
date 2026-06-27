@@ -1,10 +1,10 @@
 {
-  "lastModified": 1780587463434,
+  "lastModified": 1782351532819,
   "uri": "c::16875063630::vessel::d5cc78d7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia\n\nRhemtide is a 76-foot luxury motor yacht, featuring spacious front, upper, and aft decks designed for all leisure and entertainment needs. Built with classic elegance, she is the perfect yacht for hosting intimate cruises, private parties, or corporate events, accommodating up to 46 guests.\n\nThe main deck offers a wide, user-friendly area complete with a full-size bar and lounge space, ideal for entertaining guests. On the bow, relax in luxury with custom seating or soak up the sun on the sunbeds, or opt for the expansive sundeck with an inflatable waterslide for extra fun.\n\nRhemtide blends comfort and craftsmanship, with sophisticated interiors that highlight the natural beauty of the yacht. Large windows throughout the yacht provide exceptional light penetration, creating a bright and airy atmosphere on both the main deck and guest cabins.\n\nThe vessel boasts three elegant cabins for up to six guests, each with an ensuite bathroom. The main deck features a welcoming saloon where guests can relax and entertain in complete comfort.\n\nRhemtide is the ultimate companion for your day on the water, offering luxury, style, and unforgettable experiences.",
+  "description": "Discover Rhemtide: The Pinnacle of Luxury Yacht Charter in Sydney\nStep aboard Rhemtide, a magnificent 76-foot motor yacht designed by the legendary Jack Hargraves. This classic vessel has been masterfully refitted to embrace an open, airy layout that exudes effortless luxury and timeless style. With a heritage steeped in Hollywood glamour and stateside prestige, Rhemtide now resides in Australia, gracing Sydney Harbour during the vibrant peak season. When winter arrives, she relocates to the sun-drenched waters of The Whitsundays, offering discerning guests a diverse portfolio of breathtaking destinations.\n\nWhether cruising past the Opera House or anchoring in a secluded Whitsundays cove, Rhemtide delivers a charter experience that is both elite and unforgettable. Her seasonal flexibility makes her the ideal choice for everything from high-end events to serene private escapes, allowing guests to tailor their charter to the moment and mood. Each voyage is imbued with the charm of a bygone era and the modern comforts of a world-class superyacht.\n\nElegance Redefined: Entertain in Style and Comfort\nThe Main Deck – Refined Relaxation\nThe main deck saloon of Rhemtide is a study in sophistication and versatility. Expansive, light-filled, and artfully designed, it serves as a central gathering space where guests can entertain, unwind, or simply soak in the tranquil surroundings. With fine finishes and plush furnishings, every detail of this interior whispers elegance. Whether it’s casual morning coffees, afternoon lounging, or evening cocktails, this saloon is designed to adapt to every occasion with grace.\n\nThe Upper Deck – Alfresco Perfection\nUpstairs, an open-air entertainment area awaits. Crafted for al fresco dining and sophisticated celebrations, this space is perfectly suited for sunset dinners, birthday parties, or corporate cocktail events. With generous seating and unobstructed panoramic views, it offers the ultimate setting to dine, toast, and take in the sea air. Picture a curated seafood feast as the sun dips below the horizon or a champagne soirée set to the Sydney skyline.\n\nFrom elegant weddings to executive retreats, Rhemtide’s layout, service, and styling ensure every event is a seamless success. With an onboard crew dedicated to hospitality excellence, you can relax and revel while every detail is managed with precision and poise.\n\nCharter Rhemtide Today – Your Journey of Prestige Begins Here\nRhemtide isn’t just a yacht. She’s a floating venue of unrivalled style, a haven of seaborne serenity, and a statement of refined living. With dual-season cruising options across Sydney and the Whitsundays, she’s perfectly positioned to offer unforgettable experiences year-round.\n",
   "blueprint": {
     "name": "RHEMTIDE",
     "images": [
@@ -71,6 +71,9 @@
       },
       {
         "label": "BBQ"
+      },
+      {
+        "label": "Top Deck Bar"
       }
     ],
     "toys": [
@@ -82,7 +85,8 @@
       }
     ],
     "entertainment": [
-      "Bluetooth/Speakers"
+      "Bluetooth/Speakers",
+      "Wifi"
     ]
   },
   "crew": [],
@@ -100,6 +104,20 @@
       "displayCurrency": "AUD",
       "displayPrice": 1500000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 6000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 6000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 6000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 6000000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -121,7 +139,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 150000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -153,6 +171,25 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
           }
         ],
         "exclusionZones": [],
@@ -177,7 +214,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 135000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
@@ -209,6 +246,25 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
           }
         ],
         "exclusionZones": [],
@@ -233,7 +289,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 1500000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
@@ -266,8 +322,182 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
           }
         ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "December",
+        "effectiveDates": [
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 155000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 155000,
+              "amount": 155000,
+              "conditions": "All of december"
+            }
+          ],
+          "total": 155000,
+          "subTotal": 155000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 6000000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6000000,
+              "amount": 6000000
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 6000000,
+              "amount": 1500000
+            }
+          ],
+          "total": 7500000,
+          "subTotal": 7500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       }

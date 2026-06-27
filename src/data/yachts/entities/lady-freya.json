@@ -1,5 +1,5 @@
 {
-  "lastModified": 1765464506692,
+  "lastModified": 1782133126493,
   "uri": "c::7819217464::vessel::d5cc7925-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -137,7 +137,26 @@
       "4.0m Tender 70 hp (8 guests)"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Mehmet Özçelik",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc7925-fe8c-11ed-889f-43d4bb723744::assets::2ce71910-6e39-11f1-b44e-9bff106bf902/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Mehmet is from the beautiful coastal town of Marmaris and has been at sea since childhood. He started working on traditional wooden yachts at a young age and acquired valuable experience in Eastern- Mediterranean waters. In addition to being a sailing enthusiast and a long time outdoorsman, he enjoys every kind of fishing in any kind of place. As the captain of LADY FREYA, he will ensure all guests onboard feel safe and cared for."
+    },
+    {
+      "name": "Engin Özçelik",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc7925-fe8c-11ed-889f-43d4bb723744::assets::4068fe90-6e39-11f1-b44e-9bff106bf902/{imageVariant}",
+      "role": "Captain",
+      "bio": "Engin has been working on charter yachts in Turkey as a chef since 2005. His years of experience have made him very quick in the galley, enabling him to prepare a rich table for his guests several times a day, every day. He concentrates mainly on Turkish cuisine, with special emphasis on starters served in olive oil dressing and fresh fish main courses. He is a modest man and has a very gentle aura. He speaks Turkish and beginner level English."
+    },
+    {
+      "name": "Coşkun Şeker",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc7925-fe8c-11ed-889f-43d4bb723744::assets::11ffa080-6e3a-11f1-afdf-a79253c330c8/{imageVariant}",
+      "role": "Captain",
+      "bio": "Coşkun is from the stunning coastal town of Kaş in Turkey. He embarked on his yachting career in 2020 and has since gained valuable experience working aboard both private and charter yachts. Prior to life at sea, Coşkun spent several years honing his hospitality skills as a barman and waiter in upscale restaurants.\nAn avid water sports enthusiast, Coşkun is also a skilled spear diver. In his downtime, he enjoys reading and has a strong passion for learning. He is fluent in Turkish and English."
+    }
+  ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",

@@ -1,17 +1,16 @@
 {
-  "lastModified": 1761320152216,
+  "lastModified": 1782350961165,
   "uri": "c::16875063630::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Gold Coast, Queensland, Sydney, Australia\n\nAn extension of our seaside home, allow M.Y. SEA RAES to transport you to your very own Mediterranean escape right here on our Australian shores.\n\nWith accommodation for up to 8 guests, this fully crewed floating retreat seamlessly blends Raes’ unparalleled service and hospitality, with an effortless getaway on the water.",
+  "description": "Discover Sea Raes: Luxury Superyacht Charter in Sydney & the Whitsundays\n\nStep aboard Sea Raes, an exceptional luxury superyacht offering elegant charter experiences across Sydney Harbour and the Whitsundays. Combining sophisticated European styling with spacious entertaining areas and luxurious accommodation, Sea Raes is the perfect choice for private celebrations, corporate events, family holidays, and exclusive overnight escapes.\n\nAccommodating up to 30 guests for day charters and up to 8 guests overnight, Sea Raes delivers a refined yachting experience where exceptional service, beautiful destinations, and unforgettable moments come together.\n\nDesigned for Luxury Living\n\nSea Raes has been thoughtfully designed to maximise comfort, space, and seamless indoor-outdoor living. Expansive entertaining areas provide the perfect setting for long lunches, sunset cocktails, and celebrations on the water, while beautifully appointed cabins offer luxurious accommodation for extended escapes.\n\nWhether hosting an intimate gathering or enjoying a multi-day adventure, every space onboard has been designed to deliver comfort and understated elegance.\n\nExplore Australia's Most Iconic Cruising Destinations\n\nDuring spring and summer, Sea Raes cruises the spectacular waterways of Sydney Harbour, Pittwater, and the Hawkesbury River. From iconic landmarks such as the Sydney Opera House and Harbour Bridge to secluded bays and peaceful anchorages, every itinerary can be tailored to suit your perfect day on the water.\n\nFrom June onwards, Sea Raes relocates to the Whitsundays, where crystal-clear waters, Whitehaven Beach, and the Great Barrier Reef provide the backdrop for an unforgettable tropical charter experience.\n\nAn Experience Designed Around You\n\nWhether you're celebrating a milestone occasion, entertaining clients, or escaping with family and friends, Sea Raes offers a luxury charter experience tailored to your individual preferences. Supported by a professional crew and premium onboard amenities, every charter is delivered with exceptional attention to detail from beginning to end.\n\nBook Your Sea Raes Charter Today\n\nFrom Sydney Harbour to the Whitsundays, Sea Raes offers an elegant and unforgettable luxury yacht charter experience in two of Australia's most spectacular cruising destinations.\n\nDiscover more luxury yacht charters and boating experiences at Chapman Yachting",
   "blueprint": {
     "name": "SEA RAES",
     "images": [
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::f9bd9540-e079-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::00bafb30-e07a-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::0b67ad80-e07a-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
-      "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::0e1c9450-e07a-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::1266e830-e07a-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::227ca4d0-e07a-11ee-aa6b-83d3c9b72a13.jpeg/{imageVariant}",
       "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::27a54ac0-e07a-11ee-aa6b-83d3c9b72a13.jpeg/{imageVariant}",
@@ -40,18 +39,18 @@
     "maxCrew": 4,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::d51cf76c-b3ed-11ed-bd6d-325096b39f47",
-      "name": "Cape Town",
+      "uri": "a::place::27c293be-b3ee-11ed-8dd2-325096b39f47",
+      "name": "Sydney",
       "coordinates": {
-        "latitude": -33.9052926182905,
-        "longitude": 18.4228158915011
+        "latitude": -33.86380638,
+        "longitude": 151.2100953
       },
-      "country": "South Africa"
+      "country": "Australia"
     },
     "builtYear": 1996,
     "refitYear": 2019,
-    "topSpeed": "",
-    "cruiseSpeed": 10,
+    "topSpeed": 13,
+    "cruiseSpeed": 12,
     "cabinLayout": [
       {
         "label": "Master Cabin",
@@ -145,9 +144,9 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 200000,
+      "price": 250000,
       "displayCurrency": "AUD",
-      "displayPrice": 200000,
+      "displayPrice": 250000,
       "unit": "HOUR"
     },
     "dayPricingTo": {
@@ -156,6 +155,20 @@
       "displayCurrency": "AUD",
       "displayPrice": 1800000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 8400000,
+      "displayCurrency": "AUD",
+      "displayPrice": 8400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 8400000,
+      "displayCurrency": "AUD",
+      "displayPrice": 8400000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -177,7 +190,7 @@
         "pricing": {
           "currency": "AUD",
           "charterFee": 1800000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
@@ -186,7 +199,7 @@
               "quantity": 1,
               "unitPrice": 1800000,
               "amount": 1800000,
-              "conditions": "per night"
+              "conditions": ""
             }
           ],
           "total": 1800000,
@@ -227,18 +240,50 @@
               151.341667,
               -33.6
             ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Day Charter",
+        "name": "Weekly Rate",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
@@ -246,28 +291,68 @@
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 200000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 8400000,
+          "inputAmountTaxed": "INCLUSIVE",
           "note": "",
-          "unit": "HOUR",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 200000,
-              "amount": 200000,
-              "conditions": "per hour"
+              "unitPrice": 8400000,
+              "amount": 8400000,
+              "conditions": "All-inclusive rate"
             }
           ],
-          "total": 200000,
-          "subTotal": 200000,
+          "total": 8400000,
+          "subTotal": 8400000,
           "totalTax": 0
         },
         "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
           {
             "label": "Gold Coast, Queensland, Australia",
             "type": "Custom Area",
@@ -300,6 +385,81 @@
               -34.091667,
               151.341667,
               -33.6
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Hourly",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 250000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 250000,
+              "amount": 250000
+            }
+          ],
+          "total": 250000,
+          "subTotal": 250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
             ]
           }
         ],

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1778148515691,
+  "lastModified": 1782222657249,
   "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -8,25 +8,50 @@
   "blueprint": {
     "name": "TEMPEST WS",
     "images": [
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2820-full-1_HERO.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3339-full-1.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2821-full-4.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2822-full-6.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-2823-full-2.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3340-full-3.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3341-full-7.jpg/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-3342-full-5.jpg/{imageVariant}"
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab3f00-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae4c40-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea9df70-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea68410-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea6f940-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab6610-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea5e7d0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beacc5a0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea91c20-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab8d20-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea831c0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beac0250-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beadd710-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaec170-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bea94330-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::bead88f0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa54a1-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab17f0-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae2530-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beae7350-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaee880-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+      "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beaa7bb0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}"
     ],
     "make": "Esterel",
     "model": "",
     "maxCrew": 5,
     "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::f8cef408-b3ed-11ed-9ad9-325096b39f47",
+      "name": "Nice",
+      "coordinates": {
+        "latitude": 43.69693862,
+        "longitude": 7.283912845
+      },
+      "country": "France"
+    },
     "cruisingCapacity": 8,
     "builtYear": 1962,
     "architect": "Andre Mauric",
-    "refitYear": 2011,
-    "topSpeed": 21,
-    "cruiseSpeed": 18,
+    "refitYear": 2025,
+    "topSpeed": 18,
+    "cruiseSpeed": 15,
     "fuelCapacity": 11600,
     "cabinLayout": [
       {
@@ -42,8 +67,8 @@
         "value": "2"
       }
     ],
-    "cabins": 5,
-    "bathrooms": 0,
+    "cabins": 4,
+    "bathrooms": 5,
     "length": 32,
     "beam": 5.63,
     "draft": 1.8,
@@ -59,7 +84,7 @@
     "toys": [
       {
         "label": "Jet Ski",
-        "quantity": 1
+        "quantity": "2"
       },
       {
         "label": "Waterskis",
@@ -83,14 +108,27 @@
       "Wi-Fi"
     ],
     "tenders": [
-      "4.6m RIB tender",
+      "",
       "WILLIAMS Turbojet 445 tender (2014) 2 YAMAHA jet-skis VXR, 2001",
       "1 Paddle Mistral M1 1 Fly Board 2013",
       "10 shorty Jobe Viper 1 Wake Board Obrian",
       "10 jackets Jobe Viper 1 Inflattable Buoy Tribal for 2ppl"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Léo Forrestier",
+      "avatar": "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::425b8400-6afd-11f1-8cd7-1d5ca48c6acc/{imageVariant}",
+      "role": "Captain",
+      "bio": "Léo, a native of Antibes, has now completed eight successful years in the\nyachting industry, steadily building a reputation for his expertise and\nleadership. As a dedicated Captain, he commands a close-knit team of three\nwith unwavering commitment, ensuring that every detail aboard the Tempest\nWS is executed to perfection. Léo's passion for delivering exceptional service\nis evident in his leadership style, as he constantly goes above and beyond to\ncreate unforgettable experiences for guests.\nBeyond his responsibilities as Captain, Léo is an avid water sports enthusiast.\nHe takes great pleasure in sharing this passion with guests, adding an extra\nlayer of enjoyment to their time on board. Under his guidance, the crew is not\njust motivated but deeply committed to providing high-end customer service.\nLéo's dedication to excellence guarantees that every moment on Tempest WS\nis nothing  short of extraordinary, leaving guests with memories to cherish for a\nlifetime."
+    },
+    {
+      "name": "Virginie Dumon",
+      "avatar": "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::76e2a0f0-6afd-11f1-b2aa-7ff09ae27a43/{imageVariant}",
+      "role": "Captain",
+      "bio": ""
+    }
+  ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",

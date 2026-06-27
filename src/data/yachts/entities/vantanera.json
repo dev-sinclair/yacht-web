@@ -1,5 +1,5 @@
 {
-  "lastModified": 1773749581293,
+  "lastModified": 1782207521930,
   "uri": "c::35182310185::vessel::17ffe080-ba3a-11f0-9548-87d5452668cc",
   "yachtType": [
     "Sailing"
@@ -60,6 +60,8 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 8,
+    "staticCapacity": -2,
     "builtYear": 2003,
     "architect": "German Frers",
     "interiorDesigner": "",
@@ -128,7 +130,8 @@
     ],
     "entertainment": [
       "Starlink",
-      "TV Screens"
+      "TV Screens",
+      "Bose Sound System"
     ],
     "tenders": [
       "4m Wiliam TurboJet Tender"
@@ -140,12 +143,6 @@
       "avatar": "/media/media::image::c::35182310185::vessel::17ffe080-ba3a-11f0-9548-87d5452668cc::assets::8d0f8b30-bfb4-11f0-afd6-8f67c3d32125/{imageVariant}",
       "role": "Captain",
       "bio": "Oliver grew up racing dinghies in Austria, competing at an international level in both the Oppie and 420. In 2019, he was one of the founding members of Austrian Ocean racing team and has clocked up over 120,000nm offshore with both professional and amateur crews. Oliver has a strong technical background having studied mechanical engineering. Oliver enjoys the combination of cruising and racing on Vantanera and leading his team to ensure guests have a great experience onboard.\n\n• RYA Yacht Master Offshore\n• Powerboat Level 2\n• Basic Paramedic training\n• Languages: English, Spanish, German"
-    },
-    {
-      "name": "Dylan Armstrong",
-      "avatar": "/media/media::image::c::35182310185::vessel::17ffe080-ba3a-11f0-9548-87d5452668cc::assets::01baa3c0-bfb5-11f0-890b-4586e30159c2/{imageVariant}",
-      "role": "Captain",
-      "bio": "Originally from South Africa, Dylan found his passion for yachting in 2018. He enjoys being hands-on and working within a team. With great attention to detail, he keeps on top of maintenance and keeps Vantanera looking her best.\nDylan has worked on both private and charter yachts, supporting tender driving and watersports with a calm, friendly approach. A qualified PADI diver and skilled drone operator, he loves helping guests explore the water and capturing unforgettable moments from above and below the surface.\n\n• RYA Yachtmaster Offshore\n• RYA Ocean Theory\n• RYA PB 2 , GMDSS / SRC\n• STCW & PDSC\n• Languages: English, Spanish, Dutch"
     }
   ],
   "pricing": {
@@ -168,16 +165,16 @@
         "name": "Weekly Cruising Rate Caribbean ",
         "effectiveDates": [
           {
-            "from": "2025-12-01T00:00:00.000Z",
-            "to": "2026-05-01T23:59:59.999Z"
+            "from": "2026-12-05T00:00:00.000Z",
+            "to": "2027-04-17T23:59:59.999Z"
           },
           {
-            "from": "2026-12-01T00:00:00.000Z",
-            "to": "2027-05-01T23:59:59.999Z"
+            "from": "2027-12-05T00:00:00.000Z",
+            "to": "2028-04-17T23:59:59.999Z"
           },
           {
-            "from": "2027-12-01T00:00:00.000Z",
-            "to": "2028-05-01T23:59:59.999Z"
+            "from": "2028-12-05T00:00:00.000Z",
+            "to": "2029-04-17T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -223,6 +220,118 @@
               -59.20886105003194,
               22.689132188400592
             ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.93165875524458,
+              17.253271156347328
+            ],
+            "bbox": [
+              -62.34826033833981,
+              16.931969600900484,
+              -61.66759192599994,
+              17.727687893000052
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.45080373172777,
+              18.568736231458896
+            ],
+            "bbox": [
+              -64.69511718749999,
+              18.399121093749997,
+              -64.273583984375,
+              18.752685546875
+            ]
+          },
+          {
+            "label": "Kingstown, Saint Vincent and the Grenadines",
+            "type": "Custom Area",
+            "category": [
+              "Kingstown"
+            ],
+            "coordinates": [
+              -61.199999999999996,
+              13.15
+            ],
+            "bbox": [
+              -61.241667,
+              13.125,
+              -61.158333,
+              13.175
+            ]
+          },
+          {
+            "label": "St-Martin",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Martin"
+            ],
+            "coordinates": [
+              -63.05972851444495,
+              18.088886109462265
+            ],
+            "bbox": [
+              -63.123046875,
+              18.06894531249999,
+              -63.009423828124994,
+              18.11533203124999
+            ]
+          },
+          {
+            "label": "Sint Maarten",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Sint Maarten"
+            ],
+            "coordinates": [
+              -63.06743412878028,
+              18.030379879326468
+            ],
+            "bbox": [
+              -63.15090126276695,
+              17.99831668893121,
+              -63.00326892855816,
+              18.06490140490523
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.96969922527705,
+              13.894794814534256
+            ],
+            "bbox": [
+              -61.073144531249994,
+              13.717578125000003,
+              -60.88676757812499,
+              14.093359374999991
+            ]
           }
         ],
         "exclusionZones": [],
@@ -232,8 +341,16 @@
         "name": "Weekly Cruising Rate Mediterranean",
         "effectiveDates": [
           {
-            "from": "2025-05-01T00:00:00.000Z",
-            "to": "2025-10-31T23:59:59.999Z"
+            "from": "2026-05-16T00:00:00.000Z",
+            "to": "2026-10-24T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-16T00:00:00.000Z",
+            "to": "2027-10-24T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-16T00:00:00.000Z",
+            "to": "2028-10-24T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -269,7 +386,139 @@
           "subTotal": 8085000,
           "totalTax": 0
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -7.17445166576848,
+              36.8523911214717
+            ],
+            "bbox": [
+              -18.167225714999915,
+              27.642238674000055,
+              4.337087436000047,
+              43.79344310100004
+            ]
+          },
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }

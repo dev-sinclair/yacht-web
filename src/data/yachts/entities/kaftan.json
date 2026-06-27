@@ -1,5 +1,5 @@
 {
-  "lastModified": 1777980544764,
+  "lastModified": 1782132472875,
   "uri": "c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -150,7 +150,32 @@
       "1 x 4.60m RIB with 70 hp (10 guests)"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Güröl Atıcı",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::49baf520-6e34-11f1-9720-8d8e4026db46/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Gürol began his maritime career in 1991 and steadily progressed through the ranks, earning his Captain’s licence in 2004. Based in the Mediterranean, he has extensive experience on both private and charter yachts, joining Kaftan in 2025. Known for his personable nature and strong communication skills, he is a valued presence on board. Captain Gürol speaks both Turkish and English."
+    },
+    {
+      "name": "",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::fcd49120-6e34-11f1-8222-f10a8815b183/{imageVariant}",
+      "role": "Captain",
+      "bio": "Chef Ünal is originally from Bergama, near the coastal city of İzmir, and began his yachting career in 1993. He spent 11 years as the chef onboard the charter yacht Levent Kaptan 1, where he developed a strong reputation for his Mediterranean and traditional Turkish cuisine. With decades of experience at sea, he brings both skill and passion to every dish he creates. In his free time, he enjoys hiking and spending time with his six grandchildren. Ünal speaks Turkish and beginner English."
+    },
+    {
+      "name": "First Mate Ali",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::60bbb640-6e36-11f1-9d1d-fd398151fcb3/{imageVariant}",
+      "role": "Captain",
+      "bio": ""
+    },
+    {
+      "name": "Tüğçe Oskan",
+      "avatar": "/media/media::image::c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::7adffe80-6e38-11f1-b44e-9bff106bf902/{imageVariant}",
+      "role": "Captain",
+      "bio": "Tuğçe was born in Bursa in 1989. She has gained strong teamwork, communication, and organizational skills through experience in various sectors before beginning her maritime career. Tuğçe is dedicated to guest satisfaction and professional growth within the yachting industry. In her free time, she enjoys practicing yoga, which positively supports both her personal and professional life.  Tuğçe speaks both Turkish and English."
+    }
+  ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",

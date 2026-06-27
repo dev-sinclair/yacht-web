@@ -1,5 +1,5 @@
 {
-  "lastModified": 1751915951065,
+  "lastModified": 1782277641890,
   "uri": "c::8864389904::vessel::18f48850-91e2-11ef-a010-e36ce6840102",
   "yachtType": [
     "Motor",
@@ -153,30 +153,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 150000,
+      "price": 170000,
       "displayCurrency": "AUD",
-      "displayPrice": 150000,
+      "displayPrice": 170000,
       "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 5500000,
+      "price": 6500000,
       "displayCurrency": "AUD",
-      "displayPrice": 5500000,
+      "displayPrice": 6500000,
       "unit": "HOUR"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 6200000,
+      "price": 7000000,
       "displayCurrency": "AUD",
-      "displayPrice": 6200000,
+      "displayPrice": 7000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 6200000,
+      "price": 7000000,
       "displayCurrency": "AUD",
-      "displayPrice": 6200000,
+      "displayPrice": 7000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -186,11 +186,19 @@
           {
             "from": "2024-11-01T00:00:00.000Z",
             "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-11-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1100000,
+          "charterFee": 1200000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -198,20 +206,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1100000,
-              "amount": 1100000,
+              "unitPrice": 1200000,
+              "amount": 1200000,
               "conditions": ""
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.2,
-              "unitPrice": 1100000,
-              "amount": 220000
+              "unitPrice": 1200000,
+              "amount": 240000
             }
           ],
-          "total": 1320000,
-          "subTotal": 1320000,
+          "total": 1440000,
+          "subTotal": 1440000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -254,7 +262,7 @@
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1100000,
+          "charterFee": 1200000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -262,19 +270,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1100000,
-              "amount": 1100000
+              "unitPrice": 1200000,
+              "amount": 1200000
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 1100000,
-              "amount": 330000
+              "unitPrice": 1200000,
+              "amount": 360000
             }
           ],
-          "total": 1430000,
-          "subTotal": 1430000,
+          "total": 1560000,
+          "subTotal": 1560000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -319,7 +327,7 @@
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 6200000,
+          "charterFee": 7000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -327,19 +335,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6200000,
-              "amount": 6200000
+              "unitPrice": 7000000,
+              "amount": 7000000
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.2,
-              "unitPrice": 6200000,
-              "amount": 1240000
+              "unitPrice": 7000000,
+              "amount": 1400000
             }
           ],
-          "total": 7440000,
-          "subTotal": 7440000,
+          "total": 8400000,
+          "subTotal": 8400000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -374,7 +382,7 @@
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 6200000,
+          "charterFee": 7000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -382,19 +390,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6200000,
-              "amount": 6200000
+              "unitPrice": 7000000,
+              "amount": 7000000
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 6200000,
-              "amount": 1860000
+              "unitPrice": 7000000,
+              "amount": 2100000
             }
           ],
-          "total": 8060000,
-          "subTotal": 8060000,
+          "total": 9100000,
+          "subTotal": 9100000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -426,7 +434,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 150000,
+          "charterFee": 170000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "HOUR",
@@ -434,13 +442,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 150000,
-              "amount": 150000,
+              "unitPrice": 170000,
+              "amount": 170000,
               "conditions": "Per Hour (minimum 3 hours)"
             }
           ],
-          "total": 150000,
-          "subTotal": 150000,
+          "total": 170000,
+          "subTotal": 170000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -472,7 +480,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 5500000,
+          "charterFee": 6500000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "HOUR",
@@ -480,12 +488,12 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5500000,
-              "amount": 5500000
+              "unitPrice": 6500000,
+              "amount": 6500000
             }
           ],
-          "total": 5500000,
-          "subTotal": 5500000,
+          "total": 6500000,
+          "subTotal": 6500000,
           "totalTax": 0
         },
         "inclusionZones": [
