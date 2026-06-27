@@ -99,6 +99,12 @@ function tokenize(s: string): string[] {
 // yacht cruising Papua New Guinea would match the North America region via
 // the "new" token shared with "New England".
 const STOP_TOKENS = new Set([
+  // Articles/conjunctions. These glue words appear in both region phrase names
+  // ("Norway & **the** Fjords") and unrelated zone labels ("Nassau, **The**
+  // Bahamas", "St Vincent **and** the Grenadines"), so as single-token keys
+  // they match across regions — e.g. pulling Bahamas/Caribbean yachts into
+  // Northern Europe & Arctic. ("of" is already excluded by the length >= 3 gate.)
+  "the", "and",
   "new", "old",
   "north", "south", "east", "west", "central", "far",
   "northern", "southern", "eastern", "western",
