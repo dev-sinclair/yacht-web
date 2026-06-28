@@ -8478,6 +8478,32 @@
     ]
   },
   {
+    "uri": "c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d",
+    "slug": "tamurel-ii",
+    "name": "TAMUREL II",
+    "hero": "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::0039b5f0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
+    "length": 27,
+    "sleeps": 7,
+    "cabins": 3,
+    "builtYear": 2004,
+    "builder": "Alfamarine",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 350000,
+    "weekPricingFrom": 3120000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::21392618129::vessel::d5cc77e5-fe8c-11ed-889f-43d4bb723744",
     "slug": "magenta",
     "name": "MAGENTA",
@@ -8596,32 +8622,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d",
-    "slug": "tamurel-ii",
-    "name": "TAMUREL II",
-    "hero": "/media/media::image::a::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d::assets::0039b5f0-e7be-11f0-b096-5be3d91a22dd/{imageVariant}",
-    "length": 27,
-    "sleeps": 7,
-    "cabins": 3,
-    "builtYear": 2004,
-    "builder": "Alfamarine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 375000,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
