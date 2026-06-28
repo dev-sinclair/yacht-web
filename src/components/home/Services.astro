@@ -1,10 +1,25 @@
 ---
+import { Image } from "astro:assets";
 import Container from "../ui/Container.astro";
 import services from "../../data/services.json";
+import mapOutline from "../../assets/mapoutline.webp";
 ---
 
 <section id="services" class="relative overflow-hidden bg-warm-white pb-24 lg:pb-32 lg:pt-12">
-  <Container>
+  <!-- Map background -->
+  <div class="absolute inset-0 pointer-events-none">
+    <Image
+      src={mapOutline}
+      alt=""
+      class="absolute inset-0 h-full w-full object-cover opacity-70"
+      widths={[1280, 1920]}
+      sizes="100vw"
+      loading="lazy"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-warm-white/60 via-transparent to-warm-white/60"></div>
+  </div>
+
+  <Container class="relative z-10">
     <!-- Header -->
     <div class="max-w-2xl" data-reveal>
       <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70">
@@ -37,7 +52,7 @@ import services from "../../data/services.json";
                 <span
                   class="num text-[11px] font-light tracking-[0.3em] text-deep"
                 >
-                  {String(i + 1).padStart(2, "0")}
+                  {i + 1}
                 </span>
               </div>
 
