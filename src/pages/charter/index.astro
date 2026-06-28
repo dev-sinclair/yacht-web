@@ -6,16 +6,6 @@ import Navbar from "../../components/layout/Navbar.astro";
 import Footer from "../../components/layout/Footer.astro";
 import Container from "../../components/ui/Container.astro";
 import heroImg from "../../assets/catalogue-banner.jpg";
-import { getAllYachts } from "../../data/yacht-service";
-
-// Rounded-down headline count for the hero CTA. Floored to the nearest 50
-// so the editorial "X+ yachts" claim stays comfortably below the actual
-// catalog size even after a sync removes a handful of listings.
-const totalYachts = (await getAllYachts()).length;
-const yachtCountLabel = Math.max(
-  50,
-  Math.floor(totalYachts / 50) * 50,
-).toLocaleString("en-US");
 
 // Why-Sinclair portrait: photo by ERIK SETH on Unsplash
 // https://unsplash.com/photos/snoX2DPdVE0 — boat in Porto Santo Stefano.
@@ -29,20 +19,20 @@ const WHATSAPP_HREF =
 
 const pillars = [
   {
-    label: "Curation",
-    text: "A fleet personally vetted, not aggregated. Every yacht earns its place by build, crew and condition.",
+    label: "Private Charter",
+    text: "Time at sea with family or close friends — a private environment and a pace that is entirely your own. Space, privacy and flexibility in equal measure.",
   },
   {
-    label: "Itinerary",
-    text: "Routes plotted around your party, your dates and the season. Never a template, never a brochure.",
+    label: "Event Charter",
+    text: "From Monaco Grand Prix to Cannes Film Festival — a yacht becomes a considered base for all major events. Client entertainment, brand exposure and private gatherings.",
   },
   {
-    label: "Crew",
-    text: "Captains and stewards chosen for service as much as seamanship. The week is theirs to make seamless.",
+    label: "Sailing & Performance",
+    text: "For those who want to sail — performance yachts, bluewater passages and regatta participation.",
   },
   {
-    label: "Brokerage",
-    text: "One broker from first call to final disembark. No handoffs, no concierge desk in the middle.",
+    label: "Adventure & Expedition",
+    text: "Remote cruising grounds and extended itineraries — access to places that require capability and planning.",
   },
 ];
 
@@ -50,22 +40,22 @@ const steps = [
   {
     n: "01",
     title: "Conversation",
-    text: "We start with a private call: Group size, dates, the kind of week you want. We listen more than we sell.",
+    text: "We start with a private call: group size, dates, the kind of charter experience you want.",
   },
   {
     n: "02",
     title: "Selection",
-    text: "A shortlist of two or three yachts that genuinely suit, with honest notes on each. Not a 40-page dossier you'll never read.",
+    text: "A curated list of yachts that genuinely suit your requirements.",
   },
   {
     n: "03",
     title: "Itinerary",
-    text: "Anchorages, restaurants, shore excursions and tender plans shaped around your guests and the captain's local knowledge.",
+    text: "Anchorages, restaurants, shore excursions and activities tailored for you and your guests.",
   },
   {
     n: "04",
     title: "Sail",
-    text: "We stay reachable throughout. The crew runs the week; we handle anything they can't, from rebookings to last-minute requests.",
+    text: "Your crew welcome you onboard. We remain available throughout.",
   },
 ];
 ---
@@ -106,15 +96,15 @@ const steps = [
             class="mt-4 text-4xl leading-[1.1] tracking-[0.08em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            A Week At Sea,<br />
-            Quietly Arranged
+            Your Time At Sea,<br />
+            Expertly Arranged
           </h1>
           <p
             class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base"
           >
-            A personally vetted fleet of crewed yachts across the world's finest
-            cruising grounds. We listen first, propose three, and stay close
-            through to the final disembark.
+            A superyacht charter sits in a category of its own — complete
+            privacy, total flexibility and an experience shaped entirely around
+            you.
           </p>
           <div
             class="mt-8 flex flex-col items-start gap-6 sm:flex-row sm:flex-wrap sm:items-start sm:gap-x-8 sm:gap-y-6"
@@ -138,12 +128,6 @@ const steps = [
                     d="M9 5l7 7-7 7"></path>
                 </svg>
               </a>
-              <p
-                class="mt-3 text-[11px] font-light leading-relaxed text-white/75"
-              >
-                Over <span class="num text-white">{yachtCountLabel}</span> crewed
-                yachts across every major cruising ground.
-              </p>
             </div>
             <a
               href={WHATSAPP_HREF}
@@ -181,15 +165,22 @@ const steps = [
             class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Less Catalogue,<br />
-            More Conversation
+            Your Time At Sea,<br />
+            Designed Around You
           </h2>
           <div class="mt-6 h-px w-10 bg-deep/40"></div>
           <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
-            A charter week is too short to spend negotiating with a desk. Our
-            brokers handle a small number of clients at a time and treat each
-            week as a single project, from the opening shortlist through to the
-            dock at the end of the cruise.
+            Sinclair Yachting provides access to the global charter fleet, guided
+            by specialists with genuine maritime experience and personal
+            knowledge of yachts and their cruising grounds.
+          </p>
+          <p class="mt-5 max-w-xl text-base leading-[1.8] text-taupe">
+            Working with a dedicated team who understand the realities of life at
+            sea — the details that define the difference between good and
+            exceptional.
+          </p>
+          <p class="mt-5 max-w-xl text-base font-light italic leading-[1.8] text-charcoal">
+            Every charter is unique.
           </p>
 
           <!-- Pillars -->
@@ -271,7 +262,7 @@ const steps = [
           <p
             class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/100"
           >
-            Already Have a Week in Mind?
+            Already Have Something in Mind?
           </p>
           <h2
             class="mt-4 text-2xl font-light tracking-[0.12em] uppercase text-white sm:text-3xl"
@@ -280,8 +271,7 @@ const steps = [
             Explore the Fleet
           </h2>
           <p class="mt-3 text-sm leading-relaxed text-white/70">
-            Hundreds of crewed yachts across every major cruising ground. Filter
-            by season, length, guests, region.
+            Hundreds of crewed yachts across every major cruising ground.
           </p>
         </div>
         <a
@@ -359,12 +349,10 @@ const steps = [
             class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Pick a Region First
+            Destination Inspiration
           </h2>
           <p class="mt-6 text-base leading-[1.8] text-taupe">
-            Not sure where the week should start? Browse our destinations to see
-            what each cruising ground offers, then filter the fleet by where
-            they're based.
+            Choose a destination and explore a selection of yachts.
           </p>
         </div>
         <div class="flex flex-wrap gap-4">
@@ -419,30 +407,30 @@ const steps = [
         class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
         style="font-family: 'Raleway', sans-serif; font-weight: 300;"
       >
-        Start With a Yacht or a Conversation
+        Start a Conversation
       </h2>
       <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
-        Browse the fleet to see what's available, or message a broker directly.
-        Either way leads to the same place — a week at sea, quietly arranged on
-        your terms.
+        Tell us your dates, your party and the kind of charter you have in mind.
+        A broker will reply personally — by email or WhatsApp, whichever suits
+        you.
       </p>
       <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
         <a
-          href="/yachts"
+          href="mailto:info@sinclairyachting.com"
           class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
-          Browse the Fleet
+          Email a Broker
           <svg
-            class="w-3.5 h-3.5"
+            class="w-4 h-4"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="1.5"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M9 5l7 7-7 7"></path>
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
           </svg>
         </a>
         <a
