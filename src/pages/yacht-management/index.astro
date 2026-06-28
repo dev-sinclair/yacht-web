@@ -19,48 +19,22 @@ const portraitSrc =
 const portraitSrcHi =
   "https://images.unsplash.com/photo-1759135695910-0a6aaaab6b14?w=1800&q=80&auto=format&fit=crop";
 
-const WHATSAPP_HREF =
-  "https://wa.me/34971000000?text=Hi%2C%20I%27d%20like%20to%20discuss%20yacht%20management%20with%20Sinclair.";
-
 const pillars = [
   {
     label: "Technical",
-    text: "Maintenance schedules, refit planning, vendor management and condition reporting. The yacht stays in survey-ready shape, all year.",
+    text: "Planned maintenance, surveys, refit schedules, class and flag compliance, keeping the yacht in prime condition, year-round.",
   },
   {
     label: "Crew",
-    text: "Recruitment, payroll, visas, training and rotation. Quietly retained, properly rewarded, ready when the owner is.",
+    text: "Employment structures, recruitment, payroll, leave and documentation — ensuring professional crew are continuously supported.",
   },
   {
     label: "Compliance",
-    text: "Flag state, MLC, class, surveys and safety certification, kept current so the yacht is always cleared to sail.",
+    text: "Safety management, certification, audits and regulatory oversight — the yacht is always ready to sail.",
   },
   {
     label: "Finance",
-    text: "Budgets, monthly P&L, year-end accounts and insurance. You always know what the yacht costs and why.",
-  },
-];
-
-const steps = [
-  {
-    n: "01",
-    title: "Audit",
-    text: "We open with a private review: current contracts, accounts, crew, systems and condition. Honest, end-to-end, no blame.",
-  },
-  {
-    n: "02",
-    title: "Setup",
-    text: "Banking, payroll, vendors, insurance and compliance moved onto our systems. One handover, no parallel running, no lost data.",
-  },
-  {
-    n: "03",
-    title: "Operate",
-    text: "Single broker accountable for the entire programme. Issues escalated before they become emergencies, decisions cleared with you, not around you.",
-  },
-  {
-    n: "04",
-    title: "Report",
-    text: "Monthly P&L, year-end accounts and an annual strategy session. You always know where the yacht stands financially and operationally.",
+    text: "Budgeting, cash flow, accounting and reporting — clear, consistent supervision at every stage.",
   },
 ];
 ---
@@ -96,26 +70,35 @@ const steps = [
           class="mx-auto max-w-[1440px]"
           style="text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);"
         >
+          <p
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-white/70"
+          >
+            Sinclair Yachting · Yacht Management
+          </p>
           <h1
             class="mt-4 text-4xl leading-[1.1] tracking-[0.08em] uppercase text-white sm:text-5xl lg:text-6xl xl:text-7xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Yacht Management<br />
-            done quietly
+            Yacht<br />
+            Management
           </h1>
           <p
-            class="mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base"
+            class="mt-6 text-lg font-light tracking-[0.04em] text-white/90 sm:text-xl"
+            style="font-family: 'Raleway', sans-serif;"
           >
-            Technical, crew, compliance and finance. Handled end-to-end by a
-            single broker, so the yacht stays legal, maintained and crewed
-            year-round. Whether or not it charters.
+            Expert care, exceptional service.
+          </p>
+          <p
+            class="mt-5 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base"
+          >
+            Your yacht, always ready.
           </p>
           <div class="mt-8 flex flex-wrap items-center gap-4">
             <a
               href="/#contact"
               class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
             >
-              Speak with a broker
+              Enquire Here
               <svg
                 class="w-3.5 h-3.5"
                 fill="none"
@@ -127,19 +110,6 @@ const steps = [
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M9 5l7 7-7 7"></path>
-              </svg>
-            </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-3 px-2 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-white/80 transition-colors duration-300 hover:text-white"
-            >
-              Or message on WhatsApp
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                <path
-                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
-                ></path>
               </svg>
             </a>
           </div>
@@ -157,7 +127,7 @@ const steps = [
         <!-- Left: intro copy -->
         <div>
           <p
-            class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-deep-dark"
           >
             Why Sinclair
           </p>
@@ -165,21 +135,27 @@ const steps = [
             class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
             style="font-family: 'Raleway', sans-serif; font-weight: 300;"
           >
-            Quiet Standards,<br />
-            Year-Round
+            One Team.<br />
+            Complete Oversight.
           </h2>
           <div class="mt-6 h-px w-10 bg-deep/40"></div>
           <p class="mt-8 max-w-xl text-base leading-[1.8] text-taupe">
-            A managed yacht should feel like a private residence: always ready,
-            always accounted for, never the subject of an awkward phone call. We
-            take a small number of vessels under management at a time, treat
-            each as a programme rather than a portfolio, and let the owner spend
-            their attention elsewhere. Charter or no charter, we handle the
-            running.
+            A single point of contact who understands the operational realities
+            of yacht ownership — ensuring peace of mind and consistency across
+            every aspect of the programme.
+          </p>
+
+          <p
+            class="mt-12 text-[11px] font-light tracking-[0.3em] uppercase text-deep-dark"
+          >
+            What We Oversee
+          </p>
+          <p class="mt-3 max-w-xl text-base font-light leading-[1.6] text-charcoal">
+            Technical, crew, compliance and finance.
           </p>
 
           <!-- Pillars -->
-          <div class="mt-12 grid grid-cols-2 gap-y-8 gap-x-8">
+          <div class="mt-8 grid grid-cols-2 gap-y-8 gap-x-8">
             {
               pillars.map((p) => (
                 <div>
@@ -214,114 +190,42 @@ const steps = [
     </Container>
   </section>
 
-  <!-- Charter Management cross-link -->
-  <section class="bg-white pb-24 lg:pb-32">
+  <!-- Also chartering? — brand blue band, cross-link to Charter Management -->
+  <section
+    class="relative overflow-hidden py-20 lg:py-24"
+    style="background-color: #6e8e8f;"
+  >
+    <div
+      class="absolute inset-0 pointer-events-none"
+      style="background-color: rgba(15, 24, 25, 0.14);"
+    >
+    </div>
     <Container>
-      <div class="border-t border-deep/10 pt-12 lg:pt-16">
-        <div class="grid items-end gap-8 sm:grid-cols-[1fr_auto] sm:gap-12">
-          <div class="max-w-2xl">
-            <p
-              class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
-            >
-              Also Chartering?
-            </p>
-            <h3
-              class="mt-3 text-2xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-3xl"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              Add Charter Management
-            </h3>
-            <p class="mt-5 text-base leading-[1.8] text-taupe">
-              Yacht Management keeps the boat running. Charter Management
-              commercialises it. Many owners want both under one roof: same
-              broker, same standard, two distinct programmes.
-            </p>
-          </div>
-          <a
-            href="/charter-management"
-            class="inline-flex items-center gap-3 border border-deep/20 px-7 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal transition-colors duration-300 hover:bg-deep hover:text-white"
-          >
-            Charter Management
-            <svg
-              class="w-3.5 h-3.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M9 5l7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </Container>
-  </section>
-
-  <!-- Process -->
-  <section class="bg-cream/40 py-24 lg:py-32">
-    <Container>
-      <div class="max-w-3xl">
-        <p
-          class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70"
-        >
-          The Process
-        </p>
-        <h2
-          class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
-          style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-        >
-          A Single Handover, A Single Point of Contact
-        </h2>
-        <div class="mt-6 h-px w-10 bg-deep/40"></div>
-      </div>
-
-      <div class="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        {
-          steps.map((step) => (
-            <div class="border-t border-deep/15 pt-6">
-              <p class="num text-[11px] font-medium tracking-[0.25em] text-deep">
-                {step.n}
-              </p>
-              <h3
-                class="mt-4 text-xl font-light tracking-[0.15em] uppercase text-charcoal"
-                style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-              >
-                {step.title}
-              </h3>
-              <p class="mt-4 text-sm leading-[1.75] text-taupe">{step.text}</p>
-            </div>
-          ))
-        }
-      </div>
-    </Container>
-  </section>
-
-  <!-- Closing CTA -->
-  <section class="bg-white py-24 lg:py-32 text-center">
-    <Container>
-      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70">
-        Ready When You Are
-      </p>
-      <h2
-        class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
-        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+      <div
+        class="relative flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center"
       >
-        Begin a Confidential Conversation
-      </h2>
-      <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
-        An initial audit costs nothing and is entirely private. We'll review the
-        current state of the yacht, the operating costs, and whether our way of
-        working would suit yours. With no obligation either way.
-      </p>
-      <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <div class="max-w-xl">
+          <p
+            class="text-[11px] font-light tracking-[0.3em] uppercase text-white/80"
+          >
+            Also Chartering?
+          </p>
+          <h2
+            class="mt-4 text-2xl font-light tracking-[0.12em] uppercase text-white sm:text-3xl"
+            style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+          >
+            Add Charter Management
+          </h2>
+          <p class="mt-4 text-base leading-[1.8] text-white/85">
+            Yacht Management maintains your asset. Charter Management
+            commercialises it — the same standard, two distinct programmes.
+          </p>
+        </div>
         <a
-          href="/#contact"
-          class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
+          href="/charter-management"
+          class="btn-fill-light inline-flex items-center gap-3 border border-white/40 px-8 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white"
         >
-          Request an audit
+          Charter Management
           <svg
             class="w-3.5 h-3.5"
             fill="none"
@@ -335,17 +239,42 @@ const steps = [
               d="M9 5l7 7-7 7"></path>
           </svg>
         </a>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Closing CTA -->
+  <section class="bg-white py-24 lg:py-32 text-center">
+    <Container>
+      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep-dark">
+        Ready When You Are
+      </p>
+      <h2
+        class="mt-4 text-3xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-4xl lg:text-5xl"
+        style="font-family: 'Raleway', sans-serif; font-weight: 300;"
+      >
+        Begin a Confidential Conversation
+      </h2>
+      <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-taupe">
+        We will review your requirements and advise accordingly.
+      </p>
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
         <a
-          href={WHATSAPP_HREF}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-3 px-2 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-taupe transition-colors duration-300 hover:text-charcoal"
+          href="/#contact"
+          class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-8 py-3.5 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal"
         >
-          Chat on WhatsApp
-          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+          Request a Consultation
+          <svg
+            class="w-3.5 h-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
             <path
-              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
-            ></path>
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"></path>
           </svg>
         </a>
       </div>
