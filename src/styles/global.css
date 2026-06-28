@@ -149,6 +149,19 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 
+/* Hero CTA buttons: flat (no inherited text-shadow), with an ocean-blue hover
+   that matches the navbar Enquire button. Scoped CSS rather than Tailwind
+   arbitrary-hex hovers, which are unreliable in this project. */
+.cta-blue-hover {
+  text-shadow: none;
+  transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+}
+.cta-blue-hover:hover {
+  background-color: #6e8e8f;
+  color: #ffffff;
+  border-color: #6e8e8f;
+}
+
 /* ── Marquee-on-overflow ── */
 /* Wrap any inline text that should scroll horizontally when it overflows.
    The script in /yachts toggles the .is-marquee class based on measured overflow. */
