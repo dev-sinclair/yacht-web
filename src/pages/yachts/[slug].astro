@@ -185,7 +185,8 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
   function renderHero(yacht: Yacht): string {
     const image = yacht.images[0] ?? { url: "", alt: yacht.blueprint.name };
     return `
-<section id="hero" class="relative h-[65vh] w-full overflow-hidden bg-deep">
+<section class="relative h-screen w-full bg-white px-3 pb-3 sm:px-4 sm:pb-4 lg:px-5 lg:pb-5">
+  <div id="hero" class="relative h-full w-full overflow-hidden bg-deep">
   <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt)}" class="absolute inset-0 h-full w-full object-cover" loading="eager" />
   <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent"></div>
   <div class="absolute bottom-0 left-0 right-0 z-10 px-6 pb-10 sm:px-8 lg:px-12">
@@ -205,6 +206,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
         Enquire on WhatsApp ${WA_SVG("w-4 h-4")}
       </a>
     </div>
+  </div>
   </div>
 </section>`.trim();
   }
