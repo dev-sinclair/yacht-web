@@ -7793,7 +7793,7 @@
       "Sailing"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 2940000,
+    "weekPricingFrom": 3300000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -12437,6 +12437,32 @@
     ]
   },
   {
+    "uri": "c::39480359087::vessel::e26fd690-ea32-11f0-ae84-3d6dcb8dc31a",
+    "slug": "angelica",
+    "name": "ANGELICA",
+    "hero": "/media/media::image::a::vessel::e26fd690-ea32-11f0-ae84-3d6dcb8dc31a::assets::eb0c0d80-ea34-11f0-8450-81fa8014e4cd/{imageVariant}",
+    "length": 23,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2005,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 550000,
+    "weekPricingFrom": 3520000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::aba39dc0-a4e8-11f0-acf4-af4708853852",
     "slug": "alina",
     "name": "ALINA",
@@ -12517,32 +12543,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::39480359087::vessel::e26fd690-ea32-11f0-ae84-3d6dcb8dc31a",
-    "slug": "angelica",
-    "name": "ANGELICA",
-    "hero": "/media/media::image::a::vessel::e26fd690-ea32-11f0-ae84-3d6dcb8dc31a::assets::eb0c0d80-ea34-11f0-8450-81fa8014e4cd/{imageVariant}",
-    "length": 23,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2005,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 460000,
-    "weekPricingFrom": 3115000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -13081,6 +13081,32 @@
     ]
   },
   {
+    "uri": "c::39480359087::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92",
+    "slug": "anita-ii",
+    "name": "ANITA II",
+    "hero": "/media/media::image::a::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92::assets::48c735e0-08d4-11f1-8df4-e73fb2b54ce6/{imageVariant}",
+    "length": 22.1,
+    "sleeps": 8,
+    "cabins": 2,
+    "builtYear": 2007,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::35404802089::vessel::d5cbfbde-fe8c-11ed-889f-43d4bb723744",
     "slug": "happy-3",
     "name": "HAPPY 3",
@@ -13104,32 +13130,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::39480359087::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92",
-    "slug": "anita-ii",
-    "name": "ANITA II",
-    "hero": "/media/media::image::a::vessel::acd344f0-08d1-11f1-94a4-0be90c8f6f92::assets::48c735e0-08d4-11f1-8df4-e73fb2b54ce6/{imageVariant}",
-    "length": 22.1,
-    "sleeps": 8,
-    "cabins": 2,
-    "builtYear": 2007,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 280000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -14088,6 +14088,24 @@
     ]
   },
   {
+    "uri": "c::39480359087::vessel::d5cc25e9-fe8c-11ed-889f-43d4bb723744",
+    "slug": "domenique",
+    "name": "DOMENIQUE",
+    "hero": "/media/media::image::a::vessel::d5cc25e9-fe8c-11ed-889f-43d4bb723744::assets::5cb98620-ef71-11ef-91c9-01c46964563a/{imageVariant}",
+    "length": 21.2,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2730000,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::19057481779::vessel::1e5dddb0-1d97-11ef-8d0a-77dae4f04fdd",
     "slug": "simply-brilliant",
     "name": "SIMPLY BRILLIANT",
@@ -14112,24 +14130,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::39480359087::vessel::d5cc25e9-fe8c-11ed-889f-43d4bb723744",
-    "slug": "domenique",
-    "name": "DOMENIQUE",
-    "hero": "/media/media::image::a::vessel::d5cc25e9-fe8c-11ed-889f-43d4bb723744::assets::5cb98620-ef71-11ef-91c9-01c46964563a/{imageVariant}",
-    "length": 21.2,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2625000,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::8344947358::vessel::d5cca299-fe8c-11ed-889f-43d4bb723744",
@@ -15522,8 +15522,8 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 290000,
-    "weekPricingFrom": 2500000,
+    "dayPricingFrom": 180000,
+    "weekPricingFrom": 2730000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
