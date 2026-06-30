@@ -1,5 +1,5 @@
 {
-  "lastModified": 1775559920723,
+  "lastModified": 1782806958884,
   "uri": "c::39480359087::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11",
   "yachtType": [
     "Sailing",
@@ -132,30 +132,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 132000,
+      "price": 112000,
       "displayCurrency": "EUR",
-      "displayPrice": 132000,
+      "displayPrice": 112000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 155000,
+      "price": 140000,
       "displayCurrency": "EUR",
-      "displayPrice": 155000,
+      "displayPrice": 140000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 740000,
+      "price": 700000,
       "displayCurrency": "EUR",
-      "displayPrice": 740000,
+      "displayPrice": 700000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 984000,
+      "price": 900000,
       "displayCurrency": "EUR",
-      "displayPrice": 984000,
+      "displayPrice": 900000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -177,28 +177,28 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 155000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 140000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 155000,
-              "amount": 155000,
-              "conditions": "VAT not included"
+              "unitPrice": 140000,
+              "amount": 140000,
+              "conditions": "Tax exempt"
             },
             {
               "item": "APA",
               "conditions": "VAT included",
               "quantity": 0.3,
-              "unitPrice": 180000,
-              "amount": 54000
+              "unitPrice": 200000,
+              "amount": 60000
             }
           ],
-          "total": 209000,
-          "subTotal": 209000,
+          "total": 200000,
+          "subTotal": 200000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -272,17 +272,17 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 132000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 112000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 132000,
-              "amount": 132000,
-              "conditions": "VAT not included"
+              "unitPrice": 112000,
+              "amount": 112000,
+              "conditions": "Tax exempt"
             },
             {
               "item": "APA",
@@ -292,8 +292,8 @@
               "amount": 48000
             }
           ],
-          "total": 180000,
-          "subTotal": 180000,
+          "total": 160000,
+          "subTotal": 160000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -367,7 +367,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 740000,
+          "charterFee": 700000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -375,20 +375,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 740000,
-              "amount": 740000,
-              "conditions": "VAT not included"
+              "unitPrice": 700000,
+              "amount": 700000,
+              "conditions": "Tax exempt"
             },
             {
               "item": "APA",
               "conditions": "VAT included",
               "quantity": 0.3,
-              "unitPrice": 900000,
-              "amount": 270000
+              "unitPrice": 700000,
+              "amount": 210000
             }
           ],
-          "total": 1010000,
-          "subTotal": 1010000,
+          "total": 910000,
+          "subTotal": 910000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -450,28 +450,28 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 984000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 900000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 984000,
-              "amount": 984000,
-              "conditions": "VAT not included"
+              "unitPrice": 900000,
+              "amount": 900000,
+              "conditions": "Tax exempt"
             },
             {
               "item": "APA",
               "conditions": "VAT included",
               "quantity": 0.3,
-              "unitPrice": 1200000,
-              "amount": 360000
+              "unitPrice": 900000,
+              "amount": 270000
             }
           ],
-          "total": 1344000,
-          "subTotal": 1344000,
+          "total": 1170000,
+          "subTotal": 1170000,
           "totalTax": 0
         },
         "inclusionZones": [

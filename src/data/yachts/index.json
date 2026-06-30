@@ -15484,6 +15484,29 @@
     ]
   },
   {
+    "uri": "c::39480359087::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11",
+    "slug": "oasis-e38f06",
+    "name": "OASIS",
+    "hero": "/media/media::image::a::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11::assets::d21b9900-2f4c-11f1-93ba-5b191c913d8a/{imageVariant}",
+    "length": 20,
+    "sleeps": 9,
+    "cabins": 3,
+    "builtYear": 2001,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing",
+      "Gulet"
+    ],
+    "dayPricingFrom": 112000,
+    "weekPricingFrom": 700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::39480359087::vessel::8007def0-1ce6-11ef-b671-cb493c376fe8",
     "slug": "noa",
     "name": "NOA",
@@ -15560,29 +15583,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::39480359087::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11",
-    "slug": "oasis-e38f06",
-    "name": "OASIS",
-    "hero": "/media/media::image::a::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11::assets::d21b9900-2f4c-11f1-93ba-5b191c913d8a/{imageVariant}",
-    "length": 20,
-    "sleeps": 9,
-    "cabins": 3,
-    "builtYear": 2001,
-    "builder": "Custom",
-    "yachtType": [
-      "Sailing",
-      "Gulet"
-    ],
-    "dayPricingFrom": 132000,
-    "weekPricingFrom": 740000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
@@ -22719,7 +22719,7 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 180000,
+    "dayPricingFrom": 126000,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
