@@ -6486,6 +6486,36 @@
     ]
   },
   {
+    "uri": "c::8864389904::vessel::d5cc7960-fe8c-11ed-889f-43d4bb723744",
+    "slug": "chaos",
+    "name": "CHAOS",
+    "hero": "/media/media::image::c::8864389904::vessel::d5cc7960-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-58660-full-chaos_sydney_jpg/{imageVariant}",
+    "length": 30,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2010,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 227272.72699999998,
+    "weekPricingFrom": 10800000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2023",
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2022",
+      "winter-2023",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7580644139::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26",
     "slug": "calm-down",
     "name": "CALM DOWN",
@@ -6708,36 +6738,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8864389904::vessel::d5cc7960-fe8c-11ed-889f-43d4bb723744",
-    "slug": "chaos",
-    "name": "CHAOS",
-    "hero": "/media/media::image::c::8864389904::vessel::d5cc7960-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-58660-full-chaos_sydney_jpg/{imageVariant}",
-    "length": 30,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2010,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 227272.72699999998,
-    "weekPricingFrom": 10800000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2023",
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2022",
-      "winter-2023",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
