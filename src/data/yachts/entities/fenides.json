@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761573922484,
+  "lastModified": 1782984455665,
   "uri": "c::25053705640::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec",
   "yachtType": [
     "Sailing"
@@ -180,52 +180,44 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 77500,
+      "price": 88000,
       "displayCurrency": "USD",
-      "displayPrice": 77500,
+      "displayPrice": 88000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 997000,
+      "price": 1073000,
       "displayCurrency": "USD",
-      "displayPrice": 997000,
+      "displayPrice": 1073000,
       "unit": "DAY"
     },
     "pricingInfo": [
       {
-        "name": "Double/Twin Rate 2024 (Komodo National Park)",
+        "name": "Double/Twin Rate 2026 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 77500,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 88000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 77500,
-              "amount": 77500,
+              "unitPrice": 88000,
+              "amount": 88000,
               "conditions": "person/night"
             }
           ],
-          "total": 77500,
-          "subTotal": 77500,
+          "total": 88000,
+          "subTotal": 88000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -253,38 +245,30 @@
         "petsAllowed": false
       },
       {
-        "name": "Suite Rate 2024 (Komodo National Park)",
+        "name": "Family Suite Rate 2026 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 87500,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 98000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 87500,
-              "amount": 87500,
+              "unitPrice": 98000,
+              "amount": 98000,
               "conditions": "person/night"
             }
           ],
-          "total": 87500,
-          "subTotal": 87500,
+          "total": 98000,
+          "subTotal": 98000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -312,38 +296,30 @@
         "petsAllowed": false
       },
       {
-        "name": "Full Charter Rate 2024 (Komodo National Park)",
+        "name": "Full Charter Rate 2026 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 818000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 901000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 818000,
-              "amount": 818000,
+              "unitPrice": 901000,
+              "amount": 901000,
               "conditions": "per night"
             }
           ],
-          "total": 818000,
-          "subTotal": 818000,
+          "total": 901000,
+          "subTotal": 901000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -371,24 +347,16 @@
         "petsAllowed": false
       },
       {
-        "name": "Double/Twin Rate 2024 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Double/Twin Rate 2026 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 89500,
+          "charterFee": 102000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -396,13 +364,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 89500,
-              "amount": 89500,
+              "unitPrice": 102000,
+              "amount": 102000,
               "conditions": "person/night"
             }
           ],
-          "total": 89500,
-          "subTotal": 89500,
+          "total": 102000,
+          "subTotal": 102000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -430,38 +398,30 @@
         "petsAllowed": false
       },
       {
-        "name": "Suite Rate 2024 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Family Suite Rate 2026 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 99500,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 112000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 99500,
-              "amount": 99500,
+              "unitPrice": 112000,
+              "amount": 112000,
               "conditions": "person/night"
             }
           ],
-          "total": 99500,
-          "subTotal": 99500,
+          "total": 112000,
+          "subTotal": 112000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -489,38 +449,30 @@
         "petsAllowed": false
       },
       {
-        "name": "Full Charter Rate 2024 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Full Charter Rate 2026 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
           {
             "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 951000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 1047000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 951000,
-              "amount": 951000,
+              "unitPrice": 1047000,
+              "amount": 1047000,
               "conditions": "per night"
             }
           ],
-          "total": 951000,
-          "subTotal": 951000,
+          "total": 1047000,
+          "subTotal": 1047000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -548,16 +500,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Double/Twin Rate 2025 (Komodo National Park)",
+        "name": "Double/Twin Rate 2027 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -565,21 +509,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 81500,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 90500,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 81500,
-              "amount": 81500,
+              "unitPrice": 90500,
+              "amount": 90500,
               "conditions": "person/night"
             }
           ],
-          "total": 81500,
-          "subTotal": 81500,
+          "total": 90500,
+          "subTotal": 90500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -607,16 +551,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Suite Rate 2025 (Komodo National Park)",
+        "name": "Family Suite Rate 2027 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -624,21 +560,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 92000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 100500,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 92000,
-              "amount": 92000,
+              "unitPrice": 100500,
+              "amount": 100500,
               "conditions": "person/night"
             }
           ],
-          "total": 92000,
-          "subTotal": 92000,
+          "total": 100500,
+          "subTotal": 100500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -666,16 +602,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Full Charter Rate 2025 (Komodo National Park)",
+        "name": "Full Charter Rate 2027 (Komodo National Park)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -683,21 +611,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 858000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 923500,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 858000,
-              "amount": 858000,
+              "unitPrice": 923500,
+              "amount": 923500,
               "conditions": "per night"
             }
           ],
-          "total": 858000,
-          "subTotal": 858000,
+          "total": 923500,
+          "subTotal": 923500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -725,16 +653,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Double/Twin Rate 2025 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Double/Twin Rate 2027 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -742,21 +662,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 94000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 104500,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 94000,
-              "amount": 94000,
+              "unitPrice": 104500,
+              "amount": 104500,
               "conditions": "person/night"
             }
           ],
-          "total": 94000,
-          "subTotal": 94000,
+          "total": 104500,
+          "subTotal": 104500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -784,16 +704,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Suite Rate 2025 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Family Suite Rate 2027 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -801,21 +713,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 105000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 115000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 105000,
-              "amount": 105000,
+              "unitPrice": 115000,
+              "amount": 115000,
               "conditions": "person/night"
             }
           ],
-          "total": 105000,
-          "subTotal": 105000,
+          "total": 115000,
+          "subTotal": 115000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -843,16 +755,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Full Charter Rate 2025 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
+        "name": "Full Charter Rate 2027 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
           {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
@@ -860,21 +764,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 997000,
-          "inputAmountTaxed": "NONE",
+          "charterFee": 1073000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 997000,
-              "amount": 997000,
+              "unitPrice": 1073000,
+              "amount": 1073000,
               "conditions": "per night"
             }
           ],
-          "total": 997000,
-          "subTotal": 997000,
+          "total": 1073000,
+          "subTotal": 1073000,
           "totalTax": 0
         },
         "inclusionZones": [

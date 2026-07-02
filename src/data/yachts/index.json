@@ -282,34 +282,6 @@
     ]
   },
   {
-    "uri": "c::16875063630::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13",
-    "slug": "sea-raes",
-    "name": "SEA RAES",
-    "hero": "/media/media::image::a::vessel::fe0d59a0-e074-11ee-aa6b-83d3c9b72a13::assets::f9bd9540-e079-11ee-aa6b-83d3c9b72a13.png/{imageVariant}",
-    "length": 30.78,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1996,
-    "builder": "Farocean Marine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": 8400000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::16875063630::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47",
     "slug": "little-perle",
     "name": "LITTLE PERLE",
@@ -2648,6 +2620,30 @@
     ]
   },
   {
+    "uri": "c::25053705640::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec",
+    "slug": "fenides",
+    "name": "FENIDES",
+    "hero": "/media/media::image::a::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec::assets::01afa400-969b-11ef-85c1-99b09444a2c4/{imageVariant}",
+    "length": 41,
+    "sleeps": 11,
+    "cabins": 5,
+    "builtYear": 2019,
+    "builder": "Kammisi (Bonto) with the Konjo Boat Builders of Ara",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 88000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::25941359203::vessel::d5cc7a30-fe8c-11ed-889f-43d4bb723744",
     "slug": "invictus",
     "name": "INVICTUS",
@@ -2715,32 +2711,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::25053705640::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec",
-    "slug": "fenides",
-    "name": "FENIDES",
-    "hero": "/media/media::image::a::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec::assets::01afa400-969b-11ef-85c1-99b09444a2c4/{imageVariant}",
-    "length": 41,
-    "sleeps": 11,
-    "cabins": 5,
-    "builtYear": 2019,
-    "builder": "Kammisi (Bonto) with the Konjo Boat Builders of Ara",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 77500,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -9869,6 +9839,28 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744",
+    "slug": "wally-one",
+    "name": "WALLY ONE",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744::assets::e5a676f0-d7ad-11ee-87f1-bb2a63a2dcd1.jpeg/{imageVariant}",
+    "length": 25.15,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 1991,
+    "builder": "Wally Yachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
     "slug": "champagne-hippy",
     "name": "CHAMPAGNE HIPPY",
@@ -9921,28 +9913,6 @@
     ]
   },
   {
-    "uri": "c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744",
-    "slug": "wally-one",
-    "name": "WALLY ONE",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744::assets::e5a676f0-d7ad-11ee-87f1-bb2a63a2dcd1.jpeg/{imageVariant}",
-    "length": 25.15,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 1991,
-    "builder": "Wally Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
     "uri": "c::7579668770::vessel::d5cb5c97-fe8c-11ed-889f-43d4bb723744",
     "slug": "ikigai",
     "name": "IKIGAI",
@@ -9957,6 +9927,29 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
+    "uri": "c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744",
+    "slug": "magic-cat",
+    "name": "MAGIC CAT",
+    "hero": "/media/media::image::c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744::assets::0a1add60-00ec-11f0-91fc-359707e63b90/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1995,
+    "builder": "Multiplast",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -9990,29 +9983,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744",
-    "slug": "magic-cat",
-    "name": "MAGIC CAT",
-    "hero": "/media/media::image::c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744::assets::0a1add60-00ec-11f0-91fc-359707e63b90/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1995,
-    "builder": "Multiplast",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
