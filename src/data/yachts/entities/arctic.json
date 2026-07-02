@@ -1,5 +1,5 @@
 {
-  "lastModified": 1777961871811,
+  "lastModified": 1783005230954,
   "uri": "c::8864389904::vessel::d5cc7754-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor",
@@ -194,6 +194,234 @@
   },
   "crew": [],
   "pricing": {
-    "pricingInfo": []
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 59000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 59000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 59000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 59000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 59000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 59000000,
+              "amount": 59000000,
+              "conditions": ""
+            }
+          ],
+          "total": 59000000,
+          "subTotal": 59000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Norway",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Norway"
+            ],
+            "coordinates": [
+              16.45515917935375,
+              65.17893325225555
+            ],
+            "bbox": [
+              4.799023437500011,
+              58.020947265625,
+              30.96064453125001,
+              71.14208984375
+            ]
+          },
+          {
+            "label": "Greenland",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "Greenland"
+            ],
+            "coordinates": [
+              -42.04799698428864,
+              74.14984529369356
+            ],
+            "bbox": [
+              -72.81806640625,
+              59.815478515625,
+              -11.425537109375,
+              83.599609375
+            ]
+          },
+          {
+            "label": "Iceland",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Iceland"
+            ],
+            "coordinates": [
+              -18.573961670805215,
+              64.99575386067329
+            ],
+            "bbox": [
+              -24.475683593749977,
+              63.406689453125,
+              -13.556103515624983,
+              66.52607421875
+            ]
+          },
+          {
+            "label": "Svalbard Is.",
+            "type": "Dependency",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Svalbard Is."
+            ],
+            "coordinates": [
+              20.704885356082524,
+              78.25928576651712
+            ],
+            "bbox": [
+              10.5576171875,
+              74.3521484375,
+              33.62929687500002,
+              80.47783203125
+            ]
+          },
+          {
+            "label": "Antarctica",
+            "type": "Indeterminate",
+            "category": [
+              "Antarctica",
+              "Antarctica",
+              "Antarctica"
+            ],
+            "coordinates": [
+              10.329615548330707,
+              -77.55344595180992
+            ],
+            "bbox": [
+              -179.99999999999991,
+              -89.99999999999994,
+              180,
+              -60.51620859199994
+            ]
+          },
+          {
+            "label": "Arctic Ocean",
+            "type": "Custom Area",
+            "category": [
+              "Arctic Ocean"
+            ],
+            "coordinates": [
+              -10.686959339539762,
+              84.52666934344789
+            ],
+            "bbox": [
+              -180,
+              71.20841868761822,
+              179.99989708894586,
+              89.99999999999996
+            ]
+          },
+          {
+            "label": "Mediterranean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Mediterranean Sea"
+            ],
+            "coordinates": [
+              17.891338226172916,
+              35.763473470161784
+            ],
+            "bbox": [
+              -2.0911329817696185,
+              30.83036652274312,
+              36.18826175308399,
+              43.82670502377162
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.406276768562416,
+              43.75274626720091
+            ],
+            "bbox": [
+              7.377734375000017,
+              43.731738281249996,
+              7.438671875000011,
+              43.770898437499994
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
   }
 }
