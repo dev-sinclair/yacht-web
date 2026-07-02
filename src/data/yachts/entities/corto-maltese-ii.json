@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782903685411,
+  "lastModified": 1782945556387,
   "uri": "c::18074096051::vessel::7f2ee7b0-c53e-11f0-9cef-e17aa250c776",
   "yachtType": [
     "Sailing",
@@ -14,14 +14,15 @@
       "/media/media::image::a::vessel::7f2ee7b0-c53e-11f0-9cef-e17aa250c776::assets::042c7e20-c547-11f0-9b0e-dd4f270be7e0/{imageVariant}"
     ],
     "make": "Shore Boat Builders Ltd",
+    "model": "Bali 5.8",
     "maxCrew": 2,
     "sleeps": 10,
     "basePort": {
-      "uri": "a::place::2f566a40-20a1-11ee-88fc-7d0b31eff13f",
-      "name": "Golfo Aranci",
+      "uri": "a::place::03cecaf0-4d93-11ef-897f-8b3f264c9e41",
+      "name": "Portisco",
       "coordinates": {
-        "latitude": 40.99612453736961,
-        "longitude": 9.625291666111787
+        "latitude": 41.03873516514346,
+        "longitude": 9.518687822878418
       },
       "country": "Italy"
     },
@@ -95,33 +96,130 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2000000,
+      "price": 1850000,
       "displayCurrency": "EUR",
-      "displayPrice": 2000000,
+      "displayPrice": 1850000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3850000,
+      "price": 3600000,
       "displayCurrency": "EUR",
-      "displayPrice": 3850000,
+      "displayPrice": 3600000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "04.04.2026 - 23.05.2026",
+        "name": "04.04.2026 - 30.05.2026 & 03.10.2026 - 19.12.2026",
         "effectiveDates": [
           {
             "from": "2026-04-04T00:00:00.000Z",
-            "to": "2026-05-23T23:59:59.999Z"
+            "to": "2026-05-30T23:59:59.999Z"
           },
           {
             "from": "2027-04-04T00:00:00.000Z",
-            "to": "2027-05-23T23:59:59.999Z"
+            "to": "2027-05-30T23:59:59.999Z"
           },
           {
             "from": "2028-04-04T00:00:00.000Z",
-            "to": "2028-05-23T23:59:59.999Z"
+            "to": "2028-05-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-03T00:00:00.000Z",
+            "to": "2026-12-19T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-03T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-03T00:00:00.000Z",
+            "to": "2028-12-19T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1850000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1850000,
+              "amount": 1850000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 1850000,
+          "subTotal": 1850000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "30.05.2026 - 06.06.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-05-30T00:00:00.000Z",
+            "to": "2026-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-30T00:00:00.000Z",
+            "to": "2027-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-30T00:00:00.000Z",
+            "to": "2028-06-06T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -139,17 +237,192 @@
               "conditions": "VAT & APA Excluded"
             },
             {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
+              "item": "Security deposit",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 300000,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 2000000,
+          "subTotal": 2000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "06.06.2026 - 20.06.2026 & 19.09.2026 - 26.09.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-06-06T00:00:00.000Z",
+            "to": "2026-06-20T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-06T00:00:00.000Z",
+            "to": "2027-06-20T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-06T00:00:00.000Z",
+            "to": "2028-06-20T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-19T00:00:00.000Z",
+            "to": "2026-09-26T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-19T00:00:00.000Z",
+            "to": "2027-09-26T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-19T00:00:00.000Z",
+            "to": "2028-09-26T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2300000,
+              "amount": 2300000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 2300000,
+          "subTotal": 2300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "20.06.2026 - 27.06.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-06-20T00:00:00.000Z",
+            "to": "2026-06-27T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-20T00:00:00.000Z",
+            "to": "2027-06-27T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-20T00:00:00.000Z",
+            "to": "2028-06-27T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2400000,
+              "amount": 2400000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
               "amount": 0
             }
           ],
@@ -159,25 +432,6 @@
         },
         "inclusionZones": [
           {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
             "label": "Italy",
             "type": "Sovereign country",
             "category": [
@@ -195,61 +449,7 @@
               18.517425977000073,
               47.08521494500006
             ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "23.05.2026 - 30.05.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-05-23T00:00:00.000Z",
-            "to": "2026-05-30T23:59:59.999Z"
           },
-          {
-            "from": "2027-05-23T00:00:00.000Z",
-            "to": "2027-05-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-05-23T00:00:00.000Z",
-            "to": "2028-05-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2200000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2200000,
-              "amount": 2200000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 2600000,
-          "subTotal": 2600000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
           {
             "label": "Sardinia",
             "type": "Geo subunit",
@@ -268,148 +468,25 @@
               9.805273437500006,
               41.257080078125
             ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "30.05.2026 - 06.06.2026 & 19.09.2026 - 03.10.2026",
+        "name": "27.06.2026 - 04.07.2026 & 12.09.2026 - 19.09.2026",
         "effectiveDates": [
           {
-            "from": "2026-05-30T00:00:00.000Z",
-            "to": "2026-06-06T23:59:59.999Z"
+            "from": "2026-06-27T00:00:00.000Z",
+            "to": "2026-07-04T23:59:59.999Z"
           },
           {
-            "from": "2027-05-30T00:00:00.000Z",
-            "to": "2027-06-06T23:59:59.999Z"
+            "from": "2027-06-27T00:00:00.000Z",
+            "to": "2027-07-04T23:59:59.999Z"
           },
           {
-            "from": "2028-05-30T00:00:00.000Z",
-            "to": "2028-06-06T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-19T00:00:00.000Z",
-            "to": "2026-10-03T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-19T00:00:00.000Z",
-            "to": "2027-10-03T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-19T00:00:00.000Z",
-            "to": "2028-10-03T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2500000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2500000,
-              "amount": 2500000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 2900000,
-          "subTotal": 2900000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "06.06.2026 - 27.06.2026 & 12.09.2026 - 19.09.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-06-06T00:00:00.000Z",
-            "to": "2026-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-06T00:00:00.000Z",
-            "to": "2027-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-06T00:00:00.000Z",
-            "to": "2028-06-27T23:59:59.999Z"
+            "from": "2028-06-27T00:00:00.000Z",
+            "to": "2028-07-04T23:59:59.999Z"
           },
           {
             "from": "2026-09-12T00:00:00.000Z",
@@ -426,7 +503,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2700000,
+          "charterFee": 2450000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -434,22 +511,792 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2700000,
-              "amount": 2700000,
+              "unitPrice": 2450000,
+              "amount": 2450000,
               "conditions": "VAT & APA Excluded"
             },
             {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
+              "item": "Security deposit",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 300000,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 2450000,
+          "subTotal": 2450000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "04.07.2026 - 11.07.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-07-04T00:00:00.000Z",
+            "to": "2026-07-11T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-04T00:00:00.000Z",
+            "to": "2027-07-11T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-04T00:00:00.000Z",
+            "to": "2028-07-11T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2650000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2650000,
+              "amount": 2650000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 2650000,
+          "subTotal": 2650000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "11.07.2026 - 18.07.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-07-11T00:00:00.000Z",
+            "to": "2026-07-18T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-11T00:00:00.000Z",
+            "to": "2027-07-18T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-11T00:00:00.000Z",
+            "to": "2028-07-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2850000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2850000,
+              "amount": 2850000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 2850000,
+          "subTotal": 2850000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "18.07.2026 - 25.07.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-07-18T00:00:00.000Z",
+            "to": "2026-07-25T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-18T00:00:00.000Z",
+            "to": "2027-07-25T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-18T00:00:00.000Z",
+            "to": "2028-07-25T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3050000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3050000,
+              "amount": 3050000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3050000,
+          "subTotal": 3050000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "25.07.2026 - 01.08.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-07-25T00:00:00.000Z",
+            "to": "2026-08-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-25T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-25T00:00:00.000Z",
+            "to": "2028-08-01T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3150000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3150000,
+              "amount": 3150000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3150000,
+          "subTotal": 3150000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "01.08.2026 - 08.08.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-08-01T00:00:00.000Z",
+            "to": "2026-08-08T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-08-08T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-01T00:00:00.000Z",
+            "to": "2028-08-08T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3250000,
+              "amount": 3250000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3250000,
+          "subTotal": 3250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "08.08.2026 - 15.08.2026 & 26.12.2026 - 31.12.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-08-08T00:00:00.000Z",
+            "to": "2026-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-08T00:00:00.000Z",
+            "to": "2027-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-08T00:00:00.000Z",
+            "to": "2028-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-26T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-26T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-26T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3500000,
+          "subTotal": 3500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "15.08.2026 - 22.08.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-08-15T00:00:00.000Z",
+            "to": "2026-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-15T00:00:00.000Z",
+            "to": "2027-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-15T00:00:00.000Z",
+            "to": "2028-08-22T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3600000,
+              "amount": 3600000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3600000,
+          "subTotal": 3600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "22.08.2026 - 29.08.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-08-22T00:00:00.000Z",
+            "to": "2026-08-29T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-22T00:00:00.000Z",
+            "to": "2027-08-29T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-22T00:00:00.000Z",
+            "to": "2028-08-29T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3200000,
+              "amount": 3200000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
+              "amount": 0
+            }
+          ],
+          "total": 3200000,
+          "subTotal": 3200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "29.08.2026 - 05.09.2026",
+        "effectiveDates": [
+          {
+            "from": "2026-08-29T00:00:00.000Z",
+            "to": "2026-09-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-29T00:00:00.000Z",
+            "to": "2027-09-05T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-29T00:00:00.000Z",
+            "to": "2028-09-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3100000,
+              "amount": 3100000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 100000,
               "amount": 0
             }
           ],
@@ -457,25 +1304,52 @@
           "subTotal": 3100000,
           "totalTax": 0
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "27.06.2026 - 04.07.2026 & 05.09.2026 - 12.09.2026",
+        "name": "05.09.2026 - 12.09.2026",
         "effectiveDates": [
-          {
-            "from": "2026-06-27T00:00:00.000Z",
-            "to": "2026-07-04T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-27T00:00:00.000Z",
-            "to": "2027-07-04T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-27T00:00:00.000Z",
-            "to": "2028-07-04T23:59:59.999Z"
-          },
           {
             "from": "2026-09-05T00:00:00.000Z",
             "to": "2026-09-12T23:59:59.999Z"
@@ -504,44 +1378,18 @@
               "conditions": "VAT & APA Excluded"
             },
             {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
+              "item": "Security deposit",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 300000,
+              "unitPrice": 100000,
               "amount": 0
             }
           ],
-          "total": 3400000,
-          "subTotal": 3400000,
+          "total": 3000000,
+          "subTotal": 3000000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
           {
             "label": "Italy",
             "type": "Sovereign country",
@@ -559,6 +1407,25 @@
               35.48924388200004,
               18.517425977000073,
               47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
             ]
           }
         ],
@@ -566,24 +1433,24 @@
         "petsAllowed": false
       },
       {
-        "name": "04.07.2026 - 11.07.2026",
+        "name": "26.09.2026 - 03.10.2026",
         "effectiveDates": [
           {
-            "from": "2026-07-04T00:00:00.000Z",
-            "to": "2026-07-11T23:59:59.999Z"
+            "from": "2026-09-26T00:00:00.000Z",
+            "to": "2026-10-03T23:59:59.999Z"
           },
           {
-            "from": "2027-07-04T00:00:00.000Z",
-            "to": "2027-07-11T23:59:59.999Z"
+            "from": "2027-09-26T00:00:00.000Z",
+            "to": "2027-10-03T23:59:59.999Z"
           },
           {
-            "from": "2028-07-04T00:00:00.000Z",
-            "to": "2028-07-11T23:59:59.999Z"
+            "from": "2028-09-26T00:00:00.000Z",
+            "to": "2028-10-03T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3300000,
+          "charterFee": 2100000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -591,49 +1458,23 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3300000,
-              "amount": 3300000,
+              "unitPrice": 2100000,
+              "amount": 2100000,
               "conditions": "VAT & APA Excluded"
             },
             {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
+              "item": "Security deposit",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 300000,
+              "unitPrice": 100000,
               "amount": 0
             }
           ],
-          "total": 3700000,
-          "subTotal": 3700000,
+          "total": 2100000,
+          "subTotal": 2100000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
           {
             "label": "Italy",
             "type": "Sovereign country",
@@ -651,6 +1492,25 @@
               35.48924388200004,
               18.517425977000073,
               47.08521494500006
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
             ]
           }
         ],
@@ -658,24 +1518,24 @@
         "petsAllowed": false
       },
       {
-        "name": "11.07.2026 - 25.07.2026",
+        "name": "19.12.2026 - 26.12.2026",
         "effectiveDates": [
           {
-            "from": "2026-07-11T00:00:00.000Z",
-            "to": "2026-07-25T23:59:59.999Z"
+            "from": "2026-12-19T00:00:00.000Z",
+            "to": "2026-12-26T23:59:59.999Z"
           },
           {
-            "from": "2027-07-11T00:00:00.000Z",
-            "to": "2027-07-25T23:59:59.999Z"
+            "from": "2027-12-19T00:00:00.000Z",
+            "to": "2027-12-26T23:59:59.999Z"
           },
           {
-            "from": "2028-07-11T00:00:00.000Z",
-            "to": "2028-07-25T23:59:59.999Z"
+            "from": "2028-12-19T00:00:00.000Z",
+            "to": "2028-12-26T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3400000,
+          "charterFee": 2800000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -683,49 +1543,23 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3400000,
-              "amount": 3400000,
+              "unitPrice": 2800000,
+              "amount": 2800000,
               "conditions": "VAT & APA Excluded"
             },
             {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
+              "item": "Security deposit",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 300000,
+              "unitPrice": 100000,
               "amount": 0
             }
           ],
-          "total": 3800000,
-          "subTotal": 3800000,
+          "total": 2800000,
+          "subTotal": 2800000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
           {
             "label": "Italy",
             "type": "Sovereign country",
@@ -744,61 +1578,7 @@
               18.517425977000073,
               47.08521494500006
             ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "25.07.2026 - 01.08.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-07-25T00:00:00.000Z",
-            "to": "2026-08-01T23:59:59.999Z"
           },
-          {
-            "from": "2027-07-25T00:00:00.000Z",
-            "to": "2027-08-01T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-25T00:00:00.000Z",
-            "to": "2028-08-01T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3590000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3590000,
-              "amount": 3590000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 3990000,
-          "subTotal": 3990000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
           {
             "label": "Sardinia",
             "type": "Geo subunit",
@@ -816,393 +1596,6 @@
               38.90966796875,
               9.805273437500006,
               41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "01.08.2026 - 08.08.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-08-01T00:00:00.000Z",
-            "to": "2026-08-08T23:59:59.999Z"
-          },
-          {
-            "from": "2027-08-01T00:00:00.000Z",
-            "to": "2027-08-08T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-01T00:00:00.000Z",
-            "to": "2028-08-08T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3700000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3700000,
-              "amount": 3700000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 4100000,
-          "subTotal": 4100000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "08.08.2026 - 15.08.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-08-08T00:00:00.000Z",
-            "to": "2026-08-15T23:59:59.999Z"
-          },
-          {
-            "from": "2027-08-08T00:00:00.000Z",
-            "to": "2027-08-15T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-08T00:00:00.000Z",
-            "to": "2028-08-15T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3800000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3800000,
-              "amount": 3800000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 4200000,
-          "subTotal": 4200000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "15.08.2026 - 22.08.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-08-15T00:00:00.000Z",
-            "to": "2026-08-22T23:59:59.999Z"
-          },
-          {
-            "from": "2027-08-15T00:00:00.000Z",
-            "to": "2027-08-22T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-15T00:00:00.000Z",
-            "to": "2028-08-22T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3850000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3850000,
-              "amount": 3850000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 4250000,
-          "subTotal": 4250000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "22.08.2026 - 05.09.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-08-22T00:00:00.000Z",
-            "to": "2026-09-05T23:59:59.999Z"
-          },
-          {
-            "from": "2027-08-22T00:00:00.000Z",
-            "to": "2027-09-05T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-22T00:00:00.000Z",
-            "to": "2028-09-05T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3200000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3200000,
-              "amount": 3200000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 400000,
-              "amount": 400000
-            },
-            {
-              "item": "Security Deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 300000,
-              "amount": 0
-            }
-          ],
-          "total": 3600000,
-          "subTotal": 3600000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
             ]
           }
         ],
