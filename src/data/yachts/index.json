@@ -52,28 +52,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802",
-    "slug": "premier",
-    "name": "PREMIER",
-    "hero": "/media/media::image::c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802::assets::0bbc7fc0-63fb-11f1-bc19-4b78139e214a/{imageVariant}",
-    "length": 55,
-    "sleeps": 22,
-    "cabins": 11,
-    "builtYear": 2021,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
     "uri": "c::7646090758::vessel::d5cbd332-fe8c-11ed-889f-43d4bb723744",
     "slug": "argo",
     "name": "ARGO",
@@ -97,6 +75,28 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802",
+    "slug": "premier",
+    "name": "PREMIER",
+    "hero": "/media/media::image::c::8164602117::vessel::4b541b90-cb79-11f0-acd2-fd114d639802::assets::0bbc7fc0-63fb-11f1-bc19-4b78139e214a/{imageVariant}",
+    "length": 55,
+    "sleeps": 22,
+    "cabins": 11,
+    "builtYear": 2021,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
     ]
   },
   {
@@ -753,7 +753,7 @@
     "uri": "c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744",
     "slug": "maraya",
     "name": "MARAYA",
-    "hero": "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::2ceb6180-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
+    "hero": "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::70477880-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}",
     "length": 54.2,
     "sleeps": 12,
     "cabins": 6,
@@ -766,13 +766,9 @@
     "weekPricingFrom": 30000000,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
       "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
-      "winter-2026",
-      "winter-2027"
+      "winter-2026"
     ]
   },
   {
@@ -19082,7 +19078,7 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 300000,
+    "dayPricingFrom": 260000,
     "weekPricingFrom": 1950000,
     "currency": "EUR",
     "seasons": [

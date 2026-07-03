@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782208093524,
+  "lastModified": 1783071795140,
   "uri": "c::25855039017::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8",
   "yachtType": [
     "Motor"
@@ -186,16 +186,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 300000,
+      "price": 260000,
       "displayCurrency": "EUR",
-      "displayPrice": 300000,
+      "displayPrice": 260000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 350000,
+      "price": 300000,
       "displayCurrency": "EUR",
-      "displayPrice": 350000,
+      "displayPrice": 300000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
@@ -243,7 +243,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 320000,
+          "charterFee": 300000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -251,13 +251,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 320000,
-              "amount": 320000,
+              "unitPrice": 300000,
+              "amount": 300000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 320000,
-          "subTotal": 320000,
+          "total": 300000,
+          "subTotal": 300000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -314,7 +314,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 300000,
+          "charterFee": 260000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -322,13 +322,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 300000,
-              "amount": 300000,
+              "unitPrice": 260000,
+              "amount": 260000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 300000,
-          "subTotal": 300000,
+          "total": 260000,
+          "subTotal": 260000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -373,7 +373,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 350000,
+          "charterFee": 300000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -381,13 +381,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 350000,
-              "amount": 350000,
+              "unitPrice": 300000,
+              "amount": 300000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 350000,
-          "subTotal": 350000,
+          "total": 300000,
+          "subTotal": 300000,
           "totalTax": 0
         },
         "inclusionZones": [

@@ -1,13 +1,14 @@
 {
-  "lastModified": 1781686056178,
+  "lastModified": 1783084262761,
   "uri": "c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Croatia, France, Italy, Monaco, Montenegro, Turkey\n\nMARAYA, which translates as “many mirrors”, is a stunning luxury charter yacht with accommodation for 12 guests in 6 elegant staterooms.\n\nMARAYA offers over 450m2 of external space with 5 separate deck areas and a Master stateroom balcony, which can be lowered whilst at anchor to provide a completely private external relaxation area for the principle guests. MARAYA provides an abundance of both internal and external space for her guests to escape, relax and fully enjoy their freedom onboard with all the rich and luxurious comforts expected from a charter vessel.",
+  "description": "Operating Area: Croatia, Greece and Turkey. MARAYA has 6 days left on her Greek charter licence, ideal for a short trip in September!\nAt 55m, M/Y MARAYA offers a warm and welcoming charter experience, combining expansive living spaces with an exceptional crew dedicated to creating unforgettable time on the water. \nElegant yet relaxed, MARAYA is the perfect yacht for guests wanting to feel completely at home while enjoying the comfort and service of a world-class superyacht.\nWith an impressive volume of 885GT, MARAYA offers exceptional internal space for a yacht of her length, giving guests a real sense of openness and comfort throughout every area onboard. Large windows fill the interiors with natural light, while the contemporary styling creates a calm and\ninviting atmosphere throughout the yacht.\nMARAYA accommodates up to 12 guests across six beautifully designed cabins, including a full-beam master suite on the main deck with a private fold-down balcony, ideal for quiet mornings overlooking the sea. The remaining accommodation includes four double cabins and two twins with additional Pullman berths, making the layout ideal for families and mixed groups alike.\nA guest lift connects the lower deck through to the bridge deck, while expansive outdoor spaces offer multiple areas for dining, entertaining and relaxing, including a sun deck jacuzzi.\nWhether enjoying long alfresco lunches, sunset cocktails or peaceful days cruising between destinations, every space onboard has been designed to make the most of life at sea.\nGuests can also enjoy an impressive selection of water toys, including a dedicated professional ski and wakeboard boat, while MARAYA’s warm, attentive crew ensure every charter feels effortless, personal and genuinely memorable.",
   "blueprint": {
     "name": "MARAYA",
     "images": [
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::70477880-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}",
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::2ceb6180-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::2f453000-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::3a789e80-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
@@ -27,7 +28,11 @@
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::63ac8ff0-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::63ab5770-b05b-11ee-baaa-314e679ec058.jpeg/{imageVariant}",
       "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::8f0b4880-afca-11ee-bd25-114a036cbb42.jpeg/{imageVariant}",
-      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::8f0ef200-afca-11ee-bd25-114a036cbb42.jpeg/{imageVariant}"
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::8f0ef200-afca-11ee-bd25-114a036cbb42.jpeg/{imageVariant}",
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::70470350-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}",
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::704a1090-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}",
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::704889f0-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}",
+      "/media/media::image::c::9333119801::vessel::d5cc25e4-fe8c-11ed-889f-43d4bb723744::assets::704aacd0-76e0-11f1-9f48-8d3f787de5f7/{imageVariant}"
     ],
     "make": "CRN Ancona",
     "model": "CRN",
@@ -156,7 +161,7 @@
       },
       {
         "label": "Wake Boards",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Monoskis",
@@ -164,19 +169,19 @@
       },
       {
         "label": "Water Skis ",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Wake Surfs",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Hydrofoil board",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Flite board (Electric  hydrofoil board)",
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "label": "Paddle Boards",
@@ -196,27 +201,27 @@
       },
       {
         "label": "Banana",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "ZAPATA Racing Flyboard ",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Hoverboard SUBWING",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Filming Drones",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "3 person Couch",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Snorkeling Gear",
-        "quantity": ""
+        "quantity": "6"
       },
       {
         "label": "Diving  Gear",
@@ -351,24 +356,16 @@
         "name": "Summer Season",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "to": "2027-01-01T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
           "inputAmountTaxed": "NONE",
-          "subTotal": 37500000,
+          "subTotal": 40500000,
           "totalTax": 0,
-          "total": 37500000,
+          "total": 40500000,
           "lineItems": [
             {
               "item": "Charter Fee",
@@ -380,9 +377,9 @@
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.35,
               "unitPrice": 30000000,
-              "amount": 7500000,
+              "amount": 10500000,
               "discount": {
                 "type": "PERCENTAGE",
                 "value": 0
@@ -413,63 +410,6 @@
             ]
           },
           {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              -3.676762491181631,
-              13.257370810531999
-            ],
-            "bbox": [
-              -61.79784094999991,
-              -21.37078215899993,
-              55.854502800000034,
-              51.08754088371883
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.204840429521369,
-              41.61169587639921
-            ],
-            "bbox": [
-              6.6027283120000675,
-              35.48924388200004,
-              18.517425977000073,
-              47.08521494500006
-            ]
-          },
-          {
-            "label": "Monaco",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "Monaco"
-            ],
-            "coordinates": [
-              7.406276768562416,
-              43.75274626720091
-            ],
-            "bbox": [
-              7.377734375000017,
-              43.731738281249996,
-              7.438671875000011,
-              43.770898437499994
-            ]
-          },
-          {
             "label": "Montenegro",
             "type": "Sovereign country",
             "category": [
@@ -489,6 +429,25 @@
             ]
           },
           {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          },
+          {
             "label": "Turkey",
             "type": "Sovereign country",
             "category": [
@@ -505,6 +464,25 @@
               35.831445312499994,
               44.81718750000002,
               42.09326171875
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
             ]
           }
         ],
