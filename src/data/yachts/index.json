@@ -3300,6 +3300,32 @@
     ]
   },
   {
+    "uri": "c::7646090758::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744",
+    "slug": "silent-world",
+    "name": "SILENT WORLD",
+    "hero": "/media/media::image::a::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744::assets::64df4840-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+    "length": 39,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2014,
+    "builder": "IAG Yacht Engineering Co LTD",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7580644139::vessel::d5cbfba7-fe8c-11ed-889f-43d4bb723744",
     "slug": "dragon-fly",
     "name": "DRAGON FLY",
@@ -3338,32 +3364,6 @@
     ],
     "dayPricingFrom": 1200000,
     "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7646090758::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744",
-    "slug": "silent-world",
-    "name": "SILENT WORLD",
-    "hero": "/media/media::image::a::vessel::d5cc796a-fe8c-11ed-889f-43d4bb723744::assets::64df4840-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
-    "length": 39,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2014,
-    "builder": "IAG Yacht Engineering Co LTD",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12000000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
