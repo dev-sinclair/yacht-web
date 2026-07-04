@@ -9231,29 +9231,6 @@
     ]
   },
   {
-    "uri": "c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37",
-    "slug": "andi-star",
-    "name": "ANDI STAR",
-    "hero": "/media/media::image::c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37::assets::45647d00-7783-11f0-b8fd-355a2b7d5d19/{imageVariant}",
-    "length": 26,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2001,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1950000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
     "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
     "slug": "ukiel",
     "name": "UKIEL",
@@ -9278,6 +9255,29 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37",
+    "slug": "andi-star",
+    "name": "ANDI STAR",
+    "hero": "/media/media::image::c::8164602117::vessel::c5c5ae50-8316-11ee-8148-25e84be8ab37::assets::45647d00-7783-11f0-b8fd-355a2b7d5d19/{imageVariant}",
+    "length": 26,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2001,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1950000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
     ]
   },
   {
