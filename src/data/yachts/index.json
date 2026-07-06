@@ -8894,6 +8894,32 @@
     ]
   },
   {
+    "uri": "c::7580644256::vessel::073e0a20-42a8-11ef-8a52-8b68dcf4dfb7",
+    "slug": "saint",
+    "name": "SAINT",
+    "hero": "/media/media::image::a::vessel::073e0a20-42a8-11ef-8a52-8b68dcf4dfb7::assets::c125d270-efc2-11ef-a0ce-f7a9fd243b66/{imageVariant}",
+    "length": 26.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2021,
+    "builder": "Sirena Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::9333032772::vessel::f5804320-5043-11f0-8976-97a6b7238df8",
     "slug": "xclusive-16",
     "name": "XCLUSIVE 16",
@@ -8942,32 +8968,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7580644256::vessel::073e0a20-42a8-11ef-8a52-8b68dcf4dfb7",
-    "slug": "saint",
-    "name": "SAINT",
-    "hero": "/media/media::image::a::vessel::073e0a20-42a8-11ef-8a52-8b68dcf4dfb7::assets::c125d270-efc2-11ef-a0ce-f7a9fd243b66/{imageVariant}",
-    "length": 26.8,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2021,
-    "builder": "Sirena Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
