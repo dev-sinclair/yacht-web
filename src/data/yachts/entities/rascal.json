@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782972743382,
+  "lastModified": 1783302550729,
   "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -103,7 +103,7 @@
     "amenities": [
       {
         "label": "Air Conditioning",
-        "quantity": 1
+        "quantity": "1"
       },
       {
         "label": "BBQ",
@@ -125,23 +125,19 @@
       },
       {
         "label": "Snorkeling Gear",
+        "quantity": "4"
+      },
+      {
+        "label": "Fishing Gear - bottom fishing and trawling",
         "quantity": 1
       },
       {
-        "label": "Fishing Gear",
-        "quantity": 1
-      },
-      {
-        "label": "Towable Toys",
-        "quantity": 1
-      },
-      {
-        "label": "Inflatable Toys",
-        "quantity": 1
+        "label": "Towable Inflatable Tubes",
+        "quantity": "2"
       },
       {
         "label": "Paddle Board",
-        "quantity": 4
+        "quantity": "2"
       },
       {
         "label": "Fliteboard",
@@ -152,16 +148,44 @@
         "quantity": 1
       },
       {
-        "label": "Scuba Diving Equipment "
+        "label": "Scuba Diving Equipment ",
+        "quantity": "4"
       },
       {
-        "label": "Sea Scooter"
+        "label": "Sea Scooter",
+        "quantity": "2"
       },
       {
-        "label": "Water Skis"
+        "label": "Water Skis",
+        "quantity": "1"
       },
       {
-        "label": "Inflatable Deck "
+        "label": "Inflatable Air Deck 3mx2m",
+        "quantity": "1"
+      },
+      {
+        "label": "Inflatable Couch",
+        "quantity": "2"
+      },
+      {
+        "label": "Yoga Mats",
+        "quantity": "2"
+      },
+      {
+        "label": "Knee Surf Board",
+        "quantity": "1"
+      },
+      {
+        "label": "Poker set",
+        "quantity": "1"
+      },
+      {
+        "label": "Backgammon",
+        "quantity": "1"
+      },
+      {
+        "label": "Boardgames - Uno, Monopoly, Cluedo, Chess and more ",
+        "quantity": "1"
       }
     ],
     "entertainment": [

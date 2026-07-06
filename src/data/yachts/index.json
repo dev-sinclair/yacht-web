@@ -4322,6 +4322,36 @@
     ]
   },
   {
+    "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
+    "slug": "rascal",
+    "name": "RASCAL",
+    "hero": "/media/media::image::c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744::assets::abc962f0-3dbd-11ef-ae79-67157891845d.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2015,
+    "builder": "Sunseeker - Predator 115",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 363636.364,
+    "weekPricingFrom": 15000000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2023",
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2022",
+      "winter-2023",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819256863::vessel::d5cc239b-fe8c-11ed-889f-43d4bb723744",
     "slug": "sanref",
     "name": "SANREF",
@@ -4365,36 +4395,6 @@
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": []
-  },
-  {
-    "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
-    "slug": "rascal",
-    "name": "RASCAL",
-    "hero": "/media/media::image::c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744::assets::abc962f0-3dbd-11ef-ae79-67157891845d.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2015,
-    "builder": "Sunseeker - Predator 115",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 363636.364,
-    "weekPricingFrom": 15000000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2023",
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2022",
-      "winter-2023",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
   },
   {
     "uri": "c::8164602117::vessel::dabc4520-ed55-11f0-9b8a-471ca0fd6a08",
