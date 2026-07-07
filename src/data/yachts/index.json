@@ -1866,6 +1866,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae",
+    "slug": "celestia",
+    "name": "CELESTIA",
+    "hero": "/media/media::image::a::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae::assets::1af13670-b7a4-11ef-89d1-dd9256f9b524/{imageVariant}",
+    "length": 45,
+    "sleeps": 14,
+    "cabins": 7,
+    "builtYear": 2023,
+    "builder": "Bulukumba",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 1350000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::15486428460::vessel::c184d760-0d2e-11ef-9e7f-d51dc62c8f22",
     "slug": "halcon-del-mar",
     "name": "HALCON DEL MAR",
@@ -1939,24 +1957,6 @@
       "winter-2026",
       "winter-2027"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae",
-    "slug": "celestia",
-    "name": "CELESTIA",
-    "hero": "/media/media::image::a::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae::assets::1af13670-b7a4-11ef-89d1-dd9256f9b524/{imageVariant}",
-    "length": 45,
-    "sleeps": 14,
-    "cabins": 7,
-    "builtYear": 2023,
-    "builder": "Bulukumba",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 1350000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::19184726919::vessel::d5cca345-fe8c-11ed-889f-43d4bb723744",
@@ -2956,6 +2956,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec",
+    "slug": "aliikai-voyage",
+    "name": "ALIIKAI VOYAGE",
+    "hero": "/media/media::image::a::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec::assets::9ce454b0-b159-11ef-9798-6dbd97865e24/{imageVariant}",
+    "length": 40,
+    "sleeps": 15,
+    "cabins": 7,
+    "builtYear": 2007,
+    "builder": "Pak Haji Wahab",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 990000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::7580644139::vessel::7794a754-486c-11ee-a45f-fdfff6163a60",
     "slug": "caustic",
     "name": "CAUSTIC",
@@ -3103,24 +3121,6 @@
       "winter-2026",
       "winter-2027"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec",
-    "slug": "aliikai-voyage",
-    "name": "ALIIKAI VOYAGE",
-    "hero": "/media/media::image::a::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec::assets::9ce454b0-b159-11ef-9798-6dbd97865e24/{imageVariant}",
-    "length": 40,
-    "sleeps": 15,
-    "cabins": 7,
-    "builtYear": 2007,
-    "builder": "Pak Haji Wahab",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 990000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::9333032772::vessel::84f89580-5043-11f0-a0cc-6117139c6a57",
@@ -4011,6 +4011,31 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
+    "slug": "tosca",
+    "name": "TOSCA",
+    "hero": "/media/media::image::c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36::assets::ee7f2c70-5dbd-11f1-a677-d724567dd957/{imageVariant}",
+    "length": 36,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2026,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7819298091::vessel::7684cc80-d10d-11f0-9439-bd657697007c",
     "slug": "gulsah",
     "name": "GULSAH",
@@ -4063,31 +4088,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
-    "slug": "tosca",
-    "name": "TOSCA",
-    "hero": "/media/media::image::c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36::assets::ee7f2c70-5dbd-11f1-a677-d724567dd957/{imageVariant}",
-    "length": 36,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2026,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -4320,6 +4320,24 @@
       "winter-2027",
       "winter-2028"
     ]
+  },
+  {
+    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
+    "slug": "jakare",
+    "name": "JAKARE",
+    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
+    "length": 35,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2015,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 420000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
   },
   {
     "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
@@ -4597,24 +4615,6 @@
       "winter-2025",
       "winter-2026"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
-    "slug": "jakare",
-    "name": "JAKARE",
-    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2015,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 420000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::7819198774::vessel::dec9f3e0-dbeb-11f0-8dcf-91f8ea34d139",
