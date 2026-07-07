@@ -1,5 +1,5 @@
 {
-  "lastModified": 1752604650595,
+  "lastModified": 1783428283505,
   "uri": "c::19532238409::vessel::fde356a0-00e5-11ef-9abf-67590b02e9d1",
   "yachtType": [
     "Motor"
@@ -137,44 +137,36 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 50000,
+      "price": 299000,
       "displayCurrency": "EUR",
-      "displayPrice": 50000,
+      "displayPrice": 299000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 445000,
+      "price": 385000,
       "displayCurrency": "EUR",
-      "displayPrice": 445000,
+      "displayPrice": 385000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2120000,
+      "price": 50000,
       "displayCurrency": "EUR",
-      "displayPrice": 2120000,
+      "displayPrice": 50000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2850000,
+      "price": 2430000,
       "displayCurrency": "EUR",
-      "displayPrice": 2850000,
+      "displayPrice": 2430000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "High Season - 8 hours",
+        "name": "Top Season - 8 Hours",
         "effectiveDates": [
-          {
-            "from": "2024-07-01T00:00:00.000Z",
-            "to": "2024-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2025-07-01T00:00:00.000Z",
-            "to": "2025-08-31T23:59:59.999Z"
-          },
           {
             "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-08-31T23:59:59.999Z"
@@ -182,7 +174,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 445000,
+          "charterFee": 385000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -190,13 +182,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 445000,
-              "amount": 445000,
-              "conditions": "Per Day"
+              "unitPrice": 385000,
+              "amount": 385000,
+              "conditions": "VAT is Inclusive"
             }
           ],
-          "total": 445000,
-          "subTotal": 445000,
+          "total": 385000,
+          "subTotal": 385000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -243,36 +235,24 @@
         "petsAllowed": false
       },
       {
-        "name": "Mid Season - 8 hours",
+        "name": "High Season - 8 Hours",
         "effectiveDates": [
-          {
-            "from": "2024-06-01T00:00:00.000Z",
-            "to": "2024-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2025-06-01T00:00:00.000Z",
-            "to": "2025-06-30T23:59:59.999Z"
-          },
           {
             "from": "2026-06-01T00:00:00.000Z",
             "to": "2026-06-30T23:59:59.999Z"
           },
           {
-            "from": "2024-09-01T00:00:00.000Z",
-            "to": "2024-09-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2025-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 395000,
+          "charterFee": 369000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -280,13 +260,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 395000,
-              "amount": 395000,
-              "conditions": "Per Day"
+              "unitPrice": 369000,
+              "amount": 369000,
+              "conditions": "VAT is Inclusive"
             }
           ],
-          "total": 395000,
-          "subTotal": 395000,
+          "total": 369000,
+          "subTotal": 369000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -333,19 +313,19 @@
         "petsAllowed": false
       },
       {
-        "name": "Low Season - 8 hours",
+        "name": "Mid Season - 8 Hours",
         "effectiveDates": [
           {
-            "from": "2024-10-01T00:00:00.000Z",
-            "to": "2025-05-31T23:59:59.999Z"
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
           },
           {
-            "from": "2025-10-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -360,7 +340,7 @@
               "quantity": 1,
               "unitPrice": 335000,
               "amount": 335000,
-              "conditions": "Per Day"
+              "conditions": "VAT is Inclusive"
             }
           ],
           "total": 335000,
@@ -411,45 +391,50 @@
         "petsAllowed": false
       },
       {
-        "name": "High Season - 7 days",
+        "name": "Low Season - 8 Hours",
         "effectiveDates": [
           {
-            "from": "2024-07-01T00:00:00.000Z",
-            "to": "2024-08-31T23:59:59.999Z"
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-05-31T23:59:59.999Z"
           },
           {
-            "from": "2025-07-01T00:00:00.000Z",
-            "to": "2025-08-31T23:59:59.999Z"
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2850000,
+          "charterFee": 299000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
-          "unit": "WEEK",
+          "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2850000,
-              "amount": 2850000,
-              "conditions": "+Overnight Cost"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 2850000,
-              "amount": 855000
+              "unitPrice": 299000,
+              "amount": 299000,
+              "conditions": "VAT is Inclusive"
             }
           ],
-          "total": 3705000,
-          "subTotal": 3705000,
+          "total": 299000,
+          "subTotal": 299000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -496,57 +481,130 @@
         "petsAllowed": false
       },
       {
-        "name": "Mid Season - 7 days",
+        "name": "Weekly Charter - Top Season ",
         "effectiveDates": [
           {
-            "from": "2024-06-01T00:00:00.000Z",
-            "to": "2024-06-30T23:59:59.999Z"
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
           },
           {
-            "from": "2025-06-01T00:00:00.000Z",
-            "to": "2025-06-30T23:59:59.999Z"
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
           },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2430000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2430000,
+              "amount": 2430000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2430000,
+              "amount": 729000
+            }
+          ],
+          "total": 3159000,
+          "subTotal": 3159000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -7.17445166576848,
+              36.8523911214717
+            ],
+            "bbox": [
+              -18.167225714999915,
+              27.642238674000055,
+              4.337087436000047,
+              43.79344310100004
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter - High Season ",
+        "effectiveDates": [
           {
             "from": "2026-06-01T00:00:00.000Z",
             "to": "2026-06-30T23:59:59.999Z"
           },
           {
-            "from": "2024-09-01T00:00:00.000Z",
-            "to": "2024-09-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2025-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2490000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2325000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2490000,
-              "amount": 2490000,
-              "conditions": "+Overnight Cost"
+              "unitPrice": 2325000,
+              "amount": 2325000,
+              "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 2490000,
-              "amount": 747000
+              "unitPrice": 2325000,
+              "amount": 697500
             }
           ],
-          "total": 3237000,
-          "subTotal": 3237000,
+          "total": 3022500,
+          "subTotal": 3022500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -593,45 +651,117 @@
         "petsAllowed": false
       },
       {
-        "name": "Low Season - 7 days",
+        "name": "Weekly Charter - Mid Season ",
         "effectiveDates": [
           {
-            "from": "2024-10-01T00:00:00.000Z",
-            "to": "2025-05-31T23:59:59.999Z"
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
           },
           {
-            "from": "2025-10-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2120000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2110000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2120000,
-              "amount": 2120000,
-              "conditions": "+Overnight Cost"
+              "unitPrice": 2110000,
+              "amount": 2110000,
+              "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 2120000,
-              "amount": 636000
+              "unitPrice": 2110000,
+              "amount": 633000
             }
           ],
-          "total": 2756000,
-          "subTotal": 2756000,
+          "total": 2743000,
+          "subTotal": 2743000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -7.17445166576848,
+              36.8523911214717
+            ],
+            "bbox": [
+              -18.167225714999915,
+              27.642238674000055,
+              4.337087436000047,
+              43.79344310100004
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter - Low Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1883000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1883000,
+              "amount": 1883000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1883000,
+              "amount": 564900
+            }
+          ],
+          "total": 2447900,
+          "subTotal": 2447900,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -679,20 +809,33 @@
       },
       {
         "name": "Overnight Price (In Port)",
-        "effectiveDates": [],
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
         "pricing": {
           "currency": "EUR",
           "charterFee": 50000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
               "unitPrice": 50000,
               "amount": 50000,
-              "conditions": ""
+              "conditions": "VAT is Inclusive"
             }
           ],
           "total": 50000,
@@ -744,20 +887,33 @@
       },
       {
         "name": "Overnight Price (On Anchor)",
-        "effectiveDates": [],
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
         "pricing": {
           "currency": "EUR",
           "charterFee": 60000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
               "unitPrice": 60000,
               "amount": 60000,
-              "conditions": ""
+              "conditions": "VAT is Inclusive"
             }
           ],
           "total": 60000,
