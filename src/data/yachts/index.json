@@ -8418,6 +8418,32 @@
     ]
   },
   {
+    "uri": "c::7646090758::vessel::d5cae705-fe8c-11ed-889f-43d4bb723744",
+    "slug": "the-best-way",
+    "name": "THE BEST WAY",
+    "hero": "/media/media::image::a::vessel::d5cae705-fe8c-11ed-889f-43d4bb723744::assets::b144e240-ab36-11ef-aaf5-7fa3a9c99ed5/{imageVariant}",
+    "length": 27,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2009,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::39480359087::vessel::8bea7900-e7bd-11f0-9a46-0d14717cce0d",
     "slug": "tamurel-ii",
     "name": "TAMUREL II",
@@ -8606,32 +8632,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 2100000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7646090758::vessel::d5cae705-fe8c-11ed-889f-43d4bb723744",
-    "slug": "the-best-way",
-    "name": "THE BEST WAY",
-    "hero": "/media/media::image::a::vessel::d5cae705-fe8c-11ed-889f-43d4bb723744::assets::b144e240-ab36-11ef-aaf5-7fa3a9c99ed5/{imageVariant}",
-    "length": 27,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2009,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3300000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -9709,6 +9709,32 @@
     ]
   },
   {
+    "uri": "c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944",
+    "slug": "phantom",
+    "name": "PHANTOM",
+    "hero": "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04562c80-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
+    "length": 25.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1995,
+    "builder": "Italversil",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744",
     "slug": "korab",
     "name": "KORAB",
@@ -9749,32 +9775,6 @@
     ],
     "dayPricingFrom": 200000,
     "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944",
-    "slug": "phantom",
-    "name": "PHANTOM",
-    "hero": "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04562c80-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-    "length": 25.5,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1995,
-    "builder": "Italversil",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2900000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -10579,6 +10579,25 @@
     ]
   },
   {
+    "uri": "c::22520698802::vessel::93200c60-6061-11ef-a458-cf0446e40ec2",
+    "slug": "addiction",
+    "name": "ADDICTION",
+    "hero": "/media/media::image::a::vessel::93200c60-6061-11ef-a458-cf0446e40ec2::assets::b95b61d0-6062-11ef-a7df-05b5cdcaa38f/{imageVariant}",
+    "length": 24,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 1997,
+    "builder": "Sabre Catamarans",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3600000,
+    "currency": "USD",
+    "seasons": []
+  },
+  {
     "uri": "c::7580644139::vessel::69b3e280-b6b0-11ee-a6e9-bdcb79871e6e",
     "slug": "caelum",
     "name": "CAELUM",
@@ -10731,25 +10750,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::22520698802::vessel::93200c60-6061-11ef-a458-cf0446e40ec2",
-    "slug": "addiction",
-    "name": "ADDICTION",
-    "hero": "/media/media::image::a::vessel::93200c60-6061-11ef-a458-cf0446e40ec2::assets::b95b61d0-6062-11ef-a7df-05b5cdcaa38f/{imageVariant}",
-    "length": 24,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 1997,
-    "builder": "Sabre Catamarans",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3600000,
-    "currency": "USD",
-    "seasons": []
   },
   {
     "uri": "c::25879711825::vessel::d5cca41b-fe8c-11ed-889f-43d4bb723744",
