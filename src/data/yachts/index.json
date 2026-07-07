@@ -4322,24 +4322,6 @@
     ]
   },
   {
-    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
-    "slug": "jakare",
-    "name": "JAKARE",
-    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2015,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 420000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
-  },
-  {
     "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
     "slug": "rascal",
     "name": "RASCAL",
@@ -4368,6 +4350,24 @@
       "winter-2026",
       "winter-2027"
     ]
+  },
+  {
+    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
+    "slug": "jakare",
+    "name": "JAKARE",
+    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
+    "length": 35,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2015,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 420000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
   },
   {
     "uri": "c::7819256863::vessel::d5cc239b-fe8c-11ed-889f-43d4bb723744",
