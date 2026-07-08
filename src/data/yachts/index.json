@@ -1800,6 +1800,32 @@
     ]
   },
   {
+    "uri": "c::7580644881::vessel::d5cc25f7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ocean-breeze",
+    "name": "OCEAN BREEZE",
+    "hero": "/media/media::image::c::7580644881::vessel::d5cc25f7-fe8c-11ed-889f-43d4bb723744::assets::9ee39c70-9acf-11f0-8fa3-0726d976e02c/{imageVariant}",
+    "length": 46,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2010,
+    "builder": "Ürkmezler Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18633696598::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744",
     "slug": "mutiara-laut",
     "name": "MUTIARA LAUT",
@@ -1837,32 +1863,6 @@
     "seasons": [
       "summer-2025",
       "winter-2024"
-    ]
-  },
-  {
-    "uri": "c::7580644881::vessel::d5cc25f7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ocean-breeze",
-    "name": "OCEAN BREEZE",
-    "hero": "/media/media::image::c::7580644881::vessel::d5cc25f7-fe8c-11ed-889f-43d4bb723744::assets::9ee39c70-9acf-11f0-8fa3-0726d976e02c/{imageVariant}",
-    "length": 46,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2010,
-    "builder": "Ürkmezler Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -6802,24 +6802,6 @@
     ]
   },
   {
-    "uri": "c::52021850498::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539",
-    "slug": "belle",
-    "name": "BELLE",
-    "hero": "/media/media::image::a::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539::assets::4403ff70-1630-11f1-b268-3be92bd7d43c/{imageVariant}",
-    "length": 29.9,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 2016,
-    "builder": "Moonen Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
-  },
-  {
     "uri": "c::8864389904::vessel::938c8ca0-08e9-11f1-bc12-458f582189be",
     "slug": "dark-horse",
     "name": "DARK HORSE",
@@ -6844,6 +6826,24 @@
       "winter-2027",
       "winter-2028"
     ]
+  },
+  {
+    "uri": "c::52021850498::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539",
+    "slug": "belle",
+    "name": "BELLE",
+    "hero": "/media/media::image::a::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539::assets::4403ff70-1630-11f1-b268-3be92bd7d43c/{imageVariant}",
+    "length": 29.9,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2016,
+    "builder": "Moonen Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
   },
   {
     "uri": "c::8276484364::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0",
@@ -7746,6 +7746,32 @@
     ]
   },
   {
+    "uri": "c::7580644881::vessel::779394a6-486c-11ee-a45f-fdfff6163a60",
+    "slug": "nayk-3",
+    "name": "NAYK 3",
+    "hero": "/media/media::image::c::7580644881::vessel::779394a6-486c-11ee-a45f-fdfff6163a60::assets::d47104d0-9ada-11f0-8fa4-0726d976e02c/{imageVariant}",
+    "length": 28,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2023,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1600000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7646090758::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744",
     "slug": "grace",
     "name": "GRACE",
@@ -7945,32 +7971,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::7580644881::vessel::779394a6-486c-11ee-a45f-fdfff6163a60",
-    "slug": "nayk-3",
-    "name": "NAYK 3",
-    "hero": "/media/media::image::c::7580644881::vessel::779394a6-486c-11ee-a45f-fdfff6163a60::assets::d47104d0-9ada-11f0-8fa4-0726d976e02c/{imageVariant}",
-    "length": 28,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2023,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1600000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -9231,6 +9231,33 @@
     ]
   },
   {
+    "uri": "c::7580644881::vessel::779394a5-486c-11ee-a45f-fdfff6163a60",
+    "slug": "nayk-2",
+    "name": "NAYK 2",
+    "hero": "/media/media::image::c::7580644881::vessel::779394a5-486c-11ee-a45f-fdfff6163a60::assets::21939480-9db7-11ee-aa9e-858955a46827.png/{imageVariant}",
+    "length": 26,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2022,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1145000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::26934280528::vessel::764623f0-017e-11ef-af1a-49a51012e18e",
     "slug": "ukiel",
     "name": "UKIEL",
@@ -9428,33 +9455,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::7580644881::vessel::779394a5-486c-11ee-a45f-fdfff6163a60",
-    "slug": "nayk-2",
-    "name": "NAYK 2",
-    "hero": "/media/media::image::c::7580644881::vessel::779394a5-486c-11ee-a45f-fdfff6163a60::assets::21939480-9db7-11ee-aa9e-858955a46827.png/{imageVariant}",
-    "length": 26,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2022,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1145000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
