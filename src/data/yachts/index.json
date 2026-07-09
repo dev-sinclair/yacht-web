@@ -39,7 +39,7 @@
       "Sailing"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 13700000,
+    "weekPricingFrom": 15000000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -5387,6 +5387,32 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744",
+    "slug": "sema-tuana",
+    "name": "SEMA TUANA",
+    "hero": "/media/media::image::c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744::assets::5vCeIhQNa.png/{imageVariant}",
+    "length": 32,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2008,
+    "builder": "Bodrum Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2275000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
     "slug": "alegria",
     "name": "ALEGRIA",
@@ -5478,32 +5504,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744",
-    "slug": "sema-tuana",
-    "name": "SEMA TUANA",
-    "hero": "/media/media::image::c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744::assets::5vCeIhQNa.png/{imageVariant}",
-    "length": 32,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2008,
-    "builder": "Bodrum Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2275000,
-    "currency": "EUR",
-    "seasons": [
       "summer-2026",
       "summer-2027",
       "summer-2028",
@@ -9210,6 +9210,28 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1",
+    "slug": "lycian-dream",
+    "name": "LYCIAN DREAM",
+    "hero": "/media/media::image::c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1::assets::fff06510-3474-11ef-8780-03bdb0021fb5.jpeg/{imageVariant}",
+    "length": 26,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2024,
+    "builder": "Kurt Kardeşler Fethiye",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7580644881::vessel::779394a5-486c-11ee-a45f-fdfff6163a60",
     "slug": "nayk-2",
     "name": "NAYK 2",
@@ -9311,28 +9333,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1",
-    "slug": "lycian-dream",
-    "name": "LYCIAN DREAM",
-    "hero": "/media/media::image::c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1::assets::fff06510-3474-11ef-8780-03bdb0021fb5.jpeg/{imageVariant}",
-    "length": 26,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2024,
-    "builder": "Kurt Kardeşler Fethiye",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
