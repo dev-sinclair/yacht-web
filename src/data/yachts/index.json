@@ -1454,6 +1454,28 @@
     ]
   },
   {
+    "uri": "c::33255038367::vessel::d5cc4e74-fe8c-11ed-889f-43d4bb723744",
+    "slug": "vetro",
+    "name": "VETRO",
+    "hero": "/media/media::image::a::vessel::d5cc4e74-fe8c-11ed-889f-43d4bb723744::assets::8U801DFq1.jpg/{imageVariant}",
+    "length": 48,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2012,
+    "builder": "Lurssen",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
     "slug": "sanctuary",
     "name": "SANCTUARY",
@@ -1620,28 +1642,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::33255038367::vessel::d5cc4e74-fe8c-11ed-889f-43d4bb723744",
-    "slug": "vetro",
-    "name": "VETRO",
-    "hero": "/media/media::image::a::vessel::d5cc4e74-fe8c-11ed-889f-43d4bb723744::assets::8U801DFq1.jpg/{imageVariant}",
-    "length": 48,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2012,
-    "builder": "Lurssen",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6300000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -2884,15 +2884,15 @@
     ]
   },
   {
-    "uri": "c::20370734480::vessel::89fd0680-9df3-11f0-947c-5f3d4f9d4569",
-    "slug": "zelda",
-    "name": "ZELDA",
-    "hero": "/media/media::image::a::vessel::89fd0680-9df3-11f0-947c-5f3d4f9d4569::assets::71ed9050-9df8-11f0-92f9-f78c3cb8e879/{imageVariant}",
+    "uri": "c::20370734480::vessel::d5cbab3e-fe8c-11ed-889f-43d4bb723744",
+    "slug": "vay",
+    "name": "VAY",
+    "hero": "/media/media::image::a::vessel::d5cbab3e-fe8c-11ed-889f-43d4bb723744::assets::4b8a8740-9dfa-11f0-92f9-f78c3cb8e879/{imageVariant}",
     "length": 40.4,
     "sleeps": 10,
     "cabins": 5,
-    "builtYear": 2009,
-    "builder": "Su Marine Yachts",
+    "builtYear": 2013,
+    "builder": "Su Marine",
     "yachtType": [
       "Sailing",
       "Gulet"
@@ -2907,15 +2907,15 @@
     ]
   },
   {
-    "uri": "c::20370734480::vessel::d5cbab3e-fe8c-11ed-889f-43d4bb723744",
-    "slug": "vay",
-    "name": "VAY",
-    "hero": "/media/media::image::a::vessel::d5cbab3e-fe8c-11ed-889f-43d4bb723744::assets::4b8a8740-9dfa-11f0-92f9-f78c3cb8e879/{imageVariant}",
+    "uri": "c::20370734480::vessel::89fd0680-9df3-11f0-947c-5f3d4f9d4569",
+    "slug": "zelda",
+    "name": "ZELDA",
+    "hero": "/media/media::image::a::vessel::89fd0680-9df3-11f0-947c-5f3d4f9d4569::assets::71ed9050-9df8-11f0-92f9-f78c3cb8e879/{imageVariant}",
     "length": 40.4,
     "sleeps": 10,
     "cabins": 5,
-    "builtYear": 2013,
-    "builder": "Su Marine",
+    "builtYear": 2009,
+    "builder": "Su Marine Yachts",
     "yachtType": [
       "Sailing",
       "Gulet"
@@ -3990,6 +3990,30 @@
     ]
   },
   {
+    "uri": "c::33255038367::vessel::59eaf520-3a15-11f0-8892-61970e8f798b",
+    "slug": "kayanni",
+    "name": "KAYANNI",
+    "hero": "/media/media::image::c::33255038367::vessel::59eaf520-3a15-11f0-8892-61970e8f798b::assets::74600980-5352-11f0-a305-d7ba2dd69d76/{imageVariant}",
+    "length": 36,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2006,
+    "builder": "Tecnomar",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 700000,
+    "weekPricingFrom": 4900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
     "slug": "tosca",
     "name": "TOSCA",
@@ -4116,30 +4140,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::33255038367::vessel::59eaf520-3a15-11f0-8892-61970e8f798b",
-    "slug": "kayanni",
-    "name": "KAYANNI",
-    "hero": "/media/media::image::c::33255038367::vessel::59eaf520-3a15-11f0-8892-61970e8f798b::assets::74600980-5352-11f0-a305-d7ba2dd69d76/{imageVariant}",
-    "length": 36,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Tecnomar",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 700000,
-    "weekPricingFrom": 4900000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025"
     ]
   },
   {
