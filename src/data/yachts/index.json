@@ -2547,27 +2547,6 @@
     ]
   },
   {
-    "uri": "c::25941359203::vessel::e66517a0-bc5d-11ef-9c85-61a4c9d73f37",
-    "slug": "san-spirito",
-    "name": "SAN SPIRITO",
-    "hero": "/media/media::image::a::vessel::e66517a0-bc5d-11ef-9c85-61a4c9d73f37::assets::e445c7d1-bc62-11ef-9188-994ab502d9ec/{imageVariant}",
-    "length": 41.4,
-    "sleeps": 36,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "winter-2024"
-    ]
-  },
-  {
     "uri": "c::32173481806::vessel::d5cca264-fe8c-11ed-889f-43d4bb723744",
     "slug": "ak-royalty",
     "name": "AK ROYALTY",
@@ -2591,6 +2570,53 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::25941359203::vessel::e66517a0-bc5d-11ef-9c85-61a4c9d73f37",
+    "slug": "san-spirito",
+    "name": "SAN SPIRITO",
+    "hero": "/media/media::image::a::vessel::e66517a0-bc5d-11ef-9c85-61a4c9d73f37::assets::e445c7d1-bc62-11ef-9188-994ab502d9ec/{imageVariant}",
+    "length": 41.4,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "winter-2024"
+    ]
+  },
+  {
+    "uri": "c::25875299898::vessel::d5cbd36c-fe8c-11ed-889f-43d4bb723744",
+    "slug": "cesarica",
+    "name": "CESARICA",
+    "hero": "/media/media::image::a::vessel::d5cbd36c-fe8c-11ed-889f-43d4bb723744::assets::8adb3a90-ab19-11ef-8f21-2be0820e048e/{imageVariant}",
+    "length": 41,
+    "sleeps": 24,
+    "cabins": 11,
+    "builtYear": 2013,
+    "builder": "Marina Vinici",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "winter-2023",
+      "winter-2024",
+      "winter-2025"
     ]
   },
   {
@@ -2707,32 +2733,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::25875299898::vessel::d5cbd36c-fe8c-11ed-889f-43d4bb723744",
-    "slug": "cesarica",
-    "name": "CESARICA",
-    "hero": "/media/media::image::a::vessel::d5cbd36c-fe8c-11ed-889f-43d4bb723744::assets::8adb3a90-ab19-11ef-8f21-2be0820e048e/{imageVariant}",
-    "length": 41,
-    "sleeps": 24,
-    "cabins": 11,
-    "builtYear": 2013,
-    "builder": "Marina Vinici",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3900000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2023",
-      "winter-2024",
-      "winter-2025"
     ]
   },
   {
@@ -9910,6 +9910,34 @@
     ]
   },
   {
+    "uri": "c::16875063630::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744",
+    "slug": "element",
+    "name": "ELEMENT",
+    "hero": "/media/media::image::a::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744::assets::92c46540-50b2-11ef-9310-597e32e8421f.jpeg/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1999,
+    "builder": "Warren Yacht",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 125000,
+    "weekPricingFrom": 6500000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::19450862456::vessel::d5cc78f7-fe8c-11ed-889f-43d4bb723744",
     "slug": "aurora",
     "name": "AURORA",
@@ -9948,34 +9976,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::16875063630::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744",
-    "slug": "element",
-    "name": "ELEMENT",
-    "hero": "/media/media::image::a::vessel::d5cc4e38-fe8c-11ed-889f-43d4bb723744::assets::92c46540-50b2-11ef-9310-597e32e8421f.jpeg/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1999,
-    "builder": "Warren Yacht",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 125000,
-    "weekPricingFrom": 6500000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -15429,6 +15429,33 @@
     ]
   },
   {
+    "uri": "c::13745145528::vessel::f2b3e610-d0dd-11ee-95e8-d9fbc35ce1b2",
+    "slug": "miramare",
+    "name": "MIRAMARE",
+    "hero": "/media/media::image::c::13745145528::vessel::f2b3e610-d0dd-11ee-95e8-d9fbc35ce1b2::assets::ae60b850-d0e0-11ee-95e8-d9fbc35ce1b2.jpeg/{imageVariant}",
+    "length": 20,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::39480359087::vessel::e38f0650-2f4b-11f1-ae55-cfb1cbdd7c11",
     "slug": "oasis-e38f06",
     "name": "OASIS",
@@ -15551,33 +15578,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::13745145528::vessel::f2b3e610-d0dd-11ee-95e8-d9fbc35ce1b2",
-    "slug": "miramare",
-    "name": "MIRAMARE",
-    "hero": "/media/media::image::c::13745145528::vessel::f2b3e610-d0dd-11ee-95e8-d9fbc35ce1b2::assets::ae60b850-d0e0-11ee-95e8-d9fbc35ce1b2.jpeg/{imageVariant}",
-    "length": 20,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
