@@ -1,0 +1,373 @@
+{
+  "lastModified": 1783671659398,
+  "uri": "c::16875063630::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Sydney, Whitsundays\n\nEvolution is a 36.5-meter (118-foot) luxury motor yacht, featuring expansive front, upper, and aft decks designed for all leisure and entertainment needs. Built with timeless elegance by Oceanfast, she is the perfect yacht for hosting intimate cruises, private parties, or corporate events, accommodating up to 70 guests.\n\nThe main deck offers a spacious, user-friendly area complete with a full-size bar and lounge space, ideal for entertaining guests. On the bow, relax in luxury with custom seating or soak up the sun on the sunbeds. Alternatively, enjoy the expansive sundeck with a jacuzzi, sunbeds, and a bar for added comfort.\n\nEvolution blends comfort and craftsmanship, with sophisticated interiors that highlight the yacht’s natural beauty. Large windows throughout the yacht provide exceptional light penetration, creating a bright and airy atmosphere on both the main deck and guest cabins.\n\nThe vessel boasts four elegant cabins for up to 8 guests, each with an en-suite bathroom. The main deck features a welcoming saloon where guests can relax and entertain in complete comfort.\n\nEvolution is the ultimate companion for your day on the water, offering luxury, style, and unforgettable experiences.",
+  "blueprint": {
+    "name": "EVOLUTION",
+    "images": [
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82748020-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82754370-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82778d60-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82745910-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82767bf0-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82756a80-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::827606c0-7c35-11f1-afbc-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8274a730-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82762dd0-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8274f550-7c35-11f1-afbc-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::827606c0-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8278c5e0-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8276f120-7c35-11f1-afbd-0fa60ec9a2b2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8273e3e1-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82743200-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8273e3e0-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82767bf0-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8272ab60-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82736eb0-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::827347a0-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8276a300-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::8275b8a0-7c35-11f1-b53b-136ae7290534/{imageVariant}"
+    ],
+    "make": "Oceanfast",
+    "model": "",
+    "maxCrew": 5,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::27c293be-b3ee-11ed-8dd2-325096b39f47",
+      "name": "Sydney",
+      "coordinates": {
+        "latitude": -33.86380638,
+        "longitude": 151.2100953
+      },
+      "country": "Australia"
+    },
+    "cruisingCapacity": 70,
+    "staticCapacity": 70,
+    "builtYear": 2005,
+    "architect": "Oceanfast",
+    "interiorDesigner": "Oceanfast",
+    "refitYear": 2023,
+    "topSpeed": 15,
+    "cruiseSpeed": 11,
+    "fuelCapacity": 38000,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "decks": 0,
+    "length": 36.5,
+    "beam": 8.2,
+    "draft": 1.9,
+    "hullType": "Displacement",
+    "hullConstruction": "Aluminium",
+    "tonnage": 304,
+    "superStructure": [],
+    "engines": "2 x MTU 8V2000M72",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Full-size bar and lounge space"
+      },
+      {
+        "label": "Sunbeds"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Jacuzzi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Inflatables"
+      },
+      {
+        "label": "Snorkelling Equipment"
+      },
+      {
+        "label": "Fishing Equipment"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "Satellite TV"
+    ],
+    "tenders": [
+      "1 x 21'4 / 6.5m Brig Eagle Tender Yamaha 225 HP engine",
+      "1 x 31'2 / 9.5m Custom Dive/surf tender"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AUD",
+      "price": 360000,
+      "displayCurrency": "AUD",
+      "displayPrice": 360000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AUD",
+      "price": 2500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 2500000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 15000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 15000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 15000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 15000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Hourly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 360000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 360000,
+              "amount": 360000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 360000,
+          "subTotal": 360000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily Rate (24 hrs)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2500000,
+          "subTotal": 2500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 15000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15000000,
+              "amount": 15000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 15000000,
+          "subTotal": 15000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -3990,6 +3990,32 @@
     ]
   },
   {
+    "uri": "c::16875063630::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744",
+    "slug": "evolution",
+    "name": "EVOLUTION",
+    "hero": "/media/media::image::a::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744::assets::82748020-7c35-11f1-b53b-136ae7290534/{imageVariant}",
+    "length": 36.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2005,
+    "builder": "Oceanfast",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 360000,
+    "weekPricingFrom": 15000000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::25879711825::vessel::48c4cd50-f903-11ef-a250-29f33756e5b8",
     "slug": "mendula",
     "name": "MENDULA",
@@ -4301,6 +4327,24 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ps5-playstation",
+    "name": "PS5 PLAYSTATION",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Nautor Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::25879711825::vessel::93daac60-f818-11ef-ad96-63fe88659a4f",
     "slug": "adriatic-queen",
     "name": "ADRIATIC QUEEN",
@@ -4351,24 +4395,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ps5-playstation",
-    "name": "PS5 PLAYSTATION",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Nautor Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
