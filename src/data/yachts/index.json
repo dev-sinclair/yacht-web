@@ -798,32 +798,6 @@
     ]
   },
   {
-    "uri": "c::8573887147::vessel::d5cc4fc0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "harmony-g",
-    "name": "HARMONY G",
-    "hero": "/media/media::image::c::8573887147::vessel::d5cc4fc0-fe8c-11ed-889f-43d4bb723744::assets::64deb0b0-2cc5-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
-    "length": 54,
-    "sleeps": 44,
-    "cabins": 21,
-    "builtYear": 2001,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12650000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::8573887147::vessel::d5cc4fbb-fe8c-11ed-889f-43d4bb723744",
     "slug": "panorama",
     "name": "PANORAMA",
@@ -848,6 +822,32 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::8573887147::vessel::d5cc4fc0-fe8c-11ed-889f-43d4bb723744",
+    "slug": "harmony-g",
+    "name": "HARMONY G",
+    "hero": "/media/media::image::c::8573887147::vessel::d5cc4fc0-fe8c-11ed-889f-43d4bb723744::assets::64deb0b0-2cc5-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+    "length": 54,
+    "sleeps": 44,
+    "cabins": 21,
+    "builtYear": 2001,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12650000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -968,6 +968,33 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744",
+    "slug": "panorama-ii",
+    "name": "PANORAMA II",
+    "hero": "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea2428c0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
+    "length": 50,
+    "sleeps": 49,
+    "cabins": 25,
+    "builtYear": 2004,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 16650000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -1117,33 +1144,6 @@
       "summer-2027",
       "winter-2024",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744",
-    "slug": "panorama-ii",
-    "name": "PANORAMA II",
-    "hero": "/media/media::image::c::8573887147::vessel::d5c9fc06-fe8c-11ed-889f-43d4bb723744::assets::ea2428c0-2cd1-11ef-a2fd-e99020cca074.jpeg/{imageVariant}",
-    "length": 50,
-    "sleeps": 49,
-    "cabins": 25,
-    "builtYear": 2004,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 16650000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -2956,6 +2956,33 @@
     ]
   },
   {
+    "uri": "c::8573887147::vessel::d5cc4e4b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "aegeotissa-ii",
+    "name": "AEGEOTISSA II",
+    "hero": "/media/media::image::c::8573887147::vessel::d5cc4e4b-fe8c-11ed-889f-43d4bb723744::assets::39630b80-ca54-11ee-97a9-b56fc3cfe7b3.jpeg/{imageVariant}",
+    "length": 40,
+    "sleeps": 24,
+    "cabins": 12,
+    "builtYear": 1999,
+    "builder": "Custom Gulet-Motor Sailor",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::9333032772::vessel::84f89580-5043-11f0-a0cc-6117139c6a57",
     "slug": "encore",
     "name": "ENCORE",
@@ -3116,33 +3143,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::8573887147::vessel::d5cc4e4b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "aegeotissa-ii",
-    "name": "AEGEOTISSA II",
-    "hero": "/media/media::image::c::8573887147::vessel::d5cc4e4b-fe8c-11ed-889f-43d4bb723744::assets::39630b80-ca54-11ee-97a9-b56fc3cfe7b3.jpeg/{imageVariant}",
-    "length": 40,
-    "sleeps": 24,
-    "cabins": 12,
-    "builtYear": 1999,
-    "builder": "Custom Gulet-Motor Sailor",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -5413,6 +5413,32 @@
     ]
   },
   {
+    "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tempest-ws",
+    "name": "TEMPEST WS",
+    "hero": "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab3f00-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1962,
+    "builder": "Esterel",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::13745145528::vessel::d5cc79bb-fe8c-11ed-889f-43d4bb723744",
     "slug": "sema-tuana",
     "name": "SEMA TUANA",
@@ -5510,32 +5536,6 @@
     "seasons": [
       "summer-2026",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tempest-ws",
-    "name": "TEMPEST WS",
-    "hero": "/media/media::image::c::7584683786::vessel::d5cc790b-fe8c-11ed-889f-43d4bb723744::assets::beab3f00-6afd-11f1-b2ab-7ff09ae27a43/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1962,
-    "builder": "Esterel",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
