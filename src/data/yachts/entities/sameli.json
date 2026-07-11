@@ -1,11 +1,11 @@
 {
-  "lastModified": 1773326648968,
+  "lastModified": 1783718894332,
   "uri": "c::7579706445::vessel::d5ca2335-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Base / Home Port: Athens, Greece\nOperating Area: Greece\n\nThe 75.6 feet (23 meters) SAMELI, built to perfection by Balance/Two Oceans Marine, is a meticulously crafted fly-bridge catamaran engineered to deliver unparalleled sailing prowess and soul-warming experiences.\nLearn more about the shipyard\nSetting itself apart from its counterparts, SAMELI epitomizes the elements of speed and luxury on board by doubling the speed while at the same time redefining the standards of comfort and sophistication, ensuring an unforgettable charter experience even for the most demanding guests.\nBorn to Sail Fast - Made for Luxury\nUniquely standing out as one of the most rare yachts in its category, SAMELI is a gem capable of delivering a dynamic combination of get-there-fast luxury cruising experience while indulging in the world of luxury.\nOutpacing every other yacht in her build & class, she can effortlessly take you everywhere easily reaching 12-15 knots speed under sail thanks to her exceptional engineering while she has managed to achieve even 25 knots.\nSAMELI's minimalist interior design emits a serene ambiance inviting you to unwind throughout the stylish open-plan saloon.\nNatural wood tones and windows welcome the light as it bathes in and effortlessly create an atmosphere of how you should spend your quality time aboard - worry free.\nHer panoramic sea-level windows offer a unique connection to the surrounding vistas and its all-in luxury five cabins accommodating up to 10 passengers.",
+  "description": "Operating Area: Greece\n\nThe 75.6 feet (23 meters) SAMELI, built to perfection by Balance/Two Oceans Marine, is a meticulously crafted fly-bridge catamaran engineered to deliver unparalleled sailing prowess and soul-warming experiences.\nLearn more about the shipyard\nSetting itself apart from its counterparts, SAMELI epitomizes the elements of speed and luxury on board by doubling the speed while at the same time redefining the standards of comfort and sophistication, ensuring an unforgettable charter experience even for the most demanding guests.\nBorn to Sail Fast - Made for Luxury\nUniquely standing out as one of the most rare yachts in its category, SAMELI is a gem capable of delivering a dynamic combination of get-there-fast luxury cruising experience while indulging in the world of luxury.\nOutpacing every other yacht in her build & class, she can effortlessly take you everywhere easily reaching 12-15 knots speed under sail thanks to her exceptional engineering while she has managed to achieve even 25 knots.\nSAMELI's minimalist interior design emits a serene ambiance inviting you to unwind throughout the stylish open-plan saloon.\nNatural wood tones and windows welcome the light as it bathes in and effortlessly create an atmosphere of how you should spend your quality time aboard - worry free.\nHer panoramic sea-level windows offer a unique connection to the surrounding vistas and its all-in luxury five cabins accommodating up to 10 passengers.",
   "blueprint": {
     "name": "SAMELI",
     "images": [
@@ -46,6 +46,15 @@
     "model": "Balance 76",
     "maxCrew": 4,
     "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
     "cruisingCapacity": "",
     "staticCapacity": "",
     "builtYear": 2016,
