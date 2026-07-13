@@ -1866,6 +1866,31 @@
     ]
   },
   {
+    "uri": "c::35442244900::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744",
+    "slug": "stella-maris",
+    "name": "STELLA MARIS",
+    "hero": "/media/media::image::a::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744::assets::c1be5fd0-7f47-11f0-9d9e-e57b5b5ec89f/{imageVariant}",
+    "length": 45,
+    "sleeps": 16,
+    "cabins": 8,
+    "builtYear": 2005,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing",
+      "Classic",
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::20519556651::vessel::d5cca2e5-fe8c-11ed-889f-43d4bb723744",
     "slug": "xana",
     "name": "XANA",
@@ -1933,29 +1958,6 @@
       "winter-2023",
       "winter-2024",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::35442244900::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744",
-    "slug": "stella-maris",
-    "name": "STELLA MARIS",
-    "hero": "/media/media::image::a::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744::assets::c1be5fd0-7f47-11f0-9d9e-e57b5b5ec89f/{imageVariant}",
-    "length": 45,
-    "sleeps": 16,
-    "cabins": 8,
-    "builtYear": 2004,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "winter-2026"
     ]
   },
   {

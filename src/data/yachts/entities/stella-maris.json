@@ -1,9 +1,11 @@
 {
-  "lastModified": 1770167340848,
+  "lastModified": 1783883772692,
   "uri": "c::35442244900::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
-    "Sailing"
+    "Sailing",
+    "Classic",
+    "Motor"
   ],
   "description": "Operating Area: Croatia, Adriatic Sea\n\nWhere Timeless Elegance Meets Modern Comfort\nStep into the world of Stella Maris, a gulet yacht that seamlessly blends classic charm with modern sophistication. Originally crafted in 2004 and meticulously renovated in 2018, she stands as the largest wooden sail yacht in Croatia, at the length of 45m.\n\nYour home away from home\nWelcome to Stella Maris, where classic elegance meets modern comfort out on the open seas. Designed for seamless indoor-outdoor living, Stella Maris promises an unforgettable experience for up to 16 guests.\n\nHer eight spacious cabins all come with ensuite bathrooms, ensuring privacy and convenience. Each cabin is a retreat of its own, blending classic design elements with contemporary amenities for a luxurious and relaxing stay.\n\nShare your seafaring moments with loved ones thanks to onboard WiFi or catch up on your favorite shows on the TV. Set the perfect ambiance with the Bluetooth music system or start a friendly PS4 competition. For those looking for a literary escape, the onboard library hides timeless gems.\n\nWhether you’re seeking a peaceful escape or a vibrant family adventure, you’ll find it aboard Stella Maris. She provides a comfortable and inviting atmosphere, making every moment at sea a cherished memory.",
   "blueprint": {
@@ -80,7 +82,7 @@
     },
     "cruisingCapacity": 0,
     "staticCapacity": 0,
-    "builtYear": 2004,
+    "builtYear": 2005,
     "architect": "",
     "interiorDesigner": "",
     "refitYear": 2024,
@@ -104,7 +106,7 @@
     "beam": 8.5,
     "draft": 3.8,
     "hullType": "",
-    "hullConstruction": "Wood",
+    "hullConstruction": "Wood, steel",
     "tonnage": 227,
     "superStructure": [],
     "engines": "Fiat Iveco AIFO 2 x 450 HP",
