@@ -13106,6 +13106,33 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446",
+    "slug": "mystic",
+    "name": "MYSTIC",
+    "hero": "/media/media::image::c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446::assets::3d7798f0-9aaa-11ee-848f-1d35dc3086d7.jpeg/{imageVariant}",
+    "length": 22,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2019,
+    "builder": "YYachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 450000,
+    "weekPricingFrom": 375000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819198774::vessel::15b1be20-fd5d-11ee-9d97-e36c13889da0",
     "slug": "feng",
     "name": "FENG",
@@ -13207,33 +13234,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446",
-    "slug": "mystic",
-    "name": "MYSTIC",
-    "hero": "/media/media::image::c::7579668770::vessel::f6625740-9aa7-11ee-a034-99319b436446::assets::3d7798f0-9aaa-11ee-848f-1d35dc3086d7.jpeg/{imageVariant}",
-    "length": 22,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2019,
-    "builder": "YYachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 450000,
-    "weekPricingFrom": 375000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -14467,32 +14467,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::0b533c40-9a8b-11ee-9acd-1999143ae32f",
-    "slug": "wukong-1",
-    "name": "WUKONG 1",
-    "hero": "/media/media::image::c::18049157535::vessel::0b533c40-9a8b-11ee-9acd-1999143ae32f::assets::49615ac0-9a8c-11ee-9acd-1999143ae32f.jpeg/{imageVariant}",
-    "length": 20.73,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "AS Marine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 16000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
