@@ -6968,6 +6968,28 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::d5cccd28-fe8c-11ed-889f-43d4bb723744",
+    "slug": "caneren",
+    "name": "CANEREN",
+    "hero": "/media/media::image::a::vessel::d5cccd28-fe8c-11ed-889f-43d4bb723744::assets::8f8b6490-bd82-11ef-b585-a71fd936cda4/{imageVariant}",
+    "length": 29.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1996,
+    "builder": "Mengi Yay Shipyard",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 200000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::7819198774::vessel::88e04610-0e4f-11f0-919d-29a40ba68b9e",
     "slug": "encore-88e046",
     "name": "ENCORE",
@@ -6991,28 +7013,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7819217464::vessel::d5cccd28-fe8c-11ed-889f-43d4bb723744",
-    "slug": "caneren",
-    "name": "CANEREN",
-    "hero": "/media/media::image::a::vessel::d5cccd28-fe8c-11ed-889f-43d4bb723744::assets::8f8b6490-bd82-11ef-b585-a71fd936cda4/{imageVariant}",
-    "length": 29.5,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1996,
-    "builder": "Mengi Yay Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -9238,6 +9238,33 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tango-charlie",
+    "name": "TANGO CHARLIE",
+    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
+    "length": 26,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Cobanoglu Shipyards",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::13745145528::vessel::c06376b0-fcb8-11ee-8a52-5f9ff1fa63b1",
     "slug": "lycian-dream",
     "name": "LYCIAN DREAM",
@@ -9334,33 +9361,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tango-charlie",
-    "name": "TANGO CHARLIE",
-    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
-    "length": 26,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Cobanoglu Shipyards",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -9716,6 +9716,33 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744",
+    "slug": "kaftan",
+    "name": "KAFTAN",
+    "hero": "/media/media::image::a::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::c08b88c0-a370-11f0-80ae-19c4d6e82d7a/{imageVariant}",
+    "length": 25.5,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 1998,
+    "builder": "Tuzla Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 200000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944",
     "slug": "phantom",
     "name": "PHANTOM",
@@ -9764,33 +9791,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744",
-    "slug": "kaftan",
-    "name": "KAFTAN",
-    "hero": "/media/media::image::a::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744::assets::c08b88c0-a370-11f0-80ae-19c4d6e82d7a/{imageVariant}",
-    "length": 25.5,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 1998,
-    "builder": "Tuzla Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
