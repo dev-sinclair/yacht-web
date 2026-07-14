@@ -1,10 +1,10 @@
 {
-  "lastModified": 1780534021600,
+  "lastModified": 1783974895219,
   "uri": "c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Cairns, Queensland, Australia\nOperating Area: Australia & South Pacific\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2026. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds (allowing an additional 2 guest). Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
+  "description": "Operating Area: Australia & South Pacific\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2026. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds (allowing an additional 2 guest). Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
   "blueprint": {
     "name": "BELUGA",
     "images": [
@@ -35,10 +35,11 @@
     "maxCrew": 6,
     "sleeps": 12,
     "basePort": {
-      "name": "Cairns, Queensland, Australia",
+      "uri": "a::place::d51ced9e-b3ed-11ed-89fd-325096b39f47",
+      "name": "Cairns",
       "coordinates": {
-        "longitude": 145.77678,
-        "latitude": -16.92133
+        "latitude": -16.91867011343518,
+        "longitude": 145.7813620317656
       },
       "country": "Australia"
     },

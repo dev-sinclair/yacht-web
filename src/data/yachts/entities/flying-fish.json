@@ -1,10 +1,10 @@
 {
-  "lastModified": 1780470574043,
+  "lastModified": 1783975460207,
   "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Cairns, Queensland, Australia\nOperating Area: Australia\n\nFrom its home in Cairns, M.Y. Flying Fish spends most of its time roaming the unspoiled waters of Tropical North Queensland, Australia.\n\nStretching across 32 metres of floating finery, the luxe interior is an ode to timeless style, adorned with rich mahogany and fine furnishings. With space to accommodate eight guests in luxury, the vessel contains four opulent staterooms. Each boasts its own a private bathroom, with the master stateroom’s ensuite also featuring a spa bath.\n\nThere are spacious living quarters across all three decks, as well as numerous alfresco dining and lounge areas allowing you to enjoy your picturesque surrounds from every vantage point as you cruise the Queensland waters day or night, from the Whitsundays, Ribbon Reefs to the Coral Sea.\n\nGuests can also access the best dive sites, fishing locales, remote sandy cays and mangrove-lined estuaries – those chasing the trophy barramundi or croc spotting –  utilising the vessel’s fully equipped 8.4m tender jet boat, Flying Cutlass.\n\nM.Y Flying Fish also features a helipad, and comes staffed by an elite team of experienced crew, at your service to deliver your blissful reef escape.",
+  "description": "Operating Area: Australia\n\nFrom its home in Cairns, M.Y. Flying Fish spends most of its time roaming the unspoiled waters of Tropical North Queensland, Australia.\n\nStretching across 32 metres of floating finery, the luxe interior is an ode to timeless style, adorned with rich mahogany and fine furnishings. With space to accommodate eight guests in luxury, the vessel contains four opulent staterooms. Each boasts its own a private bathroom, with the master stateroom’s ensuite also featuring a spa bath.\n\nThere are spacious living quarters across all three decks, as well as numerous alfresco dining and lounge areas allowing you to enjoy your picturesque surrounds from every vantage point as you cruise the Queensland waters day or night, from the Whitsundays, Ribbon Reefs to the Coral Sea.\n\nGuests can also access the best dive sites, fishing locales, remote sandy cays and mangrove-lined estuaries – those chasing the trophy barramundi or croc spotting –  utilising the vessel’s fully equipped 8.4m tender jet boat, Flying Cutlass.\n\nM.Y Flying Fish also features a helipad, and comes staffed by an elite team of experienced crew, at your service to deliver your blissful reef escape.",
   "blueprint": {
     "name": "FLYING FISH",
     "images": [
@@ -50,6 +50,15 @@
     "model": "",
     "maxCrew": 4,
     "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::d51ced9e-b3ed-11ed-89fd-325096b39f47",
+      "name": "Cairns",
+      "coordinates": {
+        "latitude": -16.91867011343518,
+        "longitude": 145.7813620317656
+      },
+      "country": "Australia"
+    },
     "builtYear": 1991,
     "architect": "",
     "interiorDesigner": "",
