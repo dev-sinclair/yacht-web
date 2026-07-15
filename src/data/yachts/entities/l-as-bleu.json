@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783367074399,
+  "lastModified": 1784128998875,
   "uri": "c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d",
   "yachtType": [
     "Motor"
@@ -8,34 +8,46 @@
   "blueprint": {
     "name": "L'AS BLEU",
     "images": [
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713776e0-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71313550-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::7133f470-c912-11f0-9a4b-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712d8bd0-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713505e0-c912-11f0-9a4b-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712cef90-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712e2810-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712f3980-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712c0530-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::7135c930-c912-11f0-9a4b-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712e0100-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712dd9f0-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71335830-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::712cc880-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713cce10-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71355400-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71366570-c912-11f0-be3d-f71bee70f886/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713ddf80-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71446f30-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713ca700-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71352cf0-c912-11f0-9a4b-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::7138fd80-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713701b0-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::7143fa00-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713f6620-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::713fb440-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71366570-c912-11f0-9a4c-15021e3b8804/{imageVariant}",
-      "/media/media::image::a::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::71402970-c912-11f0-9a4c-15021e3b8804/{imageVariant}"
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aec9370-8060-11f1-b7da-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af0d931-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af0d930-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aedcbf1-8060-11f1-b7da-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af12750-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af67e80-8060-11f1-bbb1-6bd9a369d3fa/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af238c0-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af4d0d0-8060-11f1-91da-ebbbbeb7cd8f/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aee1a10-8060-11f1-b7da-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af51ef0-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af211b0-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af34a30-8060-11f1-b7dc-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af93da0-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af768e0-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af8c870-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af5e240-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af80520-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af39850-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aee6830-8060-11f1-b7da-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af741d0-8060-11f1-bbb1-6bd9a369d3fa/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aedf300-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af82c30-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af4a9c0-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af14e60-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af45ba0-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af4f7e0-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af211b0-8060-11f1-b7dc-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af4a9c0-8060-11f1-91da-ebbbbeb7cd8f/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aedcbf0-8060-11f1-b7da-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af32320-8060-11f1-b7dc-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af482b0-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af56d11-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4aea97a0-8060-11f1-9e7b-232bdc021e5e/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af2adf0-8060-11f1-b7dc-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af7b700-8060-11f1-a834-15d3476b811c/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af1c391-8060-11f1-b7db-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af56d10-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af32320-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af37140-8060-11f1-b7dd-319c7a690e06/{imageVariant}",
+      "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::4af1c390-8060-11f1-b7db-319c7a690e06/{imageVariant}"
     ],
     "make": "Riva",
     "model": "Diva",
@@ -65,7 +77,7 @@
         "value": "1"
       },
       {
-        "label": "Twin Cabins",
+        "label": "Twin Cabins (1 x Convertible)",
         "value": "2"
       }
     ],
@@ -120,12 +132,15 @@
   "crew": [
     {
       "name": "Benoit Benaddi",
+      "avatar": "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::def7e600-8060-11f1-a70f-5540fa7a5547/{imageVariant}",
       "role": "Captain",
       "bio": "Captain Benoit Benaddi brings over five years of solid yachting experience across the Mediterranean, from the French Riviera to Italy, Corsica, Sardinia, and the Balearics. His background covers both private and charter yachts, giving him a strong understanding of guest expectations and operational excellence.\nA holder of a Master 200 GT license, Benoit combines a dynamic leadership style with a hands-on technical approach, ensuring a safe, smooth, and enjoyable experience for everyone on board.\n\nEXPERIENCES: \nCaptain on M/Y SAMIRA – Riva Perseo 76 (Charter and Private) in 2025, Second on M/Y SKYRA – Integrity 93 (Charter and Private), M/Y SEA SQUIRTER – Leopard 27 (Private)"
     },
     {
-      "name": "TBD",
-      "role": "Captain"
+      "name": "Alicia Lopez",
+      "avatar": "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::0d484860-8061-11f1-a70f-5540fa7a5547/{imageVariant}",
+      "role": "Captain",
+      "bio": "Originally from France and raised in a multicultural family with Moroccan, Spanish, and British influences, she developed an early passion for food shaped by a rich blend of culinary traditions. This diverse background continues to influence her style, combining Mediterranean flavors with refined and comforting European cuisine.\n\nShe completed a three-year culinary program at Paul Augier Hospitality School, establishing a strong foundation in classical techniques, followed by experience in professional kitchens and high-pressure environments, including crew catering. Keen to broaden her expertise in hospitality, she gained experience as a stewardess on a private yacht and within luxury service, where she developed a keen eye for detail and a strong commitment to guest satisfaction.\nPassionate about global cuisine, she also has a particular affinity for pastry and desserts, and takes pride in creating thoughtful dishes that enhance the overall guest experience.\n\nExperience: \n- Stew on M/Y 27m in Beaulieu sur Mer and M/Y 35m in Monaco 2025-2026 and 2021\n- Waitress, restaurant - La grande Ourse, Les Airelles ,2024\n- Commis in different restaurants\n"
     },
     {
       "name": "TBD",
@@ -135,16 +150,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 7000000,
+      "price": 6000000,
       "displayCurrency": "EUR",
-      "displayPrice": 7000000,
+      "displayPrice": 6000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 8000000,
+      "price": 7000000,
       "displayCurrency": "EUR",
-      "displayPrice": 8000000,
+      "displayPrice": 7000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -166,7 +181,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 7000000,
+          "charterFee": 6000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -174,20 +189,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7000000,
-              "amount": 7000000,
+              "unitPrice": 6000000,
+              "amount": 6000000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.35,
-              "unitPrice": 7000000,
-              "amount": 2450000
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 9450000,
-          "subTotal": 9450000,
+          "total": 6000000,
+          "subTotal": 6000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -230,7 +245,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 8000000,
+          "charterFee": 7000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -238,20 +253,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8000000,
-              "amount": 8000000,
+              "unitPrice": 7000000,
+              "amount": 7000000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.35,
-              "unitPrice": 8000000,
-              "amount": 2800000
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 10800000,
-          "subTotal": 10800000,
+          "total": 7000000,
+          "subTotal": 7000000,
           "totalTax": 0
         },
         "inclusionZones": [

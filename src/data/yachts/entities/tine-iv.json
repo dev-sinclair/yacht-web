@@ -1,0 +1,533 @@
+{
+  "lastModified": null,
+  "uri": "c::8276484364::vessel::ccf4a930-7547-11f1-869c-99739ada6855",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Sardinia, Italy\n\nTINE IV is a 24.50m / 80ft Luxury Motor Superyacht built in 2012 by Pershing and later underwent a refit in 2026. Sleeping 6 guests in 3 cabins and with a crew of 3. Cruising at 30.00 kn/ph with a top speed of 47.00 kn/ph. The guest cabins comprise of a Master Cabin with king size bed and en-suite bathroom facilities, a VIP cabin with double bed and en-suite bathroom facilities, and a twin cabin with en-suite bathroom facilities.",
+  "blueprint": {
+    "name": "TINE IV",
+    "images": [
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be5a16b0-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be57f3d0-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be5a64d0-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be5a16b1-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be57a5b0-754e-11f1-8849-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be5841f0-754e-11f1-8849-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be592c50-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be586900-754e-11f1-8849-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be5a3dc0-754e-11f1-884b-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be595360-754e-11f1-884a-4d3417315313/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be51b240-754e-11f1-b6c7-b129e4fad0c3/{imageVariant}",
+      "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::be513d10-754e-11f1-b6c7-b129e4fad0c3/{imageVariant}"
+    ],
+    "make": "Pershing",
+    "model": "Pershing 80",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::1aaf53f0-20c8-11ee-b415-5d0e701ed4d0",
+      "name": "Poltu Quatu Marina Dell'Orso",
+      "coordinates": {
+        "latitude": 41.13547796961956,
+        "longitude": 9.49631572267187
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2012,
+    "refitYear": 2026,
+    "topSpeed": 47,
+    "cruiseSpeed": 30,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 24.5,
+    "beam": 5.5,
+    "draft": 1.6,
+    "hullType": "Planing",
+    "hullConstruction": "GRP",
+    "tonnage": 0,
+    "superStructure": [
+      "GRP"
+    ],
+    "engines": "2 x MTU 2450 HP",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Seakeeper Stabilizers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seanext",
+        "quantity": "2"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Inflatables"
+      },
+      {
+        "label": "E-foil"
+      }
+    ],
+    "entertainment": [
+      "Starlink Wi-Fi connection"
+    ],
+    "tenders": [
+      "Tender Williams 325"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Gaspare Buffa",
+      "avatar": "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::40aeed90-7552-11f1-ad57-e3cea60ec264/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\nLanguages: Italian, English\n\nCaptain Gaspare Buffa is a Sicilian captain with a lifelong connection to the sea and the nautical industry. Having been involved in yachting from a very young age, he has developed strong practical knowledge, excellent seamanship, and a deep understanding of yacht operations.\nThroughout his career, Gaspare has gained valuable experience on renowned yacht brands, with particular familiarity in the Pershing world, as well as on prestigiou yachts such as Sanlorenzo and Princess. This background has given him a solid technical awareness, a precise approach to yacht handling, and the ability to manage both performance yachts and luxury cruising vessels with confidence and professionalism.\n\nGaspare is known for his calm, kind and empathetic personality. He is highly attentive to guests’ needs and always aims to create a relaxed, safe and enjoyable atmosphere on board. His priority is to make every guest feel comfortable, well looked after and\nfully satisfied throughout the charter experience.\nPrecise, reliable and service-oriented, Captain Gaspare combines technical competence with genuine hospitality. His local knowledge, professional attitude and natural ability to connect with people make him a valuable captain for guests seeking\nboth comfort and an authentic Mediterranean yachting experience."
+    },
+    {
+      "name": "Arianna Baldo",
+      "avatar": "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::96b8af50-7552-11f1-92b7-e3cfa51a97b5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\nLanguages: Italian, English\n\nArianna is a motivated and reliable Deckhand with solid hands-on experience on both motor yachts and sailing yachts, including private yachts up to 30 metres operating in the Mediterranean. Over the past seasons, she has gained practical experience in\nmooring and anchoring operations, exterior maintenance, washdowns, navigation watches, tender handling, and guest support during water sports activities.\nHer background includes working on yachts equipped with a wide range of water toys, such as tenders, Seabobs, SUPs, Jet Skis, flyboards and e-surfs, where she was involved in their launch, recovery and supervision. She has also supported captains\nduring navigation, both under motor and sail, and has experience assisting with basic engine room checks, refuelling, water supply operations, and general yacht upkeep.\nBefore entering the yachting industry, Arianna developed a strong sporting and hospitality background as a swimming instructor, lifeguard, SUP instructor and tourism professional. This gives her a naturally active, safety-conscious and guest-oriented approach, particularly valuable during charters where water activities and outdoor service play an important role.\n\nArianna is known for being serious, well-mannered, precise and highly motivated. She is a quick learner, works well within a team, and approaches every task with commitment, organization and a positive attitude. Her combination of seamanship, water sports experience and hospitality awareness makes her a valuable deck crew member on board."
+    },
+    {
+      "name": "Carla Meloni",
+      "avatar": "/media/media::image::a::vessel::ccf4a930-7547-11f1-869c-99739ada6855::assets::d0f59700-7552-11f1-8ade-232a6e8949b5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\nLanguages: Italian, English\n\nCarla is an experienced Hostess/Cook with a strong background in hospitality, yacht charter service, guest care, and onboard catering. Before joining the yachting industry, she built an extensive career in hotel management, holding senior positions in several luxury hotels, where she developed solid skills in guest relations, team coordination, event organization, purchasing, menu planning, and high-standard service delivery.\nIn recent years, Carla has worked as Chef and Hostess/Chef on a variety of charter yachts and catamarans, including MYBA charter programs, gaining practical experience in meal preparation, interior service, provisioning, housekeeping, guest assistance, and support during mooring operations. Her profile combines the warmth and attention to detail of a dedicated hostess with\nthe practical cooking abilities required to offer guests a pleasant and relaxed onboard experience.\nCarla is organized, adaptable, and highly service-oriented. She is used to working in dynamic environments and managing guests’ needs with discretion, positivity, and professionalism. Her hospitality background, combined with her yachting experience, makes her a valuable crew member, particularly for charters where comfort, care, and a welcoming atmosphere are essential."
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 650000,
+      "displayCurrency": "EUR",
+      "displayPrice": 650000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 733400,
+      "displayCurrency": "EUR",
+      "displayPrice": 733400,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season: Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.22
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 3900000,
+              "amount": 1365000
+            }
+          ],
+          "total": 6123000,
+          "subTotal": 5265000,
+          "totalTax": 858000
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season: Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4400000,
+              "amount": 4400000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.22
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 4400000,
+              "amount": 1540000
+            }
+          ],
+          "total": 6908000,
+          "subTotal": 5940000,
+          "totalTax": 968000
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: Daily Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 650000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 650000,
+              "amount": 650000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.22
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 650000,
+              "amount": 227500
+            }
+          ],
+          "total": 1020500,
+          "subTotal": 877500,
+          "totalTax": 143000
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season: Daily Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 733400,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 733400,
+              "amount": 733400,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.22
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 733400,
+              "amount": 256689.99999999997
+            }
+          ],
+          "total": 1151438,
+          "subTotal": 990090,
+          "totalTax": 161348
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
