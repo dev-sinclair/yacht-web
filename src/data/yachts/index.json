@@ -4650,32 +4650,6 @@
     ]
   },
   {
-    "uri": "c::15366580866::vessel::92b65600-9d7d-11ee-863a-a33e27038629",
-    "slug": "shore-thing",
-    "name": "SHORE THING",
-    "hero": "/media/media::image::c::15366580866::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::ae8366d0-4be0-11f0-9163-85ad55db0d52/{imageVariant}",
-    "length": 35,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1986,
-    "builder": "Lloyd's Ships",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 220000,
-    "weekPricingFrom": 7000000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::7646090758::vessel::d5cc24a0-fe8c-11ed-889f-43d4bb723744",
     "slug": "san-limi",
     "name": "SAN LIMI",
@@ -4822,32 +4796,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::15366580866::vessel::d5cc4fa6-fe8c-11ed-889f-43d4bb723744",
-    "slug": "akiko",
-    "name": "AKIKO",
-    "hero": "/media/media::image::c::15366580866::vessel::d5cc4fa6-fe8c-11ed-889f-43d4bb723744::assets::8b08a320-8f41-11ef-8850-1b8f958f2518/{imageVariant}",
-    "length": 34.2,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2007,
-    "builder": "Alloy Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11500000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -5313,33 +5261,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::15366580866::vessel::d5cca1e7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "cosmos-ii",
-    "name": "COSMOS II",
-    "hero": "/media/media::image::c::15366580866::vessel::d5cca1e7-fe8c-11ed-889f-43d4bb723744::assets::da1d2a90-b13d-11ee-bb73-b37e33df90ec.png/{imageVariant}",
-    "length": 32.5,
-    "sleeps": 12,
-    "cabins": 4,
-    "builtYear": 1987,
-    "builder": "Lloyds Ships Australia",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 240000,
-    "weekPricingFrom": 12200000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2024",
       "winter-2025",
       "winter-2026",
@@ -8624,32 +8545,6 @@
     ]
   },
   {
-    "uri": "c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539",
-    "slug": "segara",
-    "name": "SEGARA",
-    "hero": "/media/media::image::c::15366580866::vessel::ddd158f0-b13d-11ee-af5c-7d01dad09539::assets::6088da80-b147-11ee-af5c-7d01dad09539.jpeg/{imageVariant}",
-    "length": 27,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2013,
-    "builder": "Shoreline Marine",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1500000,
-    "weekPricingFrom": 9796500,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::7819298091::vessel::f84cb300-486c-11f1-988b-69d6e1eb52a5",
     "slug": "carolina",
     "name": "CAROLINA",
@@ -11150,28 +11045,6 @@
     ]
   },
   {
-    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
-    "slug": "houbara",
-    "name": "HOUBARA",
-    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
-    "length": 23.99,
-    "sleeps": 7,
-    "cabins": 3,
-    "builtYear": 2012,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
     "uri": "c::9938368400::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7",
     "slug": "bohemia",
     "name": "BOHEMIA",
@@ -11196,6 +11069,28 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
+    "slug": "houbara",
+    "name": "HOUBARA",
+    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 7,
+    "cabins": 3,
+    "builtYear": 2012,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
     ]
   },
   {
