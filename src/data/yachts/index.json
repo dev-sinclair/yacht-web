@@ -4928,6 +4928,29 @@
     ]
   },
   {
+    "uri": "c::9333109022::vessel::d5cca284-fe8c-11ed-889f-43d4bb723744",
+    "slug": "wicked-felina",
+    "name": "WICKED FELINA",
+    "hero": "/media/media::image::c::9333109022::vessel::d5cca284-fe8c-11ed-889f-43d4bb723744::assets::45d6a2e0-9ea9-11ee-893e-8136098aadae.jpeg/{imageVariant}",
+    "length": 34,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2004,
+    "builder": "Bayar",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1750000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::d5cc7736-fe8c-11ed-889f-43d4bb723744",
     "slug": "project-steel",
     "name": "PROJECT STEEL",
@@ -5005,29 +5028,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::9333109022::vessel::d5cca284-fe8c-11ed-889f-43d4bb723744",
-    "slug": "wicked-felina",
-    "name": "WICKED FELINA",
-    "hero": "/media/media::image::c::9333109022::vessel::d5cca284-fe8c-11ed-889f-43d4bb723744::assets::45d6a2e0-9ea9-11ee-893e-8136098aadae.jpeg/{imageVariant}",
-    "length": 34,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2004,
-    "builder": "Bayar",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1750000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
