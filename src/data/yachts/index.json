@@ -11071,6 +11071,28 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
+    "slug": "houbara",
+    "name": "HOUBARA",
+    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 7,
+    "cabins": 3,
+    "builtYear": 2012,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::e4f1ea00-4dfd-11f1-956f-1fd091d55ca7",
     "slug": "bohemia",
     "name": "BOHEMIA",
@@ -11095,28 +11117,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
-    "slug": "houbara",
-    "name": "HOUBARA",
-    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
-    "length": 23.99,
-    "sleeps": 7,
-    "cabins": 3,
-    "builtYear": 2012,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
@@ -11528,6 +11528,27 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b",
+    "slug": "apollo-99",
+    "name": "APOLLO 99",
+    "hero": "/media/media::image::c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b::assets::d519ff10-af5f-11f0-9153-1364ca44cabc/{imageVariant}",
+    "length": 23.87,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::eb4ddfa0-f060-11ee-a296-373c493b7d64",
     "slug": "nalani",
     "name": "NALANI",
@@ -11579,27 +11600,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b",
-    "slug": "apollo-99",
-    "name": "APOLLO 99",
-    "hero": "/media/media::image::c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b::assets::d519ff10-af5f-11f0-9153-1364ca44cabc/{imageVariant}",
-    "length": 23.87,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
     ]
   },
   {
