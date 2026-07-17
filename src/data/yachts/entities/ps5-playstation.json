@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783672982732,
+  "lastModified": 1784293635032,
   "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -157,6 +157,109 @@
     }
   ],
   "pricing": {
-    "pricingInfo": []
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 12500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 12500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Charter Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-08-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000
+            }
+          ],
+          "total": 12500000,
+          "subTotal": 12500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
   }
 }

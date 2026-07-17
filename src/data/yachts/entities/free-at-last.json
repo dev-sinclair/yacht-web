@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783001883112,
+  "lastModified": 1784293816507,
   "uri": "c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -143,6 +143,330 @@
     }
   ],
   "pricing": {
-    "pricingInfo": []
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4500000,
+              "amount": 4500000,
+              "conditions": ""
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 0,
+              "amount": 0
+            }
+          ],
+          "total": 4500000,
+          "subTotal": 4500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -7.17445166576848,
+              36.8523911214717
+            ],
+            "bbox": [
+              -18.167225714999915,
+              27.642238674000055,
+              4.337087436000047,
+              43.79344310100004
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4800000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4800000,
+              "amount": 4800000,
+              "conditions": ""
+            }
+          ],
+          "total": 4800000,
+          "subTotal": 4800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.204840429521369,
+              41.61169587639921
+            ],
+            "bbox": [
+              6.6027283120000675,
+              35.48924388200004,
+              18.517425977000073,
+              47.08521494500006
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              -3.676762491181631,
+              13.257370810531999
+            ],
+            "bbox": [
+              -61.79784094999991,
+              -21.37078215899993,
+              55.854502800000034,
+              51.08754088371883
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -7.17445166576848,
+              36.8523911214717
+            ],
+            "bbox": [
+              -18.167225714999915,
+              27.642238674000055,
+              4.337087436000047,
+              43.79344310100004
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Xmas/New Year",
+        "effectiveDates": [
+          {
+            "from": "2026-12-19T00:00:00.000Z",
+            "to": "2027-01-08T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4800000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4800000,
+              "amount": 4800000
+            }
+          ],
+          "total": 4800000,
+          "subTotal": 4800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Caribbean Sea"
+            ],
+            "coordinates": [
+              -75.20942221363948,
+              15.447039028480969
+            ],
+            "bbox": [
+              -88.34899451369023,
+              8.493693752471486,
+              -59.20886105003194,
+              22.689132188400592
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Normal Charter Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2026-12-18T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-09T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4500000,
+              "amount": 4500000
+            }
+          ],
+          "total": 4500000,
+          "subTotal": 4500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
   }
 }
