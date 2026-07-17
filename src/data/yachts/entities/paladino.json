@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781711959320,
+  "lastModified": 1784313287274,
   "uri": "c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4",
   "yachtType": [
     "Motor"
@@ -139,16 +139,16 @@
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2050000,
+      "price": 1500000,
       "displayCurrency": "EUR",
-      "displayPrice": 2050000,
+      "displayPrice": 1500000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2500000,
+      "price": 1500000,
       "displayCurrency": "EUR",
-      "displayPrice": 2500000,
+      "displayPrice": 1500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -186,12 +186,12 @@
               "item": "APA",
               "conditions": "VAT Included",
               "quantity": 0.3,
-              "unitPrice": 350000,
-              "amount": 105000
+              "unitPrice": 285000,
+              "amount": 85500
             }
           ],
-          "total": 390000,
-          "subTotal": 390000,
+          "total": 370500,
+          "subTotal": 370500,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -269,12 +269,12 @@
               "item": "APA",
               "conditions": "VAT Included",
               "quantity": 0.3,
-              "unitPrice": 420000,
-              "amount": 126000
+              "unitPrice": 350000,
+              "amount": 105000
             }
           ],
-          "total": 476000,
-          "subTotal": 476000,
+          "total": 455000,
+          "subTotal": 455000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -348,7 +348,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2050000,
+          "charterFee": 1500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -356,20 +356,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2050000,
-              "amount": 2050000,
+              "unitPrice": 1500000,
+              "amount": 1500000,
               "conditions": "VAT not Included"
             },
             {
               "item": "APA",
               "conditions": "VAT is Included",
               "quantity": 0.3,
-              "unitPrice": 2500000,
-              "amount": 750000
+              "unitPrice": 1500000,
+              "amount": 450000
             }
           ],
-          "total": 2800000,
-          "subTotal": 2800000,
+          "total": 1950000,
+          "subTotal": 1950000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -507,7 +507,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2500000,
+          "charterFee": 1500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -515,20 +515,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2500000,
-              "amount": 2500000,
+              "unitPrice": 1500000,
+              "amount": 1500000,
               "conditions": "VAT not Included"
             },
             {
               "item": "APA",
               "conditions": "VAT is Included",
               "quantity": 0.3,
-              "unitPrice": 3000000,
-              "amount": 900000
+              "unitPrice": 1500000,
+              "amount": 450000
             }
           ],
-          "total": 3400000,
-          "subTotal": 3400000,
+          "total": 1950000,
+          "subTotal": 1950000,
           "totalTax": 0
         },
         "inclusionZones": [

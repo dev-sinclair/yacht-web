@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782725598752,
+  "lastModified": 1784313196296,
   "uri": "c::39480359087::vessel::8007def0-1ce6-11ef-b671-cb493c376fe8",
   "yachtType": [
     "Motor"
@@ -138,16 +138,16 @@
     },
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2730000,
+      "price": 2300000,
       "displayCurrency": "EUR",
-      "displayPrice": 2730000,
+      "displayPrice": 2300000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3250000,
+      "price": 2500000,
       "displayCurrency": "EUR",
-      "displayPrice": 3250000,
+      "displayPrice": 2500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -347,7 +347,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2730000,
+          "charterFee": 2300000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -355,20 +355,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2730000,
-              "amount": 2730000,
+              "unitPrice": 2300000,
+              "amount": 2300000,
               "conditions": "VAT not Inclusive"
             },
             {
               "item": "APA",
               "conditions": "VAT is Inclusive",
               "quantity": 0.3,
-              "unitPrice": 2730000,
-              "amount": 819000
+              "unitPrice": 2300000,
+              "amount": 690000
             }
           ],
-          "total": 3549000,
-          "subTotal": 3549000,
+          "total": 2990000,
+          "subTotal": 2990000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -470,7 +470,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3250000,
+          "charterFee": 2500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -478,20 +478,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3250000,
-              "amount": 3250000,
+              "unitPrice": 2500000,
+              "amount": 2500000,
               "conditions": "VAT not Inclusive"
             },
             {
               "item": "APA",
               "conditions": "VAT is Inclusive",
               "quantity": 0.3,
-              "unitPrice": 3250000,
-              "amount": 975000
+              "unitPrice": 2500000,
+              "amount": 750000
             }
           ],
-          "total": 4225000,
-          "subTotal": 4225000,
+          "total": 3250000,
+          "subTotal": 3250000,
           "totalTax": 0
         },
         "inclusionZones": [
