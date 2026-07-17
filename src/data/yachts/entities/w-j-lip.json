@@ -1,10 +1,10 @@
 {
-  "lastModified": 1772705763808,
+  "lastModified": 1784240065692,
   "uri": "c::20984578048::vessel::73728e80-e7e1-11ef-a791-d5eced2a57af",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Phuket, Thailand\nOperating Area: Thailand\n\nThe PRINCESS 78 W.J. Lip is a luxurious yacht that provides an extraordinary charter experience, blending sophistication with adventure. It boasts premium amenities and exceptional service, offering packages for low, high, or peak seasons to create unforgettable journeys in Phuket. Guests can indulge in tastefully designed interiors, gourmet dining, and activities such as snorkeling and paddleboarding, or they may choose to unwind with a refreshing drink. With options for half-day and full-day charters, there’s something to suit every preference.",
+  "description": "Operating Area: Thailand\n\nThe PRINCESS 78 W.J. Lip is a luxurious yacht that provides an extraordinary charter experience, blending sophistication with adventure. It boasts premium amenities and exceptional service, offering packages for low, high, or peak seasons to create unforgettable journeys in Phuket. Guests can indulge in tastefully designed interiors, gourmet dining, and activities such as snorkeling and paddleboarding, or they may choose to unwind with a refreshing drink. With options for half-day and full-day charters, there’s something to suit every preference.",
   "blueprint": {
     "name": "W.J. LIP",
     "images": [
@@ -76,6 +76,15 @@
     "model": "Princess 78",
     "maxCrew": 5,
     "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::c2123230-5e37-11f0-b2be-e904ae2ac246",
+      "name": "Boat Lagoon Marina",
+      "coordinates": {
+        "latitude": 7.963782464925793,
+        "longitude": 98.38813119222378
+      },
+      "country": "Thailand"
+    },
     "cruisingCapacity": 20,
     "builtYear": 2012,
     "refitYear": 2021,
