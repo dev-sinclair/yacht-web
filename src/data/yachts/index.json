@@ -8149,6 +8149,32 @@
     "seasons": []
   },
   {
+    "uri": "c::7580663817::vessel::d77ee980-aa6d-11ee-b665-b1d76bdb0c4e",
+    "slug": "bear-paw",
+    "name": "BEAR PAW",
+    "hero": "/media/media::image::c::7580663817::vessel::d77ee980-aa6d-11ee-b665-b1d76bdb0c4e::assets::64ce1970-145c-11ef-ad1e-1d9d230d83da.jpeg/{imageVariant}",
+    "length": 27.43,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 1967,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3600000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::d5cc25d4-fe8c-11ed-889f-43d4bb723744",
     "slug": "myra",
     "name": "MYRA",
@@ -8173,32 +8199,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7580663817::vessel::d77ee980-aa6d-11ee-b665-b1d76bdb0c4e",
-    "slug": "bear-paw",
-    "name": "BEAR PAW",
-    "hero": "/media/media::image::c::7580663817::vessel::d77ee980-aa6d-11ee-b665-b1d76bdb0c4e::assets::64ce1970-145c-11ef-ad1e-1d9d230d83da.jpeg/{imageVariant}",
-    "length": 27.43,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 1967,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3600000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -8348,6 +8348,29 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18231269944::vessel::d5cca3cc-fe8c-11ed-889f-43d4bb723744",
+    "slug": "derin-deniz",
+    "name": "DERIN DENIZ",
+    "hero": "/media/media::image::a::vessel::d5cca3cc-fe8c-11ed-889f-43d4bb723744::assets::7333ba80-781d-11f0-b3d3-0965c2b081d8/{imageVariant}",
+    "length": 27,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2008,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
     ]
   },
   {
@@ -8626,29 +8649,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18231269944::vessel::d5cca3cc-fe8c-11ed-889f-43d4bb723744",
-    "slug": "derin-deniz",
-    "name": "DERIN DENIZ",
-    "hero": "/media/media::image::a::vessel::d5cca3cc-fe8c-11ed-889f-43d4bb723744::assets::7333ba80-781d-11f0-b3d3-0965c2b081d8/{imageVariant}",
-    "length": 27,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2008,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -11349,6 +11349,58 @@
     ]
   },
   {
+    "uri": "c::21392618129::vessel::a49bfe90-d40f-11f0-81c6-75941bd3685b",
+    "slug": "victoria-a49bfe",
+    "name": "VICTORIA",
+    "hero": "/media/media::image::a::vessel::a49bfe90-d40f-11f0-81c6-75941bd3685b::assets::730bc891-d411-11f0-8e4e-a72fc0c670ca/{imageVariant}",
+    "length": 23.9,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Nautor Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::21392618129::vessel::d5cc253a-fe8c-11ed-889f-43d4bb723744",
+    "slug": "valkyrie",
+    "name": "VALKYRIE",
+    "hero": "/media/media::image::a::vessel::d5cc253a-fe8c-11ed-889f-43d4bb723744::assets::yachts-101236-stOGwqhBA.jpg/{imageVariant}",
+    "length": 23.9,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2006,
+    "builder": "Nautor Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 533300,
+    "weekPricingFrom": 3200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::c854a3c0-3a20-11f0-b55b-e5b737adbb05",
     "slug": "ahava",
     "name": "AHAVA",
@@ -11426,58 +11478,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::21392618129::vessel::d5cc253a-fe8c-11ed-889f-43d4bb723744",
-    "slug": "valkyrie",
-    "name": "VALKYRIE",
-    "hero": "/media/media::image::a::vessel::d5cc253a-fe8c-11ed-889f-43d4bb723744::assets::yachts-101236-stOGwqhBA.jpg/{imageVariant}",
-    "length": 23.9,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Nautor Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 533300,
-    "weekPricingFrom": 3200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::21392618129::vessel::a49bfe90-d40f-11f0-81c6-75941bd3685b",
-    "slug": "victoria-a49bfe",
-    "name": "VICTORIA",
-    "hero": "/media/media::image::a::vessel::a49bfe90-d40f-11f0-81c6-75941bd3685b::assets::730bc891-d411-11f0-8e4e-a72fc0c670ca/{imageVariant}",
-    "length": 23.9,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Nautor Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -11682,6 +11682,28 @@
     ]
   },
   {
+    "uri": "c::21392618129::vessel::419a74b0-ccf5-11ef-8f6c-294d9fa20bcf",
+    "slug": "amuri",
+    "name": "AMURI",
+    "hero": "/media/media::image::a::vessel::419a74b0-ccf5-11ef-8f6c-294d9fa20bcf::assets::507592c0-cdd7-11ef-a628-e976d72c75c9/{imageVariant}",
+    "length": 23.8,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2024,
+    "builder": "CNB",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::0c313760-3a1d-11f0-8892-61970e8f798b",
     "slug": "mattea",
     "name": "MATTEA",
@@ -11732,28 +11754,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::21392618129::vessel::419a74b0-ccf5-11ef-8f6c-294d9fa20bcf",
-    "slug": "amuri",
-    "name": "AMURI",
-    "hero": "/media/media::image::a::vessel::419a74b0-ccf5-11ef-8f6c-294d9fa20bcf::assets::507592c0-cdd7-11ef-a628-e976d72c75c9/{imageVariant}",
-    "length": 23.8,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2024,
-    "builder": "CNB",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
@@ -12420,29 +12420,6 @@
     ]
   },
   {
-    "uri": "c::9870482971::vessel::d5cc2450-fe8c-11ed-889f-43d4bb723744",
-    "slug": "paulena",
-    "name": "PAULENA",
-    "hero": "/media/media::image::c::9870482971::vessel::d5cc2450-fe8c-11ed-889f-43d4bb723744::assets::yachts-2432-FR9X2PETK.jpg/{imageVariant}",
-    "length": 22.86,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 1966,
-    "builder": "Sangermani Lavagna",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
-    ]
-  },
-  {
     "uri": "c::21392618129::vessel::7195f1d0-6625-11ef-8173-0fe9b9d826d7",
     "slug": "azur",
     "name": "AZUR",
@@ -12466,6 +12443,29 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::9870482971::vessel::d5cc2450-fe8c-11ed-889f-43d4bb723744",
+    "slug": "paulena",
+    "name": "PAULENA",
+    "hero": "/media/media::image::c::9870482971::vessel::d5cc2450-fe8c-11ed-889f-43d4bb723744::assets::yachts-2432-FR9X2PETK.jpg/{imageVariant}",
+    "length": 22.86,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 1966,
+    "builder": "Sangermani Lavagna",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026"
     ]
   },
   {
@@ -16186,32 +16186,6 @@
     ]
   },
   {
-    "uri": "c::7584683786::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4",
-    "slug": "amaterasu",
-    "name": "AMATERASU",
-    "hero": "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e35be0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
-    "length": 19.03,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2025,
-    "builder": "Itama",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 428500,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::21392618129::vessel::fbb31ba0-656b-11ef-a712-6135c28faafc",
     "slug": "spectre-fbb31b",
     "name": "SPECTRE",
@@ -16225,6 +16199,32 @@
       "Motor"
     ],
     "dayPricingFrom": 550000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7584683786::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4",
+    "slug": "amaterasu",
+    "name": "AMATERASU",
+    "hero": "/media/media::image::a::vessel::f39e6460-6b22-11f1-b02d-477f2de7d2d4::assets::30e35be0-6be7-11f1-8b0c-db0e10faf451/{imageVariant}",
+    "length": 19.03,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2025,
+    "builder": "Itama",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 428500,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
