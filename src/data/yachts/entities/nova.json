@@ -1,11 +1,11 @@
 {
-  "lastModified": 1772785131467,
+  "lastModified": 1784562028444,
   "uri": "c::7579706445::vessel::d5cbfbc6-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Base / Home Port: Athens, Greece\nOperating Area: Greek Islands\n\nNova is a Lagoon 620 Catamaran available for private crewed yacht charters throughout Greece. Built in 2010 / 2011 at CNB shipyard, a division of Groupe Bénéteau, Nova is the flagship of the Lagoon range of cruising catamarans designed by architects Marc Van Peteghem and Vincent Lauriot Prévost.\n\nAn impeccably designed catamaran with original art works by famous artists decorating her interior and an award-winning chef preparing the meals, Nova can comfortably accommodate up to 8 passengers in double hulled luxury! The Captain and the crew of the Nova look forward to offering you an unforgettable Greek sailing experience.",
+  "description": "Operating Area: Greek Islands\n\nNova is a Lagoon 620 Catamaran available for private crewed yacht charters throughout Greece. Built in 2010 / 2011 at CNB shipyard, a division of Groupe Bénéteau, Nova is the flagship of the Lagoon range of cruising catamarans designed by architects Marc Van Peteghem and Vincent Lauriot Prévost.\n\nAn impeccably designed catamaran with original art works by famous artists decorating her interior and an award-winning chef preparing the meals, Nova can comfortably accommodate up to 8 passengers in double hulled luxury! The Captain and the crew of the Nova look forward to offering you an unforgettable Greek sailing experience.",
   "blueprint": {
     "name": "NOVA",
     "images": [
@@ -31,6 +31,15 @@
     "model": "Lagoon 620",
     "maxCrew": 3,
     "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
     "builtYear": 2011,
     "architect": "Marc Van Peteghem / Vincent Lauriot Prévost",
     "interiorDesigner": "",
