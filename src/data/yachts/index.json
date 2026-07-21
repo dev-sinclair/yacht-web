@@ -5338,6 +5338,30 @@
     ]
   },
   {
+    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
+    "slug": "flying-fish",
+    "name": "FLYING FISH",
+    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1991,
+    "builder": "Warren Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1650000,
+    "weekPricingFrom": 10150000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
     "slug": "alegria",
     "name": "ALEGRIA",
@@ -5385,30 +5409,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
-    "slug": "flying-fish",
-    "name": "FLYING FISH",
-    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1991,
-    "builder": "Warren Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1650000,
-    "weekPricingFrom": 10150000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -11245,6 +11245,28 @@
     "seasons": []
   },
   {
+    "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ola",
+    "name": "OLA",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744::assets::PGbGg8Xlk.png/{imageVariant}",
+    "length": 23.95,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1997,
+    "builder": "Sanlorenzo",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2100000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::79c64f10-84b2-11f0-a6b0-25a977754392",
     "slug": "tesni",
     "name": "TESNI",
@@ -11269,31 +11291,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ola",
-    "name": "OLA",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744::assets::PGbGg8Xlk.png/{imageVariant}",
-    "length": 23.95,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1997,
-    "builder": "Sanlorenzo",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2100000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {

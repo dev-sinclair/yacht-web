@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783677535710,
+  "lastModified": 1784638817793,
   "uri": "c::7579668770::vessel::d5cbfb35-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -133,101 +133,6 @@
           {
             "from": "2027-05-01T00:00:00.000Z",
             "to": "2027-09-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2100000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2100000,
-              "amount": 2100000,
-              "conditions": "Per Week"
-            }
-          ],
-          "total": 2100000,
-          "subTotal": 2100000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              -3.676762491181631,
-              13.257370810531999
-            ],
-            "bbox": [
-              -61.79784094999991,
-              -21.37078215899993,
-              55.854502800000034,
-              51.08754088371883
-            ]
-          },
-          {
-            "label": "Corsica",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Corsica"
-            ],
-            "coordinates": [
-              9.104917129771797,
-              42.161865413836736
-            ],
-            "bbox": [
-              8.565625000000011,
-              41.384912109374994,
-              9.556445312500017,
-              43.021484375
-            ]
-          },
-          {
-            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
-            "type": "Custom Area",
-            "category": [
-              "Marseille"
-            ],
-            "coordinates": [
-              5.408333000000001,
-              43.370833499999996
-            ],
-            "bbox": [
-              5.183333,
-              43.216667,
-              5.633333,
-              43.525
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter Price",
-        "effectiveDates": [
-          {
-            "from": "2025-10-01T00:00:00.000Z",
-            "to": "2026-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-01T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
