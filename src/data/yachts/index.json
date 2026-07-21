@@ -4018,6 +4018,29 @@
     ]
   },
   {
+    "uri": "c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744",
+    "slug": "perla-del-mar-2",
+    "name": "PERLA DEL MAR 2",
+    "hero": "/media/media::image::c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744::assets::ZekH718_G.png/{imageVariant}",
+    "length": 36,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2007,
+    "builder": "Marmaris Yat",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 225000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::25879711825::vessel::48c4cd50-f903-11ef-a250-29f33756e5b8",
     "slug": "mendula",
     "name": "MENDULA",
@@ -4146,29 +4169,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744",
-    "slug": "perla-del-mar-2",
-    "name": "PERLA DEL MAR 2",
-    "hero": "/media/media::image::c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744::assets::ZekH718_G.png/{imageVariant}",
-    "length": 36,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2007,
-    "builder": "Marmaris Yat",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 225000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
     ]
   },
   {
@@ -5152,6 +5152,27 @@
     ]
   },
   {
+    "uri": "c::7580658963::vessel::d5cbfb80-fe8c-11ed-889f-43d4bb723744",
+    "slug": "rara-avis",
+    "name": "RARA AVIS",
+    "hero": "/media/media::image::a::vessel::d5cbfb80-fe8c-11ed-889f-43d4bb723744::assets::58b87cd0-118a-11f0-878b-2b20a320d243/{imageVariant}",
+    "length": 33,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2018,
+    "builder": "Nujić Nautika",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::7818389938::vessel::d5cc7934-fe8c-11ed-889f-43d4bb723744",
     "slug": "pleiades-ii",
     "name": "PLEIADES II",
@@ -5175,27 +5196,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7580658963::vessel::d5cbfb80-fe8c-11ed-889f-43d4bb723744",
-    "slug": "rara-avis",
-    "name": "RARA AVIS",
-    "hero": "/media/media::image::a::vessel::d5cbfb80-fe8c-11ed-889f-43d4bb723744::assets::58b87cd0-118a-11f0-878b-2b20a320d243/{imageVariant}",
-    "length": 33,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2018,
-    "builder": "Nujić Nautika",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
     ]
   },
   {
@@ -5338,6 +5338,28 @@
     ]
   },
   {
+    "uri": "c::7580658963::vessel::d5cc2452-fe8c-11ed-889f-43d4bb723744",
+    "slug": "gallant",
+    "name": "GALLANT",
+    "hero": "/media/media::image::a::vessel::d5cc2452-fe8c-11ed-889f-43d4bb723744::assets::b00c1ab0-145e-11f0-ba75-e3cb76c1139e/{imageVariant}",
+    "length": 32,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1948,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025"
+    ]
+  },
+  {
     "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
     "slug": "flying-fish",
     "name": "FLYING FISH",
@@ -5412,28 +5434,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7580658963::vessel::d5cc2452-fe8c-11ed-889f-43d4bb723744",
-    "slug": "gallant",
-    "name": "GALLANT",
-    "hero": "/media/media::image::a::vessel::d5cc2452-fe8c-11ed-889f-43d4bb723744::assets::b00c1ab0-145e-11f0-ba75-e3cb76c1139e/{imageVariant}",
-    "length": 32,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 1948,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025"
     ]
   },
   {
@@ -7679,6 +7679,29 @@
     ]
   },
   {
+    "uri": "c::20776652851::vessel::f620c900-99b8-11ee-a33b-6f806170d4f6",
+    "slug": "perla-del-mar",
+    "name": "PERLA DEL MAR",
+    "hero": "/media/media::image::c::20776652851::vessel::f620c900-99b8-11ee-a33b-6f806170d4f6::assets::b36875c0-1e71-11ef-a08c-a1f71e246f5c.jpeg/{imageVariant}",
+    "length": 28,
+    "sleeps": 16,
+    "cabins": 8,
+    "builtYear": 2005,
+    "builder": "",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 130000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::31479982513::vessel::d5cccc4b-fe8c-11ed-889f-43d4bb723744",
     "slug": "fortuna-d5cccc",
     "name": "FORTUNA",
@@ -7877,29 +7900,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::20776652851::vessel::f620c900-99b8-11ee-a33b-6f806170d4f6",
-    "slug": "perla-del-mar",
-    "name": "PERLA DEL MAR",
-    "hero": "/media/media::image::c::20776652851::vessel::f620c900-99b8-11ee-a33b-6f806170d4f6::assets::b36875c0-1e71-11ef-a08c-a1f71e246f5c.jpeg/{imageVariant}",
-    "length": 28,
-    "sleeps": 16,
-    "cabins": 8,
-    "builtYear": 2005,
-    "builder": "",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 130000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
     ]
   },
   {
@@ -8945,28 +8945,6 @@
     ]
   },
   {
-    "uri": "c::7580644139::vessel::ff843fc0-e857-11ee-b3b8-81c8f4652723",
-    "slug": "lavin",
-    "name": "LAVIN",
-    "hero": "/media/media::image::a::vessel::ff843fc0-e857-11ee-b3b8-81c8f4652723::assets::be3184e0-4154-11f0-bd15-53f8468fafc4/{imageVariant}",
-    "length": 26.5,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Custom Made",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1750000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
     "uri": "c::20776652851::vessel::d1cf8190-99bd-11ee-9b13-43c631345e94",
     "slug": "perla-del-mar-1",
     "name": "PERLA DEL MAR 1",
@@ -8987,6 +8965,28 @@
       "summer-2024",
       "summer-2025",
       "summer-2026"
+    ]
+  },
+  {
+    "uri": "c::7580644139::vessel::ff843fc0-e857-11ee-b3b8-81c8f4652723",
+    "slug": "lavin",
+    "name": "LAVIN",
+    "hero": "/media/media::image::a::vessel::ff843fc0-e857-11ee-b3b8-81c8f4652723::assets::be3184e0-4154-11f0-bd15-53f8468fafc4/{imageVariant}",
+    "length": 26.5,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Custom Made",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1750000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
     ]
   },
   {
@@ -19405,32 +19405,6 @@
     ]
   },
   {
-    "uri": "c::21222387982::vessel::d5cc4eb0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "elysian",
-    "name": "ELYSIAN",
-    "hero": "/media/media::image::a::vessel::d5cc4eb0-fe8c-11ed-889f-43d4bb723744::assets::6039e1f0-b10e-11f0-b39d-93c2a8a3ef4a/{imageVariant}",
-    "length": 16.77,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2021,
-    "builder": "Bali Catamarans",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::10244694328::vessel::f6f660c0-b987-11ef-9550-d325a0c4dbe8",
     "slug": "black-caviar",
     "name": "BLACK CAVIAR",
@@ -19452,6 +19426,32 @@
       "summer-2026",
       "summer-2027",
       "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::21222387982::vessel::d5cc4eb0-fe8c-11ed-889f-43d4bb723744",
+    "slug": "elysian",
+    "name": "ELYSIAN",
+    "hero": "/media/media::image::a::vessel::d5cc4eb0-fe8c-11ed-889f-43d4bb723744::assets::6039e1f0-b10e-11f0-b39d-93c2a8a3ef4a/{imageVariant}",
+    "length": 16.77,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2021,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -22968,6 +22968,60 @@
     ]
   },
   {
+    "uri": "c::18277099312::vessel::281bc6d0-a84a-11ef-9dd4-8f5d2a2cbca2",
+    "slug": "reality",
+    "name": "REALITY",
+    "hero": "/media/media::image::a::vessel::281bc6d0-a84a-11ef-9dd4-8f5d2a2cbca2::assets::c31b5ac0-a84e-11ef-b86b-736c7451fe64/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 10,
+    "cabins": 7,
+    "builtYear": 2025,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 864500,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::18277099312::vessel::e251b4c0-f066-11ee-b775-039fbd1e3d2d",
+    "slug": "negroni",
+    "name": "NEGRONI",
+    "hero": "/media/media::image::a::vessel::e251b4c0-f066-11ee-b775-039fbd1e3d2d::assets::68e47f30-a850-11ef-ac61-53b93ad88f1a/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 10,
+    "cabins": 7,
+    "builtYear": 2023,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 807500,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
     "slug": "curanta-cridhe",
     "name": "CURANTA CRIDHE",
@@ -23044,60 +23098,6 @@
     ]
   },
   {
-    "uri": "c::18277099312::vessel::e251b4c0-f066-11ee-b775-039fbd1e3d2d",
-    "slug": "negroni",
-    "name": "NEGRONI",
-    "hero": "/media/media::image::a::vessel::e251b4c0-f066-11ee-b775-039fbd1e3d2d::assets::68e47f30-a850-11ef-ac61-53b93ad88f1a/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 10,
-    "cabins": 7,
-    "builtYear": 2023,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 807500,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18277099312::vessel::281bc6d0-a84a-11ef-9dd4-8f5d2a2cbca2",
-    "slug": "reality",
-    "name": "REALITY",
-    "hero": "/media/media::image::a::vessel::281bc6d0-a84a-11ef-9dd4-8f5d2a2cbca2::assets::c31b5ac0-a84e-11ef-b86b-736c7451fe64/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 10,
-    "cabins": 7,
-    "builtYear": 2025,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 864500,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::10095349510::vessel::276472c0-d71a-11ee-ab91-71e711a6a716",
     "slug": "new-lagoon-51",
     "name": "NEW LAGOON 51",
@@ -23144,6 +23144,33 @@
       "summer-2025",
       "summer-2026",
       "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::10244694328::vessel::416aa990-bbc7-11ef-abe7-772566430165",
+    "slug": "serendipity",
+    "name": "SERENDIPITY",
+    "hero": "/media/media::image::a::vessel::416aa990-bbc7-11ef-abe7-772566430165::assets::90244d50-bbce-11ef-8a8f-955e9f07bc26/{imageVariant}",
+    "length": 15.24,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2023,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -23301,33 +23328,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::10244694328::vessel::416aa990-bbc7-11ef-abe7-772566430165",
-    "slug": "serendipity",
-    "name": "SERENDIPITY",
-    "hero": "/media/media::image::a::vessel::416aa990-bbc7-11ef-abe7-772566430165::assets::90244d50-bbce-11ef-8a8f-955e9f07bc26/{imageVariant}",
-    "length": 15.24,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2023,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
