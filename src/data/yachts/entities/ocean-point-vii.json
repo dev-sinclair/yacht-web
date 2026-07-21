@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761562758095,
+  "lastModified": 1784580931177,
   "uri": "c::25913601455::vessel::f3ba8d50-a618-11ef-a542-dd7a5359c67d",
   "yachtType": [
     "Motor"
@@ -121,6 +121,15 @@
     "model": "",
     "maxCrew": 4,
     "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::fd5d3a10-bd0b-11ef-a405-a9d6fb215518",
+      "name": "Onomichi",
+      "coordinates": {
+        "latitude": 34.40886556120978,
+        "longitude": 133.204847981894
+      },
+      "country": "Japan"
+    },
     "cruisingCapacity": 11,
     "builtYear": 2011,
     "topSpeed": 9,
@@ -147,9 +156,7 @@
         "quantity": "1"
       }
     ],
-    "entertainment": [
-      ""
-    ],
+    "entertainment": [],
     "tenders": [
       "Speed boat (Chris craft)"
     ]

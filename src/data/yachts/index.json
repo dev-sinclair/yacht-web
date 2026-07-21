@@ -22268,6 +22268,33 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::23b283e0-8559-11ef-8860-43af137a6273",
+    "slug": "effie-star",
+    "name": "EFFIE STAR",
+    "hero": "/media/media::image::a::vessel::23b283e0-8559-11ef-8860-43af137a6273::assets::6e2840f0-0bea-11f0-9791-91c21cb4d62d/{imageVariant}",
+    "length": 15.6,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2025,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1600000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::17951852342::vessel::56722770-37b7-11f0-b94c-2377f1d0765f",
     "slug": "pandora",
     "name": "PANDORA",
@@ -22345,33 +22372,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579706445::vessel::23b283e0-8559-11ef-8860-43af137a6273",
-    "slug": "effie-star",
-    "name": "EFFIE STAR",
-    "hero": "/media/media::image::a::vessel::23b283e0-8559-11ef-8860-43af137a6273::assets::6e2840f0-0bea-11f0-9791-91c21cb4d62d/{imageVariant}",
-    "length": 15.6,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2025,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1600000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -23153,6 +23153,60 @@
     ]
   },
   {
+    "uri": "c::10218162598::vessel::d7559cd0-822f-11ee-bb51-976bcca658ae",
+    "slug": "royal-cracow",
+    "name": "ROYAL CRACOW",
+    "hero": "/media/media::image::c::10218162598::vessel::d7559cd0-822f-11ee-bb51-976bcca658ae::assets::f9bbb1e0-8231-11ee-bb51-976bcca658ae.jpeg/{imageVariant}",
+    "length": 15.24,
+    "sleeps": 10,
+    "cabins": 6,
+    "builtYear": 2016,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Catamaran",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 390000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::10218162598::vessel::85291250-7f1b-11ee-bfa7-af046f7fa5ba",
+    "slug": "princess-aphrodite",
+    "name": "PRINCESS APHRODITE",
+    "hero": "/media/media::image::c::10218162598::vessel::85291250-7f1b-11ee-bfa7-af046f7fa5ba::assets::a078dae0-7f20-11ee-bfa7-af046f7fa5ba.jpeg/{imageVariant}",
+    "length": 15.24,
+    "sleeps": 10,
+    "cabins": 6,
+    "builtYear": 2017,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 390000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::8275378522::vessel::5dc90960-dcf1-11ef-a54d-2d129dec3260",
     "slug": "bereshit",
     "name": "BERESHIT",
@@ -23381,60 +23435,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::10218162598::vessel::85291250-7f1b-11ee-bfa7-af046f7fa5ba",
-    "slug": "princess-aphrodite",
-    "name": "PRINCESS APHRODITE",
-    "hero": "/media/media::image::c::10218162598::vessel::85291250-7f1b-11ee-bfa7-af046f7fa5ba::assets::a078dae0-7f20-11ee-bfa7-af046f7fa5ba.jpeg/{imageVariant}",
-    "length": 15.24,
-    "sleeps": 10,
-    "cabins": 6,
-    "builtYear": 2017,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 390000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::10218162598::vessel::d7559cd0-822f-11ee-bb51-976bcca658ae",
-    "slug": "royal-cracow",
-    "name": "ROYAL CRACOW",
-    "hero": "/media/media::image::c::10218162598::vessel::d7559cd0-822f-11ee-bb51-976bcca658ae::assets::f9bbb1e0-8231-11ee-bb51-976bcca658ae.jpeg/{imageVariant}",
-    "length": 15.24,
-    "sleeps": 10,
-    "cabins": 6,
-    "builtYear": 2016,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Catamaran",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 390000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
