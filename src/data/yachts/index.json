@@ -4329,6 +4329,26 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ps5-playstation",
+    "name": "PS5 PLAYSTATION",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b3962cd0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Nautor Swan",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::8864389904::vessel::d5cae6f9-fe8c-11ed-889f-43d4bb723744",
     "slug": "rascal",
     "name": "RASCAL",
@@ -4385,26 +4405,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ps5-playstation",
-    "name": "PS5 PLAYSTATION",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Nautor Swan",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
     ]
   },
   {
@@ -17124,6 +17124,128 @@
     ]
   },
   {
+    "uri": "c::8193426698::vessel::d5cca399-fe8c-11ed-889f-43d4bb723744",
+    "slug": "vulpino",
+    "name": "VULPINO",
+    "hero": "/media/media::image::a::vessel::d5cca399-fe8c-11ed-889f-43d4bb723744::assets::42e08100-dc92-11ef-9fff-55af7ea6c973/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2020,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::8193426698::vessel::7b6841d0-dc96-11ef-b49b-99d9d26f6ef8",
+    "slug": "ahalya",
+    "name": "AHALYA",
+    "hero": "/media/media::image::c::8193426698::vessel::7b6841d0-dc96-11ef-b49b-99d9d26f6ef8::assets::117b7840-9df8-11f0-8477-4bbec54bf4be/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::8193426698::vessel::7bad7700-f05b-11ee-81e4-1f741a075b1d",
+    "slug": "dessus",
+    "name": "DESSUS",
+    "hero": "/media/media::image::a::vessel::7bad7700-f05b-11ee-81e4-1f741a075b1d::assets::eff58510-dc89-11ef-840a-bf087fb48eb7/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2022,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::8193426698::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8",
+    "slug": "sea-dreams",
+    "name": "SEA DREAMS",
+    "hero": "/media/media::image::a::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8::assets::8d0d2c60-ab8b-11f0-a721-8b9f290edaca/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2026,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8193426698::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865",
+    "slug": "spice-of-life",
+    "name": "SPICE OF LIFE",
+    "hero": "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::759210c0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
     "slug": "serenity",
     "name": "SERENITY",
@@ -17148,29 +17270,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865",
-    "slug": "spice-of-life",
-    "name": "SPICE OF LIFE",
-    "hero": "/media/media::image::a::vessel::cd1944a0-b8a3-11ef-95bc-1dcd0dfb8865::assets::759210c0-5372-11f1-afa7-07956d2e0aef/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2300000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -17272,105 +17371,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2026"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8",
-    "slug": "sea-dreams",
-    "name": "SEA DREAMS",
-    "hero": "/media/media::image::a::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8::assets::8d0d2c60-ab8b-11f0-a721-8b9f290edaca/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2026,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::7bad7700-f05b-11ee-81e4-1f741a075b1d",
-    "slug": "dessus",
-    "name": "DESSUS",
-    "hero": "/media/media::image::a::vessel::7bad7700-f05b-11ee-81e4-1f741a075b1d::assets::eff58510-dc89-11ef-840a-bf087fb48eb7/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2022,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::7b6841d0-dc96-11ef-b49b-99d9d26f6ef8",
-    "slug": "ahalya",
-    "name": "AHALYA",
-    "hero": "/media/media::image::c::8193426698::vessel::7b6841d0-dc96-11ef-b49b-99d9d26f6ef8::assets::117b7840-9df8-11f0-8477-4bbec54bf4be/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::d5cca399-fe8c-11ed-889f-43d4bb723744",
-    "slug": "vulpino",
-    "name": "VULPINO",
-    "hero": "/media/media::image::a::vessel::d5cca399-fe8c-11ed-889f-43d4bb723744::assets::42e08100-dc92-11ef-9fff-55af7ea6c973/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2020,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -23543,42 +23543,14 @@
     ]
   },
   {
-    "uri": "c::18231584005::vessel::d5cc25e0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "adara",
-    "name": "ADARA",
-    "hero": "/media/media::image::a::vessel::d5cc25e0-fe8c-11ed-889f-43d4bb723744::assets::aff512c0-b8b5-11ef-b221-efd77a9e7c8c/{imageVariant}",
+    "uri": "c::8193426698::vessel::d5cca38e-fe8c-11ed-889f-43d4bb723744",
+    "slug": "solitaire",
+    "name": "SOLITAIRE",
+    "hero": "/media/media::image::a::vessel::d5cca38e-fe8c-11ed-889f-43d4bb723744::assets::a8baceb0-da92-11ef-a733-6bf724014e37/{imageVariant}",
     "length": 15.2,
     "sleeps": 8,
     "cabins": 4,
     "builtYear": 2020,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2350000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60",
-    "slug": "zara",
-    "name": "ZARA",
-    "hero": "/media/media::image::a::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60::assets::4c368e70-da99-11ef-8f50-5702a5cf2a37/{imageVariant}",
-    "length": 15.2,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
     "builder": "Sunreef Yachts",
     "yachtType": [
       "Sailing",
@@ -23590,37 +23562,8 @@
     "seasons": [
       "summer-2025",
       "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::21848288906::vessel::8d848e80-3035-11f0-9c3b-611cf8269094",
-    "slug": "margarita",
-    "name": "MARGARITA",
-    "hero": "/media/media::image::a::vessel::8d848e80-3035-11f0-9c3b-611cf8269094::assets::789950d0-303c-11f0-b60e-35a8bb24d08a/{imageVariant}",
-    "length": 15.2,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2018,
-    "builder": "Dufour Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 319000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
+      "winter-2026"
     ]
   },
   {
@@ -23651,14 +23594,14 @@
     ]
   },
   {
-    "uri": "c::8193426698::vessel::d5cca38e-fe8c-11ed-889f-43d4bb723744",
-    "slug": "solitaire",
-    "name": "SOLITAIRE",
-    "hero": "/media/media::image::a::vessel::d5cca38e-fe8c-11ed-889f-43d4bb723744::assets::a8baceb0-da92-11ef-a733-6bf724014e37/{imageVariant}",
+    "uri": "c::8193426698::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60",
+    "slug": "zara",
+    "name": "ZARA",
+    "hero": "/media/media::image::a::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60::assets::4c368e70-da99-11ef-8f50-5702a5cf2a37/{imageVariant}",
     "length": 15.2,
     "sleeps": 8,
     "cabins": 4,
-    "builtYear": 2020,
+    "builtYear": 2023,
     "builder": "Sunreef Yachts",
     "yachtType": [
       "Sailing",
@@ -23670,8 +23613,65 @@
     "seasons": [
       "summer-2025",
       "summer-2026",
+      "summer-2027",
+      "winter-2024",
       "winter-2025",
-      "winter-2026"
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::18231584005::vessel::d5cc25e0-fe8c-11ed-889f-43d4bb723744",
+    "slug": "adara",
+    "name": "ADARA",
+    "hero": "/media/media::image::a::vessel::d5cc25e0-fe8c-11ed-889f-43d4bb723744::assets::aff512c0-b8b5-11ef-b221-efd77a9e7c8c/{imageVariant}",
+    "length": 15.2,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2020,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2350000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::21848288906::vessel::8d848e80-3035-11f0-9c3b-611cf8269094",
+    "slug": "margarita",
+    "name": "MARGARITA",
+    "hero": "/media/media::image::a::vessel::8d848e80-3035-11f0-9c3b-611cf8269094::assets::789950d0-303c-11f0-b60e-35a8bb24d08a/{imageVariant}",
+    "length": 15.2,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2018,
+    "builder": "Dufour Yachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 319000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
