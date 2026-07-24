@@ -4332,7 +4332,7 @@
     "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
     "slug": "ps5-playstation",
     "name": "PS5 PLAYSTATION",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b3962cd0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::ad8f0dc0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
     "length": 35,
     "sleeps": 9,
     "cabins": 4,
@@ -19020,6 +19020,60 @@
     ]
   },
   {
+    "uri": "c::7819240016::vessel::d5cbfb34-fe8c-11ed-889f-43d4bb723744",
+    "slug": "sikelia",
+    "name": "SIKELIA",
+    "hero": "/media/media::image::a::vessel::d5cbfb34-fe8c-11ed-889f-43d4bb723744::assets::0d65b750-e30b-11ef-b1c6-fbb7b2b3cafe/{imageVariant}",
+    "length": 16.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2020,
+    "builder": "Catana",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7819240016::vessel::14b47030-f119-11ee-a304-a177c8666633",
+    "slug": "elena-14b470",
+    "name": "ELENA",
+    "hero": "/media/media::image::a::vessel::14b47030-f119-11ee-a304-a177c8666633::assets::5ed47be0-e305-11ef-8ed4-dbbdd3d7454d/{imageVariant}",
+    "length": 16.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2020,
+    "builder": "Catana",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::d5cc4d17-fe8c-11ed-889f-43d4bb723744",
     "slug": "babalu",
     "name": "BABALU",
@@ -19286,60 +19340,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819240016::vessel::14b47030-f119-11ee-a304-a177c8666633",
-    "slug": "elena-14b470",
-    "name": "ELENA",
-    "hero": "/media/media::image::a::vessel::14b47030-f119-11ee-a304-a177c8666633::assets::5ed47be0-e305-11ef-8ed4-dbbdd3d7454d/{imageVariant}",
-    "length": 16.8,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2020,
-    "builder": "Catana",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819240016::vessel::d5cbfb34-fe8c-11ed-889f-43d4bb723744",
-    "slug": "sikelia",
-    "name": "SIKELIA",
-    "hero": "/media/media::image::a::vessel::d5cbfb34-fe8c-11ed-889f-43d4bb723744::assets::0d65b750-e30b-11ef-b1c6-fbb7b2b3cafe/{imageVariant}",
-    "length": 16.8,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2020,
-    "builder": "Catana",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1300000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
@@ -20087,6 +20087,25 @@
     ]
   },
   {
+    "uri": "c::18241046923::vessel::f3f9cfd0-eb45-11ee-9349-9128e63ff40b",
+    "slug": "savoy",
+    "name": "SAVOY",
+    "hero": "/media/media::image::c::18241046923::vessel::f3f9cfd0-eb45-11ee-9349-9128e63ff40b::assets::4f8ca9b0-187a-11ef-bd58-5560473e0b3e.jpeg/{imageVariant}",
+    "length": 16.4,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2000,
+    "builder": "",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": 174476,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::39482209444::vessel::d5cbfbfb-fe8c-11ed-889f-43d4bb723744",
     "slug": "princess",
     "name": "PRINCESS",
@@ -20110,25 +20129,6 @@
       "winter-2026",
       "winter-2027"
     ]
-  },
-  {
-    "uri": "c::18241046923::vessel::f3f9cfd0-eb45-11ee-9349-9128e63ff40b",
-    "slug": "savoy",
-    "name": "SAVOY",
-    "hero": "/media/media::image::c::18241046923::vessel::f3f9cfd0-eb45-11ee-9349-9128e63ff40b::assets::4f8ca9b0-187a-11ef-bd58-5560473e0b3e.jpeg/{imageVariant}",
-    "length": 16.4,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2000,
-    "builder": "",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": 174476,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::19311762244::vessel::116a5be0-062e-11ef-ba3a-21f5b24aa1bf",
@@ -20745,6 +20745,32 @@
     ]
   },
   {
+    "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",
+    "slug": "menorquin-yacht-160",
+    "name": "MENORQUIN YACHT 160",
+    "hero": "/media/media::image::a::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce::assets::89823c30-c48a-11f0-9345-2b07eb4d16a9/{imageVariant}",
+    "length": 16,
+    "sleeps": 4,
+    "cabins": 3,
+    "builtYear": 2005,
+    "builder": "Menorquin Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 165000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::f70ea0d0-a4f1-11f0-9e4b-4d613f86d6cc",
     "slug": "lulu",
     "name": "LULU",
@@ -20795,32 +20821,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",
-    "slug": "menorquin-yacht-160",
-    "name": "MENORQUIN YACHT 160",
-    "hero": "/media/media::image::a::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce::assets::89823c30-c48a-11f0-9345-2b07eb4d16a9/{imageVariant}",
-    "length": 16,
-    "sleeps": 4,
-    "cabins": 3,
-    "builtYear": 2005,
-    "builder": "Menorquin Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 165000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {

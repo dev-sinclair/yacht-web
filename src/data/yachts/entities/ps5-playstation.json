@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784727037226,
+  "lastModified": 1784902348732,
   "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -8,22 +8,23 @@
   "blueprint": {
     "name": "PS5 PLAYSTATION",
     "images": [
-      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b3962cd0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::ad8f0dc0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::a4c1c9d0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::aeba2040-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::afcdda30-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::806c04a0-8767-11f1-a468-4d54341648cf/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b49d8ab0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b6f620b0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::b837a160-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::ba1f9b40-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bb29b840-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bc9f1a30-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bf834e60-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c52ac140-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::bf834e60-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c65f97c0-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c8e61b90-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c793d200-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}"
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::c793d200-d480-11ee-bd01-79d2e467c3d7.jpeg/{imageVariant}",
+      "/media/media::image::c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744::assets::11bd0ea0-8767-11f1-985a-e56da81f6ea4/{imageVariant}"
     ],
     "make": "Nautor Swan",
     "model": "Swan 108",
@@ -93,35 +94,34 @@
     ],
     "toys": [
       {
-        "label": "Wakeboard"
-      },
-      {
-        "label": "Snorkeling equipment"
-      },
-      {
         "label": "Fishing equipment"
       },
       {
-        "label": "SUP"
+        "label": "SUP",
+        "quantity": "3"
       },
       {
-        "label": "Towed buoy"
+        "label": "Scuba Diving Set",
+        "quantity": "3"
       },
       {
-        "label": "E-Foil"
+        "label": "Kayak ",
+        "quantity": "2"
       },
       {
-        "label": "Windsurf"
+        "label": "Seabob",
+        "quantity": "1"
       },
       {
-        "label": "Wakeb"
+        "label": "Premium Road Bikes equipped with electronic shifting and clip in pedals (Sizes M & XL)",
+        "quantity": "2"
       }
     ],
     "entertainment": [
       "Starlink"
     ],
     "tenders": [
-      "Zodiac Yachtline 490, Outboard 90hp"
+      "Chaseboat: Model BRIG | 8m | Mercury 120HP "
     ]
   },
   "crew": [
