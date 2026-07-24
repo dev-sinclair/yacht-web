@@ -1,5 +1,5 @@
 {
-  "lastModified": 1779189320273,
+  "lastModified": 1784889586289,
   "uri": "c::25879711825::vessel::75323bd0-df0d-11ef-a6ab-43dcd5311034",
   "yachtType": [
     "Motor"
@@ -141,16 +141,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 225000,
+      "price": 300000,
       "displayCurrency": "EUR",
-      "displayPrice": 225000,
+      "displayPrice": 300000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 275000,
+      "price": 300000,
       "displayCurrency": "EUR",
-      "displayPrice": 275000,
+      "displayPrice": 300000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
@@ -336,7 +336,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 225000,
+          "charterFee": 300000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -344,8 +344,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 225000,
-              "amount": 225000,
+              "unitPrice": 300000,
+              "amount": 300000,
               "conditions": "Daily",
               "taxRate": {
                 "label": "PDV",
@@ -353,9 +353,9 @@
               }
             }
           ],
-          "total": 225000,
-          "subTotal": 225000,
-          "totalTax": 29250
+          "total": 300000,
+          "subTotal": 300000,
+          "totalTax": 39000
         },
         "inclusionZones": [
           {
@@ -399,7 +399,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 275000,
+          "charterFee": 300000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -407,17 +407,17 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 275000,
-              "amount": 275000,
+              "unitPrice": 300000,
+              "amount": 300000,
               "taxRate": {
                 "label": "PDV",
                 "value": 0.13
               }
             }
           ],
-          "total": 275000,
-          "subTotal": 275000,
-          "totalTax": 35750
+          "total": 300000,
+          "subTotal": 300000,
+          "totalTax": 39000
         },
         "inclusionZones": [],
         "exclusionZones": [],
