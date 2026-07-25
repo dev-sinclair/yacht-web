@@ -6732,6 +6732,32 @@
     ]
   },
   {
+    "uri": "c::8276484364::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0",
+    "slug": "altvs",
+    "name": "ALTVS",
+    "hero": "/media/media::image::a::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0::assets::2736d850-299f-11f0-82a3-4754badd2f6b/{imageVariant}",
+    "length": 29.9,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2020,
+    "builder": "Amer",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7580644653::vessel::d5cbfb26-fe8c-11ed-889f-43d4bb723744",
     "slug": "koukles",
     "name": "KOUKLES",
@@ -6791,32 +6817,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8276484364::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0",
-    "slug": "altvs",
-    "name": "ALTVS",
-    "hero": "/media/media::image::a::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0::assets::2736d850-299f-11f0-82a3-4754badd2f6b/{imageVariant}",
-    "length": 29.9,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2020,
-    "builder": "Amer",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -8060,6 +8060,28 @@
     ]
   },
   {
+    "uri": "c::8276484364::vessel::107c0040-4363-11ef-b6c2-c9927170c278",
+    "slug": "thyke-iii",
+    "name": "THYKE III",
+    "hero": "/media/media::image::a::vessel::107c0040-4363-11ef-b6c2-c9927170c278::assets::8b064b30-29aa-11f0-9f33-5d59e67f20d6/{imageVariant}",
+    "length": 27.5,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Pershing",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc77b0-fe8c-11ed-889f-43d4bb723744",
     "slug": "dark-star-of-london",
     "name": "DARK STAR OF LONDON",
@@ -8106,28 +8128,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8276484364::vessel::107c0040-4363-11ef-b6c2-c9927170c278",
-    "slug": "thyke-iii",
-    "name": "THYKE III",
-    "hero": "/media/media::image::a::vessel::107c0040-4363-11ef-b6c2-c9927170c278::assets::8b064b30-29aa-11f0-9f33-5d59e67f20d6/{imageVariant}",
-    "length": 27.5,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Pershing",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -9812,6 +9812,28 @@
     ]
   },
   {
+    "uri": "c::8276484364::vessel::d5cca352-fe8c-11ed-889f-43d4bb723744",
+    "slug": "light-blue",
+    "name": "LIGHT BLUE",
+    "hero": "/media/media::image::a::vessel::d5cca352-fe8c-11ed-889f-43d4bb723744::assets::a395d590-299f-11f0-8a1c-09e52f3238c0/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3600000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7819281976::vessel::d5cccc8f-fe8c-11ed-889f-43d4bb723744",
     "slug": "indian",
     "name": "INDIAN",
@@ -9985,28 +10007,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::8276484364::vessel::d5cca352-fe8c-11ed-889f-43d4bb723744",
-    "slug": "light-blue",
-    "name": "LIGHT BLUE",
-    "hero": "/media/media::image::a::vessel::d5cca352-fe8c-11ed-889f-43d4bb723744::assets::a395d590-299f-11f0-8a1c-09e52f3238c0/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3600000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
@@ -12848,31 +12848,6 @@
     ]
   },
   {
-    "uri": "c::19026008332::vessel::26e91090-ccfb-11ee-a40a-8d6f519b322e",
-    "slug": "nerissa",
-    "name": "NERISSA",
-    "hero": "/media/media::image::c::19026008332::vessel::26e91090-ccfb-11ee-a40a-8d6f519b322e::assets::9a3bda30-ccfd-11ee-a40a-8d6f519b322e.png/{imageVariant}",
-    "length": 22.25,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2001,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 99500,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
     "uri": "c::18121082131::vessel::7794801f-486c-11ee-a45f-fdfff6163a60",
     "slug": "ghost",
     "name": "GHOST",
@@ -12893,6 +12868,31 @@
       "summer-2025",
       "summer-2026",
       "winter-2023",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::19026008332::vessel::26e91090-ccfb-11ee-a40a-8d6f519b322e",
+    "slug": "nerissa",
+    "name": "NERISSA",
+    "hero": "/media/media::image::c::19026008332::vessel::26e91090-ccfb-11ee-a40a-8d6f519b322e::assets::9a3bda30-ccfd-11ee-a40a-8d6f519b322e.png/{imageVariant}",
+    "length": 22.25,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2001,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 99500,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
       "winter-2024",
       "winter-2025",
       "winter-2026"
@@ -15612,32 +15612,6 @@
     ]
   },
   {
-    "uri": "c::9511881484::vessel::d5cbfbdd-fe8c-11ed-889f-43d4bb723744",
-    "slug": "bodhisattva",
-    "name": "BODHISATTVA",
-    "hero": "/media/media::image::a::vessel::d5cbfbdd-fe8c-11ed-889f-43d4bb723744::assets::7Kyt2WTSgk.jpg/{imageVariant}",
-    "length": 19.8,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2017,
-    "builder": "Jeanneau",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::38364564772::vessel::77e298c0-8714-11f0-ada5-157f7e89c9df",
     "slug": "havanna",
     "name": "HAVANNA",
@@ -15662,6 +15636,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::9511881484::vessel::d5cbfbdd-fe8c-11ed-889f-43d4bb723744",
+    "slug": "bodhisattva",
+    "name": "BODHISATTVA",
+    "hero": "/media/media::image::a::vessel::d5cbfbdd-fe8c-11ed-889f-43d4bb723744::assets::7Kyt2WTSgk.jpg/{imageVariant}",
+    "length": 19.8,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2017,
+    "builder": "Jeanneau",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -16079,32 +16079,6 @@
     ]
   },
   {
-    "uri": "c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7",
-    "slug": "mia",
-    "name": "MIA",
-    "hero": "/media/media::image::c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7::assets::88648f10-c5b8-11ee-a0a8-4540431682a7.jpeg/{imageVariant}",
-    "length": 19.2,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2021,
-    "builder": "Franchini Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::34945559077::vessel::d5cc7811-fe8c-11ed-889f-43d4bb723744",
     "slug": "pegasus",
     "name": "PEGASUS",
@@ -16125,6 +16099,32 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7",
+    "slug": "mia",
+    "name": "MIA",
+    "hero": "/media/media::image::c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7::assets::88648f10-c5b8-11ee-a0a8-4540431682a7.jpeg/{imageVariant}",
+    "length": 19.2,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2021,
+    "builder": "Franchini Shipyard",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -22475,6 +22475,33 @@
     ]
   },
   {
+    "uri": "c::28576069293::vessel::5288dbd0-d76e-11ef-a012-5d186341188c",
+    "slug": "sanyati",
+    "name": "SANYATI",
+    "hero": "/media/media::image::a::vessel::5288dbd0-d76e-11ef-a012-5d186341188c::assets::d44ceef0-d772-11ef-af81-5f3138bd5238/{imageVariant}",
+    "length": 15.5,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2016,
+    "builder": "Leopard",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": 193262,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::39480359087::vessel::ef6d4a90-f602-11f0-a46f-77ae87c5521a",
     "slug": "seven",
     "name": "SEVEN",
@@ -22539,33 +22566,6 @@
       "Motor"
     ],
     "dayPricingFrom": 280000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::28576069293::vessel::5288dbd0-d76e-11ef-a012-5d186341188c",
-    "slug": "sanyati",
-    "name": "SANYATI",
-    "hero": "/media/media::image::a::vessel::5288dbd0-d76e-11ef-a012-5d186341188c::assets::d44ceef0-d772-11ef-af81-5f3138bd5238/{imageVariant}",
-    "length": 15.5,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2016,
-    "builder": "Leopard",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": 193262,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
