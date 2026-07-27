@@ -4021,23 +4021,23 @@
     "uri": "c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744",
     "slug": "perla-del-mar-2",
     "name": "PERLA DEL MAR 2",
-    "hero": "/media/media::image::c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744::assets::ZekH718_G.png/{imageVariant}",
+    "hero": "/media/media::image::c::20776652851::vessel::d5cbfb91-fe8c-11ed-889f-43d4bb723744::assets::0b69acb0-89ca-11f1-97e6-a5e2eb6cae5f/{imageVariant}",
     "length": 36,
     "sleeps": 12,
     "cabins": 6,
-    "builtYear": 2007,
-    "builder": "Marmaris Yat",
+    "builtYear": 2008,
+    "builder": "",
     "yachtType": [
       "Gulet",
       "Sailing"
     ],
-    "dayPricingFrom": 225000,
+    "dayPricingFrom": 300000,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026"
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
     ]
   },
   {
@@ -11873,32 +11873,6 @@
     ]
   },
   {
-    "uri": "c::15114174473::vessel::e650dc30-8c61-11ef-9e6e-e94154ca8928",
-    "slug": "el-pecado",
-    "name": "EL PECADO",
-    "hero": "/media/media::image::a::vessel::e650dc30-8c61-11ef-9e6e-e94154ca8928::assets::a81b5380-2506-11f0-896e-13feb29e6337/{imageVariant}",
-    "length": 23.6,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2014,
-    "builder": "Maiora",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::9938368400::vessel::d5cc4f52-fe8c-11ed-889f-43d4bb723744",
     "slug": "one-planet",
     "name": "ONE PLANET",
@@ -12899,32 +12873,6 @@
     ]
   },
   {
-    "uri": "c::15114174473::vessel::2e41c8f0-b08b-11ee-95b4-75891021100d",
-    "slug": "hasard",
-    "name": "HASARD",
-    "hero": "/media/media::image::a::vessel::2e41c8f0-b08b-11ee-95b4-75891021100d::assets::31db3170-b08d-11ee-95b4-75891021100d.jpeg/{imageVariant}",
-    "length": 22.03,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2004,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2100000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::8183534776::vessel::7b9edd80-7969-11ee-b54d-c32ad6c1bb37",
     "slug": "wonderful",
     "name": "WONDERFUL",
@@ -13723,34 +13671,6 @@
     ]
   },
   {
-    "uri": "c::28226710116::vessel::955ebf80-8f22-11f0-b888-fb91e332886d",
-    "slug": "blue",
-    "name": "BLUE",
-    "hero": "/media/media::image::a::vessel::955ebf80-8f22-11f0-b888-fb91e332886d::assets::d41e2870-8f2a-11f0-8c9d-0ff68274ff9a/{imageVariant}",
-    "length": 21.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2017,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran",
-      "Catamaran"
-    ],
-    "dayPricingFrom": 500000,
-    "weekPricingFrom": 5400000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::28576069293::vessel::d5cbab4d-fe8c-11ed-889f-43d4bb723744",
     "slug": "shangani",
     "name": "SHANGANI",
@@ -13897,6 +13817,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::8276484364::vessel::a88b6380-66d1-11ef-b9a3-976a7fce3c94",
+    "slug": "josephine",
+    "name": "JOSEPHINE",
+    "hero": "/media/media::image::a::vessel::a88b6380-66d1-11ef-b9a3-976a7fce3c94::assets::f1d0b280-89dd-11f1-9ba6-2b0611bc0ceb/{imageVariant}",
+    "length": 21.11,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2024,
+    "builder": "Pershing",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
