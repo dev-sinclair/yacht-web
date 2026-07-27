@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781709378477,
+  "lastModified": 1785151392519,
   "uri": "c::26153654572::vessel::d5cca485-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -155,7 +155,23 @@
       "1 x Inflatable tender boat BOMBARDIER 2.60 m + outboard engine 5 HP "
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "George Tsourakis",
+      "role": "Captain",
+      "bio": "Professional Profile\nWith over 20 years of maritime experience, Captain George Tsourakis is a dedicated, highly adaptable leader known for maintaining impeccable operational standards at sea. He excels in complete crew leadership, precision itinerary planning, and decisive crisis management. Thriving under pressure, Captain George consistently delivers exceptional, tailored guest experiences while prioritizing vessel safety, regulatory compliance, and seamless operational efficiency.\n\nKey Competencies:\nLeadership & Crew Management: Proven track record in fostering high-performing, safety-conscious team environments.\nNavigation & Itinerary Planning: Extensive knowledge of Mediterranean and international waters, crafting memorable charter programs.\nCrisis Management & Safety: Expert in emergency response, risk mitigation, and strict adherence to maritime safety protocols."
+    },
+    {
+      "name": "Joyce (Chara) Alafragi ",
+      "role": "Captain",
+      "bio": "Professional Profile\nJoyce (Chara) Alafragi is an energetic, highly organized Cook/Hostess with a strong commitment to high-end service standards. Known for her positive attitude and meticulous attention to detail, she adapts easily to fast-paced environments on board. Beyond traditional interior stewardship, Chara brings value through her ability to prepare fresh, customized meals, blending hospitality with culinary versatility.\n\nKey Competencies:\nInterior Hospitality & Service: Experienced in detail-oriented housekeeping, table settings, and personalized guest care.\nCulinary Support: Skilled in preparing fresh, custom menus tailored to dietary preferences.\nOrganization & Adaptability: Efficient under pressure with strong inventory and guest-flow management skills."
+    },
+    {
+      "name": "Nikolas (Nick) Botsis",
+      "role": "Captain",
+      "bio": "Professional Profile\nFollowing his service in the Greek Navy, Nikolas transitioned into the luxury yachting industry as a disciplined, safety-oriented Deckhand. He is a reliable team player who brings a strong work ethic, rapid adaptability, and keen attention to deck maintenance and tender operations. Eager to continuously expand his maritime knowledge, Nick is actively building his qualifications with a long-term goal of advancing to Captain.\n\nKey Competencies:\nDeck Operations & Maintenance: Hands-on experience in surface maintenance, line handling, and tender operations.\nNaval Discipline & Safety: Grounded in Greek Navy training with a deep respect for maritime safety protocols.\nProfessional Growth: Highly motivated, adaptable, and focused on career progression in yacht command."
+    }
+  ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
