@@ -1,5 +1,5 @@
 {
-  "lastModified": 1785151392519,
+  "lastModified": 1785399039611,
   "uri": "c::26153654572::vessel::d5cca485-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -72,7 +72,7 @@
         "value": "1"
       },
       {
-        "label": "Twin Cabins",
+        "label": "Twin Cabins (converts to a double)",
         "value": "2"
       }
     ],
@@ -122,6 +122,9 @@
       },
       {
         "label": "Refrigerators"
+      },
+      {
+        "label": "Generators"
       }
     ],
     "toys": [
@@ -204,15 +207,15 @@
             "to": "2028-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-08-01T00:00:00.000Z",
+            "from": "2026-09-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
           },
           {
-            "from": "2027-08-01T00:00:00.000Z",
+            "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           },
           {
-            "from": "2028-08-01T00:00:00.000Z",
+            "from": "2028-09-01T00:00:00.000Z",
             "to": "2028-12-31T23:59:59.999Z"
           }
         ],
@@ -236,7 +239,8 @@
             }
           ],
           "unit": "WEEK",
-          "charterFee": 1660000
+          "charterFee": 1660000,
+          "note": ""
         },
         "inclusionZones": [
           {
@@ -321,6 +325,65 @@
           }
         ],
         "exclusionZones": []
+      },
+      {
+        "name": "August Special Offer",
+        "effectiveDates": [
+          {
+            "from": "2026-08-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1764000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1764000,
+              "amount": 1764000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1764000,
+          "subTotal": 1764000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.261736188816826,
+              38.42232351533858
+            ],
+            "bbox": [
+              19.646484375,
+              34.934472656249994,
+              28.231835937500023,
+              41.743798828124994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
       }
     ]
   }
