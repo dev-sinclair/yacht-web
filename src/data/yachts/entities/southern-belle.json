@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780500061637,
+  "lastModified": 1785422286175,
   "uri": "c::7819240017::vessel::cb501ba0-c719-11f0-b5bd-358e15f49545",
   "yachtType": [
     "Motor"
@@ -32,15 +32,6 @@
     "model": "",
     "maxCrew": 4,
     "sleeps": 8,
-    "basePort": {
-      "uri": "a::place::27c2908a-b3ee-11ed-b78d-325096b39f47",
-      "name": "Saint Thomas",
-      "coordinates": {
-        "latitude": 18.34577280760982,
-        "longitude": -64.92915768977362
-      },
-      "country": "US Virgin Islands"
-    },
     "cruisingCapacity": 12,
     "builtYear": 2006,
     "topSpeed": 18,
