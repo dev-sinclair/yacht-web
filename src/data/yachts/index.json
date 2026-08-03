@@ -9716,6 +9716,32 @@
     ]
   },
   {
+    "uri": "c::17949224288::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa",
+    "slug": "matrix",
+    "name": "MATRIX",
+    "hero": "/media/media::image::a::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa::assets::4027bd00-7e8d-11f0-870b-89caa5038b81/{imageVariant}",
+    "length": 25.15,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 400000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744",
     "slug": "wally-one",
     "name": "WALLY ONE",
@@ -9758,32 +9784,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::17949224288::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa",
-    "slug": "matrix",
-    "name": "MATRIX",
-    "hero": "/media/media::image::a::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa::assets::4027bd00-7e8d-11f0-870b-89caa5038b81/{imageVariant}",
-    "length": 25.15,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 400000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -12899,6 +12899,32 @@
     ]
   },
   {
+    "uri": "c::17949224288::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744",
+    "slug": "my-serenity",
+    "name": "MY SERENITY",
+    "hero": "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56620-full-5_734864_jpg/{imageVariant}",
+    "length": 22,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2018,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::8183534776::vessel::7b9edd80-7969-11ee-b54d-c32ad6c1bb37",
     "slug": "wonderful",
     "name": "WONDERFUL",
@@ -13076,32 +13102,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::17949224288::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744",
-    "slug": "my-serenity",
-    "name": "MY SERENITY",
-    "hero": "/media/media::image::a::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744::assets::yacht-image-56620-full-5_734864_jpg/{imageVariant}",
-    "length": 22,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2018,
-    "builder": "Sunseeker",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -15144,6 +15144,32 @@
     ]
   },
   {
+    "uri": "c::17949224288::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744",
+    "slug": "morrigan",
+    "name": "MORRIGAN",
+    "hero": "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae7186e0-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
+    "length": 20,
+    "sleeps": 4,
+    "cabins": 2,
+    "builtYear": 2010,
+    "builder": "Galeon",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18231584005::vessel::fa927470-1e13-11f1-84de-a914e67434e0",
     "slug": "amarea",
     "name": "AMAREA",
@@ -15244,32 +15270,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::17949224288::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744",
-    "slug": "morrigan",
-    "name": "MORRIGAN",
-    "hero": "/media/media::image::a::vessel::d5cccd21-fe8c-11ed-889f-43d4bb723744::assets::ae7186e0-b567-11f0-ab91-61b242e2cb9b/{imageVariant}",
-    "length": 20,
-    "sleeps": 4,
-    "cabins": 2,
-    "builtYear": 2010,
-    "builder": "Galeon",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
