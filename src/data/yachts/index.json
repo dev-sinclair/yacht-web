@@ -9668,6 +9668,28 @@
     ]
   },
   {
+    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
+    "slug": "cocoy",
+    "name": "COCOY",
+    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
+    "length": 25.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Riva Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1000000,
+    "weekPricingFrom": 6000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::396e62f0-43b2-11ef-b3ab-f3f0ef91fbca",
     "slug": "lidia",
     "name": "LIDIA",
@@ -9691,28 +9713,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
-    "slug": "cocoy",
-    "name": "COCOY",
-    "hero": "/media/media::image::c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1::assets::6f5eb900-5c16-11f0-990b-0d324535b7ce/{imageVariant}",
-    "length": 25.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Riva Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1000000,
-    "weekPricingFrom": 6000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
