@@ -1,9 +1,10 @@
 {
-  "lastModified": 1783344141797,
+  "lastModified": 1785978980187,
   "uri": "c::18633696598::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
-    "Sailing"
+    "Sailing",
+    "Classic"
   ],
   "description": "Base / Home Port: Bali, Indonesia\nOperating Area: Indonesia\n\nA new day has begun for Mutiara Laut, bringing with it a new luxurious space to experience the wild beauty and natural wonders unique to Indonesia.\n\nA classic 46m wooden yacht crafted to sail the far reaches of the vast archipelago, Mutiara Laut underwent an extensive refit, a reinvention, emerging with a fresh take and elevating the classic Indonesian voyage.\n\nMutiara Laut presents guests with a relaxed, luxurious elegance combining natural hues, glass, and contemporary Indonesian touches while focusing on space, optimal comfort, and privacy.",
   "blueprint": {
@@ -71,7 +72,7 @@
     "make": "Leendert Philippus Van Oostenbrugge / Frenty Kusumo",
     "model": "",
     "maxCrew": 18,
-    "sleeps": 15,
+    "sleeps": 16,
     "basePort": {
       "uri": "a::place::5e5965d4-b3ed-11ed-9d38-325096b39f47",
       "name": "Bali",
@@ -81,6 +82,7 @@
       },
       "country": "Indonesia"
     },
+    "cruisingCapacity": 16,
     "builtYear": 2009,
     "architect": "",
     "interiorDesigner": "",
@@ -102,8 +104,9 @@
         "value": "2"
       }
     ],
-    "cabins": 6,
-    "bathrooms": 6,
+    "cabins": 7,
+    "bathrooms": 7,
+    "decks": 2,
     "length": 46,
     "beam": 9.4,
     "draft": 3.1,
@@ -157,6 +160,9 @@
       "Wifi",
       "Board Games",
       "Card Games"
+    ],
+    "tenders": [
+      ""
     ]
   },
   "crew": [
@@ -251,9 +257,9 @@
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 1350000,
+      "price": 1400000,
       "displayCurrency": "USD",
-      "displayPrice": 1350000,
+      "displayPrice": 1400000,
       "unit": "DAY"
     },
     "pricingInfo": [
@@ -262,7 +268,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1350000,
+          "charterFee": 1400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -270,18 +276,25 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1350000,
-              "amount": 1350000,
+              "unitPrice": 1400000,
+              "amount": 1400000,
               "conditions": "per night for up to 14 passengers",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 1512000,
-          "subTotal": 1350000,
-          "totalTax": 162000
+          "total": 1568000,
+          "subTotal": 1400000,
+          "totalTax": 168000
         },
         "inclusionZones": [
           {
