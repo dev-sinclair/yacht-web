@@ -1,5 +1,5 @@
 {
-  "lastModified": 1773239855136,
+  "lastModified": 1785990348104,
   "uri": "c::18633696598::vessel::7ee88ff0-b30a-11ef-9263-5385f90779b2",
   "yachtType": [
     "Sailing"
@@ -128,7 +128,7 @@
     ],
     "toys": [
       {
-        "label": "Paddle"
+        "label": "Paddleboard"
       },
       {
         "label": "Snorkeling equipment"
@@ -139,34 +139,34 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 175000,
+      "price": 195000,
       "displayCurrency": "USD",
-      "displayPrice": 175000,
+      "displayPrice": 195000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 175000,
+      "price": 195000,
       "displayCurrency": "USD",
-      "displayPrice": 175000,
+      "displayPrice": 195000,
       "unit": "DAY"
     },
     "pricingInfo": [
       {
-        "name": "Komodo area: Private charter - Charter price per night:",
+        "name": "2026 Komodo area: Private charter - Charter price per night:",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 175000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 195000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 175000,
-              "amount": 175000,
+              "unitPrice": 195000,
+              "amount": 195000,
               "conditions": "Per night",
               "taxRate": {
                 "label": "VAT",
@@ -174,9 +174,9 @@
               }
             }
           ],
-          "total": 196000,
-          "subTotal": 175000,
-          "totalTax": 21000
+          "total": 195000,
+          "subTotal": 195000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {

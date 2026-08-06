@@ -1,5 +1,5 @@
 {
-  "lastModified": 1785978980187,
+  "lastModified": 1785989557980,
   "uri": "c::18633696598::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -11,11 +11,11 @@
     "name": "MUTIARA LAUT",
     "images": [
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6742790-b167-11ef-a093-455038e2fcf0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6731620-b167-11ef-a093-455038e2fcf0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f670a520-b167-11ef-a093-455038e2fcf0/{imageVariant}",
-      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6722bc0-b167-11ef-a093-455038e2fcf0/{imageVariant}",
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6738b50-b167-11ef-a093-455038e2fcf0/{imageVariant}",
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f672c800-b167-11ef-a093-455038e2fcf0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f670a520-b167-11ef-a093-455038e2fcf0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6722bc0-b167-11ef-a093-455038e2fcf0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f6731620-b167-11ef-a093-455038e2fcf0/{imageVariant}",
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::f673d970-b167-11ef-a093-455038e2fcf0/{imageVariant}",
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::12278630-b168-11ef-9b24-a3ec3bb5a607/{imageVariant}",
       "/media/media::image::a::vessel::d5cc4df1-fe8c-11ed-889f-43d4bb723744::assets::12242ad0-b168-11ef-9b24-a3ec3bb5a607/{imageVariant}",
@@ -250,9 +250,9 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 75000,
+      "price": 89000,
       "displayCurrency": "USD",
-      "displayPrice": 75000,
+      "displayPrice": 89000,
       "unit": "DAY"
     },
     "dayPricingTo": {
@@ -264,7 +264,7 @@
     },
     "pricingInfo": [
       {
-        "name": "Private Charter Price",
+        "name": "2026 Private Charter Price",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
@@ -281,20 +281,13 @@
               "conditions": "per night for up to 14 passengers",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               }
-            },
-            {
-              "item": "",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 0,
-              "amount": 0
             }
           ],
-          "total": 1568000,
+          "total": 1554000,
           "subTotal": 1400000,
-          "totalTax": 168000
+          "totalTax": 154000
         },
         "inclusionZones": [
           {
@@ -321,11 +314,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Shared Voyages: Owner’s Cabin with Private Terrace – 1 unit",
+        "name": "2026 Shared Voyages: Owner’s Cabin with Private Terrace – 1 unit",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 150000,
+          "charterFee": 159000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -333,18 +326,18 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 150000,
-              "amount": 150000,
+              "unitPrice": 159000,
+              "amount": 159000,
               "conditions": "per night / per person",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               }
             }
           ],
-          "total": 168000,
-          "subTotal": 150000,
-          "totalTax": 18000
+          "total": 176490,
+          "subTotal": 159000,
+          "totalTax": 17490
         },
         "inclusionZones": [
           {
@@ -371,11 +364,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Shared Voyages: Doubles Cabins – 4 units",
+        "name": "2026 Shared Voyages: Doubles Cabins – 4 units",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 99000,
+          "charterFee": 105000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -383,18 +376,18 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 99000,
-              "amount": 99000,
+              "unitPrice": 105000,
+              "amount": 105000,
               "conditions": "per night / per person",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               }
             }
           ],
-          "total": 110880,
-          "subTotal": 99000,
-          "totalTax": 11880
+          "total": 116550,
+          "subTotal": 105000,
+          "totalTax": 11550
         },
         "inclusionZones": [
           {
@@ -421,11 +414,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Shared Voyages: Front Cabins – 2 units",
+        "name": "2026 Shared Voyages: Front Cabins – 2 units",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 75000,
+          "charterFee": 89000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -433,18 +426,18 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 75000,
-              "amount": 75000,
+              "unitPrice": 89000,
+              "amount": 89000,
               "conditions": "per night / per person",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               }
             }
           ],
-          "total": 84000,
-          "subTotal": 75000,
-          "totalTax": 9000
+          "total": 98790,
+          "subTotal": 89000,
+          "totalTax": 9790
         },
         "inclusionZones": [
           {

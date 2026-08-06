@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783372534960,
+  "lastModified": 1785989004809,
   "uri": "c::18633696598::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae",
   "yachtType": [
     "Sailing"
@@ -105,6 +105,7 @@
     "make": "Bulukumba",
     "maxCrew": 17,
     "sleeps": 14,
+    "cruisingCapacity": 14,
     "builtYear": 2023,
     "architect": "",
     "interiorDesigner": "Deirdre Renniers",
@@ -113,15 +114,19 @@
     "fuelCapacity": 13000,
     "cabinLayout": [
       {
-        "label": "Master Cabin",
+        "label": "Master Stateroom",
         "value": "1"
       },
       {
-        "label": "Double Cabins",
-        "value": "4"
+        "label": "Owner's Stateroom",
+        "value": "2"
       },
       {
-        "label": "Twin Cabins",
+        "label": "Double Stateroom",
+        "value": "2"
+      },
+      {
+        "label": "Twin Stateroom",
         "value": "2"
       }
     ],
@@ -172,22 +177,30 @@
     ],
     "toys": [
       {
-        "label": "Stand-up paddle boards"
+        "label": "Stand-up paddle boards",
+        "quantity": "3"
       },
       {
-        "label": "Kayak"
+        "label": "Kayak",
+        "quantity": "1"
       },
       {
-        "label": "Water Ski"
+        "label": "Water Ski",
+        "quantity": "1"
       },
       {
-        "label": "Wake Board"
+        "label": "Wake Board",
+        "quantity": "1"
       },
       {
         "label": "Scuba Diving Equipment"
       },
       {
         "label": "Snorkeling Equipment"
+      },
+      {
+        "label": "Body Board",
+        "quantity": "1"
       }
     ],
     "entertainment": [
@@ -301,7 +314,7 @@
     },
     "pricingInfo": [
       {
-        "name": "Private Charter Price per night",
+        "name": "2026 Private Charter Price per night",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
@@ -317,14 +330,14 @@
               "amount": 1350000,
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               },
               "conditions": "Per night"
             }
           ],
-          "total": 1512000,
+          "total": 1498500,
           "subTotal": 1350000,
-          "totalTax": 162000
+          "totalTax": 148500
         },
         "inclusionZones": [
           {

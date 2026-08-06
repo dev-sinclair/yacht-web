@@ -1814,7 +1814,7 @@
       "Sailing",
       "Classic"
     ],
-    "dayPricingFrom": 75000,
+    "dayPricingFrom": 89000,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": []
@@ -1867,6 +1867,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae",
+    "slug": "celestia",
+    "name": "CELESTIA",
+    "hero": "/media/media::image::a::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae::assets::1af13670-b7a4-11ef-89d1-dd9256f9b524/{imageVariant}",
+    "length": 45,
+    "sleeps": 14,
+    "cabins": 7,
+    "builtYear": 2023,
+    "builder": "Bulukumba",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 1350000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::35442244900::vessel::d5cc4fd5-fe8c-11ed-889f-43d4bb723744",
     "slug": "stella-maris",
     "name": "STELLA MARIS",
@@ -1916,24 +1934,6 @@
       "winter-2026",
       "winter-2027"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae",
-    "slug": "celestia",
-    "name": "CELESTIA",
-    "hero": "/media/media::image::a::vessel::1d32b2e0-e56a-11ee-9af9-0d935cdc33ae::assets::1af13670-b7a4-11ef-89d1-dd9256f9b524/{imageVariant}",
-    "length": 45,
-    "sleeps": 14,
-    "cabins": 7,
-    "builtYear": 2023,
-    "builder": "Bulukumba",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 1350000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::15486428460::vessel::c184d760-0d2e-11ef-9e7f-d51dc62c8f22",
@@ -2959,6 +2959,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec",
+    "slug": "aliikai-voyage",
+    "name": "ALIIKAI VOYAGE",
+    "hero": "/media/media::image::a::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec::assets::9ce454b0-b159-11ef-9798-6dbd97865e24/{imageVariant}",
+    "length": 40,
+    "sleeps": 15,
+    "cabins": 7,
+    "builtYear": 2007,
+    "builder": "Pak Haji Wahab",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 95000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::8573887147::vessel::d5cc4e4b-fe8c-11ed-889f-43d4bb723744",
     "slug": "aegeotissa-ii",
     "name": "AEGEOTISSA II",
@@ -3063,24 +3081,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec",
-    "slug": "aliikai-voyage",
-    "name": "ALIIKAI VOYAGE",
-    "hero": "/media/media::image::a::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec::assets::9ce454b0-b159-11ef-9798-6dbd97865e24/{imageVariant}",
-    "length": 40,
-    "sleeps": 15,
-    "cabins": 7,
-    "builtYear": 2007,
-    "builder": "Pak Haji Wahab",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 990000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::7580644139::vessel::7794a754-486c-11ee-a45f-fdfff6163a60",
@@ -4356,6 +4356,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
+    "slug": "jakare",
+    "name": "JAKARE",
+    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
+    "length": 35,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2015,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 490000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc776d-fe8c-11ed-889f-43d4bb723744",
     "slug": "ps5-playstation",
     "name": "PS5 PLAYSTATION",
@@ -4538,24 +4556,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
-    "slug": "jakare",
-    "name": "JAKARE",
-    "hero": "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::e59d9560-b2fb-11ef-be43-3f586a9af30c/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2015,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 420000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::7819256863::vessel::d5cc239b-fe8c-11ed-889f-43d4bb723744",
@@ -12873,6 +12873,24 @@
     ]
   },
   {
+    "uri": "c::18633696598::vessel::7ee88ff0-b30a-11ef-9263-5385f90779b2",
+    "slug": "jinggo-jangga",
+    "name": "JINGGO JANGGA",
+    "hero": "/media/media::image::a::vessel::7ee88ff0-b30a-11ef-9263-5385f90779b2::assets::6b91e6e0-b30f-11ef-9b9b-adbf406beac5/{imageVariant}",
+    "length": 22,
+    "sleeps": 5,
+    "cabins": 2,
+    "builtYear": 2001,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 195000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::17949224288::vessel::d5cae6f1-fe8c-11ed-889f-43d4bb723744",
     "slug": "my-serenity",
     "name": "MY SERENITY",
@@ -13103,24 +13121,6 @@
       "winter-2026",
       "winter-2027"
     ]
-  },
-  {
-    "uri": "c::18633696598::vessel::7ee88ff0-b30a-11ef-9263-5385f90779b2",
-    "slug": "jinggo-jangga",
-    "name": "JINGGO JANGGA",
-    "hero": "/media/media::image::a::vessel::7ee88ff0-b30a-11ef-9263-5385f90779b2::assets::6b91e6e0-b30f-11ef-9b9b-adbf406beac5/{imageVariant}",
-    "length": 22,
-    "sleeps": 5,
-    "cabins": 2,
-    "builtYear": 2001,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 175000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::9974682422::vessel::35e251e0-980f-11ee-bbf9-2daccc7922db",

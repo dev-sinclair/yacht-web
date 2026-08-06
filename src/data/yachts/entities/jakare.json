@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783373522265,
+  "lastModified": 1785988745076,
   "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
   "yachtType": [
     "Sailing"
@@ -51,7 +51,8 @@
       "/media/media::image::a::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5::assets::370e0370-b2fd-11ef-b3c3-917a58a785e0/{imageVariant}"
     ],
     "maxCrew": 10,
-    "sleeps": 10,
+    "sleeps": 12,
+    "cruisingCapacity": 12,
     "builtYear": 2015,
     "topSpeed": 7,
     "cruiseSpeed": 6,
@@ -100,40 +101,44 @@
       {
         "label": "Paddle"
       }
+    ],
+    "entertainment": [
+      "Solarium",
+      "Dive Area"
     ]
   },
   "crew": [],
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 420000,
+      "price": 490000,
       "displayCurrency": "USD",
-      "displayPrice": 420000,
+      "displayPrice": 490000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 470000,
+      "price": 550000,
       "displayCurrency": "USD",
-      "displayPrice": 470000,
+      "displayPrice": 550000,
       "unit": "DAY"
     },
     "pricingInfo": [
       {
-        "name": "Komodo area: Private charter - Charter price per night:",
+        "name": "2026 Komodo area: Private charter price per night:",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 420000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 490000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 420000,
-              "amount": 420000,
+              "unitPrice": 490000,
+              "amount": 490000,
               "conditions": "Per night",
               "taxRate": {
                 "label": "VAT",
@@ -141,9 +146,9 @@
               }
             }
           ],
-          "total": 470400,
-          "subTotal": 420000,
-          "totalTax": 50400
+          "total": 490000,
+          "subTotal": 490000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
@@ -170,20 +175,20 @@
         "petsAllowed": false
       },
       {
-        "name": "Raja Ampat, West Papua, Wakatobi, Halmahera, Togean area: Private charter - Charter price per night:",
+        "name": "2026 : Raja Ampat and other destinations: Private charter - Charter price per night:",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 470000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 550000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 470000,
-              "amount": 470000,
+              "unitPrice": 550000,
+              "amount": 550000,
               "conditions": "Per night",
               "taxRate": {
                 "label": "VAT",
@@ -191,9 +196,9 @@
               }
             }
           ],
-          "total": 526400,
-          "subTotal": 470000,
-          "totalTax": 56400
+          "total": 550000,
+          "subTotal": 550000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {

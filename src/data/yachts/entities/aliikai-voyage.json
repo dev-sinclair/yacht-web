@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783373298204,
+  "lastModified": 1785988863989,
   "uri": "c::18633696598::vessel::d1c7d2b0-e567-11ee-b7e2-5dbfbb9044ec",
   "yachtType": [
     "Sailing"
@@ -128,9 +128,6 @@
         "label": "Sundeck"
       },
       {
-        "label": "Diving Center"
-      },
-      {
         "label": "Air Conditioning"
       },
       {
@@ -189,25 +186,25 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 990000,
+      "price": 95000,
       "displayCurrency": "USD",
-      "displayPrice": 990000,
+      "displayPrice": 95000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "USD",
-      "price": 990000,
+      "price": 1050000,
       "displayCurrency": "USD",
-      "displayPrice": 990000,
+      "displayPrice": 1050000,
       "unit": "DAY"
     },
     "pricingInfo": [
       {
-        "name": "Charter Rate - Per Day/Night",
+        "name": "2026 Charter Rate - Per Day/Night",
         "effectiveDates": [],
         "pricing": {
           "currency": "USD",
-          "charterFee": 990000,
+          "charterFee": 1050000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -215,51 +212,118 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 990000,
-              "amount": 990000,
+              "unitPrice": 1050000,
+              "amount": 1050000,
               "conditions": "per night for 14 guests",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.12
-              }
-            },
-            {
-              "item": "Shared Voyages: Owner’s Cabin with Private Terrace - 2 Unit",
-              "conditions": "per night per person",
-              "quantity": 0,
-              "unitPrice": 95000,
-              "amount": 0,
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.12
-              }
-            },
-            {
-              "item": "Shared Voyages: Oceanview Cabin with Windows - 2 Unit",
-              "conditions": "per night per person",
-              "quantity": 0,
-              "unitPrice": 81000,
-              "amount": 0,
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.12
-              }
-            },
-            {
-              "item": "Shared Voyages: Oceanview Cabin with Portholes - 3 Unit",
-              "conditions": "per night per person",
-              "quantity": 0,
-              "unitPrice": 69000,
-              "amount": 0,
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.12
+                "value": 0.11
               }
             }
           ],
-          "total": 1108800,
-          "subTotal": 990000,
-          "totalTax": 118800
+          "total": 1165500,
+          "subTotal": 1050000,
+          "totalTax": 115500
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Shared Voyages: Owner’s Cabin with Private Terrace - 2 Unit",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 109000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 109000,
+              "amount": 109000,
+              "conditions": "per night / per person",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.11
+              }
+            }
+          ],
+          "total": 120990,
+          "subTotal": 109000,
+          "totalTax": 11990
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Shared Voyages: Oceanview Cabin with Windows - 2 Unit",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 95000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 95000,
+              "amount": 95000,
+              "conditions": "per night / per person",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.11
+              }
+            }
+          ],
+          "total": 105450,
+          "subTotal": 95000,
+          "totalTax": 10450
         },
         "inclusionZones": [
           {
