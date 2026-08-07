@@ -1,0 +1,330 @@
+{
+  "lastModified": null,
+  "uri": "c::8164602117::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c",
+  "yachtType": [
+    "Gulet",
+    "Sailing"
+  ],
+  "description": "Operating Area: France, Italy, Greece, Turkey, Virgin Islands, The Leeward Islands, The Windward Islands, The Bahamas, Bermuda\n\nAt 50 metres, this steel sailing yacht redefines freedom on the water. Designed with six elegant guest cabins, including a full-beam master suite, she accommodates guests in complete comfort and privacy.\n\nA unique central corridor runs directly through the glass-enclosed engine room, a breathtaking design feature that lets guests walk between its two illuminated sides.\n\nThe heart of the yacht is revealed in perfect silence, combining innovation with elegance.\nWith an unrestricted navigation certificate, she stands among a rare few yachts capable of crossing oceans with guests aboard, combining true sailing capability with resort-level luxury.\n\nThe 96-square-metre main saloon and spacious flybridge invite guests to gather, unwind, and savour every horizon in style.",
+  "blueprint": {
+    "name": "OGUZ KHAN",
+    "images": [
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c17de70-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c20df20-d9ea-11f0-8f7a-8fa5f1b594bf/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c15bb90-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c51ac9f0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c2042e0-d9ea-11f0-8f7a-8fa5f1b594bf/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c1916f0-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c187ab0-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c174231-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c167ee0-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c18efe0-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c1f7f90-d9ea-11f0-8f7a-8fa5f1b594bf/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c1d0e90-d9ea-11f0-8f7a-8fa5f1b594bf/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c174230-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::9c16f410-d9ea-11f0-9e48-0f803b21bea6/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4e031f0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c519b880-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c50bfce0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c50d0e50-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4df2080-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4dfe3d0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c50aeb70-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4dfe3d1-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c5394e70-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4e0f540-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c50a4f30-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c50c7210-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c52ca440-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c51f0fb0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}",
+      "/media/media::image::a::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::c4fd2fd0-9267-11f1-809c-5d3f8b6dbf96/{imageVariant}"
+    ],
+    "make": "Bodrum Oguz Marin",
+    "maxCrew": 10,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
+      "name": "Bodrum",
+      "coordinates": {
+        "latitude": 37.03482562918905,
+        "longitude": 27.42932494208488
+      },
+      "country": "Türkiye"
+    },
+    "builtYear": 2026,
+    "architect": " Oguz Marin Shipyard",
+    "interiorDesigner": "Oguz Marin Shipyard",
+    "topSpeed": 14,
+    "cruiseSpeed": 11.3,
+    "fuelCapacity": 24000,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 50.5,
+    "beam": 9.83,
+    "draft": 4.16,
+    "hullConstruction": "Steel",
+    "tonnage": 360,
+    "superStructure": [
+      "Steel"
+    ],
+    "engines": " 2 x Baudoin 6M33.2 750 HP 19 Liters Diesel engines",
+    "amenities": [
+      {
+        "label": "Full Bar"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Turkish Bath"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Kawasaki Ultra 310X 310hp Jetski ",
+        "quantity": "2"
+      },
+      {
+        "label": "F5S model Seabob ",
+        "quantity": "2"
+      },
+      {
+        "label": "Liftfoil E4 Electrical ",
+        "quantity": "2"
+      },
+      {
+        "label": "10x7.5mt inflatable pool",
+        "quantity": "1"
+      },
+      {
+        "label": " İnflatable Water slide ",
+        "quantity": "1"
+      },
+      {
+        "label": "Jacuzzi with water and air nozzle"
+      },
+      {
+        "label": "Paddle board",
+        "quantity": "2"
+      },
+      {
+        "label": "Canoe",
+        "quantity": "2"
+      },
+      {
+        "label": "Ringo",
+        "quantity": "2"
+      },
+      {
+        "label": "Banana",
+        "quantity": "1"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Waterski",
+        "quantity": "1"
+      },
+      {
+        "label": "Waterski for kids",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkel Equipments"
+      },
+      {
+        "label": "Diving Equipments"
+      }
+    ],
+    "entertainment": [
+      "Piano",
+      "85 inch screen"
+    ],
+    "tenders": [
+      "5.60mt Tender Highfield brand 130hp Yamaha",
+      "4.20mt Tender Highfield brand- 60hp Yamaha"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 12000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 16000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 16000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 16000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 16000000,
+              "amount": 16000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 16000000,
+              "amount": 4800000
+            }
+          ],
+          "total": 20800000,
+          "subTotal": 20800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12000000,
+              "amount": 12000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 12000000,
+              "amount": 3600000
+            }
+          ],
+          "total": 15600000,
+          "subTotal": 15600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
