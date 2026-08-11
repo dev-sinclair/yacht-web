@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784649185032,
+  "lastModified": 1786451107892,
   "uri": "c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff",
   "yachtType": [
     "Sailing",
@@ -33,6 +33,17 @@
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cde1d4e0-668c-11f1-87ad-25ab32f2673f/{imageVariant}",
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cdd32ee0-668c-11f1-87ac-25ab32f2673f/{imageVariant}",
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cde445e0-668c-11f1-87ad-25ab32f2673f/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::4ca9aed0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::4d6eac80-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::50171030-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::51656220-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::523a3e50-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::53aedcf0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::55034960-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::55f830b0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::59b0a4d0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::5a986cc0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
+      "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::5e0be8a0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cdd2b9b0-668c-11f1-87ad-25ab32f2673f/{imageVariant}",
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cdd48e70-668c-11f1-87ad-25ab32f2673f/{imageVariant}",
       "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::cdd307d0-668c-11f1-87ac-25ab32f2673f/{imageVariant}"
@@ -41,6 +52,15 @@
     "model": "Sunreef 70 Sail",
     "maxCrew": 4,
     "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::084d2f1c-b3ee-11ed-88e8-325096b39f47",
+      "name": "Olbia",
+      "coordinates": {
+        "latitude": 40.92518954,
+        "longitude": 9.507247173
+      },
+      "country": "Italy"
+    },
     "builtYear": 2025,
     "topSpeed": 10,
     "cruiseSpeed": 8,
@@ -126,7 +146,9 @@
       }
     ],
     "entertainment": [
-      "Wi-Fi"
+      "Wi-Fi",
+      "Play Station",
+      "Fitness Equipment "
     ],
     "tenders": [
       "Highfield Sport 460 tender with a Yamaha Motor Company 70 HP outboard engine "
@@ -135,7 +157,7 @@
   "crew": [
     {
       "name": "Tomasz Jaworski",
-      "avatar": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::29b87430-667f-11f1-bdee-5beb5136b4a8/{imageVariant}",
+      "avatar": "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::f9617e10-957e-11f1-a6b6-63f58d283e04/{imageVariant}",
       "role": "Captain",
       "bio": "Polish \nLanguages spoken: English, Polish\n\nTomasz Jaworski is a professional yacht captain specializing in premium crewed charters, with extensive experience across the Mediterranean, Caribbean, Atlantic routes, and European coastal waters. With a strong technical and engineering background, he combines excellent seamanship with a proactive and hands-on approach to yacht maintenance and onboard operations.\nHolding an RYA Yachtmaster Offshore Commercial Endorsement together with multiple sailing and motorboat certifications, Tomasz has captained and operated a wide range of catamarans and monohulls up to 80ft, including Sunreef, Moon, FP Saba, and Catana yachts. His experience includes both luxury charter operations and international deliveries across demanding cruising areas.\nKnown for his calm leadership, reliability, and guest-focused mindset, Tomasz is confident managing crew and delivering smooth, safe, and highly personalized charter experiences. His engineering skills, strong organizational approach, and attention to detail make him particularly well suited to premium catamaran operations.\nFriendly, approachable, and highly professional, Tomasz creates a relaxed and welcoming atmosphere onboard while ensuring high operational standards throughout every charter aboard ANKAWER VI."
     },
@@ -147,19 +169,19 @@
     },
     {
       "name": "Slayter Marc Streefkerk",
-      "avatar": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::6c2d6e40-668b-11f1-8b0b-2338ef593823/{imageVariant}",
+      "avatar": "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::133212f0-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
       "role": "Captain",
       "bio": "South Africa\nLanguages spoken: English\n\nA motivated and hardworking deckhand with experience onboard private motor yachts, sailing catamarans, and classic sailing vessels across the Mediterranean and Caribbean. Reliable, adaptable, and hands-on, he brings strong operational support across all aspects of deck work, maintenance, and guest service.\nHis experience includes tender handling, mooring operations, washdowns, teak maintenance, sail handling, water sports support, and general yacht upkeep. Having also worked as a sole crew member onboard a private 24m catamaran during winter operations, he developed a broad understanding of vessel management, maintenance coordination, and day-to-day onboard responsibilities.\nWith additional experience in shipyard periods, electrical works, carpentry assistance, and engineering support, he is comfortable both in busy charter environments and maintenance-focused programs. Calm under pressure and eager to continue progressing within the industry, he brings a positive attitude, strong work ethic, and professional approach onboard."
     },
     {
       "name": "Kornelia Maj",
-      "avatar": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::a2c6c960-668b-11f1-8b0b-2338ef593823/{imageVariant}",
+      "avatar": "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::18df2b20-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
       "role": "Captain",
       "bio": "Polish\nLanguages spoken: English, Polish\n\nKornelia Maj is a dedicated and detail-oriented Stewardess with strong experience across luxury catamarans, crewed charters, and high-end hospitality environments in the Mediterranean and Caribbean. With several seasons in the yachting industry, she delivers warm, attentive guest service while maintaining impeccably organized and beautifully presented onboard interiors.\nHer experience includes guest service, housekeeping, table styling, provisioning, bartending, event preparation, and day-to-day charter support aboard both private and charter yachts. Kornelia is particularly valued for her professionalism, calm efficiency, and ability to create a relaxed and welcoming onboard atmosphere tailored to each guest profile.\nKnown for her cheerful personality, adaptability, and strong hospitality mindset, she also brings additional skills in barista service, cocktail preparation, light cooking support, and creative presentation. Her combination of service expertise, positive energy, and genuine passion for life at sea makes her a valuable and versatile part of the onboard experience aboard ANKAWER VI."
     },
     {
       "name": "Marek Michalski ",
-      "avatar": "/media/media::image::a::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::bc1f2100-668b-11f1-8b0b-2338ef593823/{imageVariant}",
+      "avatar": "/media/media::image::c::26934280528::vessel::c034eca0-3a1a-11f0-acbd-29907c34ceff::assets::1d905720-957f-11f1-a6b6-63f58d283e04/{imageVariant}",
       "role": "Captain",
       "bio": "Polish\nLanguages spoken: Polish, English, Russian, German\n\nMarek Michalski is an experienced and versatile yacht chef with a strong background in luxury hospitality, fine dining, and international cruise operations across Europe and the Caribbean. With many years of experience leading professional kitchens both ashore and at sea, he combines refined culinary presentation with the flexibility and efficiency required in high-end charter environments.\nHaving worked across luxury cruises, boutique hotels, alpine resorts, and premium gastronomy concepts, Marek brings a broad international culinary perspective together with a strong guest-focused approach. His cuisine style combines elegant presentation, fresh Mediterranean influences, and modern international flavors, always adapted to guest preferences and dietary requirements.\nKnown for his calm professionalism, creativity, and strong organizational skills, Marek creates a relaxed and enjoyable onboard dining experience while maintaining high hospitality standards throughout every charter. In addition to his culinary expertise, he also holds yachting certifications including STCW and ENG1, giving him a solid understanding of onboard operations and life at sea aboard ANKAWER VI."
     }
