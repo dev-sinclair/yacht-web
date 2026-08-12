@@ -3257,7 +3257,7 @@
     "uri": "c::8164602117::vessel::779458b0-486c-11ee-a45f-fdfff6163a60",
     "slug": "maxita",
     "name": "MAXITA",
-    "hero": "/media/media::image::c::8164602117::vessel::779458b0-486c-11ee-a45f-fdfff6163a60::assets::792691b0-7782-11f0-b8fd-355a2b7d5d19/{imageVariant}",
+    "hero": "/media/media::image::c::8164602117::vessel::779458b0-486c-11ee-a45f-fdfff6163a60::assets::ce2d3970-9626-11f1-aa53-b1174302d1d6/{imageVariant}",
     "length": 39.15,
     "sleeps": 12,
     "cabins": 6,
@@ -9740,6 +9740,32 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "champagne-hippy",
+    "name": "CHAMPAGNE HIPPY",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744::assets::fbc5cd00-122c-11ef-b0da-f913e1fbb5b2.jpeg/{imageVariant}",
+    "length": 25.15,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2014,
+    "builder": "Oyster Marine Ltd",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::17949224288::vessel::3052c4d0-7e8b-11f0-a87c-a1a003b3fcfa",
     "slug": "matrix",
     "name": "MATRIX",
@@ -9785,32 +9811,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "champagne-hippy",
-    "name": "CHAMPAGNE HIPPY",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744::assets::fbc5cd00-122c-11ef-b0da-f913e1fbb5b2.jpeg/{imageVariant}",
-    "length": 25.15,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2014,
-    "builder": "Oyster Marine Ltd",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
