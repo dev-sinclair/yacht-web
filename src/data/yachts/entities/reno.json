@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761131457562,
+  "lastModified": 1786637448798,
   "uri": "c::18049157535::vessel::d22ea260-9a8a-11ee-a4ad-092901c870e2",
   "yachtType": [
     "Motor"
@@ -46,110 +46,67 @@
   "crew": [],
   "pricing": {
     "dayPricingFrom": {
-      "currency": "EUR",
-      "price": 25000,
-      "displayCurrency": "EUR",
-      "displayPrice": 25000,
+      "currency": "AED",
+      "price": 135000,
+      "displayCurrency": "AED",
+      "displayPrice": 135000,
       "unit": "HOUR"
     },
     "dayPricingTo": {
+      "currency": "AED",
+      "price": 135000,
+      "displayCurrency": "AED",
+      "displayPrice": 135000,
+      "unit": "HOUR"
+    },
+    "weekPricingFrom": {
       "currency": "EUR",
-      "price": 843000,
+      "price": 95000,
       "displayCurrency": "EUR",
-      "displayPrice": 843000,
-      "unit": "DAY"
+      "displayPrice": 95000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 95000,
+      "displayCurrency": "EUR",
+      "displayPrice": 95000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Summer Rate B2C P/HR (1st June to 15th September)",
+        "name": "B2C/Selling P/HR (September 16 to June 15, 2027)",
         "effectiveDates": [
-          {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-09-15T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-01T00:00:00.000Z",
-            "to": "2027-09-15T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-09-15T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 25000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "HOUR",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 25000,
-              "amount": 25000,
-              "conditions": "VAT is Included"
-            }
-          ],
-          "total": 25000,
-          "subTotal": 25000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Dubai, Dubay, United Arab Emirates",
-            "type": "Custom Area",
-            "category": [
-              "Dubai"
-            ],
-            "coordinates": [
-              55.3541665,
-              25.266666500000003
-            ],
-            "bbox": [
-              55.175,
-              25.1,
-              55.533333,
-              25.433333
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Seasonal Rate B2C P/HR (16th September until 30th May)",
-        "effectiveDates": [
-          {
-            "from": "2025-09-16T00:00:00.000Z",
-            "to": "2026-05-30T23:59:59.999Z"
-          },
           {
             "from": "2026-09-16T00:00:00.000Z",
-            "to": "2027-05-30T23:59:59.999Z"
+            "to": "2027-06-15T23:59:59.999Z"
           },
           {
             "from": "2027-09-16T00:00:00.000Z",
-            "to": "2028-05-30T23:59:59.999Z"
+            "to": "2028-06-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2029-06-15T23:59:59.999Z"
           }
         ],
         "pricing": {
-          "currency": "EUR",
-          "charterFee": 30500,
-          "inputAmountTaxed": "INCLUSIVE",
+          "currency": "AED",
+          "charterFee": 135000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "HOUR",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 30500,
-              "amount": 30500,
-              "conditions": "VAT is Included"
+              "unitPrice": 135000,
+              "amount": 135000,
+              "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 30500,
-          "subTotal": 30500,
+          "total": 135000,
+          "subTotal": 135000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -175,38 +132,38 @@
         "petsAllowed": false
       },
       {
-        "name": "New Year's B2B Rate",
+        "name": "B2B/Partner P/HR (September 16 to June 15, 2027)",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-01-01T23:59:59.999Z"
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2027-06-15T23:59:59.999Z"
           },
           {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-01-01T23:59:59.999Z"
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2028-06-15T23:59:59.999Z"
           },
           {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-01-01T23:59:59.999Z"
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2029-06-15T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 843000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 95000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 843000,
-              "amount": 843000,
-              "conditions": "VAT is Included"
+              "unitPrice": 95000,
+              "amount": 95000,
+              "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 843000,
-          "subTotal": 843000,
+          "total": 95000,
+          "subTotal": 95000,
           "totalTax": 0
         },
         "inclusionZones": [

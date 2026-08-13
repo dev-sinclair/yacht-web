@@ -2450,7 +2450,7 @@
     "uri": "c::7580644256::vessel::d5cc778a-fe8c-11ed-889f-43d4bb723744",
     "slug": "irama",
     "name": "IRAMA",
-    "hero": "/media/media::image::a::vessel::d5cc778a-fe8c-11ed-889f-43d4bb723744::assets::13b45d00-2b54-11f0-9078-b39108fcda66/{imageVariant}",
+    "hero": "/media/media::image::c::7580644256::vessel::d5cc778a-fe8c-11ed-889f-43d4bb723744::assets::9deb1a80-9729-11f1-b191-850add493324/{imageVariant}",
     "length": 41.8,
     "sleeps": 12,
     "cabins": 6,
@@ -5098,17 +5098,17 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 85000,
+    "dayPricingFrom": 340000,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
+      "summer-2029",
       "winter-2026",
-      "winter-2027"
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -10016,6 +10016,32 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::00b84260-9a79-11ee-a375-134d2c404788",
+    "slug": "san-lorenzo",
+    "name": "SAN LORENZO",
+    "hero": "/media/media::image::c::18049157535::vessel::00b84260-9a79-11ee-a375-134d2c404788::assets::1fc21f00-9a79-11ee-a375-134d2c404788.jpeg/{imageVariant}",
+    "length": 24.99,
+    "sleeps": 0,
+    "cabins": 4,
+    "builtYear": 2009,
+    "builder": "San Lorenzo",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 120000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::32173481806::vessel::7313c050-05c0-11f1-8a9b-83edd681c170",
     "slug": "nautica",
     "name": "NAUTICA",
@@ -10039,32 +10065,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::00b84260-9a79-11ee-a375-134d2c404788",
-    "slug": "san-lorenzo",
-    "name": "SAN LORENZO",
-    "hero": "/media/media::image::c::18049157535::vessel::00b84260-9a79-11ee-a375-134d2c404788::assets::1fc21f00-9a79-11ee-a375-134d2c404788.jpeg/{imageVariant}",
-    "length": 24.99,
-    "sleeps": 0,
-    "cabins": 4,
-    "builtYear": 2009,
-    "builder": "San Lorenzo",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 40000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -12097,6 +12097,32 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::ffae9760-9a74-11ee-a375-134d2c404788",
+    "slug": "astra",
+    "name": "ASTRA",
+    "hero": "/media/media::image::c::18049157535::vessel::ffae9760-9a74-11ee-a375-134d2c404788::assets::846d22a0-9a75-11ee-a375-134d2c404788.jpeg/{imageVariant}",
+    "length": 23.16,
+    "sleeps": 6,
+    "cabins": 2,
+    "builtYear": 2022,
+    "builder": "Sky Walker Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 170000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::16875063630::vessel::d5cc78d7-fe8c-11ed-889f-43d4bb723744",
     "slug": "rhemtide",
     "name": "RHEMTIDE",
@@ -12122,32 +12148,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::ffae9760-9a74-11ee-a375-134d2c404788",
-    "slug": "astra",
-    "name": "ASTRA",
-    "hero": "/media/media::image::c::18049157535::vessel::ffae9760-9a74-11ee-a375-134d2c404788::assets::846d22a0-9a75-11ee-a375-134d2c404788.jpeg/{imageVariant}",
-    "length": 23.16,
-    "sleeps": 6,
-    "cabins": 2,
-    "builtYear": 2022,
-    "builder": "Sky Walker Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 47000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -12365,6 +12365,32 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8",
+    "slug": "tisck",
+    "name": "TISCK",
+    "hero": "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::97919720-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+    "length": 22.86,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2010,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 80000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::21392618129::vessel::7195f1d0-6625-11ef-8173-0fe9b9d826d7",
     "slug": "azur",
     "name": "AZUR",
@@ -12411,32 +12437,6 @@
       "summer-2024",
       "summer-2025",
       "summer-2026"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8",
-    "slug": "tisck",
-    "name": "TISCK",
-    "hero": "/media/media::image::c::18049157535::vessel::fd7e57a0-9a79-11ee-850a-ad5755324ec8::assets::97919720-9a7b-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
-    "length": 22.86,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2010,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 19000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -14199,17 +14199,17 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 19000,
+    "dayPricingFrom": 80000,
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
+      "summer-2029",
       "winter-2026",
-      "winter-2027"
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -16083,6 +16083,110 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::57a0f4a0-9a88-11ee-a4ad-092901c870e2",
+    "slug": "fibo",
+    "name": "FIBO",
+    "hero": "/media/media::image::c::18049157535::vessel::57a0f4a0-9a88-11ee-a4ad-092901c870e2::assets::95e36620-fccc-11ee-acee-974ab1c4c767.jpeg/{imageVariant}",
+    "length": 18.9,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2023,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 95000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18049157535::vessel::d22ea260-9a8a-11ee-a4ad-092901c870e2",
+    "slug": "reno",
+    "name": "RENO",
+    "hero": "/media/media::image::c::18049157535::vessel::d22ea260-9a8a-11ee-a4ad-092901c870e2::assets::9e7feea0-9a8b-11ee-a4ad-092901c870e2.jpeg/{imageVariant}",
+    "length": 18.9,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2023,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 135000,
+    "weekPricingFrom": 95000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af",
+    "slug": "gala",
+    "name": "GALA",
+    "hero": "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::38187550-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
+    "length": 18.9,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": null,
+    "builder": "Sky Walker Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 135000,
+    "weekPricingFrom": 95000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18049157535::vessel::352e78c0-9a60-11ee-850a-ad5755324ec8",
+    "slug": "lana",
+    "name": "LANA",
+    "hero": "/media/media::image::c::18049157535::vessel::352e78c0-9a60-11ee-850a-ad5755324ec8::assets::83897400-9a62-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+    "length": 18.9,
+    "sleeps": 6,
+    "cabins": 2,
+    "builtYear": 2017,
+    "builder": "Azimut",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 70000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::10095349510::vessel::d5cbab88-fe8c-11ed-889f-43d4bb723744",
     "slug": "the-sun",
     "name": "THE SUN",
@@ -16362,110 +16466,6 @@
       "summer-2026",
       "summer-2027",
       "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::57a0f4a0-9a88-11ee-a4ad-092901c870e2",
-    "slug": "fibo",
-    "name": "FIBO",
-    "hero": "/media/media::image::c::18049157535::vessel::57a0f4a0-9a88-11ee-a4ad-092901c870e2::assets::95e36620-fccc-11ee-acee-974ab1c4c767.jpeg/{imageVariant}",
-    "length": 18.9,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2023,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 25000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::d22ea260-9a8a-11ee-a4ad-092901c870e2",
-    "slug": "reno",
-    "name": "RENO",
-    "hero": "/media/media::image::c::18049157535::vessel::d22ea260-9a8a-11ee-a4ad-092901c870e2::assets::9e7feea0-9a8b-11ee-a4ad-092901c870e2.jpeg/{imageVariant}",
-    "length": 18.9,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2023,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 25000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af",
-    "slug": "gala",
-    "name": "GALA",
-    "hero": "/media/media::image::c::18049157535::vessel::1a0afa10-9a8c-11ee-8ede-65e43c7531af::assets::38187550-9a8c-11ee-8ede-65e43c7531af.jpeg/{imageVariant}",
-    "length": 18.9,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": null,
-    "builder": "Sky Walker Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 25000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::352e78c0-9a60-11ee-850a-ad5755324ec8",
-    "slug": "lana",
-    "name": "LANA",
-    "hero": "/media/media::image::c::18049157535::vessel::352e78c0-9a60-11ee-850a-ad5755324ec8::assets::83897400-9a62-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
-    "length": 18.9,
-    "sleeps": 6,
-    "cabins": 2,
-    "builtYear": 2017,
-    "builder": "Azimut",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 16000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -17069,6 +17069,33 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::3885c4d0-9a86-11ee-a4ad-092901c870e2",
+    "slug": "infinity",
+    "name": "INFINITY ",
+    "hero": "/media/media::image::c::18049157535::vessel::3885c4d0-9a86-11ee-a4ad-092901c870e2::assets::1d0e6850-9a87-11ee-a4ad-092901c870e2.jpeg/{imageVariant}",
+    "length": 18.29,
+    "sleeps": 0,
+    "cabins": 0,
+    "builtYear": 2023,
+    "builder": "",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": 95000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::20984578048::vessel::77e6a5f0-e7eb-11ef-9a6d-d7e98726992a",
     "slug": "risa",
     "name": "RISA",
@@ -17206,33 +17233,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::3885c4d0-9a86-11ee-a4ad-092901c870e2",
-    "slug": "infinity",
-    "name": "INFINITY ",
-    "hero": "/media/media::image::c::18049157535::vessel::3885c4d0-9a86-11ee-a4ad-092901c870e2::assets::1d0e6850-9a87-11ee-a4ad-092901c870e2.jpeg/{imageVariant}",
-    "length": 18.29,
-    "sleeps": 0,
-    "cabins": 0,
-    "builtYear": 2023,
-    "builder": "",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": 56000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -21225,6 +21225,84 @@
     ]
   },
   {
+    "uri": "c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2",
+    "slug": "rak-1",
+    "name": "RAK 1",
+    "hero": "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::f0636dc0-fccc-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
+    "length": 15.85,
+    "sleeps": 0,
+    "cabins": 1,
+    "builtYear": 2023,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 60000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18049157535::vessel::92d3bdc0-9a77-11ee-850a-ad5755324ec8",
+    "slug": "uno",
+    "name": "UNO",
+    "hero": "/media/media::image::c::18049157535::vessel::92d3bdc0-9a77-11ee-850a-ad5755324ec8::assets::6cf83430-9a79-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+    "length": 15.85,
+    "sleeps": 0,
+    "cabins": 2,
+    "builtYear": 2023,
+    "builder": "SkyWalker Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 60000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::18049157535::vessel::9b612470-9a75-11ee-850a-ad5755324ec8",
+    "slug": "oxo",
+    "name": "OXO",
+    "hero": "/media/media::image::c::18049157535::vessel::9b612470-9a75-11ee-850a-ad5755324ec8::assets::0040da60-9a77-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
+    "length": 15.85,
+    "sleeps": 0,
+    "cabins": 2,
+    "builtYear": 2023,
+    "builder": "SkyWalker Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 60000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::9429269944::vessel::d5cca491-fe8c-11ed-889f-43d4bb723744",
     "slug": "blue-moon",
     "name": "BLUE MOON",
@@ -21353,84 +21431,6 @@
       "summer-2026",
       "summer-2027",
       "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2",
-    "slug": "rak-1",
-    "name": "RAK 1",
-    "hero": "/media/media::image::c::18049157535::vessel::ae3acf20-9a8d-11ee-a4ad-092901c870e2::assets::f0636dc0-fccc-11ee-95b0-c11e30c5636c.jpeg/{imageVariant}",
-    "length": 15.85,
-    "sleeps": 0,
-    "cabins": 1,
-    "builtYear": 2023,
-    "builder": "",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 16000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::92d3bdc0-9a77-11ee-850a-ad5755324ec8",
-    "slug": "uno",
-    "name": "UNO",
-    "hero": "/media/media::image::c::18049157535::vessel::92d3bdc0-9a77-11ee-850a-ad5755324ec8::assets::6cf83430-9a79-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
-    "length": 15.85,
-    "sleeps": 0,
-    "cabins": 2,
-    "builtYear": 2023,
-    "builder": "SkyWalker Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 16000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::18049157535::vessel::9b612470-9a75-11ee-850a-ad5755324ec8",
-    "slug": "oxo",
-    "name": "OXO",
-    "hero": "/media/media::image::c::18049157535::vessel::9b612470-9a75-11ee-850a-ad5755324ec8::assets::0040da60-9a77-11ee-850a-ad5755324ec8.jpeg/{imageVariant}",
-    "length": 15.85,
-    "sleeps": 0,
-    "cabins": 2,
-    "builtYear": 2023,
-    "builder": "SkyWalker Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 16000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2025",
       "winter-2026",
       "winter-2027"
