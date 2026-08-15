@@ -1,0 +1,749 @@
+{
+  "lastModified": null,
+  "uri": "c::28226710116::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Miami, Florida, USA & The Bahamas\n\nThe 65ft Prestige 630 Fly (2019, refit 2026) blends French elegance with spacious, comfortable cruising, departing from Bill Bird Marina in North Miami. Powered by twin Volvo diesel engines, she offers a smooth, stable ride ideal for exploring Biscayne Bay and beyond.\n\nBelow deck, the Prestige 630 offers a 3-cabin layout with 3 bathrooms, comfortably sleeping up to 6 overnight guests plus 2 crew, while her expansive flybridge and open salon create generous space for entertaining both above and below deck.",
+  "blueprint": {
+    "name": "EXUMAS",
+    "images": [
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::24e735a0-981a-11f1-baad-5f168df780a9/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80beaa0-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fc0c20-9819-11f1-befb-175c9edf3e7d/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fc5a40-9819-11f1-befb-175c9edf3e7d/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fb6fe0-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fecb40-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80c38c0-9819-11f1-8bc6-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d8035f20-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80d4a30-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fcf680-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80e82b0-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80d4a31-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80c5fd0-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fccf70-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80c11b0-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fcf681-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fca860-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fd44a0-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80c86e0-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fc8150-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fc5a40-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fe5610-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80d2320-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d7fe2f00-9819-11f1-8bc5-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d81168e0-9819-11f1-8bc7-97880b96df05/{imageVariant}",
+      "/media/media::image::a::vessel::dc80b8a0-9813-11f1-83a0-5b27268b8c2d::assets::d80f1ef0-9819-11f1-8bc7-97880b96df05/{imageVariant}"
+    ],
+    "make": "Prestige Yachts",
+    "model": "Prestige 630 Fly",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "name": "Bill Bird Marina Way, Sunny Isles Beach, Florida 33154, United States",
+      "coordinates": {
+        "longitude": -80.122702,
+        "latitude": 25.913991
+      },
+      "country": "United States"
+    },
+    "cruisingCapacity": 13,
+    "builtYear": 2019,
+    "refitYear": 2026,
+    "cabinLayout": [],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 19.82,
+    "beam": 4.88,
+    "engines": "twin Volvo engines",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Lounge area"
+      },
+      {
+        "label": "Cooler, Ice, Sodas, Water and Towels"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Bōte Island"
+      },
+      {
+        "label": "Bōte Paddle Boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Bōte Water Chairs",
+        "quantity": "2"
+      },
+      {
+        "label": "LeFeet Sea-Bobs",
+        "quantity": "2"
+      },
+      {
+        "label": "Snorkel Gear"
+      }
+    ],
+    "entertainment": [
+      "Starlink"
+    ],
+    "tenders": [
+      "50hp Dinghy"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 306000,
+      "displayCurrency": "USD",
+      "displayPrice": 306000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 1120000,
+      "displayCurrency": "USD",
+      "displayPrice": 1120000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 4250000,
+      "displayCurrency": "USD",
+      "displayPrice": 4250000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 4250000,
+      "displayCurrency": "USD",
+      "displayPrice": 4250000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "4 Hours ",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 306000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 306000,
+              "amount": 306000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 306000,
+          "subTotal": 306000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "6 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 423500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 423500,
+              "amount": 423500,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 423500,
+          "subTotal": 423500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "8 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 541500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 541500,
+              "amount": 541500,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 541500,
+          "subTotal": 541500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "24 Hours",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 700000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 700000,
+          "subTotal": 700000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "1 Week",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4250000,
+              "amount": 4250000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4250000,
+          "subTotal": 4250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Miami, Florida, United States of America",
+            "type": "Custom Area",
+            "category": [
+              "Miami"
+            ],
+            "coordinates": [
+              -80.2333335,
+              26.3583335
+            ],
+            "bbox": [
+              -80.441667,
+              25.725,
+              -80.025,
+              26.991667
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          },
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "United States of America",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Northern America",
+              "United States of America"
+            ],
+            "coordinates": [
+              -126.59384474872662,
+              42.705527024621716
+            ],
+            "bbox": [
+              -171.02361140253382,
+              17.444302702056326,
+              -66.62109375000001,
+              71.93689088453002
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Trip to Bimini",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1120000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1120000,
+              "amount": 1120000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1120000,
+          "subTotal": 1120000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
