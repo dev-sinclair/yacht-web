@@ -1410,6 +1410,28 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
+    "slug": "nocturno",
+    "name": "NOCTURNO",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744::assets::76b4a720-775d-11f0-8a05-3159ae1ca088/{imageVariant}",
+    "length": 48.2,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2023,
+    "builder": "Radez",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cb5ca0-fe8c-11ed-889f-43d4bb723744",
     "slug": "freedom",
     "name": "FREEDOM",
@@ -1429,28 +1451,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
-    "slug": "nocturno",
-    "name": "NOCTURNO",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744::assets::76b4a720-775d-11f0-8a05-3159ae1ca088/{imageVariant}",
-    "length": 48.2,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2023,
-    "builder": "Radez",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {

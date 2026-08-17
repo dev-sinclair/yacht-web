@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782230275869,
+  "lastModified": 1786960461026,
   "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -174,23 +174,15 @@
     },
     "pricingInfo": [
       {
-        "name": "SEASON A & E (From 03 May 2026 till 26 May 2026 & From 02 October 2026 till 17 October 2026)",
+        "name": "SEASON A & E (From 17 April 2027 till 26 May 2027 & From 02 October 2027 till 02 November 2027)",
         "effectiveDates": [
           {
-            "from": "2026-05-03T00:00:00.000Z",
-            "to": "2026-05-26T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-02T00:00:00.000Z",
-            "to": "2026-10-17T23:59:59.999Z"
+            "from": "2027-04-17T00:00:00.000Z",
+            "to": "2027-05-26T23:59:59.999Z"
           },
           {
             "from": "2027-10-02T00:00:00.000Z",
-            "to": "2027-10-17T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-02T00:00:00.000Z",
-            "to": "2028-10-17T23:59:59.999Z"
+            "to": "2027-11-02T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -215,15 +207,15 @@
               "amount": 1105000
             },
             {
-              "item": "A.P.A. 25%",
+              "item": "A.P.A. 30%",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.3,
               "unitPrice": 8500000,
-              "amount": 2125000
+              "amount": 2550000
             }
           ],
-          "total": 11730000,
-          "subTotal": 11730000,
+          "total": 12155000,
+          "subTotal": 12155000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -245,37 +237,59 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "SEASON B & D (From 27 May 2026 till 27 June 2026 & From 08 September 2026 till 01 October 2026)",
+        "name": "SEASON B & D (From 27 May 2027 till 27 June 2027 & From 08 September 2027 till 01 October 2027)",
         "effectiveDates": [
-          {
-            "from": "2026-05-27T00:00:00.000Z",
-            "to": "2026-06-27T23:59:59.999Z"
-          },
           {
             "from": "2027-05-27T00:00:00.000Z",
             "to": "2027-06-27T23:59:59.999Z"
           },
           {
-            "from": "2028-05-27T00:00:00.000Z",
-            "to": "2028-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-08T00:00:00.000Z",
-            "to": "2026-10-01T23:59:59.999Z"
-          },
-          {
             "from": "2027-09-08T00:00:00.000Z",
             "to": "2027-10-01T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-08T00:00:00.000Z",
-            "to": "2028-10-01T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -300,15 +314,15 @@
               "amount": 1157000
             },
             {
-              "item": "A.P.A. 25%",
+              "item": "A.P.A. 30%",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.3,
               "unitPrice": 8900000,
-              "amount": 2225000
+              "amount": 2670000
             }
           ],
-          "total": 12282000,
-          "subTotal": 12282000,
+          "total": 12727000,
+          "subTotal": 12727000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -330,25 +344,55 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "SEASON C (From 28 June 2026 till 07 September 2026)",
+        "name": "SEASON C (From 28 June 2027 till 07 September 2027)",
         "effectiveDates": [
-          {
-            "from": "2026-06-28T00:00:00.000Z",
-            "to": "2026-09-07T23:59:59.999Z"
-          },
           {
             "from": "2027-06-28T00:00:00.000Z",
             "to": "2027-09-07T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-28T00:00:00.000Z",
-            "to": "2028-09-07T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -373,15 +417,15 @@
               "amount": 1287000
             },
             {
-              "item": "A.P.A. 25%",
+              "item": "A.P.A. 30%",
               "conditions": "",
-              "quantity": 0.25,
+              "quantity": 0.3,
               "unitPrice": 9900000,
-              "amount": 2475000
+              "amount": 2970000
             }
           ],
-          "total": 13662000,
-          "subTotal": 13662000,
+          "total": 14157000,
+          "subTotal": 14157000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -402,6 +446,44 @@
               42.265114458337585,
               18.511962890625004,
               45.53521281284293
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
             ]
           }
         ],
