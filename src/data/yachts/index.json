@@ -8301,11 +8301,11 @@
   },
   {
     "uri": "c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744",
-    "slug": "estia-yi",
-    "name": "ESTIA YI",
+    "slug": "estia-orion",
+    "name": "ESTIA ORION",
     "hero": "/media/media::image::c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744::assets::c42a6810-a116-11ee-90d0-77eb1a04a228.jpeg/{imageVariant}",
     "length": 27.03,
-    "sleeps": 9,
+    "sleeps": 10,
     "cabins": 4,
     "builtYear": 2004,
     "builder": "Ferretti",
@@ -8313,16 +8313,16 @@
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 3600000,
+    "weekPricingFrom": 3590000,
     "currency": "EUR",
     "seasons": [
-      "summer-2024",
-      "summer-2025",
       "summer-2026",
-      "winter-2023",
-      "winter-2024",
+      "summer-2027",
+      "summer-2028",
       "winter-2025",
-      "winter-2026"
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -11876,7 +11876,7 @@
     "uri": "c::18153543958::vessel::eb6eed90-90b2-11f1-be63-7dec70361633",
     "slug": "aini",
     "name": "AINI",
-    "hero": "/media/media::image::a::vessel::eb6eed90-90b2-11f1-be63-7dec70361633::assets::3287b810-90bd-11f1-bbac-f3ac879725b8/{imageVariant}",
+    "hero": "/media/media::image::c::18153543958::vessel::eb6eed90-90b2-11f1-be63-7dec70361633::assets::c82a16a0-90c3-11f1-9c99-b743e5f4a956/{imageVariant}",
     "length": 23.63,
     "sleeps": 6,
     "cabins": 5,
@@ -19249,32 +19249,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7579706445::vessel::dbfad6d0-a3ed-11ee-a3ef-0b2547cdbcf3",
-    "slug": "seacret",
-    "name": "SEACRET",
-    "hero": "/media/media::image::c::7579706445::vessel::dbfad6d0-a3ed-11ee-a3ef-0b2547cdbcf3::assets::3d7e1e80-a3f3-11ee-a3ef-0b2547cdbcf3.jpeg/{imageVariant}",
-    "length": 16.73,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2021,
-    "builder": "Bavaria Yachtbau",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 590000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2023",
       "winter-2024",
       "winter-2025",
       "winter-2026"
