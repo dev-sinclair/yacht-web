@@ -1,11 +1,11 @@
 {
-  "lastModified": 1784565190094,
+  "lastModified": 1786997113571,
   "uri": "c::7579706445::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Operating Area: Greece\n\nLibra is a catamaran that stands out for its exceptional design, offering an impressive sense of space both indoors and outdoors.\n\nHer vast open areas create a relaxed and welcoming atmosphere, perfect for guests who value comfort, connection, and seamless access to the sea.\n\nOne of her most unique features is the forward deck saloon, a rare and luxurious layout element that allows guests to move effortlessly between interior and exterior spaces. This elevated lounging area is directly accessible from the main saloon, offering a private and open setting to enjoy panoramic views, sea breezes, or a sunset cocktail.\n\nWhether you’re soaking up the sun on deck, enjoying al fresco dining with loved ones, or gathering in one of the many social spaces on board, Libra is tailored for those who cherish quality time with family and friends.",
+  "description": "Operating Area: Greek Islands\n\nLibra is characterized by the enormous outdoor & indoor spaces! Guests can enjoy sitting comfortably in the forward deck saloon which is accessed directly from inside, open to the water.\nLibra is ideal for guests that are looking for entertaining with family & friends.",
   "blueprint": {
     "name": "LIBRA",
     "images": [
@@ -161,17 +161,10 @@
               "unitPrice": 2690000,
               "amount": 2690000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 2690000,
-              "amount": 672500
             }
           ],
-          "total": 3362500,
-          "subTotal": 3362500,
+          "total": 2690000,
+          "subTotal": 2690000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -239,17 +232,10 @@
               "unitPrice": 2390000,
               "amount": 2390000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 2390000,
-              "amount": 597500
             }
           ],
-          "total": 2987500,
-          "subTotal": 2987500,
+          "total": 2390000,
+          "subTotal": 2390000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -280,16 +266,28 @@
         "name": "Low Season",
         "effectiveDates": [
           {
-            "from": "2025-10-01T00:00:00.000Z",
+            "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
+            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2027-10-01T00:00:00.000Z",
+            "from": "2028-01-01T00:00:00.000Z",
             "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -305,17 +303,10 @@
               "unitPrice": 1890000,
               "amount": 1890000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 1890000,
-              "amount": 472500
             }
           ],
-          "total": 2362500,
-          "subTotal": 2362500,
+          "total": 1890000,
+          "subTotal": 1890000,
           "totalTax": 0
         },
         "inclusionZones": [

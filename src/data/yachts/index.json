@@ -9020,7 +9020,7 @@
     "uri": "c::7579706445::vessel::3855df30-8943-11ee-988a-b71446e76489",
     "slug": "meliti",
     "name": "MELITI",
-    "hero": "/media/media::image::c::7579706445::vessel::3855df30-8943-11ee-988a-b71446e76489::assets::69797e70-8946-11ee-988a-b71446e76489.jpeg/{imageVariant}",
+    "hero": "/media/media::image::c::7579706445::vessel::3855df30-8943-11ee-988a-b71446e76489::assets::80fe3620-9a79-11f1-baaf-75c9787d12f8/{imageVariant}",
     "length": 26.32,
     "sleeps": 6,
     "cabins": 3,
@@ -9033,13 +9033,13 @@
     "weekPricingFrom": 2350000,
     "currency": "EUR",
     "seasons": [
-      "summer-2024",
-      "summer-2025",
       "summer-2026",
-      "winter-2023",
-      "winter-2024",
+      "summer-2027",
+      "summer-2028",
       "winter-2025",
-      "winter-2026"
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -18715,6 +18715,33 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca",
+    "slug": "libra-38cb90",
+    "name": "LIBRA",
+    "hero": "/media/media::image::a::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca::assets::0e2424a0-d5d7-11f0-a7b8-6b49861716e1/{imageVariant}",
+    "length": 16.8,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1890000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::18074096051::vessel::01774c90-3565-11f0-baec-592116f05ad5",
     "slug": "virginia",
     "name": "VIRGINIA",
@@ -18820,33 +18847,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7579706445::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca",
-    "slug": "libra-38cb90",
-    "name": "LIBRA",
-    "hero": "/media/media::image::a::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca::assets::0e2424a0-d5d7-11f0-a7b8-6b49861716e1/{imageVariant}",
-    "length": 16.8,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2024,
-    "builder": "Bali Catamarans",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1890000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
