@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784572648512,
+  "lastModified": 1787158970476,
   "uri": "c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a",
   "yachtType": [
     "Sailing"
@@ -8,21 +8,23 @@
   "blueprint": {
     "name": "CARPE DIEM",
     "images": [
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afb82a60-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afba4d40-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afb962e0-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afb9b100-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afba9b60-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afbae980-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f2ffa0-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f1c720-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f374d0-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f26360-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f3ea00-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f43820-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f48640-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::c3f4d460-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::df182800-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}"
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b207610-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7ad626a0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7acf6fe0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7ad42ad0-9bef-11f1-9f34-8199b8bca1c7/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7d0589c0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7ad5d880-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b4f2730-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7bd87b70-9bef-11f1-9f34-8199b8bca1c7/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b41e0c0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7d180050-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b24e2e0-9bef-11f1-9f34-8199b8bca1c7/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b1886d0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7aff8090-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7bcce2b0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b10bea0-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7acbed70-9bef-11f1-9f34-8199b8bca1c7/{imageVariant}",
+      "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7ad00c20-9bef-11f1-89dd-db060ed8e134/{imageVariant}"
     ],
     "make": "Beneteau",
     "model": "Oceanis 51.1",
@@ -46,20 +48,20 @@
     "fuelCapacity": 400,
     "cabinLayout": [
       {
-        "label": "Bow Single Bed Cabin",
-        "value": "1"
-      },
-      {
-        "label": "Bunk Bed Cabin",
-        "value": "1"
-      },
-      {
-        "label": "Double Bed Cabins",
+        "label": "Double Cabins",
         "value": "4"
+      },
+      {
+        "label": "Single Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Bunk Cabin",
+        "value": "1"
       }
     ],
-    "cabins": "",
-    "bathrooms": "",
+    "cabins": 6,
+    "bathrooms": 4,
     "decks": "",
     "length": 15.94,
     "beam": 4.8,
@@ -67,168 +69,157 @@
     "hullType": "",
     "hullConstruction": "",
     "tonnage": "",
-    "engines": "",
+    "engines": "1 x 110 HP",
     "amenities": [
       {
-        "label": "Air Condition",
-        "quantity": 1
+        "label": "Air Condition"
       },
       {
-        "label": "Bow Thruster",
-        "quantity": 1
+        "label": "Bow Thruster"
       },
       {
-        "label": "Electric Toilets",
-        "quantity": 1
+        "label": "Electric Toilets"
       },
       {
-        "label": "Fans in Cabins",
-        "quantity": 1
+        "label": "Fans in Cabins"
       },
       {
-        "label": "Fans in Saloon",
-        "quantity": 1
+        "label": "Fans in Saloon"
       },
       {
-        "label": "Generator",
-        "quantity": 1
+        "label": "Generator"
       },
       {
-        "label": "Solar Panels",
-        "quantity": 1
+        "label": "Solar Panels"
       },
       {
-        "label": "Electric Winches",
-        "quantity": 1
+        "label": "Electric Winches"
       },
       {
-        "label": "Bimini Top",
-        "quantity": 1
+        "label": "Swimming Platform"
       },
       {
-        "label": "Cockpit Cushions",
-        "quantity": 1
+        "label": "Bimini Top"
       },
       {
-        "label": "Cockpit Speakers",
-        "quantity": 1
+        "label": "Sprayhood"
       },
       {
-        "label": "Sunpads",
-        "quantity": 1
+        "label": "Holding Tanks"
       },
       {
-        "label": "Saloon Speakers",
-        "quantity": 1
+        "label": "220V Sockets"
       },
       {
-        "label": "Cockpit Shower",
-        "quantity": 1
+        "label": "Cockpit Cushions"
       },
       {
-        "label": "Battery Charger",
-        "quantity": 1
+        "label": "Deck Sunpads"
       },
       {
-        "label": "Auto Pilot",
-        "quantity": 1
+        "label": "Hot Water"
       },
       {
-        "label": "Depth Sounder",
-        "quantity": 1
+        "label": "USB Charging Ports"
       },
       {
-        "label": "GPS Plotter in Helm Station",
-        "quantity": 1
+        "label": "Inverter"
       },
       {
-        "label": "VHF",
-        "quantity": 1
+        "label": "Auto Pilot"
       },
       {
-        "label": "Fire Extinguishers",
-        "quantity": 1
+        "label": "Depth Sounder"
       },
       {
-        "label": "First Aid Kit",
-        "quantity": 1
+        "label": "GPS Plotter"
       },
       {
-        "label": "Life Jackets",
-        "quantity": 1
+        "label": "VHF"
+      },
+      {
+        "label": "Manual filter-coffee machine"
+      },
+      {
+        "label": "Gas Stove with Burners & Grill"
+      },
+      {
+        "label": "Refrigerator"
+      },
+      {
+        "label": "First Aid Kit & Medical-First Aid Instructions"
+      },
+      {
+        "label": "Life Jackets"
+      },
+      {
+        "label": "Liferaft"
       }
     ],
     "toys": [
       {
-        "label": "Dinghy",
-        "quantity": 1
+        "label": "Dinghy"
       },
       {
-        "label": "Snorkeling Sets",
-        "quantity": 1
-      },
-      {
-        "label": "Swimming Ladder",
-        "quantity": 1
+        "label": "Snorkelling Sets"
       }
     ],
     "entertainment": [
-      "Saloon Speakers",
-      "Cockpit Speakers"
+      "Cockpit Speakers",
+      "Saloon Speakers"
     ]
   },
   "crew": [],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 320000,
+      "price": 270000,
       "displayCurrency": "EUR",
-      "displayPrice": 320000,
+      "displayPrice": 270000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 915000,
+      "price": 900000,
       "displayCurrency": "EUR",
-      "displayPrice": 915000,
+      "displayPrice": 900000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "01-01 - 27/04",
-        "effectiveDates": [],
+        "name": "01/01 - 25/04",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-04-25T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-04-25T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-04-25T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDEUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 320000,
-          "totalTax": 38400,
-          "total": 320000,
+          "subTotal": 270000,
+          "totalTax": 32400,
+          "total": 270000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 320000,
-              "amount": 320000,
+              "unitPrice": 270000,
+              "amount": 270000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -238,7 +229,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 320000,
+          "charterFee": 270000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -265,40 +256,51 @@
         "exclusionZones": []
       },
       {
-        "name": "27/04 - 25/05",
-        "effectiveDates": [],
+        "name": "25/04 - 09/05 & 17/10 - 31/12",
+        "effectiveDates": [
+          {
+            "from": "2026-04-25T00:00:00.000Z",
+            "to": "2026-05-09T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-25T00:00:00.000Z",
+            "to": "2027-05-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-25T00:00:00.000Z",
+            "to": "2028-05-09T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-17T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-17T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-17T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 505000,
-          "totalTax": 60600,
-          "total": 505000,
+          "subTotal": 410000,
+          "totalTax": 49200,
+          "total": 410000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 505000,
-              "amount": 505000,
+              "unitPrice": 410000,
+              "amount": 410000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -308,7 +310,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 505000,
+          "charterFee": 410000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -335,40 +337,39 @@
         "exclusionZones": []
       },
       {
-        "name": "25/05 - 22/06",
-        "effectiveDates": [],
+        "name": "09/05 - 23/05",
+        "effectiveDates": [
+          {
+            "from": "2026-05-09T00:00:00.000Z",
+            "to": "2026-05-23T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-09T00:00:00.000Z",
+            "to": "2027-05-23T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-09T00:00:00.000Z",
+            "to": "2028-05-23T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 685000,
-          "totalTax": 82200,
-          "total": 685000,
+          "subTotal": 480000,
+          "totalTax": 57600,
+          "total": 480000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 685000,
-              "amount": 685000,
+              "unitPrice": 480000,
+              "amount": 480000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -378,7 +379,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 685000,
+          "charterFee": 480000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -405,40 +406,39 @@
         "exclusionZones": []
       },
       {
-        "name": "22/06 - 03/08",
-        "effectiveDates": [],
+        "name": "23/05 - 06/06",
+        "effectiveDates": [
+          {
+            "from": "2026-05-23T00:00:00.000Z",
+            "to": "2026-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-23T00:00:00.000Z",
+            "to": "2027-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-23T00:00:00.000Z",
+            "to": "2028-06-06T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 755000,
-          "totalTax": 90600,
-          "total": 755000,
+          "subTotal": 640000,
+          "totalTax": 76800,
+          "total": 640000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 755000,
-              "amount": 755000,
+              "unitPrice": 640000,
+              "amount": 640000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -448,7 +448,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 755000,
+          "charterFee": 640000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -475,40 +475,39 @@
         "exclusionZones": []
       },
       {
-        "name": "03/08 - 24/08",
-        "effectiveDates": [],
+        "name": "06/06 - 20/06",
+        "effectiveDates": [
+          {
+            "from": "2026-06-06T00:00:00.000Z",
+            "to": "2026-06-20T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-06T00:00:00.000Z",
+            "to": "2027-06-20T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-06T00:00:00.000Z",
+            "to": "2028-06-20T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 915000,
-          "totalTax": 109800,
-          "total": 915000,
+          "subTotal": 690000,
+          "totalTax": 82800,
+          "total": 690000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 915000,
-              "amount": 915000,
+              "unitPrice": 690000,
+              "amount": 690000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -518,7 +517,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 915000,
+          "charterFee": 690000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -545,40 +544,39 @@
         "exclusionZones": []
       },
       {
-        "name": "24/08 - 14/09",
-        "effectiveDates": [],
+        "name": "20/06 - 11/07",
+        "effectiveDates": [
+          {
+            "from": "2026-06-20T00:00:00.000Z",
+            "to": "2026-07-11T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-20T00:00:00.000Z",
+            "to": "2027-07-11T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-20T00:00:00.000Z",
+            "to": "2028-07-11T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 755000,
-          "totalTax": 90600,
-          "total": 755000,
+          "subTotal": 760000,
+          "totalTax": 91200,
+          "total": 760000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 755000,
-              "amount": 755000,
+              "unitPrice": 760000,
+              "amount": 760000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -588,7 +586,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 755000,
+          "charterFee": 760000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -615,40 +613,39 @@
         "exclusionZones": []
       },
       {
-        "name": "14/09 - 28/09",
-        "effectiveDates": [],
+        "name": "11/07 - 01/08",
+        "effectiveDates": [
+          {
+            "from": "2026-07-11T00:00:00.000Z",
+            "to": "2026-08-01T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-11T00:00:00.000Z",
+            "to": "2027-08-01T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-11T00:00:00.000Z",
+            "to": "2028-08-01T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 685000,
-          "totalTax": 82200,
-          "total": 685000,
+          "subTotal": 780000,
+          "totalTax": 93600,
+          "total": 780000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 685000,
-              "amount": 685000,
+              "unitPrice": 780000,
+              "amount": 780000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -658,7 +655,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 685000,
+          "charterFee": 780000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -685,40 +682,39 @@
         "exclusionZones": []
       },
       {
-        "name": "28/09 - 19/10",
-        "effectiveDates": [],
+        "name": "01/08 - 22/08",
+        "effectiveDates": [
+          {
+            "from": "2026-08-01T00:00:00.000Z",
+            "to": "2026-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-01T00:00:00.000Z",
+            "to": "2028-08-22T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 505000,
-          "totalTax": 60600,
-          "total": 505000,
+          "subTotal": 900000,
+          "totalTax": 108000,
+          "total": 900000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 505000,
-              "amount": 505000,
+              "unitPrice": 900000,
+              "amount": 900000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -728,7 +724,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 505000,
+          "charterFee": 900000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -755,40 +751,39 @@
         "exclusionZones": []
       },
       {
-        "name": "19/10 - 31/12",
-        "effectiveDates": [],
+        "name": "22/08 - 26/09",
+        "effectiveDates": [
+          {
+            "from": "2026-08-22T00:00:00.000Z",
+            "to": "2026-09-26T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-22T00:00:00.000Z",
+            "to": "2027-09-26T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-22T00:00:00.000Z",
+            "to": "2028-09-26T23:59:59.999Z"
+          }
+        ],
         "pricing": {
-          "note": "CHARTER RATES INCLUDE\nUse of yacht with her equipment • Yacht Insurance • VAT at current rate (discounted to 12%, subject to conditions) • Clean Linens (bed sheets & bath towels, 1 set per person per week, for up to 2 weeks max) • Outboard motor & first fill of gasoline • 1x full spare bottle of cooking gas • Berthing fees for first & last night at the marina/port • Final cleaning.",
+          "note": "",
           "currency": "EUR",
           "inputAmountTaxed": "INCLUSIVE",
-          "subTotal": 380000,
-          "totalTax": 45600,
-          "total": 380000,
+          "subTotal": 770000,
+          "totalTax": 92400,
+          "total": 770000,
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "",
+              "conditions": "VAT is Inclusive",
               "quantity": 1,
-              "unitPrice": 380000,
-              "amount": 380000,
+              "unitPrice": 770000,
+              "amount": 770000,
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            },
-            {
-              "item": "Crew",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
             },
             {
               "item": "Security Deposit",
@@ -798,7 +793,7 @@
               "amount": 0
             }
           ],
-          "charterFee": 380000,
+          "charterFee": 770000,
           "unit": "WEEK"
         },
         "inclusionZones": [
@@ -823,6 +818,76 @@
           }
         ],
         "exclusionZones": []
+      },
+      {
+        "name": "26/09 - 03/10",
+        "effectiveDates": [
+          {
+            "from": "2026-09-26T00:00:00.000Z",
+            "to": "2026-10-03T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-26T00:00:00.000Z",
+            "to": "2027-10-03T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-26T00:00:00.000Z",
+            "to": "2028-10-03T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 620000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 620000,
+              "amount": 620000,
+              "conditions": "VAT is Inclusive",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            },
+            {
+              "item": "Security Deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 350000,
+              "amount": 0
+            }
+          ],
+          "total": 620000,
+          "subTotal": 620000,
+          "totalTax": 74400
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
       }
     ]
   }

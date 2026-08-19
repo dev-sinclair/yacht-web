@@ -20601,6 +20601,32 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a",
+    "slug": "carpe-diem-9a1d85",
+    "name": "CARPE DIEM",
+    "hero": "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::7b207610-9bef-11f1-89dd-db060ed8e134/{imageVariant}",
+    "length": 15.94,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2022,
+    "builder": "Beneteau",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 270000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::f6435b00-a683-11ee-9e80-4f374fa1ee39",
     "slug": "calypso",
     "name": "CALYPSO",
@@ -20625,24 +20651,6 @@
       "winter-2027",
       "winter-2028"
     ]
-  },
-  {
-    "uri": "c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a",
-    "slug": "carpe-diem-9a1d85",
-    "name": "CARPE DIEM",
-    "hero": "/media/media::image::c::7579706445::vessel::9a1d85c0-a58a-11ee-b732-07e00d3cbb8a::assets::afb82a60-a590-11ee-b732-07e00d3cbb8a.jpeg/{imageVariant}",
-    "length": 15.94,
-    "sleeps": 12,
-    "cabins": 0,
-    "builtYear": 2022,
-    "builder": "Beneteau",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 320000,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::7579706445::vessel::135d9b00-a955-11ee-bf08-656a0118744d",
