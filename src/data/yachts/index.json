@@ -854,9 +854,9 @@
     "uri": "c::7646090758::vessel::d5ca7198-fe8c-11ed-889f-43d4bb723744",
     "slug": "casablanca",
     "name": "CASABLANCA",
-    "hero": "/media/media::image::c::7646090758::vessel::d5ca7198-fe8c-11ed-889f-43d4bb723744::assets::fee974f0-8d78-11f0-85c4-13bef6fed0d7/{imageVariant}",
+    "hero": "/media/media::image::c::7646090758::vessel::d5ca7198-fe8c-11ed-889f-43d4bb723744::assets::a05ce5d0-9bb3-11f1-aadc-138323bc4eef/{imageVariant}",
     "length": 53.3,
-    "sleeps": 36,
+    "sleeps": 22,
     "cabins": 18,
     "builtYear": 2017,
     "builder": "",
@@ -865,15 +865,11 @@
       "Sailing"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 7400000,
+    "weekPricingFrom": 10800000,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
-      "summer-2026",
       "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
+      "winter-2027"
     ]
   },
   {
@@ -1250,6 +1246,26 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744",
+    "slug": "queen-eleganza",
+    "name": "QUEEN ELEGANZA",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744::assets::72232110-9ba5-11f1-99cb-117839a1bcf8/{imageVariant}",
+    "length": 49,
+    "sleeps": 34,
+    "cabins": 17,
+    "builtYear": 2018,
+    "builder": "Radez Shipyard",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::d5cbfbeb-fe8c-11ed-889f-43d4bb723744",
     "slug": "ohana",
     "name": "OHANA",
@@ -1270,26 +1286,6 @@
       "summer-2027",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744",
-    "slug": "queen-eleganza",
-    "name": "QUEEN ELEGANZA",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc4d3e-fe8c-11ed-889f-43d4bb723744::assets::6d6f5420-1387-11ef-821d-f1a8c6d3224a.webp/{imageVariant}",
-    "length": 49,
-    "sleeps": 34,
-    "cabins": 17,
-    "builtYear": 2018,
-    "builder": "Radez Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026"
     ]
   },
   {
