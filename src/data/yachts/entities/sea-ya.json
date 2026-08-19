@@ -1,0 +1,272 @@
+{
+  "lastModified": null,
+  "uri": "c::7579706445::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Greek Islands\n\nWelcome aboard SEA YA, a stunning Azimut 66 motor yacht that combines Italian craftsmanship with contemporary luxury, promising an unforgettable charter experience in Greece.\n\nLaunched in 2017 and meticulously refitted in 2024, SEA YA's sleek profile and elegant paintwork are a prelude to the quality and comfort found across all her exterior and interior spaces. Designed for sophisticated relaxation and thrilling adventure, this flybridge yacht offers fabulous al fresco entertainment settings, multiple lounge areas, sunbathing pads, and a seamless connection to the sea.\n\nAll suites are bathed in natural light through panoramic windows and feature private, ensuite bathroom facilities. Charter SEA YA for an exceptional journey where luxury, speed, smooth cruising with stabilizers and comfort converge to create the ultimate yachting getaway.",
+  "blueprint": {
+    "name": "SEA YA",
+    "images": [
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c00cd80-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c003140-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c01def0-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c02c950-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2bff46e0-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c00f490-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2bfe5c80-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2bff6df0-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c007f60-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c0f4c70-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c00a670-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2bffe320-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c02a240-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c0699e0-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c020600-9b38-11f1-b515-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c011ba0-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c0142b0-9b38-11f1-b514-5780a257808e/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f5d4d20-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f4d6ea0-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f4ef540-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f5780c0-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f4f4360-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::5f4cd260-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::6ef54e40-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::6ef50020-9b38-11f1-9d32-01c0b70e8805/{imageVariant}",
+      "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::78c905b0-9b38-11f1-9d32-01c0b70e8805/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "Azimut 66",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
+    "builtYear": 2017,
+    "refitYear": 2024,
+    "topSpeed": 28,
+    "cruiseSpeed": 24,
+    "fuelCapacity": 3500,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 20.3,
+    "beam": 5.1,
+    "draft": 1.6,
+    "hullType": "",
+    "hullConstruction": "",
+    "engines": "2x 1136 Catepillar C18 2272 BHP ",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Stabilizers"
+      },
+      {
+        "label": "Swimming paltform"
+      },
+      {
+        "label": "Sunpads"
+      },
+      {
+        "label": "Deck Barbeque"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Sea scooters",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Inflatable donut"
+      }
+    ],
+    "entertainment": [
+      "On board WIFI",
+      "TV",
+      "Sound system"
+    ],
+    "tenders": [
+      "Mercury 20hp"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "July & August",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2800000,
+              "amount": 2800000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2800000,
+          "subTotal": 2800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "June & September & Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2400000,
+              "amount": 2400000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2400000,
+          "subTotal": 2400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

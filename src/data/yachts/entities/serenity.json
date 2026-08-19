@@ -1,11 +1,11 @@
 {
-  "lastModified": 1784562564205,
+  "lastModified": 1787080896392,
   "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
   "yachtType": [
     "Sailing",
     "Catamaran"
   ],
-  "description": "Operating Area: Greece\n\nThe Sunreef 60 SERENITY is an eco-friendly sailing catamaran that exemplifies the shipyard’s expertise in luxury catamaran design.\n\nSERENITY accommodates up to eight guests in its intelligently designed and spacious 4-cabin layout.\n\nThis brand-new vessel features a sleek design and a spacious layout, offering an ideal combination of elegance and performance on the water. Perfect for exploring the crystal-clear waters of the Greek Islands, SERENITY provides an unparalleled sailing experience, blending luxury with sustainability.\n\nWhether you're anchoring in secluded bays or dining under the stars, this catamaran ensures a lifestyle of comfort and adventure.",
+  "description": "Operating Area: Greek Islands\n\nThe Sunreef 60 SERENITY is an eco-friendly sailing catamaran that exemplifies the shipyard’s expertise in luxury catamaran design.\n\nSERENITY accommodates up to eight guests in its intelligently designed and spacious 4-cabin layout.\n\nThis brand-new vessel features a sleek design and a spacious layout, offering an ideal combination of elegance and performance on the water. Perfect for exploring the crystal-clear waters of the Greek Islands, SERENITY provides an unparalleled sailing experience, blending luxury with sustainability.\n\nWhether you're anchoring in secluded bays or dining under the stars, this catamaran ensures a lifestyle of comfort and adventure.",
   "blueprint": {
     "name": "SERENITY",
     "images": [
@@ -71,7 +71,7 @@
     ],
     "cabins": 4,
     "bathrooms": 4,
-    "length": 18.3,
+    "length": 18.4,
     "beam": 10.2,
     "draft": 1.6,
     "engines": "2 x 175 HP",
@@ -172,17 +172,10 @@
               "unitPrice": 4800000,
               "amount": 4800000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 4800000,
-              "amount": 1200000
             }
           ],
-          "total": 6000000,
-          "subTotal": 6000000,
+          "total": 4800000,
+          "subTotal": 4800000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -250,17 +243,10 @@
               "unitPrice": 4250000,
               "amount": 4250000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 4250000,
-              "amount": 1062500
             }
           ],
-          "total": 5312500,
-          "subTotal": 5312500,
+          "total": 4250000,
+          "subTotal": 4250000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -328,17 +314,10 @@
               "unitPrice": 3490000,
               "amount": 3490000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.25,
-              "unitPrice": 3490000,
-              "amount": 872500
             }
           ],
-          "total": 4362500,
-          "subTotal": 4362500,
+          "total": 3490000,
+          "subTotal": 3490000,
           "totalTax": 0
         },
         "inclusionZones": [

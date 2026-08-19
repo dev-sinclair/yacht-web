@@ -1,0 +1,321 @@
+{
+  "lastModified": null,
+  "uri": "c::7579706445::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Greek Islands\n\nExperience the ultimate in luxury and performance aboard Largo Winch, a 2017 Lagoon 52 ft catamaran. With four elegant cabins accommodating up to 8 guests, she offers the perfect blend of style, comfort, and adventure. Relax on spacious decks, dive from the hydraulic swim platform, or enjoy movies under the stars with the outdoor cinema. Largo Winch is designed to turn every sailing holiday into an unforgettable experience.",
+  "blueprint": {
+    "name": "LARGO WINCH",
+    "images": [
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::eb8c6800-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::eb8c8f10-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b6140d40-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b5ff9ae0-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b6217ac0-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b602a820-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b616f370-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b61c71b0-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b61593e0-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::b604f210-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+      "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::eb8bf2d0-9a73-11f1-baaf-75c9787d12f8/{imageVariant}"
+    ],
+    "make": "Lagoon",
+    "model": "Lagoon 52",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
+    "builtYear": 2017,
+    "refitYear": 2025,
+    "topSpeed": 10,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 992,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 15.84,
+    "beam": 8.6,
+    "draft": 1.5,
+    "engines": "2x 80hp Yanmar Diesel",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Hydraulic swim platform"
+      },
+      {
+        "label": "Large cockpit dining area"
+      },
+      {
+        "label": "Premium coffee machine"
+      },
+      {
+        "label": "Outdoor oriental ambient lighting with dimming options"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Paddleboards (SUP)"
+      },
+      {
+        "label": "E-foil"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Kite surf equipment"
+      },
+      {
+        "label": "Wakeboard equipment"
+      }
+    ],
+    "entertainment": [
+      "Premium sound system (inside & outside)",
+      "TV in saloon",
+      "Starlink Wi-Fi onboard",
+      "Outdoor cinema setup"
+    ],
+    "tenders": [
+      "4 m tender with 40 HP outboard engine"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 1700000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1700000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2200000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2200000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "July & August",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2200000,
+              "amount": 2200000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2200000,
+          "subTotal": 2200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "June & September",
+        "effectiveDates": [
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2000000,
+              "amount": 2000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2000000,
+          "subTotal": 2000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1700000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1700000,
+              "amount": 1700000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1700000,
+          "subTotal": 1700000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

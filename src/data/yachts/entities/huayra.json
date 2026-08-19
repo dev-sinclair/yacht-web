@@ -1,0 +1,256 @@
+{
+  "lastModified": null,
+  "uri": "c::7579706445::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Greek Islands\n\nHUAYRA brings together sleek Italian design, comfort, and top sailing performance — perfect for those who love to cruise in style. Whether you're after laid-back days soaking up the sun or more adventurous sailing, HUAYRA offers the best of both worlds.\n\nHer elegant lines, spacious deck, and stylish interior create the ideal setting for unforgettable holidays at sea. She can welcome up to 8 guests in 4 comfortable cabins, with a professional and friendly crew ready to make your time on board truly special.\n\nThe yacht is currently under refit and new photos will be available soon.",
+  "blueprint": {
+    "name": "HUAYRA",
+    "images": [
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a429710-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a40c250-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a415e90-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a404d20-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a41acb0-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a51d950-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a411070-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a402610-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a5079c0-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a3fb0e0-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::78672af0-9a59-11f1-8f33-27d723d1de3d/{imageVariant}",
+      "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::78675200-9a59-11f1-8f33-27d723d1de3d/{imageVariant}"
+    ],
+    "make": "Comar Yachts",
+    "model": "Comet 100",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
+      "coordinates": {
+        "latitude": 37.986174,
+        "longitude": 23.7268443
+      },
+      "country": "Greece"
+    },
+    "builtYear": 2011,
+    "architect": "",
+    "refitYear": 2025,
+    "topSpeed": 12,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 2750,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 31,
+    "beam": 6.71,
+    "draft": 5,
+    "hullType": "",
+    "engines": "John Deere",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Wine cooler"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Water ski (adults & children)"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Tubes"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Seabob"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi on board",
+      "Sound System",
+      "TV"
+    ],
+    "tenders": [
+      "4.8 Oceanic 100 hp"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "July & August",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4900000,
+          "subTotal": 4900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "June & September & Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4400000,
+              "amount": 4400000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4400000,
+          "subTotal": 4400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

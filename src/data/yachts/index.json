@@ -1645,6 +1645,32 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::7b6baca0-3d78-11f1-8284-db367311d9d2",
+    "slug": "kokomo-nights",
+    "name": "KOKOMO NIGHTS",
+    "hero": "/media/media::image::a::vessel::7b6baca0-3d78-11f1-8284-db367311d9d2::assets::07309db0-9a6f-11f1-9a06-597f1d08bce9/{imageVariant}",
+    "length": 47.5,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 1982,
+    "builder": "Picchiotti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::22608329829::vessel::d5cc23d1-fe8c-11ed-889f-43d4bb723744",
     "slug": "ban",
     "name": "BAN",
@@ -1864,6 +1890,32 @@
     "seasons": [
       "summer-2025",
       "winter-2024"
+    ]
+  },
+  {
+    "uri": "c::7579706445::vessel::e5bafdb0-9b1d-11f1-98d7-8381abd8fefc",
+    "slug": "northwind-ii",
+    "name": "NORTHWIND II",
+    "hero": "/media/media::image::a::vessel::e5bafdb0-9b1d-11f1-98d7-8381abd8fefc::assets::c7e5d910-9b34-11f1-8da5-4b1fd2a30f90/{imageVariant}",
+    "length": 45.63,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1966,
+    "builder": "Camper & Nicholsons",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -5765,6 +5817,32 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8",
+    "slug": "huayra",
+    "name": "HUAYRA",
+    "hero": "/media/media::image::a::vessel::d7f2d770-9a55-11f1-bc2d-6f13204fddb8::assets::2a429710-9a59-11f1-9920-65b00170ae44/{imageVariant}",
+    "length": 31,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2011,
+    "builder": "Comar Yachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::20269138295::vessel::1a05fda0-e562-11ee-9af9-0d935cdc33ae",
     "slug": "senja",
     "name": "SENJA",
@@ -8983,6 +9061,32 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7579706445::vessel::d5cc78b2-fe8c-11ed-889f-43d4bb723744",
+    "slug": "estia-poseidon",
+    "name": "ESTIA POSEIDON",
+    "hero": "/media/media::image::a::vessel::d5cc78b2-fe8c-11ed-889f-43d4bb723744::assets::95d36be0-9a53-11f1-8cd8-53ca3a2a9acb/{imageVariant}",
+    "length": 26.1,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2006,
+    "builder": "Falcon Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3300000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -14851,6 +14955,32 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2",
+    "slug": "sea-ya",
+    "name": "SEA YA",
+    "hero": "/media/media::image::a::vessel::728d6680-a726-11ef-98a6-c783fcd23fe2::assets::2c00cd80-9b38-11f1-b514-5780a257808e/{imageVariant}",
+    "length": 20.3,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2017,
+    "builder": "Azimut",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7819307041::vessel::d5cca2a3-fe8c-11ed-889f-43d4bb723744",
     "slug": "valium-67",
     "name": "VALIUM 67",
@@ -16643,6 +16773,33 @@
     ]
   },
   {
+    "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
+    "slug": "serenity",
+    "name": "SERENITY",
+    "hero": "/media/media::image::a::vessel::a0b26000-d5ca-11f0-8426-c7772682440d::assets::cfd28e20-d5cd-11f0-9a06-2f2f50f9d357/{imageVariant}",
+    "length": 18.4,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3490000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::d5cc4e96-fe8c-11ed-889f-43d4bb723744",
     "slug": "calma",
     "name": "CALMA",
@@ -16896,33 +17053,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7579706445::vessel::a0b26000-d5ca-11f0-8426-c7772682440d",
-    "slug": "serenity",
-    "name": "SERENITY",
-    "hero": "/media/media::image::a::vessel::a0b26000-d5ca-11f0-8426-c7772682440d::assets::cfd28e20-d5cd-11f0-9a06-2f2f50f9d357/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3490000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -21312,6 +21442,33 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7579706445::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8",
+    "slug": "largo-winch",
+    "name": "LARGO WINCH",
+    "hero": "/media/media::image::a::vessel::6a979650-9a70-11f1-bc2d-6f13204fddb8::assets::eb8c6800-9a73-11f1-baaf-75c9787d12f8/{imageVariant}",
+    "length": 15.84,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2017,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
