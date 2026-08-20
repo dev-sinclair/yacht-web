@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783368369937,
+  "lastModified": 1787209822032,
   "uri": "c::8164602117::vessel::28f18620-0b37-11f1-b90e-a75cc407eb36",
   "yachtType": [
     "Gulet"
@@ -107,52 +107,51 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2700000,
+      "price": 2975000,
       "displayCurrency": "EUR",
-      "displayPrice": 2700000,
+      "displayPrice": 2975000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3700000,
+      "price": 4060000,
       "displayCurrency": "EUR",
-      "displayPrice": 3700000,
+      "displayPrice": 4060000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Season B & Season F",
+        "name": "Season A (From 29 May 2027 till 05 June 2027)",
         "effectiveDates": [
           {
             "from": "2026-06-06T00:00:00.000Z",
-            "to": "2026-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-06T00:00:00.000Z",
-            "to": "2027-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-06T00:00:00.000Z",
-            "to": "2028-06-27T23:59:59.999Z"
+            "to": "2027-06-05T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3100000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 3255000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3100000,
-              "amount": 3100000,
-              "conditions": "VAT & APA Excluded"
+              "unitPrice": 3255000,
+              "amount": 3255000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3255000,
+              "amount": 651000
             }
           ],
-          "total": 3100000,
-          "subTotal": 3100000,
+          "total": 3906000,
+          "subTotal": 3906000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -180,24 +179,16 @@
         "petsAllowed": false
       },
       {
-        "name": "Season D",
+        "name": "Season B (From 05 June 2027 till 26 June 2027)",
         "effectiveDates": [
           {
-            "from": "2026-07-04T00:00:00.000Z",
-            "to": "2026-08-29T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-04T00:00:00.000Z",
-            "to": "2027-08-29T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-04T00:00:00.000Z",
-            "to": "2028-08-29T23:59:59.999Z"
+            "from": "2027-06-05T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3700000,
+          "charterFee": 3395000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -205,13 +196,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3700000,
-              "amount": 3700000,
-              "conditions": "VAT & APA Excluded"
+              "unitPrice": 3395000,
+              "amount": 3395000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3395000,
+              "amount": 679000
             }
           ],
-          "total": 3700000,
-          "subTotal": 3700000,
+          "total": 4074000,
+          "subTotal": 4074000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -239,24 +237,73 @@
         "petsAllowed": false
       },
       {
-        "name": "Season H",
+        "name": "Season C (From 26 June 2027 till 03 July 2027)",
         "effectiveDates": [
           {
-            "from": "2026-10-03T00:00:00.000Z",
-            "to": "2026-11-28T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-03T00:00:00.000Z",
-            "to": "2027-11-28T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-03T00:00:00.000Z",
-            "to": "2028-11-28T23:59:59.999Z"
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-07-03T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2700000,
+          "charterFee": 3675000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3675000,
+              "amount": 3675000
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3675000,
+              "amount": 735000
+            }
+          ],
+          "total": 4410000,
+          "subTotal": 4410000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season D (From 03 July 2027 till 28 August 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-07-03T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4060000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -264,13 +311,249 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2700000,
-              "amount": 2700000,
-              "conditions": "VAT & APA Excluded"
+              "unitPrice": 4060000,
+              "amount": 4060000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 4060000,
+              "amount": 812000
             }
           ],
-          "total": 2700000,
-          "subTotal": 2700000,
+          "total": 4872000,
+          "subTotal": 4872000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season E (From 28 August 2027 till 04 September 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-09-04T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3675000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3675000,
+              "amount": 3675000
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3675000,
+              "amount": 735000
+            }
+          ],
+          "total": 4410000,
+          "subTotal": 4410000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season F (From 04 September 2027 till 25 September 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-09-04T00:00:00.000Z",
+            "to": "2027-09-25T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3395000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3395000,
+              "amount": 3395000
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3395000,
+              "amount": 679000
+            }
+          ],
+          "total": 4074000,
+          "subTotal": 4074000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season G (From 25 September 2027 till 02 October 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-09-25T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3220000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3220000,
+              "amount": 3220000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 3220000,
+              "amount": 644000
+            }
+          ],
+          "total": 3864000,
+          "subTotal": 3864000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season H (From 02 October 2027 till 30 October 2027)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-31T00:00:00.000Z",
+            "to": "2027-10-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2975000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2975000,
+              "amount": 2975000
+            },
+            {
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.2,
+              "unitPrice": 2975000,
+              "amount": 595000
+            }
+          ],
+          "total": 3570000,
+          "subTotal": 3570000,
           "totalTax": 0
         },
         "inclusionZones": [

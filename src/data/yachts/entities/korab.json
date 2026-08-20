@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782239661993,
+  "lastModified": 1787219782189,
   "uri": "c::8164602117::vessel::d5cbfb5b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -121,31 +121,15 @@
     },
     "pricingInfo": [
       {
-        "name": "Season A & E (From 24 April 2026 till 25 May 2026 & From 14 October 2026 till 29 October 2026)",
+        "name": "Season A & E (From 17 April 2027 till 26 May 2027 & From 10 October 2027 till 25 October 2027)",
         "effectiveDates": [
           {
-            "from": "2026-04-24T00:00:00.000Z",
-            "to": "2026-05-25T23:59:59.999Z"
+            "from": "2027-04-17T00:00:00.000Z",
+            "to": "2027-05-26T23:59:59.999Z"
           },
           {
-            "from": "2027-04-24T00:00:00.000Z",
-            "to": "2027-05-25T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-24T00:00:00.000Z",
-            "to": "2028-05-25T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-14T00:00:00.000Z",
-            "to": "2026-10-29T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-14T00:00:00.000Z",
-            "to": "2027-10-29T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-14T00:00:00.000Z",
-            "to": "2028-10-29T23:59:59.999Z"
+            "from": "2027-10-10T00:00:00.000Z",
+            "to": "2027-10-25T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -163,11 +147,18 @@
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.13
+                "value": 0
               }
             },
             {
-              "item": "APA",
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 1850000,
+              "amount": 240500
+            },
+            {
+              "item": "A.P.A.",
               "conditions": "",
               "quantity": 0.3,
               "unitPrice": 1850000,
@@ -175,8 +166,8 @@
             }
           ],
           "total": 2645500,
-          "subTotal": 2405000,
-          "totalTax": 240500
+          "subTotal": 2645500,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
@@ -203,31 +194,15 @@
         "petsAllowed": false
       },
       {
-        "name": "Season B & D (From 26 May 2026 till 26 June 2026 & From 12 September 2026 till 13 October 2026)",
+        "name": "Season B & D (From 27 May 2027 till 27 June 2027 & From 08 September 2027 till 09 October 2027)",
         "effectiveDates": [
           {
-            "from": "2026-05-26T00:00:00.000Z",
-            "to": "2026-06-26T23:59:59.999Z"
+            "from": "2027-05-27T00:00:00.000Z",
+            "to": "2027-06-27T23:59:59.999Z"
           },
           {
-            "from": "2027-05-26T00:00:00.000Z",
-            "to": "2027-06-26T23:59:59.999Z"
-          },
-          {
-            "from": "2028-05-26T00:00:00.000Z",
-            "to": "2028-06-26T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-12T00:00:00.000Z",
-            "to": "2026-10-13T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-12T00:00:00.000Z",
-            "to": "2027-10-13T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-12T00:00:00.000Z",
-            "to": "2028-10-13T23:59:59.999Z"
+            "from": "2027-09-08T00:00:00.000Z",
+            "to": "2027-10-09T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -245,11 +220,18 @@
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.13
+                "value": 0
               }
             },
             {
-              "item": "APA",
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 1950000,
+              "amount": 253500
+            },
+            {
+              "item": "A.P.A.",
               "conditions": "",
               "quantity": 0.3,
               "unitPrice": 1950000,
@@ -257,8 +239,8 @@
             }
           ],
           "total": 2788500,
-          "subTotal": 2535000,
-          "totalTax": 253500
+          "subTotal": 2788500,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
@@ -285,19 +267,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Season C (From 27 June 2026 till 11 September 2026)",
+        "name": "Season C (From 28 June 2027 till 07 September 2027)",
         "effectiveDates": [
           {
-            "from": "2026-06-27T00:00:00.000Z",
-            "to": "2026-09-11T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-27T00:00:00.000Z",
-            "to": "2027-09-11T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-27T00:00:00.000Z",
-            "to": "2028-09-11T23:59:59.999Z"
+            "from": "2027-06-28T00:00:00.000Z",
+            "to": "2027-09-07T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -315,11 +289,18 @@
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.13
+                "value": 0
               }
             },
             {
-              "item": "APA",
+              "item": "VAT",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2250000,
+              "amount": 292500
+            },
+            {
+              "item": "A.P.A.",
               "conditions": "",
               "quantity": 0.3,
               "unitPrice": 2250000,
@@ -327,8 +308,8 @@
             }
           ],
           "total": 3217500,
-          "subTotal": 2925000,
-          "totalTax": 292500
+          "subTotal": 3217500,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
