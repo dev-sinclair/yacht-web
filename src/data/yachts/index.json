@@ -2800,13 +2800,13 @@
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 20000000,
+    "weekPricingFrom": 21500000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
+      "summer-2029",
       "winter-2026",
       "winter-2027",
       "winter-2028"
@@ -16866,6 +16866,32 @@
     ]
   },
   {
+    "uri": "c::8193426698::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8",
+    "slug": "sea-dreams",
+    "name": "SEA DREAMS",
+    "hero": "/media/media::image::c::8193426698::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8::assets::10a0df50-9d57-11f1-99d6-0b6324047659/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2026,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
     "slug": "oya",
     "name": "OYA",
@@ -17016,32 +17042,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8",
-    "slug": "sea-dreams",
-    "name": "SEA DREAMS",
-    "hero": "/media/media::image::a::vessel::061b0a30-ab89-11f0-8500-53e7cf1dafc8::assets::8d0d2c60-ab8b-11f0-a721-8b9f290edaca/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2026,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -19100,7 +19100,7 @@
     "uri": "c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8",
     "slug": "champagne-please",
     "name": "CHAMPAGNE PLEASE",
-    "hero": "/media/media::image::a::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8::assets::3cb53700-b986-11ef-8ba6-376e61c520f1/{imageVariant}",
+    "hero": "/media/media::image::c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8::assets::9578bef0-9d57-11f1-99d7-0b6324047659/{imageVariant}",
     "length": 16.76,
     "sleeps": 8,
     "cabins": 4,
