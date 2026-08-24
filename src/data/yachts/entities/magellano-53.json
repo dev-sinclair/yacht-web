@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783071795140,
+  "lastModified": 1787572760755,
   "uri": "c::25855039017::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8",
   "yachtType": [
     "Motor"
@@ -243,7 +243,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 300000,
+          "charterFee": 270000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -251,13 +251,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 300000,
-              "amount": 300000,
+              "unitPrice": 270000,
+              "amount": 270000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 300000,
-          "subTotal": 300000,
+          "total": 270000,
+          "subTotal": 270000,
           "totalTax": 0
         },
         "inclusionZones": [

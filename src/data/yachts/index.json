@@ -10987,7 +10987,7 @@
     "seasons": [
       "summer-2026",
       "summer-2027",
-      "summer-2028"
+      "winter-2026"
     ]
   },
   {
@@ -18558,6 +18558,28 @@
     ]
   },
   {
+    "uri": "c::25855039017::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8",
+    "slug": "magellano-53",
+    "name": "MAGELLANO 53",
+    "hero": "/media/media::image::a::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8::assets::0a1b19c0-f9c0-11ef-b138-059909f1dda7/{imageVariant}",
+    "length": 16.9,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2017,
+    "builder": "Azimut Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 260000,
+    "weekPricingFrom": 1950000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::8275378522::vessel::6925a990-b891-11f0-ac54-a1eac5414c57",
     "slug": "solaire",
     "name": "SOLAIRE",
@@ -18579,28 +18601,6 @@
       "summer-2027",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::25855039017::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8",
-    "slug": "magellano-53",
-    "name": "MAGELLANO 53",
-    "hero": "/media/media::image::a::vessel::c0bed5a0-f9ba-11ef-9ffc-1177459b1fa8::assets::0a1b19c0-f9c0-11ef-b138-059909f1dda7/{imageVariant}",
-    "length": 16.9,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2017,
-    "builder": "Azimut Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 260000,
-    "weekPricingFrom": 1950000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
