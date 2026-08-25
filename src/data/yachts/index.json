@@ -17688,7 +17688,6 @@
     "weekPricingFrom": 2500000,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
       "summer-2026",
       "summer-2027",
       "winter-2025",
@@ -22511,6 +22510,29 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
+    "slug": "curanta-cridhe",
+    "name": "CURANTA CRIDHE",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744::assets::32ac7c30-12da-11ef-8a22-53421d5f5d06.jpeg/{imageVariant}",
+    "length": 15.35,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2011,
+    "builder": "Discovery Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::18277099312::vessel::281bc6d0-a84a-11ef-9dd4-8f5d2a2cbca2",
     "slug": "reality",
     "name": "REALITY",
@@ -22562,29 +22584,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
-    "slug": "curanta-cridhe",
-    "name": "CURANTA CRIDHE",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744::assets::32ac7c30-12da-11ef-8a22-53421d5f5d06.jpeg/{imageVariant}",
-    "length": 15.35,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2011,
-    "builder": "Discovery Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
