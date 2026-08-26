@@ -993,6 +993,26 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::a179e330-2923-11f1-962b-3df8577e7cf9",
+    "slug": "roko",
+    "name": "ROKO",
+    "hero": "/media/media::image::a::vessel::a179e330-2923-11f1-962b-3df8577e7cf9::assets::c39607a0-2c3e-11f1-b33d-f5128839d14d/{imageVariant}",
+    "length": 50,
+    "sleeps": 38,
+    "cabins": 14,
+    "builtYear": 2021,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7819143053::vessel::d5cbfb70-fe8c-11ed-889f-43d4bb723744",
     "slug": "all-about-u-2",
     "name": "ALL ABOUT U 2",
@@ -1117,26 +1137,6 @@
       "summer-2027",
       "summer-2028",
       "summer-2029"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::a179e330-2923-11f1-962b-3df8577e7cf9",
-    "slug": "roko",
-    "name": "ROKO",
-    "hero": "/media/media::image::a::vessel::a179e330-2923-11f1-962b-3df8577e7cf9::assets::c39607a0-2c3e-11f1-b33d-f5128839d14d/{imageVariant}",
-    "length": 50,
-    "sleeps": 38,
-    "cabins": 14,
-    "builtYear": 2021,
-    "builder": "Custom",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9900000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027"
     ]
   },
   {
@@ -13818,6 +13818,33 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc4d7b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "pura-follia",
+    "name": "PURA FOLLIA",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc4d7b-fe8c-11ed-889f-43d4bb723744::assets::p1DaegnDq.jpg/{imageVariant}",
+    "length": 21,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2020,
+    "builder": "ICE Yachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::26153654572::vessel::d5cca485-fe8c-11ed-889f-43d4bb723744",
     "slug": "lettouli-iii",
     "name": "LETTOULI III",
@@ -13868,32 +13895,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc4d7b-fe8c-11ed-889f-43d4bb723744",
-    "slug": "pura-follia",
-    "name": "PURA FOLLIA",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc4d7b-fe8c-11ed-889f-43d4bb723744::assets::p1DaegnDq.jpg/{imageVariant}",
-    "length": 21,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2020,
-    "builder": "ICE Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
