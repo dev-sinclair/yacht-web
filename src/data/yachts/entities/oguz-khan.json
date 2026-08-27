@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1787832253883,
   "uri": "c::8164602117::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c",
   "yachtType": [
     "Gulet",
@@ -168,9 +168,9 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 12000000,
+      "price": 14000000,
       "displayCurrency": "EUR",
-      "displayPrice": 12000000,
+      "displayPrice": 14000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -277,7 +277,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 12000000,
+          "charterFee": 14000000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -285,20 +285,20 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 12000000,
-              "amount": 12000000,
+              "unitPrice": 14000000,
+              "amount": 14000000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 12000000,
-              "amount": 3600000
+              "unitPrice": 14000000,
+              "amount": 4200000
             }
           ],
-          "total": 15600000,
-          "subTotal": 15600000,
+          "total": 18200000,
+          "subTotal": 18200000,
           "totalTax": 0
         },
         "inclusionZones": [
