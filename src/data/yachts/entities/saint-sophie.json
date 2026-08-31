@@ -1,0 +1,358 @@
+{
+  "lastModified": null,
+  "uri": "c::9511881484::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Caribbean Virgin Islands (BVI)\n\nStep aboard Saint Sophie, where spacious living, privacy, and effortless island style come together to create a beautiful home on the water.\n\nDesigned for guests who want to truly settle into yacht life, Saint Sophie offers generous, thoughtfully appointed accommodations with the comfort and privacy to unwind after a full day exploring the Caribbean. Her inviting cabins provide peaceful personal retreats, complemented by private bathroom facilities and plenty of space to unpack, relax, and feel at home.\n\nWake each morning surrounded by turquoise water, enjoy a quiet moment before breakfast, and return in the evening to the comfort of your own private cabin. Throughout the yacht, natural light and contemporary finishes create an atmosphere that feels fresh, relaxed, and distinctly luxurious.\n\nWhether traveling with family, couples, or a group of friends, Saint Sophie offers the wonderful balance of shared spaces for making memories together and private spaces when you want a little time of your own.\n\nYour accommodation is not simply where you sleep — aboard Saint Sophie, it becomes part of the experience.",
+  "blueprint": {
+    "name": "SAINT SOPHIE",
+    "images": [
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85af5f10-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85afd440-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85b0bea0-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85b07080-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85b04970-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85af10f0-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+      "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85afad30-a522-11f1-8519-43f2e750a9df/{imageVariant}"
+    ],
+    "make": "Fountaine Pajot",
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::a0201b56-b3ee-11ed-8a74-325096b39f47",
+      "name": "Tortola",
+      "coordinates": {
+        "latitude": 18.4335216,
+        "longitude": -64.63325746
+      },
+      "country": "British Virgin Islands"
+    },
+    "builtYear": 2018,
+    "topSpeed": 9,
+    "cruiseSpeed": 7,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "5"
+      }
+    ],
+    "cabins": 5,
+    "length": 17.67,
+    "beam": 9.14,
+    "draft": 4.5,
+    "hullType": "Catamaran",
+    "amenities": [
+      {
+        "label": " BBQ"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": " Deck Shower"
+      },
+      {
+        "label": "Dine In"
+      },
+      {
+        "label": " Hair Dryers"
+      },
+      {
+        "label": "Guest Smokes"
+      },
+      {
+        "label": "Ice Maker"
+      },
+      {
+        "label": " Inverter"
+      }
+    ],
+    "toys": [
+      {
+        "label": " Beach Games"
+      },
+      {
+        "label": "Boarding Ladder"
+      },
+      {
+        "label": "Dinghy"
+      },
+      {
+        "label": " Floating Mats"
+      },
+      {
+        "label": " Sea Scooters"
+      },
+      {
+        "label": " Snorkel Gear"
+      },
+      {
+        "label": "Stand-up Paddle Boards"
+      },
+      {
+        "label": "Tube"
+      }
+    ],
+    "entertainment": [
+      "Board Games",
+      "Onboard Internet"
+    ],
+    "tenders": [
+      ""
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 2800000,
+      "displayCurrency": "USD",
+      "displayPrice": 2800000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 4200000,
+      "displayCurrency": "USD",
+      "displayPrice": 4200000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Caribbean Season",
+        "effectiveDates": [
+          {
+            "from": "2026-10-15T00:00:00.000Z",
+            "to": "2027-07-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-15T00:00:00.000Z",
+            "to": "2028-07-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-15T00:00:00.000Z",
+            "to": "2029-07-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2800000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2800000,
+              "amount": 2800000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2800000,
+          "subTotal": 2800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Netherlands",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Caribbean Netherlands"
+            ],
+            "coordinates": [
+              -65.61656266635703,
+              14.957609209247945
+            ],
+            "bbox": [
+              -68.37109375,
+              12.032080078124991,
+              -62.9375,
+              17.651806640624997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Christmas Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-12-20T00:00:00.000Z",
+            "to": "2026-12-27T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2027-12-27T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-20T00:00:00.000Z",
+            "to": "2028-12-27T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3960000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3960000,
+              "amount": 3960000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3960000,
+          "subTotal": 3960000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Netherlands",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Caribbean Netherlands"
+            ],
+            "coordinates": [
+              -65.61656266635703,
+              14.957609209247945
+            ],
+            "bbox": [
+              -68.37109375,
+              12.032080078124991,
+              -62.9375,
+              17.651806640624997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Years Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-12-27T00:00:00.000Z",
+            "to": "2027-01-03T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-27T00:00:00.000Z",
+            "to": "2028-01-03T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-27T00:00:00.000Z",
+            "to": "2029-01-03T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 4200000,
+          "subTotal": 4200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Netherlands",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Caribbean Netherlands"
+            ],
+            "coordinates": [
+              -65.61656266635703,
+              14.957609209247945
+            ],
+            "bbox": [
+              -68.37109375,
+              12.032080078124991,
+              -62.9375,
+              17.651806640624997
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

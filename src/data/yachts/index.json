@@ -17723,6 +17723,33 @@
     ]
   },
   {
+    "uri": "c::9511881484::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661",
+    "slug": "saint-sophie",
+    "name": "SAINT SOPHIE",
+    "hero": "/media/media::image::a::vessel::b20e8ab0-a520-11f1-a348-4533e8d3f661::assets::85af5f10-a522-11f1-8519-43f2e750a9df/{imageVariant}",
+    "length": 17.67,
+    "sleeps": 8,
+    "cabins": 5,
+    "builtYear": 2018,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2800000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::18074096051::vessel::7f2ee7b0-c53e-11f0-9cef-e17aa250c776",
     "slug": "corto-maltese-ii",
     "name": "CORTO MALTESE II",
@@ -22610,6 +22637,29 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::9511881484::vessel::b11b5ca0-a516-11f1-a348-4533e8d3f661",
+    "slug": "athena",
+    "name": "ATHENA",
+    "hero": "/media/media::image::a::vessel::b11b5ca0-a516-11f1-a348-4533e8d3f661::assets::db366071-a51b-11f1-8519-43f2e750a9df/{imageVariant}",
+    "length": 15.24,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2022,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3200000,
+    "currency": "USD",
+    "seasons": [
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
