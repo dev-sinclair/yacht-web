@@ -1,5 +1,5 @@
 {
-  "lastModified": 1785856709923,
+  "lastModified": 1788274527456,
   "uri": "c::18074096051::vessel::01774c90-3565-11f0-baec-592116f05ad5",
   "yachtType": [
     "Sailing",
@@ -105,16 +105,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 140000,
+      "price": 1400000,
       "displayCurrency": "EUR",
-      "displayPrice": 140000,
+      "displayPrice": 1400000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3000000,
+      "price": 2700000,
       "displayCurrency": "EUR",
-      "displayPrice": 3000000,
+      "displayPrice": 2700000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -301,7 +301,7 @@
         "petsAllowed": false
       },
       {
-        "name": "13.06.2026 - 27.06.2026 & 19.12.2026 - 26.12.2026",
+        "name": "13.06.2026 - 27.06.2026",
         "effectiveDates": [
           {
             "from": "2026-06-13T00:00:00.000Z",
@@ -314,18 +314,6 @@
           {
             "from": "2028-06-13T00:00:00.000Z",
             "to": "2028-06-27T23:59:59.999Z"
-          },
-          {
-            "from": "2026-12-19T00:00:00.000Z",
-            "to": "2026-12-26T23:59:59.999Z"
-          },
-          {
-            "from": "2027-12-19T00:00:00.000Z",
-            "to": "2027-12-26T23:59:59.999Z"
-          },
-          {
-            "from": "2028-12-19T00:00:00.000Z",
-            "to": "2028-12-26T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -1503,19 +1491,19 @@
         "petsAllowed": false
       },
       {
-        "name": "03.10.2026 - 10.10.2026",
+        "name": "03.10.2026 - 31.12.2026",
         "effectiveDates": [
           {
             "from": "2026-10-03T00:00:00.000Z",
-            "to": "2026-10-10T23:59:59.999Z"
+            "to": "2026-12-31T23:59:59.999Z"
           },
           {
             "from": "2027-10-03T00:00:00.000Z",
-            "to": "2027-10-10T23:59:59.999Z"
+            "to": "2027-12-31T23:59:59.999Z"
           },
           {
             "from": "2028-10-03T00:00:00.000Z",
-            "to": "2028-10-10T23:59:59.999Z"
+            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -1542,176 +1530,6 @@
           ],
           "total": 1400000,
           "subTotal": 1400000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "10.10.2026 - 19.12.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-10-10T00:00:00.000Z",
-            "to": "2026-12-19T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-10T00:00:00.000Z",
-            "to": "2027-12-19T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-10T00:00:00.000Z",
-            "to": "2028-12-19T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 140000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 140000,
-              "amount": 140000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 140000,
-          "subTotal": 140000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "26.12.2026 - 31.12.2026",
-        "effectiveDates": [
-          {
-            "from": "2026-12-26T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-12-26T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-12-26T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3000000,
-              "amount": 3000000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 3000000,
-          "subTotal": 3000000,
           "totalTax": 0
         },
         "inclusionZones": [
