@@ -727,8 +727,8 @@
     "name": "ANTARIS",
     "hero": "/media/media::image::a::vessel::6d9b8820-004c-11f1-aab8-cd92b351c607::assets::49393ba0-004f-11f1-ad88-314a7961876a/{imageVariant}",
     "length": 54.54,
-    "sleeps": 38,
-    "cabins": 19,
+    "sleeps": 36,
+    "cabins": 18,
     "builtYear": 2019,
     "builder": "",
     "yachtType": [
@@ -1675,7 +1675,7 @@
     "sleeps": 38,
     "cabins": 18,
     "builtYear": 2017,
-    "builder": "",
+    "builder": "Custom",
     "yachtType": [
       "Motor",
       "Sailing"
@@ -8985,31 +8985,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::9333021515::vessel::88642690-653d-11ef-8a90-c1e008eb45ee",
-    "slug": "bayc-asia",
-    "name": "BAYC ASIA",
-    "hero": "/media/media::image::a::vessel::88642690-653d-11ef-8a90-c1e008eb45ee::assets::e811c710-6546-11ef-884a-39af58f8977e/{imageVariant}",
-    "length": 26.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2015,
-    "builder": "Monte Carlo Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 997214,
-    "weekPricingFrom": 5300000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -18630,6 +18605,34 @@
     ]
   },
   {
+    "uri": "c::21222387982::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba",
+    "slug": "barefoot-bliss",
+    "name": "BAREFOOT BLISS",
+    "hero": "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37930cf0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+    "length": 16.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3200000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::38cb9010-43ae-11ef-b3ab-f3f0ef91fbca",
     "slug": "libra-38cb90",
     "name": "LIBRA",
@@ -19039,6 +19042,60 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::21222387982::vessel::77943144-486c-11ee-a45f-fdfff6163a60",
+    "slug": "atlas",
+    "name": "ATLAS",
+    "hero": "/media/media::image::a::vessel::77943144-486c-11ee-a45f-fdfff6163a60::assets::c419d5f0-a2d4-11f1-9801-c7d3031893b5/{imageVariant}",
+    "length": 16.76,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3200000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::21222387982::vessel::7793e2e7-486c-11ee-a45f-fdfff6163a60",
+    "slug": "sun-daze",
+    "name": "SUN DAZE",
+    "hero": "/media/media::image::a::vessel::7793e2e7-486c-11ee-a45f-fdfff6163a60::assets::a710b910-e89b-11ee-b70c-9bcd766deee9.jpeg/{imageVariant}",
+    "length": 16.76,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3200000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {

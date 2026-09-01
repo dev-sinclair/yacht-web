@@ -1,0 +1,882 @@
+{
+  "lastModified": null,
+  "uri": "c::21222387982::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Caribbean Leewards, Caribbean Virgin Islands (BVI)\n\nBAREFOOT BLISS is a 16.8m / 54ft Catamaran Luxury Yacht built in 2024 by Bali Catamarans. Sleeping 8 guests in 4 cabins and with a crew of 2. Cruising at 8.00 kn/ph with a top speed of 12.00 kn/ph. The guest cabins comprise of four queen cabins with en-suite bathroom facilities.",
+  "blueprint": {
+    "name": "BAREFOOT BLISS",
+    "images": [
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37930cf0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37966850-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::379297c0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37999ca0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37949390-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3791fb80-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::378f1550-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37981600-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3798b240-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::379ad520-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::378ec730-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3793f750-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37994e80-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3797eef0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3799eac0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37918650-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37972ba0-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::379a8700-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::3795a500-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}",
+      "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::37938220-a2cf-11f1-a38a-63f4b1d192dd/{imageVariant}"
+    ],
+    "make": "Bali Catamarans",
+    "model": "Bali 5.4",
+    "maxCrew": 2,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::af439f10-5c32-11f0-a1d7-e1c19aea1c42",
+      "name": "Village Cay Marina",
+      "coordinates": {
+        "latitude": 18.42314334158408,
+        "longitude": -64.6176886773875
+      },
+      "country": "British Virgin Islands"
+    },
+    "builtYear": 2024,
+    "refitYear": "",
+    "topSpeed": 12,
+    "cruiseSpeed": 8,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 16.8,
+    "beam": 8.8,
+    "draft": 1.5,
+    "hullType": "Catamaran",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Gym/Exercise"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Ice Maker"
+      },
+      {
+        "label": "Hair Dryers"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "iPod/Device Hookups"
+      },
+      {
+        "label": "Deck Shower\t"
+      },
+      {
+        "label": "Water Maker\t"
+      },
+      {
+        "label": "Bimini"
+      },
+      {
+        "label": "Inverter"
+      },
+      {
+        "label": "Espresso Machine"
+      },
+      {
+        "label": "Yeti tumblers for guest use"
+      },
+      {
+        "label": "Guest Smokes (Yes, only off transom)"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Sea Scooters",
+        "quantity": "2"
+      },
+      {
+        "label": "10ft floating hammock"
+      },
+      {
+        "label": "Stand-Up Paddle Boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Wake skate"
+      },
+      {
+        "label": "Towable tube"
+      },
+      {
+        "label": "Snorkel Gear"
+      },
+      {
+        "label": "Trolling rods + 1 casting rod",
+        "quantity": "2"
+      },
+      {
+        "label": "Pool noodles / floaties"
+      },
+      {
+        "label": "Hydraulic swim platform"
+      },
+      {
+        "label": "Board and Card Games"
+      },
+      {
+        "label": "Boarding Ladder"
+      },
+      {
+        "label": "Floating Mats",
+        "quantity": "1"
+      },
+      {
+        "label": "Scurfer"
+      }
+    ],
+    "entertainment": [
+      "Onboard WIFI",
+      "iPod/MP3 Hookups",
+      "Salon Stereo/Music",
+      "Salon TV/DVD",
+      "Fusion Zone Bluetooth Enabled Sound System",
+      "Starlink wifi on board"
+    ],
+    "tenders": [
+      "Dinghy"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Cameron Creigh",
+      "avatar": "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::f0454430-a2ce-11f1-896f-cf6eab16d4be/{imageVariant}",
+      "role": "Captain",
+      "bio": "Cam started sailing as a three-year-old tethered to a Hobie Cat with his grandfather sailing in his home state of New South Wales, Australia. Fast forward some years and when Cam wasn't working for one of Australia's largest real estate companies, you'd find him racing yachts on Sydney Harbour or delivering boats up and down Australia's east coast. After a brief sabbatical in Croatia in 2022, Cam decided to trade his corporate desk for yacht decks and he hasn't looked back since.\n\nHe has since sailed in some of the world's best sailing destinations including Croatia, Greece and French Polynesia, but he is now happy to call the Virgin Islands home. He spent his first two years in the BVI managing one of the Caribbean's highest-rated sailing schools before joining Barefoot Bliss last year, and he loves nothing more than sharing his passion for the ocean with everyone he meets. If guests want to learn a bit more about sailing, Cam is always happy to show them the ropes or get them behind the wheel.\n\nCERTIFICATES\n• RYA Yachtmaster Offshore\n• STCW\n• Marine Radio Operator Certificate of Proficiency (MROPC)\n• Safety and Sea Survival (SSS)\n• Basic First Aid + CPR\n• ASA Instructor"
+    },
+    {
+      "name": "Valentina (Leni) O'Shea",
+      "avatar": "/media/media::image::a::vessel::b627fe70-ea7d-11ee-896d-55911f4648ba::assets::f7e0bee0-a2ce-11f1-896f-cf6eab16d4be/{imageVariant}",
+      "role": "Captain",
+      "bio": "Valentina, known to many as Leni, grew up on and around the water, helping in her family’s dive shop from a young age. This early start gave her a natural comfort with the sea and a love for welcoming people into its world. Over time, she combined that passion with her love of cooking leading her to pursue a career as a yacht chef.\n\n\nLeni brings a wealth of culinary experience to the galley, and completed courses at Ashburton Chef Academy and Anchors & Apron to further hone her skills. Leni believes that food is more than just nourishment, it’s about bringing people together. Her goal is to create meals that make guests feel at home while still delivering the excitement of new flavors and beautiful presentation.\n\n\nIn addition to her culinary expertise, Leni has worked in a variety of hospitality settings, enabling her to take excellent care of her charter guests. Beyond the galley, she shares her enthusiasm for scuba diving, sailing, art, music, and travel, which helps her connect with guests on a personal level.\n\n\nShe is thrilled to welcome you aboard Barefoot Bliss, where she looks forward to treating you to a culinary journey as unforgettable as the views.\n\n\nQualifications\n\nAshburton Cookery School Yacht Chef Certification\nAnchor & Apron Yacht Chef Certification\nSTCW"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 3200000,
+      "displayCurrency": "USD",
+      "displayPrice": 3200000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 4200000,
+      "displayCurrency": "USD",
+      "displayPrice": 4200000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer/Winter: Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2029-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3200000,
+              "amount": 3200000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3200000,
+          "subTotal": 3200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Caribbean Sea"
+            ],
+            "coordinates": [
+              -75.20942221363948,
+              15.447039028480969
+            ],
+            "bbox": [
+              -88.34899451369023,
+              8.493693752471486,
+              -59.20886105003194,
+              22.689132188400592
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.81835033282677,
+              18.032348075628196
+            ],
+            "bbox": [
+              -65.10910034179689,
+              17.642058984050035,
+              -64.50416564941408,
+              18.42619909233086
+            ]
+          },
+          {
+            "label": "Anguilla",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Anguilla"
+            ],
+            "coordinates": [
+              -63.18716856601395,
+              18.349638664155183
+            ],
+            "bbox": [
+              -63.47351074218751,
+              18.117139572348528,
+              -62.76214599609376,
+              18.630629930377246
+            ]
+          },
+          {
+            "label": "St-Martin",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Martin"
+            ],
+            "coordinates": [
+              -63.03917430829937,
+              18.087081908871948
+            ],
+            "bbox": [
+              -63.14684,
+              18.033391,
+              -62.96607971191407,
+              18.13231194655747
+            ]
+          },
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Montserrat",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Montserrat"
+            ],
+            "coordinates": [
+              -62.191025093421224,
+              16.754357458611935
+            ],
+            "bbox": [
+              -62.27668762207032,
+              16.638823475728422,
+              -62.099533081054695,
+              16.866976511257572
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Christmas Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-12-20T00:00:00.000Z",
+            "to": "2026-12-27T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2027-12-27T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-20T00:00:00.000Z",
+            "to": "2028-12-27T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3850000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3850000,
+              "amount": 3850000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3850000,
+          "subTotal": 3850000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Caribbean Sea"
+            ],
+            "coordinates": [
+              -75.20942221363948,
+              15.447039028480969
+            ],
+            "bbox": [
+              -88.34899451369023,
+              8.493693752471486,
+              -59.20886105003194,
+              22.689132188400592
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.81835033282677,
+              18.032348075628196
+            ],
+            "bbox": [
+              -65.10910034179689,
+              17.642058984050035,
+              -64.50416564941408,
+              18.42619909233086
+            ]
+          },
+          {
+            "label": "Anguilla",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Anguilla"
+            ],
+            "coordinates": [
+              -63.18716856601395,
+              18.349638664155183
+            ],
+            "bbox": [
+              -63.47351074218751,
+              18.117139572348528,
+              -62.76214599609376,
+              18.630629930377246
+            ]
+          },
+          {
+            "label": "St-Martin",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Martin"
+            ],
+            "coordinates": [
+              -63.03917430829937,
+              18.087081908871948
+            ],
+            "bbox": [
+              -63.14684,
+              18.033391,
+              -62.96607971191407,
+              18.13231194655747
+            ]
+          },
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Montserrat",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Montserrat"
+            ],
+            "coordinates": [
+              -62.191025093421224,
+              16.754357458611935
+            ],
+            "bbox": [
+              -62.27668762207032,
+              16.638823475728422,
+              -62.099533081054695,
+              16.866976511257572
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Year's Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-12-27T00:00:00.000Z",
+            "to": "2027-01-03T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-27T00:00:00.000Z",
+            "to": "2028-01-03T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-27T00:00:00.000Z",
+            "to": "2029-01-03T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 4200000,
+          "subTotal": 4200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Caribbean Sea"
+            ],
+            "coordinates": [
+              -75.20942221363948,
+              15.447039028480969
+            ],
+            "bbox": [
+              -88.34899451369023,
+              8.493693752471486,
+              -59.20886105003194,
+              22.689132188400592
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.81835033282677,
+              18.032348075628196
+            ],
+            "bbox": [
+              -65.10910034179689,
+              17.642058984050035,
+              -64.50416564941408,
+              18.42619909233086
+            ]
+          },
+          {
+            "label": "Anguilla",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Anguilla"
+            ],
+            "coordinates": [
+              -63.18716856601395,
+              18.349638664155183
+            ],
+            "bbox": [
+              -63.47351074218751,
+              18.117139572348528,
+              -62.76214599609376,
+              18.630629930377246
+            ]
+          },
+          {
+            "label": "St-Martin",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Martin"
+            ],
+            "coordinates": [
+              -63.03917430829937,
+              18.087081908871948
+            ],
+            "bbox": [
+              -63.14684,
+              18.033391,
+              -62.96607971191407,
+              18.13231194655747
+            ]
+          },
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Montserrat",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Montserrat"
+            ],
+            "coordinates": [
+              -62.191025093421224,
+              16.754357458611935
+            ],
+            "bbox": [
+              -62.27668762207032,
+              16.638823475728422,
+              -62.099533081054695,
+              16.866976511257572
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

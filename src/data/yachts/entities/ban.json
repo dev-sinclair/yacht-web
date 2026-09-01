@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783506478432,
+  "lastModified": 1788259899029,
   "uri": "c::22608329829::vessel::d5cc23d1-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor",
@@ -43,7 +43,7 @@
       "/media/media::image::a::vessel::d5cc23d1-fe8c-11ed-889f-43d4bb723744::assets::c6fc6a80-0054-11f1-ac5f-8b980b3b1253/{imageVariant}",
       "/media/media::image::a::vessel::d5cc23d1-fe8c-11ed-889f-43d4bb723744::assets::c6fd06c0-0054-11f1-ac5f-8b980b3b1253/{imageVariant}"
     ],
-    "make": "",
+    "make": "Custom",
     "model": "",
     "maxCrew": 10,
     "sleeps": 38,
@@ -59,12 +59,18 @@
     "builtYear": 2017,
     "architect": "",
     "interiorDesigner": "",
+    "cabinLayout": [
+      {
+        "label": "Double/Twin Cabins",
+        "value": "18"
+      }
+    ],
     "cabins": 18,
     "bathrooms": 18,
     "decks": 3,
     "length": 47.3,
-    "beam": 8.8,
-    "draft": 2.1,
+    "beam": 8.6,
+    "draft": 2.7,
     "superStructure": [],
     "engines": "2 x 360 kW",
     "amenities": [
@@ -100,6 +106,9 @@
       },
       {
         "label": "Hot water"
+      },
+      {
+        "label": "Restaurant"
       }
     ],
     "toys": [],
