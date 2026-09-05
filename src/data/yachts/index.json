@@ -23106,6 +23106,33 @@
     ]
   },
   {
+    "uri": "c::8193426698::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60",
+    "slug": "zara",
+    "name": "ZARA",
+    "hero": "/media/media::image::a::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60::assets::4c368e70-da99-11ef-8f50-5702a5cf2a37/{imageVariant}",
+    "length": 15.2,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1750000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::8193426698::vessel::d5cca38e-fe8c-11ed-889f-43d4bb723744",
     "slug": "solitaire",
     "name": "SOLITAIRE",
@@ -23134,33 +23161,6 @@
     "slug": "sweet-dreams",
     "name": "SWEET DREAMS",
     "hero": "/media/media::image::a::vessel::7794a739-486c-11ee-a45f-fdfff6163a60::assets::9bad4210-dc8c-11ef-b4d9-55db06f546db/{imageVariant}",
-    "length": 15.2,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2023,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1750000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60",
-    "slug": "zara",
-    "name": "ZARA",
-    "hero": "/media/media::image::a::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60::assets::4c368e70-da99-11ef-8f50-5702a5cf2a37/{imageVariant}",
     "length": 15.2,
     "sleeps": 8,
     "cabins": 4,
