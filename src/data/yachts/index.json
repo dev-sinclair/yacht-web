@@ -2431,9 +2431,11 @@
     "weekPricingFrom": 9000000,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
       "summer-2026",
-      "winter-2025"
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
@@ -18161,29 +18163,6 @@
     ]
   },
   {
-    "uri": "c::8344947358::vessel::d5cc4f71-fe8c-11ed-889f-43d4bb723744",
-    "slug": "boom",
-    "name": "BOOM",
-    "hero": "/media/media::image::a::vessel::d5cc4f71-fe8c-11ed-889f-43d4bb723744::assets::33d681e0-a264-11ef-81b2-272f98628d73/{imageVariant}",
-    "length": 17.07,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2018,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1550000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
     "uri": "c::28226709884::vessel::d5ca232d-fe8c-11ed-889f-43d4bb723744",
     "slug": "amura",
     "name": "AMURA",
@@ -19011,6 +18990,30 @@
     ]
   },
   {
+    "uri": "c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8",
+    "slug": "champagne-please",
+    "name": "CHAMPAGNE PLEASE",
+    "hero": "/media/media::image::c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8::assets::9578bef0-9d57-11f1-99d7-0b6324047659/{imageVariant}",
+    "length": 16.76,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::21222387982::vessel::77943144-486c-11ee-a45f-fdfff6163a60",
     "slug": "atlas",
     "name": "ATLAS",
@@ -19089,29 +19092,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8",
-    "slug": "champagne-please",
-    "name": "CHAMPAGNE PLEASE",
-    "hero": "/media/media::image::c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8::assets::9578bef0-9d57-11f1-99d7-0b6324047659/{imageVariant}",
-    "length": 16.76,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {

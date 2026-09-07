@@ -1,5 +1,5 @@
 {
-  "lastModified": 1787313936139,
+  "lastModified": 1788787735014,
   "uri": "c::8193426698::vessel::423b5880-b981-11ef-9550-d325a0c4dbe8",
   "yachtType": [
     "Sailing",
@@ -172,244 +172,12 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3400000,
+      "price": 3300000,
       "displayCurrency": "EUR",
-      "displayPrice": 3400000,
+      "displayPrice": 3300000,
       "unit": "WEEK"
     },
     "pricingInfo": [
-      {
-        "name": "Until April 25, 2026",
-        "effectiveDates": [
-          {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-04-25T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 1800000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 1800000,
-              "amount": 1800000,
-              "conditions": "Weekly"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 2500000,
-          "subTotal": 2500000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "April 25, 2026 - 30 May, 2026",
-        "effectiveDates": [
-          {
-            "from": "2026-04-25T00:00:00.000Z",
-            "to": "2026-05-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2300000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2300000,
-              "amount": 2300000,
-              "conditions": "Weekly"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 3000000,
-          "subTotal": 3000000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "May 30, 2026 - 27 June, 2026",
-        "effectiveDates": [
-          {
-            "from": "2026-05-30T00:00:00.000Z",
-            "to": "2026-06-27T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2900000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2900000,
-              "amount": 2900000,
-              "conditions": "Weekly"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 3600000,
-          "subTotal": 3600000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "27 June, 2026 - 29 August, 2026",
-        "effectiveDates": [
-          {
-            "from": "2026-06-27T00:00:00.000Z",
-            "to": "2026-08-29T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3400000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3400000,
-              "amount": 3400000,
-              "conditions": "Weekly"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 4100000,
-          "subTotal": 4100000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "29 August, 2026 - 3 October, 2026",
         "effectiveDates": [
@@ -501,6 +269,378 @@
           "total": 2500000,
           "subTotal": 2500000,
           "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Until April 24, 2027",
+        "effectiveDates": [
+          {
+            "from": "2026-04-01T00:00:00.000Z",
+            "to": "2027-04-24T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1800000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1800000,
+              "amount": 1800000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 2500000,
+          "subTotal": 2500000,
+          "totalTax": 234000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "April 24, 2027 - 29 May, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-04-24T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2300000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2300000,
+              "amount": 2300000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 299000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "29 May, 2027 - 26 June, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-05-29T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2800000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2800000,
+              "amount": 2800000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 3500000,
+          "subTotal": 3500000,
+          "totalTax": 364000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "26 June, 2027 - 28 August, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3300000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3300000,
+              "amount": 3300000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 4000000,
+          "subTotal": 4000000,
+          "totalTax": 429000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "28 August, 2027 - 2 October, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2700000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2700000,
+              "amount": 2700000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 3400000,
+          "subTotal": 3400000,
+          "totalTax": 351000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "From 2 October, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-10-02T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1800000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1800000,
+              "amount": 1800000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000
+            }
+          ],
+          "total": 2500000,
+          "subTotal": 2500000,
+          "totalTax": 234000
         },
         "inclusionZones": [
           {
