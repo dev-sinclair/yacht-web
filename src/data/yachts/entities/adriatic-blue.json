@@ -1,0 +1,361 @@
+{
+  "lastModified": null,
+  "uri": "c::22608329829::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Croatia\n\nMS Adriatic Blue is an elegant deluxe vessel designed for relaxed cruising along the stunning Adriatic coast. This charming ship offers an intimate onboard atmosphere, allowing guests to experience Croatia’s islands, historic towns, and crystal-clear bays in comfort and style. With its spacious decks, modern amenities, and carefully designed cabins, Adriatic Blue creates the perfect balance between leisure and exploration. Guests can spend their days swimming in secluded coves and their evenings discovering the vibrant coastal destinations of Dalmatia.\n",
+  "blueprint": {
+    "name": "ADRIATIC BLUE",
+    "images": [
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03cf9570-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bbbf50-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03cf4750-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03ba38b0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bca9b0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bc3480-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bde230-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03becc90-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bad4f0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bd9410-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bcf7d0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03baade0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03cfbc80-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bb7130-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bef3a0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bb9840-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03ce5cf0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bd6d00-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bc5b90-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bc82a0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03b9ea90-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bcd0c0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bd1ee0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bc0d70-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03b94e50-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03b6b640-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bdbb20-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03b99c70-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03ba5fc0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03bb2310-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03b863f0-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+      "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03be0940-a601-11f1-a7e4-c774464c97fa/{imageVariant}"
+    ],
+    "make": "",
+    "maxCrew": 8,
+    "sleeps": 36,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
+    "staticCapacity": 0,
+    "builtYear": 2019,
+    "cabinLayout": [],
+    "cabins": 18,
+    "bathrooms": 18,
+    "length": 47.9,
+    "beam": 8.6,
+    "draft": 2.7,
+    "engines": " 2 x 360 kW",
+    "amenities": [
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Swim plaform"
+      },
+      {
+        "label": "Restaurant"
+      },
+      {
+        "label": "Outdoor lounge"
+      },
+      {
+        "label": "Hot tub"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Air conditioner"
+      },
+      {
+        "label": "Wardrobe"
+      },
+      {
+        "label": "Toiletries"
+      },
+      {
+        "label": "Safe"
+      },
+      {
+        "label": "Hairdryer"
+      }
+    ],
+    "entertainment": [
+      "TV",
+      "Cabin TV"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6250000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6250000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 8125000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8125000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "SEASON I",
+        "effectiveDates": [
+          {
+            "from": "2026-05-08T00:00:00.000Z",
+            "to": "2026-05-22T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-08T00:00:00.000Z",
+            "to": "2027-05-22T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-08T00:00:00.000Z",
+            "to": "2028-05-22T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-09T00:00:00.000Z",
+            "to": "2026-10-16T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-09T00:00:00.000Z",
+            "to": "2027-10-16T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-09T00:00:00.000Z",
+            "to": "2028-10-16T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6250000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6250000,
+              "amount": 6250000,
+              "conditions": "VAT is Inclusive",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 6250000,
+          "subTotal": 6250000,
+          "totalTax": 812500
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "SEASON II",
+        "effectiveDates": [
+          {
+            "from": "2026-05-22T00:00:00.000Z",
+            "to": "2026-06-05T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-22T00:00:00.000Z",
+            "to": "2027-06-05T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-22T00:00:00.000Z",
+            "to": "2028-06-05T23:59:59.999Z"
+          },
+          {
+            "from": "2026-08-07T00:00:00.000Z",
+            "to": "2026-08-21T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-07T00:00:00.000Z",
+            "to": "2027-08-21T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-07T00:00:00.000Z",
+            "to": "2028-08-21T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-25T00:00:00.000Z",
+            "to": "2026-10-09T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-25T00:00:00.000Z",
+            "to": "2027-10-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-25T00:00:00.000Z",
+            "to": "2028-10-09T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7250000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7250000,
+              "amount": 7250000,
+              "conditions": "VAT is Inclusive",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 7250000,
+          "subTotal": 7250000,
+          "totalTax": 942500
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "SEASON III",
+        "effectiveDates": [
+          {
+            "from": "2026-06-05T00:00:00.000Z",
+            "to": "2026-07-10T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-05T00:00:00.000Z",
+            "to": "2027-07-10T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-05T00:00:00.000Z",
+            "to": "2028-07-10T23:59:59.999Z"
+          },
+          {
+            "from": "2026-08-21T00:00:00.000Z",
+            "to": "2026-09-25T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-21T00:00:00.000Z",
+            "to": "2027-09-25T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-21T00:00:00.000Z",
+            "to": "2028-09-25T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8125000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8125000,
+              "amount": 8125000,
+              "conditions": "VAT is Inclusive",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 8125000,
+          "subTotal": 8125000,
+          "totalTax": 1056250
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

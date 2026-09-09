@@ -1444,6 +1444,28 @@
     ]
   },
   {
+    "uri": "c::22608329829::vessel::71c5e370-a5f9-11f1-b2b8-d93858bbca3c",
+    "slug": "alpha",
+    "name": "ALPHA",
+    "hero": "/media/media::image::a::vessel::71c5e370-a5f9-11f1-b2b8-d93858bbca3c::assets::96aaacc0-a5fe-11f1-bb35-757ddf11de88/{imageVariant}",
+    "length": 48,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2020,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6250000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::22608329829::vessel::f4d304d0-005b-11f1-b50c-5dda9ecb4798",
     "slug": "suzana",
     "name": "SUZANA",
@@ -1630,6 +1652,28 @@
     ]
   },
   {
+    "uri": "c::22608329829::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0",
+    "slug": "adriatic-blue",
+    "name": "ADRIATIC BLUE",
+    "hero": "/media/media::image::a::vessel::5334f8a0-a5ff-11f1-82d9-bfd3e33e0ed0::assets::03cf9570-a601-11f1-a7e4-c774464c97fa/{imageVariant}",
+    "length": 47.9,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2019,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6250000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::7b6baca0-3d78-11f1-8284-db367311d9d2",
     "slug": "kokomo-nights",
     "name": "KOKOMO NIGHTS",
@@ -1807,6 +1851,28 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::22608329829::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0",
+    "slug": "azzurro",
+    "name": "AZZURRO",
+    "hero": "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28663100-a601-11f1-b851-1341fd873eb7/{imageVariant}",
+    "length": 46,
+    "sleeps": 36,
+    "cabins": 18,
+    "builtYear": 2019,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4830000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029"
     ]
   },
   {

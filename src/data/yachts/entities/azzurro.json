@@ -1,0 +1,356 @@
+{
+  "lastModified": null,
+  "uri": "c::22608329829::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Croatia\n\nThe MS Azzurro is a deluxe cruise ship, offering a comfortable and luxurious experience for up to 40 passengers. With 19 cabins equipped with ensuite facilities, air conditioning, and free Wi-Fi, the ship provides a relaxing and enjoyable environment for exploring the Dalmatian islands in Central Dalmatia. The ship features a spacious sun deck, a salon with bar, and comfortable seating areas for guests to unwind.",
+  "blueprint": {
+    "name": "AZZURRO",
+    "images": [
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28663100-a601-11f1-b851-1341fd873eb7/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a758b0-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::2866f451-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a77fc0-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::2866f450-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a62030-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28696550-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28676980-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28667f20-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a6e380-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a50ec0-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a86a20-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::28a7f4f0-a601-11f1-9c63-b159960af835/{imageVariant}",
+      "/media/media::image::a::vessel::89e836a0-a5fa-11f1-af65-5d8f2b9bd5d0::assets::286805c0-a601-11f1-9c63-b159960af835/{imageVariant}"
+    ],
+    "make": "Custom",
+    "model": "",
+    "maxCrew": 8,
+    "sleeps": 36,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
+    "builtYear": 2019,
+    "cabinLayout": [
+      {
+        "label": "Double/Twin Cabins",
+        "value": "16"
+      },
+      {
+        "label": "Triple Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 18,
+    "bathrooms": 18,
+    "length": 46,
+    "beam": 8.6,
+    "draft": 2.7,
+    "engines": " 2 x 360 kW",
+    "amenities": [
+      {
+        "label": "Air conditioner"
+      },
+      {
+        "label": "Wardrobe"
+      },
+      {
+        "label": "Safe"
+      },
+      {
+        "label": "Hairdryer"
+      },
+      {
+        "label": "Hot tub"
+      },
+      {
+        "label": "Restaurant"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Swim plaform"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Outdoor lounge"
+      },
+      {
+        "label": "Heating"
+      },
+      {
+        "label": "Hot water"
+      }
+    ],
+    "entertainment": [
+      "TV",
+      "Cabin TV",
+      "Wi-Fi"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4830000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4830000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 6325000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6325000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Season I",
+        "effectiveDates": [
+          {
+            "from": "2027-05-15T00:00:00.000Z",
+            "to": "2027-05-21T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-15T00:00:00.000Z",
+            "to": "2028-05-21T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-15T00:00:00.000Z",
+            "to": "2029-05-21T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-09T00:00:00.000Z",
+            "to": "2027-10-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-09T00:00:00.000Z",
+            "to": "2028-10-15T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-09T00:00:00.000Z",
+            "to": "2029-10-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4830000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4830000,
+              "amount": 4830000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 4830000,
+          "subTotal": 4830000,
+          "totalTax": 627900
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season II",
+        "effectiveDates": [
+          {
+            "from": "2027-05-22T00:00:00.000Z",
+            "to": "2027-06-04T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-22T00:00:00.000Z",
+            "to": "2028-06-04T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-22T00:00:00.000Z",
+            "to": "2029-06-04T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-10T00:00:00.000Z",
+            "to": "2027-08-20T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-10T00:00:00.000Z",
+            "to": "2028-08-20T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-10T00:00:00.000Z",
+            "to": "2029-08-20T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-25T00:00:00.000Z",
+            "to": "2027-10-08T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-25T00:00:00.000Z",
+            "to": "2028-10-08T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-25T00:00:00.000Z",
+            "to": "2029-10-08T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5520000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5520000,
+              "amount": 5520000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 5520000,
+          "subTotal": 5520000,
+          "totalTax": 717600
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season III",
+        "effectiveDates": [
+          {
+            "from": "2027-06-05T00:00:00.000Z",
+            "to": "2027-07-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-05T00:00:00.000Z",
+            "to": "2028-07-09T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-05T00:00:00.000Z",
+            "to": "2029-07-09T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-21T00:00:00.000Z",
+            "to": "2027-09-24T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-21T00:00:00.000Z",
+            "to": "2028-09-24T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-21T00:00:00.000Z",
+            "to": "2029-09-24T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6325000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6325000,
+              "amount": 6325000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            }
+          ],
+          "total": 6325000,
+          "subTotal": 6325000,
+          "totalTax": 822250
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
