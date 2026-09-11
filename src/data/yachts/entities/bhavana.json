@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1789117737786,
   "uri": "c::10923570597::vessel::9959a4f0-acf5-11f1-b57a-a791b78fc271",
   "yachtType": [
     "Sailing"
@@ -50,12 +50,16 @@
     "make": "Haji Abdullah",
     "maxCrew": 18,
     "sleeps": 14,
+    "cruisingCapacity": 14,
+    "staticCapacity": 0,
     "builtYear": 2025,
     "topSpeed": 11,
     "cruiseSpeed": 8,
+    "fuelCapacity": 22000,
     "cabinLayout": [],
     "cabins": 7,
     "bathrooms": 7,
+    "decks": 4,
     "length": 50,
     "beam": 10.3,
     "draft": 3,
@@ -124,19 +128,19 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
+    "weekPricingFrom": {
       "currency": "USD",
-      "price": 1500000,
+      "price": 9000000,
       "displayCurrency": "USD",
-      "displayPrice": 1500000,
-      "unit": "DAY"
+      "displayPrice": 9000000,
+      "unit": "WEEK"
     },
-    "dayPricingTo": {
+    "weekPricingTo": {
       "currency": "USD",
-      "price": 1650000,
+      "price": 9900000,
       "displayCurrency": "USD",
-      "displayPrice": 1650000,
-      "unit": "DAY"
+      "displayPrice": 9900000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -157,26 +161,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1500000,
+          "charterFee": 9000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1500000,
-              "amount": 1500000,
-              "conditions": "VAT & APA Excluded",
+              "amount": 9000000,
+              "conditions": "Per Night",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
             }
           ],
-          "total": 1680000,
-          "subTotal": 1500000,
-          "totalTax": 180000
+          "total": 10080000,
+          "subTotal": 9000000,
+          "totalTax": 1080000
         },
         "inclusionZones": [
           {
@@ -237,26 +241,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1650000,
+          "charterFee": 9900000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1650000,
-              "amount": 1650000,
-              "conditions": "VAT & APA Excluded",
+              "amount": 9900000,
+              "conditions": "Per Night",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
             }
           ],
-          "total": 1848000,
-          "subTotal": 1650000,
-          "totalTax": 198000
+          "total": 11088000,
+          "subTotal": 9900000,
+          "totalTax": 1188000
         },
         "inclusionZones": [
           {
