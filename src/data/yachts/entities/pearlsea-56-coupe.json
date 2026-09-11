@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784889586289,
+  "lastModified": 1789132318786,
   "uri": "c::25879711825::vessel::75323bd0-df0d-11ef-a6ab-43dcd5311034",
   "yachtType": [
     "Motor"
@@ -419,7 +419,27 @@
           "subTotal": 300000,
           "totalTax": 39000
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }

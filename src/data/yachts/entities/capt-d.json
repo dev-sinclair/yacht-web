@@ -1,5 +1,5 @@
 {
-  "lastModified": 1772787240447,
+  "lastModified": 1789122835755,
   "uri": "c::17338971224::vessel::a366fbd0-54d4-11ef-8b29-e7bb57fc2a64",
   "yachtType": [
     "Motor"
@@ -122,7 +122,7 @@
               "quantity": 1,
               "unitPrice": 375000,
               "amount": 375000,
-              "conditions": "",
+              "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.2
@@ -151,6 +151,25 @@
               41.33970040774422,
               9.607543945312502,
               51.193115244645874
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
             ]
           }
         ],
