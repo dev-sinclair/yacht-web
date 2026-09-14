@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783522579647,
+  "lastModified": 1789353403305,
   "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
   "yachtType": [
     "Sailing"
@@ -73,7 +73,7 @@
       },
       "country": "Indonesia"
     },
-    "cruisingCapacity": 0,
+    "cruisingCapacity": 18,
     "builtYear": 2023,
     "topSpeed": 11,
     "cruiseSpeed": 8,
@@ -148,19 +148,19 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
+    "weekPricingFrom": {
       "currency": "USD",
-      "price": 1500000,
+      "price": 9000000,
       "displayCurrency": "USD",
-      "displayPrice": 1500000,
-      "unit": "DAY"
+      "displayPrice": 9000000,
+      "unit": "WEEK"
     },
-    "dayPricingTo": {
+    "weekPricingTo": {
       "currency": "USD",
-      "price": 1650000,
+      "price": 9900000,
       "displayCurrency": "USD",
-      "displayPrice": 1650000,
-      "unit": "DAY"
+      "displayPrice": 9900000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -181,26 +181,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1500000,
+          "charterFee": 9000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1500000,
-              "amount": 1500000,
-              "conditions": "VAT & APA Excluded",
+              "amount": 9000000,
+              "conditions": "per night",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
             }
           ],
-          "total": 1680000,
-          "subTotal": 1500000,
-          "totalTax": 180000
+          "total": 10080000,
+          "subTotal": 9000000,
+          "totalTax": 1080000
         },
         "inclusionZones": [
           {
@@ -244,26 +244,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1650000,
+          "charterFee": 9900000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1650000,
-              "amount": 1650000,
-              "conditions": "VAT & APA Excluded",
+              "amount": 9900000,
+              "conditions": "per night",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.12
               }
             }
           ],
-          "total": 1848000,
-          "subTotal": 1650000,
-          "totalTax": 198000
+          "total": 11088000,
+          "subTotal": 9900000,
+          "totalTax": 1188000
         },
         "inclusionZones": [
           {

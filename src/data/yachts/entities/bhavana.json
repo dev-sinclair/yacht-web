@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789117737786,
+  "lastModified": 1789353340063,
   "uri": "c::10923570597::vessel::9959a4f0-acf5-11f1-b57a-a791b78fc271",
   "yachtType": [
     "Sailing"
@@ -56,7 +56,20 @@
     "topSpeed": 11,
     "cruiseSpeed": 8,
     "fuelCapacity": 22000,
-    "cabinLayout": [],
+    "cabinLayout": [
+      {
+        "label": "Master Cabin on upper deck",
+        "value": "1"
+      },
+      {
+        "label": "Deluxe Starter room on upper deck",
+        "value": "2"
+      },
+      {
+        "label": "Superior suite on lower deck",
+        "value": "4"
+      }
+    ],
     "cabins": 7,
     "bathrooms": 7,
     "decks": 4,

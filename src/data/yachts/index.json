@@ -1470,6 +1470,32 @@
     ]
   },
   {
+    "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
+    "slug": "sanctuary",
+    "name": "SANCTUARY",
+    "hero": "/media/media::image::a::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef::assets::4c2bec90-bdfc-11ef-b346-8978585c2c4e/{imageVariant}",
+    "length": 48,
+    "sleeps": 18,
+    "cabins": 9,
+    "builtYear": 2023,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9000000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::22608329829::vessel::71c5e370-a5f9-11f1-b2b8-d93858bbca3c",
     "slug": "alpha",
     "name": "ALPHA",
@@ -1534,32 +1560,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
-    "slug": "sanctuary",
-    "name": "SANCTUARY",
-    "hero": "/media/media::image::a::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef::assets::4c2bec90-bdfc-11ef-b346-8978585c2c4e/{imageVariant}",
-    "length": 48,
-    "sleeps": 18,
-    "cabins": 9,
-    "builtYear": 2023,
-    "builder": "Custom",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 1500000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
