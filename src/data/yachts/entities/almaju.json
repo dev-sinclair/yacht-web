@@ -1,0 +1,490 @@
+{
+  "lastModified": null,
+  "uri": "c::21392618129::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: South of France, Corsica and Sardinia\n\nAlmaju is that moment when time slows down… and everything becomes simpler.\n\nOn board the Absolute 60 Fly, the sun glides gently over the water, the sea stretches as far as the eye can see, and every moment is savored in a new way. A coffee overlooking the horizon, a burst of laughter on the flybridge, an evening that lingers under the stars.\n\nHere, you forget the rhythm of daily life. You let yourself be carried away, you breathe, you enjoy.\n\nAlmaju is not just a yacht, it is a parenthesis outside of time, an invitation to experience the sea differently.",
+  "blueprint": {
+    "name": "ALMAJU",
+    "images": [
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c97140-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c99850-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c94a30-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c99850-b028-11f1-a1be-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c94a30-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40ca0d81-b028-11f1-a1be-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c8d500-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c8fc10-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c9bf60-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c99851-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40ca3490-b028-11f1-b824-415895f5424e/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40ca82b0-b028-11f1-a1be-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c97140-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c99850-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}",
+      "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c886e0-b028-11f1-a1bd-2f6d245e0bdd/{imageVariant}"
+    ],
+    "make": "Absolute",
+    "model": "60 Fly",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::084d44b6-b3ee-11ed-b513-325096b39f47",
+      "name": "Port Grimaud",
+      "coordinates": {
+        "latitude": 43.26884332,
+        "longitude": 6.574912786
+      },
+      "country": "France"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2024,
+    "topSpeed": 33,
+    "cruiseSpeed": 24,
+    "cabinLayout": [],
+    "cabins": 3,
+    "length": 18.6,
+    "beam": 4.94,
+    "draft": 1.43,
+    "hullConstruction": "Composite",
+    "engines": "VOLVO Penta 2 x D13 IPS 1200",
+    "toys": [
+      {
+        "label": "Subluble"
+      },
+      {
+        "label": "Paddle"
+      },
+      {
+        "label": "Towable tube"
+      },
+      {
+        "label": "Snorkeling equipment"
+      }
+    ],
+    "tenders": [
+      "Williams Tender"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 550000,
+      "displayCurrency": "EUR",
+      "displayPrice": 550000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 600000,
+      "displayCurrency": "EUR",
+      "displayPrice": 600000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3300000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3600000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3600000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3600000,
+              "amount": 3600000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3600000,
+          "subTotal": 3600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season: Daily Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 600000,
+              "amount": 600000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 600000,
+          "subTotal": 600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3300000,
+              "amount": 3300000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3300000,
+          "subTotal": 3300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: Daily Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 550000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 550000,
+              "amount": 550000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 550000,
+          "subTotal": 550000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

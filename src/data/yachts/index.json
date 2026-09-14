@@ -1749,6 +1749,32 @@
     ]
   },
   {
+    "uri": "c::10923570597::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744",
+    "slug": "the-maj-oceanic",
+    "name": "THE MAJ OCEANIC",
+    "hero": "/media/media::image::a::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744::assets::247290d0-bd86-11ef-a2a1-795ac2adc569/{imageVariant}",
+    "length": 47,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2019,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7800000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7819143053::vessel::d5cbfb8b-fe8c-11ed-889f-43d4bb723744",
     "slug": "la-bella-vita",
     "name": "LA BELLA VITA",
@@ -1797,32 +1823,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::10923570597::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744",
-    "slug": "the-maj-oceanic",
-    "name": "THE MAJ OCEANIC",
-    "hero": "/media/media::image::a::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744::assets::247290d0-bd86-11ef-a2a1-795ac2adc569/{imageVariant}",
-    "length": 47,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2019,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 1300000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -2602,6 +2602,32 @@
     ]
   },
   {
+    "uri": "c::10923570597::vessel::6b3dcd70-df43-11ef-aca5-71e1b7961b18",
+    "slug": "lamain-ii",
+    "name": "LAMAIN II",
+    "hero": "/media/media::image::a::vessel::6b3dcd70-df43-11ef-aca5-71e1b7961b18::assets::0aae0950-df45-11ef-9909-af7f5c675be6/{imageVariant}",
+    "length": 41.5,
+    "sleeps": 12,
+    "cabins": 8,
+    "builtYear": 2022,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5040000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5ca718e-fe8c-11ed-889f-43d4bb723744",
     "slug": "satori",
     "name": "SATORI",
@@ -2617,32 +2643,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 10000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::10923570597::vessel::6b3dcd70-df43-11ef-aca5-71e1b7961b18",
-    "slug": "lamain-ii",
-    "name": "LAMAIN II",
-    "hero": "/media/media::image::a::vessel::6b3dcd70-df43-11ef-aca5-71e1b7961b18::assets::0aae0950-df45-11ef-9909-af7f5c675be6/{imageVariant}",
-    "length": 41.5,
-    "sleeps": 12,
-    "cabins": 8,
-    "builtYear": 2022,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": 840000,
-    "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -3597,6 +3597,32 @@
     ]
   },
   {
+    "uri": "c::10923570597::vessel::f4728230-bdff-11ef-866a-ad7f2dece8ef",
+    "slug": "kayra",
+    "name": "KAYRA",
+    "hero": "/media/media::image::c::10923570597::vessel::f4728230-bdff-11ef-866a-ad7f2dece8ef::assets::e2cbd230-7d66-11f0-955e-952f717b2be5/{imageVariant}",
+    "length": 38,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 700000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7819298091::vessel::d5cc4f13-fe8c-11ed-889f-43d4bb723744",
     "slug": "tigra",
     "name": "TIGRA",
@@ -3621,32 +3647,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::10923570597::vessel::f4728230-bdff-11ef-866a-ad7f2dece8ef",
-    "slug": "kayra",
-    "name": "KAYRA",
-    "hero": "/media/media::image::c::10923570597::vessel::f4728230-bdff-11ef-866a-ad7f2dece8ef::assets::e2cbd230-7d66-11f0-955e-952f717b2be5/{imageVariant}",
-    "length": 38,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 700000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -11953,29 +11953,6 @@
     ]
   },
   {
-    "uri": "c::44493161844::vessel::c45d7260-6b20-11f1-9e0f-7d262d07a676",
-    "slug": "amelie",
-    "name": "AMELIE",
-    "hero": "/media/media::image::a::vessel::c45d7260-6b20-11f1-9e0f-7d262d07a676::assets::7034ef90-6b27-11f1-a201-ef505eeb7d11/{imageVariant}",
-    "length": 23.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2017,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": 650000,
-    "weekPricingFrom": 4000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
-    ]
-  },
-  {
     "uri": "c::10819594065::vessel::d5cc4e1e-fe8c-11ed-889f-43d4bb723744",
     "slug": "chiluce",
     "name": "CHILUCE",
@@ -16618,6 +16595,32 @@
     ]
   },
   {
+    "uri": "c::21392618129::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058",
+    "slug": "almaju",
+    "name": "ALMAJU",
+    "hero": "/media/media::image::a::vessel::1cb7f620-b026-11f1-9f7f-1b155745a058::assets::40c97140-b028-11f1-b824-415895f5424e/{imageVariant}",
+    "length": 18.6,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2024,
+    "builder": "Absolute",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 550000,
+    "weekPricingFrom": 3300000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::19468221194::vessel::d8ea0d90-da15-11ee-840d-93d93c28fee3",
     "slug": "silver-creek",
     "name": "SILVER CREEK",
@@ -20449,16 +20452,18 @@
       "Motor"
     ],
     "dayPricingFrom": 165000,
-    "weekPricingFrom": null,
+    "weekPricingFrom": 1155000,
     "currency": "EUR",
     "seasons": [
       "summer-2025",
       "summer-2026",
       "summer-2027",
       "summer-2028",
+      "summer-2029",
       "winter-2025",
       "winter-2026",
-      "winter-2027"
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {

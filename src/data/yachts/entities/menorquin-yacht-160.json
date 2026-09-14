@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784900903260,
+  "lastModified": 1789374880327,
   "uri": "c::44493161844::vessel::d846f9f0-c485-11f0-9e0e-dd35399c00ce",
   "yachtType": [
     "Motor"
@@ -153,6 +153,20 @@
       "displayPrice": 180000,
       "unit": "DAY"
     },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 1155000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1155000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 1260000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1260000,
+      "unit": "WEEK"
+    },
     "pricingInfo": [
       {
         "name": "Day Charter: Low Season",
@@ -269,6 +283,132 @@
           "total": 180000,
           "subTotal": 180000,
           "totalTax": 37800
+        },
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter: Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1155000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1155000,
+              "amount": 1155000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.21
+              }
+            }
+          ],
+          "total": 1155000,
+          "subTotal": 1155000,
+          "totalTax": 242550
+        },
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter: High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1260000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1260000,
+              "amount": 1260000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.21
+              }
+            }
+          ],
+          "total": 1260000,
+          "subTotal": 1260000,
+          "totalTax": 264600
         },
         "inclusionZones": [
           {

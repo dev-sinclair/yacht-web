@@ -1,5 +1,5 @@
 {
-  "lastModified": 1761558772028,
+  "lastModified": 1789377229733,
   "uri": "c::10923570597::vessel::6b3dcd70-df43-11ef-aca5-71e1b7961b18",
   "yachtType": [
     "Sailing"
@@ -36,6 +36,7 @@
       },
       "country": "Indonesia"
     },
+    "cruisingCapacity": 16,
     "builtYear": 2022,
     "topSpeed": 12,
     "cruiseSpeed": 10,
@@ -83,23 +84,23 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
+    "weekPricingFrom": {
       "currency": "USD",
-      "price": 840000,
+      "price": 5040000,
       "displayCurrency": "USD",
-      "displayPrice": 840000,
-      "unit": "DAY"
+      "displayPrice": 5040000,
+      "unit": "WEEK"
     },
-    "dayPricingTo": {
+    "weekPricingTo": {
       "currency": "USD",
-      "price": 840000,
+      "price": 5040000,
       "displayCurrency": "USD",
-      "displayPrice": 840000,
-      "unit": "DAY"
+      "displayPrice": 5040000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Rate per night",
+        "name": "Rate Komodo Cruising",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -116,21 +117,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 840000,
+          "charterFee": 5040000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 840000,
-              "amount": 840000,
-              "conditions": "VAT & APA Excluded"
+              "amount": 5040000,
+              "conditions": "Per Night"
             }
           ],
-          "total": 840000,
-          "subTotal": 840000,
+          "total": 5040000,
+          "subTotal": 5040000,
           "totalTax": 0
         },
         "inclusionZones": [

@@ -1,10 +1,10 @@
 {
-  "lastModified": null,
+  "lastModified": 1789384502542,
   "uri": "c::44493161844::vessel::e1b928e0-1eb8-11f1-8bd8-6d664ab6ee01",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Spain\n\nRodman 56 – Comfort, Space and Premium Cruising in Mallorca\n \nDiscover Mallorca from the sea aboard this elegant Rodman 56 Flybridge, a yacht designed for those who value comfort, safety and a high-level cruising experience. With robust lines, excellent performance and a fully equipped interior, it is the ideal choice for enjoying the Mediterranean in style.\n\nA yacht to relax and enjoy\n\nThis yacht offers spacious outdoor areas and a bright and refined interior:\n• Capacity for up to 10 guests on day charters, 6 guests overnight\n• 3 comfortable cabins + 2 elegant bathrooms\n• XXL flybridge with dining area, solarium and wet bar\n• Large teak bathing platform with shower and access to the sea\n• Spacious sunbathing areas on the bow and flybridge\n• Spacious saloon with sofa, central table and fully equipped galley\n\nOnboard experience\nPerfect for:\n• Family holidays\n• Outings with friends\n• Private sunsets\n• Exploring coves and water sports\n\nEnjoy the Mediterranean like never before: anchor in crystal clear waters, relax in the sun or sail between Mallorca's secret coves in total comfort.\nBook your day at sea\nEnjoy a premium experience with personalised service and all the comforts on board.\n \nRodman 56 – your perfect escape in Mallorca awaits you.\n",
+  "description": "Operating Area: Mallorca, Balearic Islands\n\nRodman 56 – Comfort, Space and Premium Cruising in Mallorca\n \nDiscover Mallorca from the sea aboard this elegant Rodman 56 Flybridge, a yacht designed for those who value comfort, safety and a high-level cruising experience. With robust lines, excellent performance and a fully equipped interior, it is the ideal choice for enjoying the Mediterranean in style.\n\nA yacht to relax and enjoy\n\nThis yacht offers spacious outdoor areas and a bright and refined interior:\n• Capacity for up to 10 guests on day charters, 6 guests overnight\n• 3 comfortable cabins + 2 elegant bathrooms\n• XXL flybridge with dining area, solarium and wet bar\n• Large teak bathing platform with shower and access to the sea\n• Spacious sunbathing areas on the bow and flybridge\n• Spacious saloon with sofa, central table and fully equipped galley\n\nOnboard experience\nPerfect for:\n• Family holidays\n• Outings with friends\n• Private sunsets\n• Exploring coves and water sports\n\nEnjoy the Mediterranean like never before: anchor in crystal clear waters, relax in the sun or sail between Mallorca's secret coves in total comfort.\nBook your day at sea\nEnjoy a premium experience with personalised service and all the comforts on board.\n \nRodman 56 – your perfect escape in Mallorca awaits you.\n",
   "blueprint": {
     "name": "RODMAN 56",
     "images": [
@@ -201,6 +201,25 @@
         },
         "inclusionZones": [
           {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
             "label": "Spain",
             "type": "Sovereign country",
             "category": [
@@ -279,6 +298,25 @@
         },
         "inclusionZones": [
           {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
             "label": "Spain",
             "type": "Sovereign country",
             "category": [
@@ -336,7 +374,46 @@
           "subTotal": 2700000,
           "totalTax": 0
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
+            ],
+            "coordinates": [
+              2.7062917614011006,
+              39.434712886284295
+            ],
+            "bbox": [
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
+            ]
+          },
+          {
+            "label": "Spain",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Spain"
+            ],
+            "coordinates": [
+              -2.3169776033961043,
+              40.13518031057943
+            ],
+            "bbox": [
+              -9.519653320312502,
+              35.96911507577482,
+              4.7900390625,
+              44.12702800650004
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }

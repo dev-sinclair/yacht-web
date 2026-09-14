@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783522853829,
+  "lastModified": 1789357485358,
   "uri": "c::10923570597::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -103,12 +103,16 @@
       },
       {
         "label": "Golf Pack (including clubs, Tee, carpet, and 25 complimentary biodegradable balls)"
+      },
+      {
+        "label": "Board Game (card decks, Chest, Uno, Ludo, Monopoly, cards against humanity)"
+      },
+      {
+        "label": "Fishing Rod",
+        "quantity": "1"
       }
     ],
     "toys": [
-      {
-        "label": "Board games"
-      },
       {
         "label": "Stand up paddleboards",
         "quantity": "4"
@@ -126,13 +130,17 @@
         "quantity": "4"
       },
       {
-        "label": " Snorkeling equipment "
+        "label": "Snorkeling equipment "
       },
       {
         "label": "Diving equipment (for certified divers)"
       },
       {
         "label": "Jetski (extra charge)",
+        "quantity": "2"
+      },
+      {
+        "label": "Dive Scooters (extra charge)",
         "quantity": "2"
       }
     ],
@@ -146,19 +154,19 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
+    "weekPricingFrom": {
       "currency": "USD",
-      "price": 1300000,
+      "price": 7800000,
       "displayCurrency": "USD",
-      "displayPrice": 1300000,
-      "unit": "DAY"
+      "displayPrice": 7800000,
+      "unit": "WEEK"
     },
-    "dayPricingTo": {
+    "weekPricingTo": {
       "currency": "USD",
-      "price": 1400000,
+      "price": 8400000,
       "displayCurrency": "USD",
-      "displayPrice": 1400000,
-      "unit": "DAY"
+      "displayPrice": 8400000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -179,22 +187,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1300000,
+          "charterFee": 7800000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1300000,
-              "amount": 1300000,
-              "conditions": "VAT & APA Excluded"
+              "amount": 7800000,
+              "conditions": "Per Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
             }
           ],
-          "total": 1300000,
-          "subTotal": 1300000,
-          "totalTax": 0
+          "total": 8736000,
+          "subTotal": 7800000,
+          "totalTax": 936000
         },
         "inclusionZones": [
           {
@@ -238,22 +250,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 1400000,
+          "charterFee": 8400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 6,
               "unitPrice": 1400000,
-              "amount": 1400000,
-              "conditions": "VAT & APA Excluded"
+              "amount": 8400000,
+              "conditions": "Per Night",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
             }
           ],
-          "total": 1400000,
-          "subTotal": 1400000,
-          "totalTax": 0
+          "total": 9408000,
+          "subTotal": 8400000,
+          "totalTax": 1008000
         },
         "inclusionZones": [
           {
