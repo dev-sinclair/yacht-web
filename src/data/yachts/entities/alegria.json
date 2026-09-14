@@ -1,10 +1,10 @@
 {
-  "lastModified": 1786466007076,
+  "lastModified": 1789418294765,
   "uri": "c::7819240017::vessel::23e438f0-f2e4-11f0-a15f-b193ead1d7fe",
   "yachtType": [
     "Motor"
   ],
-  "description": "Winter 2025/2026 Operating Area: Bahamas / St Thomas, USVI/BVI\n\nALEGRIA is a 32.00m / 105ft Luxury Motor Superyacht built in 2023 by Azimut. Sleeping 9 guests in 4 cabins and with a crew of 4. Cruising at 12.00 kn/ph with a top speed of 26.00 kn/ph. The guest cabins comprise 3 double cabins and 1 twin cabin.",
+  "description": "Step on board Alegria and experience the freedom, comfort, and indulgence of a true luxury yacht charter. Delivered in 2024 and designed by the acclaimed Salvagni Architetti, this 32-metre Azimut blends contemporary Italian style with a relaxed, welcoming atmosphere—ideal for unforgettable time on the water with family and friends.\n\nAlegria comfortably welcomes up to nine guests across four elegant cabins, including a full-beam master suite, a VIP cabin, a double, and a twin with an additional Pullman berth. Every detail is designed for comfort and privacy, while a dedicated crew of four takes care of every aspect of your journey, allowing you to fully switch off and enjoy the experience.\n\nLife on board is centred around relaxation and enjoyment. Spend your days soaking in the deck jacuzzi, enjoying music throughout the yacht, or unwinding indoors in cool, air-conditioned comfort. Stay connected with Starlink Wi-Fi, enjoy movie nights in the salon or master cabin, or simply take in the ever-changing views from deck as your favourite destination unfolds around you.\n\nBased year-round in the Caribbean, Alegria is perfectly equipped for adventure and exploration. From jet skis and paddleboards to snorkelling and towable toys, every day brings a new way to enjoy the sea. With a fast Williams DieselJet tender ready for shore excursions, Alegria offers the perfect balance of excitement, comfort, and effortless luxury—your private gateway to the Caribbean at its finest.\t\t",
   "blueprint": {
     "name": "ALEGRIA",
     "images": [
@@ -53,6 +53,14 @@
     "model": "32M Grande",
     "maxCrew": 4,
     "sleeps": 9,
+    "basePort": {
+      "name": "Isla Mujeres, Quintana Roo, Mexico",
+      "coordinates": {
+        "longitude": -86.73426,
+        "latitude": 21.237259
+      },
+      "country": "Mexico"
+    },
     "cruisingCapacity": 12,
     "builtYear": 2023,
     "refitYear": 0,
@@ -71,10 +79,13 @@
     ],
     "cabins": 5,
     "bathrooms": 6,
+    "decks": 2,
     "length": 32,
     "beam": 7.13,
     "draft": 3.8,
-    "hullType": "",
+    "hullType": "Monohull",
+    "hullConstruction": "",
+    "tonnage": 215,
     "engines": "2 x MTU 2200HP",
     "amenities": [
       {
@@ -129,10 +140,10 @@
     ],
     "entertainment": [
       "TV in all cabins",
-      "TV in all salons",
       "SONOS in all areas",
       "Yamaha Home Theatre in Primary Cabin and Salon",
-      "AppleTV"
+      "AppleTV",
+      "TV at the Salon"
     ],
     "tenders": [
       "Williams Diesel Jet 505"
@@ -253,19 +264,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Summer/Winter - Mexico/ Caribbean/ Bahamas - Low Season",
+        "name": "Summer/Winter - Mexico - Low Season",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "to": "2027-01-01T23:59:59.999Z"
           }
         ],
         "pricing": {
