@@ -1,5 +1,5 @@
 {
-  "lastModified": 1785489322724,
+  "lastModified": 1789455385526,
   "uri": "c::10923570597::vessel::36239510-df3f-11ef-aca5-71e1b7961b18",
   "yachtType": [
     "Sailing"
@@ -104,23 +104,23 @@
   },
   "crew": [],
   "pricing": {
-    "dayPricingFrom": {
+    "weekPricingFrom": {
       "currency": "USD",
-      "price": 566700,
+      "price": 1700100,
       "displayCurrency": "USD",
-      "displayPrice": 566700,
-      "unit": "DAY"
+      "displayPrice": 1700100,
+      "unit": "WEEK"
     },
-    "dayPricingTo": {
+    "weekPricingTo": {
       "currency": "USD",
-      "price": 566700,
+      "price": 1700100,
       "displayCurrency": "USD",
-      "displayPrice": 566700,
-      "unit": "DAY"
+      "displayPrice": 1700100,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Rate per night",
+        "name": "Komodo Rate per Night",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -137,21 +137,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 566700,
+          "charterFee": 1700100,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "quantity": 1,
+              "quantity": 3,
               "unitPrice": 566700,
-              "amount": 566700,
-              "conditions": "VAT & APA Excluded"
+              "amount": 1700100,
+              "conditions": "Per Night"
             }
           ],
-          "total": 566700,
-          "subTotal": 566700,
+          "total": 1700100,
+          "subTotal": 1700100,
           "totalTax": 0
         },
         "inclusionZones": [

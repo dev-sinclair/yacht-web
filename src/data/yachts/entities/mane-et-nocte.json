@@ -1,5 +1,5 @@
 {
-  "lastModified": 1787666172649,
+  "lastModified": 1789462650393,
   "uri": "c::7579668770::vessel::d5cbfb64-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -99,6 +99,12 @@
       },
       {
         "label": "Audio System"
+      },
+      {
+        "label": "Massage Table"
+      },
+      {
+        "label": "Ooni Pizza Oven"
       }
     ],
     "toys": [
@@ -128,6 +134,9 @@
       },
       {
         "label": "Gym equipment"
+      },
+      {
+        "label": "Beach Setup"
       }
     ],
     "entertainment": [
@@ -229,7 +238,7 @@
           }
         ],
         "exclusionZones": [],
-        "petsAllowed": false
+        "petsAllowed": true
       },
       {
         "name": "Low Season - Winter 2026/27",
@@ -282,7 +291,7 @@
           }
         ],
         "exclusionZones": [],
-        "petsAllowed": false
+        "petsAllowed": true
       }
     ]
   }
