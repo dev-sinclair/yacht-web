@@ -1470,6 +1470,29 @@
     ]
   },
   {
+    "uri": "c::22608329829::vessel::f4d304d0-005b-11f1-b50c-5dda9ecb4798",
+    "slug": "suzana",
+    "name": "SUZANA",
+    "hero": "/media/media::image::a::vessel::f4d304d0-005b-11f1-b50c-5dda9ecb4798::assets::7945c490-005d-11f1-ad88-314a7961876a/{imageVariant}",
+    "length": 48,
+    "sleeps": 40,
+    "cabins": 18,
+    "builtYear": 2021,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing",
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6250000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029"
+    ]
+  },
+  {
     "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
     "slug": "sanctuary",
     "name": "SANCTUARY",
@@ -1515,29 +1538,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
-    ]
-  },
-  {
-    "uri": "c::22608329829::vessel::f4d304d0-005b-11f1-b50c-5dda9ecb4798",
-    "slug": "suzana",
-    "name": "SUZANA",
-    "hero": "/media/media::image::a::vessel::f4d304d0-005b-11f1-b50c-5dda9ecb4798::assets::7945c490-005d-11f1-ad88-314a7961876a/{imageVariant}",
-    "length": 48,
-    "sleeps": 40,
-    "cabins": 18,
-    "builtYear": 2021,
-    "builder": "Custom",
-    "yachtType": [
-      "Sailing",
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6250000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027",
-      "summer-2028",
-      "summer-2029"
     ]
   },
   {
@@ -4337,6 +4337,31 @@
     ]
   },
   {
+    "uri": "c::9511821703::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "phoenix-one",
+    "name": "PHOENIX ONE",
+    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::5207efd0-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1983,
+    "builder": "Lloyds Ships",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 230000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2024",
+      "summer-2025",
+      "summer-2026",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
     "slug": "jakare",
     "name": "JAKARE",
@@ -4632,31 +4657,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::9511821703::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "phoenix-one",
-    "name": "PHOENIX ONE",
-    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::5207efd0-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1983,
-    "builder": "Lloyds Ships",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 230000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
@@ -6417,6 +6417,24 @@
     ]
   },
   {
+    "uri": "c::7580644653::vessel::d5cbaba4-fe8c-11ed-889f-43d4bb723744",
+    "slug": "lady-amanda",
+    "name": "LADY AMANDA",
+    "hero": "/media/media::image::c::7580644653::vessel::d5cbaba4-fe8c-11ed-889f-43d4bb723744::assets::56a36730-fda3-11ee-b883-d3dabf68e691.jpeg/{imageVariant}",
+    "length": 30,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2006,
+    "builder": "Couach",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 5500000,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::29936054103::vessel::330be750-ead0-11ef-bd2b-a52ca1bf1656",
     "slug": "alisa",
     "name": "ALISA",
@@ -6770,24 +6788,6 @@
       "winter-2025",
       "winter-2026"
     ]
-  },
-  {
-    "uri": "c::7580644653::vessel::d5cbaba4-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lady-amanda",
-    "name": "LADY AMANDA",
-    "hero": "/media/media::image::c::7580644653::vessel::d5cbaba4-fe8c-11ed-889f-43d4bb723744::assets::56a36730-fda3-11ee-b883-d3dabf68e691.jpeg/{imageVariant}",
-    "length": 30,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Couach",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 5500000,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::8276484364::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0",
@@ -8308,32 +8308,6 @@
     ]
   },
   {
-    "uri": "c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744",
-    "slug": "estia-orion",
-    "name": "ESTIA ORION",
-    "hero": "/media/media::image::c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744::assets::c42a6810-a116-11ee-90d0-77eb1a04a228.jpeg/{imageVariant}",
-    "length": 27.03,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 2004,
-    "builder": "Ferretti",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3590000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::7646090758::vessel::d5cbd37d-fe8c-11ed-889f-43d4bb723744",
     "slug": "miss-katariina",
     "name": "MISS KATARIINA",
@@ -8348,6 +8322,32 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 3580000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744",
+    "slug": "estia-orion",
+    "name": "ESTIA ORION",
+    "hero": "/media/media::image::c::7579706445::vessel::d5cc78c2-fe8c-11ed-889f-43d4bb723744::assets::c42a6810-a116-11ee-90d0-77eb1a04a228.jpeg/{imageVariant}",
+    "length": 27.03,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2004,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3590000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -9791,6 +9791,28 @@
     ]
   },
   {
+    "uri": "c::8276484364::vessel::77931f4f-486c-11ee-a45f-fdfff6163a60",
+    "slug": "thyke-ii",
+    "name": "THYKE II",
+    "hero": "/media/media::image::a::vessel::77931f4f-486c-11ee-a45f-fdfff6163a60::assets::0b3f80f0-29a1-11f0-838e-d38fd34f303c/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Pershing",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::8276484364::vessel::d5cca352-fe8c-11ed-889f-43d4bb723744",
     "slug": "light-blue",
     "name": "LIGHT BLUE",
@@ -9969,28 +9991,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8276484364::vessel::77931f4f-486c-11ee-a45f-fdfff6163a60",
-    "slug": "thyke-ii",
-    "name": "THYKE II",
-    "hero": "/media/media::image::a::vessel::77931f4f-486c-11ee-a45f-fdfff6163a60::assets::0b3f80f0-29a1-11f0-838e-d38fd34f303c/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Pershing",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -10976,6 +10976,29 @@
     ]
   },
   {
+    "uri": "c::7646090758::vessel::57081570-5b0f-11f0-92ff-77be2b6bc560",
+    "slug": "honeybird",
+    "name": "HONEYBIRD",
+    "hero": "/media/media::image::a::vessel::57081570-5b0f-11f0-92ff-77be2b6bc560::assets::f1c39eb0-5b17-11f0-8013-4be366789208/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2019,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4900000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
     "slug": "houbara",
     "name": "HOUBARA",
@@ -11047,29 +11070,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7646090758::vessel::57081570-5b0f-11f0-92ff-77be2b6bc560",
-    "slug": "honeybird",
-    "name": "HONEYBIRD",
-    "hero": "/media/media::image::a::vessel::57081570-5b0f-11f0-92ff-77be2b6bc560::assets::f1c39eb0-5b17-11f0-8013-4be366789208/{imageVariant}",
-    "length": 23.99,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2019,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4900000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -14045,6 +14045,32 @@
     ]
   },
   {
+    "uri": "c::18289980742::vessel::bba60360-7b64-11ef-b626-f5f4ea4ba184",
+    "slug": "president-r-f",
+    "name": "PRESIDENT R&F",
+    "hero": "/media/media::image::c::18289980742::vessel::bba60360-7b64-11ef-b626-f5f4ea4ba184::assets::f05a7fa0-60e7-11f0-990b-f719e01e0788/{imageVariant}",
+    "length": 20.73,
+    "sleeps": 0,
+    "cabins": 4,
+    "builtYear": 2019,
+    "builder": "Sunbird",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 155276,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::21836669044::vessel::25aedcf0-8db1-11f0-9e23-3df4bee09849",
     "slug": "guardian-of-the-sea",
     "name": "GUARDIAN OF THE SEA",
@@ -14086,32 +14112,6 @@
     "dayPricingFrom": null,
     "weekPricingFrom": 3990000,
     "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::18289980742::vessel::bba60360-7b64-11ef-b626-f5f4ea4ba184",
-    "slug": "president-r-f",
-    "name": "PRESIDENT R&F",
-    "hero": "/media/media::image::c::18289980742::vessel::bba60360-7b64-11ef-b626-f5f4ea4ba184::assets::f05a7fa0-60e7-11f0-990b-f719e01e0788/{imageVariant}",
-    "length": 20.73,
-    "sleeps": 0,
-    "cabins": 4,
-    "builtYear": 2019,
-    "builder": "Sunbird",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 155276,
-    "weekPricingFrom": null,
-    "currency": "EUR",
     "seasons": [
       "summer-2026",
       "summer-2027",
@@ -18654,6 +18654,33 @@
     ]
   },
   {
+    "uri": "c::7819240016::vessel::21b462a0-42ad-11ef-a982-13232989bc4a",
+    "slug": "maia",
+    "name": "MAIA",
+    "hero": "/media/media::image::a::vessel::21b462a0-42ad-11ef-a982-13232989bc4a::assets::21938240-42af-11ef-a982-13232989bc4a.jpeg/{imageVariant}",
+    "length": 16.8,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Bali Catamarans",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::18074096051::vessel::01774c90-3565-11f0-baec-592116f05ad5",
     "slug": "virginia",
     "name": "VIRGINIA",
@@ -18984,33 +19011,6 @@
       "summer-2024",
       "summer-2025",
       "summer-2026"
-    ]
-  },
-  {
-    "uri": "c::7819240016::vessel::21b462a0-42ad-11ef-a982-13232989bc4a",
-    "slug": "maia",
-    "name": "MAIA",
-    "hero": "/media/media::image::a::vessel::21b462a0-42ad-11ef-a982-13232989bc4a::assets::21938240-42af-11ef-a982-13232989bc4a.jpeg/{imageVariant}",
-    "length": 16.8,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Bali Catamarans",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
