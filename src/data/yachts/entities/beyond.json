@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784749961916,
+  "lastModified": 1789505014926,
   "uri": "c::10549594650::vessel::d5af5010-7e6f-11ee-8554-8768321783e2",
   "yachtType": [
     "Sailing",
@@ -147,21 +147,21 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "USD",
-      "price": 2590000,
+      "price": 2690000,
       "displayCurrency": "USD",
-      "displayPrice": 2590000,
+      "displayPrice": 2690000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 2790000,
+      "price": 3690000,
       "displayCurrency": "USD",
-      "displayPrice": 2790000,
+      "displayPrice": 3690000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Caribbean/Bahamas (4 guests)",
+        "name": "Caribbean/Bahamas (2 guests)",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -178,22 +178,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 2590000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2690000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2590000,
-              "amount": 2590000,
-              "conditions": "Tax is Inclusive"
+              "unitPrice": 2690000,
+              "amount": 2690000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
             }
           ],
-          "total": 2590000,
-          "subTotal": 2590000,
-          "totalTax": 0
+          "total": 2959000,
+          "subTotal": 2690000,
+          "totalTax": 269000
         },
         "inclusionZones": [
           {
@@ -330,20 +334,471 @@
             ]
           },
           {
-            "label": "Kingstown, Saint Vincent and the Grenadines",
-            "type": "Custom Area",
+            "label": "Grenada",
+            "type": "Sovereign country",
             "category": [
-              "Kingstown"
+              "North America",
+              "Caribbean",
+              "Grenada"
             ],
             "coordinates": [
-              -61.199999999999996,
-              13.15
+              -61.60167506522682,
+              12.214096331239896
             ],
             "bbox": [
-              -61.241667,
-              13.125,
-              -61.158333,
-              13.175
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          },
+          {
+            "label": "Tobago",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Tobago"
+            ],
+            "coordinates": [
+              -60.66740615710219,
+              11.250086604736492
+            ],
+            "bbox": [
+              -60.81064453124999,
+              11.168603515624994,
+              -60.52548828124999,
+              11.325390624999997
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Caribbean/Bahamas (3 guests)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2740000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2740000,
+              "amount": 2740000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
+            }
+          ],
+          "total": 3014000,
+          "subTotal": 2740000,
+          "totalTax": 274000
+        },
+        "inclusionZones": [
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "Tobago",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Tobago"
+            ],
+            "coordinates": [
+              -60.66740615710219,
+              11.250086604736492
+            ],
+            "bbox": [
+              -60.81064453124999,
+              11.168603515624994,
+              -60.52548828124999,
+              11.325390624999997
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
+          },
+          {
+            "label": "Grenada",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Grenada"
+            ],
+            "coordinates": [
+              -61.60167506522682,
+              12.214096331239896
+            ],
+            "bbox": [
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Caribbean/Bahamas (4 guests)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2790000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2790000,
+              "amount": 2790000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
+            }
+          ],
+          "total": 3069000,
+          "subTotal": 2790000,
+          "totalTax": 279000
+        },
+        "inclusionZones": [
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
             ]
           },
           {
@@ -382,6 +837,25 @@
               11.168603515624994,
               -60.52548828124999,
               11.325390624999997
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
             ]
           }
         ],
@@ -406,22 +880,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 2640000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2840000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2640000,
-              "amount": 2640000,
-              "conditions": "Tax is Inclusive"
+              "unitPrice": 2840000,
+              "amount": 2840000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
             }
           ],
-          "total": 2640000,
-          "subTotal": 2640000,
-          "totalTax": 0
+          "total": 3124000,
+          "subTotal": 2840000,
+          "totalTax": 284000
         },
         "inclusionZones": [
           {
@@ -555,250 +1033,6 @@
               13.604612895598308,
               -60.71456909179688,
               14.151223909231819
-            ]
-          },
-          {
-            "label": "Kingstown, Saint Vincent and the Grenadines",
-            "type": "Custom Area",
-            "category": [
-              "Kingstown"
-            ],
-            "coordinates": [
-              -61.199999999999996,
-              13.15
-            ],
-            "bbox": [
-              -61.241667,
-              13.125,
-              -61.158333,
-              13.175
-            ]
-          },
-          {
-            "label": "Tobago",
-            "type": "Geo subunit",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Tobago"
-            ],
-            "coordinates": [
-              -60.66740615710219,
-              11.250086604736492
-            ],
-            "bbox": [
-              -60.81064453124999,
-              11.168603515624994,
-              -60.52548828124999,
-              11.325390624999997
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Caribbean/Bahamas (6 guests)",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 2690000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2690000,
-              "amount": 2690000,
-              "conditions": "Tax is Inclusive"
-            }
-          ],
-          "total": 2690000,
-          "subTotal": 2690000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "St-Barthélemy",
-            "type": "Dependency",
-            "category": [
-              "North America",
-              "Caribbean",
-              "St-Barthélemy"
-            ],
-            "coordinates": [
-              -62.84067778842013,
-              17.898804511167977
-            ],
-            "bbox": [
-              -62.875439453125,
-              17.875195312499997,
-              -62.799707031249994,
-              17.922265624999994
-            ]
-          },
-          {
-            "label": "St. Kitts and Nevis",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "St. Kitts and Nevis"
-            ],
-            "coordinates": [
-              -62.700514773985546,
-              17.252695976679803
-            ],
-            "bbox": [
-              -62.93861389160157,
-              17.025929237974147,
-              -62.453842163085945,
-              17.484291431493666
-            ]
-          },
-          {
-            "label": "Antigua and Barb.",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Antigua and Barb."
-            ],
-            "coordinates": [
-              -61.78188695453542,
-              17.337962066332786
-            ],
-            "bbox": [
-              -61.94503784179688,
-              16.959605804561793,
-              -61.57974243164063,
-              17.761765435716345
-            ]
-          },
-          {
-            "label": "Guadeloupe",
-            "type": "Geo unit",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Guadeloupe"
-            ],
-            "coordinates": [
-              -61.47423111619004,
-              16.176202525655302
-            ],
-            "bbox": [
-              -61.794091796874994,
-              15.886035156250003,
-              -61.172607421875,
-              16.506640625000003
-            ]
-          },
-          {
-            "label": "Dominica",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Dominica"
-            ],
-            "coordinates": [
-              -61.31250105303121,
-              15.43203340576432
-            ],
-            "bbox": [
-              -61.63330078125001,
-              15.125158878585296,
-              -60.96862792968751,
-              15.734101177322788
-            ]
-          },
-          {
-            "label": "Martinique",
-            "type": "Geo unit",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Martinique"
-            ],
-            "coordinates": [
-              -61.02100535627902,
-              14.658030130120972
-            ],
-            "bbox": [
-              -61.2197265625,
-              14.42626953125,
-              -60.82626953124999,
-              14.875292968750003
-            ]
-          },
-          {
-            "label": "Saint Lucia",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Saint Lucia"
-            ],
-            "coordinates": [
-              -60.95638393255735,
-              13.892410380056221
-            ],
-            "bbox": [
-              -61.17736816406251,
-              13.604612895598308,
-              -60.71456909179688,
-              14.151223909231819
-            ]
-          },
-          {
-            "label": "Saint Vincent",
-            "type": "Custom Area",
-            "category": [
-              "West Indies",
-              "Saint Vincent"
-            ],
-            "coordinates": [
-              -61.20720374257252,
-              13.27021162342139
-            ],
-            "bbox": [
-              -61.29509070648227,
-              13.180277015184123,
-              -61.11931677866276,
-              13.360141087929032
-            ]
-          },
-          {
-            "label": "Kingstown, Saint Vincent and the Grenadines",
-            "type": "Custom Area",
-            "category": [
-              "Kingstown"
-            ],
-            "coordinates": [
-              -61.199999999999996,
-              13.15
-            ],
-            "bbox": [
-              -61.241667,
-              13.125,
-              -61.158333,
-              13.175
             ]
           },
           {
@@ -838,13 +1072,32 @@
               -60.52548828124999,
               11.325390624999997
             ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Caribbean/Bahamas (7 guests)",
+        "name": "Caribbean/Bahamas (6 guests)",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -861,22 +1114,26 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 2740000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2890000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2740000,
-              "amount": 2740000,
-              "conditions": "Tax is Inclusive"
+              "unitPrice": 2890000,
+              "amount": 2890000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
             }
           ],
-          "total": 2740000,
-          "subTotal": 2740000,
-          "totalTax": 0
+          "total": 3179000,
+          "subTotal": 2890000,
+          "totalTax": 289000
         },
         "inclusionZones": [
           {
@@ -1013,20 +1270,256 @@
             ]
           },
           {
-            "label": "Kingstown, Saint Vincent and the Grenadines",
-            "type": "Custom Area",
+            "label": "Grenada",
+            "type": "Sovereign country",
             "category": [
-              "Kingstown"
+              "North America",
+              "Caribbean",
+              "Grenada"
             ],
             "coordinates": [
-              -61.199999999999996,
-              13.15
+              -61.60167506522682,
+              12.214096331239896
             ],
             "bbox": [
-              -61.241667,
-              13.125,
-              -61.158333,
-              13.175
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          },
+          {
+            "label": "Tobago",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Tobago"
+            ],
+            "coordinates": [
+              -60.66740615710219,
+              11.250086604736492
+            ],
+            "bbox": [
+              -60.81064453124999,
+              11.168603515624994,
+              -60.52548828124999,
+              11.325390624999997
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Caribbean/Bahamas (7 guests)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 2940000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2940000,
+              "amount": 2940000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
+            }
+          ],
+          "total": 3234000,
+          "subTotal": 2940000,
+          "totalTax": 294000
+        },
+        "inclusionZones": [
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
             ]
           },
           {
@@ -1089,21 +1582,21 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 2790000,
-          "inputAmountTaxed": "INCLUSIVE",
+          "charterFee": 2990000,
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2790000,
-              "amount": 2790000,
-              "conditions": "Tax is Inclusive"
+              "unitPrice": 2990000,
+              "amount": 2990000,
+              "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 2790000,
-          "subTotal": 2790000,
+          "total": 2990000,
+          "subTotal": 2990000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -1241,20 +1734,467 @@
             ]
           },
           {
-            "label": "Kingstown, Saint Vincent and the Grenadines",
-            "type": "Custom Area",
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
             "category": [
-              "Kingstown"
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
             ],
             "coordinates": [
-              -61.199999999999996,
-              13.15
+              -61.26189763163699,
+              13.007914570142447
             ],
             "bbox": [
-              -61.241667,
-              13.125,
-              -61.158333,
-              13.175
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
+          },
+          {
+            "label": "Grenada",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Grenada"
+            ],
+            "coordinates": [
+              -61.60167506522682,
+              12.214096331239896
+            ],
+            "bbox": [
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          },
+          {
+            "label": "Tobago",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Tobago"
+            ],
+            "coordinates": [
+              -60.66740615710219,
+              11.250086604736492
+            ],
+            "bbox": [
+              -60.81064453124999,
+              11.168603515624994,
+              -60.52548828124999,
+              11.325390624999997
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Christmas' week (8 guests)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-20T00:00:00.000Z",
+            "to": "2026-12-26T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2027-12-26T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-20T00:00:00.000Z",
+            "to": "2028-12-26T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3290000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3290000,
+              "amount": 3290000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.1
+              }
+            }
+          ],
+          "total": 3619000,
+          "subTotal": 3290000,
+          "totalTax": 329000
+        },
+        "inclusionZones": [
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
+            ]
+          },
+          {
+            "label": "Tobago",
+            "type": "Geo subunit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Tobago"
+            ],
+            "coordinates": [
+              -60.66740615710219,
+              11.250086604736492
+            ],
+            "bbox": [
+              -60.81064453124999,
+              11.168603515624994,
+              -60.52548828124999,
+              11.325390624999997
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Years' week (8 guests)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-27T00:00:00.000Z",
+            "to": "2027-01-02T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-27T00:00:00.000Z",
+            "to": "2028-01-02T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-27T00:00:00.000Z",
+            "to": "2029-01-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3690000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3690000,
+              "amount": 3690000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3690000,
+          "subTotal": 3690000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "St. Vin. and Gren.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Vin. and Gren."
+            ],
+            "coordinates": [
+              -61.26189763163699,
+              13.007914570142447
+            ],
+            "bbox": [
+              -61.47674560546876,
+              12.537137025451154,
+              -61.06819152832031,
+              13.42234843387463
             ]
           },
           {
