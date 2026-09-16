@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783075522546,
+  "lastModified": 1789561623102,
   "uri": "c::7646090758::vessel::d5cbd332-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -257,16 +257,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 15000000,
+      "price": 14500000,
       "displayCurrency": "EUR",
-      "displayPrice": 15000000,
+      "displayPrice": 14500000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 22800000,
+      "price": 22500000,
       "displayCurrency": "EUR",
-      "displayPrice": 22800000,
+      "displayPrice": 22500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -274,21 +274,13 @@
         "name": "High Season Charter Rate: ",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 22800000,
+          "charterFee": 22500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -296,8 +288,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 22800000,
-              "amount": 22800000,
+              "unitPrice": 22500000,
+              "amount": 22500000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -308,13 +300,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.35,
-              "unitPrice": 22800000,
-              "amount": 7979999.999999999
+              "unitPrice": 22500000,
+              "amount": 7874999.999999999
             }
           ],
-          "total": 33744000,
-          "subTotal": 30780000,
-          "totalTax": 2964000
+          "total": 33300000,
+          "subTotal": 30375000,
+          "totalTax": 2925000
         },
         "inclusionZones": [
           {
@@ -344,33 +336,17 @@
         "name": "Low Season Charter Rate:",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 20400000,
+          "charterFee": 18500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -378,8 +354,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 20400000,
-              "amount": 20400000,
+              "unitPrice": 18500000,
+              "amount": 18500000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -390,13 +366,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.35,
-              "unitPrice": 20400000,
-              "amount": 7140000
+              "unitPrice": 18500000,
+              "amount": 6475000
             }
           ],
-          "total": 30192000,
-          "subTotal": 27540000,
-          "totalTax": 2652000
+          "total": 27380000,
+          "subTotal": 24975000,
+          "totalTax": 2405000
         },
         "inclusionZones": [
           {
@@ -426,33 +402,17 @@
         "name": "Out of Season (May, October): ",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-10-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 15000000,
+          "charterFee": 14500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -460,8 +420,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 15000000,
-              "amount": 15000000,
+              "unitPrice": 14500000,
+              "amount": 14500000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -472,13 +432,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.35,
-              "unitPrice": 15000000,
-              "amount": 5250000
+              "unitPrice": 14500000,
+              "amount": 5075000
             }
           ],
-          "total": 22200000,
-          "subTotal": 20250000,
-          "totalTax": 1950000
+          "total": 21460000,
+          "subTotal": 19575000,
+          "totalTax": 1885000
         },
         "inclusionZones": [
           {

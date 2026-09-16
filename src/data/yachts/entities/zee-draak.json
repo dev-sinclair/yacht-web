@@ -1,10 +1,10 @@
 {
-  "lastModified": 1789117422904,
+  "lastModified": 1789558412935,
   "uri": "c::35182310185::vessel::fd72d4b0-9532-11f0-8dd0-cf690c27ae06",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Mediterranean Sea, Balearic Is. Spain\n\nIn 2010, a seasoned Dutch sailor and boat owner approached Vripack in the Netherlands, seeking to create a new boat. Despite his background in solo sailing and racing on sailing yachts ranging from 40′ to 60′, he wanted something different— a motor yacht. With a growing family, he aimed to share his love for the sea with a desire for a vessel capable of drying out gracefully on a falling tide.\n\nThe result of this collaboration was the Ned 70, a long-range motor yacht designed by Vripack, which embodies the principles of low displacement/length (LDL) hullforms. Characterised by sleek lines and a low profile, the Ned 70 boasts a remarkable length-to-beam ratio, enhancing efficiency while maintaining stability. The design brief prioritized a lean structure, shallow draft, and the ability to cruise comfortably at semi-displacement speeds.\n\nBy adhering to LDL principles, Vripack achieved a vessel that minimizes resistance, reducing fuel consumption and enhancing comfort on board. The Ned 70’s slender hull not only improves stability but also reduces pitching motions, providing a smoother sailing experience. Through meticulous material selection and innovative construction methods, the Ned 70 combines lightweight design with optimal performance, offering a compelling solution for discerning yacht enthusiasts.\n\nOne measure of the success of the Ned 70 model is its ease of use. The owner reports that he can comfortably cruise from Amsterdam to Norway and back on a weekend excursion",
+  "description": "Operating Area: Balearic Islands\n\nIn 2010, a seasoned Dutch sailor and boat owner approached Vripack in the Netherlands, seeking to create a new boat. Despite his background in solo sailing and racing on sailing yachts ranging from 40′ to 60′, he wanted something different— a motor yacht. With a growing family, he aimed to share his love for the sea with a desire for a vessel capable of drying out gracefully on a falling tide.\n\nThe result of this collaboration was the Ned 70, a long-range motor yacht designed by Vripack, which embodies the principles of low displacement/length (LDL) hullforms. Characterised by sleek lines and a low profile, the Ned 70 boasts a remarkable length-to-beam ratio, enhancing efficiency while maintaining stability. The design brief prioritized a lean structure, shallow draft, and the ability to cruise comfortably at semi-displacement speeds.\n\nBy adhering to LDL principles, Vripack achieved a vessel that minimizes resistance, reducing fuel consumption and enhancing comfort on board. The Ned 70’s slender hull not only improves stability but also reduces pitching motions, providing a smoother sailing experience. Through meticulous material selection and innovative construction methods, the Ned 70 combines lightweight design with optimal performance, offering a compelling solution for discerning yacht enthusiasts.\n\nOne measure of the success of the Ned 70 model is its ease of use. The owner reports that he can comfortably cruise from Amsterdam to Norway and back on a weekend excursion",
   "blueprint": {
     "name": "ZEE DRAAK",
     "images": [
@@ -143,23 +143,6 @@
         },
         "inclusionZones": [
           {
-            "label": "Mediterranean Sea",
-            "type": "Custom Area",
-            "category": [
-              "Mediterranean Sea"
-            ],
-            "coordinates": [
-              17.891338226172916,
-              35.763473470161784
-            ],
-            "bbox": [
-              -2.0911329817696185,
-              30.83036652274312,
-              36.18826175308399,
-              43.82670502377162
-            ]
-          },
-          {
             "label": "Balearic Is.",
             "type": "Geo subunit",
             "category": [
@@ -176,25 +159,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
@@ -252,20 +216,22 @@
         },
         "inclusionZones": [
           {
-            "label": "Mediterranean Sea",
-            "type": "Custom Area",
+            "label": "Balearic Is.",
+            "type": "Geo subunit",
             "category": [
-              "Mediterranean Sea"
+              "Europe",
+              "Southern Europe",
+              "Balearic Is."
             ],
             "coordinates": [
-              17.891338226172916,
-              35.763473470161784
+              2.7062917614011006,
+              39.434712886284295
             ],
             "bbox": [
-              -2.0911329817696185,
-              30.83036652274312,
-              36.18826175308399,
-              43.82670502377162
+              1.2233398437500114,
+              38.658837890624994,
+              4.322070312500017,
+              40.075097656249994
             ]
           }
         ],

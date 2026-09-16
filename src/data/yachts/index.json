@@ -65,16 +65,12 @@
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 15000000,
+    "weekPricingFrom": 14500000,
     "currency": "EUR",
     "seasons": [
-      "summer-2026",
       "summer-2027",
-      "summer-2028",
-      "winter-2025",
       "winter-2026",
-      "winter-2027",
-      "winter-2028"
+      "winter-2027"
     ]
   },
   {
@@ -852,7 +848,7 @@
     "hero": "/media/media::image::c::7646090758::vessel::d5ca7198-fe8c-11ed-889f-43d4bb723744::assets::a05ce5d0-9bb3-11f1-aadc-138323bc4eef/{imageVariant}",
     "length": 53.3,
     "sleeps": 22,
-    "cabins": 18,
+    "cabins": 11,
     "builtYear": 2017,
     "builder": "",
     "yachtType": [
@@ -1203,13 +1199,7 @@
     "weekPricingFrom": 8900000,
     "currency": "EUR",
     "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
+      "summer-2027"
     ]
   },
   {
@@ -7859,6 +7849,33 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744",
+    "slug": "pacha",
+    "name": "PACHA",
+    "hero": "/media/media::image::a::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744::assets::7e400bd0-146e-11f0-9d65-19eec3dd8b85/{imageVariant}",
+    "length": 28,
+    "sleeps": 9,
+    "cabins": 4,
+    "builtYear": 2000,
+    "builder": "Tuzla Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2250000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8196078592::vessel::d5cc4d48-fe8c-11ed-889f-43d4bb723744",
     "slug": "sea-breeze",
     "name": "SEA BREEZE",
@@ -7914,29 +7931,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::7580658963::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744",
-    "slug": "pacha",
-    "name": "PACHA",
-    "hero": "/media/media::image::a::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744::assets::7e400bd0-146e-11f0-9d65-19eec3dd8b85/{imageVariant}",
-    "length": 28,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2000,
-    "builder": "Tuzla Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2250000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027"
     ]
   },
   {
@@ -18496,32 +18490,6 @@
     ]
   },
   {
-    "uri": "c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4",
-    "slug": "paladino",
-    "name": "PALADINO",
-    "hero": "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75e16b0-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
-    "length": 17,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2004,
-    "builder": "Fairline",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 285000,
-    "weekPricingFrom": 1500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::19532238409::vessel::fde356a0-00e5-11ef-9abf-67590b02e9d1",
     "slug": "il-consigliere",
     "name": "IL CONSIGLIERE",
@@ -18536,6 +18504,32 @@
     ],
     "dayPricingFrom": 299000,
     "weekPricingFrom": 50000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::39480359087::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4",
+    "slug": "paladino",
+    "name": "PALADINO",
+    "hero": "/media/media::image::a::vessel::19df18f0-e7ba-11f0-aa37-0fbc44ed5cd4::assets::b75e16b0-e7bc-11f0-b096-5be3d91a22dd/{imageVariant}",
+    "length": 17,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2004,
+    "builder": "Fairline",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 285000,
+    "weekPricingFrom": 1500000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",

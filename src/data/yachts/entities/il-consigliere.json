@@ -1,10 +1,10 @@
 {
-  "lastModified": 1783428283505,
+  "lastModified": 1789557129012,
   "uri": "c::19532238409::vessel::fde356a0-00e5-11ef-9abf-67590b02e9d1",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Balearic Island, Spain\n\nIL CONSIGLIERE is a 17.00m / 55ft Luxury Motor Yacht built in 2008 by Sea Ray. Sleeping 6 guests in port, while 4 guests can sleep at anchor in 3 cabins and with a crew of 2. The guest cabins comprise a Master cabin with a double bed, a cabin with a double bed, and a cabin with a bunk bed and 2 bathroom facilities.",
+  "description": "Operating Area: Balearic Islands\n\nIL CONSIGLIERE is a 17.00m / 55ft Luxury Motor Yacht built in 2008 by Sea Ray. Sleeping 6 guests in port, while 4 guests can sleep at anchor in 3 cabins and with a crew of 2. The guest cabins comprise a Master cabin with a double bed, a cabin with a double bed, and a cabin with a bunk bed and 2 bathroom facilities.",
   "blueprint": {
     "name": "IL CONSIGLIERE",
     "images": [
@@ -170,6 +170,14 @@
           {
             "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -209,25 +217,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
@@ -288,25 +277,6 @@
               4.322070312500017,
               40.075097656249994
             ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
           }
         ],
         "exclusionZones": [],
@@ -365,25 +335,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
@@ -456,25 +407,6 @@
               4.322070312500017,
               40.075097656249994
             ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
           }
         ],
         "exclusionZones": [],
@@ -540,25 +472,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
@@ -626,25 +539,6 @@
               4.322070312500017,
               40.075097656249994
             ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
           }
         ],
         "exclusionZones": [],
@@ -711,25 +605,6 @@
               4.322070312500017,
               40.075097656249994
             ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
           }
         ],
         "exclusionZones": [],
@@ -782,25 +657,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
@@ -861,25 +717,6 @@
               4.322070312500017,
               40.075097656249994
             ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
           }
         ],
         "exclusionZones": [],
@@ -938,25 +775,6 @@
               38.658837890624994,
               4.322070312500017,
               40.075097656249994
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
             ]
           }
         ],
