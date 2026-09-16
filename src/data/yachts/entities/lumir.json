@@ -1,0 +1,235 @@
+{
+  "lastModified": 1783694479369,
+  "uri": "c::52220319023::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Australia\n\nLUMIR is a 37.00m / 121ft Luxury Motor Superyacht built in 2005 by Heesen and later underwent a refit in 2026. Sleeping 10 guests in 4 cabins and with a crew of 4. Cruising at 13.50 kn/ph with a top speed of 31.00 kn/ph. The guest cabins comprise of a Master cabin, two VIP cabins and two twin cabins, all with en-suite bathroom facilities.",
+  "blueprint": {
+    "name": "LUMIR",
+    "images": [
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::0da5b0c0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18ccc330-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c6cfc0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c32640-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18ca7940-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c98ee0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c63380-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c4fb00-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c71de0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c7ba20-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18ca2b20-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18cd1150-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18cc4e00-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c8a480-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c82f50-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c8f2a0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c681a0-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18cac760-5e28-11ef-b55b-dd81f00b9160/{imageVariant}",
+      "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::18c52210-5e28-11ef-b55b-dd81f00b9160/{imageVariant}"
+    ],
+    "make": "Heesen",
+    "maxCrew": 6,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::27c293be-b3ee-11ed-8dd2-325096b39f47",
+      "name": "Sydney",
+      "coordinates": {
+        "latitude": -33.86380638,
+        "longitude": 151.2100953
+      },
+      "country": "Australia"
+    },
+    "cruisingCapacity": 55,
+    "staticCapacity": "",
+    "builtYear": 2005,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2026,
+    "topSpeed": 31,
+    "cruiseSpeed": 13.5,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "decks": 2,
+    "length": 37,
+    "beam": 7.47,
+    "draft": 1.88,
+    "hullType": "",
+    "tonnage": 245,
+    "engines": "2 × MTU 16V 4000",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      },
+      {
+        "label": "Sundeck bar"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seadoo jetskis",
+        "quantity": "2"
+      },
+      {
+        "label": "Flite eFoil scooter",
+        "quantity": "2"
+      },
+      {
+        "label": "Fliteboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Sea scooter"
+      },
+      {
+        "label": "Inflatable sea pool & Lilypad"
+      },
+      {
+        "label": "Towing & lounge inflatables"
+      },
+      {
+        "label": "Stand-up paddleboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Dive equipment — 3 sets"
+      },
+      {
+        "label": "Spearfishing equipments"
+      },
+      {
+        "label": "Fishing equipments"
+      }
+    ],
+    "tenders": [
+      "2024 Technohull Omega 47 tender"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Charlie Kinder",
+      "avatar": "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::b25d3390-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "role": "Captain",
+      "bio": "Position: Captain\nAge: 23\n\nCharlie has been onboard LUMIR for 3 years. She originally began as deckhand, and has built her skill and knowledge, to now develop into the role as Captain. Charlie got into yachting as a natural progression, following growing up around the water, and having family in the industry. Charlie has always worked hard, at one point even representing NSW in showjumping. Although now her full focus is on LUMIR with “no time for hobbies”. Charlies’ passion for her future is to normalise young female captains, and to encourage women to work on deck.\n"
+    },
+    {
+      "name": "Zac Brewer",
+      "avatar": "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::de7f9260-5e28-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "role": "Captain",
+      "bio": "Position: First Mate\nAge: 22\n\nMeet Zac, our cheerful First Mate who never fails to brighten the crew's day with his infectious smile. With a Bachelor of Business under his belt, Zac ventured into yachting in 2022, drawn by his deep-rooted passion for the ocean. Having predominantly sailed along the east coast of Australia, he eagerly awaits the opportunity to share his favourite\nspots our guests. Zac's love for surfing reflects his profound connection to the sea, fuelling his aspirations to one day captain his own vessel and sail around the world. Currently pursuing his Master 5 certification, Zac is well on his way to realizing his dreams of commanding the seas\n"
+    },
+    {
+      "name": "Batholmew Gibbson 'Gibbo'",
+      "avatar": "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::0b4cd730-5e29-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "role": "Captain",
+      "bio": "Position: Engineer\nAge: 32\n\nGibbo's journey began with a Diesel mechanic trade before transitioning seamlessly into maritime engineering, where his passion for boats meets his love for cars. Alongside his maritime endeavours, he indulges in car racing and four-wheel driving, one day hoping to attend SEMA, an iconic automotive event. Outside of work he also enjoys other adrenaline-fueled pursuits like snowboarding and wakeboarding, despite tallying up 19 broken bones along the way, each marked with a tattoo. Gibbo's sights are set on obtaining his Chief Unlimited ticket, with aspirations to one day establish his own maritime engineering business.\n"
+    },
+    {
+      "name": "Brooke",
+      "avatar": "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::3ea18ea0-5e29-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "role": "Captain",
+      "bio": "Position: Chief Stewardess\nAge: 28\n\nBrooke's journey into yachting commenced in 2019 after initially pursuing her fascination with people through a degree in Psychology. However, she soon realized that the maritime world aligned more closely with her pace and passions. Growing up amidst sailing yachts, Brooke developed a profound connection with the water, particularly indulging in diving adventures. One standout memory includes an exhilarating encounter with dozens of hammerhead sharks in the Galapagos.. Yachting has provided Brooke with ample opportunities to channel her love for creating unforgettable\nexperiences, fostering her passion for events. Now back in Australian waters after her international yachting ventures, Brooke eagerly anticipates delving further into experiencing the Australian coastal exploration."
+    },
+    {
+      "name": "Tegan Tedd",
+      "avatar": "/media/media::image::a::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf::assets::63c88350-5e29-11ef-b55c-dd81f00b9160/{imageVariant}",
+      "role": "Captain",
+      "bio": "Position: Second Stewardess\nAge: 26\n\nMeet Tegan, our vibrant and dynamic second stew. Originally pursuing a Bachelor's in Business, she found her true calling in yachting, drawn by the allure of adventure, travel, and the chance to connect with diverse and intriguing individuals. Tegan's affinity for water-based adventure started early on, when she acheived a local junior deep-sea fishing title. Beyond the waves, she's an avid surfer and boxer, finding solace in meditation and even exploring the realms of Reiki. With aspirations of swimming alongside whale sharks, Tegan's spirit of exploration knows no bounds.\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 12000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 12000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 12000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 12000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 12000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12000000,
+              "amount": 12000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 12000000,
+          "subTotal": 12000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

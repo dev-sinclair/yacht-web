@@ -1,0 +1,985 @@
+{
+  "lastModified": 1785382269210,
+  "uri": "c::56780189352::vessel::92b65600-9d7d-11ee-863a-a33e27038629",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: \nSummer - Sydney, Pittwater, Hawkesbury\nWinter - Gold Coast, Whitsundays, Great Barrier Reef Far North Queensland\n\nWelcome aboard Shore Thing 115, a 115ft Lloyds-built luxury superyacht offering premium charter experiences along Australia’s coastline.Originally launched in 1986 and refitted in 2025, she blends classic design with modern luxury.Perfect for private events, corporate charters, and relaxed escapes, she delivers comfort, style, and versatility on the water.\n\nAccommodating up to 8 overnight guests and 70 for day charters, Shore Thing 115 is designed for exceptional experiences at sea.",
+  "blueprint": {
+    "name": "SHORE THING",
+    "images": [
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::650877c0-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8242500-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::6508c5e0-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::6508c5e1-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8222930-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a820c9a0-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a824c140-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8247320-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a821b400-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a824e850-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8161b40-8676-11f1-aa82-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8200650-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8255d80-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a815cd20-8676-11f1-aa82-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a82361b0-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a821db10-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a816de90-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a82117c0-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8169071-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8244c10-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8169070-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8249a30-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::570fcec0-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::57101ce0-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::570e4820-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a81f4300-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8207b80-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8218cf0-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::570f80a0-8677-11f1-9ebd-6799bdaab0a3/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8258490-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a815f430-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8227751-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a81557f0-8676-11f1-aa82-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a81494a0-8676-11f1-aa82-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8166960-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8227750-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a8250f60-8676-11f1-aa83-c127663a390b/{imageVariant}",
+      "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::a82388c0-8676-11f1-aa83-c127663a390b/{imageVariant}"
+    ],
+    "make": "Lloyds Ships",
+    "model": "",
+    "maxCrew": 6,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::919802f0-74e7-11ee-bf14-df1a05dbcc9f",
+      "name": "Whitsundays",
+      "coordinates": {
+        "latitude": -20.25663345482485,
+        "longitude": 148.9779595021284
+      },
+      "country": "Australia"
+    },
+    "cruisingCapacity": 70,
+    "builtYear": 1986,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2025,
+    "topSpeed": 14,
+    "cruiseSpeed": 12,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "decks": 2,
+    "length": 35,
+    "beam": 7,
+    "draft": 2.1,
+    "hullType": "",
+    "hullConstruction": "Aluminium",
+    "tonnage": 160,
+    "engines": "Twin CAT 32's",
+    "amenities": [
+      {
+        "label": "Alfresco Dining Areas",
+        "quantity": 1
+      },
+      {
+        "label": "Deck Jacuzzi",
+        "quantity": 1
+      },
+      {
+        "label": "Sundeck BBQ"
+      },
+      {
+        "label": "Zero Speed Stabilisers"
+      },
+      {
+        "label": "Jacuzzi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Inflatable Ocean Beach Club "
+      },
+      {
+        "label": "Beach gear"
+      },
+      {
+        "label": "Fishing gea"
+      },
+      {
+        "label": "Snorkelling gear"
+      }
+    ],
+    "entertainment": [
+      "Starlink High-Speed Internet"
+    ],
+    "tenders": [
+      "9m Gemini Waverider Tender"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Todd",
+      "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::c2cc5fc0-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Casey",
+      "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::caae3240-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Dan",
+      "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::da6cf540-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Lilly",
+      "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::e8bbad80-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Ruby",
+      "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::f1b076a0-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AUD",
+      "price": 1100000,
+      "displayCurrency": "AUD",
+      "displayPrice": 1100000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "AUD",
+      "price": 1600000,
+      "displayCurrency": "AUD",
+      "displayPrice": 1600000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 6200000,
+      "displayCurrency": "AUD",
+      "displayPrice": 6200000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 9500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 9500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer Nightly Rates - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-01T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1600000,
+              "amount": 1600000,
+              "conditions": "GST & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1600000,
+              "amount": 480000
+            }
+          ],
+          "total": 2080000,
+          "subTotal": 2080000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer Nightly Rates - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2027-04-30T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-30T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-30T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1100000,
+              "amount": 1100000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1100000,
+              "amount": 330000
+            }
+          ],
+          "total": 1430000,
+          "subTotal": 1430000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer Weekly Rates - High Season",
+        "effectiveDates": [
+          {
+            "from": "2027-04-30T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-30T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-30T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "GST & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9500000,
+              "amount": 2850000
+            }
+          ],
+          "total": 12350000,
+          "subTotal": 12350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer Weekly Rates - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-11-30T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-30T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-30T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 6200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6200000,
+              "amount": 6200000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 6200000,
+              "amount": 1860000
+            }
+          ],
+          "total": 8060000,
+          "subTotal": 8060000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Nightly Rates - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-04-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1600000,
+              "amount": 1600000,
+              "conditions": "GST & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1600000,
+              "amount": 480000
+            }
+          ],
+          "total": 2080000,
+          "subTotal": 2080000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Nightly Rates - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-04-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1100000,
+              "amount": 1100000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1100000,
+              "amount": 330000
+            }
+          ],
+          "total": 1430000,
+          "subTotal": 1430000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Weekly Rates - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-04-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "GST & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9500000,
+              "amount": 2850000
+            }
+          ],
+          "total": 12350000,
+          "subTotal": 12350000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter Weekly Rates - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-04-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 6200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6200000,
+              "amount": 6200000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 6200000,
+              "amount": 1860000
+            }
+          ],
+          "total": 8060000,
+          "subTotal": 8060000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

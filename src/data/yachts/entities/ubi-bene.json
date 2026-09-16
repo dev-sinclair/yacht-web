@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788526894335,
+  "lastModified": 1789548553934,
   "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -192,9 +192,9 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 5600000,
+      "price": 4900000,
       "displayCurrency": "EUR",
-      "displayPrice": 5600000,
+      "displayPrice": 4900000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -463,7 +463,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 4550000,
+          "charterFee": 4200000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -471,13 +471,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 4550000,
-              "amount": 4550000,
+              "unitPrice": 4200000,
+              "amount": 4200000,
               "conditions": "Weekly"
             }
           ],
-          "total": 4550000,
-          "subTotal": 4550000,
+          "total": 4200000,
+          "subTotal": 4200000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -527,7 +527,7 @@
         "name": "June & September 2027",
         "effectiveDates": [
           {
-            "from": "2026-12-31T00:00:00.000Z",
+            "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
@@ -537,7 +537,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 5250000,
+          "charterFee": 4500000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -545,13 +545,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5250000,
-              "amount": 5250000,
+              "unitPrice": 4500000,
+              "amount": 4500000,
               "conditions": "Weekly"
             }
           ],
-          "total": 5250000,
-          "subTotal": 5250000,
+          "total": 4500000,
+          "subTotal": 4500000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -601,13 +601,13 @@
         "name": "July & August 2027",
         "effectiveDates": [
           {
-            "from": "2026-12-31T00:00:00.000Z",
+            "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 5600000,
+          "charterFee": 4900000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -615,13 +615,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5600000,
-              "amount": 5600000,
+              "unitPrice": 4900000,
+              "amount": 4900000,
               "conditions": "Weekly"
             }
           ],
-          "total": 5600000,
-          "subTotal": 5600000,
+          "total": 4900000,
+          "subTotal": 4900000,
           "totalTax": 0
         },
         "inclusionZones": [

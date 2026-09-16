@@ -1,0 +1,594 @@
+{
+  "lastModified": 1781497859956,
+  "uri": "c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "SUNSET is a 35m (116ft) Sunseeker, built 2019, based on Australia's East Coast. She accommodates 10–12 guests overnight across five staterooms (Master, two VIP, two twin) and up to 33 for day charters, with five professional crew. Cruising grounds span the Gold Coast, Tangalooma, the Whitsundays and Cairns. Extensive toy package includes jet skis, seabob, JetSurf, paddleboards and sun deck jacuzzi.\n\n\n",
+  "blueprint": {
+    "name": "SUNSET",
+    "images": [
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-gAPU6lr_l.jpg/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::131c41b0-3c82-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-aU8rYs-zT.jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-bHgJ0qZUD.jpg/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::455f3b00-3c82-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::24f3ab80-3c82-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-nx1wSk97e.jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-y9h2fD2Fp.jpg/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::2a173670-3c84-11f1-964b-03188a41b5d9/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-99wIRXqXH.jpg/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::yachts-4388-9FQm2fq1wD.jpg/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::e94fe0d0-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::eece9600-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::f51221d0-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::f71dd050-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::f9f49700-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::fc1c0ae0-3c81-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::0dd3dec0-3c82-11f1-ac0b-c5662727af7a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::33257520-e7e3-11ef-8bde-79878747f311/{imageVariant}",
+      "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::04abd0a0-3c82-11f1-ac0b-c5662727af7a/{imageVariant}"
+    ],
+    "make": "Sunseeker",
+    "model": "Sunseeker 116",
+    "maxCrew": 5,
+    "sleeps": 12,
+    "cruisingCapacity": 33,
+    "staticCapacity": 0,
+    "builtYear": 2019,
+    "architect": "",
+    "interiorDesigner": "",
+    "topSpeed": 0,
+    "cruiseSpeed": 12,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Suite",
+        "value": "1"
+      },
+      {
+        "label": "VIP Staterooms",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 5,
+    "bathrooms": 5,
+    "decks": 0,
+    "length": 35,
+    "beam": 7.33,
+    "draft": 2.39,
+    "hullType": "",
+    "hullConstruction": "",
+    "superStructure": [],
+    "engines": "",
+    "amenities": [
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Sunbathing area"
+      },
+      {
+        "label": "Plush loungers"
+      },
+      {
+        "label": "Bathing platform"
+      },
+      {
+        "label": "Satellite TV"
+      },
+      {
+        "label": "Starlink Internet"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SACS Strider 11m Sports Tender",
+        "quantity": "1"
+      },
+      {
+        "label": "FunAir Stand Up Paddle Boards",
+        "quantity": "2"
+      },
+      {
+        "label": "FunAir Customised Sea Pool with Australian Netting (safe for Irukandji jellyfish)",
+        "quantity": "1"
+      },
+      {
+        "label": "FunAir Inflatable Water Slide & Splash Mat",
+        "quantity": "1"
+      },
+      {
+        "label": "FunAir Beach Club with chairs & Optional Shade",
+        "quantity": "1"
+      },
+      {
+        "label": "FunAir Floating Oasis ",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkelling Equipment",
+        "quantity": ""
+      },
+      {
+        "label": "Flite Scooters (2023 models)",
+        "quantity": "2"
+      },
+      {
+        "label": "RXT 300 Seadoo Jetski (2023 model)",
+        "quantity": "1"
+      },
+      {
+        "label": "Jet Boots",
+        "quantity": "1"
+      }
+    ],
+    "entertainment": [],
+    "tenders": [
+      "SACS Strider 11m Sports Tender"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Robin Smedley ",
+      "avatar": "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::9bcd8160-3c76-11f1-9688-e1069bb1a97f/{imageVariant}",
+      "role": "Captain",
+      "bio": "Robin Smedley is a highly experienced, Australian-born Captain with over 30 years at sea and a career spanning private, charter, and commercial vessels across the globe. Holding a Master Class 4, MED 2, RYA Yacht Master Offshore Commercially Endorsed, and PADI licence, Robin has captained motor yachts and sailing vessels ranging from 20 to 36 metres in destinations including Australia, the Mediterranean, the Caribbean, and Southeast Asia. Known for his breadth of experience across both power and sail, Robin brings professionalism, technical know-how, and a calm, well-travelled command style to every vessel he serves."
+    },
+    {
+      "name": "Tia Smedly",
+      "avatar": "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::f6729d30-3c76-11f1-be9d-c30034892559/{imageVariant}",
+      "role": "Captain",
+      "bio": "Tia Smedley is an experienced Australian Chief Stewardess and Cook with nearly three decades of maritime experience across private and charter yachts worldwide. Having worked aboard vessels ranging from 80 to 130 feet in destinations spanning Australia, Asia, Spain, and the Americas, she brings a versatile skill set including five-star silver service, provisioning, crew cooking, interior maintenance, and yacht management. Most recently working in the Australian charter industry, Tia is a well-rounded and dependable crew member with a strong track record in both private and charter environments."
+    },
+    {
+      "name": "Ella Haapala",
+      "avatar": "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::96eaefb0-3c77-11f1-8753-9199febc989c/{imageVariant}",
+      "role": "Captain",
+      "bio": "Ella Haapala is a dedicated and passionate marine professional with years of hands-on experience working aboard luxury superyachts along Australia's east coast. Originally from Finland, Ella brings a warm, adventurous spirit and a natural love for the water to everything she does.\n\nWith a background in providing exceptional guest experiences on charter vessels, Ella understands the importance of keeping every detail perfect — from a spotless deck to a seamless day on the water. She is highly trained, certified, and ready to ensure guests feel safe, comfortable, and well looked after at all times."
+    },
+    {
+      "name": "Michael Caminiti",
+      "avatar": "/media/media::image::c::52220319023::vessel::d5cbfb0b-fe8c-11ed-889f-43d4bb723744::assets::5b627b90-3c7f-11f1-b344-8bd50ab1458c/{imageVariant}",
+      "role": "Captain",
+      "bio": "Australian-born with Italian soul, Michael grew up in the kitchens of his family's Italian restaurant, where a love of generous, produce-led cooking was second nature long before it was a career. That heritage shows in everything he plates, effortless, flavour-first food with genuine warmth behind it.\n\nBefore bringing his talents on board, Michael built and ran his own events company as owner-operator, mastering the art of seamless service at scale and the kind of effortless hospitality that defines a memorable occasion. A lifelong passion for the water makes the move to yachting a natural one, there's nowhere he'd rather cook than at sea.\n\nWhether it's a relaxed lunch on the aft deck or a celebration dinner under the stars, Michael brings Italian heart, professional polish, and an easy charm that guests remember long after they step ashore."
+    },
+    {
+      "name": "Dean Sellers",
+      "role": "Captain",
+      "bio": "Dean Sellers is a Marine Engineer Class 3 and Engineer Watchkeeper with 20+ years of experience across tug vessels, superyachts, and commercial marine operations. He has worked for leading operators including Svitzer, SMIT, and Southern Cross Maritime, and earlier served as chief and senior engineer on private and charter yachts. Fully certified across STCW, MSIC, medical first aid, and confined space entry, Dean is a dependable, multi-skilled marine professional ready to hit the ground running."
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AUD",
+      "price": 2200000,
+      "displayCurrency": "AUD",
+      "displayPrice": 2200000,
+      "unit": "HOUR"
+    },
+    "dayPricingTo": {
+      "currency": "AUD",
+      "price": 2670000,
+      "displayCurrency": "AUD",
+      "displayPrice": 2670000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 16000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 16000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 16000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 16000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate ",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 16000000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 16000000,
+              "amount": 16000000,
+              "conditions": "(Including GST)"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 16000000,
+              "amount": 4800000
+            }
+          ],
+          "total": 20800000,
+          "subTotal": 20800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Overnight Rate (24hrs) ",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 2670000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2670000,
+              "amount": 2670000,
+              "conditions": "24 hrs"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2670000,
+              "amount": 801000
+            }
+          ],
+          "total": 3471000,
+          "subTotal": 3471000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Full Day Rate (8hr) & Half Day Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 2200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2200000,
+              "amount": 2200000,
+              "conditions": "8 hrs"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2200000,
+              "amount": 660000
+            }
+          ],
+          "total": 2860000,
+          "subTotal": 2860000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
