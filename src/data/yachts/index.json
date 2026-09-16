@@ -19648,33 +19648,6 @@
     ]
   },
   {
-    "uri": "c::15406789740::vessel::a167f3a0-7f6a-11ef-b3e5-8795280763d4",
-    "slug": "by-my-side",
-    "name": "BY MY SIDE",
-    "hero": "/media/media::image::c::15406789740::vessel::a167f3a0-7f6a-11ef-b3e5-8795280763d4::assets::89669930-b99a-11f0-8718-2deb9e8026a7/{imageVariant}",
-    "length": 16.46,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2024,
-    "builder": "Aquila",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2100000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::8275378522::vessel::bb064970-7e57-11ee-a870-0ff0b229787c",
     "slug": "dock-holiday",
     "name": "DOCK HOLIDAY",
@@ -19699,6 +19672,33 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::15406789740::vessel::a167f3a0-7f6a-11ef-b3e5-8795280763d4",
+    "slug": "by-my-side",
+    "name": "BY MY SIDE",
+    "hero": "/media/media::image::c::15406789740::vessel::a167f3a0-7f6a-11ef-b3e5-8795280763d4::assets::89669930-b99a-11f0-8718-2deb9e8026a7/{imageVariant}",
+    "length": 16.46,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2024,
+    "builder": "Aquila",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2100000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
