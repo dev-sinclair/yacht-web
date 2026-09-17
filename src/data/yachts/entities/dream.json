@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783414378160,
+  "lastModified": 1789637414657,
   "uri": "c::7646090758::vessel::c58489d0-79af-11ef-97cc-fdceee217c4c",
   "yachtType": [
     "Motor"
@@ -170,9 +170,9 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 6200000,
+      "price": 5951300,
       "displayCurrency": "EUR",
-      "displayPrice": 6200000,
+      "displayPrice": 5951300,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -184,20 +184,20 @@
     },
     "pricingInfo": [
       {
-        "name": "From 1 January till 23 May, From 3 October till 31 December",
+        "name": "From 1 January till 22 May, From 3 October till 31 December",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-05-23T23:59:59.999Z"
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-05-22T23:59:59.999Z"
           },
           {
-            "from": "2025-10-03T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2027-10-03T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 6200000,
+          "charterFee": 5951300,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -205,8 +205,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6200000,
-              "amount": 6200000,
+              "unitPrice": 5951300,
+              "amount": 5951300,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -217,13 +217,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 6200000,
-              "amount": 1860000
+              "unitPrice": 5951300,
+              "amount": 1785390
             }
           ],
-          "total": 8866000,
-          "subTotal": 8060000,
-          "totalTax": 806000
+          "total": 8510359,
+          "subTotal": 7736690,
+          "totalTax": 773669
         },
         "inclusionZones": [
           {
@@ -250,20 +250,20 @@
         "petsAllowed": false
       },
       {
-        "name": "From 23 May till 6 June, From 19 September till 3 October",
+        "name": "From 23 May till 5 June, From 19 September till 2 October",
         "effectiveDates": [
           {
-            "from": "2025-05-23T00:00:00.000Z",
-            "to": "2025-06-06T23:59:59.999Z"
+            "from": "2027-05-23T00:00:00.000Z",
+            "to": "2027-06-05T23:59:59.999Z"
           },
           {
-            "from": "2025-09-19T00:00:00.000Z",
-            "to": "2025-10-03T23:59:59.999Z"
+            "from": "2027-09-19T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 6420000,
+          "charterFee": 6181500,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -271,8 +271,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6420000,
-              "amount": 6420000,
+              "unitPrice": 6181500,
+              "amount": 6181500,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -283,13 +283,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 6420000,
-              "amount": 1926000
+              "unitPrice": 6181500,
+              "amount": 1854450
             }
           ],
-          "total": 9180600,
-          "subTotal": 8346000,
-          "totalTax": 834600
+          "total": 8839545,
+          "subTotal": 8035950,
+          "totalTax": 803595
         },
         "inclusionZones": [
           {
@@ -316,20 +316,20 @@
         "petsAllowed": false
       },
       {
-        "name": "From 6 June till 27 June, From 5 September till 19 September",
+        "name": "From 6 June till 26 June, From 5 September till 18 September",
         "effectiveDates": [
           {
-            "from": "2025-06-06T00:00:00.000Z",
-            "to": "2025-06-27T23:59:59.999Z"
+            "from": "2027-06-06T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
           },
           {
-            "from": "2025-09-05T00:00:00.000Z",
-            "to": "2025-09-19T23:59:59.999Z"
+            "from": "2027-09-05T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 6610000,
+          "charterFee": 6429200,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -337,8 +337,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 6610000,
-              "amount": 6610000,
+              "unitPrice": 6429200,
+              "amount": 6429200,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -349,13 +349,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 0.3,
-              "unitPrice": 6610000,
-              "amount": 1983000
+              "unitPrice": 6429200,
+              "amount": 1928760
             }
           ],
-          "total": 9452300,
-          "subTotal": 8593000,
-          "totalTax": 859300
+          "total": 9193756,
+          "subTotal": 8357960,
+          "totalTax": 835796
         },
         "inclusionZones": [
           {
@@ -385,8 +385,8 @@
         "name": "From 27 June till 5 September",
         "effectiveDates": [
           {
-            "from": "2025-06-27T00:00:00.000Z",
-            "to": "2025-09-05T23:59:59.999Z"
+            "from": "2027-06-27T00:00:00.000Z",
+            "to": "2027-09-04T23:59:59.999Z"
           }
         ],
         "pricing": {

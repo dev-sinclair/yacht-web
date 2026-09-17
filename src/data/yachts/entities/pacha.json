@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1789627464587,
   "uri": "c::8164602117::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -60,7 +60,7 @@
     "builtYear": 2000,
     "refitYear": 2022,
     "topSpeed": 9,
-    "cruiseSpeed": "",
+    "cruiseSpeed": 8,
     "fuelCapacity": 4000,
     "cabinLayout": [
       {
@@ -86,7 +86,7 @@
     "superStructure": [
       "Mahogany Oak"
     ],
-    "engines": "1 x 440Hp Man",
+    "engines": "1x MAN (440 HP)",
     "amenities": [
       {
         "label": "Air conditioning"
@@ -109,29 +109,26 @@
     ],
     "toys": [
       {
-        "label": "Jet ski spark trix"
+        "label": "Jet ski"
       },
       {
-        "label": "Water Skis"
+        "label": "Water Skiing"
       },
       {
-        "label": "Sea Bob"
+        "label": "SeaBob"
       },
       {
         "label": "Wakeboard"
       },
       {
-        "label": "SUP",
-        "quantity": "2"
+        "label": "Paddleboard",
+        "quantity": "0"
       },
       {
-        "label": "Two kayak"
+        "label": "Kayak"
       },
       {
-        "label": "Donut"
-      },
-      {
-        "label": "Jobe diver"
+        "label": "Ringo ride"
       },
       {
         "label": "Fishing rods"
@@ -151,39 +148,84 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2250000,
+      "price": 2350000,
       "displayCurrency": "EUR",
-      "displayPrice": 2250000,
+      "displayPrice": 2350000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2650000,
+      "price": 2850000,
       "displayCurrency": "EUR",
-      "displayPrice": 2650000,
+      "displayPrice": 2850000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "High Season",
+        "name": "Season A (From 08 May 2027 till 05 June 2027)",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
+            "from": "2027-05-08T00:00:00.000Z",
+            "to": "2027-06-05T23:59:59.999Z"
           },
           {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
+            "from": "2028-05-08T00:00:00.000Z",
+            "to": "2028-06-05T23:59:59.999Z"
           },
           {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
+            "from": "2029-05-08T00:00:00.000Z",
+            "to": "2029-06-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2350000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2350000,
+              "amount": 2350000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2350000,
+              "amount": 305500
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2350000,
+              "amount": 705000
+            }
+          ],
+          "total": 3360500,
+          "subTotal": 3360500,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season B (From 05 June 2027 till 26 June 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-06-05T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
           "charterFee": 2650000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
@@ -192,93 +234,160 @@
               "quantity": 1,
               "unitPrice": 2650000,
               "amount": 2650000,
-              "conditions": "VAT & APA Excluded"
+              "conditions": ""
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2650000,
+              "amount": 344500
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2650000,
+              "amount": 795000
             }
           ],
-          "total": 2650000,
-          "subTotal": 2650000,
+          "total": 3789500,
+          "subTotal": 3789500,
           "totalTax": 0
         },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Low Season",
+        "name": "Season C (From 26 June 2027 till 28 August 2027)",
         "effectiveDates": [
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2029-06-30T23:59:59.999Z"
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2250000,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "charterFee": 2850000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2250000,
-              "amount": 2250000,
-              "conditions": "VAT & APA Excluded"
+              "unitPrice": 2850000,
+              "amount": 2850000
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2850000,
+              "amount": 370500
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2850000,
+              "amount": 855000
             }
           ],
-          "total": 2250000,
-          "subTotal": 2250000,
+          "total": 4075500,
+          "subTotal": 4075500,
           "totalTax": 0
         },
-        "inclusionZones": [
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season D (From 28 August 2027 till 18 September 2027)",
+        "effectiveDates": [
           {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
           }
         ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2650000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2650000,
+              "amount": 2650000
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2650000,
+              "amount": 344500
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2650000,
+              "amount": 795000
+            }
+          ],
+          "total": 3789500,
+          "subTotal": 3789500,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season E (From 18 September 2027 till 30 October 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-09-18T00:00:00.000Z",
+            "to": "2027-10-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2350000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2350000,
+              "amount": 2350000
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 2350000,
+              "amount": 305500
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 2350000,
+              "amount": 705000
+            }
+          ],
+          "total": 3360500,
+          "subTotal": 3360500,
+          "totalTax": 0
+        },
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       }

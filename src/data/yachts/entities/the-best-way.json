@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783434951497,
+  "lastModified": 1789639460519,
   "uri": "c::7646090758::vessel::d5cae705-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -170,16 +170,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 3300000,
+      "price": 3200000,
       "displayCurrency": "EUR",
-      "displayPrice": 3300000,
+      "displayPrice": 3200000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3800000,
+      "price": 3500000,
       "displayCurrency": "EUR",
-      "displayPrice": 3800000,
+      "displayPrice": 3500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -187,16 +187,8 @@
         "name": "High Season Charter Rate:",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -207,8 +199,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3800000,
-              "amount": 3800000,
+              "unitPrice": 3500000,
+              "amount": 3500000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -218,15 +210,15 @@
             {
               "item": "APA",
               "quantity": 0.4,
-              "unitPrice": 3800000,
-              "amount": 1520000
+              "unitPrice": 3500000,
+              "amount": 1400000
             }
           ],
-          "subTotal": 5320000,
-          "totalTax": 494000,
-          "total": 5814000,
+          "subTotal": 4900000,
+          "totalTax": 455000,
+          "total": 5355000,
           "note": "",
-          "charterFee": 3800000
+          "charterFee": 3500000
         },
         "inclusionZones": [
           {
@@ -292,28 +284,12 @@
         "name": "Low Season Charter Rate:",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -324,8 +300,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3300000,
-              "amount": 3300000,
+              "unitPrice": 3200000,
+              "amount": 3200000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -335,16 +311,16 @@
             {
               "item": "APA",
               "quantity": 0.4,
-              "unitPrice": 3300000,
-              "amount": 1320000,
+              "unitPrice": 3200000,
+              "amount": 1280000,
               "conditions": ""
             }
           ],
-          "subTotal": 4620000,
-          "totalTax": 429000,
-          "total": 5049000,
+          "subTotal": 4480000,
+          "totalTax": 416000,
+          "total": 4896000,
           "note": "",
-          "charterFee": 3300000
+          "charterFee": 3200000
         },
         "inclusionZones": [
           {
