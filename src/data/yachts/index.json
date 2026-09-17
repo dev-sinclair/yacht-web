@@ -3009,6 +3009,32 @@
     ]
   },
   {
+    "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ariela",
+    "name": "ARIELA",
+    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::f83d37f0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+    "length": 40,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2004,
+    "builder": "CRN Ancona",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 11500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::52220319023::vessel::d5cca231-fe8c-11ed-889f-43d4bb723744",
     "slug": "impulsive",
     "name": "IMPULSIVE",
@@ -3093,32 +3119,6 @@
       "summer-2026",
       "summer-2027",
       "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ariela",
-    "name": "ARIELA",
-    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::cf4257e0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
-    "length": 40,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2004,
-    "builder": "CRN Ancona",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -4181,33 +4181,6 @@
       "summer-2027",
       "summer-2028",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::7684cc80-d10d-11f0-9439-bd657697007c",
-    "slug": "gulsah",
-    "name": "GULSAH",
-    "hero": "/media/media::image::a::vessel::7684cc80-d10d-11f0-9439-bd657697007c::assets::91ccc250-d111-11f0-af7c-cbd8b054b84d/{imageVariant}",
-    "length": 36,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 1990,
-    "builder": "Baglietto",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -7832,26 +7805,6 @@
     ]
   },
   {
-    "uri": "c::7646090758::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744",
-    "slug": "grace",
-    "name": "GRACE",
-    "hero": "/media/media::image::a::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744::assets::768a5100-ab34-11ef-94b9-7de7a5ef81d0/{imageVariant}",
-    "length": 28,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2013,
-    "builder": "Aegean Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027"
-    ]
-  },
-  {
     "uri": "c::8164602117::vessel::d5cc7878-fe8c-11ed-889f-43d4bb723744",
     "slug": "pacha",
     "name": "PACHA",
@@ -7872,6 +7825,26 @@
       "summer-2027",
       "summer-2028",
       "summer-2029"
+    ]
+  },
+  {
+    "uri": "c::7646090758::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744",
+    "slug": "grace",
+    "name": "GRACE",
+    "hero": "/media/media::image::a::vessel::d5cc4e94-fe8c-11ed-889f-43d4bb723744::assets::768a5100-ab34-11ef-94b9-7de7a5ef81d0/{imageVariant}",
+    "length": 28,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2013,
+    "builder": "Aegean Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
     ]
   },
   {
@@ -10509,6 +10482,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7646090758::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744",
+    "slug": "orlando-l",
+    "name": "ORLANDO L",
+    "hero": "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4334ed30-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+    "length": 24.05,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Ferretti",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {

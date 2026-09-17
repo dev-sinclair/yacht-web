@@ -1,0 +1,394 @@
+{
+  "lastModified": 1789652895717,
+  "uri": "c::7646090758::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Adriatic Sea, Croatia, Montenegro\n\nM/Y Ferretti 780 \"ORLANDO L\" offers luxurious accommodation for eight guests across four elegantly appointed staterooms, including a full-beam Owner’s suite.\nHer contemporary interior design creates a spacious and inviting atmosphere, while the expansive, sheltered aft deck provides the perfect setting for relaxation.\n\nEquipped with a variety of water toys and generous sunbathing areas, ORLANDO L is the ideal yacht for exploring the Adriatic, whether you're cruising with friends or enjoying quality time with family, all while soaking in the breathtaking surroundings.",
+  "blueprint": {
+    "name": "ORLANDO L",
+    "images": [
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4334ed30-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43414940-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::432f20d0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::433b7ce0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::430be160-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4337ac50-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43375e30-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4340d410-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43264730-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43371010-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::434c6cd0-0f14-11f0-a31d-db83aa1abdae/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4335d790-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43382180-0f14-11f0-9276-97df570b9f9c/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4341e580-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4342f6f0-0f14-11f0-9276-97df570b9f9c/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::434c1eb0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4347d8f0-0f14-11f0-b43b-09928f18d06f/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::434085f0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4340ad00-0f14-11f0-b43b-09928f18d06f/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4341be70-0f14-11f0-a31d-db83aa1abdae/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::4336c1f0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43085ef0-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::434da550-0f14-11f0-9f5f-d3c808025622/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43405ee0-0f14-11f0-883e-e135c39e7963/{imageVariant}",
+      "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::43420c90-0f14-11f0-9f5f-d3c808025622/{imageVariant}"
+    ],
+    "make": "Ferretti",
+    "model": "Ferretti 780",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::a535f100-5ce4-11f0-8e38-21af957461ea",
+      "name": "ACI Marina Split",
+      "coordinates": {
+        "latitude": 43.50107852657582,
+        "longitude": 16.42995718386928
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2007,
+    "architect": "Feretti Engineering",
+    "interiorDesigner": "Ferretti/ Zuccon International",
+    "refitYear": 2024,
+    "topSpeed": 33,
+    "cruiseSpeed": 25,
+    "fuelCapacity": 5900,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 24.05,
+    "beam": 5.95,
+    "draft": 1.9,
+    "hullType": "Planing",
+    "hullConstruction": "GRP",
+    "tonnage": 100,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2 x 1750 hp MTU Marine Diesel M92",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Gym / Exercise equipment"
+      },
+      {
+        "label": "Generators"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Sea Doo Spark 3UP Trixx"
+      },
+      {
+        "label": "Sea Bob"
+      },
+      {
+        "label": "Water Skis"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Donut"
+      },
+      {
+        "label": "Snorkelling Gear"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection",
+      "TV in saloon and all cabins"
+    ],
+    "tenders": [
+      "SUR MARINE ST 370 PRESTIGE (Yamaha F40 FETL)"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Marino Koceić",
+      "avatar": "/media/media::image::a::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::b54ccd30-0f13-11f0-a86b-cd51d4d8e5e6/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Croatian\n\nHailing from Croatia, Marino brings over 15 years of expertise in navigation and vessel maintenance. Known for his professionalism, reliability, and approachable demeanor, he is deeply passionate about the sea—a love sparked in childhood by his father, a sailor, and the family boat.\n\nThroughout his career, Marino has served as a Deckhand, Technical Manager, and Captain on charter yachts for over nine years. This diverse experience has honed his leadership, people management, and engineering skills. For him, the safety and security of the vessel, as well as the well-being of guests and crew, are top priorities.\n\nMarino is excited to welcome new guests aboard ORLANDO L and share the beauty of his homeland. In his free time, he enjoys participating in sailing regattas and exploring new destinations.\n\nPrevious Experience as Captain:\nPrincess P 62 (charter)\nSunseeker 72 (charter)\nRiva 85 Opera (charter)\nCCYD 22 (charter)\n\nLanguages: English, Croatian"
+    },
+    {
+      "name": "Marija Brzakovic",
+      "avatar": "/media/media::image::c::7646090758::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::74eb4580-3c88-11f0-b104-0b80910ed814/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Croatian\n\nThe stewardess Vanesa, originally from Slovenia, is excited to take on a new challenge aboard ORLANDO L.\nWith two years of experience in the yachting industry, she is eager to continue expanding her expertise and further establish herself in the field.\n\nKnown for her exceptional outgoing nature, Vanesa easily builds strong connections with both crew members and guests.\nHer skill set includes top-notch service, laundry, detailing, and housekeeping.\n\nA versatile, flexible, and adaptable team member, Vanesa is dedicated to making your time aboard ORLANDO L enjoyable and unforgettable.\nShe speaks Slovenian, Croatian and English."
+    },
+    {
+      "name": "Ivan Dabro",
+      "avatar": "/media/media::image::c::7646090758::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::129949e0-3c88-11f0-ab9a-bdc146598ad9/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Croatian\n\nIvan Dabro is a dedicated and versatile hospitality professional with a background in traffic engineering and hands-on experience in the service industry. \nHe has worked as a waiter, bartender, and technician, demonstrating strong communication skills, attention to detail, and adaptability in dynamic environments. \nIvan is known for his calm and measured approach with both guests and colleagues, as well as his ability to quickly take on new tasks. \nWith certifications including STCW A-VI/1, ENG 1, and a Seaman’s Book, he is physically fit, team-oriented, and well-prepared for roles in both hospitality and technical settings..\n\n"
+    },
+    {
+      "name": "Branislav Joksic",
+      "avatar": "/media/media::image::c::7646090758::vessel::d5ca232b-fe8c-11ed-889f-43d4bb723744::assets::5566baa0-3c88-11f0-baaf-e37744cada9d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality : Serbian\n\nMatija is a talented and ambitious Chef with an extensive knowledge of diverse cuisines, including Italian, Mediterranean, French, and Asian.\nHis impressive career includes a prestigious role at the renowned Piazza Duomo restaurant in Alba, a 3-star Michelin gem celebrated for its mastery of Italian and French gastronomy.\n\nMatija’s culinary journey has also led him through a series of other distinguished high-end establishments in his home country, continually refining his skills and broadening his culinary repertoire.\n\nHe looks forward to delighting guests with exceptional, unforgettable dishes."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season Charter Rate:",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 3900000,
+              "amount": 1560000
+            }
+          ],
+          "total": 5967000,
+          "subTotal": 5460000,
+          "totalTax": 507000
+        },
+        "inclusionZones": [
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season Charter Rate:",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3400000,
+              "amount": 3400000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 3400000,
+              "amount": 1360000
+            }
+          ],
+          "total": 5202000,
+          "subTotal": 4760000,
+          "totalTax": 442000
+        },
+        "inclusionZones": [
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
