@@ -1,372 +1,626 @@
 {
-  "lastModified": 1783631630882,
-  "uri": "c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744",
+  "lastModified": 1788468548800,
+  "uri": "c::7819240017::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Croatia\n\nBrand new Sanlorenzo SD132 will be delivered early 2025. \n\nSleeping 12 guests in five cabins, serviced by a highly committed and well-reputed crew of nine, there are no other boats of this kind available to charter in the Adriatic, making it a rare and sought-after yacht.",
+  "description": "Operating Area: Bahamas, United States - Florida East Coast\n\nExperience Luxury and Adventure on the 92’ LOA Symbol  Yacht, M/Y Andiamo\nDiscover unparalleled luxury and adventure aboard the 92’\nLOA Symbol yacht, Andiamo. Designed for both entertaining and tranquil relaxation, this stunning yacht offers breathtaking adventures and endless opportunities for fun and exploration.\nContact us today to start planning your custom-tailored experience.\n\nWhy Andiamo?\nYour Perfect Adventure Yacht \nAndiamo, meaning \"Let's Go!\" in Italian, invites you to embark on unforgettable journeys. Whether you’re snorkeling with the family in the Bahamas/Florida Keys, fishing for the big catch, or touring the Florida golf scene on a corporate event; Andiamo is your ultimate adventure yacht.\n\nEnjoy a day filled with water activities using our extensive collection of water toys, including a 16’ 8-person Highfield tender, a 3-person highspeed Waverunner, two paddle boards, a wakeboard & water skis for kids and adults, and snorkel gear for ten. Capture every moment with a GoPro, perfect for filming both above and below the water.\n\nUnique Features for Enhanced Exploration\nOne of Andiamo’s standout features is its 4.5ft draft (depth below the water), allowing us to navigate shallow waters with ease. This unique build lets us access the best shallow and well-protected areas, ideal for snorkeling and jumping off the boat into crystal-clear waters. Experience secluded areas to anchor and hidden beaches that other yachts can’t reach. \n\nDiscover the Heart of Andiamo\nThe true essence of Andiamo lies within its expansive aft and lower decks, the ultimate hub for relaxation and entertainment. Here, guests can immerse themselves in all that Andiamo has to offer, creating unforgettable memories in a shared space. Sip a refreshing cocktail on the aft deck while watching the kids leap into the water or enjoy thrilling rides on the jet ski and \ntender.",
   "blueprint": {
     "name": "ANDIAMO",
     "images": [
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c60e670-203f-11f0-95b4-69950e7dde58/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c5d3cf0-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c4bb0c0-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c5d15e0-203f-11f0-8068-15d03249a46f/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c5d6400-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c398850-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c609850-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c610d80-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c615ba0-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c61d0d0-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c275fe0-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c630950-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c61d0d0-203f-11f0-8068-15d03249a46f/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c61d0d0-203f-11f0-a318-854191c2630d/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c62e240-203f-11f0-95b4-69950e7dde58/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c626d10-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c62bb30-203f-11f0-9931-ab67fef8f7fa/{imageVariant}",
-      "/media/media::image::c::16958202267::vessel::d5cc2508-fe8c-11ed-889f-43d4bb723744::assets::9c62e240-203f-11f0-9931-ab67fef8f7fa/{imageVariant}"
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1114ec0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11371a0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1121210-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1108b70-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b130e4b0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12af140-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12e4ca0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12f0ff0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b15f95d0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b159a260-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b15f47b0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b133f1f0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b127e400-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12f5e10-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1306f80-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12e9ac0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11175d1-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b13837b0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11d5cb0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11916f0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11ebc40-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b14f4220-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1522850-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1550e80-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1564700-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b159c970-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1553590-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1518c10-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b14704c0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b111eb00-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1472bd0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1182c90-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b14779f0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b15f6ec0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1159480-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b15ef990-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11853a0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b117b760-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12991b0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b134dc50-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b11175d0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b12720b0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1276ed0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b1167ee0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b111c3f0-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::b131cf10-7ce2-11f0-b8c8-111b79d7ded5/{imageVariant}"
     ],
-    "make": "Sanlorenzo",
-    "model": "SD132",
-    "maxCrew": 9,
-    "sleeps": 12,
+    "make": "Symbol Yachts",
+    "model": "",
+    "maxCrew": 3,
+    "sleeps": 6,
     "basePort": {
-      "uri": "a::place::a02022f4-b3ee-11ed-9600-325096b39f47",
-      "name": "Valletta",
+      "uri": "a::place::dc73d6ca-b3ed-11ed-907c-325096b39f47",
+      "name": "Fort Lauderdale ",
       "coordinates": {
-        "latitude": 35.8989846,
-        "longitude": 14.51461334
+        "latitude": 26.12063116545865,
+        "longitude": -80.10978381132306
       },
-      "country": "Malta"
+      "country": "United States"
     },
-    "cruisingCapacity": 0,
-    "builtYear": 2025,
-    "architect": "",
-    "interiorDesigner": "Zuccon International Project",
-    "topSpeed": 19,
-    "cruiseSpeed": 12,
-    "fuelCapacity": "",
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2010,
+    "architect": "Simon Chien",
+    "interiorDesigner": "Sheryl Guyan/ Pacific Custom Interiors",
+    "refitYear": 2023,
+    "topSpeed": 20,
+    "cruiseSpeed": 15,
+    "fuelCapacity": 9841,
     "cabinLayout": [
       {
-        "label": "Master Suite",
+        "label": "King Master Cabin",
         "value": "1"
       },
       {
-        "label": "VIP Cabins",
-        "value": "2"
+        "label": "Queen VIP Cabin",
+        "value": "1"
       },
       {
-        "label": "Twin (Convertible) Cabins",
-        "value": "2"
+        "label": "Twin Cabin",
+        "value": "1"
       }
     ],
-    "cabins": 5,
-    "bathrooms": 5,
-    "decks": 3,
-    "length": 40.7,
-    "beam": 8.47,
-    "draft": 2.66,
-    "hullType": "Semi-displacement",
-    "hullConstruction": "",
-    "tonnage": 420,
-    "superStructure": [],
-    "engines": "",
+    "cabins": 3,
+    "bathrooms": 4,
+    "decks": 0,
+    "length": 28.04,
+    "beam": 5.92,
+    "draft": 1.3,
+    "hullType": "Semi displacement",
+    "hullConstruction": "GRP",
+    "tonnage": 102,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2 x MTU (12V 2000 M93) 1,800HP",
     "amenities": [
       {
-        "label": "Deck Jacuzzi",
-        "quantity": ""
+        "label": "Air Conditioning"
       },
       {
-        "label": "Sunbathing Area",
-        "quantity": ""
+        "label": "Hairdryers"
       },
       {
-        "label": "Beach Club",
-        "quantity": ""
+        "label": "Water Maker"
       },
       {
-        "label": "Zero Speed Stabilizers",
-        "quantity": ""
+        "label": "Ice Maker"
       },
       {
-        "label": "Exercise Equipment",
-        "quantity": ""
+        "label": "Hammock"
       },
       {
-        "label": "Swimming Platform",
-        "quantity": ""
+        "label": "Traeger BBQ Smoker"
       },
       {
-        "label": "Sun Deck",
-        "quantity": ""
+        "label": "Lynx Sedona BBQ"
+      },
+      {
+        "label": "Ooni Pizza Oven"
       }
     ],
     "toys": [
       {
-        "label": "Jet Ski SeaDoo Spark Trixx",
-        "quantity": ""
+        "label": "1000cc Waverunner (3 Pax)"
       },
       {
-        "label": "Flyboard",
-        "quantity": ""
+        "label": "SUP Paddle Boards",
+        "quantity": "2"
       },
       {
-        "label": "Waterskis",
-        "quantity": ""
+        "label": "Sunchill  Floating Mat (6 Pax)"
       },
       {
-        "label": "Wakeboard",
-        "quantity": ""
+        "label": "Snorkel Equipment ",
+        "quantity": "10"
       },
       {
-        "label": "Sea Bob",
-        "quantity": 2
+        "label": "Kid Size Hot Dog Inflatable Towable (4 Pax)"
       },
       {
-        "label": "SUP",
-        "quantity": 2
+        "label": "Blowup Disc Towable and other various towables (3 Pax)"
       },
       {
-        "label": "Inflatable Sailing Boat",
-        "quantity": ""
+        "label": "Wakeboard"
       },
       {
-        "label": "Towable Banana",
-        "quantity": ""
+        "label": "Adult & Kid Water Skis"
       },
       {
-        "label": "Snorkelling gear",
-        "quantity": ""
+        "label": "Beach Games"
+      },
+      {
+        "label": "Adult Card Games & Poker Set"
+      },
+      {
+        "label": "Xbox Games",
+        "quantity": "5"
+      },
+      {
+        "label": "PENN International 30s"
+      },
+      {
+        "label": "LP for deep dropping as well as a dolphin both electric reels"
+      },
+      {
+        "label": "Tons of light tackle as well as casting rods"
+      },
+      {
+        "label": "Penns are used for trolling or shallow bottom fishing *Capable of catching all species"
+      },
+      {
+        "label": "Sling Spear Poles",
+        "quantity": "2"
       }
     ],
     "entertainment": [
-      "Beach Club"
+      "Wi-Fi",
+      "Salon Stereo",
+      "Salon TV",
+      "Satellite TV",
+      "Xbox Games",
+      "Starlink"
     ],
     "tenders": [
-      "Chase Boat Technohull 40 Explorer"
+      "26' Cobia with T-Yahama 150HP engines for an additional $5k per week",
+      "16' Highfield Sport 460 with a 90 VMAX Yamaha (8 Pax)"
     ]
   },
   "crew": [
     {
-      "name": "",
-      "role": "Captain"
+      "name": "Nick Cheney",
+      "avatar": "/media/media::image::c::7819240017::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::816f7000-a7d6-11f1-99a8-f708bcaf14ae/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Nicholas Chaney grew up sailing on the Great Lakes, where early exposure to life on the water formed a strong foundation in seamanship and vessel handling. After several years of college studying electrical engineering, he was introduced to the professional yachting industry by a close friend whose family owned a yacht in Florida. Drawn to the scale, technical sophistication, and global scope of yachting, he transitioned directly into the industry and has remained dedicated to it ever since .\n\nWith nearly two decades of experience, Captain Chaney is a USCG-licensed Master who has captained and engineered yachts from 80’ to 120’ in both private and charter service. His cruising experience includes the Great Lakes and St. Lawrence Seaway, U.S. East Coast, Bahamas, Bermuda, two transatlantic crossings, and an active Mediterranean charter season cruising the South of France and the Italian coastline, as well as extensive Caribbean operations to Grenada .\n\nTechnically proficient and highly hands-on, Nicholas is well regarded for his expertise in diesel propulsion, generators, HVAC, modern marine IT, AV and Starlink systems, and advanced electrical distribution platforms including Octoplex and C-Zone. He has also managed major refits and yard periods, bringing a practical, cost-conscious approach that benefits both owners and charter guests.\n\nCalm, professional, and guest-focused, Captain Chaney combines strong leadership with an engineer’s mindset to deliver safe, efficient, and seamless charter experiences."
     },
     {
-      "name": "",
-      "role": "Captain"
+      "name": "Lindsey Wells",
+      "avatar": "/media/media::image::c::7819240017::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::7d7b2b60-a7d6-11f1-99a8-f708bcaf14ae/{imageVariant}",
+      "role": "Captain",
+      "bio": "Lindsey Wells brings a diverse maritime background spanning private yachts, commercial vessels, offshore racing, and towing operations. Holding a USCG 100 Ton Master License with Sail and Towing Endorsements, STCW certification, ENG1, and advanced medical qualifications, she combines professional seamanship with a strong guest-focused approach.\n\nWith experience aboard vessels ranging from 30-foot sailboats to 118-meter superyachts, Lindsey has developed a reputation for reliability, adaptability, and a positive team-oriented attitude. Her background includes deck operations, tender driving, line handling, navigation support, towing operations, vessel maintenance, and charter preparation. She has also accumulated extensive offshore sailing experience, logging thousands of nautical miles on ocean passages and competitive race campaigns.\n\nOnboard Andiamo, Lindsey serves in a dual Stew/Mate role, assisting with guest hospitality, watersports, tender excursions, docking operations, and the day-to-day presentation of the yacht. Her hospitality experience, bartending skills, strong organizational abilities, and attention to detail allow her to provide attentive service while seamlessly supporting deck operations and vessel safety.\n\nGuests appreciate Lindsey’s energetic personality, calm demeanor, and genuine passion for life on the water. Whether assisting with a beach picnic, leading a tender excursion, supporting watersports activities, or helping maintain the yacht’s impeccable appearance, she is dedicated to ensuring every charter experience is enjoyable, safe, and memorable."
+    },
+    {
+      "name": "Chenae Van Nierk",
+      "avatar": "/media/media::image::c::7819240017::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744::assets::76f7fe80-a7d6-11f1-99a8-f708bcaf14ae/{imageVariant}",
+      "role": "Captain",
+      "bio": "Chef Chenaé hails from South Africa where she began her culinary career. With an Advanced Food and Wine Degree, she worked in the kitchens of top-rated South African restaurants and catering companies. In 2014 she brought her culinary expertise to the maritime industry. As a chef she’s traveled the Mediterranean Sea, Asia, Malaysia, Maldives, Singapore, the US, and the Caribbean. Catering for guests from U.S., Belgium, Italy, England, France, Australia, Arabian, and Scandinavian countries, her focus is on health tasteful food, ensuring the nutritional benefits of each meal.\n\nChef Chenaé’s dedication to her craft, experience preparing exceptional menus internationally, and her health coach certification. Uniquely qualify her to expertly prepare a menu suited to make our guests time aboard Andiamo a delicious one."
     }
   ],
   "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 400000,
+      "displayCurrency": "USD",
+      "displayPrice": 400000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 800000,
+      "displayCurrency": "USD",
+      "displayPrice": 800000,
+      "unit": "DAY"
+    },
     "weekPricingFrom": {
-      "currency": "EUR",
-      "price": 20900000,
-      "displayCurrency": "EUR",
-      "displayPrice": 20900000,
+      "currency": "USD",
+      "price": 3450000,
+      "displayCurrency": "USD",
+      "displayPrice": 3450000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
-      "currency": "EUR",
-      "price": 23900000,
-      "displayCurrency": "EUR",
-      "displayPrice": 23900000,
+      "currency": "USD",
+      "price": 3450000,
+      "displayCurrency": "USD",
+      "displayPrice": 3450000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Low Season (October-May)",
+        "name": "Summer/Winter: Florida - Day Charter Rate (8 hours)",
         "effectiveDates": [
           {
-            "from": "2025-10-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 800000,
+              "amount": 800000,
+              "conditions": ""
+            },
+            {
+              "item": "FL Sales Tax",
+              "conditions": "",
+              "quantity": 0.07,
+              "unitPrice": 800000,
+              "amount": 56000.00000000001
+            }
+          ],
+          "total": 856000,
+          "subTotal": 856000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer/Winter: Florida - Day Charter Rate (6 hours)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 600000,
+              "amount": 600000,
+              "conditions": ""
+            },
+            {
+              "item": "FL Sales Tax",
+              "conditions": "",
+              "quantity": 0.07,
+              "unitPrice": 600000,
+              "amount": 42000.00000000001
+            }
+          ],
+          "total": 642000,
+          "subTotal": 642000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer/Winter: Florida - Day Charter Rate (4 hours)",
+        "effectiveDates": [
+          {
+            "from": "2025-12-31T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 400000,
+              "amount": 400000,
+              "conditions": ""
+            },
+            {
+              "item": "FL Sales Tax",
+              "conditions": "",
+              "quantity": 0.07,
+              "unitPrice": 400000,
+              "amount": 28000.000000000004
+            }
+          ],
+          "total": 428000,
+          "subTotal": 428000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer/Winter: Florida - Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
             "to": "2026-12-31T23:59:59.999Z"
           },
           {
-            "from": "2027-10-01T00:00:00.000Z",
+            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           },
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-05-31T23:59:59.999Z"
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 3450000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3450000,
+              "amount": 3450000,
+              "conditions": "",
+              "taxRate": {
+                "label": "FL Sales Tax",
+                "value": 0.07
+              }
+            }
+          ],
+          "total": 3450000,
+          "subTotal": 3450000,
+          "totalTax": 241500.00000000003
+        },
+        "inclusionZones": [
+          {
+            "label": "Florida, US, United States",
+            "type": "State",
+            "category": [
+              "Florida"
+            ],
+            "coordinates": [
+              -83.13354787154184,
+              28.36636070660095
+            ],
+            "bbox": [
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
           },
           {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer/Winter: Bahamas - Weekly Rate",
+        "effectiveDates": [
+          {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "to": "2026-12-31T23:59:59.999Z"
           },
           {
             "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
-          "currency": "EUR",
-          "inputAmountTaxed": "NONE",
-          "subTotal": 20900000,
-          "totalTax": 0,
-          "total": 20900000,
+          "currency": "USD",
+          "charterFee": 3450000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
-              "conditions": "p/week + expenses",
               "quantity": 1,
-              "unitPrice": 20900000,
-              "amount": 20900000
-            }
-          ],
-          "charterFee": 20900000,
-          "unit": "WEEK"
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": []
-      },
-      {
-        "name": "Shoulder (June and September)",
-        "effectiveDates": [
-          {
-            "from": "2025-06-01T00:00:00.000Z",
-            "to": "2025-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2025-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-09-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "inputAmountTaxed": "NONE",
-          "subTotal": 20900000,
-          "totalTax": 0,
-          "total": 20900000,
-          "lineItems": [
+              "unitPrice": 3450000,
+              "amount": 3450000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT & TAXES",
+                "value": 0.14
+              }
+            },
             {
-              "item": "Charter Fee",
-              "conditions": "p/week + expenses",
+              "item": "APA",
+              "conditions": "",
               "quantity": 1,
-              "unitPrice": 20900000,
-              "amount": 20900000
+              "unitPrice": 3450000,
+              "amount": 3450000
             }
           ],
-          "charterFee": 20900000,
-          "unit": "WEEK"
+          "total": 7383000,
+          "subTotal": 6900000,
+          "totalTax": 483000.00000000006
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
-            "type": "Sovereign country",
+            "label": "Florida, US, United States",
+            "type": "State",
             "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
+              "Florida"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              -83.13354787154184,
+              28.36636070660095
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
+            ]
+          },
+          {
+            "label": "Bahamas",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Bahamas"
+            ],
+            "coordinates": [
+              -76.40805957420893,
+              24.072061577895774
+            ],
+            "bbox": [
+              -79.83764648437501,
+              20.58136735381002,
+              -72.58666992187501,
+              27.459539332717906
             ]
           }
         ],
-        "exclusionZones": []
-      },
-      {
-        "name": "High Season (July -August)",
-        "effectiveDates": [
-          {
-            "from": "2025-07-01T00:00:00.000Z",
-            "to": "2025-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "inputAmountTaxed": "NONE",
-          "subTotal": 23900000,
-          "totalTax": 0,
-          "total": 23900000,
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "conditions": "p/week + expenses",
-              "quantity": 1,
-              "unitPrice": 23900000,
-              "amount": 23900000
-            }
-          ],
-          "charterFee": 23900000,
-          "unit": "WEEK"
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": []
+        "exclusionZones": [],
+        "petsAllowed": false
       }
     ]
   }
