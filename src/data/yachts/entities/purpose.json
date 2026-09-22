@@ -1,5 +1,5 @@
 {
-  "lastModified": 1785160039318,
+  "lastModified": 1790034189928,
   "uri": "c::10549594650::vessel::d5cca374-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -78,11 +78,11 @@
     "amenities": [
       {
         "label": "Air Conditioning",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Deck Shower",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Water Maker"
@@ -104,31 +104,40 @@
         "quantity": "2"
       },
       {
-        "label": "2-person clear kayak"
+        "label": "2-person clear kayak",
+        "quantity": "1"
       },
       {
-        "label": "Underwater scooters"
+        "label": "Underwater scooters",
+        "quantity": "2"
       },
       {
-        "label": "Subwing"
+        "label": "Subwing",
+        "quantity": "1"
       },
       {
-        "label": "Kneeboard"
+        "label": "Kneeboard",
+        "quantity": "1"
       },
       {
-        "label": "Donut"
+        "label": "Donut",
+        "quantity": "1"
       },
       {
-        "label": "Steerable tube"
+        "label": "Steerable tube",
+        "quantity": "1"
       },
       {
-        "label": "Swim noodles"
+        "label": "Swim noodles",
+        "quantity": "6"
       },
       {
-        "label": "Yoga mats"
+        "label": "Yoga mats",
+        "quantity": "6"
       },
       {
-        "label": "Various beach toys"
+        "label": "Various beach toys",
+        "quantity": ""
       },
       {
         "label": "Various board games"
@@ -171,9 +180,9 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "USD",
-      "price": 2190000,
+      "price": 3090000,
       "displayCurrency": "USD",
-      "displayPrice": 2190000,
+      "displayPrice": 3090000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -184,78 +193,6 @@
       "unit": "WEEK"
     },
     "pricingInfo": [
-      {
-        "name": "Summer: French Polynesia - Low Season",
-        "effectiveDates": [
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 2190000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2190000,
-              "amount": 2190000,
-              "conditions": "4 PAX",
-              "taxRate": {
-                "label": "French Polynesia Sales Tax",
-                "value": 0.05
-              }
-            },
-            {
-              "item": "Charter",
-              "conditions": "5 PAX",
-              "quantity": 1,
-              "unitPrice": 2240000,
-              "amount": 2240000,
-              "taxRate": {
-                "label": "French Polynesia Sales Tax",
-                "value": 0.05
-              }
-            }
-          ],
-          "total": 4651500,
-          "subTotal": 4430000,
-          "totalTax": 221500
-        },
-        "inclusionZones": [
-          {
-            "label": "Papeete, French Polynesia",
-            "type": "Custom Area",
-            "category": [
-              "Papeete"
-            ],
-            "coordinates": [
-              -149.57083350000002,
-              -17.579167
-            ],
-            "bbox": [
-              -149.625,
-              -17.641667,
-              -149.516667,
-              -17.516667
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "Summer: French Polynesia - High Season",
         "effectiveDates": [
@@ -270,120 +207,6 @@
           {
             "from": "2027-12-15T00:00:00.000Z",
             "to": "2028-04-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 3090000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3090000,
-              "amount": 3090000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 3090000,
-          "subTotal": 3090000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Papeete, French Polynesia",
-            "type": "Custom Area",
-            "category": [
-              "Papeete"
-            ],
-            "coordinates": [
-              -149.57083350000002,
-              -17.579167
-            ],
-            "bbox": [
-              -149.625,
-              -17.641667,
-              -149.516667,
-              -17.516667
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter: French Polynesia- Low Season",
-        "effectiveDates": [
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 2190000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2190000,
-              "amount": 2190000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 2190000,
-          "subTotal": 2190000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Papeete, French Polynesia",
-            "type": "Custom Area",
-            "category": [
-              "Papeete"
-            ],
-            "coordinates": [
-              -149.57083350000002,
-              -17.579167
-            ],
-            "bbox": [
-              -149.625,
-              -17.641667,
-              -149.516667,
-              -17.516667
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter: French Polynesia -  High Season",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
