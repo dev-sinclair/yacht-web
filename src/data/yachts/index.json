@@ -9694,6 +9694,28 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744",
+    "slug": "wally-one",
+    "name": "WALLY ONE",
+    "hero": "/media/media::image::c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744::assets::e5a676f0-d7ad-11ee-87f1-bb2a63a2dcd1.jpeg/{imageVariant}",
+    "length": 25.15,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 1991,
+    "builder": "Wally Yachts",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028"
+    ]
+  },
+  {
     "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
     "slug": "champagne-hippy",
     "name": "CHAMPAGNE HIPPY",
@@ -9743,28 +9765,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744",
-    "slug": "wally-one",
-    "name": "WALLY ONE",
-    "hero": "/media/media::image::c::7579668770::vessel::d5cc4ddf-fe8c-11ed-889f-43d4bb723744::assets::e5a676f0-d7ad-11ee-87f1-bb2a63a2dcd1.jpeg/{imageVariant}",
-    "length": 25.15,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 1991,
-    "builder": "Wally Yachts",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
