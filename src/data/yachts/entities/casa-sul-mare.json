@@ -1,0 +1,99 @@
+{
+  "lastModified": 1790213178251,
+  "uri": "c::7819352448::vessel::d4d3e190-f199-11ee-9371-e333f7f42400",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Palm Beach, Florida\n\nCASA SUL MARE is a 19.51m / 64ft Luxury Motor Yacht built in 2010 by Sunseeker. Sleeping 4 guests in 3 cabins. Cruising at 18.00 kn/ph with a top speed of 32.00 kn/ph. The guest cabins comprise 2 cabins with queen size beds and a cabin with a twin bed.",
+  "blueprint": {
+    "name": "CASA SUL MARE",
+    "images": [
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c378960-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c358d90-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::a5eaeb10-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c373b40-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c3602c0-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c34ca40-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c3650e0-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c353f70-0396-11f1-83fb-75060849143c/{imageVariant}",
+      "/media/media::image::a::vessel::d4d3e190-f199-11ee-9371-e333f7f42400::assets::0c35dbb0-0396-11f1-83fb-75060849143c/{imageVariant}"
+    ],
+    "make": "Sunseeker",
+    "model": "Predator 64",
+    "maxCrew": 4,
+    "sleeps": 4,
+    "basePort": {
+      "name": "Jupiter, Florida, United States",
+      "coordinates": {
+        "longitude": -80.093591,
+        "latitude": 26.934262
+      },
+      "country": "United States"
+    },
+    "builtYear": 2010,
+    "topSpeed": 32,
+    "cruiseSpeed": 18,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": "",
+    "length": 19.51,
+    "beam": 4.97,
+    "draft": 1.52,
+    "hullType": "",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Sun Awning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Deck Shower"
+      },
+      {
+        "label": "Water Maker"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Floating Mats"
+      },
+      {
+        "label": "SU Paddle Boards",
+        "quantity": "2"
+      },
+      {
+        "label": "Swim Platform"
+      },
+      {
+        "label": "Boarding Ladder"
+      },
+      {
+        "label": "Snorkel Gear"
+      },
+      {
+        "label": "Noodles"
+      }
+    ],
+    "entertainment": [
+      "Salon TV",
+      "Onboard WIFI"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "pricingInfo": []
+  }
+}
