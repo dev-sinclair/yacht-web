@@ -1,0 +1,190 @@
+{
+  "lastModified": null,
+  "uri": "c::9938368400::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d",
+  "yachtType": [
+    "Catamaran",
+    "Sailing"
+  ],
+  "description": "Operating Area: Caribbean\n\nMIIA is the world’s first Sunreef ULTIMA 88 available for charter.\n\nMIIA reflects a vision of effortless luxury and meaningful living at sea. Every space has been thoughtfully curated, from the soft natural materials and custom furniture to the expansive windows that flood the interiors with light and frame the ocean like artwork.\n\nHer wide decks invite slow mornings and long afternoons under the sun, while the beach club becomes the heart of life on board, a place to gather, play, and unwind. The Jacuzzi offers moments of quiet escape, surrounded by nothing but sky and water.\n\nMore than a yacht, MIIA feels like a modern villa on the sea, warm, elegant, and deeply personal – A Yacht With a Soul.",
+  "blueprint": {
+    "name": "MIIA",
+    "images": [
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e5b5d0-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e62b00-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e73c70-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e5b5d1-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21ea70c0-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e3e110-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e8ea20-b821-11f1-b033-adb48f55de73/{imageVariant}",
+      "/media/media::image::a::vessel::7d5a8fa0-b81f-11f1-a564-63c8a447e64d::assets::21e9ad70-b821-11f1-b033-adb48f55de73/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "maxCrew": 4,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::a0201b56-b3ee-11ed-8a74-325096b39f47",
+      "name": "Tortola",
+      "coordinates": {
+        "latitude": 18.4335216,
+        "longitude": -64.63325746
+      },
+      "country": "British Virgin Islands"
+    },
+    "cruisingCapacity": 10,
+    "builtYear": 2026,
+    "architect": "Sunreef Yachts",
+    "interiorDesigner": "Sunreef Yachts",
+    "topSpeed": 20,
+    "cruiseSpeed": 10,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 5,
+    "length": 26.8,
+    "beam": 9.1,
+    "hullType": "Catamaran",
+    "hullConstruction": "Composite",
+    "tonnage": 85,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "amenities": [
+      {
+        "label": "Watermakers"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Aft platform"
+      },
+      {
+        "label": "Beach club"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Kayak",
+        "quantity": "2"
+      },
+      {
+        "label": "Efoil",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddleboard",
+        "quantity": "2"
+      },
+      {
+        "label": "Seabob",
+        "quantity": "2"
+      },
+      {
+        "label": "Fishing gear"
+      },
+      {
+        "label": "Snorkelling gear"
+      },
+      {
+        "label": "Blowfish",
+        "quantity": "2"
+      },
+      {
+        "label": "Waterski jet",
+        "quantity": "1"
+      }
+    ],
+    "entertainment": [
+      "Outdoor sound system",
+      "TV in saloon",
+      "Starlink",
+      "WiFi connection"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 11000000,
+      "displayCurrency": "USD",
+      "displayPrice": 11000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 11000000,
+      "displayCurrency": "USD",
+      "displayPrice": 11000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 11000000,
+          "subTotal": 11000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Caribbean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Caribbean Sea"
+            ],
+            "coordinates": [
+              -75.20942221363948,
+              15.447039028480969
+            ],
+            "bbox": [
+              -88.34899451369023,
+              8.493693752471486,
+              -59.20886105003194,
+              22.689132188400592
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
