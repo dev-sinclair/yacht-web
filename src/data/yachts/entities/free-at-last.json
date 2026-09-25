@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788776632087,
+  "lastModified": 1790344502207,
   "uri": "c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -23,33 +23,30 @@
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5911a80-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b5936470-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::b58fe200-334d-11f1-9c52-8168d7437bfd/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be609b0-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be4f840-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}",
       "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be32380-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be56d70-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}",
-      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be3e6d0-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}"
+      "/media/media::image::c::7579668770::vessel::d5cc2580-fe8c-11ed-889f-43d4bb723744::assets::2be4f840-64aa-11f1-8b7d-8d3bb5956778/{imageVariant}"
     ],
     "make": "Custom Line",
-    "model": "",
+    "model": "Performance Cruiser",
     "maxCrew": 4,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::dc73c220-b3ed-11ed-bf55-325096b39f47",
-      "name": "Corfu",
+      "name": "Pisa, Italy",
       "coordinates": {
-        "latitude": 39.63126027976906,
-        "longitude": 19.84664505569246
+        "longitude": 10.401862,
+        "latitude": 43.71594
       },
-      "country": "Greece"
+      "country": "Italy"
     },
-    "staticCapacity": 20,
+    "cruisingCapacity": 11,
+    "staticCapacity": 25,
     "builtYear": 2001,
     "architect": "Marcelo Penna",
     "interiorDesigner": "Marcelo Penna",
     "refitYear": 2025,
     "topSpeed": 11,
     "cruiseSpeed": 10,
-    "fuelCapacity": 3400,
+    "fuelCapacity": 35,
     "cabinLayout": [
       {
         "label": "Master Cabin",
@@ -61,17 +58,18 @@
       },
       {
         "label": "Pullman",
-        "value": "1"
+        "value": "2"
       }
     ],
     "cabins": 3,
     "bathrooms": 3,
+    "decks": 1,
     "length": 28.8,
     "beam": 6.8,
     "draft": 3.7,
-    "hullType": "Mono",
+    "hullType": "Monohull",
     "hullConstruction": "Aluminium",
-    "tonnage": 79,
+    "tonnage": 82,
     "superStructure": [
       "Aluminium"
     ],
@@ -113,7 +111,7 @@
       }
     ],
     "tenders": [
-      "Highfield 3,80m with a 25HP engine "
+      "Tender - Highfield (aluminium hull) 4,20m with a 25HP engine"
     ]
   },
   "crew": [
@@ -152,297 +150,18 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 4800000,
+      "price": 4500000,
       "displayCurrency": "EUR",
-      "displayPrice": 4800000,
+      "displayPrice": 4500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Summer Low Season",
+        "name": "Winter 2026/2027",
         "effectiveDates": [
           {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 4500000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 4500000,
-              "amount": 4500000,
-              "conditions": ""
-            },
-            {
-              "item": "",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 0,
-              "amount": 0
-            }
-          ],
-          "total": 4500000,
-          "subTotal": 4500000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Summer High Season",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 4800000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 4800000,
-              "amount": 4800000,
-              "conditions": ""
-            }
-          ],
-          "total": 4800000,
-          "subTotal": 4800000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
-            "label": "Spain",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Spain"
-            ],
-            "coordinates": [
-              -2.3169776033961043,
-              40.13518031057943
-            ],
-            "bbox": [
-              -9.519653320312502,
-              35.96911507577482,
-              4.7900390625,
-              44.12702800650004
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter Xmas/New Year",
-        "effectiveDates": [
-          {
-            "from": "2026-12-19T00:00:00.000Z",
-            "to": "2027-01-08T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 4800000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 4800000,
-              "amount": 4800000
-            }
-          ],
-          "total": 4800000,
-          "subTotal": 4800000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Caribbean Sea",
-            "type": "Custom Area",
-            "category": [
-              "Caribbean Sea"
-            ],
-            "coordinates": [
-              -75.20942221363948,
-              15.447039028480969
-            ],
-            "bbox": [
-              -88.34899451369023,
-              8.493693752471486,
-              -59.20886105003194,
-              22.689132188400592
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter Normal Charter Rate",
-        "effectiveDates": [
-          {
-            "from": "2026-11-01T00:00:00.000Z",
-            "to": "2026-12-18T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-09T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
+            "from": "2027-01-10T00:00:00.000Z",
+            "to": "2027-04-10T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -463,7 +182,101 @@
           "subTotal": 4500000,
           "totalTax": 0
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "Saint John's, Antigua and Barbuda",
+            "type": "Custom Area",
+            "category": [
+              "Saint John's"
+            ],
+            "coordinates": [
+              -61.820833,
+              17.116667000000003
+            ],
+            "bbox": [
+              -61.858333,
+              17.091667,
+              -61.783333,
+              17.141667
+            ]
+          },
+          {
+            "label": "Sint Maarten",
+            "type": "Country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Sint Maarten"
+            ],
+            "coordinates": [
+              -63.07013294590067,
+              18.04063025953536
+            ],
+            "bbox": [
+              -63.118886,
+              18.01911,
+              -63.017569,
+              18.06212
+            ]
+          },
+          {
+            "label": "St-Barthélemy",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St-Barthélemy"
+            ],
+            "coordinates": [
+              -62.84067778842013,
+              17.898804511167977
+            ],
+            "bbox": [
+              -62.875439453125,
+              17.875195312499997,
+              -62.799707031249994,
+              17.922265624999994
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }
