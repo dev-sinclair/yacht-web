@@ -1,347 +1,574 @@
 {
-  "lastModified": 1784754234265,
-  "uri": "c::32173481806::vessel::675f4480-05cc-11f1-91ad-b9dae1414553",
+  "lastModified": 1790320085042,
+  "uri": "c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Middle East\n\nBELLA is a 23.77m / 78ft Luxury Motor Yacht built in 2018 by Galeon. Sleeping 8 guests in 4 cabins and with a crew of 4.",
+  "description": "Operating Area: Croatia\n\nAfter her second refit, Yacht Bella is able to accommodate up to 21 guests (20+1) in its mesmerizing 10 smart cabins (everything can be operated by voice). The new features also include a gentlemen's whiskey and cigar lounge, a beauty lounge, a kids' playroom, a cinema room, a fitness/pilates room, and top-of-the-line water toys.",
   "blueprint": {
     "name": "BELLA",
     "images": [
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32b9e9d0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32ba10e0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c841b0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bd6c40-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c7cc80-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bb9780-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32baad20-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32becbd0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c3add0-05cf-11f1-ab37-a19606c7d5e7/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bd4530-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bcd000-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c7f390-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c97a30-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c9ef60-05cf-11f1-97e3-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bcf710-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c70930-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c88fd0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bc81e0-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c163e0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bb2250-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32b974a0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bc33c0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32ba8610-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bbe5a0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32ca6490-05cf-11f1-97e3-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c8b6e0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32b94d90-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32b9c2c0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c6bb10-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c77e60-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c645e0-05cf-11f1-97e2-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bbe5a0-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bbbe90-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bc0cb0-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32c66cf0-05cf-11f1-97e3-d97e7a2248a9/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bcf711-05cf-11f1-b9b4-2be2a1774ffb/{imageVariant}",
-      "/media/media::image::a::vessel::675f4480-05cc-11f1-91ad-b9dae1414553::assets::32bb7070-05cf-11f1-b9b3-2be2a1774ffb/{imageVariant}"
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b10d6730-b0cb-11ef-a83d-2fd311609875/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::5b2a49f0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b1083710-b0cb-11ef-a935-89e3d6ba78e7/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::620de650-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::65fef6a0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::68cb0ef0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::6b3901b0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::6e502cc0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::83147d50-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::8b671300-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::91db72d0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::9b3a9680-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::a119e240-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::a5b34080-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::ab6f9af0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b0d793d0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b4113b00-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b7b38f10-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::bb3e3c70-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::c030b730-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::c5b782b0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::c90c7a10-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::cbd86b50-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::cebfd3d0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::d14a4f40-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::d2f58e40-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::d7c1e360-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::da6eb3e0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::ddc77bd0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::e03e9650-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::e461b320-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::e9338680-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::ebb8aac0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::eece4f30-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::f12ead60-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::f4543050-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::f6a59a60-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::f9ffe8f0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::fc99cdb0-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::ff050150-7781-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::022f6640-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::04e2c670-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::0760bec0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::0a617ba0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::0c2524a0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::0f0b54a0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::14a64460-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::17fdfae0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::1b4b7830-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::1e07d910-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::208c6110-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::2277b650-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::24eea9c0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::26f8aa90-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::292dda10-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::2b4ee550-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::2d49a3e0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::30239ee0-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::33038d50-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::35752990-7782-11f0-98ac-3bb22f2b71af/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::51019f40-7782-11f0-b8fd-355a2b7d5d19/{imageVariant}"
     ],
-    "make": "Galeon",
-    "model": "780 Crystal",
-    "maxCrew": 4,
-    "sleeps": 8,
+    "make": "Custom",
+    "model": "Custom",
+    "maxCrew": 12,
+    "sleeps": 21,
     "basePort": {
-      "uri": "a::place::dc73cc0c-b3ed-11ed-9841-325096b39f47",
-      "name": "Dubai",
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
       "coordinates": {
-        "latitude": 25.26847286447842,
-        "longitude": 55.28569800178445
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
       },
-      "country": "United Arab Emirates"
+      "country": "Croatia"
     },
-    "cruisingCapacity": 12,
-    "builtYear": 2018,
-    "cabinLayout": [],
-    "cabins": 4,
-    "length": 23.77
+    "cruisingCapacity": 21,
+    "staticCapacity": 51,
+    "builtYear": 2019,
+    "architect": "",
+    "interiorDesigner": "Natasa Grujic (NO.MAD DESIGN STUDIO)",
+    "refitYear": 2024,
+    "topSpeed": 11,
+    "cruiseSpeed": 8.5,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Master Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Convertible Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Triple Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 10,
+    "bathrooms": 10,
+    "decks": 4,
+    "length": 47.9,
+    "beam": 8.5,
+    "draft": 2.8,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 498,
+    "superStructure": [
+      "Steel"
+    ],
+    "engines": "2x 380 HP John Geere",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Wi-Fi"
+      },
+      {
+        "label": "Bathing Platform"
+      },
+      {
+        "label": "Kids' playroom"
+      },
+      {
+        "label": "Cinema Room"
+      },
+      {
+        "label": "Coffee machine"
+      },
+      {
+        "label": "Crane"
+      },
+      {
+        "label": "Outdoor shower"
+      },
+      {
+        "label": "Gym/Exercise equipment"
+      },
+      {
+        "label": "Fireplace"
+      },
+      {
+        "label": "Ice maker"
+      },
+      {
+        "label": "Indoor Audio System"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      },
+      {
+        "label": "Massage Room"
+      },
+      {
+        "label": "Outdoor Audio System"
+      },
+      {
+        "label": "Piano"
+      },
+      {
+        "label": "Sauna"
+      },
+      {
+        "label": "Spa"
+      },
+      {
+        "label": "Special diets"
+      },
+      {
+        "label": "Steam room"
+      },
+      {
+        "label": "Sun Deck"
+      },
+      {
+        "label": "Sun Loungers"
+      },
+      {
+        "label": "Swimming pool"
+      },
+      {
+        "label": "Turkish Bath"
+      },
+      {
+        "label": "TV all cabins"
+      },
+      {
+        "label": "TV master cabin"
+      },
+      {
+        "label": "TV saloon"
+      },
+      {
+        "label": "Water maker"
+      },
+      {
+        "label": "Cigar Lounge"
+      },
+      {
+        "label": "Beauty Lounge"
+      },
+      {
+        "label": "Fitness/Pilates Room"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Game Console"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Kayaks",
+        "quantity": 2
+      },
+      {
+        "label": "SeaBobs",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddle Boards",
+        "quantity": 2
+      },
+      {
+        "label": "Swimming platform"
+      },
+      {
+        "label": "Jet ski"
+      },
+      {
+        "label": "Water slide"
+      },
+      {
+        "label": "Light fishing gear"
+      },
+      {
+        "label": "Flyboard"
+      },
+      {
+        "label": "Tube ride"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Water ski"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "Indoor Audio System",
+      "Cinema Room",
+      "Outdoor Audio System",
+      "Piano",
+      "TV all cabins",
+      "TV master cabin",
+      "TV saloon",
+      "Game Console"
+    ],
+    "tenders": [
+      "1 x 21'4 / 6.5m Tender 175 HP engine",
+      "1 x 13'9 / 4.2m Tender 40 HP engine"
+    ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Toni Čagalj",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::a5401160-b0c5-11ef-bead-a92611910c01/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet Captain Toni, the 28-year-old master of the seas. With a passion for boats and the sea coursing through his veins, Toni's love for his craft is evident in every maneuver he makes.\n\n\nDespite his youth, Toni confidently commands the ship, steering and docking it with a skill that surpasses even his older colleagues. A doting father to two little girls, his dedication to his family mirrors his devotion to the ocean. In his free time, you'll often find Toni astride his motorcycle. No matter the challenge, Toni always has a solution up his sleeve, ready to tackle any problem that arises with calm assurance. With Captain Toni at the helm, every voyage is not just a journey across the sea, but an adventure."
+    },
+    {
+      "name": "Anđela Tićinović",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::ef8918c0-b0c5-11ef-a8c1-63d36712d182/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet our stewardess, Anđela, a 24-year-old bundle of sunshine who brings joy to every corner of the boat. With her smile and an infectious good mood, she radiates positivity wherever she goes. Having completed nursing school, she found her heart drawn to the sea and the enchanting world of boats. Her passion for the sea led her to pursue a career on board, where she discovered a new sense of fulfillment and adventure.\n\n\nFun-loving and spontaneous, she thrives on new challenges, always eager to dive headfirst into the next adventures. With her spirit and zest for life she will make every moment on board a delightful experience for passengers and crew alike."
+    },
+    {
+      "name": "Josip Bučević",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::2e87f550-b0c6-11ef-8d00-0b2d378d43c4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet our other chef Josip. He is a 26-year-old friendly and positive guy who is always ready to entertain guests with his charm and good vibes. He is a professional cook with a lot of working experience who pays a lot of attention to details. His adventurous and spontaneous spirit is always ready for new adventures, which is also why he fell in love with the sea and working on board. On the boat, you engage with many people and make a lot of new friendships, which suits Josips charming personality. With his spirit and passion for this job, he will make your experience on board unforgettable."
+    },
+    {
+      "name": "Stjepan Bartulović",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::5cb56660-b0c6-11ef-b8a6-f1cda1626069/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet our chef, Stjepan; he is 25 years old. He is a cook with a lot of experience in preparing different types of food (fish, meat, vegetarian and vegan). He has really good knowledge of preparing warm and cold appetizers (carpaccio, tartars, marinades, salads) and of course cakes and desserts. He is very dedicated to his work and open to new experiences. Stjepan is cheerful, communicative, and collegial. With his charming personality and positive energy, you will enjoy your stay on our boat."
+    },
+    {
+      "name": "Jakov Elez",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::b491ec50-b0c6-11ef-bbd6-ab515212aeb5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet Jakov, the 27-year-old heartthrob of the high seas, whose charm and politeness could melt even the iciest iceberg. With his rugged good looks and a smile that could light up a room, Jakov exudes positive energy wherever he goes, spreading warmth and cheer like sunshine on the water.\n\nIn every break of the navigation season, he's off on another adventure. Whether exploring bustling cities or hidden gems off the beaten path, Jakov's thirst for new experiences knows no bounds. With Jakov on board, every moment is an opportunity for laughter, friendship, and unforgettable memories. Whether he's shaking up a cocktail or sharing tales of his latest travels, one thing is certain: life on the high seas is never dull with Jakov around."
+    },
+    {
+      "name": "Dragana Obradović",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::f06b45f0-b0c6-11ef-94fa-8bfbde7ea3c7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Dragana, a vibrant 42-year-old from Belgrade, Serbia, pursued a successful career as a Pharmaceutical Technician known for her meticulous work and compassionate service. Despite her achievements, she craved adventure and a change of scenery. Embracing her energetic spirit, Dragana completed maritime training courses and transitioned to working on a boat. Now, with 7 years of experience in the maritime industry, she has become a professional in her field. Dragana inspires everyone she meets with her zest for life and commitment to following her heart."
+    },
+    {
+      "name": "Aleksandar Vorgić",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::1fcec600-b0c7-11ef-809b-95d0c4c6f601/{imageVariant}",
+      "role": "Captain",
+      "bio": "Aleksandar, a 35-year-old bartender from Novi Sad, Serbia, has spent the past 16 years honing his craft and exploring the world. Passionate about hospitality and mixology, he took his talents abroad to the UAE, working in a high-end cocktail bar. There, he embraced the local culture, learning new techniques and incorporating unique flavors into his drinks. His innovative cocktails and warm personality made him a favorite among patrons. Aleksandar's career led him to the luxurious locales of Abu Dhabi and Dubai, where his adaptability and passion for mixology shone through in his work."
+    },
+    {
+      "name": "Marija Savić",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::98d3e9e0-b0c7-11ef-8828-8dce61724a85/{imageVariant}",
+      "role": "Captain",
+      "bio": "Marija from Serbia, started her maritime journey 10 years ago, showcasing versatility and hard work. She has held various roles, including massage and beauty therapist, sailor, chef, and stewardess, each enriching her skills. As a sailing and boat lover, she worked on cruise ships, catamarans, and yachts. As massage therapist she exceeded guests expectations. In her free time, Marija enjoys reading, music, workingout and learning new skills especially in the field of massage to help others feel better."
+    },
+    {
+      "name": "Toni Perišić",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::05c7e970-b0c8-11ef-bdb1-4d456b62faea/{imageVariant}",
+      "role": "Captain",
+      "bio": "Meet Toni, the 24-year-old sailor with a heart of gold and a spirit as free as the wind. Sweet-natured and ever-ready to lend a hand, Toni is always there to offer support and assistance whenever it's needed. When he's not busy on deck, you'll find Toni indulging in his love for parties and cars. With a knack for handling vehicles like a pro. But it's not just the thrill of the ride that captivates Toni; every weekend during the offseason in Croatia, he is whipping up delicious meals for his family and friends. In Toni's world, every moment is a celebration of life's simple pleasures. He brings a ray of sunshine to even the stormiest seas."
+    },
+    {
+      "name": "Dineo Restović",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::68d10010-b0c8-11ef-9919-273f304ec183/{imageVariant}",
+      "role": "Captain",
+      "bio": "Dineo, born and raised in the coastal village of Krilo Jesenice, Croatia, was surrounded by the sea's rich heritage. His childhood was filled with the sights and sounds of the bustling harbor, sparking his fascination with boats and sailors. After completing his education, Dineo pursued a career in the maritime industry, starting as a deckhand on local small boats. Known for his hard work and natural sailing ability, he has worked on 7 boats so far. With his determination, Dineo is on track to achieve his dream of becoming a captain, inspiring others with his journey along the way."
+    },
+    {
+      "name": "Frane Mišerda",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::dc34a480-b0c8-11ef-89a3-791cc34768d1/{imageVariant}",
+      "role": "Captain",
+      "bio": "Frane, a native of Split, Croatia, spent seven years as a beloved bartender on the waterfront. Known for his charisma and excellent customer service, he charmed both locals and tourists alike. Despite enjoying his time behind the bar, Frane felt a strong pull towards the sea and adventure. Earlier this year, he took a bold step and enrolled in a sailing course, fulfilling his dream of working on the open sea. With dedication and enthusiasm, he earned his qualifications as a sailor. In his free time, Frane enjoys playing football with friends, a passion since childhood."
+    },
+    {
+      "name": "Iva Vukušić",
+      "avatar": "/media/media::image::c::8164602117::vessel::d5cc4dd6-fe8c-11ed-889f-43d4bb723744::assets::26cc4110-b0c9-11ef-8bef-c5bb0c485d88/{imageVariant}",
+      "role": "Captain",
+      "bio": "Iva is an intrepid explorer. Hailing from Šibenik, her professional path led to postal and financial services technician - until she got the call of adventure! Taking a break after high school, Iva set off for Iceland, ready to experience something new. After returning home, she worked in tourism before taking on another challenge this season by setting sail on the Adriatic Sea. Outside work hours, you can find Iva with friends and family, spending quality time together. When not wielding sails or fishing boat lines, Iva can be found exploring hobbies like photography and movie watching."
+    }
+  ],
   "pricing": {
-    "dayPricingFrom": {
-      "currency": "USD",
-      "price": 374700,
-      "displayCurrency": "USD",
-      "displayPrice": 374700,
-      "unit": "HOUR"
-    },
-    "dayPricingTo": {
-      "currency": "USD",
-      "price": 2248000,
-      "displayCurrency": "USD",
-      "displayPrice": 2248000,
-      "unit": "DAY"
-    },
     "weekPricingFrom": {
-      "currency": "USD",
-      "price": 15735700,
-      "displayCurrency": "USD",
-      "displayPrice": 15735700,
+      "currency": "EUR",
+      "price": 9000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
-      "currency": "USD",
-      "price": 15735700,
-      "displayCurrency": "USD",
-      "displayPrice": 15735700,
+      "currency": "EUR",
+      "price": 12500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "4 Hours",
+        "name": "2027 - Season A (From 17 April 2027 till 15 May 2027) & Season E (From 18 September 2027 till 24 October 2027)",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2027-04-17T00:00:00.000Z",
+            "to": "2027-05-15T23:59:59.999Z"
           },
           {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "from": "2027-09-18T00:00:00.000Z",
+            "to": "2027-10-24T23:59:59.999Z"
           }
         ],
         "pricing": {
-          "currency": "USD",
-          "charterFee": 374700,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "HOUR",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 374700,
-              "amount": 374700,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.05
-              }
-            }
-          ],
-          "total": 393435,
-          "subTotal": 374700,
-          "totalTax": 18735
-        },
-        "inclusionZones": [
-          {
-            "label": "United Arab Emirates",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "United Arab Emirates"
-            ],
-            "coordinates": [
-              54.24583194309796,
-              24.18786529531774
-            ],
-            "bbox": [
-              51.568359375,
-              22.621484374999994,
-              56.38798828125002,
-              26.068164062499996
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "8 Hours",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 749300,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 749300,
-              "amount": 749300,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.05
-              }
-            }
-          ],
-          "total": 786765,
-          "subTotal": 749300,
-          "totalTax": 37465
-        },
-        "inclusionZones": [
-          {
-            "label": "United Arab Emirates",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "United Arab Emirates"
-            ],
-            "coordinates": [
-              54.24583194309796,
-              24.18786529531774
-            ],
-            "bbox": [
-              51.568359375,
-              22.621484374999994,
-              56.38798828125002,
-              26.068164062499996
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "24 Hours",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 2248000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2248000,
-              "amount": 2248000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.05
-              }
-            }
-          ],
-          "total": 2360400,
-          "subTotal": 2248000,
-          "totalTax": 112400
-        },
-        "inclusionZones": [
-          {
-            "label": "United Arab Emirates",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "United Arab Emirates"
-            ],
-            "coordinates": [
-              54.24583194309796,
-              24.18786529531774
-            ],
-            "bbox": [
-              51.568359375,
-              22.621484374999994,
-              56.38798828125002,
-              26.068164062499996
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "1 Week",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 15735700,
-          "inputAmountTaxed": "EXCLUSIVE",
+          "currency": "EUR",
+          "charterFee": 9000000,
+          "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 15735700,
-              "amount": 15735700,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.05
-              }
+              "unitPrice": 9000000,
+              "amount": 9000000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 9000000,
+              "amount": 1170000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 9000000,
+              "amount": 2700000
             }
           ],
-          "total": 16522485,
-          "subTotal": 15735700,
-          "totalTax": 786785
+          "total": 12870000,
+          "subTotal": 12870000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
-            "label": "United Arab Emirates",
+            "label": "Croatia",
             "type": "Sovereign country",
             "category": [
-              "Asia",
-              "Western Asia",
-              "United Arab Emirates"
+              "Europe",
+              "Southern Europe",
+              "Croatia"
             ],
             "coordinates": [
-              54.24583194309796,
-              24.18786529531774
+              15.734076081803607,
+              43.82766941998277
             ],
             "bbox": [
-              51.568359375,
-              22.621484374999994,
-              56.38798828125002,
-              26.068164062499996
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 - Season B (From 15 May 2027 till 12 June 2027) & Season D (From 28 August 2027 till 18 September 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-05-15T00:00:00.000Z",
+            "to": "2027-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 11000000,
+              "amount": 1430000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "1",
+              "quantity": 0.3,
+              "unitPrice": 11000000,
+              "amount": 3300000
+            }
+          ],
+          "total": 15730000,
+          "subTotal": 15730000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 - Season C (From 12 June 2027 till 28 August 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-06-12T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 12500000,
+              "amount": 1625000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "1",
+              "quantity": 0.3,
+              "unitPrice": 12500000,
+              "amount": 3750000
+            }
+          ],
+          "total": 17875000,
+          "subTotal": 17875000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
             ]
           }
         ],

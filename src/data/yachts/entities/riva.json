@@ -1,0 +1,404 @@
+{
+  "lastModified": 1790319691324,
+  "uri": "c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Croatia\n\nA modern yet traditional family-owned yacht offers a carefree and fun luxury experience in Dalmatia in full privacy. She is able to accommodate up to 38 people so you can invite everyone you love or organize the ultimate event.",
+  "blueprint": {
+    "name": "RIVA",
+    "images": [
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::6f4b35a0-b0af-11ef-9401-cf94f36ba5e6/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::6482d360-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::67e49c00-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::6aea61f0-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::6dbb8350-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::711f95e0-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::73c47720-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::77a61e20-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::7cfd2710-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::8000a310-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::822e3170-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::84d1da30-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::87f53a40-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::8b4d17d0-7780-11f0-9528-a598d0dc817f/{imageVariant}",
+      "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::8df4b830-7780-11f0-9528-a598d0dc817f/{imageVariant}"
+    ],
+    "make": "Custom",
+    "model": "Custom",
+    "maxCrew": 12,
+    "sleeps": 38,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 36,
+    "staticCapacity": 36,
+    "builtYear": 2018,
+    "architect": "",
+    "interiorDesigner": "Marelna Dapcic",
+    "refitYear": "",
+    "topSpeed": 12,
+    "cruiseSpeed": 9,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": " VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "12"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Triple Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 18,
+    "bathrooms": 18,
+    "decks": 4,
+    "length": 48.2,
+    "beam": 8.6,
+    "draft": 2.5,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 499,
+    "superStructure": [
+      "Steel"
+    ],
+    "engines": "2x 500 HP Caterpillar",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Gym"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Jet ski"
+      },
+      {
+        "label": "Seascooter",
+        "quantity": "2"
+      },
+      {
+        "label": "Water Ski"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Ringo ride"
+      },
+      {
+        "label": "Paddleboards",
+        "quantity": "4"
+      },
+      {
+        "label": "Kayaks",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Dino Marković",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::5c01ba90-1385-11ef-821d-f1a8c6d3224a.jpeg/{imageVariant}",
+      "role": "Captain",
+      "bio": "Holding a Master’s license with over 12 years of experience in yachting, a highly experienced captain, Dino Marković is a reliable professional dedicated to providing an amazing charter experience. He possesses extensive knowledge of nautical operations, safety protocols, and procedures and handling navigation systems following local, state, and environmental regulations. He is committed to providing the best client service, delivering the best possible routes, and monitoring weather forecasts and conditions.\n\nPersonal interests:\nHis personal interests include fitness, skiing, fishing, and traveling.\n\nLanguages Spoken:\nEnglish, Croatian\n\nTestimonial:\nWe absolutely enjoyed our recent experience onboard Riva. The yacht was everything that we could have imagined and provided the perfect amount of luxury. Our trip was at the beginning of October, which is the perfect time to visit Croatia after the crowds have disappeared. We had great weather, low crowds, and an amazing experience. D. S., USA"
+    },
+    {
+      "name": "Ivan Rogulj",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::7ee527e0-1385-11ef-821d-f1a8c6d3224a.jpeg/{imageVariant}",
+      "role": "Chef",
+      "bio": "As a culinary maestro with more than 20 years of experience, chef Ivan Rogulj is passionate about creating and designing impressive dishes, combining flavors and textures with local ingredients. Off-season, he works in the top restaurants in Split, so he is kept up-to-date on the latest culinary trends and the best seasonal fare. He also designs a wide variety of menu selections, such as gluten-free or vegan menu options.\n\nDuring his leisure hours, the chef enjoys singing and all sorts of water sports.\n\nLanguages Spoken:\nEnglish, Croatian"
+    },
+    {
+      "name": "Ante Vuković",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::900a43b0-b0ac-11ef-aedc-d3b12da8081d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Armed with a Bachelor's degree in International Business from RIT Croatia, this individual is fluent in both English and German. Renowned for his strong work ethic, he maintains excellent communication with guests and readily assists them with any needs throughout their cruise experience.\n\nLanguages Spoken:\nEnglish, German, Croatian"
+    },
+    {
+      "name": "Igor",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::a1c82020-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Finished cooking school with over ten years of experience under his belt, best qualities in work ethic, meticulous and devoted to his work. Loves to play bocce in his spare time but kitchen is actually where he feels at home and at his best. Works great in team and brings a lots of creativity with his chef on Riva, making sure food they bring to our guests to the table is unique experience for them all to remember."
+    },
+    {
+      "name": "Andela",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::cab321b0-b0ae-11ef-ae85-695a9100093a/{imageVariant}",
+      "role": "Captain",
+      "bio": "Anđela has several years of tenure with Riva and projects an appealing and personable presence. She maintains a pristine and orderly environment, elevating the cleanliness of the interior to the highest standards. Proficient in both English and Croatian, she also holds a beautician certificate, having previously worked as a hairstylist."
+    },
+    {
+      "name": "Fedor",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::f46814e0-b0ac-11ef-a419-0fae6a595341/{imageVariant}",
+      "role": "Captain",
+      "bio": "Fedor is industrious and patient, possessing strong interpersonal abilities. He adeptly acclimates to new environments and thrives both within a team dynamic and independently. With extensive experience as a waiter across restaurants, hotels, and yachts, he brings a wealth of expertise to the table. Outside of work, he finds solace in music, and he is fluent in English, Serbian, and Hungarian."
+    },
+    {
+      "name": "Zsolt",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::8d111600-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Zsolt has been an integral part of Riva's crew since its inaugural voyage, honing his expertise in guest service continuously. Proficient in his field, he delights in conversing with guests, consistently striving to ensure their happiness, safety, and relaxation in the salon and beyond. He epitomizes professionalism, garnering excellent guest reviews that underscore his commitment to excellence."
+    },
+    {
+      "name": "Josip",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::7acf51a0-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "With over a decade of experience on sailing boats, fishing vessels, and cruise ships, he demonstrates unwavering professionalism and composure, always eager to aid his colleagues. His responsibilities encompass comprehensive ship maintenance and assisting the crew with deck tasks. Fluent in English and Croatian, he finds his greatest joy in spending time with his wife and two children, especially when they can travel together."
+    },
+    {
+      "name": "Ljubo",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::49d68100-b0ad-11ef-8b5e-874f8c1c1ba0/{imageVariant}",
+      "role": "Captain",
+      "bio": "This young man holds certifications as a chauffeur, waiter, and bellboy. He enjoys skiing, swimming, and fishing, and is proficient in English. With a strong work ethic, he excels in guest interactions and teamwork. He is knowledgeable in ship operations, particularly in anchoring. Amidst diverse responsibilities, he performs well under pressure, ensuring tasks are completed promptly and accurately."
+    },
+    {
+      "name": "Toni",
+      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::686931d0-b0ad-11ef-80a8-8b42eeae3f8e/{imageVariant}",
+      "role": "Captain",
+      "bio": "Our youthful sailor harbors a profound passion for the sea and sailing. With extensive prior roles as a waiter and sous-chef, he now contributes to ship maintenance while eagerly attending to guests during their voyages. Proficient in English, he delights in swimming and snorkeling as personal pastimes."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 7900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 9900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "2027 - Season A (From 17 April 2027 till 15 May 2027) & Season E (From 18 September 2027 till 23 October 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-04-17T00:00:00.000Z",
+            "to": "2027-05-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-18T00:00:00.000Z",
+            "to": "2027-10-23T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7900000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7900000,
+              "amount": 7900000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 7900000,
+              "amount": 1027000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "1",
+              "quantity": 0.3,
+              "unitPrice": 7900000,
+              "amount": 2370000
+            }
+          ],
+          "total": 11297000,
+          "subTotal": 11297000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 - Season B (From 15 May 2027 till 26 June 2027) & Season D (From 28 August 2027 till 18 September 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-05-15T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8900000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8900000,
+              "amount": 8900000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 8900000,
+              "amount": 1157000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "1",
+              "quantity": 0.3,
+              "unitPrice": 8900000,
+              "amount": 2670000
+            }
+          ],
+          "total": 12727000,
+          "subTotal": 12727000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 - Season C (From 26 June 2027 till 28 August 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9900000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9900000,
+              "amount": 9900000,
+              "conditions": "1"
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "1",
+              "quantity": 0.13,
+              "unitPrice": 9900000,
+              "amount": 1287000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "1",
+              "quantity": 0.3,
+              "unitPrice": 9900000,
+              "amount": 2970000
+            }
+          ],
+          "total": 14157000,
+          "subTotal": 14157000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

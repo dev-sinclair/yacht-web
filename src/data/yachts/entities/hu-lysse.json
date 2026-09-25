@@ -1,0 +1,1232 @@
+{
+  "lastModified": 1790329063315,
+  "uri": "c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Summer 2026/2027 Operating Area: Corsica, French Riviera & Monaco, Provence Coast & Marseille Baltic Sea, Denmark, Norway, Sweden\nWinter Operating Area: Bermuda, Dominican Republic, Leeward Islands, Trinidad & Tobago, Turks and Caicos, Windward Islands\n\n\nHu-Lysse is a brand-new Sunreef 80 Eco created for exceptional charter experiences in some of the world’s most desirable cruising destinations. With four beautifully appointed cabins, expansive living areas and a refined contemporary interior, she offers an exceptional setting for families and friends to enjoy complete comfort and privacy at sea.\n\nFrom summer escapes across the Mediterranean to winter cruising in the Caribbean, Hu-Lysse brings together generous outdoor spaces, sophisticated design and the unmistakable luxury of the Sunreef 80 Eco. Whether relaxing on deck, dining alfresco or retreating to the privacy of her elegant interiors, every element of life on board is designed around effortless enjoyment.",
+  "blueprint": {
+    "name": "HU-LYSSE",
+    "images": [
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583576d0-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5835ec00-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5834b380-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583a31c0-b8bb-11f1-af94-8b15000c5cb8/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583835f0-b8bb-11f1-af94-8b15000c5cb8/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583fd710-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::58399580-b8bb-11f1-af94-8b15000c5cb8/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5839bc90-b8bb-11f1-af95-8b15000c5cb8/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::58392050-b8bb-11f1-af94-8b15000c5cb8/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5836af50-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::58394760-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::58380ee0-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5841d2e0-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::5836d660-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583835f0-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}",
+      "/media/media::image::a::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::583f61e0-b8bb-11f1-8f13-697063b2d1d1/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "model": "Sunreef 80 Eco",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::27c2825c-b3ee-11ed-b95c-325096b39f47",
+      "name": "Sète",
+      "coordinates": {
+        "latitude": 43.40142429541574,
+        "longitude": 3.69912175594326
+      },
+      "country": "France"
+    },
+    "cruisingCapacity": 8,
+    "builtYear": 2026,
+    "architect": "Sunreef Yachts",
+    "interiorDesigner": "Sunreef Yachts",
+    "refitYear": 0,
+    "topSpeed": 12,
+    "cruiseSpeed": 8,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "length": 23.99,
+    "beam": 11.6,
+    "draft": 2.8,
+    "hullType": "Multi hull",
+    "hullConstruction": "GRP",
+    "tonnage": 149,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2 x Engiro 120 kW electric propulsion motors",
+    "amenities": [
+      {
+        "label": "Safe"
+      },
+      {
+        "label": "Solar panels"
+      },
+      {
+        "label": "Watermakers"
+      },
+      {
+        "label": "Air conditioning"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SeaBobs",
+        "quantity": "2"
+      },
+      {
+        "label": "e-Foil",
+        "quantity": "1"
+      },
+      {
+        "label": "Waterskis"
+      },
+      {
+        "label": "Monoskis"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Towables"
+      },
+      {
+        "label": "Kayak"
+      },
+      {
+        "label": "Complete snorkeling gear"
+      }
+    ],
+    "entertainment": [
+      "TV",
+      "4/5G Internet",
+      "Movies library",
+      "Music library",
+      "Outdoor cinema",
+      "Outdoor sound system",
+      "Smart TV",
+      "Starlink",
+      "Bluetooth speakers/sound system connection"
+    ],
+    "tenders": [
+      "Highfield Classic 460"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Maël Ponsard",
+      "avatar": "/media/media::image::c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::75422a40-b8c3-11f1-9343-5b51906720aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: French, English\n\nMaël is a French captain with extensive experience across both sailing and motor yachts, combining strong technical knowledge with a genuine passion for life at sea. \n\nHolding a Master 500 GT licence as well as an Engineer 250 kW qualification, he has commanded yachts ranging from sailing catamarans to larger performance yachts, most recently a 109-foot sailing yacht. His career has taken him across the  Mediterranean, Caribbean, Atlantic and Pacific, including several ocean crossings and numerous seasons operating private and charter yachts. \n\nHis background on sailing catamarans is particularly extensive, with  several seasons as captain aboard yachts between 52 and 70 feet, as  well as an Atlantic crossing from Corsica to Martinique. This experience\ngives him a strong understanding of both sailing and the relaxed lifestyle associated with cruising aboard a catamaran.\n\nCalm, approachable and highly attentive to safety, Maël enjoys creating itineraries around the preferences of his guests and sharing his knowledge of anchorages, coastlines and local culture. His experience \nin guest service, yacht maintenance and technical operations allows him to oversee every aspect of life aboard with confidence and discretion.\n\nAway from the helm, Maël is passionate about outdoor pursuits and remains closely connected to the ocean through kitesurfing. He also enjoys skiing, cycling and beekeeping.\n\n"
+    },
+    {
+      "name": "Mathis Troubat",
+      "avatar": "/media/media::image::c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::b5de1f90-b8c4-11f1-9343-5b51906720aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: French, English\n\nFrench chef Mathis Troubat brings seven years of experience spanning Michelin-starred restaurants, luxury yachts and private chalets across France, Australia and Canada.\n\nA graduate of the Bernard Loiseau Culinary School, Mathis developed his foundations in demanding restaurant kitchens before expanding his experience internationally. His career includes Maison Clovis in Lyon, a Michelin-starred restaurant, Adler Restaurant in Germany with twoMichelin stars, and Melbourne’s acclaimed Vue de Monde, where he worked within one of Australia’s leading fine-dining kitchens.\n\nHis transition into private hospitality and yachting has allowed him to develop a more personal approach to cooking. Mathis has worked as sole chef aboard both private and charter yachts, including the 131-foot M/Y Impulsive in Australia and the 82-foot M/Y Imagine in the  Mediterranean. He has also spent several winter seasons as a private chalet chef in Megève, taking full responsibility for menu creation, provisioning and daily dining.\n\nMediterranean cuisine sits naturally at the centre of his cooking, with an emphasis on fresh seasonal produce, seafood and carefully balanced dishes. His international restaurant experience also allows him to adapt his menus to different preferences and styles, from relaxed sharing lunches to more elaborate plated dinners.\n\nFor Mathis, dining is an important part of the experience aboard Hu Lysse, particularly with the yacht’s open main-deck galley placing cuisine at the heart of life on board."
+    },
+    {
+      "name": "Mattéo Ravon",
+      "avatar": "/media/media::image::c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::8b6970c0-b8c4-11f1-9343-5b51906720aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: Spanish, French, English\n\nMattéo brings a strong sailing background and an adventurous spirit to Hu-Lysse. \n\nA French Captain 200 graduate, he has developed his experience through offshore passages, sailing yachts, catamarans and demanding long-distance deliveries.\n\nHis recent experience includes serving as second captain aboard a Lagoon 77 during a passage from the Maldives to South Africa, as well as crossing the Atlantic aboard a Sunreef 80 from Toulon to Saint \nMartin. He also participated in the delivery of a new Sunreef 80 from Gdańsk to Saint-Tropez, giving him valuable first-hand experience with large Sunreef sailing catamarans.\n\nBefore moving into larger yachts, Mattéo spent several years sailing around Réunion Island, the Canary Islands and the Mediterranean, participating in local regattas and developing a strong practical\nunderstanding of sailing, manoeuvring, maintenance and seamanship. Energetic and naturally comfortable around the water, he particularly enjoys the active side of life on board. His experience includes fishing,\nwatersports, beach club operations and assisting guests with water activities, making him a natural presence on deck and around HuLysse’s extensive selection of toys.\n\nA keen sailor and surfer, Mattéo also enjoys paddleboarding, fishing, travelling and playing guitar."
+    },
+    {
+      "name": "Alixia Mazza",
+      "avatar": "/media/media::image::c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd::assets::a2e7b130-b8c4-11f1-9343-5b51906720aa/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: French\nLanguages: French, English\n\nAlixia brings a particularly versatile background to Hu-Lysse, combining interior service, deck operations and professional culinary experience.\n\nWith six years of maritime experience, she has worked aboard sailing catamarans and motor yachts across the Mediterranean, Caribbean and Pacific. Her career includes several seasons aboard Pershing  yachts, catamarans between 40 and 70 feet and, most recently, the 109-foot sailing yacht Inoui.\n\nHer broad experience makes her comfortable across several aspects of life on board. She has worked as a sole stewardess, deckhand and chef, gaining experience in guest service, housekeeping, yacht maintenance, tender operations, sailing manoeuvres and the supervision of water toys.\n\nAlixia also has a genuine passion for food. During her most recent position aboard Inoui, she worked as head chef, preparing Mediterranean and Asian-inspired cuisine for owners and guests, and \nshe has completed dedicated sushi training in Marseille. This culinary understanding is a valuable complement to her hospitality experience and gives her an excellent appreciation of the details involved in food and beverage service.\n\nFriendly, organised and attentive, Alixia enjoys creating a relaxed atmosphere while maintaining the standards expected aboard a luxury yacht. Outside yachting, she enjoys photography, hiking, kitesurfing,\nrollerblading and outdoor activities."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 8000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 11000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 11000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer 2026/2027: Mediterranean - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-06-15T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-15T00:00:00.000Z",
+            "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-15T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9000000,
+              "amount": 9000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 9000000,
+              "amount": 2250000
+            }
+          ],
+          "total": 11250000,
+          "subTotal": 11250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          },
+          {
+            "label": "Baltic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Baltic Sea"
+            ],
+            "coordinates": [
+              18.699664146503356,
+              56.88707696372612
+            ],
+            "bbox": [
+              12.056398521541183,
+              53.92477081971053,
+              23.481388787538435,
+              59.82234365502059
+            ]
+          },
+          {
+            "label": "Denmark",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Denmark"
+            ],
+            "coordinates": [
+              10.322724054896476,
+              56.02034648361997
+            ],
+            "bbox": [
+              8.121484375000023,
+              54.628857421875,
+              12.665722656250011,
+              57.7369140625
+            ]
+          },
+          {
+            "label": "Norway",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Norway"
+            ],
+            "coordinates": [
+              10.15828968596516,
+              64.42184619753095
+            ],
+            "bbox": [
+              0.7268047279745772,
+              56.831468417019046,
+              27.669960216576666,
+              71.28757225344017
+            ]
+          },
+          {
+            "label": "Sweden",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Sweden"
+            ],
+            "coordinates": [
+              17.284102942335753,
+              62.45794081354493
+            ],
+            "bbox": [
+              11.147167968750011,
+              55.34638671875,
+              24.15546875000001,
+              69.036865234375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer 2026/2027: Mediterranean - Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8000000,
+              "amount": 8000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 8000000,
+              "amount": 2000000
+            }
+          ],
+          "total": 10000000,
+          "subTotal": 10000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
+            "type": "Custom Area",
+            "category": [
+              "Marseille"
+            ],
+            "coordinates": [
+              5.408333000000001,
+              43.370833499999996
+            ],
+            "bbox": [
+              5.183333,
+              43.216667,
+              5.633333,
+              43.525
+            ]
+          },
+          {
+            "label": "Baltic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Baltic Sea"
+            ],
+            "coordinates": [
+              18.699664146503356,
+              56.88707696372612
+            ],
+            "bbox": [
+              12.056398521541183,
+              53.92477081971053,
+              23.481388787538435,
+              59.82234365502059
+            ]
+          },
+          {
+            "label": "Denmark",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Denmark"
+            ],
+            "coordinates": [
+              10.322724054896476,
+              56.02034648361997
+            ],
+            "bbox": [
+              8.121484375000023,
+              54.628857421875,
+              12.665722656250011,
+              57.7369140625
+            ]
+          },
+          {
+            "label": "Norway",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Norway"
+            ],
+            "coordinates": [
+              10.15828968596516,
+              64.42184619753095
+            ],
+            "bbox": [
+              0.7268047279745772,
+              56.831468417019046,
+              27.669960216576666,
+              71.28757225344017
+            ]
+          },
+          {
+            "label": "Sweden",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Northern Europe",
+              "Sweden"
+            ],
+            "coordinates": [
+              17.284102942335753,
+              62.45794081354493
+            ],
+            "bbox": [
+              11.147167968750011,
+              55.34638671875,
+              24.15546875000001,
+              69.036865234375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: Caribbean - High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-12-24T00:00:00.000Z",
+            "to": "2026-12-28T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-24T00:00:00.000Z",
+            "to": "2027-12-28T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-24T00:00:00.000Z",
+            "to": "2028-12-28T23:59:59.999Z"
+          },
+          {
+            "from": "2026-12-28T00:00:00.000Z",
+            "to": "2027-01-04T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-28T00:00:00.000Z",
+            "to": "2028-01-04T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-28T00:00:00.000Z",
+            "to": "2029-01-04T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 11000000,
+              "amount": 2750000
+            }
+          ],
+          "total": 13750000,
+          "subTotal": 13750000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bermuda",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Northern America",
+              "Bermuda"
+            ],
+            "coordinates": [
+              -64.75455889816416,
+              32.31367802083388
+            ],
+            "bbox": [
+              -64.86284179687499,
+              32.259619140625,
+              -64.66831054687499,
+              32.3869140625
+            ]
+          },
+          {
+            "label": "Dominican Rep.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominican Rep."
+            ],
+            "coordinates": [
+              -70.29945734237637,
+              18.769933679840978
+            ],
+            "bbox": [
+              -71.7322896875,
+              17.450232298814154,
+              -68.23883056640626,
+              20.251890313952938
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Grenada",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Grenada"
+            ],
+            "coordinates": [
+              -61.60167506522682,
+              12.214096331239896
+            ],
+            "bbox": [
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          },
+          {
+            "label": "Montserrat",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Montserrat"
+            ],
+            "coordinates": [
+              -62.191025093421224,
+              16.754357458611935
+            ],
+            "bbox": [
+              -62.27668762207032,
+              16.638823475728422,
+              -62.099533081054695,
+              16.866976511257572
+            ]
+          },
+          {
+            "label": "Kingstown, Saint Vincent and the Grenadines",
+            "type": "Custom Area",
+            "category": [
+              "Kingstown"
+            ],
+            "coordinates": [
+              -61.199999999999996,
+              13.15
+            ],
+            "bbox": [
+              -61.241667,
+              13.125,
+              -61.158333,
+              13.175
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.81835033282677,
+              18.032348075628196
+            ],
+            "bbox": [
+              -65.10910034179689,
+              17.642058984050035,
+              -64.50416564941408,
+              18.42619909233086
+            ]
+          },
+          {
+            "label": "Trinidad and Tobago",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Trinidad and Tobago"
+            ],
+            "coordinates": [
+              -61.19769109594885,
+              10.698753121460852
+            ],
+            "bbox": [
+              -61.96289062500001,
+              10.022948394510154,
+              -60.41931152343751,
+              11.453107022219326
+            ]
+          },
+          {
+            "label": "Turks and Caicos Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Turks and Caicos Is."
+            ],
+            "coordinates": [
+              -71.71969191464424,
+              21.619918216924777
+            ],
+            "bbox": [
+              -72.55096435546876,
+              21.10756260038154,
+              -70.80963134765626,
+              22.093274832590485
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Winter 2026/2027: Caribbean - Regular Rate",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9000000,
+              "amount": 9000000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 9000000,
+              "amount": 2250000
+            }
+          ],
+          "total": 11250000,
+          "subTotal": 11250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Bermuda",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Northern America",
+              "Bermuda"
+            ],
+            "coordinates": [
+              -64.75455889816416,
+              32.31367802083388
+            ],
+            "bbox": [
+              -64.86284179687499,
+              32.259619140625,
+              -64.66831054687499,
+              32.3869140625
+            ]
+          },
+          {
+            "label": "Dominica",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominica"
+            ],
+            "coordinates": [
+              -61.31250105303121,
+              15.43203340576432
+            ],
+            "bbox": [
+              -61.63330078125001,
+              15.125158878585296,
+              -60.96862792968751,
+              15.734101177322788
+            ]
+          },
+          {
+            "label": "Dominican Rep.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Dominican Rep."
+            ],
+            "coordinates": [
+              -70.29945734237637,
+              18.769933679840978
+            ],
+            "bbox": [
+              -71.7322896875,
+              17.450232298814154,
+              -68.23883056640626,
+              20.251890313952938
+            ]
+          },
+          {
+            "label": "Antigua and Barb.",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Antigua and Barb."
+            ],
+            "coordinates": [
+              -61.78188695453542,
+              17.337962066332786
+            ],
+            "bbox": [
+              -61.94503784179688,
+              16.959605804561793,
+              -61.57974243164063,
+              17.761765435716345
+            ]
+          },
+          {
+            "label": "St. Kitts and Nevis",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "St. Kitts and Nevis"
+            ],
+            "coordinates": [
+              -62.700514773985546,
+              17.252695976679803
+            ],
+            "bbox": [
+              -62.93861389160157,
+              17.025929237974147,
+              -62.453842163085945,
+              17.484291431493666
+            ]
+          },
+          {
+            "label": "Saint Lucia",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Saint Lucia"
+            ],
+            "coordinates": [
+              -60.95638393255735,
+              13.892410380056221
+            ],
+            "bbox": [
+              -61.17736816406251,
+              13.604612895598308,
+              -60.71456909179688,
+              14.151223909231819
+            ]
+          },
+          {
+            "label": "Grenada",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Grenada"
+            ],
+            "coordinates": [
+              -61.60167506522682,
+              12.214096331239896
+            ],
+            "bbox": [
+              -61.85165405273438,
+              11.922446824129871,
+              -61.37100219726563,
+              12.577350251603413
+            ]
+          },
+          {
+            "label": "Montserrat",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Montserrat"
+            ],
+            "coordinates": [
+              -62.191025093421224,
+              16.754357458611935
+            ],
+            "bbox": [
+              -62.27668762207032,
+              16.638823475728422,
+              -62.099533081054695,
+              16.866976511257572
+            ]
+          },
+          {
+            "label": "Kingstown, Saint Vincent and the Grenadines",
+            "type": "Custom Area",
+            "category": [
+              "Kingstown"
+            ],
+            "coordinates": [
+              -61.199999999999996,
+              13.15
+            ],
+            "bbox": [
+              -61.241667,
+              13.125,
+              -61.158333,
+              13.175
+            ]
+          },
+          {
+            "label": "Guadeloupe",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Guadeloupe"
+            ],
+            "coordinates": [
+              -61.47423111619004,
+              16.176202525655302
+            ],
+            "bbox": [
+              -61.794091796874994,
+              15.886035156250003,
+              -61.172607421875,
+              16.506640625000003
+            ]
+          },
+          {
+            "label": "British Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "British Virgin Is."
+            ],
+            "coordinates": [
+              -64.49227394002254,
+              18.551988899151098
+            ],
+            "bbox": [
+              -64.78706359863283,
+              18.316070168322522,
+              -64.22744750976564,
+              18.817267538160497
+            ]
+          },
+          {
+            "label": "U.S. Virgin Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "U.S. Virgin Is."
+            ],
+            "coordinates": [
+              -64.81835033282677,
+              18.032348075628196
+            ],
+            "bbox": [
+              -65.10910034179689,
+              17.642058984050035,
+              -64.50416564941408,
+              18.42619909233086
+            ]
+          },
+          {
+            "label": "Turks and Caicos Is.",
+            "type": "Dependency",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Turks and Caicos Is."
+            ],
+            "coordinates": [
+              -71.71969191464424,
+              21.619918216924777
+            ],
+            "bbox": [
+              -72.55096435546876,
+              21.10756260038154,
+              -70.80963134765626,
+              22.093274832590485
+            ]
+          },
+          {
+            "label": "Trinidad and Tobago",
+            "type": "Sovereign country",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Trinidad and Tobago"
+            ],
+            "coordinates": [
+              -61.19769109594885,
+              10.698753121460852
+            ],
+            "bbox": [
+              -61.96289062500001,
+              10.022948394510154,
+              -60.41931152343751,
+              11.453107022219326
+            ]
+          },
+          {
+            "label": "Martinique",
+            "type": "Geo unit",
+            "category": [
+              "North America",
+              "Caribbean",
+              "Martinique"
+            ],
+            "coordinates": [
+              -61.02100535627902,
+              14.658030130120972
+            ],
+            "bbox": [
+              -61.2197265625,
+              14.42626953125,
+              -60.82626953124999,
+              14.875292968750003
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
