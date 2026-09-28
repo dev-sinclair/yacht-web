@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784195329850,
+  "lastModified": 1790590607983,
   "uri": "c::7579668770::vessel::e10c78e0-7346-11ee-b561-01cbd2592e0b",
   "yachtType": [
     "Sailing",
@@ -195,39 +195,20 @@
         },
         "inclusionZones": [
           {
-            "label": "Balearic Sea",
+            "label": "Athens, Attiki, Greece",
             "type": "Custom Area",
             "category": [
-              "Balearic Sea"
+              "Athens"
             ],
             "coordinates": [
-              2.000410764306259,
-              40.062001742279
+              23.754167000000002,
+              38.033333
             ],
             "bbox": [
-              -0.32899247883295857,
-              38.65937185317806,
-              4.2816304866803705,
-              41.96296865494908
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
+              23.591667,
+              37.908333,
+              23.916667,
+              38.158333
             ]
           }
         ],
@@ -263,39 +244,20 @@
         },
         "inclusionZones": [
           {
-            "label": "Balearic Sea",
+            "label": "Athens, Attiki, Greece",
             "type": "Custom Area",
             "category": [
-              "Balearic Sea"
+              "Athens"
             ],
             "coordinates": [
-              2.000410764306259,
-              40.062001742279
+              23.754167000000002,
+              38.033333
             ],
             "bbox": [
-              -0.32899247883295857,
-              38.65937185317806,
-              4.2816304866803705,
-              41.96296865494908
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
+              23.591667,
+              37.908333,
+              23.916667,
+              38.158333
             ]
           }
         ],

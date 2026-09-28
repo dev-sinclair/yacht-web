@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788861402121,
+  "lastModified": 1790591520534,
   "uri": "c::7579668770::vessel::d5cc24c7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -152,20 +152,7 @@
     "pricingInfo": [
       {
         "name": "Low Season (Mediterranean) - Summer Price",
-        "effectiveDates": [
-          {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          }
-        ],
+        "effectiveDates": [],
         "pricing": {
           "currency": "EUR",
           "charterFee": 3000000,
@@ -192,120 +179,13 @@
           "subTotal": 3000000,
           "totalTax": 0
         },
-        "inclusionZones": [
-          {
-            "label": "Corsica",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Corsica"
-            ],
-            "coordinates": [
-              9.104917129771797,
-              42.161865413836736
-            ],
-            "bbox": [
-              8.565625000000011,
-              41.384912109374994,
-              9.556445312500017,
-              43.021484375
-            ]
-          },
-          {
-            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
-            "type": "Custom Area",
-            "category": [
-              "Marseille"
-            ],
-            "coordinates": [
-              5.408333000000001,
-              43.370833499999996
-            ],
-            "bbox": [
-              5.183333,
-              43.216667,
-              5.633333,
-              43.525
-            ]
-          },
-          {
-            "label": "Balearic Is.",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Balearic Is."
-            ],
-            "coordinates": [
-              2.7062917614011006,
-              39.434712886284295
-            ],
-            "bbox": [
-              1.2233398437500114,
-              38.658837890624994,
-              4.322070312500017,
-              40.075097656249994
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          }
-        ],
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
         "name": "High Season (Mediterranean) - Summer Price",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
-          }
-        ],
+        "effectiveDates": [],
         "pricing": {
           "currency": "EUR",
           "charterFee": 3400000,
@@ -332,99 +212,7 @@
           "subTotal": 3400000,
           "totalTax": 0
         },
-        "inclusionZones": [
-          {
-            "label": "Balearic Sea",
-            "type": "Custom Area",
-            "category": [
-              "Balearic Sea"
-            ],
-            "coordinates": [
-              2.000410764306259,
-              40.062001742279
-            ],
-            "bbox": [
-              -0.32899247883295857,
-              38.65937185317806,
-              4.2816304866803705,
-              41.96296865494908
-            ]
-          },
-          {
-            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
-            "type": "Custom Area",
-            "category": [
-              "Marseille"
-            ],
-            "coordinates": [
-              5.408333000000001,
-              43.370833499999996
-            ],
-            "bbox": [
-              5.183333,
-              43.216667,
-              5.633333,
-              43.525
-            ]
-          },
-          {
-            "label": "Corsica",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Corsica"
-            ],
-            "coordinates": [
-              9.104917129771797,
-              42.161865413836736
-            ],
-            "bbox": [
-              8.565625000000011,
-              41.384912109374994,
-              9.556445312500017,
-              43.021484375
-            ]
-          },
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          }
-        ],
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       }
