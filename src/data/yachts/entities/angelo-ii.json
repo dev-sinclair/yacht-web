@@ -1,5 +1,5 @@
 {
-  "lastModified": 1779708199674,
+  "lastModified": 1790605594255,
   "uri": "c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -18,20 +18,17 @@
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::cee55cd0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::cf9ced00-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d04c8df0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d50f9440-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d72554e0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d40d1860-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d7e0dcb0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d95442d0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d883ac60-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::d3211350-bb3f-11f1-8d45-3daee77cfbbb/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::dbb40d60-bb3f-11f1-8d45-3daee77cfbbb/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::ba289cb0-bb44-11f1-9a44-59dc22ca4efb/{imageVariant}",
+      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::ba2875a0-bb44-11f1-9a45-59dc22ca4efb/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::dbbdc8c0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::dc8adcc0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::dd3f5fb0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::e04a7cd0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::e141ae10-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::de44c1c0-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::e1f8f020-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::e2c19750-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}"
+      "/media/media::image::c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744::assets::e1f8f020-a006-11ee-ad56-b1760ad54800.jpeg/{imageVariant}"
     ],
     "make": "Custom - Tuzla Shipyard",
     "model": "",
@@ -171,16 +168,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2400000,
+      "price": 2650000,
       "displayCurrency": "EUR",
-      "displayPrice": 2400000,
+      "displayPrice": 2650000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3250000,
+      "price": 3500000,
       "displayCurrency": "EUR",
-      "displayPrice": 3250000,
+      "displayPrice": 3500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -188,16 +185,12 @@
         "name": "Low Season",
         "effectiveDates": [
           {
-            "from": "2025-10-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
+            "from": "2027-05-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
             "from": "2027-10-01T00:00:00.000Z",
-            "to": "2028-05-31T23:59:59.999Z"
+            "to": "2027-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -208,8 +201,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2400000,
-              "amount": 2400000,
+              "unitPrice": 2650000,
+              "amount": 2650000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -219,10 +212,10 @@
               "amount": 0
             }
           ],
-          "subTotal": 2400000,
+          "subTotal": 2650000,
           "totalTax": 0,
-          "total": 2400000,
-          "charterFee": 2400000
+          "total": 2650000,
+          "charterFee": 2650000
         },
         "inclusionZones": [
           {
@@ -269,28 +262,12 @@
         "name": "Mid Season",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -301,8 +278,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2850000,
-              "amount": 2850000,
+              "unitPrice": 3150000,
+              "amount": 3150000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -312,10 +289,10 @@
               "amount": 0
             }
           ],
-          "subTotal": 2850000,
+          "subTotal": 3150000,
           "totalTax": 0,
-          "total": 2850000,
-          "charterFee": 2850000
+          "total": 3150000,
+          "charterFee": 3150000
         },
         "inclusionZones": [
           {
@@ -362,34 +339,26 @@
         "name": "High Season",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
           "inputAmountTaxed": "EXCLUSIVE",
-          "subTotal": 3250000,
+          "subTotal": 3500000,
           "totalTax": 0,
-          "total": 3250000,
+          "total": 3500000,
           "lineItems": [
             {
               "item": "Charter Fee",
               "conditions": "VAT & APA Excluded",
               "quantity": 1,
-              "unitPrice": 3250000,
-              "amount": 3250000
+              "unitPrice": 3500000,
+              "amount": 3500000
             }
           ],
-          "charterFee": 3250000,
+          "charterFee": 3500000,
           "unit": "WEEK"
         },
         "inclusionZones": [
