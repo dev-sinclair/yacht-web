@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789397545923,
+  "lastModified": 1790671838467,
   "uri": "c::7579668770::vessel::d5cc77ca-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -240,312 +240,12 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 20000000,
+      "price": 19500000,
       "displayCurrency": "EUR",
-      "displayPrice": 20000000,
+      "displayPrice": 19500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
-      {
-        "name": "Winter 2025/26",
-        "effectiveDates": [
-          {
-            "from": "2025-12-15T00:00:00.000Z",
-            "to": "2026-04-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 15000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 15000000,
-              "amount": 15000000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 15000000,
-          "subTotal": 15000000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Antigua and Barb.",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Antigua and Barb."
-            ],
-            "coordinates": [
-              -61.78188695453542,
-              17.337962066332786
-            ],
-            "bbox": [
-              -61.94503784179688,
-              16.959605804561793,
-              -61.57974243164063,
-              17.761765435716345
-            ]
-          },
-          {
-            "label": "St-Martin",
-            "type": "Dependency",
-            "category": [
-              "North America",
-              "Caribbean",
-              "St-Martin"
-            ],
-            "coordinates": [
-              -63.03917430829937,
-              18.087081908871948
-            ],
-            "bbox": [
-              -63.14684,
-              18.033391,
-              -62.96607971191407,
-              18.13231194655747
-            ]
-          },
-          {
-            "label": "St-Barthélemy",
-            "type": "Dependency",
-            "category": [
-              "North America",
-              "Caribbean",
-              "St-Barthélemy"
-            ],
-            "coordinates": [
-              -62.84067778842013,
-              17.898804511167977
-            ],
-            "bbox": [
-              -62.875439453125,
-              17.875195312499997,
-              -62.799707031249994,
-              17.922265624999994
-            ]
-          },
-          {
-            "label": "Martinique",
-            "type": "Geo unit",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Martinique"
-            ],
-            "coordinates": [
-              -61.02100535627902,
-              14.658030130120972
-            ],
-            "bbox": [
-              -61.2197265625,
-              14.42626953125,
-              -60.82626953124999,
-              14.875292968750003
-            ]
-          },
-          {
-            "label": "Guadeloupe",
-            "type": "Geo unit",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Guadeloupe"
-            ],
-            "coordinates": [
-              -61.47423111619004,
-              16.176202525655302
-            ],
-            "bbox": [
-              -61.794091796874994,
-              15.886035156250003,
-              -61.172607421875,
-              16.506640625000003
-            ]
-          },
-          {
-            "label": "St. Vin. and Gren.",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "St. Vin. and Gren."
-            ],
-            "coordinates": [
-              -61.26189763163699,
-              13.007914570142447
-            ],
-            "bbox": [
-              -61.47674560546876,
-              12.537137025451154,
-              -61.06819152832031,
-              13.42234843387463
-            ]
-          },
-          {
-            "label": "British Virgin Is.",
-            "type": "Dependency",
-            "category": [
-              "North America",
-              "Caribbean",
-              "British Virgin Is."
-            ],
-            "coordinates": [
-              -64.49227394002254,
-              18.551988899151098
-            ],
-            "bbox": [
-              -64.78706359863283,
-              18.316070168322522,
-              -64.22744750976564,
-              18.817267538160497
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Summer 2026",
-        "effectiveDates": [
-          {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-05-01T00:00:00.000Z",
-            "to": "2027-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-05-01T00:00:00.000Z",
-            "to": "2028-10-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 15000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 15000000,
-              "amount": 15000000,
-              "conditions": "VAT & APA Excluded"
-            }
-          ],
-          "total": 15000000,
-          "subTotal": 15000000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          },
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "Winter 2026/2027",
         "effectiveDates": [
@@ -783,7 +483,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 20000000,
+          "charterFee": 19500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -791,13 +491,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 20000000,
-              "amount": 20000000,
+              "unitPrice": 19500000,
+              "amount": 19500000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 20000000,
-          "subTotal": 20000000,
+          "total": 19500000,
+          "subTotal": 19500000,
           "totalTax": 0
         },
         "inclusionZones": [

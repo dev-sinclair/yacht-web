@@ -1,11 +1,11 @@
 {
-  "lastModified": 1782250225188,
+  "lastModified": 1790677176314,
   "uri": "c::7580644139::vessel::d5cbfba7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
     "Sailing"
   ],
-  "description": "Operating Area: Croatia\n\nDRAGON FLY is a 39.00m / 127ft Gulet Superyacht built in 2006 by Karataş Design and later underwent a refit in 2017. Sleeping 10 guests in 5 cabins and with a crew of 6. Cruising at 10.00 kn/ph with a top speed of 13.00 kn/ph. The guest cabins comprise a Master suite with a double bed and en-suite bathroom facilities, 2 cabins with a double bed and en-suite bathroom facilities, and 2 cabins with a twin bed and en-suite bathroom facilities.",
+  "description": "Operating Area: Turkey & Greek Islands\n\nDRAGON FLY is a 39.00m / 127ft Gulet Superyacht built in 2006 by Karataş Design and later underwent a refit in 2017. Sleeping 10 guests in 5 cabins and with a crew of 6. Cruising at 10.00 kn/ph with a top speed of 13.00 kn/ph. The guest cabins comprise a Master suite with a double bed and en-suite bathroom facilities, 2 cabins with a double bed and en-suite bathroom facilities, and 2 cabins with a twin bed and en-suite bathroom facilities.",
   "blueprint": {
     "name": "DRAGON FLY",
     "images": [
@@ -164,22 +164,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
@@ -235,22 +254,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
@@ -294,22 +332,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
@@ -365,22 +422,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
@@ -436,22 +512,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
@@ -495,22 +590,41 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Croatia"
+              "Greece"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              24.208266084703272,
+              38.07874263978093
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],
