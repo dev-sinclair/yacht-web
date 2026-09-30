@@ -1,10 +1,10 @@
 {
-  "lastModified": 1789132318786,
+  "lastModified": 1790764015877,
   "uri": "c::25879711825::vessel::75323bd0-df0d-11ef-a6ab-43dcd5311034",
   "yachtType": [
     "Motor"
   ],
-  "description": "Base / Home Port: Split, Croatia\nOperating Area: Croatia\n\nLooking to enjoy a perfect day at sea? Meet M/Y SILWER ARROW, a stylish and comfortable Croatian-built motor yacht, ideal for exploring the beautiful Adriatic coast.\n\nThis yacht offers plenty of space to relax — from a large open cockpit to spacious sunbathing areas. Inside, you'll find a bright lounge, a fully equipped kitchen, and cozy cabins, each with its own bathroom and air conditioning.\n\nThe yacht is easy to handle and very stable on the sea, thanks to powerful Volvo engines and a smart control system that helps with docking and maneuvering in marinas.\n\nYou’ll also enjoy a swim platform that makes it easy to get in and out of the water.\n\nOn a day trip, you’ll be welcomed on board with a safety briefing. Included in the experience are finger food, fresh seasonal fruits, two bottles of Prosecco, and water. The yacht also comes with snorkeling, sup, mini sea bobs, jet dingy, ski, floaters, life jackets, a TV, and a great sound system.",
+  "description": "Operating Area: Adriatic Sea, Hvar, Vis, Brač, Korčula, Split, Dubrovnik, Croatia\n\nLooking to enjoy a perfect day at sea? Meet M/Y SILWER ARROW, a stylish and comfortable Croatian-built motor yacht, ideal for exploring the beautiful Adriatic coast.\n\nThis yacht offers plenty of space to relax — from a large open cockpit to spacious sunbathing areas. Inside, you'll find a bright lounge, a fully equipped kitchen, and cozy cabins, each with its own bathroom and air conditioning.\n\nThe yacht is easy to handle and very stable on the sea, thanks to powerful Volvo engines and a smart control system that helps with docking and maneuvering in marinas.\n\nYou’ll also enjoy a swim platform that makes it easy to get in and out of the water.\n\nOn a day trip, you’ll be welcomed on board with a safety briefing. Included in the experience are finger food, fresh seasonal fruits, two bottles of Prosecco, and water. The yacht also comes with snorkeling, sup, mini sea bobs, jet dingy, ski, floaters, life jackets, a TV, and a great sound system.",
   "blueprint": {
     "name": "PEARLSEA 56 COUPE",
     "images": [
@@ -238,6 +238,23 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
           }
         ],
         "exclusionZones": [],
@@ -300,6 +317,23 @@
               42.265114458337585,
               18.511962890625004,
               45.53521281284293
+            ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
             ]
           }
         ],
@@ -376,6 +410,23 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
           }
         ],
         "exclusionZones": [],
@@ -437,6 +488,23 @@
               42.265114458337585,
               18.511962890625004,
               45.53521281284293
+            ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
             ]
           }
         ],
