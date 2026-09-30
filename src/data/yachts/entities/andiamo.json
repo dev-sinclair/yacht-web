@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788468548800,
+  "lastModified": 1790793785838,
   "uri": "c::7819240017::vessel::d5cbfc82-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -241,9 +241,9 @@
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 3450000,
+      "price": 3850000,
       "displayCurrency": "USD",
-      "displayPrice": 3450000,
+      "displayPrice": 3850000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -283,22 +283,20 @@
         },
         "inclusionZones": [
           {
-            "label": "Bahamas",
-            "type": "Sovereign country",
+            "label": "Florida, US, United States",
+            "type": "State",
             "category": [
-              "North America",
-              "Caribbean",
-              "Bahamas"
+              "Florida"
             ],
             "coordinates": [
-              -76.40805957420893,
-              24.072061577895774
+              -83.13354787154184,
+              28.36636070660095
             ],
             "bbox": [
-              -79.83764648437501,
-              20.58136735381002,
-              -72.58666992187501,
-              27.459539332717906
+              -87.6074378816535,
+              24.542349340056262,
+              -80.04130722193477,
+              31.00167331692866
             ]
           }
         ],
@@ -356,25 +354,6 @@
               -80.04130722193477,
               31.00167331692866
             ]
-          },
-          {
-            "label": "Bahamas",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Bahamas"
-            ],
-            "coordinates": [
-              -76.40805957420893,
-              24.072061577895774
-            ],
-            "bbox": [
-              -79.83764648437501,
-              20.58136735381002,
-              -72.58666992187501,
-              27.459539332717906
-            ]
           }
         ],
         "exclusionZones": [],
@@ -430,25 +409,6 @@
               24.542349340056262,
               -80.04130722193477,
               31.00167331692866
-            ]
-          },
-          {
-            "label": "Bahamas",
-            "type": "Sovereign country",
-            "category": [
-              "North America",
-              "Caribbean",
-              "Bahamas"
-            ],
-            "coordinates": [
-              -76.40805957420893,
-              24.072061577895774
-            ],
-            "bbox": [
-              -79.83764648437501,
-              20.58136735381002,
-              -72.58666992187501,
-              27.459539332717906
             ]
           }
         ],
@@ -553,7 +513,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 3450000,
+          "charterFee": 3850000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -561,8 +521,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3450000,
-              "amount": 3450000,
+              "unitPrice": 3850000,
+              "amount": 3850000,
               "conditions": "",
               "taxRate": {
                 "label": "VAT & TAXES",
@@ -573,13 +533,13 @@
               "item": "APA",
               "conditions": "",
               "quantity": 1,
-              "unitPrice": 3450000,
-              "amount": 3450000
+              "unitPrice": 3850000,
+              "amount": 3850000
             }
           ],
-          "total": 7383000,
-          "subTotal": 6900000,
-          "totalTax": 483000.00000000006
+          "total": 8239000,
+          "subTotal": 7700000,
+          "totalTax": 539000
         },
         "inclusionZones": [
           {
