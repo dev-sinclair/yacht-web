@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789471554900,
+  "lastModified": 1790840900850,
   "uri": "c::8275379259::vessel::81ec5ad0-08b8-11ef-9e85-951220a051a6",
   "yachtType": [
     "Motor"
@@ -159,16 +159,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 7000000,
+      "price": 7400000,
       "displayCurrency": "EUR",
-      "displayPrice": 7000000,
+      "displayPrice": 7400000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 8000000,
+      "price": 8400000,
       "displayCurrency": "EUR",
-      "displayPrice": 8000000,
+      "displayPrice": 8400000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -176,25 +176,33 @@
         "name": "Low Season",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-06-30T23:59:59.999Z"
+            "from": "2025-06-30T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
+            "from": "2026-06-30T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2027-06-30T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 7000000,
+          "charterFee": 7400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -202,8 +210,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7000000,
-              "amount": 7000000,
+              "unitPrice": 7400000,
+              "amount": 7400000,
               "conditions": "Weekly",
               "taxRate": {
                 "label": "VAT",
@@ -214,13 +222,13 @@
               "item": "APA",
               "conditions": "Weekly",
               "quantity": 0.35,
-              "unitPrice": 7000000,
-              "amount": 2450000
+              "unitPrice": 7400000,
+              "amount": 2590000
             }
           ],
-          "total": 10360000,
-          "subTotal": 9450000,
-          "totalTax": 910000
+          "total": 10952000,
+          "subTotal": 9990000,
+          "totalTax": 962000
         },
         "inclusionZones": [
           {
@@ -283,7 +291,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 8000000,
+          "charterFee": 8400000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -291,8 +299,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8000000,
-              "amount": 8000000,
+              "unitPrice": 8400000,
+              "amount": 8400000,
               "conditions": "Weekly",
               "taxRate": {
                 "label": "VAT",
@@ -303,13 +311,13 @@
               "item": "APA",
               "conditions": "Weekly",
               "quantity": 0.35,
-              "unitPrice": 8000000,
-              "amount": 2800000
+              "unitPrice": 8400000,
+              "amount": 2940000
             }
           ],
-          "total": 11840000,
-          "subTotal": 10800000,
-          "totalTax": 1040000
+          "total": 12432000,
+          "subTotal": 11340000,
+          "totalTax": 1092000
         },
         "inclusionZones": [
           {
