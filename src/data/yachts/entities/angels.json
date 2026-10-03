@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1791013549506,
   "uri": "c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced",
   "yachtType": [
     "Motor"
@@ -137,7 +137,42 @@
       "4.90 M Tender With 90HP"
     ]
   },
-  "crew": [],
+  "crew": [
+    {
+      "name": "Raşit Sucu",
+      "avatar": "/media/media::image::c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced::assets::c061bc30-befd-11f1-b16b-5b4b889f7661/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Raşit began his career at sea at an early age while attending naval academy as a teenager. He has worked as a captain onboard both private and charter yachts over the past 14 years and has acquired thorough knowledge of the Turkish and Greek coastline. He joined ANGELS in 2026. His warm and friendly character is a great source of motivation for his crew as well as highlight of any charter. Raşit is a very flexible and guest oriented captain, always aiming to make the guests happy and complete successful charters. "
+    },
+    {
+      "name": "TBC",
+      "role": "Captain"
+    },
+    {
+      "name": "Ahmet Balpınar",
+      "avatar": "/media/media::image::c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced::assets::f7902b60-befd-11f1-b16b-5b4b889f7661/{imageVariant}",
+      "role": "Captain",
+      "bio": "Ahmet Balpınar was born in Istanbul in 1985 and has been living on the southwestern coast of Turkey since the past several years. With a strong background in hospitality and team management gained through senior roles at multinational companies, he brings excellent organizational and guest service skills to ANGELS. Ahmet has been working onboard yachts since 2020 and joined ANGELS in early 2026. Ahmet is a hard working professional who pays great attention to detail. He speaks English and Turkish fluently and in his free time enjoys travelling, camping, mountaineering and cycling."
+    },
+    {
+      "name": "Ibrahim Karakurt",
+      "avatar": "/media/media::image::c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced::assets::18b0b300-befe-11f1-b16b-5b4b889f7661/{imageVariant}",
+      "role": "Captain",
+      "bio": "İbrahim was born in Denizli in 1989 but grew up in the Turkish coastal town of Marmaris, surrounded by yachting. He had over 10 years of experience onboard private and charter yachts in the Med before he joined ANGELS in 2025. Ibrahim stands out for his calm, friendly and positive attitude, making him an ideal second hand to the captain. He speaks English and Turkish. In his free time Ibrahim enjoys swimminng, traveling and exploring new cultures."
+    },
+    {
+      "name": "Sıla Özoğul",
+      "avatar": "/media/media::image::c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced::assets::4c570ce0-befe-11f1-b16b-5b4b889f7661/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sıla is the quiet angel onboard ANGELS. Born in 2006 in Tokat, she has been living in the coastal town of Mugla since 2011. She has been working onboard yachts since 2 years and joined ANGELS in 2026. She is in charge of housekeeping as well as a helping hand to the chief stew. She is quick at completing daily tasks while maintaining a very calm and happy posturer which always leaves the guests pleasantly surprised. She speaks Turkish and beginner level English. In her free time Sıla likes to swim, listen to music and travel."
+    },
+    {
+      "name": "Muhammet Sevinç",
+      "avatar": "/media/media::image::c::7819217464::vessel::9e36c5a0-bcdd-11f1-88c2-cbd46006eced::assets::635c25b0-befe-11f1-b16b-5b4b889f7661/{imageVariant}",
+      "role": "Captain",
+      "bio": "Muhammet was born on the Blacksea coast of Turkey but moved to the Mediterranean coast towards the end of his teens where he has been working as a deckhand onboard private and charter yachts since 2017. He joined the ANGELS team in 2026. He is a very positive individual who always carries a smile while at the same time completing his duties with discipline and efficiency. He speaks Turkish and beginner level English. In his free time Muhammet likes to go swimming, do sports and mechatronics."
+    }
+  ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",

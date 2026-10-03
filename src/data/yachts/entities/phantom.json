@@ -1,285 +1,206 @@
 {
-  "lastModified": 1783437657556,
-  "uri": "c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944",
+  "lastModified": 1784536330971,
+  "uri": "c::8344947358::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
-    "Motor"
+    "Sailing",
+    "Catamaran"
   ],
-  "description": "Operating Area: Croatia\n\nPHANTOM Yacht, a stunning vessel that not only embodies opulence but also offers a thrilling experience on the seas. Phantom is a classy and luxurious yacht that speaks sophistication. This magnificent yacht boasts spacious and elegant interiors and sophisticated naval architecture exteriors, offering a James Bond lifestyle on the water. With a length of 85 feet, it is perfect for intimate navigation exploring hidden coves and majestic islands of Croatia or for daily social gatherings.\n\nThe yacht features an impressive array of amenities, including state-of-the-art navigation and safety systems, top-of-the-line entertainment systems, and high-end furniture and fittings. The Phantom 85 can accommodate up to 8 guests, with 4 cabins (1 luxurious Master, 1 luxurious VIP, 1 Double and 1 covertible cabin) each boasting end-suite bathrooms and other luxurious amenities. \n\nExperience the thrill of speed with the powerful twin engines, which offer an impressive top speed of 25 knots. The spacious fly-bridge is the perfect place to enjoy in the sun or lounge on comfortable beds with panoramic views of the sea and sky. If you are looking for a one-of-a-kind yacht that delivers style, comfort , and luxury, then the Phantom is a perfect choice. Indulge in Adriatic sea with confidence and enjoy a memorable experience that will last a lifetime.\n\nThis luxury yacht did a complete refit for the 2025 season in Croatia. Complete interior and exterior are new. All technical features are new: high-end sound system, navigation system, starlink wifi, the entire yacht shines with a new teak deck, as well as with new cushions and covers in the bow area. For a first-class experience, you will be able to enjoy the new TVs in all cabins.\nNOTICE: Sunbeds are available when a 4.5 m RIB tender or chase tender is in use.",
+  "description": "Operating Area: Greece\n\nPrepare for an unforgettably chilled and luxurious charter on this Lagoon 620 Catamaran. S/Y PHANTOM has five fully air-conditioned VIP double cabins, all with plenty of natural light and en-suite facilities, ideally suited for families and groups of friends. S/Y PHANTOM is packed with toys, and also comes with a spacious 4.6m Highfield Delux tender with a powerful 60HP outdoor motor and two seabobs, which will keep the guests entertained all day. Her powerful generators keep electricity flowing and ensure air-conditioning and electrical appliances keep running, even when the main engines are shut down, so you enjoy every bit of your holiday even when anchored in a secluded bay. She has a large forward sun-deck and a functional flybridge where you can sip cooling drinks or sunbathe, or even lay on the sunbathing trampolines forward and watch the dolphins play. S/Y PHANTOM is fully equipped with a B&W Hi-Fi system linked to the cockpit, saloon and flybridge B&W speakers, icemaker, USB sockets in interior and exterior and underwater lights. There is an almost perfect integration between the saloon and cockpit, and it includes a wet-bar. You can dine outside on the shaded main deck as well as relax inside the fully airconditioned saloon, while the experienced crew of three will ensure that your needs are met and that you have a luxurious and memorable holiday to last a lifetime.",
   "blueprint": {
     "name": "PHANTOM",
     "images": [
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04562c80-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04573df0-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044d52e0-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04506020-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044e8b60-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04503910-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0459d600-3fcc-11f0-9bb4-5fbafbcf667c/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::045e90f0-3fcc-11f0-980e-5da78e9ce815/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::045c9520-3fcc-11f0-980e-5da78e9ce815/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04447940-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0459d600-3fcc-11f0-980e-5da78e9ce815/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04576500-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04777020-3fcc-11f0-9bb4-5fbafbcf667c/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04445230-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04757450-3fcc-11f0-b839-09e9df3a5ac4/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044367d0-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0445d8d0-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::045ac060-3fcc-11f0-980e-5da78e9ce815/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044b3000-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0455de60-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04453c90-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044e1630-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04501200-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::045b5ca0-3fcc-11f0-9bb4-5fbafbcf667c/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044feaf0-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::045939c0-3fcc-11f0-980e-5da78e9ce815/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044da100-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04743bd0-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0457b320-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::0456c8c0-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04512370-3fcc-11f0-bcc2-8371ad21db60/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::04589d80-3fcc-11f0-9bb4-5fbafbcf667c/{imageVariant}",
-      "/media/media::image::a::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::044dc810-3fcc-11f0-bcc1-8371ad21db60/{imageVariant}"
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::3gfvEHufI.png/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a3f7f0-9d19-11ef-a784-d9482206e3da/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a4bb40-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a668f0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a6de20-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a391f690-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a94f20-9d19-11ef-ad2f-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a36ba9e0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a97630-9d19-11ef-ad2f-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a70530-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a8b2e0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a36eb720-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a38106a0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3937d30-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a5f3c0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a668f0-9d19-11ef-a096-0b771e2df210/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a864c0-9d19-11ef-ad2f-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a9c450-9d19-11ef-ad2f-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a7c880-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a3f7f0-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a37fce20-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a46d20-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::3b68c580-9d19-11ef-abb7-3539798ff3fc/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::a3a77a60-9d19-11ef-ad2e-c59ee20693fb/{imageVariant}"
     ],
-    "make": "Italversil",
-    "model": "Superphantom 85",
-    "maxCrew": 3,
-    "sleeps": 8,
+    "make": "Lagoon",
+    "model": "Lagoon 620",
+    "maxCrew": 4,
+    "sleeps": 10,
     "basePort": {
-      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
-      "name": "Split",
+      "uri": "a::place::5e595eb8-b3ed-11ed-be02-325096b39f47",
+      "name": "Athens",
       "coordinates": {
-        "latitude": 43.51359615,
-        "longitude": 16.43884676
+        "latitude": 37.986174,
+        "longitude": 23.7268443
       },
-      "country": "Croatia"
+      "country": "Greece"
     },
-    "builtYear": 1995,
-    "refitYear": 2025,
-    "topSpeed": 25,
-    "cruiseSpeed": 18,
-    "fuelCapacity": 0,
+    "cruisingCapacity": 0,
+    "builtYear": 2019,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": "",
+    "topSpeed": 11,
+    "cruiseSpeed": 9,
+    "fuelCapacity": "",
     "cabinLayout": [
       {
-        "label": "Double Cabins",
-        "value": "3"
-      },
-      {
-        "label": "Convertible cabin",
-        "value": "1"
+        "label": "VIP Cabins",
+        "value": "5"
       }
     ],
-    "cabins": 4,
-    "bathrooms": 4,
-    "length": 25.5,
-    "beam": 6,
-    "draft": 1.8,
-    "hullType": "Planing",
-    "hullConstruction": "GRP",
-    "superStructure": [
-      "Flybridge"
-    ],
-    "engines": "2 x MAN D2842 LE 406 with kW (together two  engines 1764 kW)",
+    "cabins": 5,
+    "bathrooms": 5,
+    "decks": "",
+    "length": 18.9,
+    "beam": 9.98,
+    "draft": 1.55,
+    "hullType": "Catamaran",
+    "hullConstruction": "",
+    "tonnage": "",
+    "superStructure": [],
+    "engines": "2 x 150hp Volvo Penta",
     "amenities": [
       {
-        "label": "Air conditioning"
-      },
-      {
-        "label": "Flybridge"
-      },
-      {
-        "label": "Sunbeds - available only when chase tender is in use."
-      },
-      {
-        "label": "Sun lounge"
-      },
-      {
-        "label": "Teak deck"
+        "label": "Air Conditioning"
       },
       {
         "label": "Generator"
       },
       {
+        "label": "Salon TV"
+      },
+      {
         "label": "Watermaker"
       },
       {
-        "label": "Ice machine"
+        "label": "Electric heads"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Inverter"
+      },
+      {
+        "label": "Fans in salon and cabins"
+      },
+      {
+        "label": "Teak Deck"
+      },
+      {
+        "label": "Nespresso Professional Coffee machine"
       }
     ],
     "toys": [
       {
-        "label": "Jetski"
+        "label": "Dinghy"
       },
       {
-        "label": "Seabob"
+        "label": "Seabob",
+        "quantity": "2"
       },
       {
-        "label": "E-foil"
+        "label": "Standup Paddle boards",
+        "quantity": "2"
       },
       {
-        "label": "SUP"
+        "label": "Kayak"
       },
       {
-        "label": "Wakeboard"
+        "label": "Wakeboard (adults)"
       },
       {
-        "label": "Waterskis"
+        "label": "Fishing Equipment"
       },
       {
-        "label": "Donut"
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Tubes - Towable inflatable"
+      },
+      {
+        "label": "Water Skis Adult"
+      },
+      {
+        "label": "Water Skis Kids"
+      },
+      {
+        "label": "Swim Platform"
       }
     ],
     "entertainment": [
       "Wi-Fi",
-      "All staterooms with SONY flat TV",
-      "SONY TV in salon",
-      "Starlink",
-      "Audio System"
+      "Salon TV",
+      "B&W Hi-Fi system",
+      "B &W speakers",
+      "TV in the saloon"
     ],
     "tenders": [
-      "4.5m RIB",
-      "Chase Tender (Ranieri Cayman 26 with Mercury Verado 250 KS) available on request, for additional surcharge. *Sunbeds are available when chase tender is in use."
+      "Highfield Delux 4.6m tender with 60HP outdoor motor"
     ]
   },
   "crew": [
     {
-      "name": "Ivan Milić",
-      "avatar": "/media/media::image::c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::f15eeb10-7ce5-11f0-9b26-b94c03873747/{imageVariant}",
+      "name": "Stavros Polizos",
+      "avatar": "/media/media::image::c::8344947358::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::e9167590-01ce-11f1-a506-bf24425ca840/{imageVariant}",
       "role": "Captain",
-      "bio": "After graduating Maritime University and obtaining highest degrees, Ivan spent the last eight years in the yachting industry, building extensive experience navigating the Adriatic. Being connected with sea all his life, pursuing a career in maritime was a natural choice. His expertise in navigation, safety, and hospitality ensures that every journey is both secure and enjoyable for his guests. He is fluent in English.\nAs a captain of the younger generation, he blends traditional seamanship with a modern, dynamic approach. His calm personality, strong leadership skills, and professional yet welcoming attitude create an atmosphere of trust and comfort on board. Passionate about working with people, he sees every trip as an opportunity to share his knowledge while continuously improving himself. With a focus on safety and excellence, he ensures an unforgettable yacht charter experience for all who come aboard."
+      "bio": "Captain Stavros has been an integral part of the yachting industry since 2000, having graduated from the Merchant Marine Academy. Captain Stavros has accumulated valuable sailing experience, which has led to his RYA/MCA YachtMaster Offshore with full commercial endorsement. People- oriented, reliable, sociable and focused on technical details without unnecessary fuss, he brings a wealth of professionalism to his wide-ranging positions on board. His excellent organizational skills make his yacht extremely efficient for charter.\nCaptain Stavros’ nautical expertise extends to captaining a 100ft sailing vessel. Beyond his professional skills, Stayros' lively personality and love for the sea make him stand out in the nautical world. With diverse experiences and a passion for the open waters, he embodies the spirit of an experienced sailor. Captain Stavros is dedicated to ensuring a seamless and enjoyable experience for his guests on board. He speaks Greek, English and Spanish"
     },
     {
-      "name": "Lucija Kamenjarin",
-      "avatar": "/media/media::image::c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::f8e64180-7ce5-11f0-9b26-b94c03873747/{imageVariant}",
+      "name": "Ina Lami",
+      "avatar": "/media/media::image::c::8344947358::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::162e7cc0-a82f-11f0-bea9-edbb49aba9df/{imageVariant}",
       "role": "Captain",
-      "bio": "After spending five years working on boats, including the last three in the yachting industry, Lucija has gained valuable experience and a strong understanding of life on board. She is fluent in English, extremely professional, pleasant and discrete hostess. She plays an important role in ensuring smooth daily operations and a comfortable environment for guests.\n\nWith a degree in educational rehabilitation, she takes special interest in working with children, creating a positive and engaging environment for them on board. Her ability to connect with young guests adds to the overall experience, making their time on the yacht enjoyable. Committed to both her work and the people she interacts with, Lucija approaches every day on board with enthusiasm and a strong sense of responsibility, always striving to make each journey a pleasant and memorable one."
+      "bio": "Ina was born in 1992 and lives in Athens. Her passion for cooking led her to IEK AKMI to study culinary arts. Having worked in many restaurants and hotels i.e. Orizontes Lycabettus, Domotel Ag. Nikolaos Suites Resort etc., she has a great experience in Mediterranean cuisine. Ina is creative, social, hard-working and pays great attention to detail. In her free time, she enjoys listening to music, reading poetry, working out and travelling. Ina speaks Greek, English and Spanish. "
     },
     {
-      "name": "Duje Ivancev",
-      "avatar": "/media/media::image::c::7646090758::vessel::b45a9610-3fc8-11f0-acdb-43d0bcf11944::assets::ffd7e7a0-7ce5-11f0-9b26-b94c03873747/{imageVariant}",
+      "name": "Venetia Kassou",
+      "avatar": "/media/media::image::c::8344947358::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::2fdf7bb0-a82f-11f0-bea9-edbb49aba9df/{imageVariant}",
       "role": "Captain",
-      "bio": "Duje is young but already experienced chef with lots of experience in haute cuisine at high standard hotels and yachts. In his work, he always strives for a balance between the wishes of guests and great culinary dishes he can offer. Duje speaks English very well, he is very polite and discrete person, yet a very open for discussing any gastromomic ideas.\nDuring his studies, he attended practical classes at the famous Split restaurants Caper and Movi where he later took his first mandate as a chef. He participated in numerous competitions, won many and finally graduated as MASTER CHEF at Croatian Chamber of Crafts. \nSince being a child, Duje felt a passion for cooking and knew he will become a chef in the future. For the last seven years, that is his passion and profession. He spent all his time on the Adriatic islands and fall in love with the sea and seafood. His specialty is the Mediterranean cuisine but later on, he learnt a lot about several major regions, including Asian cuisine that he outstandingly combines with the Mediterranean one. During your stay on PHANTOM you will enjoy in his magnificent food."
+      "bio": "Venetia Kassou is an experienced stewardess with a strong background in yacht chartering and high-end hospitality. She combines excellent organizational and guest service skills with a proactive and adaptable personality. With formal training in stewarding (KESEN), and a diverse educational background in business administration, finance, and wellness services, she brings versatility and professionalism to every role. Fluent in English and with experience on yachts up to 36m, Venetia is committed to maintaining the highest standards on board, with a discreet, polite, and team-oriented approach."
+    },
+    {
+      "name": "Apostolos Tsitsiringos",
+      "avatar": "/media/media::image::c::8344947358::vessel::d5cbfaf5-fe8c-11ed-889f-43d4bb723744::assets::4d92c900-a82f-11f0-bea9-edbb49aba9df/{imageVariant}",
+      "role": "Captain",
+      "bio": "Hardworking and adaptable crew member with a background in Business Administration and hands-on experience as a deckhand in the yachting and hospitality industry. Skilled in guest service, team coordination, and high-pressure problem solving. Known for strong work ethic, attention to detail, and the ability to perform effectively in demanding onboard environments.\nSpeaks both English and Greek well and brings a positive, team-oriented attitude to every task at sea."
     }
   ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2900000,
+      "price": 1890000,
       "displayCurrency": "EUR",
-      "displayPrice": 2900000,
+      "displayPrice": 1890000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 3500000,
+      "price": 3200000,
       "displayCurrency": "EUR",
-      "displayPrice": 3500000,
+      "displayPrice": 3200000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Low Season",
+        "name": "High Season (July & August)",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
           },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2900000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2900000,
-              "amount": 2900000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA ",
-              "conditions": "",
-              "quantity": 0.4,
-              "unitPrice": 2900000,
-              "amount": 1160000
-            }
-          ],
-          "total": 4437000,
-          "subTotal": 4060000,
-          "totalTax": 377000
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          },
-          {
-            "label": "Adriatic Sea",
-            "type": "Custom Area",
-            "category": [
-              "Adriatic Sea"
-            ],
-            "coordinates": [
-              16.010306883545528,
-              42.79713215468391
-            ],
-            "bbox": [
-              12.225486687884029,
-              39.743104152987044,
-              19.998397251066137,
-              45.771392523779426
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "High Season",
-        "effectiveDates": [
           {
             "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-08-31T23:59:59.999Z"
@@ -287,15 +208,11 @@
           {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 3500000,
+          "charterFee": 3200000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -303,61 +220,177 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3500000,
-              "amount": 3500000,
-              "conditions": "VAT & APA Excluded",
+              "unitPrice": 3200000,
+              "amount": 3200000,
+              "conditions": "Weekly",
               "taxRate": {
                 "label": "VAT",
-                "value": 0.13
+                "value": 0.12
               }
             },
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.4,
-              "unitPrice": 3500000,
-              "amount": 1400000
+              "quantity": 0.25,
+              "unitPrice": 3200000,
+              "amount": 800000
             }
           ],
-          "total": 5355000,
-          "subTotal": 4900000,
-          "totalTax": 455000
+          "total": 4384000,
+          "subTotal": 4000000,
+          "totalTax": 384000
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          },
-          {
-            "label": "Adriatic Sea",
+            "label": "Athens, Attiki, Greece",
             "type": "Custom Area",
             "category": [
-              "Adriatic Sea"
+              "Athens"
             ],
             "coordinates": [
-              16.010306883545528,
-              42.79713215468391
+              23.754167000000002,
+              38.033333
             ],
             "bbox": [
-              12.225486687884029,
-              39.743104152987044,
-              19.998397251066137,
-              45.771392523779426
+              23.591667,
+              37.908333,
+              23.916667,
+              38.158333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Mid Season (June & September)",
+        "effectiveDates": [
+          {
+            "from": "2025-06-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-06-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2800000,
+              "amount": 2800000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              },
+              "conditions": "Weekly"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 2800000,
+              "amount": 700000
+            }
+          ],
+          "total": 3836000,
+          "subTotal": 3500000,
+          "totalTax": 336000
+        },
+        "inclusionZones": [
+          {
+            "label": "Athens, Attiki, Greece",
+            "type": "Custom Area",
+            "category": [
+              "Athens"
+            ],
+            "coordinates": [
+              23.754167000000002,
+              38.033333
+            ],
+            "bbox": [
+              23.591667,
+              37.908333,
+              23.916667,
+              38.158333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season (all other months)",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1890000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1890000,
+              "amount": 1890000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              },
+              "conditions": "Weekly"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 1890000,
+              "amount": 472500
+            }
+          ],
+          "total": 2589300,
+          "subTotal": 2362500,
+          "totalTax": 226800
+        },
+        "inclusionZones": [
+          {
+            "label": "Athens, Attiki, Greece",
+            "type": "Custom Area",
+            "category": [
+              "Athens"
+            ],
+            "coordinates": [
+              23.754167000000002,
+              38.033333
+            ],
+            "bbox": [
+              23.591667,
+              37.908333,
+              23.916667,
+              38.158333
             ]
           }
         ],
