@@ -1,0 +1,451 @@
+{
+  "lastModified": 1791208494216,
+  "uri": "c::8193426698::vessel::851246c0-be73-11f1-a80c-8d635d372dd1",
+  "yachtType": [
+    "Catamaran",
+    "Sailing"
+  ],
+  "description": "Operating Area: Croatia \n\nThe Lagoon 60 CATWALK I embodies seamless living. At the heart of the design, a vast forward cockpit, flush with the saloon, acts as a private terrace on the sea. Accessed directly from the interior, this inviting space offers fluid, obstacle-free movement and panoramic views, perfectly reinforcing the harmony between indoor comfort and the surrounding seascape. From here, step through the forward door of the saloon onto a generous deck that feels entirely level with the Interior. As a result, the flush flooring enhances the sense of space and freedom, allowing effortless movement between areas Whether inside or out, you remain constantly connected to the sea, surrounded by breathtaking views and an atmosphere of relaxed luxury.\n\nA vast central lounging space with a panoramic view and endless possibilities, opens both onto the bow terrace and cockpit. The bow benefits from a cosy lounge, well shielded from sun and wind. To the aft, the saloon merges with the generous cockpit extended with a large aft platform. All the areas combined form a universal open environment where flexibility and freedom reign While housing the main helm, the flybridge is definitely dedicated to leisure with more than enough space for movable furniture. fully-equipped wet bar, a barbecue and large sun pads. The hulls provide impressive volumes to set up a custom layout including airy, luxurious quest cabins and an opulent master suite with a walk-in dressing, desk, sofa, and an immense bathroom. A perfect setting to unwind and relax after a long day in the sun.",
+  "blueprint": {
+    "name": "CATWALK I",
+    "images": [
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60cae700-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60cbd160-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60ba4530-c0c0-11f1-a271-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60ba6c40-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60c87600-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60c8eb30-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60c6ef60-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60bc6810-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60c9d590-c0c0-11f1-a272-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60baba60-c0c0-11f1-a271-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60b82250-c0c0-11f1-a271-57ad972ff05d/{imageVariant}",
+      "/media/media::image::a::vessel::851246c0-be73-11f1-a80c-8d635d372dd1::assets::60b981e0-c0c0-11f1-a271-57ad972ff05d/{imageVariant}"
+    ],
+    "make": "Lagoon",
+    "model": "Lagoon 60",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::738f24c0-dada-11ed-befa-d7914edd5e3a",
+      "name": "Marina Kastela",
+      "coordinates": {
+        "latitude": 43.54601254691691,
+        "longitude": 16.40283517494042
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 8,
+    "builtYear": 2026,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 1300,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Master cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 19.77,
+    "beam": 9.78,
+    "draft": 1.65,
+    "engines": "Nanni Diesel N4-150 hp",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Heating System"
+      },
+      {
+        "label": "Water maker"
+      },
+      {
+        "label": "Power inverter"
+      },
+      {
+        "label": "Icemaker"
+      },
+      {
+        "label": "Wine cooler"
+      },
+      {
+        "label": "Underwater lights LED"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Waterskies",
+        "quantity": "1"
+      },
+      {
+        "label": "Towable ring",
+        "quantity": "1"
+      },
+      {
+        "label": "Stand up paddle",
+        "quantity": "2"
+      },
+      {
+        "label": "Kayak for 2 pax",
+        "quantity": "1"
+      },
+      {
+        "label": "Knee board",
+        "quantity": "1"
+      },
+      {
+        "label": "Yoga mat"
+      },
+      {
+        "label": "Snorkelling gear (mask & flippers)"
+      },
+      {
+        "label": "Floating mats"
+      },
+      {
+        "label": "Wetsuits for kids and grownups"
+      }
+    ],
+    "entertainment": [
+      "Speakers in Saloon & Cockpit",
+      "LED TV 55",
+      "5G/LTE Wifi "
+    ],
+    "tenders": [
+      "Highfield 4.6 m with 70 HP Honda outboard"
+    ]
+  },
+  "crew": [
+    {
+      "name": "TONKO MATIJAŠEVIĆ",
+      "role": "Captain",
+      "bio": "NATIONALITY / AGE / LANGUAGE\nCroatian / Born 1982 / ENGLISH, CROATIAN\n\nQUALIFICATIONS/SKILLS\nYachtmaster “A” – 100 BT, Basic training “D2” licence,ITLS licence (international trauma and life support), Croatian mountain search and rescue licence (HGSS)\n\nBorn in Split in 1982, Captain Tonko Matijašević has been professionally navigating the Adriatic since 2007. With nearly two decades of experience in the charter industry. he is known as a knowledgeable and reliable skipper with an excellent understanding of the Croatian coastline and islands. Throughout his career. Tonko has captained a wide variety of sailing yachts, luxury catamarans and motor yachts up to 100 BT, working with internationally recognized charter companies such as The Moorings and Sunsail. He has extensive experience managing both bareboat and fully crewed charters, working with guests from around the world and ensuring that each charter runs smoothly. In addition to his charter work. Tonko has completed numerous yacht de-liveries across the Adriatic and Mediterranean, demonstrat-ing his confidence and skill in handling vessels in a variety of conditions. He also worked as a deckhand on larger motor yachts, gaining valuable insight into yacht operations and onboard service. Tonko spent several years as an instructor training future skippers, sharing his practical knowledge and experience with aspiring sailors. He holds a Yachtmaster A license (up to 100 BT) and has a strong background in outdoor sports and safety training, including mountaineer-ing, diving, skiing and kitesurfing. He is also a member of the Croatian Mountain Rescue Service, which further reflects his strong safety awareness, discipline and responsibility at sea. Friendly, communicative and highly experienced, Captain Tonko creates a relaxed and welcoming atmosphere on board while ensuring guests enjoy a safe and memorable sailing experierice while exploring the Adriatic coastline."
+    },
+    {
+      "name": "NIKOLA BILANDŽIJA",
+      "role": "Captain",
+      "bio": "NATIONALITY / AGE / LANGUAGE\nCroatian / Born 1981 / ENGLISH, CROATIAN, GERMAN\n\nQUALIFICATIONS/SKILLS\nChef certificate in Culinary Arts, Boat leader category B, D2 Basic Safety (STCW)\n\nNikola is a passionate culinary professional with a deep love for food and cooking. Although formally educated, he considers himself largely self-taught, having spent countless hours studying professional culinary literature and cookbooks. followed by years of hands-on experimentation and creativity in the kitchen. Along this journey, Nikola gained valuable ex-perience working in some of the finest restaurants in Croatia. where he also had the opportunity to lead his own team as Head and Executive Chef These roles allowed him to refine his culinary philosophy and expand his skills in both traditional and modern gastronomy. Throughout his career. Nikola has organized creative cooking workshops, hosted numerous fine-dining dinners paired with wines from acclaimed Croatian winemakers, and participated in a popular television cooking show. His work has also been featured in various Croatian web portals and newspapers. After several successful years in the restaurant industry. Nikola embraced a new adventure by bringing his culinary talents to the sea. He spent two seasons on board the luxury catamaran Sunreef 60 DESSUS, where he delighted guests with refined cuisine while salling the spec-tacular Adriatic coastline. Now, Nikola is excited to begin a new chapter aboard Lagoon 60 Catwalk, where he combines his passion for gastronomy with the beauty of sailing. His cuisine focuses on fresh, seasonal ingredients and Mediter-ranean inspiration, creating memorable dining experiences for guests on board. Nikola's favorite dish to prepare is often the one created spontaneously. When guests trust his imagina-tion, his creativity truly shines-resulting in unique culinary moments and shared enjoyment around the table"
+    },
+    {
+      "name": "BETI PUŽ",
+      "role": "Captain",
+      "bio": "NATIONALITY / AGE / LANGUAGE\nCroatian / Born 1998 / ENGLISH, CROATIAN, SPANISH\n\nQUALIFICATIONS/SKILLS\nTrained Stewardess, D2 Basic Safety (STCW) Certificate\n\nBeti Puž is an experienced Croatian yacht stewardess with over four years in the nautical industry, specializing in event coordination, guest services, and onboard experi-ence design aboard sailing yachts and catamarans. She combines a strong marketing background with practi-cal, hands-on yacht service, consistently focusing on delivering high-quality hospitality and memorable guest experiences. She has gained extensive experience in daily communication with boat owners in Croatia and Greece, fleet support, and partner coordination within the nautical sector. These roles have strengthened her organizational skills, commercial awareness, and ability to manage client expectations in a dynamic maritime environment. Her experience includes provisioning, interior management. food and beverage service, cocktail making, maintain-ing high standards of cleanliness and organization, and supporting smooth day-to-day yacht operations. She is confident in fast-paced charter environments and adapts easily to different guests, crews, and vessel requirements. Fluent in Croatian and English, with additional knowledge of Spanish and Italian, she communicates effectively with international guests and crew, ensuring professionalism and clarity in all interactions. She is passionate about hos-pitality, with a strong focus on customer service, responsi-bility, adaptability, and attention to detail Always aiming to create a relaxed and premium onboard atmosphere, Beti combines marketing insight, strong interpersonal skills, and a genuine passion for the sea and hospitality. with a consistent drive to enhance guest satisfaction and contribute positively to every onboard experience"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2300000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "UNTIL APRIL 24, 2026 and FROM OCTOBER 2, 2026 Price per week",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-04-24T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-04-24T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-04-24T23:59:59.999Z"
+          },
+          {
+            "from": "2026-10-02T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-02T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-02T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2300000,
+              "amount": 2300000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 3599000,
+          "subTotal": 3300000,
+          "totalTax": 299000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "APRIL 24 - MAY 29, 2026 Price per week",
+        "effectiveDates": [
+          {
+            "from": "2026-04-24T00:00:00.000Z",
+            "to": "2026-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2027-04-24T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-24T00:00:00.000Z",
+            "to": "2028-05-29T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 3825000,
+          "subTotal": 3500000,
+          "totalTax": 325000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "MAY 29 - JUNE 26, 2026 Price per week",
+        "effectiveDates": [
+          {
+            "from": "2026-05-29T00:00:00.000Z",
+            "to": "2026-06-26T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-29T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-29T00:00:00.000Z",
+            "to": "2028-06-26T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3505000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3505000,
+              "amount": 3505000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 4960650,
+          "subTotal": 4505000,
+          "totalTax": 455650
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "JUNE 26 - OCTOBER 2, 2026 Price per week",
+        "effectiveDates": [
+          {
+            "from": "2026-06-26T00:00:00.000Z",
+            "to": "2026-10-02T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-26T00:00:00.000Z",
+            "to": "2028-10-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 5407000,
+          "subTotal": 4900000,
+          "totalTax": 507000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
