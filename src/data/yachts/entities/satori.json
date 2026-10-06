@@ -1,5 +1,5 @@
 {
-  "lastModified": 1786436228874,
+  "lastModified": 1791295199203,
   "uri": "c::7579668770::vessel::d5ca718e-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -202,31 +202,31 @@
     },
     "pricingInfo": [
       {
-        "name": "Summer Low Season",
+        "name": "Summer Low Season 2027",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2027-05-23T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-01-01T00:00:00.000Z",
+            "from": "2028-05-23T00:00:00.000Z",
             "to": "2028-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2029-05-23T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
+            "to": "2027-10-11T23:59:59.999Z"
           },
           {
             "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "to": "2028-10-11T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-10-11T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -250,41 +250,39 @@
         },
         "inclusionZones": [
           {
-            "label": "Croatia",
-            "type": "Sovereign country",
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
             "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
+              "Naples"
             ],
             "coordinates": [
-              15.734076081803607,
-              43.82766941998277
+              14.5625,
+              40.9125
             ],
             "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
             ]
           },
           {
-            "label": "France",
-            "type": "Country",
+            "label": "Sicily",
+            "type": "Geo subunit",
             "category": [
               "Europe",
-              "Western Europe",
-              "France"
+              "Southern Europe",
+              "Sicily"
             ],
             "coordinates": [
-              2.490961032566746,
-              46.331484361015065
+              14.155397130095018,
+              37.59291213666052
             ],
             "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
             ]
           },
           {
@@ -307,37 +305,22 @@
             ]
           },
           {
-            "label": "Naples, Campania, Italy",
-            "type": "Custom Area",
+            "label": "Croatia",
+            "type": "Sovereign country",
             "category": [
-              "Naples"
+              "Europe",
+              "Southern Europe",
+              "Croatia"
             ],
             "coordinates": [
-              14.5625,
-              40.9125
+              15.734076081803607,
+              43.82766941998277
             ],
             "bbox": [
-              14.025,
-              40.683333,
-              15.1,
-              41.141667
-            ]
-          },
-          {
-            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
-            "type": "Custom Area",
-            "category": [
-              "Marseille"
-            ],
-            "coordinates": [
-              5.408333000000001,
-              43.370833499999996
-            ],
-            "bbox": [
-              5.183333,
-              43.216667,
-              5.633333,
-              43.525
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
             ]
           },
           {
@@ -356,37 +339,14 @@
               23.183474155375762,
               40.51357392024279
             ]
-          },
-          {
-            "label": "Montenegro",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Montenegro"
-            ],
-            "coordinates": [
-              19.18925101458846,
-              42.69455744996185
-            ],
-            "bbox": [
-              18.424072265625004,
-              41.81431422987254,
-              20.194244384765625,
-              43.37411041676222
-            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Summer High Season",
+        "name": "Summer High Season 2027",
         "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
           {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
@@ -394,6 +354,10 @@
           {
             "from": "2028-07-01T00:00:00.000Z",
             "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -436,25 +400,6 @@
             ]
           },
           {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
             "label": "Greece",
             "type": "Sovereign country",
             "category": [
@@ -491,23 +436,6 @@
             ]
           },
           {
-            "label": "Marseille, Provence-Alpes-Côte-d'Azur, France",
-            "type": "Custom Area",
-            "category": [
-              "Marseille"
-            ],
-            "coordinates": [
-              5.408333000000001,
-              43.370833499999996
-            ],
-            "bbox": [
-              5.183333,
-              43.216667,
-              5.633333,
-              43.525
-            ]
-          },
-          {
             "label": "Ionian Sea",
             "type": "Custom Area",
             "category": [
@@ -525,22 +453,22 @@
             ]
           },
           {
-            "label": "Montenegro",
-            "type": "Sovereign country",
+            "label": "Sicily",
+            "type": "Geo subunit",
             "category": [
               "Europe",
               "Southern Europe",
-              "Montenegro"
+              "Sicily"
             ],
             "coordinates": [
-              19.18925101458846,
-              42.69455744996185
+              14.155397130095018,
+              37.59291213666052
             ],
             "bbox": [
-              18.424072265625004,
-              41.81431422987254,
-              20.194244384765625,
-              43.37411041676222
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
             ]
           }
         ],
