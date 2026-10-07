@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784893305590,
+  "lastModified": 1791334021794,
   "uri": "c::18240645921::vessel::81419660-b56c-11f0-a56f-29fadbc81b5b",
   "yachtType": [
     "Sailing",
@@ -106,9 +106,9 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "NZD",
-      "price": 199000,
+      "price": 299000,
       "displayCurrency": "NZD",
-      "displayPrice": 199000,
+      "displayPrice": 299000,
       "unit": "DAY"
     },
     "dayPricingTo": {
@@ -487,118 +487,6 @@
           "total": 308000,
           "subTotal": 308000,
           "totalTax": 46200
-        },
-        "inclusionZones": [
-          {
-            "label": "New Zealand",
-            "type": "Country",
-            "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "New Zealand"
-            ],
-            "coordinates": [
-              -18.677620423939118,
-              -34.08865541316071
-            ],
-            "bbox": [
-              -177.9579971999999,
-              -52.60031327099995,
-              178.84392337300005,
-              -8.543226820999905
-            ]
-          }
-        ],
-        "exclusionZones": [
-          {
-            "label": "Christchurch, Canterbury, New Zealand",
-            "type": "Custom Area",
-            "category": [
-              "Christchurch"
-            ],
-            "coordinates": [
-              172.6083335,
-              -43.5333335
-            ],
-            "bbox": [
-              172.475,
-              -43.6,
-              172.741667,
-              -43.466667
-            ]
-          },
-          {
-            "label": "Dunedin, Otago, New Zealand",
-            "type": "Custom Area",
-            "category": [
-              "Dunedin"
-            ],
-            "coordinates": [
-              170.4875,
-              -45.8833335
-            ],
-            "bbox": [
-              170.416667,
-              -45.925,
-              170.558333,
-              -45.841667
-            ]
-          }
-        ],
-        "petsAllowed": false
-      },
-      {
-        "name": "2-hour Sunset Sailing Charter",
-        "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "NZD",
-          "charterFee": 199000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 199000,
-              "amount": 199000,
-              "conditions": "up to six guests",
-              "taxRate": {
-                "label": "GST",
-                "value": 0.15
-              }
-            },
-            {
-              "item": "Additional guests beyond six",
-              "conditions": "max 40 guests",
-              "quantity": 1,
-              "unitPrice": 6000,
-              "amount": 6000,
-              "taxRate": {
-                "label": "GST",
-                "value": 0.15
-              }
-            },
-            {
-              "item": "Dining",
-              "conditions": "Ask us for a quote",
-              "quantity": 1,
-              "unitPrice": 0,
-              "amount": 0,
-              "taxRate": {
-                "label": "GST",
-                "value": 0.15
-              }
-            }
-          ],
-          "total": 205000,
-          "subTotal": 205000,
-          "totalTax": 30750
         },
         "inclusionZones": [
           {
