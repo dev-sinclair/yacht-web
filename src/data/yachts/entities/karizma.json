@@ -1,5 +1,5 @@
 {
-  "lastModified": 1790328123321,
+  "lastModified": 1791457484045,
   "uri": "c::8164602117::vessel::77945882-486c-11ee-a45f-fdfff6163a60",
   "yachtType": [
     "Motor"
@@ -144,89 +144,34 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 7000000,
+      "price": 8400000,
       "displayCurrency": "EUR",
-      "displayPrice": 7000000,
+      "displayPrice": 8400000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 8000000,
+      "price": 9500000,
       "displayCurrency": "EUR",
-      "displayPrice": 8000000,
+      "displayPrice": 9500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "SEASON A (From 18 April 2026 till 16 May 2026) & SEASON E (From 19 September 2026 till 31 October 2026)",
-        "effectiveDates": [
-          {
-            "from": "2026-04-18T00:00:00.000Z",
-            "to": "2026-05-16T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-19T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 7000000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 7000000,
-              "amount": 7000000,
-              "conditions": "Weekly"
-            }
-          ],
-          "total": 7000000,
-          "subTotal": 7000000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "SEASON B (From 16 May 2026 till 13 June 2026) & SEASON D (From 29 August 2026 till 19 September 2026)",
+        "name": "SEASON A (From 01 May 2027 till 15 May 2027) & SEASON E (From 18 September 2027 till 30 October 2027)",
         "effectiveDates": [
           {
             "from": "2026-05-16T00:00:00.000Z",
-            "to": "2026-06-13T23:59:59.999Z"
+            "to": "2027-05-15T23:59:59.999Z"
           },
           {
-            "from": "2026-08-29T00:00:00.000Z",
-            "to": "2026-09-19T23:59:59.999Z"
+            "from": "2026-10-31T00:00:00.000Z",
+            "to": "2027-10-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 7500000,
+          "charterFee": 8400000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -234,13 +179,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7500000,
-              "amount": 7500000,
+              "unitPrice": 8400000,
+              "amount": 8400000,
               "conditions": "Weekly"
             }
           ],
-          "total": 7500000,
-          "subTotal": 7500000,
+          "total": 8400000,
+          "subTotal": 8400000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -268,16 +213,20 @@
         "petsAllowed": false
       },
       {
-        "name": "SEASON C (From 13 June 2026 till 29 August 2026)",
+        "name": "SEASON B (From 15 May 2027 till 19 June 2027) & SEASON D (From 28 August 2027 till 18 September 2027)",
         "effectiveDates": [
           {
             "from": "2026-06-13T00:00:00.000Z",
-            "to": "2026-08-29T23:59:59.999Z"
+            "to": "2027-06-19T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-19T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 8000000,
+          "charterFee": 8900000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -285,13 +234,64 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8000000,
-              "amount": 8000000,
+              "unitPrice": 8900000,
+              "amount": 8900000,
               "conditions": "Weekly"
             }
           ],
-          "total": 8000000,
-          "subTotal": 8000000,
+          "total": 8900000,
+          "subTotal": 8900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "SEASON C (From 19 June 2027 till 28 August 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-06-19T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 9500000,
+          "subTotal": 9500000,
           "totalTax": 0
         },
         "inclusionZones": [
