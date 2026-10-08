@@ -14239,6 +14239,25 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405",
+    "slug": "lady-rose",
+    "name": "LADY ROSE",
+    "hero": "/media/media::image::c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405::assets::41ad95d0-73c6-11f1-b0c2-aba7f22fb976/{imageVariant}",
+    "length": 20.55,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2026,
+    "builder": "Lagoon",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 6900000,
+    "currency": "EUR",
+    "seasons": []
+  },
+  {
     "uri": "c::18277099312::vessel::d5cc4e2e-fe8c-11ed-889f-43d4bb723744",
     "slug": "amada-mia",
     "name": "AMADA MIA",
@@ -14291,25 +14310,6 @@
       "winter-2025",
       "winter-2026"
     ]
-  },
-  {
-    "uri": "c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405",
-    "slug": "lady-rose",
-    "name": "LADY ROSE",
-    "hero": "/media/media::image::c::7579668770::vessel::e98677f0-83f7-11f0-871d-25f497afe405::assets::41ad95d0-73c6-11f1-b0c2-aba7f22fb976/{imageVariant}",
-    "length": 20.55,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2026,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 6900000,
-    "currency": "EUR",
-    "seasons": []
   },
   {
     "uri": "c::7819307041::vessel::d5cca3a0-fe8c-11ed-889f-43d4bb723744",
