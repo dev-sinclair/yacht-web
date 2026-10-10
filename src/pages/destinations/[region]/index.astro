@@ -286,17 +286,6 @@ const seasonRows: Array<{ label: string; value?: string }> = region.seasonCondit
                     <!-- Soft frame -->
                     <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10"></div>
 
-                    <!-- Index badge -->
-                    <div
-                      class="absolute left-5 top-5 sm:left-6 sm:top-6 bg-black/30 backdrop-blur-sm px-3 py-1.5"
-                    >
-                      <span
-                        class="num text-[10px] font-medium tracking-[0.3em] uppercase text-white/95"
-                        style="font-family: 'Inter', sans-serif;"
-                      >
-                        {String(i + 1).padStart(2, "0")} / {String(region.locations.length).padStart(2, "0")}
-                      </span>
-                    </div>
 
                   </div>
 
