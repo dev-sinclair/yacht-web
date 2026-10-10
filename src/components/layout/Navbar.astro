@@ -113,7 +113,7 @@ const links: NavLink[] = [
                       <li>
                         <a
                           href={child.href}
-                          class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-taupe transition-colors duration-300"
+                          class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-deep transition-colors duration-300"
                           style="font-family: 'Raleway', sans-serif;"
                         >
                           {child.label}
@@ -212,7 +212,7 @@ const links: NavLink[] = [
                   <li>
                     <a
                       href={child.href}
-                      class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-taupe transition-colors duration-300"
+                      class="nav-sub block text-[11px] font-light tracking-[0.2em] uppercase text-deep transition-colors duration-300"
                       style="font-family: 'Raleway', sans-serif;"
                     >
                       {child.label}
@@ -254,8 +254,9 @@ const links: NavLink[] = [
   .nav-link:hover {
     color: #6e8e8f;
   }
-  .nav-sub:hover {
-    color: #2a2a2a;
+  .nav-sub:hover,
+  .nav-sub:focus-visible {
+    color: var(--color-deep-dark);
   }
   .enquire-btn:hover {
     background-color: #6e8e8f;
