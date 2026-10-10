@@ -5,14 +5,14 @@ import Navbar from "../../components/layout/Navbar.astro";
 import Footer from "../../components/layout/Footer.astro";
 import Container from "../../components/ui/Container.astro";
 
-// Hero: photo by Mathias Reding on Unsplash
-// https://unsplash.com/photos/GjYDZXCLGRQ — white and black speedboat on the ocean
+// Hero: redcharlie on Unsplash
+// https://unsplash.com/photos/h2_OMqGcAHU — yacht cruising in Cannes
 const heroSrc =
-  "https://images.unsplash.com/photo-1571769637676-619b62e64f94?w=1920&q=80&auto=format&fit=crop";
+  "https://images.unsplash.com/photo-1598737285721-29346a5c9278?w=1920&q=80&auto=format&fit=crop";
 const heroSrcMd =
-  "https://images.unsplash.com/photo-1571769637676-619b62e64f94?w=1280&q=80&auto=format&fit=crop";
+  "https://images.unsplash.com/photo-1598737285721-29346a5c9278?w=1280&q=80&auto=format&fit=crop";
 
-// Why-Sinclair portrait: photo by Maurits Bausenhart on Unsplash
+// Why-Sinclair portrait: Maurits Bausenhart on Unsplash
 // https://unsplash.com/photos/v-5m2uAzhYM — large modern yacht on calm sea
 const portraitSrc =
   "https://images.unsplash.com/photo-1759135695910-0a6aaaab6b14?w=1200&q=80&auto=format&fit=crop";
@@ -54,8 +54,8 @@ const pillars = [
         src={heroSrc}
         srcset={`${heroSrcMd} 1280w, ${heroSrc} 1920w`}
         sizes="100vw"
-        alt="White and black speedboat on the ocean"
-        class="absolute inset-0 h-full w-full object-cover"
+        alt="Luxury yacht cruising in Cannes"
+        class="absolute inset-0 h-full w-full object-cover grayscale"
         loading="eager"
       />
       <div
@@ -171,7 +171,7 @@ const pillars = [
 
         <!-- Right: portrait image. Remote Unsplash asset — plain <img> since
              Astro's <Image> is tuned for local imports. -->
-        <div class="relative hidden lg:block">
+        <div class="relative">
           <div class="relative aspect-[4/5] w-full overflow-hidden">
             <img
               src={portraitSrc}
