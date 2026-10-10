@@ -149,17 +149,19 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 
-/* Hero CTA buttons: flat (no inherited text-shadow), with an ocean-blue hover
-   that matches the navbar Enquire button. Scoped CSS rather than Tailwind
-   arbitrary-hex hovers, which are unreliable in this project. */
+/* Service hero CTAs use Sinclair blue, revealing the image on hover. */
 .cta-blue-hover {
+  background-color: var(--color-deep);
+  color: #ffffff;
+  border-color: var(--color-deep);
   text-shadow: none;
   transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
 }
-.cta-blue-hover:hover {
-  background-color: #6e8e8f;
+.cta-blue-hover:hover,
+.cta-blue-hover:focus-visible {
+  background-color: transparent;
   color: #ffffff;
-  border-color: #6e8e8f;
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 /* ── Marquee-on-overflow ── */
