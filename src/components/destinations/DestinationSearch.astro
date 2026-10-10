@@ -23,6 +23,7 @@ const { regionCount, locationCount } = Astro.props;
         </span>
         <input
           id="dest-search"
+        aria-label="Search regions or destinations"
           type="search"
           autocomplete="off"
           placeholder="Search regions or destinations (e.g. Greece, Bahamas, Maldives)"
@@ -31,7 +32,7 @@ const { regionCount, locationCount } = Astro.props;
         />
       </label>
       <p
-        data-dest-count
+        data-dest-count role="status" aria-live="polite"
         class="text-[10px] font-medium tracking-[0.2em] uppercase text-taupe shrink-0"
         style="font-family: 'Raleway', sans-serif;"
       >
