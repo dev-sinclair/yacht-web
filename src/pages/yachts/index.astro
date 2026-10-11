@@ -41,7 +41,12 @@ const activeSeasonLabel = activeSeason ? formatSeason(activeSeason) : "";
 // is memoized in src/data/snapshot.ts so this is a near-free per-request
 // hit after the first one. Categories filter doesn't apply here — we want
 // facet bounds for the full eligible catalog, not just the active type.
-const facets: YachtFacets = getFacets(await getAllYachts());
+const catalogue = await getAllYachts();
+const facets: YachtFacets = getFacets(catalogue);
+const cabinValues = catalogue.map(y => y.cabins).filter(n => Number.isFinite(n) && n > 0);
+const yearValues = catalogue.map(y => y.builtYear).filter((n): n is number => n != null && Number.isFinite(n) && n > 0);
+const cabinBounds = { min: 1, max: Math.max(2, ...cabinValues) };
+const yearBounds = { min: Math.min(...(yearValues.length ? yearValues : [1900])), max: Math.max(new Date().getFullYear(), ...yearValues) };
 ---
 
 <BaseLayout
@@ -73,7 +78,7 @@ const facets: YachtFacets = getFacets(await getAllYachts());
             </svg>
           </button>
           <div id="filters-panel" class="hidden lg:block lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-2 filters-scroll">
-            <YachtFilters facets={facets} activeType={activeType} activeRegion={activeRegion} activeLocation={activeLocation} activeSeason={activeSeason} />
+            <YachtFilters cabinBounds={cabinBounds} yearBounds={yearBounds} facets={facets} activeType={activeType} activeRegion={activeRegion} activeLocation={activeLocation} activeSeason={activeSeason} />
           </div>
         </aside>
 
@@ -273,6 +278,8 @@ const facets: YachtFacets = getFacets(await getAllYachts());
     search: string;
     length: { min: number; max: number; active: boolean };
     guests: { min: number; max: number; active: boolean };
+    cabins: { min: number; max: number; active: boolean };
+    year: { min: number; max: number; active: boolean };
     /** Price values are in EUR (not cents) to match slider units. */
     price: { min: number; max: number; active: boolean };
   }
@@ -404,6 +411,8 @@ const facets: YachtFacets = getFacets(await getAllYachts());
     search: "",
     length: { min: 0, max: 0, active: false },
     guests: { min: 0, max: 0, active: false },
+    cabins: { min: 0, max: 0, active: false },
+    year: { min: 0, max: 0, active: false },
     price: { min: 0, max: 0, active: false },
   };
 
@@ -482,6 +491,8 @@ const facets: YachtFacets = getFacets(await getAllYachts());
       if (!Number.isFinite(y.sleeps) || y.sleeps <= 0) return false;
       if (y.sleeps < f.guests.min || y.sleeps > f.guests.max) return false;
     }
+    if (f.cabins.active && (!Number.isFinite(y.cabins) || y.cabins <= 0 || y.cabins < f.cabins.min || y.cabins > f.cabins.max)) return false;
+    if (f.year.active && (y.builtYear == null || y.builtYear <= 0 || y.builtYear < f.year.min || y.builtYear > f.year.max)) return false;
     if (f.price.active) {
       // priceCents may be week or day pricing; mirror the existing fallback.
       const cents = y.weekPricingFrom ?? y.dayPricingFrom;

@@ -5,6 +5,8 @@ import { YACHT_CATEGORIES, YACHT_SEASONS, formatSeason } from "../../data/yacht-
 
 interface Props {
   facets: YachtFacets;
+  cabinBounds: { min: number; max: number };
+  yearBounds: { min: number; max: number };
   activeType?: string;
   activeRegion?: string;
   activeLocation?: string;
@@ -13,6 +15,8 @@ interface Props {
 
 const {
   facets,
+  cabinBounds,
+  yearBounds,
   activeType = "",
   activeRegion = "",
   activeLocation = "",
@@ -70,6 +74,13 @@ function locationHref(regionSlug: string, locationSlug: string): string {
 const LENGTH_MIN = 15;
 const LENGTH_MAX = 150;
 const LENGTH_STEP = 1;
+
+const CABINS_MIN = cabinBounds.min;
+const CABINS_MAX = cabinBounds.max;
+const CABINS_STEP = 1;
+const YEAR_MIN = yearBounds.min;
+const YEAR_MAX = yearBounds.max;
+const YEAR_STEP = 1;
 
 const GUESTS_MIN = 1;
 // Catalog allows any guest count; slider tops at a generous 30 and treats
@@ -295,6 +306,40 @@ const locationItemClass = (active: boolean) =>
     <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-guests-display">1 – 30+</span></p>
   </div>
 
+  <!-- Cabins range -->
+  <div>
+    <p class={sectionLabelClass}>Cabins</p>
+    <div class="mt-2 flex items-center gap-2">
+      <input id="filter-cabins-min-num" type="number" min={CABINS_MIN} max={CABINS_MAX} step={CABINS_STEP} value={CABINS_MIN} class={numInputClass} aria-label="Minimum cabins" />
+      <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">to</span>
+      <input id="filter-cabins-max-num" type="number" min={CABINS_MIN} max={CABINS_MAX} step={CABINS_STEP} value={CABINS_MAX} class={numInputClass} aria-label="Maximum cabins" />
+    </div>
+    <div class="range-slider mt-3 relative h-5">
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-deep/20"></div>
+      <div id="filter-cabins-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-deep"></div>
+      <input id="filter-cabins-min" type="range" min={CABINS_MIN} max={CABINS_MAX} step={CABINS_STEP} value={CABINS_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum cabins" />
+      <input id="filter-cabins-max" type="range" min={CABINS_MIN} max={CABINS_MAX} step={CABINS_STEP} value={CABINS_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum cabins" />
+    </div>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-cabins-display">{`${CABINS_MIN} – ${CABINS_MAX}`}</span></p>
+  </div>
+
+  <!-- Year built range -->
+  <div>
+    <p class={sectionLabelClass}>Year built</p>
+    <div class="mt-2 flex items-center gap-2">
+      <input id="filter-year-min-num" type="number" min={YEAR_MIN} max={YEAR_MAX} step={YEAR_STEP} value={YEAR_MIN} class={numInputClass} aria-label="Earliest build year" />
+      <span class="text-[10px] tracking-[0.2em] uppercase text-taupe-light">to</span>
+      <input id="filter-year-max-num" type="number" min={YEAR_MIN} max={YEAR_MAX} step={YEAR_STEP} value={YEAR_MAX} class={numInputClass} aria-label="Latest build year" />
+    </div>
+    <div class="range-slider mt-3 relative h-5">
+      <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-px bg-deep/20"></div>
+      <div id="filter-year-track" class="absolute top-1/2 -translate-y-1/2 h-px bg-deep"></div>
+      <input id="filter-year-min" type="range" min={YEAR_MIN} max={YEAR_MAX} step={YEAR_STEP} value={YEAR_MIN} class="range-input absolute inset-0 w-full" aria-label="Minimum year" />
+      <input id="filter-year-max" type="range" min={YEAR_MIN} max={YEAR_MAX} step={YEAR_STEP} value={YEAR_MAX} class="range-input absolute inset-0 w-full" aria-label="Maximum year" />
+    </div>
+    <p class="mt-2 text-[10px] tracking-[0.05em] text-taupe-light"><span id="filter-year-display">{`${YEAR_MIN} – ${YEAR_MAX}`}</span></p>
+  </div>
+
   <!-- Price range -->
   <div>
     <p class={sectionLabelClass}>Price / week (EUR)</p>
@@ -452,6 +497,8 @@ const locationItemClass = (active: boolean) =>
     const lenR = lengthRange?.get();
     const gstR = guestsRange?.get();
     const priR = priceRange?.get();
+    const cabR = cabinsRange?.get();
+    const yrR = yearRange?.get();
 
     const lenActive = !!(lenR && (lenR.min > lengthRange!.bounds.lo || lenR.max < lengthRange!.bounds.hi));
     const gstActive = !!(gstR && (gstR.min > guestsRange!.bounds.lo || gstR.max < guestsRange!.bounds.hi));
@@ -475,6 +522,8 @@ const locationItemClass = (active: boolean) =>
 
     const detail = {
       search: searchQuery,
+      cabins: { min: cabR?.min ?? 0, max: cabR?.max ?? 0, active: !!(cabR && (cabR.min > cabinsRange!.bounds.lo || cabR.max < cabinsRange!.bounds.hi)) },
+      year: { min: yrR?.min ?? 0, max: yrR?.max ?? 0, active: !!(yrR && (yrR.min > yearRange!.bounds.lo || yrR.max < yearRange!.bounds.hi)) },
       length: { min: lenR?.min ?? 0, max: lenMax, active: lenActive },
       guests: { min: gstR?.min ?? 0, max: gstMax, active: gstActive },
       price:  { min: priR?.min ?? 0, max: priMax, active: priActive },
@@ -505,6 +554,20 @@ const locationItemClass = (active: boolean) =>
     // Catalog has no guest cap — render the slider max as "30+" so
     // outsized vessels still surface when the thumb is parked at the top.
     treatMaxAsPlus: true,
+  }, () => emitFilterChange());
+
+  const cabinsRange = setupRange({
+    minRange: "filter-cabins-min", maxRange: "filter-cabins-max",
+    minNum: "filter-cabins-min-num", maxNum: "filter-cabins-max-num",
+    track: "filter-cabins-track", display: "filter-cabins-display",
+    fmt: (v) => String(v),
+  }, () => emitFilterChange());
+
+  const yearRange = setupRange({
+    minRange: "filter-year-min", maxRange: "filter-year-max",
+    minNum: "filter-year-min-num", maxNum: "filter-year-max-num",
+    track: "filter-year-track", display: "filter-year-display",
+    fmt: (v) => String(v),
   }, () => emitFilterChange());
 
   const priceRange = setupRange({
