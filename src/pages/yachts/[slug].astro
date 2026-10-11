@@ -571,6 +571,8 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       if (!content) return;
 
       content.innerHTML = renderYacht(yacht);
+      const footerWhatsApp = document.querySelector<HTMLAnchorElement>("[data-footer-whatsapp]");
+      if (footerWhatsApp) footerWhatsApp.href = waUrl(yacht.blueprint.name);
       // Strip id="hero" from the (now hidden) skeleton so the navbar's
       // dark-section detector finds the real hero, not the zero-sized skeleton.
       skel?.querySelector("#hero")?.removeAttribute("id");

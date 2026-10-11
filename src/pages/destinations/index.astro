@@ -35,6 +35,572 @@ Astro.response.headers.set(
 
 <script>
   type RegionCard = HTMLLIElement;
+  const destinationAliases = [
+  {
+    "country": "norway & the fjords",
+    "label": "Norway & the Fjords",
+    "slug": "norway",
+    "aliases": [
+      "bergen",
+      "lofoten",
+      "tromso",
+      "tromsø",
+      "svalbard",
+      "oslo",
+      "geiranger",
+      "alesund",
+      "ålesund"
+    ]
+  },
+  {
+    "country": "scotland",
+    "label": "Scotland",
+    "slug": "scotland",
+    "aliases": [
+      "hebrides",
+      "skye",
+      "orkney",
+      "shetland",
+      "oban",
+      "mull",
+      "islay"
+    ]
+  },
+  {
+    "country": "greenland",
+    "label": "Greenland",
+    "slug": "greenland",
+    "aliases": [
+      "nuuk",
+      "ilulissat",
+      "diskobugten",
+      "disko bay"
+    ]
+  },
+  {
+    "country": "france",
+    "label": "France",
+    "slug": "france",
+    "aliases": [
+      "corsica",
+      "cannes",
+      "nice",
+      "saint tropez",
+      "st tropez",
+      "antibes",
+      "french riviera",
+      "cote d azur",
+      "côte d’azur",
+      "bonifacio",
+      "villefranche"
+    ]
+  },
+  {
+    "country": "monaco",
+    "label": "Monaco",
+    "slug": "monaco",
+    "aliases": [
+      "monte carlo",
+      "monte-carlo"
+    ]
+  },
+  {
+    "country": "italy",
+    "label": "Italy",
+    "slug": "italy",
+    "aliases": [
+      "sardinia",
+      "sicily",
+      "capri",
+      "amalfi",
+      "positano",
+      "portofino",
+      "naples",
+      "sorrento",
+      "cinque terre",
+      "aeolian islands",
+      "lipari",
+      "elba",
+      "venice"
+    ]
+  },
+  {
+    "country": "spain",
+    "label": "Spain",
+    "slug": "spain",
+    "aliases": [
+      "ibiza",
+      "mallorca",
+      "majorca",
+      "menorca",
+      "minorca",
+      "formentera",
+      "balearic islands",
+      "palma",
+      "barcelona",
+      "costa brava",
+      "canary islands",
+      "tenerife",
+      "lanzarote"
+    ]
+  },
+  {
+    "country": "greece",
+    "label": "Greece",
+    "slug": "greece",
+    "aliases": [
+      "santorini",
+      "mykonos",
+      "crete",
+      "corfu",
+      "rhodes",
+      "kos",
+      "paros",
+      "naxos",
+      "zakynthos",
+      "zante",
+      "kefalonia",
+      "cephalonia",
+      "skiathos",
+      "skopelos",
+      "lefkada",
+      "ithaca",
+      "paxos",
+      "antipaxos",
+      "milos",
+      "sifnos",
+      "hydra",
+      "spetses",
+      "cyclades",
+      "dodecanese",
+      "ionian islands",
+      "athens"
+    ]
+  },
+  {
+    "country": "croatia & montenegro",
+    "label": "Croatia & Montenegro",
+    "slug": "croatia-and-montenegro",
+    "aliases": [
+      "croatia",
+      "montenegro",
+      "dubrovnik",
+      "split",
+      "hvar",
+      "korcula",
+      "korčula",
+      "vis",
+      "brac",
+      "brač",
+      "kornati",
+      "trogir",
+      "kotor",
+      "tivat",
+      "budva",
+      "porto montenegro"
+    ]
+  },
+  {
+    "country": "turkey",
+    "label": "Turkey",
+    "slug": "turkey",
+    "aliases": [
+      "turkiye",
+      "türkiye",
+      "bodrum",
+      "gocek",
+      "göcek",
+      "fethiye",
+      "marmaris",
+      "antalya",
+      "datca",
+      "datça"
+    ]
+  },
+  {
+    "country": "british virgin islands",
+    "label": "British Virgin Islands",
+    "slug": "british-virgin-islands",
+    "aliases": [
+      "bvi",
+      "tortola",
+      "virgin gorda",
+      "jost van dyke",
+      "anegada"
+    ]
+  },
+  {
+    "country": "us virgin islands",
+    "label": "US Virgin Islands",
+    "slug": "us-virgin-islands",
+    "aliases": [
+      "usvi",
+      "st thomas",
+      "saint thomas",
+      "st john",
+      "saint john",
+      "st croix",
+      "saint croix"
+    ]
+  },
+  {
+    "country": "st barths, st martin & the leeward islands",
+    "label": "St Barths, St Martin & the Leeward Islands",
+    "slug": "leeward-islands",
+    "aliases": [
+      "st barts",
+      "saint barthelemy",
+      "saint barthélemy",
+      "saint martin",
+      "sint maarten",
+      "anguilla",
+      "st kitts",
+      "saint kitts",
+      "nevis",
+      "guadeloupe"
+    ]
+  },
+  {
+    "country": "antigua & barbuda",
+    "label": "Antigua & Barbuda",
+    "slug": "antigua-and-barbuda",
+    "aliases": [
+      "antigua",
+      "barbuda",
+      "english harbour",
+      "falmouth harbour"
+    ]
+  },
+  {
+    "country": "st lucia, st vincent & the grenadines",
+    "label": "St Lucia, St Vincent & The Grenadines",
+    "slug": "grenadines",
+    "aliases": [
+      "saint lucia",
+      "st lucia",
+      "st vincent",
+      "saint vincent",
+      "bequia",
+      "mustique",
+      "canouan",
+      "tobago cays",
+      "union island"
+    ]
+  },
+  {
+    "country": "the bahamas",
+    "label": "The Bahamas",
+    "slug": "bahamas",
+    "aliases": [
+      "nassau",
+      "exumas",
+      "exuma",
+      "eleuthera",
+      "harbour island",
+      "abacos",
+      "abaco",
+      "bimini"
+    ]
+  },
+  {
+    "country": "panama & the san blas islands",
+    "label": "Panama & the San Blas Islands",
+    "slug": "panama",
+    "aliases": [
+      "san blas",
+      "guna yala",
+      "bocas del toro",
+      "pearl islands",
+      "panama city"
+    ]
+  },
+  {
+    "country": "colombia",
+    "label": "Colombia",
+    "slug": "colombia",
+    "aliases": [
+      "cartagena",
+      "rosario islands",
+      "san andres",
+      "san andrés",
+      "santa marta"
+    ]
+  },
+  {
+    "country": "costa rica & the pacific",
+    "label": "Costa Rica & the Pacific",
+    "slug": "costa-rica",
+    "aliases": [
+      "costa rica",
+      "papagayo",
+      "golfito",
+      "cocos island",
+      "manuel antonio"
+    ]
+  },
+  {
+    "country": "galápagos islands",
+    "label": "Galápagos Islands",
+    "slug": "galapagos",
+    "aliases": [
+      "galapagos",
+      "santa cruz",
+      "san cristobal",
+      "san cristóbal",
+      "isabela",
+      "baltra",
+      "ecuador"
+    ]
+  },
+  {
+    "country": "brazil",
+    "label": "Brazil",
+    "slug": "brazil",
+    "aliases": [
+      "rio de janeiro",
+      "angra dos reis",
+      "ilha grande",
+      "paraty",
+      "fernando de noronha"
+    ]
+  },
+  {
+    "country": "the maldives",
+    "label": "The Maldives",
+    "slug": "maldives",
+    "aliases": [
+      "male",
+      "malé",
+      "baa atoll",
+      "ari atoll",
+      "addu atoll"
+    ]
+  },
+  {
+    "country": "the seychelles",
+    "label": "The Seychelles",
+    "slug": "seychelles",
+    "aliases": [
+      "mahe",
+      "mahé",
+      "praslin",
+      "la digue",
+      "silhouette island"
+    ]
+  },
+  {
+    "country": "mauritius",
+    "label": "Mauritius",
+    "slug": "mauritius",
+    "aliases": [
+      "grand baie",
+      "ile aux cerfs",
+      "île aux cerfs",
+      "black river"
+    ]
+  },
+  {
+    "country": "dubai & the uae",
+    "label": "Dubai & the UAE",
+    "slug": "dubai-and-uae",
+    "aliases": [
+      "uae",
+      "united arab emirates",
+      "abu dhabi",
+      "ras al khaimah",
+      "fujairah",
+      "palm jumeirah"
+    ]
+  },
+  {
+    "country": "oman",
+    "label": "Oman",
+    "slug": "oman",
+    "aliases": [
+      "muscat",
+      "musandam",
+      "salalah",
+      "khasab"
+    ]
+  },
+  {
+    "country": "the red sea",
+    "label": "The Red Sea",
+    "slug": "red-sea",
+    "aliases": [
+      "egypt",
+      "hurghada",
+      "sharm el sheikh",
+      "marsa alam",
+      "saudi arabia",
+      "jeddah"
+    ]
+  },
+  {
+    "country": "singapore",
+    "label": "Singapore",
+    "slug": "singapore",
+    "aliases": [
+      "sentosa",
+      "marina bay"
+    ]
+  },
+  {
+    "country": "indonesia",
+    "label": "Indonesia",
+    "slug": "indonesia",
+    "aliases": [
+      "bali",
+      "komodo",
+      "raja ampat",
+      "lombok",
+      "flores",
+      "gili islands",
+      "labuan bajo"
+    ]
+  },
+  {
+    "country": "thailand",
+    "label": "Thailand",
+    "slug": "thailand",
+    "aliases": [
+      "phuket",
+      "krabi",
+      "koh samui",
+      "ko samui",
+      "phi phi",
+      "phang nga",
+      "similan islands"
+    ]
+  },
+  {
+    "country": "malaysia",
+    "label": "Malaysia",
+    "slug": "malaysia",
+    "aliases": [
+      "langkawi",
+      "penang",
+      "tioman",
+      "sabah",
+      "kota kinabalu"
+    ]
+  },
+  {
+    "country": "fiji",
+    "label": "Fiji",
+    "slug": "fiji",
+    "aliases": [
+      "mamanuca",
+      "yasawa",
+      "nadi",
+      "denarau",
+      "taveuni",
+      "vanua levu"
+    ]
+  },
+  {
+    "country": "french polynesia",
+    "label": "French Polynesia",
+    "slug": "french-polynesia",
+    "aliases": [
+      "tahiti",
+      "bora bora",
+      "moorea",
+      "tuamotus",
+      "marquesas",
+      "raiatea",
+      "huahine"
+    ]
+  },
+  {
+    "country": "tonga",
+    "label": "Tonga",
+    "slug": "tonga",
+    "aliases": [
+      "vavau",
+      "vava'u",
+      "vava’u",
+      "tongatapu",
+      "haapai",
+      "ha'apai",
+      "ha’apai"
+    ]
+  },
+  {
+    "country": "australia",
+    "label": "Australia",
+    "slug": "australia",
+    "aliases": [
+      "whitsundays",
+      "great barrier reef",
+      "sydney",
+      "cairns",
+      "hamilton island",
+      "gold coast",
+      "perth",
+      "kimberley"
+    ]
+  },
+  {
+    "country": "new zealand",
+    "label": "New Zealand",
+    "slug": "new-zealand",
+    "aliases": [
+      "new zealand",
+      "auckland",
+      "bay of islands",
+      "fiordland",
+      "milford sound",
+      "marlborough sounds"
+    ]
+  },
+  {
+    "country": "new england & new york",
+    "label": "New England & New York",
+    "slug": "new-england-and-new-york",
+    "aliases": [
+      "new england",
+      "new york",
+      "newport",
+      "nantucket",
+      "marthas vineyard",
+      "martha's vineyard",
+      "martha’s vineyard",
+      "long island",
+      "hamptons",
+      "cape cod",
+      "maine",
+      "massachusetts",
+      "rhode island",
+      "connecticut"
+    ]
+  },
+  {
+    "country": "alaska",
+    "label": "Alaska",
+    "slug": "alaska",
+    "aliases": [
+      "juneau",
+      "sitka",
+      "ketchikan",
+      "glacier bay",
+      "inside passage",
+      "seward"
+    ]
+  },
+  {
+    "country": "antarctica",
+    "label": "Antarctica",
+    "slug": "antarctica",
+    "aliases": [
+      "antarctic peninsula",
+      "south shetland islands",
+      "deception island",
+      "lemaire channel"
+    ]
+  }
+];
+  const normalizeSearch = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[’‘]/g, "\'").toLowerCase().trim();
 
   const grid = document.querySelector<HTMLElement>("[data-dest-grid]");
   const searchInput = document.getElementById("dest-search") as HTMLInputElement | null;
@@ -51,7 +617,8 @@ Astro.response.headers.set(
     const baseCountText = `${totalRegions} Regions · ${totalLocations} Destinations`;
 
     function applyFilter(query: string) {
-      const q = query.trim().toLowerCase();
+      const q = normalizeSearch(query);
+      const aliasMatches = q ? destinationAliases.filter(entry => entry.aliases.some(alias => normalizeSearch(alias).includes(q))) : [];
       let visibleRegions = 0;
 
       cards.forEach((card) => {
@@ -59,11 +626,12 @@ Astro.response.headers.set(
         const locationsBlob = card.dataset.locations ?? "";
         const locationNames = locationsBlob.split("|").filter(Boolean);
 
-        const regionMatch = q === "" || regionName.includes(q);
+        const regionMatch = q === "" || normalizeSearch(regionName).includes(q);
         const locationMatchCount = q === ""
           ? locationNames.length
-          : locationNames.filter((n) => n.includes(q)).length;
-        const matches = regionMatch || locationMatchCount > 0;
+          : locationNames.filter((n) => normalizeSearch(n).includes(q)).length;
+        const matchingAliases = aliasMatches.filter(entry => locationNames.includes(entry.country));
+        const matches = regionMatch || locationMatchCount > 0 || matchingAliases.length > 0;
 
         card.dataset.hidden = String(!matches);
         if (matches) visibleRegions += 1;
