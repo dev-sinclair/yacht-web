@@ -24,7 +24,6 @@ export type YachtCategory = (typeof YACHT_CATEGORIES)[number];
 // add 2028, just append `"summer-2028", "winter-2028"` here — the snapshot
 // data is already there.
 export const YACHT_SEASONS = [
-  "summer-2026",
   "winter-2026",
   "summer-2027",
   "winter-2027",
@@ -38,6 +37,10 @@ export function isYachtSeason(s: string): s is YachtSeason {
 export function formatSeason(s: YachtSeason): string {
   const [season, year] = s.split("-");
   const cap = season ? season.charAt(0).toUpperCase() + season.slice(1) : "";
+  if (season === "winter") {
+    const startYear = Number(year);
+    return `Winter ${String(startYear).slice(-2)}/${String(startYear + 1).slice(-2)}`;
+  }
   return `${cap} ${year}`;
 }
 
