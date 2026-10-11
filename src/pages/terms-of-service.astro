@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Navbar from "../components/layout/Navbar.astro";
 import Footer from "../components/layout/Footer.astro";
 
-const lastUpdated = "31 May 2026";
+const lastUpdated = "11 October 2026";
 
 Astro.response.headers.set(
   "Cache-Control",
@@ -13,7 +13,7 @@ Astro.response.headers.set(
 ---
 
 <BaseLayout
-  title="Terms of Service — Sinclair Yachting"
+  title="Terms and Conditions — Sinclair Yachting"
   description="The terms that govern your use of the Sinclair Yachting website."
 >
   <Navbar />
@@ -22,33 +22,17 @@ Astro.response.headers.set(
     <!-- Editorial header -->
     <header class="pt-32 pb-14 sm:pt-36 sm:pb-16 lg:pt-40 lg:pb-20">
       <div class="mx-auto max-w-3xl px-6 sm:px-8 lg:px-12">
-        <nav
-          class="text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
-          style="font-family: 'Raleway', sans-serif;"
-        >
-          <a href="/" class="transition-colors duration-300 hover:text-charcoal">Home</a>
-          <span class="mx-3 text-taupe-light/60">/</span>
-          <span class="text-charcoal">Terms of Service</span>
-        </nav>
 
         <h1
           data-reveal="up"
           class="mt-10 text-4xl font-light tracking-[0.12em] uppercase text-charcoal sm:text-5xl lg:text-6xl"
           style="font-family: 'Raleway', sans-serif; font-weight: 300;"
         >
-          Terms of Service
+          Terms and Conditions
         </h1>
 
         <div data-reveal-line class="mt-8 h-px bg-gold"></div>
 
-        <p
-          data-reveal="up"
-          class="mt-8 text-base font-light leading-[1.85] text-taupe sm:text-lg"
-        >
-          These terms govern your use of the Sinclair Yachting website. They do
-          not, on their own, create a charter, sale, build or brokerage
-          contract &mdash; those are documented separately.
-        </p>
 
         <p
           class="mt-6 text-[10px] font-medium tracking-[0.3em] uppercase text-taupe-light"
@@ -63,312 +47,34 @@ Astro.response.headers.set(
     <section class="pb-24 sm:pb-28 lg:pb-32">
       <div class="mx-auto max-w-3xl px-6 sm:px-8 lg:px-12">
         <article class="space-y-12 text-base font-light leading-[1.85] text-taupe sm:text-[17px]">
-
-          <!-- 1. Acceptance -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              1. Acceptance of these terms
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              By accessing or using this website (the &ldquo;Site&rdquo;), you
-              agree to be bound by these Terms of Service. If you do not agree,
-              please stop using the Site.
-            </p>
-          </div>
-
-          <!-- 2. About us -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              2. About us
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              The Site is operated by Sinclair Yachting (the
-              &ldquo;Brokerage&rdquo;), a yacht brokerage based at:
-            </p>
-            <ul class="mt-3 space-y-1">
-              <li>167-169 Great Portland Street</li>
-          <li>5th Floor</li>
-          <li>London</li>
-          <li>W1W 5PF</li>
-          <li>United Kingdom</li>
-            </ul>
-            <p class="mt-4">
-              Contact: <a href="mailto:info@sinclairyachting.com" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">info@sinclairyachting.com</a>
-              &middot; <a href="tel:+447779130021" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">+44 7779 130021</a>.
-            </p>
-          </div>
-
-          <!-- 3. What the Site is -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              3. What the Site is &mdash; and isn&rsquo;t
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              The Site presents information about the yachts, destinations and
-              services we work with. It is a showcase and a way to start a
-              conversation with us. It is not a booking platform.
-            </p>
-            <p class="mt-4">
-              Nothing on the Site &mdash; including listed yachts, descriptions,
-              specifications, photographs, suggested itineraries, or
-              indicative pricing &mdash; is a binding offer. A charter, sale,
-              build or service is only ever agreed under a separate written
-              contract signed by you and the relevant party (typically the
-              yacht owner, builder or service provider, with the Brokerage
-              acting as intermediary).
-            </p>
-          </div>
-
-          <!-- 4. Yacht & destination information -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              4. Yacht and destination information
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              Yacht specifications, availability, pricing and imagery shown on
-              the Site are sourced from third parties &mdash; including yacht
-              owners, management companies, central agents, and the
-              <strong class="text-charcoal font-medium">Ankor</strong> charter
-              data platform &mdash; and may change at any time without notice.
-              We use reasonable efforts to keep this information accurate but
-              cannot warrant that it is complete or current. Always confirm
-              the specifics of any yacht or itinerary with us before relying
-              on them.
-            </p>
-            <p class="mt-4">
-              Destination content &mdash; cruising areas, anchorages,
-              suggested ports &mdash; is editorial and indicative only. The
-              actual route on any charter is always plotted with the yacht&rsquo;s
-              captain and adapts to weather, sea state, port access and local
-              regulations.
-            </p>
-          </div>
-
-          <!-- 5. Currency conversion -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              5. Currency conversion
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              Prices are primarily quoted in Euro (EUR). Where the Site
-              displays a different currency, the figure is converted from EUR
-              using a public foreign-exchange feed refreshed approximately
-              every six hours. Converted figures are indicative only and are
-              not a quote. The final invoice is in the currency stated in your
-              contract.
-            </p>
-          </div>
-
-          <!-- 6. Acceptable use -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              6. Acceptable use
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              You agree to use the Site lawfully and not to:
-            </p>
-            <ul class="mt-3 list-disc space-y-1 pl-6 marker:text-gold/60">
-              <li>Submit false, misleading or unlawful information through the enquiry form or any other channel;</li>
-              <li>Use the Site or its content for any commercial purpose without our prior written consent;</li>
-              <li>Scrape, crawl or otherwise extract content or data at scale, or in a way that disrupts the Site;</li>
-              <li>Attempt to gain unauthorised access to the Site, its underlying servers, or any related infrastructure;</li>
-              <li>Upload or transmit malware, or otherwise interfere with the operation of the Site.</li>
-            </ul>
-          </div>
-
-          <!-- 7. Intellectual property -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              7. Intellectual property
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              The Sinclair Yachting name, logo, editorial copy and design
-              are owned by the Brokerage. Yacht photographs and specifications
-              are the property of their respective owners or licensors and are
-              used with permission. Some destination imagery is provided
-              under the Unsplash licence and remains the property of the
-              respective photographers.
-            </p>
-            <p class="mt-4">
-              You may view the Site and download or print pages for your own
-              personal, non-commercial use. Any other reproduction,
-              redistribution or commercial use requires our prior written
-              consent.
-            </p>
-          </div>
-
-          <!-- 8. External links -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              8. External links and channels
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              The Site links to third-party services &mdash; including WhatsApp,
-              telephone and email links to us, plus image and font services
-              described in our <a href="/privacy-policy" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">Privacy Policy</a>.
-              We don&rsquo;t control those services and are not responsible
-              for their content, availability or practices.
-            </p>
-          </div>
-
-          <!-- 9. Disclaimer -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              9. Disclaimer
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              The Site is provided on an &ldquo;as is&rdquo; and &ldquo;as
-              available&rdquo; basis. To the maximum extent permitted by
-              applicable law, we make no warranties &mdash; express, implied
-              or statutory &mdash; about the Site or its content, including
-              warranties of accuracy, completeness, fitness for a particular
-              purpose, or uninterrupted availability.
-            </p>
-          </div>
-
-          <!-- 10. Limitation of liability -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              10. Limitation of liability
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              To the maximum extent permitted by applicable law, neither the
-              Brokerage nor its officers, employees or agents will be liable
-              for any indirect, incidental, special, consequential or
-              punitive damages, or any loss of profit, revenue, business or
-              data, arising out of your use of the Site or your reliance on
-              its content.
-            </p>
-            <p class="mt-4">
-              Nothing in these terms excludes or limits any liability that
-              cannot lawfully be excluded or limited &mdash; including
-              liability for death or personal injury caused by negligence,
-              for fraud, or under non-waivable consumer-protection rights you
-              have under Spanish or EU law.
-            </p>
-          </div>
-
-          <!-- 11. Privacy -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              11. Privacy
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              Our processing of personal data through the Site is described
-              in the <a href="/privacy-policy" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">Privacy Policy</a>,
-              which forms part of these terms.
-            </p>
-          </div>
-
-          <!-- 12. Changes -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              12. Changes to these terms
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              We may update these terms from time to time. The version posted
-              on the Site at the time you use it is the version that applies.
-              Where changes are material, we will update the &ldquo;Last
-              updated&rdquo; date above.
-            </p>
-          </div>
-
-          <!-- 13. Governing law -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              13. Governing law and jurisdiction
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              These terms are governed by the laws of Spain. Subject to any
-              non-waivable rights you have as a consumer in your country of
-              residence, the courts of Palma de Mallorca, Spain, have
-              exclusive jurisdiction over any dispute arising out of or in
-              connection with the Site.
-            </p>
-          </div>
-
-          <!-- 14. Contact -->
-          <div>
-            <h2
-              data-reveal="up"
-              class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal"
-              style="font-family: 'Raleway', sans-serif; font-weight: 300;"
-            >
-              14. Contact
-            </h2>
-            <div data-reveal-line class="mt-4 h-px bg-gold"></div>
-            <p class="mt-6">
-              Questions about these terms? Write to
-              <a href="mailto:info@sinclairyachting.com" class="text-charcoal underline decoration-gold/40 underline-offset-4 transition-colors duration-300 hover:text-gold">info@sinclairyachting.com</a>.
-            </p>
-          </div>
-
-        </article>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">1. About these terms</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">These terms govern your use of the Sinclair Yachting website (the “Website”). Please read them before using the Website. By using the Website, you agree to these terms. If you do not agree, please stop using it.</p>
+<p class="mt-6">These are website-use terms. Any charter, purchase, sale, build, brokerage or management engagement will be governed by a separate written agreement setting out the parties, services, fees, payment terms and cancellation provisions.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">2. About us</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">The Website is operated by Sinclair Yachting (“we”, “us” or “our”).</p>
+<p class="mt-6">Our head office and registered office are:</p>
+<p class="mt-6">167-169 Great Portland Street<br />5th Floor<br />London<br />W1W 5PF<br />United Kingdom</p>
+<p class="mt-6">For questions about the Website or these terms, contact info@sinclairyachting.com.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">3. Our services and enquiries</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">The Website provides information about yachts, destinations and our services, and allows you to contact us. Sending an enquiry does not confirm a booking, reserve a yacht or create a service agreement.</p>
+<p class="mt-6">Listings, descriptions, photographs, suggested itineraries and indicative prices are invitations to enquire. Availability and commercial terms must be confirmed in writing before you make a commitment. Our role and responsibilities in each transaction will be set out in the relevant agreement.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">4. Yacht and destination information</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">Yacht specifications, facilities, imagery, availability and prices may be supplied by yacht owners, representatives, management companies and other industry sources. We take reasonable care when presenting this information, but details may change. Please ask us to confirm any features or requirements that are important to your decision.</p>
+<p class="mt-6">Photographs may show a yacht or destination at a particular time and may not reflect its current appearance or condition. Destination descriptions and suggested itineraries are illustrative. Actual routes and activities depend on weather, sea conditions, safety, local regulations, port access and the captain’s judgement.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">5. Prices and currencies</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">Unless expressly confirmed in writing, prices shown on the Website are indicative and subject to availability and the relevant agreement. Please confirm what is included, together with any applicable taxes, operating expenses, deposits and additional charges, before booking or instructing us.</p>
+<p class="mt-6">Where a currency conversion is displayed, it is provided for guidance only. Exchange rates can fluctuate. The currency, price and payment arrangements stated in your written agreement will apply.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">6. Acceptable use</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">You may use the Website for lawful purposes. You must not:</p>
+<ul class="mt-4 list-disc space-y-2 pl-6"><li>Submit information that is knowingly false, misleading or unlawful.</li><li>Attempt to access accounts, systems or information without authorisation.</li><li>Introduce malicious software or interfere with the Website’s security or operation.</li><li>Copy or extract content in a way that infringes intellectual property rights or disrupts the Website.</li><li>Use the Website to harass others or send unsolicited commercial communications.</li></ul></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">7. Intellectual property</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">The Website’s branding, design, text, photographs and other materials belong to us or their respective owners or licensors. Any rights granted to us to use those materials do not grant you a right to reuse them.</p>
+<p class="mt-6">You may view the Website and print or download extracts for your personal, non-commercial use, keeping any ownership notices intact. Other copying, modification, republication or commercial use requires permission from the relevant rights holder, unless permitted by law.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">8. External websites and communication services</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">The Website may link to external websites or use independent services for communications, imagery, fonts and other functionality. Links do not imply endorsement. We do not control external websites or services, which may have their own terms and privacy notices.</p>
+<p class="mt-6">We are not responsible for the content or operation of independent services, except where applicable law provides otherwise. Our own responsibilities to you remain subject to these terms and any separate agreement.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">9. Website availability</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">We aim to keep the Website available and useful, but access may be interrupted by maintenance, updates or events outside our reasonable control. We do not guarantee uninterrupted access or that the Website will be free from every error. You should use appropriate security measures on your own device.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">10. Liability and your rights</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">We do not exclude or limit liability for death or personal injury caused by our negligence, fraud or fraudulent misrepresentation, or any other liability that cannot lawfully be excluded or limited. Nothing in these terms takes away any mandatory rights you have as a consumer.</p>
+<p class="mt-6">Subject to those protections, we are not responsible for losses caused by events outside our reasonable control or losses that were not reasonably foreseeable as a consequence of our breach of these terms. If you use the Website for business purposes, we will not be liable for loss of profit, business, anticipated savings or business opportunity arising from that use, to the extent permitted by law.</p>
+<p class="mt-6">Liability relating to a charter, purchase, sale, build or other service engagement is addressed in the separate agreement for that engagement, subject to applicable law.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">11. Privacy</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">We process personal information in accordance with the UK GDPR and the Data Protection Act 2018, as amended, and the EU GDPR where it applies. Our Privacy Policy explains how we collect and use personal information through the Website. Please read it when submitting an enquiry or using our communication channels.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">12. Updates to these terms</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">We may update these terms to reflect changes to the Website, our operations or legal requirements. The revised version and its effective date will be displayed on the Website. Changes apply to future Website use and do not retrospectively alter a separate agreement already entered into with you.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">13. Governing law and disputes</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">These website terms are governed by the laws of England and Wales. Subject to any mandatory consumer rights, the courts of England and Wales, have jurisdiction over disputes arising from these terms or use of the Website. If you are a consumer, this clause does not remove any mandatory protection or right to bring proceedings in a court available to you under applicable law.</p>
+<p class="mt-6">The governing law and dispute arrangements for a separate charter, purchase, sale, build or service agreement will be stated in that agreement.</p></div>
+<div><h2 class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal">14. Contact and concerns</h2><div class="mt-4 h-px bg-gold"></div><p class="mt-6">Please send questions or concerns about these terms to info@sinclairyachting.com, or write to our head office at the address in section 2. We will seek to resolve concerns through direct discussion.</p></div>
+</article>
       </div>
     </section>
   </main>
