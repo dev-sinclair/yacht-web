@@ -1,10 +1,11 @@
 ---
+import { yachtWhatsAppUrl } from "../../lib/yacht-whatsapp";
 interface Props {
   yachtName: string;
 }
 
 const { yachtName } = Astro.props;
-const waUrl = `https://wa.me/34744409765?text=${encodeURIComponent(`Hi, I'm interested in chartering ${yachtName}. Can you send me more details?`)}`;
+const waUrl = yachtWhatsAppUrl(yachtName, Astro.url.pathname);
 ---
 
 <section class="py-20 lg:py-24"
