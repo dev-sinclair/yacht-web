@@ -334,8 +334,13 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   }
 
   function renderCard(yacht: YachtCard): string {
-    const heroUrl = resolveImage(yacht.hero, "640x");
-    const heroUrlHi = resolveImage(yacht.hero, "1280x");
+    // Babylon's first gallery photo clips the hull in the source itself.
+    // Use the full exterior view for its search preview only.
+    const tileImage = yacht.slug === "babylon"
+      ? "/media/media::image::a::vessel::d5cbfb8a-fe8c-11ed-889f-43d4bb723744::assets::adb561d0-bedd-11ef-b90a-8b6b7043ef0d/{imageVariant}"
+      : yacht.hero;
+    const heroUrl = resolveImage(tileImage, "640x");
+    const heroUrlHi = resolveImage(tileImage, "1280x");
     // Week-only display. Day-only yachts that clear the €15k/week eligibility
     // gate are shown with their aggregated week price (day × 7). API only
     // ships eligible yachts so this branch is non-empty whenever it runs.
@@ -362,9 +367,9 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   data-yacht-guests="${yacht.sleeps}"
   data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
 >
-  <div class="yacht-card-image relative shrink-0 aspect-[3/2] overflow-hidden bg-cream">
+  <div class="yacht-card-image relative shrink-0 aspect-video overflow-hidden bg-cream">
     ${heroUrl
-      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="absolute inset-0 h-full w-full object-contain" loading="lazy" />`
+      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="absolute inset-0 h-full w-full object-cover" loading="lazy" />`
       : `<div class="h-full w-full bg-cream"></div>`}
   </div>
   <div class="flex flex-1 flex-col">
