@@ -269,6 +269,7 @@ const facets: YachtFacets = getFacets(await getAllYachts());
 <script>
   import type { YachtCard, YachtFacets } from "../../data/types/yacht";
   import { convertCents } from "../../lib/currency";
+  import { getYachtCardImage, resolveYachtCardImage } from "../../lib/yacht-card-images";
 
   interface YachtsResponse {
     items: YachtCard[];
@@ -301,15 +302,6 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   }
 
   const PAGE_SIZE = 36;
-  const ANKOR_BASE = "https://api.ankor.io";
-
-  function resolveImage(url: string | null | undefined, variant = "640x"): string {
-    if (!url) return "";
-    let resolved = url.includes("{imageVariant}") ? url.replace("{imageVariant}", variant) : url;
-    if (resolved.startsWith("/")) resolved = `${ANKOR_BASE}${resolved}`;
-    return resolved;
-  }
-
   function formatPrice(cents: number | null | undefined, currency = "EUR"): string {
     if (!cents) return "On Request";
     return new Intl.NumberFormat("en-US", {
@@ -334,13 +326,11 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   }
 
   function renderCard(yacht: YachtCard): string {
-    // Babylon's first gallery photo clips the hull in the source itself.
-    // Use the full exterior view for its search preview only.
-    const tileImage = yacht.slug === "babylon"
-      ? "/media/media::image::a::vessel::d5cbfb8a-fe8c-11ed-889f-43d4bb723744::assets::adb561d0-bedd-11ef-b90a-8b6b7043ef0d/{imageVariant}"
-      : yacht.hero;
-    const heroUrl = resolveImage(tileImage, "640x");
-    const heroUrlHi = resolveImage(tileImage, "1280x");
+    const selection = getYachtCardImage(yacht);
+    const tileImage = selection?.image ?? yacht.hero;
+    const heroUrl = resolveYachtCardImage(tileImage, 640);
+    const heroUrlHi = resolveYachtCardImage(tileImage, 1280);
+    const imageDimensions = selection ? ` width="${selection.width}" height="${selection.height}"` : "";
     // Week-only display. Day-only yachts that clear the €15k/week eligibility
     // gate are shown with their aggregated week price (day × 7). API only
     // ships eligible yachts so this branch is non-empty whenever it runs.
@@ -367,10 +357,10 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   data-yacht-guests="${yacht.sleeps}"
   data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
 >
-  <div class="yacht-card-image relative shrink-0 aspect-video overflow-hidden bg-cream">
+  <div class="yacht-card-image shrink-0 overflow-hidden bg-cream">
     ${heroUrl
-      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="absolute inset-0 h-full w-full object-cover" loading="lazy" />`
-      : `<div class="h-full w-full bg-cream"></div>`}
+      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}"${imageDimensions} class="block h-auto w-full" loading="lazy" />`
+      : `<div class="aspect-[3/2] w-full bg-cream"></div>`}
   </div>
   <div class="flex flex-1 flex-col">
     <div class="px-5 pt-5">
