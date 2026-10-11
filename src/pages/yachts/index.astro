@@ -448,7 +448,11 @@ const facets: YachtFacets = getFacets(await getAllYachts());
    * a few percent of live, so initial page-1 ordering is correct.
    */
   function priceInEurCents(y: YachtCard): number | null {
-    const native = y.weekPricingFrom ?? y.dayPricingFrom;
+    const native = y.weekPricingFrom != null && y.weekPricingFrom > 0
+      ? y.weekPricingFrom
+      : y.dayPricingFrom != null && y.dayPricingFrom > 0
+        ? y.dayPricingFrom * 7
+        : null;
     if (native == null || native <= 0) return null;
     return convertCents(native, y.currency, "EUR");
   }
@@ -506,9 +510,8 @@ const facets: YachtFacets = getFacets(await getAllYachts());
       if (y.sleeps < f.guests.min || y.sleeps > f.guests.max) return false;
     }
     if (f.price.active) {
-      // priceCents may be week or day pricing; mirror the existing fallback.
-      const cents = y.weekPricingFrom ?? y.dayPricingFrom;
-      if (cents == null || cents <= 0) return false;
+      const cents = priceInEurCents(y);
+      if (cents == null) return false;
       const eur = cents / 100;
       if (eur < f.price.min || eur > f.price.max) return false;
     }
