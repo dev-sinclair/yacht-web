@@ -35,6 +35,9 @@ Astro.response.headers.set(
 
 <script>
   type RegionCard = HTMLLIElement;
+  const destinationAliases = [
+    { country: "greece", label: "Greece", slug: "greece", aliases: ["santorini", "mykonos", "crete", "corfu", "rhodes", "kos", "paros", "naxos", "zakynthos", "zante", "kefalonia", "cephalonia", "skiathos", "skopelos", "lefkada", "ithaca", "paxos", "antipaxos", "milos", "sifnos", "hydra", "spetses", "cyclades", "dodecanese", "ionian islands"] },
+  ];
 
   const grid = document.querySelector<HTMLElement>("[data-dest-grid]");
   const searchInput = document.getElementById("dest-search") as HTMLInputElement | null;
@@ -50,8 +53,14 @@ Astro.response.headers.set(
     const totalLocations = Number(searchWrapper.dataset.locationCount ?? 0);
     const baseCountText = `${totalRegions} Regions · ${totalLocations} Destinations`;
 
+    const aliasResults = document.createElement("p");
+    aliasResults.className = "mt-4 text-sm text-charcoal";
+    countLabel.after(aliasResults);
+
     function applyFilter(query: string) {
       const q = query.trim().toLowerCase();
+      const aliasMatches = q ? destinationAliases.filter(entry => entry.aliases.some(alias => alias.includes(q))) : [];
+      aliasResults.replaceChildren();
       let visibleRegions = 0;
 
       cards.forEach((card) => {
@@ -63,7 +72,15 @@ Astro.response.headers.set(
         const locationMatchCount = q === ""
           ? locationNames.length
           : locationNames.filter((n) => n.includes(q)).length;
-        const matches = regionMatch || locationMatchCount > 0;
+        const matchingAliases = aliasMatches.filter(entry => locationNames.includes(entry.country));
+        const matches = regionMatch || locationMatchCount > 0 || matchingAliases.length > 0;
+        matchingAliases.forEach(entry => {
+          const link = document.createElement("a");
+          link.href = `/destinations/${card.dataset.regionSlug}#loc-${entry.slug}`;
+          link.textContent = `Explore ${entry.label} — including ${query.trim()}`;
+          link.className = "underline underline-offset-4";
+          aliasResults.append(link);
+        });
 
         card.dataset.hidden = String(!matches);
         if (matches) visibleRegions += 1;
