@@ -100,6 +100,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
 </style>
 
 <script>
+  import { yachtWhatsAppUrl } from "../../lib/yacht-whatsapp";
   import type { Yacht } from "../../data/types/yacht";
 
   // ----- formatting helpers (mirror src/data/yacht-service.ts on the client) -----
@@ -178,7 +179,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
 </svg>`;
 
   function waUrl(yachtName: string): string {
-    return `https://wa.me/34744409765?text=${encodeURIComponent(`Hi, I'm interested in chartering ${yachtName}. Can you send me more details?`)}`;
+    return yachtWhatsAppUrl(yachtName, window.location.pathname);
   }
 
   // ----- section renderers -----
@@ -505,7 +506,7 @@ const description = "Detailed specs, gallery, pricing, and inquiry for this char
       Enquire About ${escapeHtml(yachtName)}
     </h2>
     <p class="mx-auto mt-5 max-w-lg text-base text-taupe" data-reveal>
-      Speak directly with our broker to check availability, discuss itineraries, or arrange a viewing.
+      Speak directly with our team to check availability, or discuss itineraries.
     </p>
     <div class="mt-10" data-reveal>
       <a href="${escapeHtml(waUrl(yachtName))}" target="_blank" rel="noopener noreferrer" class="btn-fill inline-flex items-center gap-3 border border-deep/20 px-10 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-charcoal">
