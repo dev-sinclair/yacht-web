@@ -79,7 +79,7 @@ const GUESTS_MAX = 30;
 const GUESTS_STEP = 1;
 
 const PRICE_MIN = 0;
-const PRICE_STEP = 5_000;
+const PRICE_STEP = 1;
 // Adapt the price slider's upper bound to the most expensive yacht in the
 // eligible catalog (facets.priceRange.max comes from yacht-service.getFacets
 // in EUR cents). Round up to the nearest €50k so the cap reads cleanly, and
@@ -379,7 +379,7 @@ const locationItemClass = (active: boolean) =>
     const lo = parseFloat(minR.min);
     const hi = parseFloat(minR.max);
 
-    const sync = () => {
+    const sync = (updateNumbers = true) => {
       let minV = parseFloat(minR.value);
       let maxV = parseFloat(maxR.value);
       if (minV > maxV) {
@@ -397,21 +397,38 @@ const locationItemClass = (active: boolean) =>
           ? `${ids.fmt(maxV)}+`
           : ids.fmt(maxV);
       display.textContent = `${ids.fmt(minV)} – ${maxLabel}`;
-      if (minN) minN.value = String(minV);
-      if (maxN) maxN.value = String(maxV);
+      if (updateNumbers && minN) minN.value = String(minV);
+      if (updateNumbers && maxN) maxN.value = String(maxV);
     };
 
     const clamp = (v: number) => Math.min(Math.max(v, lo), hi);
-    const onNumChange = () => {
-      let mn = clamp(parseFloat(minN?.value || `${lo}`));
-      let mx = clamp(parseFloat(maxN?.value || `${hi}`));
-      if (Number.isNaN(mn)) mn = lo;
-      if (Number.isNaN(mx)) mx = hi;
-      if (mn > mx) mn = mx;
+    let inputTimer: ReturnType<typeof setTimeout> | null = null;
+    const applyNumbers = (commit: boolean) => {
+      const rawMin = minN?.value ?? "";
+      const rawMax = maxN?.value ?? "";
+      // Keep partial edits intact until the user finishes typing.
+      if (!commit && (!rawMin || !rawMax)) return;
+      let mn = clamp(Number(rawMin || lo));
+      let mx = clamp(Number(rawMax || hi));
+      if (!Number.isFinite(mn)) mn = lo;
+      if (!Number.isFinite(mx)) mx = hi;
+      if (mn > mx) {
+        if (!commit) return;
+        if (document.activeElement === maxN) mx = mn;
+        else mn = mx;
+      }
       minR.value = String(mn);
       maxR.value = String(mx);
-      sync();
+      sync(commit);
       onUpdate();
+    };
+    const onNumInput = () => {
+      if (inputTimer) clearTimeout(inputTimer);
+      inputTimer = setTimeout(() => applyNumbers(false), 150);
+    };
+    const onNumChange = () => {
+      if (inputTimer) clearTimeout(inputTimer);
+      applyNumbers(true);
     };
 
     minR.addEventListener("input", () => {
@@ -424,6 +441,8 @@ const locationItemClass = (active: boolean) =>
       sync();
       onUpdate();
     });
+    minN?.addEventListener("input", onNumInput);
+    maxN?.addEventListener("input", onNumInput);
     minN?.addEventListener("change", onNumChange);
     maxN?.addEventListener("change", onNumChange);
     minN?.addEventListener("blur", onNumChange);
