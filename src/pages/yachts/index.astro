@@ -362,9 +362,9 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   data-yacht-guests="${yacht.sleeps}"
   data-yacht-price="${yacht.weekPricingFrom ?? yacht.dayPricingFrom ?? 0}"
 >
-  <div class="yacht-card-image aspect-[3/2] overflow-hidden bg-cream">
+  <div class="yacht-card-image relative shrink-0 aspect-[3/2] overflow-hidden bg-cream">
     ${heroUrl
-      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="h-full w-full object-cover" loading="lazy" />`
+      ? `<img src="${escapeHtml(heroUrl)}" srcset="${escapeHtml(heroUrl)} 640w, ${escapeHtml(heroUrlHi)} 1280w" sizes="(min-width: 1280px) 33vw, (min-width: 640px) 50vw, 100vw" alt="${name}" class="absolute inset-0 h-full w-full object-contain" loading="lazy" />`
       : `<div class="h-full w-full bg-cream"></div>`}
   </div>
   <div class="flex flex-1 flex-col">
