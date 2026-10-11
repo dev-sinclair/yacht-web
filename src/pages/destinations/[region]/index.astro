@@ -23,7 +23,7 @@ const { region } = Astro.props;
 const { yachts, totalMatches } = await getYachtsForRegion(region, 6);
 
 const waMessage = `Hi, I'm interested in chartering in ${region.name}. Could you help build an itinerary?`;
-const waUrl = `https://wa.me/34971000000?text=${encodeURIComponent(waMessage)}`;
+const waUrl = `https://wa.me/34744409765?text=${encodeURIComponent(waMessage)}`;
 const totalSpots = region.locations.reduce((acc, l) => acc + l.cruisingSpots.length, 0);
 
 function unsplashAt(url: string, width: number): string {
