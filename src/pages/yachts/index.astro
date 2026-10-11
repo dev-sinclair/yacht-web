@@ -243,6 +243,29 @@ const facets: YachtFacets = getFacets(await getAllYachts());
   .filters-scroll::-webkit-scrollbar-track { background: transparent; }
 </style>
 
+<style is:global>
+  #fleet .yacht-card {
+    position: relative;
+    transform-origin: center;
+    transition: transform 250ms ease, box-shadow 250ms ease, background-color 300ms ease, border-color 300ms ease;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    #fleet .yacht-card:hover {
+      transform: scale(1.04);
+      z-index: 10;
+      box-shadow: 0 16px 36px rgb(0 0 0 / 16%);
+    }
+  }
+  #fleet .yacht-card:focus-visible {
+    outline: 2px solid #88a9aa;
+    outline-offset: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #fleet .yacht-card { transition: none; }
+    #fleet .yacht-card:hover { transform: none; }
+  }
+</style>
+
 <script>
   import type { YachtCard, YachtFacets } from "../../data/types/yacht";
   import { convertCents } from "../../lib/currency";
