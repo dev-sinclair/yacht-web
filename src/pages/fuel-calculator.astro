@@ -1,0 +1,63 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+<BaseLayout title="Distance & Fuel Calculator · Sinclair Yachting" description="Plot your cruising route and estimate nautical miles, cruising time, fuel consumption and cost.">
+  <Navbar />
+  <main class="fuel-tool">
+    <header class="fuel-heading">
+      <p class="fuel-eyebrow">Plan your journey · Preview</p>
+      <h1>Distance &amp; fuel calculator</h1>
+      <p>Plot your route. Explore the distance, cruising time and estimated fuel cost.</p>
+    </header>
+    <div class="fuel-layout">
+      <section class="fuel-map-panel" aria-label="Route planner">
+        <div class="fuel-toolbar"><strong>Your route</strong><div><button id="fuel-undo" disabled>Undo last point</button><button id="fuel-clear" disabled>Clear route</button></div></div>
+        <p class="fuel-map-help">Click or tap to add points in order. Drag a numbered point to adjust it.</p>
+        <div id="fuel-map" aria-label="Interactive route map" tabindex="0"></div>
+        <p id="fuel-map-status" role="status">Loading map…</p>
+        <div class="fuel-map-actions"><button id="fuel-centre">Add point at map centre</button><button id="fuel-fit" disabled>Show whole route</button><button id="fuel-demo">Try an example</button></div>
+        <p class="fuel-note"><strong>Point-to-point estimate.</strong> Add waypoints around headlands and islands. Lines do not automatically avoid land or account for depths, restrictions, weather or currents. This is a budgeting tool, not a navigation chart.</p>
+      </section>
+      <aside class="fuel-settings" aria-label="Yacht and fuel settings">
+        <h2>Your yacht &amp; fuel</h2>
+        <p>Use the yacht’s total fuel consumption at your chosen cruising speed.</p>
+        <label for="fuel-speed">Cruising speed <span>knots</span></label><input id="fuel-speed" type="number" min="0.1" step="any" placeholder="e.g. 12" inputmode="decimal" />
+        <label for="fuel-burn">Fuel consumption <span>litres / hour</span></label><input id="fuel-burn" type="number" min="0.1" step="any" placeholder="e.g. 250" inputmode="decimal" />
+        <div class="fuel-price-grid"><div><label for="fuel-price">Fuel price <span>per litre</span></label><input id="fuel-price" type="number" min="0.001" step="any" placeholder="e.g. 1.50" inputmode="decimal" /></div><div><label for="fuel-currency">Currency</label><select id="fuel-currency"><option value="EUR">EUR €</option><option value="GBP">GBP £</option><option value="USD">USD $</option></select></div></div>
+        <label for="fuel-allowance">Additional fuel allowance <span>%</span></label><input id="fuel-allowance" type="number" value="0" min="0" max="100" step="any" inputmode="decimal" />
+        <label class="fuel-check"><input type="checkbox" id="fuel-return" /> Include return along the same route</label>
+        <p id="fuel-input-status" role="status">Enter speed, consumption and price to calculate fuel and cost.</p>
+        <p class="fuel-note">Use a consumption figure that includes both engines where applicable. Generator use and time at anchor are excluded unless allowed for in your figures. Currency changes the display only; no exchange conversion is applied.</p>
+      </aside>
+    </div>
+    <section class="fuel-results" aria-label="Trip estimate">
+      <div class="fuel-summary" aria-live="polite" aria-atomic="true">
+        <div><span>Total distance</span><strong id="fuel-distance">0.0 nm</strong></div>
+        <div><span>Cruising time</span><strong id="fuel-time">—</strong></div>
+        <div><span>Estimated fuel used</span><strong id="fuel-litres">—</strong></div>
+        <div><span>Fuel cost incl. allowance</span><strong id="fuel-cost">—</strong></div>
+      </div>
+      <p id="fuel-budget" class="fuel-note"></p>
+      <div class="fuel-details"><section><h2>Route points</h2><p id="fuel-empty">Add your departure point and at least one destination.</p><ol id="fuel-points"></ol></section><section><h2>Journey breakdown</h2><div class="fuel-table-wrap"><table><caption class="sr-only">Distance, cruising time and fuel by route leg</caption><thead><tr><th scope="col">Leg</th><th scope="col">Distance</th><th scope="col">Time</th><th scope="col">Fuel</th></tr></thead><tbody id="fuel-legs"></tbody></table></div></section></div>
+    </section>
+  </main>
+  <Footer />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css" />
+  <script is:inline src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+  <script is:inline type="module" src="/fuel-calculator.js"></script>
+</BaseLayout>
+<style is:global>
+.fuel-tool{max-width:1400px;margin:auto;padding:150px 40px 80px;color:#4b4b49;font-family:Inter,sans-serif}.fuel-heading{margin-bottom:36px;max-width:900px}.fuel-eyebrow{color:#28666b;font-size:11px;letter-spacing:.22em;text-transform:uppercase}.fuel-heading h1{font:300 clamp(26px,3.4vw,42px)/1.3 Raleway,sans-serif;letter-spacing:.06em;text-transform:uppercase;margin:14px 0}.fuel-heading>p:last-child{font-size:15px;line-height:1.8}.fuel-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px}.fuel-map-panel,.fuel-settings{background:white;border:1px solid #e7e2d9}.fuel-toolbar{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;gap:10px;flex-wrap:wrap}.fuel-toolbar>div{display:flex;gap:14px}.fuel-tool button{font-size:12px;color:#28666b;cursor:pointer;padding:7px 10px;border:1px solid #bdccca;background:white}.fuel-tool button:hover{background:#eef3f2}.fuel-tool button:disabled{opacity:.4;cursor:default}.fuel-tool button:focus-visible,.fuel-tool input:focus-visible,.fuel-tool select:focus-visible{outline:2px solid #28666b;outline-offset:3px}.fuel-map-help{font-size:12px;padding:0 20px 16px;margin:0}.fuel-tool #fuel-map{height:500px;z-index:0;background:#e3eeed;cursor:crosshair}.fuel-map-actions{display:flex;flex-wrap:wrap;gap:8px;padding:12px 20px}.fuel-note{font-size:12px;line-height:1.7;color:#64635e}.fuel-map-panel>.fuel-note{padding:0 20px 18px;margin:0}.fuel-settings{padding:24px}.fuel-tool h2{font:400 18px/1.4 Raleway,sans-serif;margin:0 0 12px}.fuel-settings>p{font-size:12px;line-height:1.7;margin-bottom:18px}.fuel-settings label:not(.fuel-check){display:block;font-size:12px;margin:14px 0 6px}.fuel-settings label span{color:#6b706a;font-size:11px}.fuel-settings input:not([type=checkbox]),.fuel-settings select{width:100%;padding:10px 12px;border:1px solid #cccfc9;border-radius:0;background:#faf8f4;font-size:14px;min-width:0}.fuel-price-grid{display:grid;grid-template-columns:1fr 100px;gap:12px}.fuel-check{display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:1.5;margin:20px 0}.fuel-check input{accent-color:#28666b;margin-top:3px}.fuel-tool #fuel-input-status,.fuel-tool #fuel-map-status{font-size:12px;color:#28666b;line-height:1.7}.fuel-tool #fuel-map-status{padding:0 20px;margin:10px 0 0}.fuel-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:30px 0;margin-top:24px;border-top:1px solid #d5d5cb;border-bottom:1px solid #d5d5cb}.fuel-summary span{display:block;font-size:11px;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;color:#28666b}.fuel-summary strong{display:block;font:400 clamp(20px,2.4vw,30px)/1.4 Raleway,sans-serif;margin-top:9px;font-variant-numeric:tabular-nums}.fuel-details{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:28px}.fuel-tool #fuel-points{list-style:none;padding:0}.fuel-tool #fuel-points li{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid #e4e0d7;font-size:12px;flex-wrap:wrap}.fuel-tool #fuel-points li span{flex:1;min-width:140px}.fuel-tool #fuel-points li strong{color:#28666b}.fuel-table-wrap{overflow:auto}.fuel-tool table{width:100%;border-collapse:collapse;font-size:12px;text-align:left;white-space:nowrap}.fuel-tool th,.fuel-tool td{padding:12px 10px;border-bottom:1px solid #e4e0d7}.fuel-tool th{color:#28666b;font-weight:500}.fuel-pin{background:#28666b;border:2px solid white;border-radius:50%;color:white;text-align:center;width:34px;height:34px;box-shadow:0 2px 5px #0003;font:500 13px/30px Inter,sans-serif}.fuel-tool #fuel-empty{font-size:12px;line-height:1.7}.fuel-tool .maplibregl-ctrl-attrib{font-size:10px}.fuel-tool .maplibregl-ctrl-attrib a{color:#28666b}
+@media(max-width:1000px){.fuel-layout{grid-template-columns:minmax(0,1fr) 300px}.fuel-tool{padding:130px 24px 60px}}@media(max-width:760px){.fuel-layout,.fuel-details{grid-template-columns:1fr}.fuel-tool{padding:120px 18px 50px}.fuel-summary{grid-template-columns:1fr 1fr;gap:24px}.fuel-tool #fuel-map{height:420px}.fuel-toolbar{padding:16px}.fuel-settings{padding:20px}.fuel-heading{margin-bottom:24px}}@media(prefers-reduced-motion:reduce){.fuel-tool *{scroll-behavior:auto}}
+</style>
+<style is:global>
+.fuel-tool .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style>
+<style is:global>
+.fuel-tool button.fuel-pin{padding:0;border:2px solid white;background:#28666b;color:white;cursor:grab}
+.fuel-tool button.fuel-pin:hover{background:#1e5156}
+.fuel-tool .maplibregl-canvas{cursor:crosshair}
+</style>
