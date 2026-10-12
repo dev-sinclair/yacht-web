@@ -32,6 +32,7 @@ export default defineConfig({
   output: 'server',
   adapter: vercel({
     maxDuration: 30,
+    webAnalytics: { enabled: true },
     includeFiles: yachtSnapshotFiles,
   }),
   image: {
