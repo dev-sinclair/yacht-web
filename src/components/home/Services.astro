@@ -39,7 +39,7 @@ import mapOutline from "../../assets/mapoutline.webp";
 
     <!-- Services list -->
     <ul class="mt-16 lg:mt-20 border-t border-deep/10" data-reveal>
-      {services.map((service, i) => (
+      {services.map((service) => (
         <li class="border-b border-deep/10">
           <a
             href={service.href}
@@ -47,17 +47,8 @@ import mapOutline from "../../assets/mapoutline.webp";
             aria-label={`Explore ${service.title}`}
           >
             <div class="grid grid-cols-12 items-baseline gap-6 px-1 py-8 sm:py-10 lg:gap-10 lg:py-12">
-              <!-- Number -->
-              <div class="col-span-12 sm:col-span-2 lg:col-span-1">
-                <span
-                  class="num text-[11px] font-light tracking-[0.3em] text-deep"
-                >
-                  {i + 1}
-                </span>
-              </div>
-
               <!-- Title -->
-              <div class="col-span-12 sm:col-span-5 lg:col-span-5">
+              <div class="col-span-12 sm:col-span-6 lg:col-span-6">
                 <h3
                   class="text-2xl font-light tracking-[0.12em] uppercase text-charcoal transition-colors duration-500 group-hover:text-deep-dim sm:text-3xl lg:text-[2rem]"
                   style="font-family: 'Raleway', sans-serif; font-weight: 300;"
@@ -67,7 +58,7 @@ import mapOutline from "../../assets/mapoutline.webp";
               </div>
 
               <!-- Description + arrow affordance -->
-              <div class="col-span-12 sm:col-span-5 lg:col-span-6">
+              <div class="col-span-12 sm:col-span-6 lg:col-span-6">
                 <div class="flex items-start justify-between gap-4">
                   <p class="max-w-xl text-sm leading-[1.85] text-taupe sm:text-base">
                     {service.description}
@@ -94,7 +85,7 @@ import mapOutline from "../../assets/mapoutline.webp";
     <div class="mt-14 flex justify-center lg:mt-20" data-reveal>
       <a
         href="#contact"
-        class="btn-fill inline-flex items-center gap-4 border border-deep/20 px-12 py-5 text-[12px] font-medium tracking-[0.3em] uppercase text-charcoal"
+        class="flex w-full items-center justify-center gap-4 bg-deep px-6 py-6 text-[12px] font-medium tracking-[0.3em] uppercase text-white transition-colors hover:bg-deep-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-deep"
       >
         Get in touch
         <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
