@@ -16,6 +16,7 @@
   --color-deep: #88A9AA;
   --color-deep-dim: #7A9B9C;
   --color-deep-dark: #4F6B6C;
+  --color-deep-text: #28666B;
   --color-taupe: #6A6560;
   --color-taupe-light: #9A9590;
   --color-taupe-dark: #3D3935;
@@ -200,3 +201,11 @@ h1, h2, h3, h4, h5, h6 {
   .marquee-on-overflow.is-marquee .marquee-track { animation: none; }
 }
 
+
+/* Deeper Sinclair blue for readable labels and navigation copy. */
+.text-deep,
+[class~="text-deep/70"],
+[class~="text-deep/60"],
+[class~="text-deep/80"] {
+  color: var(--color-deep-text);
+}
