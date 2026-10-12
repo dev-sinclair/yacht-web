@@ -108,53 +108,6 @@ const seasonRows: Array<{ label: string; value?: string }> = region.seasonCondit
       </div>
     </header>
 
-    {region.idealFor && region.idealFor.length > 0 && (
-      <!-- ── Ideal for (minimalistic text strip) ── -->
-      <section class="bg-warm-white border-b border-deep/10">
-        <div class="mx-auto max-w-[1440px] px-6 pt-14 pb-10 sm:px-8 sm:pt-16 sm:pb-12 lg:px-12">
-          <p
-            data-reveal="fade"
-            class="text-[11px] font-medium tracking-[0.35em] uppercase text-deep"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            Ideal For
-          </p>
-          <p
-            data-reveal="up"
-            class="mt-4 text-base font-light leading-relaxed text-charcoal sm:text-lg"
-          >
-            {region.idealFor.join("  ·  ")}
-          </p>
-        </div>
-      </section>
-    )}
-
-    {region.intro && region.intro.length > 0 && (
-      <!-- ── Editorial introduction ── -->
-      <section class="bg-warm-white">
-        <div class="mx-auto max-w-[1440px] px-6 py-20 sm:px-8 sm:py-24 lg:px-12">
-          <p
-            data-reveal="fade"
-            class="text-[11px] font-medium tracking-[0.35em] uppercase text-deep"
-            style="font-family: 'Raleway', sans-serif;"
-          >
-            The Region
-          </p>
-          <div data-reveal-line class="mt-6 h-px w-16 bg-deep"></div>
-          <div class="mt-8 space-y-6">
-            {region.intro.map((para) => (
-              <p
-                data-reveal="up"
-                class="text-base font-light leading-[1.85] text-taupe-dark sm:text-lg"
-              >
-                {para}
-              </p>
-            ))}
-          </div>
-        </div>
-      </section>
-    )}
-
     {region.locations.length > 1 && (
       <!-- ── Quick-jump gallery rail ── -->
       <section class="bg-warm-white border-b border-deep/10">
@@ -216,6 +169,53 @@ const seasonRows: Array<{ label: string; value?: string }> = region.seasonCondit
                 </a>
               );
             })}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {region.idealFor && region.idealFor.length > 0 && (
+      <!-- ── Ideal for (minimalistic text strip) ── -->
+      <section class="bg-warm-white border-b border-deep/10">
+        <div class="mx-auto max-w-[1440px] px-6 pt-14 pb-10 sm:px-8 sm:pt-16 sm:pb-12 lg:px-12">
+          <p
+            data-reveal="fade"
+            class="text-[11px] font-medium tracking-[0.35em] uppercase text-deep"
+            style="font-family: 'Raleway', sans-serif;"
+          >
+            Ideal For
+          </p>
+          <p
+            data-reveal="up"
+            class="mt-4 text-base font-light leading-relaxed text-charcoal sm:text-lg"
+          >
+            {region.idealFor.join("  ·  ")}
+          </p>
+        </div>
+      </section>
+    )}
+
+    {region.intro && region.intro.length > 0 && (
+      <!-- ── Editorial introduction ── -->
+      <section class="bg-warm-white">
+        <div class="mx-auto max-w-[1440px] px-6 py-20 sm:px-8 sm:py-24 lg:px-12">
+          <p
+            data-reveal="fade"
+            class="text-[11px] font-medium tracking-[0.35em] uppercase text-deep"
+            style="font-family: 'Raleway', sans-serif;"
+          >
+            The Region
+          </p>
+          <div data-reveal-line class="mt-6 h-px w-16 bg-deep"></div>
+          <div class="mt-8 space-y-6">
+            {region.intro.map((para) => (
+              <p
+                data-reveal="up"
+                class="text-base font-light leading-[1.85] text-taupe-dark sm:text-lg"
+              >
+                {para}
+              </p>
+            ))}
           </div>
         </div>
       </section>
