@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788785610745,
+  "lastModified": 1791795590958,
   "uri": "c::8344947358::vessel::256d3450-a38f-11f0-9d8f-d7f711ce4693",
   "yachtType": [
     "Motor"
@@ -88,6 +88,12 @@
       },
       {
         "label": "Gym equipment"
+      },
+      {
+        "label": "Stabilizers Underway"
+      },
+      {
+        "label": "At-anchor Stabilizers"
       }
     ],
     "toys": [
@@ -185,9 +191,9 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 9000000,
+      "price": 11000000,
       "displayCurrency": "EUR",
-      "displayPrice": 9000000,
+      "displayPrice": 11000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -199,185 +205,25 @@
     },
     "pricingInfo": [
       {
-        "name": "Low Season",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-14T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 9000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 9000000,
-              "amount": 9000000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.065
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.35,
-              "unitPrice": 3150000,
-              "amount": 1102500
-            }
-          ],
-          "total": 10687500,
-          "subTotal": 10102500,
-          "totalTax": 585000
-        },
-        "inclusionZones": [
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
         "name": "High Season",
-        "effectiveDates": [],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 9500000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 9500000,
-              "amount": 9500000,
-              "conditions": "VAT & APA Excluded",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.065
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.35,
-              "unitPrice": 3325000,
-              "amount": 1163750
-            }
-          ],
-          "total": 11281250,
-          "subTotal": 10663750,
-          "totalTax": 617500
-        },
-        "inclusionZones": [
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Low Season 2027",
         "effectiveDates": [
           {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-06-14T23:59:59.999Z"
+            "from": "2026-06-15T00:00:00.000Z",
+            "to": "2026-09-15T23:59:59.999Z"
           },
-          {
-            "from": "2027-09-16T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 11000000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 11000000,
-              "amount": 11000000,
-              "conditions": ""
-            },
-            {
-              "item": "VAT ",
-              "conditions": "6.5%",
-              "quantity": 1,
-              "unitPrice": 715000,
-              "amount": 715000
-            },
-            {
-              "item": "APA ",
-              "conditions": "35%",
-              "quantity": 1,
-              "unitPrice": 3850000,
-              "amount": 3850000
-            }
-          ],
-          "total": 15565000,
-          "subTotal": 15565000,
-          "totalTax": 0
-        },
-        "inclusionZones": [],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "High Season 2027",
-        "effectiveDates": [
           {
             "from": "2027-06-15T00:00:00.000Z",
             "to": "2027-09-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-15T00:00:00.000Z",
+            "to": "2028-09-15T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
           "charterFee": 12500000,
-          "inputAmountTaxed": "NONE",
+          "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
           "lineItems": [
@@ -386,28 +232,127 @@
               "quantity": 1,
               "unitPrice": 12500000,
               "amount": 12500000,
-              "conditions": ""
-            },
-            {
-              "item": "VAT",
-              "conditions": "6,5%",
-              "quantity": 1,
-              "unitPrice": 812500,
-              "amount": 812500
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
             },
             {
               "item": "APA",
-              "conditions": "35%",
-              "quantity": 1,
-              "unitPrice": 4375000,
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 12500000,
               "amount": 4375000
             }
           ],
           "total": 17687500,
-          "subTotal": 17687500,
-          "totalTax": 0
+          "subTotal": 16875000,
+          "totalTax": 812500
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-14T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-16T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-16T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-16T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 11000000,
+              "amount": 3849999.9999999995
+            }
+          ],
+          "total": 15565000,
+          "subTotal": 14850000,
+          "totalTax": 715000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }
