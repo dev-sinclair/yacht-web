@@ -2,96 +2,74 @@
 import Container from "../ui/Container.astro";
 const WHATSAPP_NUMBER = "34744409765";
 ---
-<section id="contact" class="bg-cream/40 py-24 lg:py-32 overflow-hidden">
+<section id="contact" class="bg-cream/40 pb-12 lg:pb-16 scroll-mt-24 overflow-hidden">
   <Container>
-    <div class="mx-auto max-w-3xl text-center" data-reveal>
-      <p class="text-[11px] font-light tracking-[0.3em] uppercase text-deep/70">Get in Touch</p>
-      <h2 class="mt-4 text-4xl font-light tracking-[0.15em] uppercase text-charcoal sm:text-5xl lg:text-6xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">Begin Your Journey</h2>
-    </div>
-    <div class="mx-auto mt-12 max-w-2xl border border-deep/10 bg-white p-6 sm:p-10" data-reveal>
-      <div class="grid grid-cols-2 gap-3" role="group" aria-label="Enquiry channel">
-        <button type="button" data-contact-channel="whatsapp" aria-pressed="true" class="contact-channel border border-deep px-4 py-3 text-[11px] font-medium tracking-[0.2em] uppercase">WhatsApp</button>
-        <button type="button" data-contact-channel="email" aria-pressed="false" class="contact-channel border border-deep px-4 py-3 text-[11px] font-medium tracking-[0.2em] uppercase">Email</button>
-      </div>
-      <form id="contact-form" data-whatsapp-number={WHATSAPP_NUMBER} class="mt-8 space-y-6">
+  <div class="mx-auto max-w-3xl bg-warm-white px-4 py-6 text-center">
+    <h2 class="text-3xl font-light tracking-[0.15em] uppercase text-deep sm:text-4xl lg:text-5xl" style="font-family: 'Raleway', sans-serif; font-weight: 300;">Begin Your Journey</h2>
+  </div>
+    <div class="mx-auto mt-8 max-w-3xl" data-reveal>
+      <form id="contact-form" data-whatsapp-number={WHATSAPP_NUMBER} class="space-y-4">
+        <div class="grid gap-4 sm:grid-cols-2">
         <div>
           <label for="contact-name" class="block text-sm text-charcoal">Your name</label>
-          <input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="80" class="mt-2 w-full border-b border-deep/20 bg-transparent py-3 text-base text-charcoal focus:border-deep focus:outline-none" />
+          <input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="80" class="mt-2 w-full border-b border-deep/20 bg-transparent py-2 text-base text-charcoal focus:border-deep focus:outline-none" />
         </div>
-        <div id="contact-email-field" hidden>
-          <label for="contact-email" class="block text-sm text-charcoal">Email address</label>
-          <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" disabled class="mt-2 w-full border-b border-deep/20 bg-transparent py-3 text-base text-charcoal focus:border-deep focus:outline-none" />
+        <div id="contact-email-field">
+          <label for="contact-email" class="block text-sm text-charcoal">Email address (for email enquiries)</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" class="mt-2 w-full border-b border-deep/20 bg-transparent py-2 text-base text-charcoal focus:border-deep focus:outline-none" />
+        </div>
         </div>
         <div>
           <label for="contact-message" class="block text-sm text-charcoal">How can we help?</label>
-          <textarea id="contact-message" name="message" rows="4" required maxlength="2000" placeholder="Tell us about your enquiry. For a charter, include your preferred dates, destination and number of guests." class="mt-2 w-full resize-y border-b border-deep/20 bg-transparent py-3 text-base text-charcoal placeholder:text-taupe-light/70 focus:border-deep focus:outline-none"></textarea>
+          <textarea id="contact-message" name="message" rows="2" required maxlength="2000" placeholder="Tell us about your enquiry. For a charter, include your preferred dates, destination and number of guests." class="mt-2 w-full resize-y border-b border-deep/20 bg-transparent py-2 text-base text-charcoal placeholder:text-taupe-light/70 focus:border-deep focus:outline-none"></textarea>
         </div>
-        <button id="contact-submit" type="submit" class="w-full border border-deep bg-deep px-6 py-4 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors hover:bg-transparent hover:text-deep disabled:opacity-50">Continue on WhatsApp</button>
-        <p id="contact-handoff-note" class="text-sm leading-relaxed text-taupe">Your enquiry will open in WhatsApp for you to review and send.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <button type="submit" name="channel" value="whatsapp" class="contact-cta border border-deep bg-deep px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors hover:bg-transparent hover:text-deep">Continue on WhatsApp</button>
+          <button type="submit" name="channel" value="email" class="contact-cta border border-deep bg-deep px-6 py-3 text-[11px] font-medium tracking-[0.2em] uppercase text-white transition-colors hover:bg-transparent hover:text-deep">Send email enquiry</button>
+        </div>
         <p class="text-xs leading-relaxed text-taupe">Read our <a href="/privacy-policy" class="underline underline-offset-4">Privacy Policy</a> for how we use your information.</p>
         <p id="contact-status" role="status" class="text-sm text-charcoal" hidden></p>
       </form>
     </div>
   </Container>
 </section>
-<style>
-  .contact-channel { cursor: pointer; color: #2a2a2a; transition: background-color .2s, color .2s; }
-  .contact-channel[aria-pressed="true"] { background: #88a9aa; color: white; }
-  .contact-channel:focus-visible { outline: 2px solid #88a9aa; outline-offset: 3px; }
-</style>
 <script>
   const form = document.getElementById("contact-form") as HTMLFormElement | null;
   const nameInput = document.getElementById("contact-name") as HTMLInputElement;
   const emailInput = document.getElementById("contact-email") as HTMLInputElement;
   const messageInput = document.getElementById("contact-message") as HTMLTextAreaElement;
-  const emailField = document.getElementById("contact-email-field");
-  const submit = document.getElementById("contact-submit") as HTMLButtonElement;
-  const note = document.getElementById("contact-handoff-note");
   const status = document.getElementById("contact-status");
-  const channels = document.querySelectorAll<HTMLButtonElement>("[data-contact-channel]");
-  let channel = "whatsapp";
+  const buttons = form?.querySelectorAll<HTMLButtonElement>(".contact-cta");
   let sending = false;
   function showStatus(message: string) {
     if (!status) return;
     status.textContent = message;
     status.hidden = !message;
   }
-  function updateHandoff() {
-    if (!form) return;
-    const message = [`Hi Sinclair, I'm ${nameInput.value.trim()}.`, "", messageInput.value.trim()].join("\n");
-    form.dataset.handoffUrl = `https://wa.me/${form.dataset.whatsappNumber}?text=${encodeURIComponent(message)}`;
-  }
-  channels.forEach(button => button.addEventListener("click", () => {
-    if (sending) return;
-    channel = button.dataset.contactChannel || "whatsapp";
-    channels.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
-    const isEmail = channel === "email";
-    if (emailField) emailField.hidden = !isEmail;
-    emailInput.disabled = !isEmail;
-    emailInput.required = isEmail;
-    submit.textContent = isEmail ? "Send enquiry" : "Continue on WhatsApp";
-    if (note) note.textContent = isEmail ? "Send your enquiry directly to our team." : "Your enquiry will open in WhatsApp for you to review and send.";
-    showStatus("");
-  }));
-  form?.addEventListener("input", updateHandoff);
   form?.addEventListener("submit", async event => {
     event.preventDefault();
-    if (sending || !form.reportValidity()) return;
+    if (sending) return;
+    const submit = event.submitter as HTMLButtonElement | null;
+    const channel = submit?.value || "whatsapp";
     if (!nameInput.value.trim() || !messageInput.value.trim()) {
       showStatus("Please enter your name and enquiry.");
       return;
     }
+    if (channel === "email" && !emailInput.value.trim()) {
+      showStatus("Please enter your email address for an email enquiry.");
+      emailInput.focus();
+      return;
+    }
     showStatus("");
     if (channel === "whatsapp") {
-      updateHandoff();
-      window.open(form.dataset.handoffUrl, "_blank", "noopener,noreferrer");
-      showStatus("Complete sending your enquiry in WhatsApp. If it did not open, select Continue on WhatsApp again.");
+      const message = [`Hi Sinclair, I'm ${nameInput.value.trim()}.`, "", messageInput.value.trim()].join("\n");
+      window.open(`https://wa.me/${form.dataset.whatsappNumber}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+      showStatus("Review and send your enquiry in WhatsApp.");
       return;
     }
     sending = true;
-    submit.disabled = true;
-    channels.forEach(button => button.disabled = true);
-    submit.textContent = "Sending…";
+    buttons?.forEach(button => button.disabled = true);
+    if (submit) submit.textContent = "Sending…";
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -106,9 +84,8 @@ const WHATSAPP_NUMBER = "34744409765";
       showStatus(error instanceof Error ? error.message : "Your enquiry could not be sent. Please try again.");
     } finally {
       sending = false;
-      submit.disabled = false;
-      channels.forEach(button => button.disabled = false);
-      submit.textContent = "Send enquiry";
+      buttons?.forEach(button => button.disabled = false);
+      if (submit) submit.textContent = "Send email enquiry";
     }
   });
 </script>
