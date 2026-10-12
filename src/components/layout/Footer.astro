@@ -42,7 +42,7 @@ import services from "../../data/services.json";
         <Image
           src={logo}
           alt="Sinclair Yachting"
-          class="h-12 w-auto brightness-0 invert"
+          class="h-12 w-auto"
           widths={[160]}
           loading="lazy"
         />
@@ -112,8 +112,8 @@ import services from "../../data/services.json";
     <div class="mt-14 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
       <!-- Legal -->
       <div class="flex gap-6 text-[10px] font-medium tracking-[0.15em] uppercase text-white/30">
-        <a href="/privacy-policy" class="transition-colors duration-300 hover:text-white/60">Privacy Policy</a>
-        <a href="/terms-of-service" class="transition-colors duration-300 hover:text-white/60">Terms of Service</a>
+        <a href="/privacy-policy" class="transition-colors duration-300 hover:text-deep">Privacy Policy</a>
+        <a href="/terms-of-service" class="transition-colors duration-300 hover:text-deep">Terms of Service</a>
       </div>
 
       <!-- Copyright -->
@@ -123,8 +123,22 @@ import services from "../../data/services.json";
 
       <!-- Social links -->
       <div class="flex gap-6 text-[10px] font-medium tracking-[0.15em] uppercase text-white/30">
-        <a href="https://www.linkedin.com/company/sinclair-yachting-ltd/" target="_blank" class="transition-colors duration-300 hover:text-white/60">LinkedIn</a>
+        <a href="https://www.linkedin.com/company/sinclair-yachting-ltd/" target="_blank" class="transition-colors duration-300 hover:text-deep">LinkedIn</a>
       </div>
     </div>
   </div>
 </footer>
+
+<style>
+  footer p,
+  footer li,
+  footer a {
+    transition: color 0.2s ease;
+  }
+  footer p:hover,
+  footer li:hover,
+  footer a:hover,
+  footer a:focus-visible {
+    color: var(--color-deep);
+  }
+</style>
