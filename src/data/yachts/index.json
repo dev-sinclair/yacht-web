@@ -14430,6 +14430,28 @@
     ]
   },
   {
+    "uri": "c::7819240017::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744",
+    "slug": "princess-mila",
+    "name": "PRINCESS MILA",
+    "hero": "/media/media::image::a::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744::assets::297d8040-7cde-11f0-b4be-cf24347c6c78/{imageVariant}",
+    "length": 20.42,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2022,
+    "builder": "Fountaine Pajot",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4500000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "winter-2025",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::8275378522::vessel::b44670d0-79b9-11ee-8c61-3d799f112022",
     "slug": "indulgence",
     "name": "INDULGENCE",
@@ -14454,28 +14476,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7819240017::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744",
-    "slug": "princess-mila",
-    "name": "PRINCESS MILA",
-    "hero": "/media/media::image::a::vessel::d5cc25d8-fe8c-11ed-889f-43d4bb723744::assets::297d8040-7cde-11f0-b4be-cf24347c6c78/{imageVariant}",
-    "length": 20.42,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2022,
-    "builder": "Fountaine Pajot",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4500000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "winter-2025",
-      "winter-2026"
     ]
   },
   {
