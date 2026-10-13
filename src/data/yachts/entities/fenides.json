@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783632336014,
+  "lastModified": 1791869185793,
   "uri": "c::25053705640::vessel::a90213c0-e564-11ee-b7e2-5dbfbb9044ec",
   "yachtType": [
     "Sailing"
@@ -180,9 +180,9 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "USD",
-      "price": 88000,
+      "price": 90500,
       "displayCurrency": "USD",
-      "displayPrice": 88000,
+      "displayPrice": 90500,
       "unit": "DAY"
     },
     "dayPricingTo": {
@@ -193,159 +193,6 @@
       "unit": "DAY"
     },
     "pricingInfo": [
-      {
-        "name": "Double/Twin Rate 2026 (Komodo National Park)",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 88000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 88000,
-              "amount": 88000,
-              "conditions": "person/night"
-            }
-          ],
-          "total": 88000,
-          "subTotal": 88000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Indonesia",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "South-Eastern Asia",
-              "Indonesia"
-            ],
-            "coordinates": [
-              118.72577241895752,
-              -2.3003954218333598
-            ],
-            "bbox": [
-              95.20664062500003,
-              -10.90966796875,
-              140.97617187500003,
-              5.907031249999989
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Family Suite Rate 2026 (Komodo National Park)",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 98000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 98000,
-              "amount": 98000,
-              "conditions": "person/night"
-            }
-          ],
-          "total": 98000,
-          "subTotal": 98000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Indonesia",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "South-Eastern Asia",
-              "Indonesia"
-            ],
-            "coordinates": [
-              118.72577241895752,
-              -2.3003954218333598
-            ],
-            "bbox": [
-              95.20664062500003,
-              -10.90966796875,
-              140.97617187500003,
-              5.907031249999989
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Full Charter Rate 2026 (Komodo National Park)",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 901000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 901000,
-              "amount": 901000,
-              "conditions": "per night"
-            }
-          ],
-          "total": 901000,
-          "subTotal": 901000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Indonesia",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "South-Eastern Asia",
-              "Indonesia"
-            ],
-            "coordinates": [
-              118.72577241895752,
-              -2.3003954218333598
-            ],
-            "bbox": [
-              95.20664062500003,
-              -10.90966796875,
-              140.97617187500003,
-              5.907031249999989
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "Double/Twin Rate 2026 (Raja Ampat, Alor, Banda, Halmahera and Beyond)",
         "effectiveDates": [
