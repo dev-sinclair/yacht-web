@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789138620179,
+  "lastModified": 1791818641884,
   "uri": "c::7579668770::vessel::d5cc77b0-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -179,20 +179,6 @@
     }
   ],
   "pricing": {
-    "dayPricingFrom": {
-      "currency": "EUR",
-      "price": 500000,
-      "displayCurrency": "EUR",
-      "displayPrice": 500000,
-      "unit": "DAY"
-    },
-    "dayPricingTo": {
-      "currency": "EUR",
-      "price": 600000,
-      "displayCurrency": "EUR",
-      "displayPrice": 600000,
-      "unit": "DAY"
-    },
     "weekPricingFrom": {
       "currency": "EUR",
       "price": 2500000,
@@ -209,315 +195,19 @@
     },
     "pricingInfo": [
       {
-        "name": "Weekly Rate: High Season (July, August)",
+        "name": "Weekly Rate: Exclusive Low Season",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3500000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3500000,
-              "amount": 3500000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3500000,
-              "amount": 1050000
-            }
-          ],
-          "total": 4550000,
-          "subTotal": 4550000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
-            "label": "Corsica",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Corsica"
-            ],
-            "coordinates": [
-              9.104917129771797,
-              42.161865413836736
-            ],
-            "bbox": [
-              8.565625000000011,
-              41.384912109374994,
-              9.556445312500017,
-              43.021484375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Weekly Rate: Low Season (June, September)",
-        "effectiveDates": [
-          {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-06-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3200000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3200000,
-              "amount": 3200000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 3200000,
-              "amount": 960000
-            }
-          ],
-          "total": 4160000,
-          "subTotal": 4160000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sardinia",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sardinia"
-            ],
-            "coordinates": [
-              8.96574354539669,
-              40.12242872762209
-            ],
-            "bbox": [
-              8.180859375000011,
-              38.90966796875,
-              9.805273437500006,
-              41.257080078125
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          },
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "France",
-            "type": "Country",
-            "category": [
-              "Europe",
-              "Western Europe",
-              "France"
-            ],
-            "coordinates": [
-              2.490961032566746,
-              46.331484361015065
-            ],
-            "bbox": [
-              -6.0919189453125,
-              41.33970040774422,
-              9.607543945312502,
-              51.193115244645874
-            ]
-          },
-          {
-            "label": "Corsica",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Corsica"
-            ],
-            "coordinates": [
-              9.104917129771797,
-              42.161865413836736
-            ],
-            "bbox": [
-              8.565625000000011,
-              41.384912109374994,
-              9.556445312500017,
-              43.021484375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Weekly Rate: Exclusive Low Season (May)",
-        "effectiveDates": [
-          {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-05-01T00:00:00.000Z",
+            "from": "2027-04-15T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2028-05-01T00:00:00.000Z",
+            "from": "2028-04-15T00:00:00.000Z",
             "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-15T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -533,17 +223,10 @@
               "unitPrice": 2500000,
               "amount": 2500000,
               "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 2500000,
-              "amount": 750000
             }
           ],
-          "total": 3250000,
-          "subTotal": 3250000,
+          "total": 2500000,
+          "subTotal": 2500000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -647,50 +330,50 @@
         "petsAllowed": false
       },
       {
-        "name": "Daily Rate: Low Season (May, June, September)",
+        "name": "Weekly Rate: Low Season",
         "effectiveDates": [
           {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-05-01T00:00:00.000Z",
+            "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-05-01T00:00:00.000Z",
+            "from": "2028-06-01T00:00:00.000Z",
             "to": "2028-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-09-30T23:59:59.999Z"
+            "to": "2027-10-15T23:59:59.999Z"
           },
           {
             "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
+            "to": "2028-10-15T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-10-15T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 500000,
+          "charterFee": 3200000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 500000,
-              "amount": 500000,
+              "unitPrice": 3200000,
+              "amount": 3200000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 500000,
-          "subTotal": 500000,
+          "total": 3200000,
+          "subTotal": 3200000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -794,12 +477,8 @@
         "petsAllowed": false
       },
       {
-        "name": "Daily Rate: High Season (July, August)",
+        "name": "Weekly Rate: High Season",
         "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
           {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
@@ -807,25 +486,29 @@
           {
             "from": "2028-07-01T00:00:00.000Z",
             "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 600000,
+          "charterFee": 3500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 600000,
-              "amount": 600000,
+              "unitPrice": 3500000,
+              "amount": 3500000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 600000,
-          "subTotal": 600000,
+          "total": 3500000,
+          "subTotal": 3500000,
           "totalTax": 0
         },
         "inclusionZones": [

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789357485358,
+  "lastModified": 1791831394488,
   "uri": "c::10923570597::vessel::d5cb3574-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -163,9 +163,9 @@
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 8400000,
+      "price": 10500000,
       "displayCurrency": "USD",
-      "displayPrice": 8400000,
+      "displayPrice": 10500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -270,6 +270,219 @@
           "total": 9408000,
           "subTotal": 8400000,
           "totalTax": 1008000
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 (Bali, Komodo, Sumbawa, Alor) Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9100000,
+              "amount": 9100000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            }
+          ],
+          "total": 10192000,
+          "subTotal": 9100000,
+          "totalTax": 1092000
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 (Raja Ampat, Banda Spice Islands) and 2027 (Bali, Komodo, Sumbawa, Alor) Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 9800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9800000,
+              "amount": 9800000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            }
+          ],
+          "total": 10976000,
+          "subTotal": 9800000,
+          "totalTax": 1176000
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 (Raja Ampat, Banda Spice Islands) Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 10500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 10500000,
+              "amount": 10500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.12
+              }
+            }
+          ],
+          "total": 11760000,
+          "subTotal": 10500000,
+          "totalTax": 1260000
         },
         "inclusionZones": [
           {

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1780487247304,
+  "lastModified": 1791832292200,
   "uri": "c::10923570597::vessel::475a74f0-df46-11ef-8e5a-410c2fb5a418",
   "yachtType": [
     "Motor"
@@ -166,6 +166,20 @@
       "displayCurrency": "USD",
       "displayPrice": 2750000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 17500000,
+      "displayCurrency": "USD",
+      "displayPrice": 17500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 20650000,
+      "displayCurrency": "USD",
+      "displayPrice": 20650000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -338,7 +352,497 @@
           "subTotal": 2500000,
           "totalTax": 0
         },
-        "inclusionZones": [],
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          },
+          {
+            "label": "Andaman Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Seven seas (open ocean)",
+              "South-Eastern Asia",
+              "Andaman Is."
+            ],
+            "coordinates": [
+              92.76177843568634,
+              12.046947278452707
+            ],
+            "bbox": [
+              92.35283203124999,
+              10.520751953125,
+              93.07666015625,
+              13.545458984375003
+            ]
+          },
+          {
+            "label": "Malaysia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Malaysia"
+            ],
+            "coordinates": [
+              109.39957789485605,
+              4.308677548564599
+            ],
+            "bbox": [
+              99.64628906249999,
+              0.8619628906249943,
+              119.26630859375001,
+              7.3516601562499915
+            ]
+          },
+          {
+            "label": "Philippines",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Philippines"
+            ],
+            "coordinates": [
+              121.91478959640665,
+              11.114260350022732
+            ],
+            "bbox": [
+              116.96953124999999,
+              5.060205078124994,
+              126.59335937500003,
+              20.841259765624997
+            ]
+          },
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 (May-October)",
+        "effectiveDates": [
+          {
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 17500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 17500000,
+              "amount": 17500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.15
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 17500000,
+              "amount": 5250000
+            }
+          ],
+          "total": 25375000,
+          "subTotal": 22750000,
+          "totalTax": 2625000
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Seven seas (open ocean)",
+              "South-Eastern Asia",
+              "Andaman Is."
+            ],
+            "coordinates": [
+              92.76177843568634,
+              12.046947278452707
+            ],
+            "bbox": [
+              92.35283203124999,
+              10.520751953125,
+              93.07666015625,
+              13.545458984375003
+            ]
+          },
+          {
+            "label": "Malaysia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Malaysia"
+            ],
+            "coordinates": [
+              109.39957789485605,
+              4.308677548564599
+            ],
+            "bbox": [
+              99.64628906249999,
+              0.8619628906249943,
+              119.26630859375001,
+              7.3516601562499915
+            ]
+          },
+          {
+            "label": "Philippines",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Philippines"
+            ],
+            "coordinates": [
+              121.91478959640665,
+              11.114260350022732
+            ],
+            "bbox": [
+              116.96953124999999,
+              5.060205078124994,
+              126.59335937500003,
+              20.841259765624997
+            ]
+          },
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 (November-April)",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-01T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 19250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 19250000,
+              "amount": 19250000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.15
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 19250000,
+              "amount": 5775000
+            }
+          ],
+          "total": 27912500,
+          "subTotal": 25025000,
+          "totalTax": 2887500
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 (May-October)",
+        "effectiveDates": [
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-01T00:00:00.000Z",
+            "to": "2029-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 18900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 18900000,
+              "amount": 18900000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.15
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 18900000,
+              "amount": 5670000
+            }
+          ],
+          "total": 27405000,
+          "subTotal": 24570000,
+          "totalTax": 2835000
+        },
+        "inclusionZones": [
+          {
+            "label": "Andaman Is.",
+            "type": "Geo subunit",
+            "category": [
+              "Seven seas (open ocean)",
+              "South-Eastern Asia",
+              "Andaman Is."
+            ],
+            "coordinates": [
+              92.76177843568634,
+              12.046947278452707
+            ],
+            "bbox": [
+              92.35283203124999,
+              10.520751953125,
+              93.07666015625,
+              13.545458984375003
+            ]
+          },
+          {
+            "label": "Malaysia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Malaysia"
+            ],
+            "coordinates": [
+              109.39957789485605,
+              4.308677548564599
+            ],
+            "bbox": [
+              99.64628906249999,
+              0.8619628906249943,
+              119.26630859375001,
+              7.3516601562499915
+            ]
+          },
+          {
+            "label": "Philippines",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Philippines"
+            ],
+            "coordinates": [
+              121.91478959640665,
+              11.114260350022732
+            ],
+            "bbox": [
+              116.96953124999999,
+              5.060205078124994,
+              126.59335937500003,
+              20.841259765624997
+            ]
+          },
+          {
+            "label": "Japan",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Eastern Asia",
+              "Japan"
+            ],
+            "coordinates": [
+              135.49756666739657,
+              36.75595752292562
+            ],
+            "bbox": [
+              128.64912109375,
+              30.241406249999997,
+              141.32919921875003,
+              45.465478515624994
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 (November-April)",
+        "effectiveDates": [
+          {
+            "from": "2027-11-01T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-01T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-11-01T00:00:00.000Z",
+            "to": "2030-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 20650000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 20650000,
+              "amount": 20650000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.15
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 20650000,
+              "amount": 6195000
+            }
+          ],
+          "total": 29942500,
+          "subTotal": 26845000,
+          "totalTax": 3097500
+        },
+        "inclusionZones": [
+          {
+            "label": "Thailand",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Thailand"
+            ],
+            "coordinates": [
+              101.06522438153657,
+              13.598432590232552
+            ],
+            "bbox": [
+              97.37392578125002,
+              5.636767578124989,
+              105.64101562500002,
+              20.42441406249999
+            ]
+          }
+        ],
         "exclusionZones": [],
         "petsAllowed": false
       }

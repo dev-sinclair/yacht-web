@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789377391006,
+  "lastModified": 1791830746005,
   "uri": "c::10923570597::vessel::f4728230-bdff-11ef-866a-ad7f2dece8ef",
   "yachtType": [
     "Sailing"
@@ -131,9 +131,9 @@
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 4800000,
+      "price": 5950000,
       "displayCurrency": "USD",
-      "displayPrice": 4800000,
+      "displayPrice": 5950000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -233,6 +233,195 @@
           ],
           "total": 4800000,
           "subTotal": 4800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 4900000,
+          "subTotal": 4900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 (September-June) Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5530000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5530000,
+              "amount": 5530000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 5530000,
+          "subTotal": 5530000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 (July-August) Weekly Rates",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5950000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5950000,
+              "amount": 5950000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 5950000,
+          "subTotal": 5950000,
           "totalTax": 0
         },
         "inclusionZones": [
