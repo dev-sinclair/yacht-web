@@ -9163,6 +9163,35 @@
     ]
   },
   {
+    "uri": "c::55554307711::vessel::2c9386d0-6662-11f1-872c-47ea96019643",
+    "slug": "great-escape-iv",
+    "name": "GREAT ESCAPE IV",
+    "hero": "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b05b000-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+    "length": 26,
+    "sleeps": 14,
+    "cabins": 7,
+    "builtYear": 2006,
+    "builder": "",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran",
+      "Expedition",
+      "Sport fishing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 545000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
+    ]
+  },
+  {
     "uri": "c::9870482971::vessel::d5c986c1-fe8c-11ed-889f-43d4bb723744",
     "slug": "haze",
     "name": "HAZE",
@@ -9852,6 +9881,35 @@
       "summer-2025",
       "summer-2026",
       "summer-2027"
+    ]
+  },
+  {
+    "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
+    "slug": "kimberley-quest-ii",
+    "name": "KIMBERLEY QUEST II",
+    "hero": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad169900-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+    "length": 25,
+    "sleeps": 18,
+    "cabins": 9,
+    "builtYear": 2004,
+    "builder": "Custom",
+    "yachtType": [
+      "Motor",
+      "Expedition"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9001600,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
     ]
   },
   {

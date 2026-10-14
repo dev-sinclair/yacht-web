@@ -1,0 +1,437 @@
+{
+  "lastModified": 1784917755422,
+  "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
+  "yachtType": [
+    "Motor",
+    "Expedition"
+  ],
+  "description": "Operating Area: Kimberley (Western Australia), Australia\n\nThe Kimberley Quest II has been designed for relaxing and exploring the Kimberley coastline in complete comfort and style. Our custom-built vessel is fully air-conditioned, equipped with a helipad, spa and large ensuited cabins. The vessel has comfortable indoor and spacious al fresco areas so there is plenty of room to take in the panoramic scenery and breath-taking sunsets. Accommodating just 18 guests and 6 crew, your holiday of a lifetime can be enjoyed with fellow travellers in luxurious and intimate surrounds.",
+  "blueprint": {
+    "name": "KIMBERLEY QUEST II",
+    "images": [
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad169900-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad21bc90-6667-11f1-ad36-7d50cfc1f959/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad17aa70-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad208410-6667-11f1-ad36-7d50cfc1f959/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad1fe7d0-6667-11f1-ad36-7d50cfc1f959/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad1d76d0-6667-11f1-ad36-7d50cfc1f959/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad197f30-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+      "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad1efd70-6667-11f1-ad36-7d50cfc1f959/{imageVariant}"
+    ],
+    "make": "Custom",
+    "maxCrew": 6,
+    "sleeps": 18,
+    "builtYear": 2004,
+    "refitYear": 2020,
+    "cabinLayout": [
+      {
+        "label": "Flybridge Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Superior Cabins",
+        "value": "4"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 9,
+    "bathrooms": 9,
+    "length": 25,
+    "beam": 6,
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Helipad"
+      },
+      {
+        "label": "Spa"
+      },
+      {
+        "label": "Al fresco Areas"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Mini Refrigerators "
+      }
+    ],
+    "toys": [
+      {
+        "label": "Excursion tenders",
+        "quantity": "3"
+      }
+    ],
+    "entertainment": [
+      "Library"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Bryne Tuckey",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::dfa5c870-6665-11f1-81d6-cfe82e0df28f/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nCaptain\n\nHow would you describe yourself?\nLove adventure, fair and easygoing.\n\nDescribe your role in 10 words or less:\nCreating an itinerary that caters to everyone.\n\nWhat is your favourite aspect of your job?\nThe constant amazing views the Kimberley provides and showcasing everything to our guests.\n\nYour favourite activity and why?\nI don't think I can pick! I love a scenic cruise on KQII, our Jetboat or going out on the tenders!.\n\nWhat is your favourite icon in the Kimberley?\nHorizontal Falls.\n\nYour favourite time of the year and why?\nApril - May, post wet season, as the heat and humidity start to lower with some perfect weather days!\n\nYour favourite meal on board?\nHaha Can I say anything, as I am a bad cook and I can't pass up a fresh fish dinner!\n\nWhat are your favourite hobbies to do when you are on your time off?\nBoating (can't keep me off them) fishing, camping 4wd driving - anything outdoors related."
+    },
+    {
+      "name": "Alex Tom",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::2e5d7490-6666-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nCaptain\n\nHow would you describe yourself?\nAdventurous, easygoing.\n\nDescribe your role in 10 words or less:\nGiving people their dream adventure holiday of a life time.\n\nWhat is your favourite aspect of your job?\nGetting to know everyone from all over Australia & seeing the Kimberley from a whole new perspective.\n\nYour favourite activity and why?\nExploring new places because we may be the first there and fishing for Barramundi.\n\nWhat is your favourite icon in the Kimberley?\nKing George.\n\nYour favourite time of the year and why?\nApril because we go to the north.\n\nYour favourite meal on board?\nPumpkin Pie & Steak night.\n\nWhat are your favourite hobbies to do when you are on your time off?\nCamping & 4wding."
+    },
+    {
+      "name": "Siddharth Murthy (Sid)",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::6455fbd0-6666-11f1-a8da-1547ebbb5f1e/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nChef\n\nHow would you describe yourself?\nFriendly, curious for new experiences, adventurous to try new things, a peoples person, community focused, keen to discover new food, knowledge, places, people, history, culture.\n\nDescribe your role in 10 words or less:\nMy role is to provide Kimberley Quest guests with the best culinary experience onboard that I can provide, with quality ingredients and local produce. Also exploring new tastes and flavours and the freshest seafood we can catch on a our travels across the Kimberley coast.\n\nWhat is your favourite aspect of your job?\nGuest interaction, guest satisfaction, working with a diverse and fun crew, exploring the Kimberley by sea and working with amazing produce from the Kimberley coastline.\n\nYour favourite activity and why?\nStarting the day watching a beautiful sunrise over the Kimberley coast. It's a sort of reset and recharge for the day ahead.\n\nWhat is your favourite icon in the Kimberley?\nMitchell Falls.\n\nYour favourite time of the year and why?\nWinters in the Kimberley are amazing. Warm sunny days and cool nights.\n\nYour favourite meal on board?\nBreakfast is my favourite meal.\n\nWhat are your favourite hobbies to do when you are on your time off?\nI like to volunteer with local communities. Mainly focusing on my skills of cooking and growing food."
+    },
+    {
+      "name": "Naomi (Nomes) Lang",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::9c64b8e0-6666-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nHostess\n\nHow would you describe yourself?\nBubbly and smiley.\n\nDescribe your role in 10 words or less:\nCleaning fairy\n\nWhat is your favourite aspect of your job?\nExperiencing the Kimberley day in and day out and meeting so many interesting people.\n\nYour favourite activity and why?\nSilica Beach sunsets are something else, white sand, orange sandstone with a Kimberley sunset!\n\nWhat is your favourite icon in the Kimberley?\nMontgomery Reef on a king tide or Leadline Creek with towering gorge walls.\n\nYour favourite time of the year and why?\nDry season (July and August) cool mornings and bliss days!\n\nYour favourite meal on board?\nLamb ribs with puree!\n\nWhat are your favourite hobbies to do when you are on your time off?\nYoga, photography, camping and reading a good book!"
+    },
+    {
+      "name": "Amber Dee",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::cf26a630-6666-11f1-bad6-d167d7643045/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nHostess\n\nHow would you describe yourself?\nPositive, motivated, fun, outgoing, always happy to help\n\nDescribe your role in 10 words or less:\nSmiles, service, and making every guest feel VIP\n\nWhat is your favourite aspect of your job?\nMeeting new guests from all over the world, hearing their stories and ensuring their holiday is unforgettable\n\nYour favourite activity and why?\nGoing to new beaches, finding cool shells and whale watching\n\nWhat is your favourite icon in the Kimberley?\nHas to be Montgomery reef. Clear blue waters and hundreds of turtles \n\nYour favourite time of the year and why?\nWinter, beautiful weather, clear sky, gorgeous sunrise and sunsets. Every reason why I left the UK. Just chasing the sun\n\nYour favourite meal on board?\nPoke bowls\n\nWhat are your favourite hobbies to do when you are on your time off?\nCAMPING! Sunbathing, morning walks along the beach"
+    },
+    {
+      "name": "Jackson McReady",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::016d4900-6667-11f1-8c77-c33d5e0ddd73/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nDeckhand / Expedition Guide\n\nHow would you describe yourself?\nAdventurous, curious & passionate!\n\nDescribe your role in 10 words or less:\nHelping deliver the experience of a lifetime!\n\nWhat is your favourite aspect of your job?\nResearching and exploring new places with our amazing guests.\n\nYour favourite activity and why?\nThe next one! Amazing experiences round every corner, but catching a nice Barra or Mackerel is always a good challenge!\n\nWhat is your favourite icon in the Kimberley?\nExperiencing the best sunrise in the world from the incredible Hunter River.\n\nYour favourite time of the year and why?\nMarch - April, incredible waterfalls, lush flora and cool weather.\n\nYour favourite meal on board?\nThe fresh catch of the day.\n\nWhat are your favourite hobbies to do when you are on your time off?\nTravel the world -  Carry on luggage - a one-way ticket - and to go with the flow!"
+    },
+    {
+      "name": "Charles (Charlie) Webb",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::4ff83fd0-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nDeckhand / Expedition Guide\n\nHow would you describe yourself?\nOutgoing, keen to learn, and always ready for dinner!\n\nDescribe your role in 10 words or less:\nA perfect way to explore & share the Kimberley coast.\n\nWhat is your favourite aspect of your job?\nSharing information with people about unique areas... and dinner time!\n\nYour favourite activity and why?\nMontgomery Reef in every aspect - tender - helicopter or experiencing the Sand Cay!\n\nWhat is your favourite icon in the Kimberley?\nTim Willing.\n\nYour favourite time of the year and why?\nOff the back of the wet season, when catchments are full and waterfalls are in full flow.\n\nYour favourite meal on board?\nAll of them!\n\nWhat are your favourite hobbies to do when you are on your time off?\nCamping, drone photography, and amateur bird watching."
+    },
+    {
+      "name": "Liam Reilly",
+      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::7ef38830-6667-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "What is your role with Kimberley Quest?\nDeckhand / Expedition Guide\n\nHow would you describe yourself?\nFun loving individual addicted to the ocean and everything around it!\n\nDescribe your role in 10 words or less:\nAssisting with manning the vessel and daily operations.\n\nWhat is your favourite aspect of your job?\nMeeting new guests and getting to take them on a once and a life time experience is my favourite aspect of my job.\n\nYour favourite activity and why?\nFishing is my favourite activity, taking people out to catch the biggest fish or first fish and watching the look on their faces makes my day.\n\nWhat is your favourite icon in the Kimberley?\nMy favourite icon in the Kimberly’s has to be Montgomery reef, with all the sea life you get to witness out there.\n\nYour favourite time of the year and why?\nWinter in the Kimberley has to be my favourite, with stella weather and a great climate!\n\nYour favourite meal on board?\nMy favourite meal on board has to be raw fish we do as canapés, you can’t beat fresh raw fish! \n\nWhat are your favourite hobbies to do when you are on your time off?\nMy favourite hobbies to do on my time off are camping, 4-Wheel-Driving and fishing!"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 9001600,
+      "displayCurrency": "AUD",
+      "displayPrice": 9001600,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 35833600,
+      "displayCurrency": "AUD",
+      "displayPrice": 35833600,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Private Charter Rates 2026: 8 DAY SOUTHERN QUEST",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 23425600,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 23425600,
+              "amount": 23425600,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 23425600,
+          "subTotal": 23425600,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Private Charter Rates 2027: 4 DAY TASTE OF THE KIMBERLEY",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9001600,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9001600,
+              "amount": 9001600,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9001600,
+          "subTotal": 9001600,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Private Charter Rates 2027: 8 DAY SOUTHERN QUEST",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 23641600,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 23641600,
+              "amount": 23641600,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 23641600,
+          "subTotal": 23641600,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Private Charter Rates 2027: 10 DAY ADVENTURE QUEST",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 21352000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 21352000,
+              "amount": 21352000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 21352000,
+          "subTotal": 21352000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Private Charter Rates 2027: 14 DAY ULTIMATE QUEST",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 35833600,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 35833600,
+              "amount": 35833600,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 35833600,
+          "subTotal": 35833600,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

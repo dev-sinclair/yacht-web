@@ -1,0 +1,495 @@
+{
+  "lastModified": 1791945247598,
+  "uri": "c::55554307711::vessel::2c9386d0-6662-11f1-872c-47ea96019643",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran",
+    "Expedition",
+    "Sport fishing"
+  ],
+  "description": "Operating Area: Australia\n\nOur vessel, MV Great Escape accommodates 14 guests. Being one of the most exclusive luxury cruise vessels in the Kimberley, we offer true flexibility in itineraries. This means we can tailor cruises to suit your personal needs and interests. A vessel of our size can venture deeper into the Kimberley, allowing guests to experience the landscape in greater detail - accessing those “hard to navigate” places.\n\nWith a dedicated onboard helicopter available as an optional extra, we explore the Kimberley from another dimension. The helicopter provides you with access to remote waterfalls, ancient Indigenous art sites and “secret” landlocked fishing locations. ",
+  "blueprint": {
+    "name": "GREAT ESCAPE IV",
+    "images": [
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b05b000-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b049e90-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b12cf60-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b047780-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::9b053ad0-6664-11f1-b24c-1d189d03ded0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555d31d0-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555df520-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555b5d10-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555c2060-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555d7ff0-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::556c4d00-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::556dfab0-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::559b4c40-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555cbca0-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::555e4340-666f-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::7ca558d0-666f-11f1-97a7-05417c7bb7ac/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::7ca531c0-666f-11f1-97a7-05417c7bb7ac/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::7ca46e70-666f-11f1-97a7-05417c7bb7ac/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::7ca001a0-666f-11f1-97a7-05417c7bb7ac/{imageVariant}",
+      "/media/media::image::a::vessel::2c9386d0-6662-11f1-872c-47ea96019643::assets::7c9db7b0-666f-11f1-9609-6bfb2c7ed749/{imageVariant}"
+    ],
+    "make": "",
+    "maxCrew": 7,
+    "sleeps": 14,
+    "basePort": {
+      "name": "Broome, Western Australia, Australia",
+      "coordinates": {
+        "longitude": 122.223625,
+        "latitude": -17.956032
+      },
+      "country": "Australia"
+    },
+    "builtYear": 2006,
+    "interiorDesigner": "",
+    "topSpeed": 22,
+    "cruiseSpeed": 12,
+    "cabinLayout": [],
+    "cabins": 7,
+    "length": 26,
+    "beam": 9.2,
+    "draft": 1.8,
+    "tonnage": 100,
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Lounge area"
+      },
+      {
+        "label": "Foredeck spa"
+      }
+    ],
+    "entertainment": [
+      "Flat-screen TV",
+      "Satellite Wi-Fi",
+      "Satellite telephone"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "AUD",
+      "price": 545000,
+      "displayCurrency": "AUD",
+      "displayPrice": 545000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 1925500,
+      "displayCurrency": "AUD",
+      "displayPrice": 1925500,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Waterfall Safari 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-03-23T00:00:00.000Z",
+            "to": "2027-04-02T23:59:59.999Z"
+          },
+          {
+            "from": "2028-03-23T00:00:00.000Z",
+            "to": "2028-04-02T23:59:59.999Z"
+          },
+          {
+            "from": "2029-03-23T00:00:00.000Z",
+            "to": "2029-04-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1925500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1925500,
+              "amount": 1925500,
+              "conditions": "per person"
+            }
+          ],
+          "total": 1925500,
+          "subTotal": 1925500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Kings of the Kimberley (6 nights) 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-04-03T00:00:00.000Z",
+            "to": "2027-04-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-03T00:00:00.000Z",
+            "to": "2028-04-09T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-03T00:00:00.000Z",
+            "to": "2029-04-09T23:59:59.999Z"
+          },
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-05-07T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-05-07T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-01T00:00:00.000Z",
+            "to": "2029-05-07T23:59:59.999Z"
+          },
+          {
+            "from": "2027-06-12T00:00:00.000Z",
+            "to": "2027-06-18T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-12T00:00:00.000Z",
+            "to": "2028-06-18T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-12T00:00:00.000Z",
+            "to": "2029-06-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1466500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1466500,
+              "amount": 1466500,
+              "conditions": "per person"
+            }
+          ],
+          "total": 1466500,
+          "subTotal": 1466500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Southern Kimberley Experience (7 Nights) 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-08-08T00:00:00.000Z",
+            "to": "2027-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-08T00:00:00.000Z",
+            "to": "2028-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-08T00:00:00.000Z",
+            "to": "2029-08-15T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-15T00:00:00.000Z",
+            "to": "2027-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-15T00:00:00.000Z",
+            "to": "2028-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-15T00:00:00.000Z",
+            "to": "2029-08-22T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-30T00:00:00.000Z",
+            "to": "2027-09-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-30T00:00:00.000Z",
+            "to": "2028-09-06T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-30T00:00:00.000Z",
+            "to": "2029-09-06T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-22T00:00:00.000Z",
+            "to": "2027-09-29T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-22T00:00:00.000Z",
+            "to": "2028-09-29T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-22T00:00:00.000Z",
+            "to": "2029-09-29T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-29T00:00:00.000Z",
+            "to": "2027-10-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-29T00:00:00.000Z",
+            "to": "2028-10-06T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-29T00:00:00.000Z",
+            "to": "2029-10-06T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1646300,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1646300,
+              "amount": 1646300,
+              "conditions": "per person"
+            }
+          ],
+          "total": 1646300,
+          "subTotal": 1646300,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Rowley Shoals (7 Nights) 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-10-27T00:00:00.000Z",
+            "to": "2027-11-03T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-27T00:00:00.000Z",
+            "to": "2028-11-03T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-27T00:00:00.000Z",
+            "to": "2029-11-03T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-10T00:00:00.000Z",
+            "to": "2027-11-17T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-10T00:00:00.000Z",
+            "to": "2028-11-17T23:59:59.999Z"
+          },
+          {
+            "from": "2029-11-10T00:00:00.000Z",
+            "to": "2029-11-17T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 763500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 763500,
+              "amount": 763500,
+              "conditions": "per person"
+            }
+          ],
+          "total": 763500,
+          "subTotal": 763500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Rowley Shoals (5 nights) 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-11-04T00:00:00.000Z",
+            "to": "2027-11-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-04T00:00:00.000Z",
+            "to": "2028-11-09T23:59:59.999Z"
+          },
+          {
+            "from": "2029-11-04T00:00:00.000Z",
+            "to": "2029-11-09T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-17T00:00:00.000Z",
+            "to": "2027-11-22T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-17T00:00:00.000Z",
+            "to": "2028-11-22T23:59:59.999Z"
+          },
+          {
+            "from": "2029-11-17T00:00:00.000Z",
+            "to": "2029-11-22T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-01T00:00:00.000Z",
+            "to": "2027-12-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-01T00:00:00.000Z",
+            "to": "2028-12-06T23:59:59.999Z"
+          },
+          {
+            "from": "2029-12-01T00:00:00.000Z",
+            "to": "2029-12-06T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 545000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 545000,
+              "amount": 545000,
+              "conditions": "per person"
+            }
+          ],
+          "total": 545000,
+          "subTotal": 545000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
