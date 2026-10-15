@@ -1,10 +1,10 @@
 {
-  "lastModified": 1790319691324,
+  "lastModified": 1792054099208,
   "uri": "c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Croatia\n\nA modern yet traditional family-owned yacht offers a carefree and fun luxury experience in Dalmatia in full privacy. She is able to accommodate up to 38 people so you can invite everyone you love or organize the ultimate event.",
+  "description": "Operating Area: Croatia\n\nA modern yet traditional family-owned yacht offers a carefree and fun luxury experience in Dalmatia in full privacy. She is able to accommodate up to 34 people so you can invite everyone you love or organize the ultimate event.",
   "blueprint": {
     "name": "RIVA",
     "images": [
@@ -27,7 +27,7 @@
     "make": "Custom",
     "model": "Custom",
     "maxCrew": 12,
-    "sleeps": 38,
+    "sleeps": 34,
     "basePort": {
       "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
       "name": "Split",
@@ -37,8 +37,8 @@
       },
       "country": "Croatia"
     },
-    "cruisingCapacity": 36,
-    "staticCapacity": 36,
+    "cruisingCapacity": 34,
+    "staticCapacity": 50,
     "builtYear": 2018,
     "architect": "",
     "interiorDesigner": "Marelna Dapcic",
@@ -48,24 +48,20 @@
     "fuelCapacity": "",
     "cabinLayout": [
       {
-        "label": " VIP Cabin",
-        "value": "1"
-      },
-      {
         "label": "Double Cabins",
         "value": "12"
       },
       {
         "label": "Twin Cabins",
-        "value": "3"
+        "value": "2"
       },
       {
         "label": "Triple Cabins",
         "value": "2"
       }
     ],
-    "cabins": 18,
-    "bathrooms": 18,
+    "cabins": 16,
+    "bathrooms": 16,
     "decks": 4,
     "length": 48.2,
     "beam": 8.6,
@@ -120,12 +116,6 @@
   },
   "crew": [
     {
-      "name": "Dino Marković",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::5c01ba90-1385-11ef-821d-f1a8c6d3224a.jpeg/{imageVariant}",
-      "role": "Captain",
-      "bio": "Holding a Master’s license with over 12 years of experience in yachting, a highly experienced captain, Dino Marković is a reliable professional dedicated to providing an amazing charter experience. He possesses extensive knowledge of nautical operations, safety protocols, and procedures and handling navigation systems following local, state, and environmental regulations. He is committed to providing the best client service, delivering the best possible routes, and monitoring weather forecasts and conditions.\n\nPersonal interests:\nHis personal interests include fitness, skiing, fishing, and traveling.\n\nLanguages Spoken:\nEnglish, Croatian\n\nTestimonial:\nWe absolutely enjoyed our recent experience onboard Riva. The yacht was everything that we could have imagined and provided the perfect amount of luxury. Our trip was at the beginning of October, which is the perfect time to visit Croatia after the crowds have disappeared. We had great weather, low crowds, and an amazing experience. D. S., USA"
-    },
-    {
       "name": "Ivan Rogulj",
       "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::7ee527e0-1385-11ef-821d-f1a8c6d3224a.jpeg/{imageVariant}",
       "role": "Chef",
@@ -136,48 +126,6 @@
       "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::900a43b0-b0ac-11ef-aedc-d3b12da8081d/{imageVariant}",
       "role": "Captain",
       "bio": "Armed with a Bachelor's degree in International Business from RIT Croatia, this individual is fluent in both English and German. Renowned for his strong work ethic, he maintains excellent communication with guests and readily assists them with any needs throughout their cruise experience.\n\nLanguages Spoken:\nEnglish, German, Croatian"
-    },
-    {
-      "name": "Igor",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::a1c82020-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
-      "role": "Captain",
-      "bio": "Finished cooking school with over ten years of experience under his belt, best qualities in work ethic, meticulous and devoted to his work. Loves to play bocce in his spare time but kitchen is actually where he feels at home and at his best. Works great in team and brings a lots of creativity with his chef on Riva, making sure food they bring to our guests to the table is unique experience for them all to remember."
-    },
-    {
-      "name": "Andela",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::cab321b0-b0ae-11ef-ae85-695a9100093a/{imageVariant}",
-      "role": "Captain",
-      "bio": "Anđela has several years of tenure with Riva and projects an appealing and personable presence. She maintains a pristine and orderly environment, elevating the cleanliness of the interior to the highest standards. Proficient in both English and Croatian, she also holds a beautician certificate, having previously worked as a hairstylist."
-    },
-    {
-      "name": "Fedor",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::f46814e0-b0ac-11ef-a419-0fae6a595341/{imageVariant}",
-      "role": "Captain",
-      "bio": "Fedor is industrious and patient, possessing strong interpersonal abilities. He adeptly acclimates to new environments and thrives both within a team dynamic and independently. With extensive experience as a waiter across restaurants, hotels, and yachts, he brings a wealth of expertise to the table. Outside of work, he finds solace in music, and he is fluent in English, Serbian, and Hungarian."
-    },
-    {
-      "name": "Zsolt",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::8d111600-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
-      "role": "Captain",
-      "bio": "Zsolt has been an integral part of Riva's crew since its inaugural voyage, honing his expertise in guest service continuously. Proficient in his field, he delights in conversing with guests, consistently striving to ensure their happiness, safety, and relaxation in the salon and beyond. He epitomizes professionalism, garnering excellent guest reviews that underscore his commitment to excellence."
-    },
-    {
-      "name": "Josip",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::7acf51a0-b0ae-11ef-b796-218df90c00aa/{imageVariant}",
-      "role": "Captain",
-      "bio": "With over a decade of experience on sailing boats, fishing vessels, and cruise ships, he demonstrates unwavering professionalism and composure, always eager to aid his colleagues. His responsibilities encompass comprehensive ship maintenance and assisting the crew with deck tasks. Fluent in English and Croatian, he finds his greatest joy in spending time with his wife and two children, especially when they can travel together."
-    },
-    {
-      "name": "Ljubo",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::49d68100-b0ad-11ef-8b5e-874f8c1c1ba0/{imageVariant}",
-      "role": "Captain",
-      "bio": "This young man holds certifications as a chauffeur, waiter, and bellboy. He enjoys skiing, swimming, and fishing, and is proficient in English. With a strong work ethic, he excels in guest interactions and teamwork. He is knowledgeable in ship operations, particularly in anchoring. Amidst diverse responsibilities, he performs well under pressure, ensuring tasks are completed promptly and accurately."
-    },
-    {
-      "name": "Toni",
-      "avatar": "/media/media::image::c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60::assets::686931d0-b0ad-11ef-80a8-8b42eeae3f8e/{imageVariant}",
-      "role": "Captain",
-      "bio": "Our youthful sailor harbors a profound passion for the sea and sailing. With extensive prior roles as a waiter and sous-chef, he now contributes to ship maintenance while eagerly attending to guests during their voyages. Proficient in English, he delights in swimming and snorkeling as personal pastimes."
     }
   ],
   "pricing": {
