@@ -1,0 +1,396 @@
+{
+  "lastModified": null,
+  "uri": "c::9333021515::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating area: Phuket\n\nDiscover the future of luxury yachting with E-MOTION, the first electric Sunreef sailing catamaran in the Asia Pacific, now available for charter in Phuket.\n\nThis innovative vessel combines silent cruising with eco-conscious technology, making it the perfect choice for those who want sustainability without sacrificing comfort or performance.\n\nExplore the stunning islands around Phuket on a smooth, emissions-free journey with E-MOTION. Whether you’re heading to Phi Phi, Phang Nga Bay, or the Similans, this electric catamaran delivers a refined and peaceful cruising experience.\n\nOnboard, enjoy an array of water toys including paddle boards, Seabobs, and Williams jet tender for high-speed island exploration.\n\nThe spacious layout comfortably accommodates up to 8 guests in 4 elegant en-suite cabins, making E-MOTION ideal for family escapes or a stylish getaway with friends.\n\nHer full-time professional crew, including a private chef, ensures every moment onboard is effortless, from gourmet meals to five-star service.\n\nCharter the future today!",
+  "blueprint": {
+    "name": "E-MOTION",
+    "images": [
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0be61e0-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0be13c0-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e108ff70-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d51e30-c961-11f1-b6e1-9960fbdf1cb8/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f661d0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0fc5540-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f9e440-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0cb3320-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10e7db0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f920f0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0bfc170-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e115f7c0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0befe20-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0cf9ff0-c961-11f1-9559-efafbd779fe3/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0bd9e90-c961-11f1-b6e1-9960fbdf1cb8/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f7c160-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e1100450-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0da0030-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d7dd50-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0cce0d0-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e1046b90-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0cfee10-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d7dd50-c961-11f1-9b89-010a07d70366/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10fb630-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0dff3a0-c961-11f1-b6e1-9960fbdf1cb8/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e11163e0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e105a410-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10f8f20-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10afb40-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d82b70-c961-11f1-b6e1-9960fbdf1cb8/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0c20b60-c961-11f1-898d-eb26d6716b68/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0be88f0-c961-11f1-b6e1-9960fbdf1cb8/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0de45f0-c961-11f1-9b8a-010a07d70366/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e111b200-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d54540-c961-11f1-9559-efafbd779fe3/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d80460-c961-11f1-898d-eb26d6716b68/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d3bea0-c961-11f1-9559-efafbd779fe3/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d7b640-c961-11f1-9b8a-010a07d70366/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10bbe90-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d7b640-c961-11f1-9559-efafbd779fe3/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0ceb590-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f884b0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0c84cf0-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f6aff0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0fb43d0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0be13c0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0bdc5a0-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d78f30-c961-11f1-898d-eb26d6716b68/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e104b9b0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f96f10-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0cbcf60-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0f6d700-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0fb6ae0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d7dd50-c961-11f1-b0af-5b0be56166ba/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e11868c0-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d39790-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d4d010-c961-11f1-898d-eb26d6716b68/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0de1ee0-c961-11f1-92ef-ef842da8c7aa/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d1e9e0-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d6cbe0-c961-11f1-9b89-010a07d70366/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d40cc0-c961-11f1-b3dc-5baf9ac49593/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d76820-c961-11f1-9b89-010a07d70366/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e0d6f2f0-c961-11f1-898d-eb26d6716b68/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::e10b4960-c961-11f1-8ad4-65f1f5d19e4c/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::81668080-c96e-11f1-8d29-a39bc0bc48c0/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::869519e0-c96e-11f1-8d29-a39bc0bc48c0/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::8af9d390-c96e-11f1-8d29-a39bc0bc48c0/{imageVariant}",
+      "/media/media::image::a::vessel::e08b4820-c95a-11f1-8ae2-3f0a2ae51228::assets::8f739be0-c96e-11f1-8d29-a39bc0bc48c0/{imageVariant}"
+    ],
+    "make": "Sunreef",
+    "model": "Sunreef 60 Eco",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "builtYear": 2025,
+    "topSpeed": 0,
+    "cruiseSpeed": 11,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 18.4,
+    "beam": 10.2,
+    "draft": 2.2,
+    "hullType": "Catamaran",
+    "amenities": [
+      {
+        "label": "Air-conditioning"
+      },
+      {
+        "label": "Water maker"
+      },
+      {
+        "label": "Ice maker"
+      },
+      {
+        "label": "BBQ"
+      },
+      {
+        "label": "Deck shower"
+      },
+      {
+        "label": "Washing machine/dryer "
+      },
+      {
+        "label": "Fridge with freezer "
+      },
+      {
+        "label": "Microwave oven"
+      },
+      {
+        "label": "Dishwasher "
+      },
+      {
+        "label": "Wine cooler for 32 bottles"
+      },
+      {
+        "label": "Underwater lights"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Stand up paddleboard",
+        "quantity": "2"
+      },
+      {
+        "label": "Floating swimming pool"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment"
+      },
+      {
+        "label": "Seabob"
+      }
+    ],
+    "entertainment": [
+      "Hi Speed WiFi",
+      "Indoor/outdoor stereo"
+    ],
+    "tenders": [
+      "Williams DieselJet 505 SOLAS Tender 110 hp "
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 4400000,
+      "displayCurrency": "USD",
+      "displayPrice": 4400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 5900000,
+      "displayCurrency": "USD",
+      "displayPrice": 5900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate: Low Season (May - October)",
+        "effectiveDates": [
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-10-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-10-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-01T00:00:00.000Z",
+            "to": "2029-10-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 4400000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4400000,
+              "amount": 4400000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 4400000,
+              "amount": 1320000
+            }
+          ],
+          "total": 5720000,
+          "subTotal": 5720000,
+          "totalTax": 308000.00000000006
+        },
+        "inclusionZones": [
+          {
+            "label": "Phuket",
+            "type": "Custom Area",
+            "category": [
+              "Phuket"
+            ],
+            "coordinates": [
+              98.37876154004275,
+              7.873984377540834
+            ],
+            "bbox": [
+              98.24370143194903,
+              7.456911204137413,
+              98.51784621108925,
+              8.20422649977526
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: High Season (November - April)",
+        "effectiveDates": [
+          {
+            "from": "2026-11-01T00:00:00.000Z",
+            "to": "2026-12-19T23:59:59.999Z"
+          },
+          {
+            "from": "2027-11-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
+          },
+          {
+            "from": "2028-11-01T00:00:00.000Z",
+            "to": "2028-12-19T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-11T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-11T00:00:00.000Z",
+            "to": "2028-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-11T00:00:00.000Z",
+            "to": "2029-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5400000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5400000,
+              "amount": 5400000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 5400000,
+              "amount": 1620000
+            }
+          ],
+          "total": 7020000,
+          "subTotal": 7020000,
+          "totalTax": 378000.00000000006
+        },
+        "inclusionZones": [
+          {
+            "label": "Phuket",
+            "type": "Custom Area",
+            "category": [
+              "Phuket"
+            ],
+            "coordinates": [
+              98.37876154004275,
+              7.873984377540834
+            ],
+            "bbox": [
+              98.24370143194903,
+              7.456911204137413,
+              98.51784621108925,
+              8.20422649977526
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: Peak Season (December 20 - January 10)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-20T00:00:00.000Z",
+            "to": "2027-01-10T23:59:59.999Z"
+          },
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2028-01-10T23:59:59.999Z"
+          },
+          {
+            "from": "2028-12-20T00:00:00.000Z",
+            "to": "2029-01-10T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 5900000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5900000,
+              "amount": 5900000,
+              "conditions": "VAT is Included",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.07
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 5900000,
+              "amount": 1770000
+            }
+          ],
+          "total": 7670000,
+          "subTotal": 7670000,
+          "totalTax": 413000.00000000006
+        },
+        "inclusionZones": [
+          {
+            "label": "Phuket",
+            "type": "Custom Area",
+            "category": [
+              "Phuket"
+            ],
+            "coordinates": [
+              98.37876154004275,
+              7.873984377540834
+            ],
+            "bbox": [
+              98.24370143194903,
+              7.456911204137413,
+              98.51784621108925,
+              8.20422649977526
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
