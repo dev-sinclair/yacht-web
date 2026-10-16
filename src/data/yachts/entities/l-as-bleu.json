@@ -1,10 +1,10 @@
 {
-  "lastModified": 1784128998875,
+  "lastModified": 1792145911737,
   "uri": "c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d",
   "yachtType": [
     "Motor"
   ],
-  "description": "Summer Operating Area: West Mediterranean - Riviera, Corsica, Sardinia\nWinter Operating Area: Based in Monaco with a berth and operating in the South of France, Corsica and Sardinia.\n\nStep aboard L’AS BLEU, the Riva 82’ Diva, the newest icon of Italian style - and available for charter for the very first time!\nHer innovative beach club with 2 folding terraces brings you closer to the sea, while the huge flybridge is made for sunsoaked days, sunset dinners, and unforgettable moments with friends and family.\n\nInside, you’ll find chic, contemporary interiors and 4 stunning en-suite cabins for up to 8 guests.\n\nWith stabilizers for maximum comfort, a cruising speed of 27 knots, and a top speed of 30 knots, the Diva model delivers the ultimate Mediterranean adventure.\n\nL’AS BLEU available in the South of France, Corsica, Sardinia, and along the Italian Coast, this is your chance to experience the thrill, style, and glamour of a brand-new Riva.\n",
+  "description": "Summer Operating Area: West Mediterranean - Riviera, Corsica, Sardinia\nWinter Operating Area: Based in Cannes, Vieux Port. \n\nStep aboard L’AS BLEU, the Riva 82’ Diva, the newest icon of Italian style.\nHer innovative beach club with 2 folding terraces brings you closer to the sea, while the huge flybridge is made for sunsoaked days, sunset dinners, and unforgettable moments with friends and family.\n\nInside, you’ll find chic, contemporary interiors and 4 stunning en-suite cabins for up to 8 guests.\n\nWith stabilizers for maximum comfort, a cruising speed of 27 knots, and a top speed of 30 knots, the Diva model delivers the ultimate Mediterranean adventure.\n\nL’AS BLEU is available in the South of France, Corsica, Sardinia, and along the Italian Coast; this is your chance to experience the thrill, style, and glamour of a Riva.\n",
   "blueprint": {
     "name": "L'AS BLEU",
     "images": [
@@ -54,17 +54,19 @@
     "maxCrew": 3,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::f8ceebd4-b3ed-11ed-ae82-325096b39f47",
-      "name": "Monaco",
+      "uri": "a::place::961c5050-b72e-11ed-8b03-e336971aec2e",
+      "name": "Cannes",
       "coordinates": {
-        "latitude": 43.73477498,
-        "longitude": 7.421418372
+        "latitude": 43.55087609669572,
+        "longitude": 7.013885342472035
       },
-      "country": "Monaco"
+      "country": "France"
     },
     "cruisingCapacity": 12,
     "staticCapacity": 0,
     "builtYear": 2025,
+    "architect": "Riva",
+    "interiorDesigner": "",
     "topSpeed": 30,
     "cruiseSpeed": 27,
     "cabinLayout": [
@@ -131,10 +133,10 @@
   },
   "crew": [
     {
-      "name": "Benoit Benaddi",
-      "avatar": "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::def7e600-8060-11f1-a70f-5540fa7a5547/{imageVariant}",
+      "name": "Nicolas Marret",
+      "avatar": "/media/media::image::c::7580644256::vessel::db14b2d0-c90d-11f0-98fa-c569c220042d::assets::c6ba0a40-c94a-11f1-a9e1-d5e98157a8f6/{imageVariant}",
       "role": "Captain",
-      "bio": "Captain Benoit Benaddi brings over five years of solid yachting experience across the Mediterranean, from the French Riviera to Italy, Corsica, Sardinia, and the Balearics. His background covers both private and charter yachts, giving him a strong understanding of guest expectations and operational excellence.\nA holder of a Master 200 GT license, Benoit combines a dynamic leadership style with a hands-on technical approach, ensuring a safe, smooth, and enjoyable experience for everyone on board.\n\nEXPERIENCES: \nCaptain on M/Y SAMIRA – Riva Perseo 76 (Charter and Private) in 2025, Second on M/Y SKYRA – Integrity 93 (Charter and Private), M/Y SEA SQUIRTER – Leopard 27 (Private)"
+      "bio": "With over 16 years of experience in the yachting industry, Nicolas is a professional and dedicated Captain committed to delivering an exceptional experience to every guest on board. His priority is to ensure that each charter is safe, smooth and perfectly tailored to the guests’ expectations. With extensive knowledge of the Mediterranean and strong relationships with leading charter agencies and local partners along the French Riviera, Nicolas can assist in creating personalised itineraries and arranging the best destinations, restaurants and experiences. Attentive, approachable and highly service-oriented, he works closely with the crew to maintain the highest standards throughout the charter. From the moment guests step on board until the end of their stay, Nicolas is dedicated to providing a relaxed, seamless and memorable yachting experience.\n\nExperience: \n- Captain \"YAKOS\" Maiora 72 - 2025-2026\n- Captain \"BIBI\" Riva 68' - 2020-2025\n- Captain on motor yachts between 60' to 110' - 2009-2020\n- Cadet / Deckhand 2005-2009\n\nLanguages: English, French, Italian"
     },
     {
       "name": "Alicia Lopez",
@@ -167,16 +169,20 @@
         "name": "Summer: Mediterranean - Low Season",
         "effectiveDates": [
           {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
+            "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2027-09-01T00:00:00.000Z",
+            "from": "2028-06-01T00:00:00.000Z",
             "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -237,10 +243,6 @@
           {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {

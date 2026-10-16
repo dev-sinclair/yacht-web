@@ -1,0 +1,318 @@
+{
+  "lastModified": null,
+  "uri": "c::7580644256::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: France and Italy\n\nSAMIRA is a 76ft (23m) motor yacht built by Riva in 2024, with design by Ferretti Group. She accommodates up to 8 guests in 4 cabins comprising 2 double and 2 twin, with a professional crew of 2 ensuring an exceptional charter experience. Available for charter in France, Italy. Notable features include under 24m u2013 Perfect Size for Mediterranean Cruising, 4 Guest Cabins for 8 Guests with full beam Master, spacious Outdoor Living Areas, and sleek, Sporty & Iconic Italian Design.\n\nKEY FEATURES: \n• Under 24m – Perfect Size for Mediterranean Cruising \n• 4 Guest Cabins for 8 Guests with full beam Master\n• Spacious Outdoor Living Areas\n• Sleek, Sporty & Iconic Italian Design",
+  "blueprint": {
+    "name": "SAMIRA",
+    "images": [
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd85780-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd0b660-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc8c720-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc65620-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd4fc20-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc4a870-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcfa4f0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd2d940-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc803d0-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc4cf80-c94a-11f1-aa38-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc87900-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc78ea0-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcc4990-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcd5b00-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc60800-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc67d30-c94a-11f1-aa39-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcf56d0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd8ccb0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd179b0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc7dcc0-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dc321d0-c94a-11f1-aa38-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcc97b0-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcda920-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcc97b1-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcbad50-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dceba90-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd3eab0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dcb5f30-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dca26b0-c94a-11f1-aa3a-558f5911fe8b/{imageVariant}",
+      "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd486f0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}"
+    ],
+    "make": "Riva",
+    "maxCrew": 2,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::961c5050-b72e-11ed-8b03-e336971aec2e",
+      "name": "Cannes",
+      "coordinates": {
+        "latitude": 43.55087609669572,
+        "longitude": 7.013885342472035
+      },
+      "country": "France"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2024,
+    "topSpeed": 37,
+    "cruiseSpeed": 25,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "length": 23.25,
+    "beam": 5.75,
+    "draft": 3.2,
+    "hullType": "",
+    "engines": "2 X MAN V12 - 1800 HP",
+    "amenities": [
+      {
+        "label": "Watermakers"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Sea-Doo",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddleboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Inflatable Donut",
+        "quantity": "1"
+      }
+    ],
+    "entertainment": [
+      "TV in all cabins",
+      "TV in saloon",
+      "Bluetooth speakers/sound system connection",
+      "4/5G Internet",
+      "SAT TV"
+    ],
+    "tenders": [
+      "Williams 325 Jet Tende"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 760000,
+      "displayCurrency": "EUR",
+      "displayPrice": 760000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 880000,
+      "displayCurrency": "EUR",
+      "displayPrice": 880000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season Day Rate",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 760000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 760000,
+              "amount": 760000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 760000,
+              "amount": 304000
+            }
+          ],
+          "total": 1064000,
+          "subTotal": 1064000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season Day Rate",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 880000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 880000,
+              "amount": 880000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 880000,
+              "amount": 352000
+            }
+          ],
+          "total": 1232000,
+          "subTotal": 1232000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
