@@ -1,10 +1,10 @@
 {
-  "lastModified": 1783694479369,
+  "lastModified": 1792383584801,
   "uri": "c::52220319023::vessel::aa167700-5e23-11ef-88ef-99b0f5a4c0bf",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia\n\nLUMIR is a 37.00m / 121ft Luxury Motor Superyacht built in 2005 by Heesen and later underwent a refit in 2026. Sleeping 10 guests in 4 cabins and with a crew of 4. Cruising at 13.50 kn/ph with a top speed of 31.00 kn/ph. The guest cabins comprise of a Master cabin, two VIP cabins and two twin cabins, all with en-suite bathroom facilities.",
+  "description": "Operating Area: Whitsundays, Cairns, Great Barrier Reef, Sydney Harbour, Brisbane, Gold Coast\n\nLUMIR is a 37.00m / 121ft Luxury Motor Superyacht built in 2005 by Heesen and later underwent a refit in 2026. Sleeping 10 guests in 4 cabins and with a crew of 4. Cruising at 13.50 kn/ph with a top speed of 31.00 kn/ph. The guest cabins comprise of a Master cabin, two VIP cabins and two twin cabins, all with en-suite bathroom facilities.",
   "blueprint": {
     "name": "LUMIR",
     "images": [
@@ -176,15 +176,7 @@
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -208,22 +200,71 @@
         },
         "inclusionZones": [
           {
-            "label": "Australia",
-            "type": "Country",
+            "label": "Whitsundays",
+            "type": "Custom Area",
             "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
+              "Whitsundays"
             ],
             "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
+              148.85478758014648,
+              -20.286588575238913
             ],
             "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
             ]
           }
         ],

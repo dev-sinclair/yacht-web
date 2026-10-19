@@ -1,10 +1,10 @@
 {
-  "lastModified": 1789079646360,
+  "lastModified": 1792383503247,
   "uri": "c::52220319023::vessel::d5cca231-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "IMPULSIVE, the epitome of boundless possibilities, invites you to immerse yourself in a realm where time and space intertwine. Step aboard this exquisite 40M Italian-built superyacht and indulge in a tailored charter experience transcending imagination.\nDiscover Australia’s most captivating destinations, from the iconic Sydney Harbour to the breathtaking Whitsunday Islands. Our dedicated crew stands ready to fulfil your every desire, ensuring your journey is extraordinary.",
+  "description": "Operating Area: Whitsundays, Cairns, Great Barrier Reef, Sydney Harbour, Brisbane, Gold Coast\n\nIMPULSIVE, the epitome of boundless possibilities, invites you to immerse yourself in a realm where time and space intertwine. Step aboard this exquisite 40M Italian-built superyacht and indulge in a tailored charter experience transcending imagination.\nDiscover Australia’s most captivating destinations, from the iconic Sydney Harbour to the breathtaking Whitsunday Islands, Fiji and the South Pacific. Our dedicated crew stands ready to fulfil your every desire, ensuring your journey is extraordinary.",
   "blueprint": {
     "name": "IMPULSIVE",
     "images": [
@@ -87,6 +87,15 @@
     "model": "",
     "maxCrew": 8,
     "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::d51ce952-b3ed-11ed-8fac-325096b39f47",
+      "name": "Brisbane",
+      "coordinates": {
+        "latitude": -27.47613765,
+        "longitude": 153.0370074
+      },
+      "country": "Australia"
+    },
     "cruisingCapacity": 50,
     "staticCapacity": 50,
     "builtYear": 2007,
@@ -159,31 +168,31 @@
   "crew": [],
   "pricing": {
     "dayPricingFrom": {
-      "currency": "USD",
+      "currency": "AUD",
       "price": 2800000,
-      "displayCurrency": "USD",
+      "displayCurrency": "AUD",
       "displayPrice": 2800000,
       "unit": "DAY"
     },
     "dayPricingTo": {
-      "currency": "USD",
-      "price": 12000000,
-      "displayCurrency": "USD",
-      "displayPrice": 12000000,
+      "currency": "AUD",
+      "price": 21000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 21000000,
       "unit": "HOUR"
     },
     "weekPricingFrom": {
-      "currency": "USD",
-      "price": 17500000,
-      "displayCurrency": "USD",
-      "displayPrice": 17500000,
+      "currency": "AUD",
+      "price": 2800000,
+      "displayCurrency": "AUD",
+      "displayPrice": 2800000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
-      "currency": "USD",
-      "price": 31500000,
-      "displayCurrency": "USD",
-      "displayPrice": 31500000,
+      "currency": "AUD",
+      "price": 17500000,
+      "displayCurrency": "AUD",
+      "displayPrice": 17500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -191,7 +200,7 @@
         "name": "24 Hour Rate",
         "effectiveDates": [],
         "pricing": {
-          "currency": "USD",
+          "currency": "AUD",
           "charterFee": 2800000,
           "inputAmountTaxed": "NONE",
           "note": "",
@@ -218,22 +227,90 @@
         },
         "inclusionZones": [
           {
-            "label": "Australia",
-            "type": "Country",
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
             "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
+              "Cairns"
             ],
             "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
+              145.7375,
+              -16.9375
             ],
             "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
             ]
           }
         ],
@@ -244,7 +321,7 @@
         "name": "Weekly Rate",
         "effectiveDates": [],
         "pricing": {
-          "currency": "USD",
+          "currency": "AUD",
           "charterFee": 17500000,
           "inputAmountTaxed": "NONE",
           "note": "",
@@ -271,75 +348,90 @@
         },
         "inclusionZones": [
           {
-            "label": "Australia",
-            "type": "Country",
+            "label": "Fiji",
+            "type": "Sovereign country",
             "category": [
               "Oceania",
-              "Australia and New Zealand",
-              "Australia"
+              "Melanesia",
+              "Fiji"
             ],
             "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
+              19.643807969695064,
+              -17.661387590807376
             ],
             "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
             ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Two Weeks",
-        "effectiveDates": [],
-        "pricing": {
-          "currency": "USD",
-          "charterFee": 31500000,
-          "inputAmountTaxed": "NONE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 31500000,
-              "amount": 31500000,
-              "conditions": ""
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 31500000,
-              "amount": 9450000
-            }
-          ],
-          "total": 40950000,
-          "subTotal": 40950000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
+          },
           {
-            "label": "Australia",
-            "type": "Country",
+            "label": "Whitsundays",
+            "type": "Custom Area",
             "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
+              "Whitsundays"
             ],
             "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
+              148.85478758014648,
+              -20.286588575238913
             ],
             "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
             ]
           }
         ],
@@ -347,11 +439,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Sydney NYE 7 hours",
+        "name": "New Year's Eve | 5 Night All-Inclusive Offer",
         "effectiveDates": [],
         "pricing": {
-          "currency": "USD",
-          "charterFee": 12000000,
+          "currency": "AUD",
+          "charterFee": 21000000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "HOUR",
@@ -359,13 +451,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 12000000,
-              "amount": 12000000,
+              "unitPrice": 21000000,
+              "amount": 21000000,
               "conditions": "+ $1,000pp All-inclusive"
             }
           ],
-          "total": 12000000,
-          "subTotal": 12000000,
+          "total": 21000000,
+          "subTotal": 21000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -386,6 +478,139 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Fiji 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 17500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 17500000,
+              "amount": 17500000
+            }
+          ],
+          "total": 17500000,
+          "subTotal": 17500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Brisbane | February 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-02-01T00:00:00.000Z",
+            "to": "2027-02-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 2800000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2800000,
+              "amount": 2800000,
+              "conditions": ""
+            }
+          ],
+          "total": 2800000,
+          "subTotal": 2800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
             ]
           }
         ],
