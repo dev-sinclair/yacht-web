@@ -1,10 +1,10 @@
 {
-  "lastModified": 1783528670096,
+  "lastModified": 1792374374600,
   "uri": "c::19450862456::vessel::d5cc78f7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "2026 Operating Area: Australia - Port Douglas | Whitsundays | Sydney\n\nAURORA offers the ultimate relaxation and luxury charter yacht experience.\n\nOn deck, AURORA has a variety of options for lounging and entertaining. There are three deck areas and three dining areas. The main level offers generous fore and aft decks, the main saloon lounge and dining area and the wheelhouse. From the aft deck, a pair of stairs lead down to the spacious hydraulic swim platform and another set of stairs takes you up to the expansive flybridge.\n\nThe flybridge includes a bar area with a gourmet grill and fridge. The dining table features banquette seating and chairs for ten people. There is a large sunpad and separate undercover daybed as well as forward seating beside the captain for viewing when underway. The flybridge also includes a projector and a large screen for a “cinema under the stars” experience on any of the daybeds or beanbags.\n\nThe aft deck has a full bar and teak dining table for seating eight guests, a perfect setting for breakfasts, brunch and lunch.\n\nThe 2.3-metre hydraulic swim platform by day, is a perfect launch for watersports or a touch of fishing. By night is the ideal spot for an intimate dinner for 2 or sunset drinks.\n\nUp front, the bow bathes in full sunlight, boasting a large sunpad and additional forward seating perfect for sun lounging or a sunset cheese platter.\n\nThe air-conditioned elegant main saloon lounge comfortably seats eight guests. Panoramic windows bathe the space in golden afternoon sunlight, highlighting the bespoke cherrywood cabinetry that conceals a large pop-up satellite TV, surround-sound system and well-stocked bar. The dining table seats eight guests opposite the fully-equipped galley, which can be closed off with an electronically operated mirrored screen or left open for interaction with the chef.\n\nMoving forward from the saloon, the wheelhouse offers banquette seating for four guests and two helm chairs. A perfect spot for guests to interact with the captain and plan daily itineraries. There is also a powder room off the wheelhouse that services the main deck.",
+  "description": "2026 - 2027 Operating Area: Australia - Whitsundays | Airlie Beach\n\nAURORA offers the ultimate relaxation and luxury charter yacht experience.\n\nOn deck, AURORA has a variety of options for lounging and entertaining. There are three deck areas and three dining areas. The main level offers generous fore and aft decks, the main saloon lounge and dining area and the wheelhouse. From the aft deck, a pair of stairs lead down to the spacious hydraulic swim platform and another set of stairs takes you up to the expansive flybridge.\n\nThe flybridge includes a bar area with a gourmet grill and fridge. The dining table features banquette seating and chairs for ten people. There is a large sunpad and separate undercover daybed as well as forward seating beside the captain for viewing when underway. The flybridge also includes a projector and a large screen for a “cinema under the stars” experience on any of the daybeds or beanbags.\n\nThe aft deck has a full bar and teak dining table for seating eight guests, a perfect setting for breakfasts, brunch and lunch.\n\nThe 2.3-metre hydraulic swim platform by day, is a perfect launch for watersports or a touch of fishing. By night is the ideal spot for an intimate dinner for 2 or sunset drinks.\n\nUp front, the bow bathes in full sunlight, boasting a large sunpad and additional forward seating perfect for sun lounging or a sunset cheese platter.\n\nThe air-conditioned elegant main saloon lounge comfortably seats eight guests. Panoramic windows bathe the space in golden afternoon sunlight, highlighting the bespoke cherrywood cabinetry that conceals a large pop-up satellite TV, surround-sound system and well-stocked bar. The dining table seats eight guests opposite the fully-equipped galley, which can be closed off with an electronically operated mirrored screen or left open for interaction with the chef.\n\nMoving forward from the saloon, the wheelhouse offers banquette seating for four guests and two helm chairs. A perfect spot for guests to interact with the captain and plan daily itineraries. There is also a powder room off the wheelhouse that services the main deck.",
   "blueprint": {
     "name": "AURORA",
     "images": [
@@ -80,11 +80,10 @@
     "maxCrew": 4,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::27c293be-b3ee-11ed-8dd2-325096b39f47",
-      "name": "Sydney",
+      "name": "Airlie Beach, Queensland, Australia",
       "coordinates": {
-        "latitude": -33.86380638,
-        "longitude": 151.2100953
+        "longitude": 148.71996,
+        "latitude": -20.269331
       },
       "country": "Australia"
     },
@@ -255,30 +254,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 220000,
+      "price": 242000,
       "displayCurrency": "AUD",
-      "displayPrice": 220000,
+      "displayPrice": 242000,
       "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 7760000,
+      "price": 8148000,
       "displayCurrency": "AUD",
-      "displayPrice": 7760000,
+      "displayPrice": 8148000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 8540000,
+      "price": 8967000,
       "displayCurrency": "AUD",
-      "displayPrice": 8540000,
+      "displayPrice": 8967000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 8540000,
+      "price": 8967000,
       "displayCurrency": "AUD",
-      "displayPrice": 8540000,
+      "displayPrice": 8967000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -287,7 +286,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 220000,
+          "charterFee": 242000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -295,36 +294,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 220000,
-              "amount": 220000,
+              "unitPrice": 242000,
+              "amount": 242000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 220000,
-          "subTotal": 220000,
+          "total": 242000,
+          "subTotal": 242000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -351,7 +333,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 880000,
+          "charterFee": 968000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -359,36 +341,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 880000,
-              "amount": 880000,
+              "unitPrice": 968000,
+              "amount": 968000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 880000,
-          "subTotal": 880000,
+          "total": 968000,
+          "subTotal": 968000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -415,7 +380,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1320000,
+          "charterFee": 1452000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "HOUR",
@@ -423,36 +388,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1320000,
-              "amount": 1320000,
+              "unitPrice": 1452000,
+              "amount": 1452000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 1320000,
-          "subTotal": 1320000,
+          "total": 1452000,
+          "subTotal": 1452000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -479,7 +427,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1660000,
+          "charterFee": 1826000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -487,53 +435,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1660000,
-              "amount": 1660000,
+              "unitPrice": 1826000,
+              "amount": 1826000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 1660000,
-          "subTotal": 1660000,
+          "total": 1826000,
+          "subTotal": 1826000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -560,7 +474,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 3320000,
+          "charterFee": 3486000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -568,8 +482,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 3320000,
-              "amount": 3320000,
+              "unitPrice": 3486000,
+              "amount": 3486000,
               "conditions": "",
               "taxRate": {
                 "label": "GST",
@@ -577,45 +491,11 @@
               }
             }
           ],
-          "total": 3320000,
-          "subTotal": 3320000,
+          "total": 3486000,
+          "subTotal": 3486000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -642,7 +522,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 4760000,
+          "charterFee": 4998000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -650,53 +530,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 4760000,
-              "amount": 4760000,
+              "unitPrice": 4998000,
+              "amount": 4998000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 4760000,
-          "subTotal": 4760000,
+          "total": 4998000,
+          "subTotal": 4998000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -723,7 +569,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 5760000,
+          "charterFee": 6048000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -731,53 +577,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5760000,
-              "amount": 5760000,
+              "unitPrice": 6048000,
+              "amount": 6048000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 5760000,
-          "subTotal": 5760000,
+          "total": 6048000,
+          "subTotal": 6048000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -804,7 +616,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 7090000,
+          "charterFee": 7444500,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -812,53 +624,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7090000,
-              "amount": 7090000,
+              "unitPrice": 7444500,
+              "amount": 7444500,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 7090000,
-          "subTotal": 7090000,
+          "total": 7444500,
+          "subTotal": 7444500,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -885,7 +663,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 7760000,
+          "charterFee": 8148000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -893,53 +671,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7760000,
-              "amount": 7760000,
+              "unitPrice": 8148000,
+              "amount": 8148000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 7760000,
-          "subTotal": 7760000,
+          "total": 8148000,
+          "subTotal": 8148000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
@@ -966,7 +710,7 @@
         "effectiveDates": [],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 8540000,
+          "charterFee": 8967000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -974,53 +718,19 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8540000,
-              "amount": 8540000,
+              "unitPrice": 8967000,
+              "amount": 8967000,
               "taxRate": {
                 "label": "GST",
                 "value": 0
               }
             }
           ],
-          "total": 8540000,
-          "subTotal": 8540000,
+          "total": 8967000,
+          "subTotal": 8967000,
           "totalTax": 0
         },
         "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
           {
             "label": "Whitsundays",
             "type": "Custom Area",
