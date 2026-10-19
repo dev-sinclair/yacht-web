@@ -11302,6 +11302,33 @@
     ]
   },
   {
+    "uri": "c::9938368400::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf",
+    "slug": "felicita",
+    "name": "FELICITA",
+    "hero": "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3ee4e80-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
+    "length": 23.9,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7650000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::21392618129::vessel::a49bfe90-d40f-11f0-81c6-75941bd3685b",
     "slug": "victoria-a49bfe",
     "name": "VICTORIA",
@@ -11369,33 +11396,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 7700000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::9938368400::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf",
-    "slug": "felicita",
-    "name": "FELICITA",
-    "hero": "/media/media::image::a::vessel::bf51e7f0-ccf3-11ef-8f6c-294d9fa20bcf::assets::b3ee4e80-4dfd-11f1-bc38-7187380925d9/{imageVariant}",
-    "length": 23.9,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2024,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Catamaran",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7650000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
