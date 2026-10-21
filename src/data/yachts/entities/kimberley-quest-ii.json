@@ -1,11 +1,11 @@
 {
-  "lastModified": 1792474723316,
+  "lastModified": 1792550708304,
   "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
   "yachtType": [
     "Motor",
     "Expedition"
   ],
-  "description": "Operating Area: Kimberley (Western Australia), Australia\n\nThe Kimberley Quest II has been designed for relaxing and exploring the Kimberley coastline in complete comfort and style. Our custom-built vessel is fully air-conditioned, equipped with a helipad, spa and large ensuited cabins. The vessel has comfortable indoor and spacious al fresco areas so there is plenty of room to take in the panoramic scenery and breath-taking sunsets. Accommodating just 18 guests and 6 crew, your holiday of a lifetime can be enjoyed with fellow travellers in luxurious and intimate surrounds.",
+  "description": "Operating Area: Kimberley (Western Australia), Australia\n\nKimberley Quest II\n\nThe Kimberley Quest II has been purpose-built for exploring the spectacular Kimberley coastline in complete comfort, style and luxury. Fully air-conditioned throughout, this custom-built expedition vessel features spacious ensuite cabins, a spa, helipad and generous indoor and alfresco living areas, providing the perfect balance of adventure and relaxation.\n\nWith panoramic viewing decks and expansive outdoor spaces, guests can soak up the ever-changing Kimberley scenery, witness breathtaking sunsets and enjoy the tranquillity of one of the world's last true wilderness regions. Accommodating up to 20 guests and attended by an experienced crew of six, the Kimberley Quest II offers an intimate and personalised cruising experience, whether shared with fellow travellers or enjoyed exclusively as a private charter.\n\nTo maximise exploration opportunities, the vessel carries three 6-metre tenders, a 12-metre jet boat, and a Bell 505 helicopter, enabling guests to access remote waterfalls, hidden gorges, secluded beaches and spectacular landscapes that few visitors ever experience. For fishing enthusiasts, a full complement of fishing gear is available to target the Kimberley's renowned fish species, including the iconic barramundi.\n\nCombining luxury, adventure and unparalleled access to the Kimberley's most remote destinations, the Kimberley Quest II delivers an unforgettable expedition experience.",
   "blueprint": {
     "name": "KIMBERLEY QUEST II",
     "images": [
@@ -18,11 +18,27 @@
       "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad197f30-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
       "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad1efd70-6667-11f1-ad36-7d50cfc1f959/{imageVariant}"
     ],
-    "make": "Custom",
+    "make": "Maritime Engineers",
+    "model": "Phil Curran",
     "maxCrew": 6,
-    "sleeps": 18,
+    "sleeps": 20,
+    "basePort": {
+      "name": "Broome, Western Australia, Australia",
+      "coordinates": {
+        "longitude": 122.223625,
+        "latitude": -17.956032
+      },
+      "country": "Australia"
+    },
+    "cruisingCapacity": 70,
+    "staticCapacity": 70,
     "builtYear": 2004,
+    "architect": "Phil Curan",
+    "interiorDesigner": "Custom",
     "refitYear": 2020,
+    "topSpeed": 12,
+    "cruiseSpeed": 10,
+    "fuelCapacity": 36000,
     "cabinLayout": [
       {
         "label": "Flybridge Cabin",
@@ -39,8 +55,14 @@
     ],
     "cabins": 9,
     "bathrooms": 9,
+    "decks": 3,
     "length": 25,
-    "beam": 6,
+    "beam": 7.65,
+    "draft": 1.8,
+    "hullType": "Monohull",
+    "hullConstruction": "Fibreglass",
+    "tonnage": 120,
+    "engines": "2 x Volvo D13 500 hp",
     "amenities": [
       {
         "label": "Air Conditioning"
@@ -65,10 +87,19 @@
       {
         "label": "Excursion tenders",
         "quantity": "3"
+      },
+      {
+        "label": "Bell 505 Helicopter",
+        "quantity": "1"
       }
     ],
     "entertainment": [
-      "Library"
+      "Library",
+      "Sound System",
+      "Tv Main Deck Saloon"
+    ],
+    "tenders": [
+      "Quest Express - 12 metre jet boat"
     ]
   },
   "crew": [
