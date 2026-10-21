@@ -1,5 +1,5 @@
 {
-  "lastModified": 1791543072438,
+  "lastModified": 1792567614991,
   "uri": "c::8344947358::vessel::e6fd4790-a03a-11ee-a7ac-d7be8742705d",
   "yachtType": [
     "Motor"
@@ -118,6 +118,159 @@
   },
   "crew": [],
   "pricing": {
-    "pricingInfo": []
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High season (July - August)",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "note": "",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "conditions": "VAT & APA Excluded",
+              "quantity": 1,
+              "unitPrice": 3800000,
+              "amount": 3800000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 3800000,
+              "amount": 1330000
+            }
+          ],
+          "subTotal": 5130000,
+          "totalTax": 247000,
+          "total": 5377000,
+          "currency": "EUR",
+          "inputAmountTaxed": "EXCLUSIVE",
+          "unit": "WEEK",
+          "charterFee": 3800000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": []
+      },
+      {
+        "name": "Low season (All other months)",
+        "effectiveDates": [
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "note": "",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "conditions": "VAT & APA Excluded",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.065
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.35,
+              "unitPrice": 3500000,
+              "amount": 1225000
+            }
+          ],
+          "subTotal": 4725000,
+          "totalTax": 227500,
+          "total": 4952500,
+          "currency": "EUR",
+          "inputAmountTaxed": "EXCLUSIVE",
+          "unit": "WEEK",
+          "charterFee": 3500000
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": []
+      }
+    ]
   }
 }

@@ -3991,8 +3991,7 @@
       "summer-2028",
       "winter-2025",
       "winter-2026",
-      "winter-2027",
-      "winter-2028"
+      "winter-2027"
     ]
   },
   {
@@ -9517,9 +9516,17 @@
       "Motor"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": null,
+    "weekPricingFrom": 3500000,
     "currency": "EUR",
-    "seasons": []
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
   },
   {
     "uri": "c::21836669044::vessel::cec88b00-8cf9-11f0-a72e-a5107c6da59f",
@@ -12077,13 +12084,9 @@
       "Sailing"
     ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
+    "weekPricingFrom": null,
     "currency": "EUR",
-    "seasons": [
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
+    "seasons": []
   },
   {
     "uri": "c::8183534776::vessel::221c97b0-19f0-11f0-a2b6-6fe70097e9f6",

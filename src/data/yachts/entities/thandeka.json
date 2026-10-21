@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782997700751,
+  "lastModified": 1792570376376,
   "uri": "c::7579668770::vessel::d5cc77d0-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -168,7 +168,7 @@
     },
     "pricingInfo": [
       {
-        "name": "Summer: Low Season",
+        "name": "Summer - Low Season",
         "effectiveDates": [
           {
             "from": "2026-01-01T00:00:00.000Z",
@@ -184,15 +184,7 @@
           },
           {
             "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "to": "2026-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -351,7 +343,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Summer: High Season",
+        "name": "Summer - High Season",
         "effectiveDates": [
           {
             "from": "2026-07-01T00:00:00.000Z",

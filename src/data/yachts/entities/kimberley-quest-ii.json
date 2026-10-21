@@ -1,5 +1,5 @@
 {
-  "lastModified": 1792550708304,
+  "lastModified": 1792555800022,
   "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
   "yachtType": [
     "Motor",
@@ -19,7 +19,7 @@
       "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad1efd70-6667-11f1-ad36-7d50cfc1f959/{imageVariant}"
     ],
     "make": "Maritime Engineers",
-    "model": "Phil Curran",
+    "model": "Custom",
     "maxCrew": 6,
     "sleeps": 20,
     "basePort": {
@@ -33,7 +33,7 @@
     "cruisingCapacity": 70,
     "staticCapacity": 70,
     "builtYear": 2004,
-    "architect": "Phil Curan",
+    "architect": "Phil Curran",
     "interiorDesigner": "Custom",
     "refitYear": 2020,
     "topSpeed": 12,
@@ -104,8 +104,8 @@
   },
   "crew": [
     {
-      "name": "Bryne Tuckey",
-      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::dfa5c870-6665-11f1-81d6-cfe82e0df28f/{imageVariant}",
+      "name": "Graham Brown",
+      "avatar": "/media/media::image::c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::85ed0aa0-ccfe-11f1-82bb-4d3d627a983b/{imageVariant}",
       "role": "Captain",
       "bio": "What is your role with Kimberley Quest?\nCaptain\n\nHow would you describe yourself?\nLove adventure, fair and easygoing.\n\nDescribe your role in 10 words or less:\nCreating an itinerary that caters to everyone.\n\nWhat is your favourite aspect of your job?\nThe constant amazing views the Kimberley provides and showcasing everything to our guests.\n\nYour favourite activity and why?\nI don't think I can pick! I love a scenic cruise on KQII, our Jetboat or going out on the tenders!.\n\nWhat is your favourite icon in the Kimberley?\nHorizontal Falls.\n\nYour favourite time of the year and why?\nApril - May, post wet season, as the heat and humidity start to lower with some perfect weather days!\n\nYour favourite meal on board?\nHaha Can I say anything, as I am a bad cook and I can't pass up a fresh fish dinner!\n\nWhat are your favourite hobbies to do when you are on your time off?\nBoating (can't keep me off them) fishing, camping 4wd driving - anything outdoors related."
     },
@@ -122,18 +122,6 @@
       "bio": "What is your role with Kimberley Quest?\nChef\n\nHow would you describe yourself?\nFriendly, curious for new experiences, adventurous to try new things, a peoples person, community focused, keen to discover new food, knowledge, places, people, history, culture.\n\nDescribe your role in 10 words or less:\nMy role is to provide Kimberley Quest guests with the best culinary experience onboard that I can provide, with quality ingredients and local produce. Also exploring new tastes and flavours and the freshest seafood we can catch on a our travels across the Kimberley coast.\n\nWhat is your favourite aspect of your job?\nGuest interaction, guest satisfaction, working with a diverse and fun crew, exploring the Kimberley by sea and working with amazing produce from the Kimberley coastline.\n\nYour favourite activity and why?\nStarting the day watching a beautiful sunrise over the Kimberley coast. It's a sort of reset and recharge for the day ahead.\n\nWhat is your favourite icon in the Kimberley?\nMitchell Falls.\n\nYour favourite time of the year and why?\nWinters in the Kimberley are amazing. Warm sunny days and cool nights.\n\nYour favourite meal on board?\nBreakfast is my favourite meal.\n\nWhat are your favourite hobbies to do when you are on your time off?\nI like to volunteer with local communities. Mainly focusing on my skills of cooking and growing food."
     },
     {
-      "name": "Naomi (Nomes) Lang",
-      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::9c64b8e0-6666-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
-      "role": "Captain",
-      "bio": "What is your role with Kimberley Quest?\nHostess\n\nHow would you describe yourself?\nBubbly and smiley.\n\nDescribe your role in 10 words or less:\nCleaning fairy\n\nWhat is your favourite aspect of your job?\nExperiencing the Kimberley day in and day out and meeting so many interesting people.\n\nYour favourite activity and why?\nSilica Beach sunsets are something else, white sand, orange sandstone with a Kimberley sunset!\n\nWhat is your favourite icon in the Kimberley?\nMontgomery Reef on a king tide or Leadline Creek with towering gorge walls.\n\nYour favourite time of the year and why?\nDry season (July and August) cool mornings and bliss days!\n\nYour favourite meal on board?\nLamb ribs with puree!\n\nWhat are your favourite hobbies to do when you are on your time off?\nYoga, photography, camping and reading a good book!"
-    },
-    {
-      "name": "Amber Dee",
-      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::cf26a630-6666-11f1-bad6-d167d7643045/{imageVariant}",
-      "role": "Captain",
-      "bio": "What is your role with Kimberley Quest?\nHostess\n\nHow would you describe yourself?\nPositive, motivated, fun, outgoing, always happy to help\n\nDescribe your role in 10 words or less:\nSmiles, service, and making every guest feel VIP\n\nWhat is your favourite aspect of your job?\nMeeting new guests from all over the world, hearing their stories and ensuring their holiday is unforgettable\n\nYour favourite activity and why?\nGoing to new beaches, finding cool shells and whale watching\n\nWhat is your favourite icon in the Kimberley?\nHas to be Montgomery reef. Clear blue waters and hundreds of turtles \n\nYour favourite time of the year and why?\nWinter, beautiful weather, clear sky, gorgeous sunrise and sunsets. Every reason why I left the UK. Just chasing the sun\n\nYour favourite meal on board?\nPoke bowls\n\nWhat are your favourite hobbies to do when you are on your time off?\nCAMPING! Sunbathing, morning walks along the beach"
-    },
-    {
       "name": "Jackson McReady",
       "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::016d4900-6667-11f1-8c77-c33d5e0ddd73/{imageVariant}",
       "role": "Captain",
@@ -146,10 +134,19 @@
       "bio": "What is your role with Kimberley Quest?\nDeckhand / Expedition Guide\n\nHow would you describe yourself?\nOutgoing, keen to learn, and always ready for dinner!\n\nDescribe your role in 10 words or less:\nA perfect way to explore & share the Kimberley coast.\n\nWhat is your favourite aspect of your job?\nSharing information with people about unique areas... and dinner time!\n\nYour favourite activity and why?\nMontgomery Reef in every aspect - tender - helicopter or experiencing the Sand Cay!\n\nWhat is your favourite icon in the Kimberley?\nTim Willing.\n\nYour favourite time of the year and why?\nOff the back of the wet season, when catchments are full and waterfalls are in full flow.\n\nYour favourite meal on board?\nAll of them!\n\nWhat are your favourite hobbies to do when you are on your time off?\nCamping, drone photography, and amateur bird watching."
     },
     {
-      "name": "Liam Reilly",
-      "avatar": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::7ef38830-6667-11f1-8867-f5d9a0bd5cc0/{imageVariant}",
-      "role": "Captain",
-      "bio": "What is your role with Kimberley Quest?\nDeckhand / Expedition Guide\n\nHow would you describe yourself?\nFun loving individual addicted to the ocean and everything around it!\n\nDescribe your role in 10 words or less:\nAssisting with manning the vessel and daily operations.\n\nWhat is your favourite aspect of your job?\nMeeting new guests and getting to take them on a once and a life time experience is my favourite aspect of my job.\n\nYour favourite activity and why?\nFishing is my favourite activity, taking people out to catch the biggest fish or first fish and watching the look on their faces makes my day.\n\nWhat is your favourite icon in the Kimberley?\nMy favourite icon in the Kimberly’s has to be Montgomery reef, with all the sea life you get to witness out there.\n\nYour favourite time of the year and why?\nWinter in the Kimberley has to be my favourite, with stella weather and a great climate!\n\nYour favourite meal on board?\nMy favourite meal on board has to be raw fish we do as canapés, you can’t beat fresh raw fish! \n\nWhat are your favourite hobbies to do when you are on your time off?\nMy favourite hobbies to do on my time off are camping, 4-Wheel-Driving and fishing!"
+      "name": "Luke Macann",
+      "avatar": "/media/media::image::c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::7028d640-ccfe-11f1-82bb-4d3d627a983b/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Summer Rose",
+      "avatar": "/media/media::image::c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::059ad600-cd05-11f1-953b-0dfb8f08bb5d/{imageVariant}",
+      "role": "Captain"
+    },
+    {
+      "name": "Aimee Blair",
+      "avatar": "/media/media::image::c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::35ff2440-cd05-11f1-953b-0dfb8f08bb5d/{imageVariant}",
+      "role": "Captain"
     }
   ],
   "pricing": {
