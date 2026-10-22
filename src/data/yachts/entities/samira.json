@@ -1,10 +1,10 @@
 {
-  "lastModified": null,
+  "lastModified": 1792665056453,
   "uri": "c::7580644256::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: France and Italy\n\nSAMIRA is a 76ft (23m) motor yacht built by Riva in 2024, with design by Ferretti Group. She accommodates up to 8 guests in 4 cabins comprising 2 double and 2 twin, with a professional crew of 2 ensuring an exceptional charter experience. Available for charter in France, Italy. Notable features include under 24m u2013 Perfect Size for Mediterranean Cruising, 4 Guest Cabins for 8 Guests with full beam Master, spacious Outdoor Living Areas, and sleek, Sporty & Iconic Italian Design.\n\nKEY FEATURES: \n• Under 24m – Perfect Size for Mediterranean Cruising \n• 4 Guest Cabins for 8 Guests with full beam Master\n• Spacious Outdoor Living Areas\n• Sleek, Sporty & Iconic Italian Design",
+  "description": "Operating Area: France, Corsica, Italy/Sardinia\n\nSAMIRA is a 76ft (23m) motor yacht built by Riva in 2024, with design by Ferretti Group. She accommodates up to 8 guests in 4 cabins comprising 2 double and 2 twin, with a professional crew of 2 ensuring an exceptional charter experience. Available for charter in France, Italy. Notable features include under 24m u2013 Perfect Size for Mediterranean Cruising, 4 Guest Cabins for 8 Guests with full beam Master, spacious Outdoor Living Areas, and sleek, Sporty & Iconic Italian Design.\n\nKEY FEATURES: \n• Under 24m – Perfect Size for Mediterranean Cruising \n• 4 Guest Cabins for 8 Guests with full beam Master\n• Spacious Outdoor Living Areas\n• Sleek, Sporty & Iconic Italian Design",
   "blueprint": {
     "name": "SAMIRA",
     "images": [
@@ -40,6 +40,7 @@
       "/media/media::image::a::vessel::e58bf900-80f3-11f1-9abe-4145f724d1c7::assets::9dd486f0-c94a-11f1-aa3b-558f5911fe8b/{imageVariant}"
     ],
     "make": "Riva",
+    "model": "Perseo 76 Super",
     "maxCrew": 2,
     "sleeps": 8,
     "basePort": {
@@ -53,6 +54,7 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2024,
+    "architect": "Riva",
     "topSpeed": 37,
     "cruiseSpeed": 25,
     "cabinLayout": [
@@ -70,10 +72,13 @@
       }
     ],
     "cabins": 4,
+    "bathrooms": 4,
     "length": 23.25,
     "beam": 5.75,
     "draft": 3.2,
-    "hullType": "",
+    "hullType": "Planning Hull",
+    "hullConstruction": "GRP",
+    "tonnage": 88,
     "engines": "2 X MAN V12 - 1800 HP",
     "amenities": [
       {
@@ -91,7 +96,7 @@
     ],
     "toys": [
       {
-        "label": "Sea-Doo",
+        "label": "Jobe Seascooter",
         "quantity": "2"
       },
       {
@@ -104,47 +109,48 @@
       }
     ],
     "entertainment": [
-      "TV in all cabins",
-      "TV in saloon",
+      "TV in all cabins (Master Cabin 50\" - Guests Cabins 24\")",
+      "TV in saloon 50\"",
       "Bluetooth speakers/sound system connection",
       "4/5G Internet",
       "SAT TV"
     ],
     "tenders": [
-      "Williams 325 Jet Tende"
+      "Williams 325 Jet Tender"
     ]
   },
-  "crew": [],
-  "pricing": {
-    "dayPricingFrom": {
-      "currency": "EUR",
-      "price": 760000,
-      "displayCurrency": "EUR",
-      "displayPrice": 760000,
-      "unit": "DAY"
+  "crew": [
+    {
+      "name": "",
+      "role": "Captain"
     },
-    "dayPricingTo": {
+    {
+      "name": "",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
       "currency": "EUR",
-      "price": 880000,
+      "price": 4600000,
       "displayCurrency": "EUR",
-      "displayPrice": 880000,
-      "unit": "DAY"
+      "displayPrice": 4600000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 5300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5300000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
         "name": "Low Season Day Rate",
         "effectiveDates": [
           {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2026-10-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2029-01-01T00:00:00.000Z",
-            "to": "2029-06-30T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
@@ -161,28 +167,28 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 760000,
+          "charterFee": 4600000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 760000,
-              "amount": 760000,
+              "unitPrice": 4600000,
+              "amount": 4600000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.4,
-              "unitPrice": 760000,
-              "amount": 304000
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 1064000,
-          "subTotal": 1064000,
+          "total": 4600000,
+          "subTotal": 4600000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -222,6 +228,44 @@
               36.50963615733049,
               18.786621093750004,
               46.027481852486645
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
             ]
           }
         ],
@@ -246,28 +290,28 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 880000,
+          "charterFee": 5300000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 880000,
-              "amount": 880000,
+              "unitPrice": 5300000,
+              "amount": 5300000,
               "conditions": "VAT & APA Excluded"
             },
             {
               "item": "APA",
               "conditions": "",
               "quantity": 0.4,
-              "unitPrice": 880000,
-              "amount": 352000
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 1232000,
-          "subTotal": 1232000,
+          "total": 5300000,
+          "subTotal": 5300000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -307,6 +351,44 @@
               36.50963615733049,
               18.786621093750004,
               46.027481852486645
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
             ]
           }
         ],

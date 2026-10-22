@@ -4498,31 +4498,6 @@
     ]
   },
   {
-    "uri": "c::9511821703::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "phoenix-one",
-    "name": "PHOENIX ONE",
-    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::5207efd0-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1983,
-    "builder": "Lloyds Ships",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 230000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2024",
-      "summer-2025",
-      "summer-2026",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026"
-    ]
-  },
-  {
     "uri": "c::18633696598::vessel::daa9cf50-b2f8-11ef-be20-3dbc2d17dba5",
     "slug": "jakare",
     "name": "JAKARE",
@@ -12009,10 +11984,11 @@
     "yachtType": [
       "Motor"
     ],
-    "dayPricingFrom": 760000,
-    "weekPricingFrom": null,
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4600000,
     "currency": "EUR",
     "seasons": [
+      "summer-2026",
       "summer-2027",
       "summer-2028",
       "summer-2029",
