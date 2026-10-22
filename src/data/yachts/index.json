@@ -4301,6 +4301,33 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744",
+    "slug": "queen-atlantis",
+    "name": "QUEEN ATLANTIS",
+    "hero": "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e921d80-ce1f-11f1-81a4-abbba9899e8c/{imageVariant}",
+    "length": 35.45,
+    "sleeps": 16,
+    "cabins": 8,
+    "builtYear": 2014,
+    "builder": "Ayna Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 500000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
+    ]
+  },
+  {
     "uri": "c::7584683786::vessel::d5cbd341-fe8c-11ed-889f-43d4bb723744",
     "slug": "gitanes",
     "name": "GITANES",

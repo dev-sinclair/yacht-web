@@ -1,0 +1,354 @@
+{
+  "lastModified": null,
+  "uri": "c::7819217464::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Gulet",
+    "Sailing"
+  ],
+  "description": "Operating Area: Turkey\n\nQUEEN ATLANTIS features 8 spacious cabins, accommodating up to 16 guests in exceptional comfort. Each cabin has been meticulously designed to create a refined atmosphere of elegance, relaxation, and privacy, ensuring a truly memorable stay on board. The yacht boasts expansive deck areas, offering the perfect setting for sunbathing, al fresco dining, or simply relaxing while taking in the breathtaking beauty of the open sea. What truly sets QUEEN ATLANTIS apart is her remarkable and exceptionally spacious upper deck. This distinctive design feature enhances the yacht’s sense of grandeur and provides an extraordinary space for guests to unwind, socialize, and enjoy unforgettable moments at sea. Combining generous living spaces, timeless elegance, and exceptional comfort, QUEEN ATLANTIS offers a unique yachting experience where every detail has been thoughtfully designed to make each journey truly unforgettable.",
+  "blueprint": {
+    "name": "QUEEN ATLANTIS",
+    "images": [
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e921d80-ce1f-11f1-81a4-abbba9899e8c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91cf60-ce1f-11f1-b007-05105641441d/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91cf60-ce1f-11f1-9ba7-1dc916d980c4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e94b590-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e96ff80-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91a850-ce1f-11f1-9898-f13ccca78274/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9ea1d4f0-ce1f-11f1-bc91-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e93f240-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91a850-ce1f-11f1-8559-27a763b4fb12/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e96b160-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e92b9c0-ce1f-11f1-a553-8f1af3f32817/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e9292b0-ce1f-11f1-97a1-25eabbc7934e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e9292b0-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91a850-ce1f-11f1-a553-8f1af3f32817/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91a850-ce1f-11f1-9bea-b5679fc9e2ad/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9ea30d70-ce1f-11f1-bc91-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e9578e0-ce1f-11f1-bc91-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e974da0-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e91f670-ce1f-11f1-97a1-25eabbc7934e/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::9e95c700-ce1f-11f1-bc90-d73e8f0f4b9a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744::assets::0ca76b90-ce20-11f1-a142-57f35235ef44/{imageVariant}"
+    ],
+    "make": "Ayna Shipyard",
+    "model": "",
+    "maxCrew": 6,
+    "sleeps": 16,
+    "basePort": {
+      "uri": "a::place::e74d6b24-b3ed-11ed-a0b9-325096b39f47",
+      "name": "Göcek",
+      "coordinates": {
+        "latitude": 36.75344367,
+        "longitude": 28.94146511
+      },
+      "country": "Türkiye"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2014,
+    "architect": "",
+    "refitYear": 2026,
+    "topSpeed": 10,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 8000,
+    "cabinLayout": [
+      {
+        "label": "Master Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 8,
+    "bathrooms": 8,
+    "decks": 0,
+    "length": 35.45,
+    "beam": 8.5,
+    "draft": 3.8,
+    "hullType": "",
+    "hullConstruction": "",
+    "superStructure": [],
+    "engines": "1 × Cummins 500 hp ",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Sunbathing area"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Double Canoe",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddleboards",
+        "quantity": "4"
+      },
+      {
+        "label": "Adult Waterski",
+        "quantity": "1"
+      },
+      {
+        "label": "Child Waterski",
+        "quantity": "1"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Monoski",
+        "quantity": "1"
+      },
+      {
+        "label": "Rings",
+        "quantity": "2"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Fishing equipment (2 rods, 2 long lines, 6 basic lines)"
+      }
+    ],
+    "entertainment": [
+      "Satellite TV in salon and all cabins",
+      "Board Games",
+      "Wi-Fi"
+    ],
+    "tenders": [
+      "1 x 6.50m Tender with 150hp"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "EUR",
+      "price": 500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 500000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "EUR",
+      "price": 700000,
+      "displayCurrency": "EUR",
+      "displayPrice": 700000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "DAILY CHARTER RATES 2027: April / May / October / November",
+        "effectiveDates": [
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-01T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-01T00:00:00.000Z",
+            "to": "2029-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 500000,
+              "amount": 500000,
+              "conditions": "Vat Included"
+            }
+          ],
+          "total": 500000,
+          "subTotal": 500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "DAILY CHARTER RATES 2027: June / September",
+        "effectiveDates": [
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 600000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 600000,
+              "amount": 600000,
+              "conditions": "Vat Included"
+            }
+          ],
+          "total": 600000,
+          "subTotal": 600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "DAILY CHARTER RATES 2027: July / August",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 700000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 700000,
+              "amount": 700000,
+              "conditions": "Vat Included"
+            }
+          ],
+          "total": 700000,
+          "subTotal": 700000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
