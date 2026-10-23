@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784302102964,
+  "lastModified": 1792717653730,
   "uri": "c::7818389938::vessel::d5cc7934-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -109,30 +109,30 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 2200000,
+      "price": 1950000,
       "displayCurrency": "AUD",
-      "displayPrice": 2200000,
+      "displayPrice": 1950000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 10000000,
+      "price": 8600000,
       "displayCurrency": "AUD",
-      "displayPrice": 10000000,
+      "displayPrice": 8600000,
       "unit": "DAY"
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 11500000,
+      "price": 9800000,
       "displayCurrency": "AUD",
-      "displayPrice": 11500000,
+      "displayPrice": 9800000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 11500000,
+      "price": 9800000,
       "displayCurrency": "AUD",
-      "displayPrice": 11500000,
+      "displayPrice": 9800000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -140,21 +140,13 @@
         "name": "Overnight Charter (24 hours)",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 2200000,
+          "charterFee": 1950000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -162,13 +154,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2200000,
-              "amount": 2200000,
+              "unitPrice": 1950000,
+              "amount": 1950000,
               "conditions": ""
             }
           ],
-          "total": 2200000,
-          "subTotal": 2200000,
+          "total": 1950000,
+          "subTotal": 1950000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -189,6 +181,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
             ]
           }
         ],
@@ -199,21 +310,13 @@
         "name": "2 night Charter",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2025-12-31T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 4200000,
+          "charterFee": 3700000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -221,13 +324,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 4200000,
-              "amount": 4200000,
+              "unitPrice": 3700000,
+              "amount": 3700000,
               "conditions": ""
             }
           ],
-          "total": 4200000,
-          "subTotal": 4200000,
+          "total": 3700000,
+          "subTotal": 3700000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -248,6 +351,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
             ]
           }
         ],
@@ -258,21 +480,13 @@
         "name": "3 night Charter",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 5500000,
+          "charterFee": 5000000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -280,13 +494,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5500000,
-              "amount": 5500000,
+              "unitPrice": 5000000,
+              "amount": 5000000,
               "conditions": ""
             }
           ],
-          "total": 5500000,
-          "subTotal": 5500000,
+          "total": 5000000,
+          "subTotal": 5000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -307,6 +521,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
             ]
           }
         ],
@@ -317,21 +650,13 @@
         "name": "4 night Charter",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 7000000,
+          "charterFee": 6200000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -339,13 +664,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7000000,
-              "amount": 7000000,
+              "unitPrice": 6200000,
+              "amount": 6200000,
               "conditions": ""
             }
           ],
-          "total": 7000000,
-          "subTotal": 7000000,
+          "total": 6200000,
+          "subTotal": 6200000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -366,6 +691,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
             ]
           }
         ],
@@ -376,21 +820,13 @@
         "name": "5 night Charter",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2025-12-31T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 8500000,
+          "charterFee": 7400000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -398,12 +834,12 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 8500000,
-              "amount": 8500000
+              "unitPrice": 7400000,
+              "amount": 7400000
             }
           ],
-          "total": 8500000,
-          "subTotal": 8500000,
+          "total": 7400000,
+          "subTotal": 7400000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -425,6 +861,125 @@
               153.61689453125,
               -10.0517578125
             ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
           }
         ],
         "exclusionZones": [],
@@ -434,21 +989,13 @@
         "name": "6 night Charter",
         "effectiveDates": [
           {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2025-12-31T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 10000000,
+          "charterFee": 8600000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "DAY",
@@ -456,12 +1003,12 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 10000000,
-              "amount": 10000000
+              "unitPrice": 8600000,
+              "amount": 8600000
             }
           ],
-          "total": 10000000,
-          "subTotal": 10000000,
+          "total": 8600000,
+          "subTotal": 8600000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -482,6 +1029,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
             ]
           }
         ],
@@ -493,20 +1159,12 @@
         "effectiveDates": [
           {
             "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
             "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 11500000,
+          "charterFee": 9800000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -514,13 +1172,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 11500000,
-              "amount": 11500000,
+              "unitPrice": 9800000,
+              "amount": 9800000,
               "conditions": ""
             }
           ],
-          "total": 11500000,
-          "subTotal": 11500000,
+          "total": 9800000,
+          "subTotal": 9800000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -541,6 +1199,125 @@
               -39.1455078125,
               153.61689453125,
               -10.0517578125
+            ]
+          },
+          {
+            "label": "Gold Coast, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Gold Coast"
+            ],
+            "coordinates": [
+              153.395833,
+              -28.0166665
+            ],
+            "bbox": [
+              153.283333,
+              -28.175,
+              153.508333,
+              -27.858333
+            ]
+          },
+          {
+            "label": "Brisbane, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Brisbane"
+            ],
+            "coordinates": [
+              152.954167,
+              -27.4458335
+            ],
+            "bbox": [
+              152.716667,
+              -27.675,
+              153.191667,
+              -27.216667
+            ]
+          },
+          {
+            "label": "Whitsundays",
+            "type": "Custom Area",
+            "category": [
+              "Whitsundays"
+            ],
+            "coordinates": [
+              148.85478758014648,
+              -20.286588575238913
+            ],
+            "bbox": [
+              148.54727721508357,
+              -20.688663051370852,
+              149.2369812531822,
+              -20.003004469006882
+            ]
+          },
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Hamilton Island",
+            "type": "Custom Area",
+            "category": [
+              "Hamilton Island"
+            ],
+            "coordinates": [
+              148.9609911188941,
+              -20.35465596825154
+            ],
+            "bbox": [
+              148.94423796309758,
+              -20.378944614233887,
+              148.98425949687993,
+              -20.3310077052694
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
             ]
           }
         ],
