@@ -3047,7 +3047,8 @@
     "currency": "AUD",
     "seasons": [
       "summer-2027",
-      "winter-2026"
+      "winter-2026",
+      "winter-2027"
     ]
   },
   {
@@ -10994,6 +10995,27 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
+    "slug": "houbara",
+    "name": "HOUBARA",
+    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
+    "length": 23.99,
+    "sleeps": 7,
+    "cabins": 3,
+    "builtYear": 2012,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::9938368400::vessel::f288db50-b8b6-11f1-b0d3-5928bffd00dd",
     "slug": "hu-lysse",
     "name": "HU-LYSSE",
@@ -11039,27 +11061,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2025",
-      "summer-2026",
-      "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431",
-    "slug": "houbara",
-    "name": "HOUBARA",
-    "hero": "/media/media::image::c::7579668770::vessel::34a65990-fca3-11ee-ad26-6f560b16d431::assets::f4d09440-fcbe-11ee-aedf-eb61a6140f65.jpeg/{imageVariant}",
-    "length": 23.99,
-    "sleeps": 7,
-    "cabins": 3,
-    "builtYear": 2012,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3400000,
-    "currency": "EUR",
-    "seasons": [
       "summer-2026",
       "summer-2027"
     ]
@@ -15893,32 +15894,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7",
-    "slug": "mia",
-    "name": "MIA",
-    "hero": "/media/media::image::c::7819249259::vessel::bb629f30-c5b1-11ee-a0a8-4540431682a7::assets::88648f10-c5b8-11ee-a0a8-4540431682a7.jpeg/{imageVariant}",
-    "length": 19.2,
-    "sleeps": 6,
-    "cabins": 3,
-    "builtYear": 2021,
-    "builder": "Franchini Shipyard",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -20833,32 +20808,6 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::18230509906::vessel::013e7200-ac9c-11ef-9d15-2f319d77f476",
-    "slug": "infinity-013e72",
-    "name": "INFINITY",
-    "hero": "/media/media::image::a::vessel::013e7200-ac9c-11ef-9d15-2f319d77f476::assets::ec0ff880-ac9c-11ef-a0df-cda520b5b1b0/{imageVariant}",
-    "length": 15.94,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2020,
-    "builder": "Beneteau",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 350000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {

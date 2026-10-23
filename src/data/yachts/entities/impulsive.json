@@ -1,5 +1,5 @@
 {
-  "lastModified": 1792383503247,
+  "lastModified": 1792728731712,
   "uri": "c::52220319023::vessel::d5cca231-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -440,7 +440,12 @@
       },
       {
         "name": "New Year's Eve | 5 Night All-Inclusive Offer",
-        "effectiveDates": [],
+        "effectiveDates": [
+          {
+            "from": "2026-12-31T00:00:00.000Z",
+            "to": "2027-01-04T23:59:59.999Z"
+          }
+        ],
         "pricing": {
           "currency": "AUD",
           "charterFee": 21000000,
@@ -453,7 +458,7 @@
               "quantity": 1,
               "unitPrice": 21000000,
               "amount": 21000000,
-              "conditions": "+ $1,000pp All-inclusive"
+              "conditions": ""
             }
           ],
           "total": 21000000,
@@ -611,6 +616,66 @@
               -28.175,
               153.508333,
               -27.858333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Mothershipping | Cairns, Great Barrier Reef ",
+        "effectiveDates": [
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 17500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 17500000,
+              "amount": 17500000,
+              "conditions": "",
+              "discount": {
+                "type": "PERCENTAGE",
+                "value": 0
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 0,
+              "amount": 0
+            }
+          ],
+          "total": 17500000,
+          "subTotal": 17500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
             ]
           }
         ],
