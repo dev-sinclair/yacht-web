@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783671659398,
+  "lastModified": 1793049242983,
   "uri": "c::16875063630::vessel::d5cc79f2-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -175,10 +175,17 @@
               "unitPrice": 360000,
               "amount": 360000,
               "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Charter Fee",
+              "conditions": "VAT & APA Excluded",
+              "quantity": 1,
+              "unitPrice": 420000,
+              "amount": 420000
             }
           ],
-          "total": 360000,
-          "subTotal": 360000,
+          "total": 780000,
+          "subTotal": 780000,
           "totalTax": 0
         },
         "inclusionZones": [

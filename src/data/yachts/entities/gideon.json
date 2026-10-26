@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784219909731,
+  "lastModified": 1793019981502,
   "uri": "c::19057409635::vessel::d7e9f070-ccd4-11ee-81c2-b375d968d73a",
   "yachtType": [
     "Gulet",
@@ -184,34 +184,34 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 1850000,
+      "price": 1990000,
       "displayCurrency": "EUR",
-      "displayPrice": 1850000,
+      "displayPrice": 1990000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2390000,
+      "price": 2580000,
       "displayCurrency": "EUR",
-      "displayPrice": 2390000,
+      "displayPrice": 2580000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Season D: 11.04. - 23.05. and 19.09. - 17.10.",
+        "name": "Season D: 10.04. - 29.05. and 18.09. - 16.10.",
         "effectiveDates": [
           {
-            "from": "2026-04-11T00:00:00.000Z",
-            "to": "2026-05-23T23:59:59.999Z"
+            "from": "2027-04-10T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
           },
           {
-            "from": "2026-09-19T00:00:00.000Z",
-            "to": "2026-10-17T23:59:59.999Z"
+            "from": "2027-09-18T00:00:00.000Z",
+            "to": "2027-10-16T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1850000,
+          "charterFee": 1990000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -219,13 +219,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1850000,
-              "amount": 1850000,
+              "unitPrice": 1990000,
+              "amount": 1990000,
               "conditions": "Weekly"
             }
           ],
-          "total": 1850000,
-          "subTotal": 1850000,
+          "total": 1990000,
+          "subTotal": 1990000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -247,26 +247,43 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Season C: 23.05. - 13.06. and 05.09. - 19.09.",
+        "name": "Season C: 29.05. - 12.06. and 04.09. - 18.09.",
         "effectiveDates": [
           {
-            "from": "2026-05-23T00:00:00.000Z",
-            "to": "2026-06-13T23:59:59.999Z"
+            "from": "2027-05-29T00:00:00.000Z",
+            "to": "2027-06-12T23:59:59.999Z"
           },
           {
-            "from": "2026-09-05T00:00:00.000Z",
-            "to": "2026-09-19T23:59:59.999Z"
+            "from": "2027-09-04T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2090000,
+          "charterFee": 2270000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -274,13 +291,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2090000,
-              "amount": 2090000,
+              "unitPrice": 2270000,
+              "amount": 2270000,
               "conditions": "Weekly"
             }
           ],
-          "total": 2090000,
-          "subTotal": 2090000,
+          "total": 2270000,
+          "subTotal": 2270000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -302,26 +319,43 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Season B: 13.05. - 04.07. and 22.08. - 05.09.",
+        "name": "Season B: 12.06. - 03.07. and 21.08. - 04.09.",
         "effectiveDates": [
           {
-            "from": "2026-06-13T00:00:00.000Z",
-            "to": "2026-07-04T23:59:59.999Z"
+            "from": "2027-06-12T00:00:00.000Z",
+            "to": "2027-07-03T23:59:59.999Z"
           },
           {
-            "from": "2026-08-22T00:00:00.000Z",
-            "to": "2026-09-05T23:59:59.999Z"
+            "from": "2027-08-21T00:00:00.000Z",
+            "to": "2027-09-04T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2290000,
+          "charterFee": 2480000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -329,13 +363,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2290000,
-              "amount": 2290000,
+              "unitPrice": 2480000,
+              "amount": 2480000,
               "conditions": "Weekly"
             }
           ],
-          "total": 2290000,
-          "subTotal": 2290000,
+          "total": 2480000,
+          "subTotal": 2480000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -357,22 +391,39 @@
               18.511962890625004,
               45.53521281284293
             ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Season A: 04.07. - 22.08.",
+        "name": "Season A: 03.07. - 21.08.",
         "effectiveDates": [
           {
-            "from": "2026-07-04T00:00:00.000Z",
-            "to": "2026-08-22T23:59:59.999Z"
+            "from": "2027-07-03T00:00:00.000Z",
+            "to": "2027-08-21T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2390000,
+          "charterFee": 2580000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -380,13 +431,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2390000,
-              "amount": 2390000,
+              "unitPrice": 2580000,
+              "amount": 2580000,
               "conditions": "Weekly"
             }
           ],
-          "total": 2390000,
-          "subTotal": 2390000,
+          "total": 2580000,
+          "subTotal": 2580000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -407,6 +458,23 @@
               42.265114458337585,
               18.511962890625004,
               45.53521281284293
+            ]
+          },
+          {
+            "label": "Adriatic Sea",
+            "type": "Custom Area",
+            "category": [
+              "Adriatic Sea"
+            ],
+            "coordinates": [
+              16.010306883545528,
+              42.79713215468391
+            ],
+            "bbox": [
+              12.225486687884029,
+              39.743104152987044,
+              19.998397251066137,
+              45.771392523779426
             ]
           }
         ],
