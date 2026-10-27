@@ -12,6 +12,9 @@ const {
   image,
   url,
 } = Astro.props;
+
+const defaultShareImage = !image;
+const shareImage = new URL(image || "/sinclair-share-v1.png", "https://yacht-web-indol.vercel.app").href;
 ---
 
 <!doctype html>
@@ -26,7 +29,15 @@ const {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    {image && <meta property="og:image" content={image} />}
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:alt" content={defaultShareImage ? "Sinclair Yachting" : title} />
+    {defaultShareImage && <>
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/png" />
+    </>}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={shareImage} />
     {url && <link rel="canonical" href={url} />}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
