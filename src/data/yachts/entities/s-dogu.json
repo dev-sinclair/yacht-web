@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783979196525,
+  "lastModified": 1793194194954,
   "uri": "c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -12,7 +12,6 @@
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::7d2a92c0-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::56a6a620-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::56a853d0-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
-      "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::e4b38c30-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::c5d71310-a018-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::4e94b860-a019-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
       "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::cc91f1c0-a018-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
@@ -159,16 +158,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 1575000,
+      "price": 1820000,
       "displayCurrency": "EUR",
-      "displayPrice": 1575000,
+      "displayPrice": 1820000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2625000,
+      "price": 2660000,
       "displayCurrency": "EUR",
-      "displayPrice": 2625000,
+      "displayPrice": 2660000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -176,28 +175,12 @@
         "name": "Low Season",
         "effectiveDates": [
           {
-            "from": "2025-09-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
+            "from": "2026-06-30T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-09-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-07-31T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-31T00:00:00.000Z",
-            "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-31T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
+            "from": "2026-08-31T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -208,8 +191,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1575000,
-              "amount": 1575000,
+              "unitPrice": 1820000,
+              "amount": 1820000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -219,11 +202,11 @@
               "amount": 0
             }
           ],
-          "subTotal": 1575000,
+          "subTotal": 1820000,
           "totalTax": 0,
-          "total": 1575000,
+          "total": 1820000,
           "note": "",
-          "charterFee": 1575000
+          "charterFee": 1820000
         },
         "inclusionZones": [
           {
@@ -268,7 +251,12 @@
       },
       {
         "name": "High Season",
-        "effectiveDates": [],
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
         "pricing": {
           "currency": "EUR",
           "unit": "WEEK",
@@ -277,8 +265,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2625000,
-              "amount": 2625000,
+              "unitPrice": 2660000,
+              "amount": 2660000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -288,11 +276,11 @@
               "amount": 0
             }
           ],
-          "subTotal": 2625000,
+          "subTotal": 2660000,
           "totalTax": 0,
-          "total": 2625000,
+          "total": 2660000,
           "note": "",
-          "charterFee": 2625000
+          "charterFee": 2660000
         },
         "inclusionZones": [
           {
@@ -329,6 +317,85 @@
               36.51149262139869,
               28.2422868181564,
               40.99460399023168
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Mid Season",
+        "effectiveDates": [
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "Mid Season",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2100000,
+              "amount": 2100000,
+              "conditions": "VAT & APA excluding"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 0,
+              "amount": 0
+            }
+          ],
+          "total": 2100000,
+          "subTotal": 2100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
             ]
           }
         ],
