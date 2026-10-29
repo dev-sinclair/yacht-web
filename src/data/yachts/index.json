@@ -275,32 +275,6 @@
     ]
   },
   {
-    "uri": "c::16875063630::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47",
-    "slug": "little-perle",
-    "name": "LITTLE PERLE",
-    "hero": "/media/media::image::a::vessel::91a4d5a0-32d0-11ef-85f3-9dc1fbf5dd47::assets::f8f06dd0-6d46-11f0-b4ec-4126d86b0baa/{imageVariant}",
-    "length": 29.9,
-    "sleeps": 9,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Moonen",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 200000,
-    "weekPricingFrom": 8800000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
     "uri": "c::48610059031::vessel::dcbd5500-ed44-11f0-999d-45a8691a9235",
     "slug": "sh-diana",
     "name": "SH DIANA",
@@ -6641,33 +6615,6 @@
     ]
   },
   {
-    "uri": "c::8196907601::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744",
-    "slug": "lotus",
-    "name": "LOTUS",
-    "hero": "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::d0976f60-ab30-11ef-9c73-99f0be7d1747/{imageVariant}",
-    "length": 30,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2006,
-    "builder": "Huzur Yat",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
     "uri": "c::7580644139::vessel::104ef900-c9a2-11ee-9ab2-a5f06501fa26",
     "slug": "calm-down",
     "name": "CALM DOWN",
@@ -8933,13 +8880,9 @@
     "weekPricingFrom": 3900000,
     "currency": "EUR",
     "seasons": [
-      "summer-2026",
       "summer-2027",
-      "summer-2028",
-      "winter-2025",
       "winter-2026",
-      "winter-2027",
-      "winter-2028"
+      "winter-2027"
     ]
   },
   {
@@ -22318,6 +22261,33 @@
       "winter-2024",
       "winter-2025",
       "winter-2026"
+    ]
+  },
+  {
+    "uri": "c::57102426674::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5",
+    "slug": "eclipse-287121",
+    "name": "ECLIPSE",
+    "hero": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb489a0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+    "length": 15.4,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2023,
+    "builder": "Leopard",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": 713000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {

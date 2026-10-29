@@ -1,0 +1,863 @@
+{
+  "lastModified": 1792475310483,
+  "uri": "c::57102426674::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Kimberley, Broome, Montebello Islands, Northern Ningaloo Coast, Geographe Bay, Australia\n\nA new way to travel, exploring the beauty of The West Australian coastline with respect and care for land & wildlife.\n\nEclipse is a brand new Leopard 50 sailing catamaran. Eclipse's naval architecture and interior design focus on the beauty of the finer details, creating a luxury small group sailing experience connected to nature. Being a catamaran, Eclipse is spacious with ample comfortable areas for relaxing in private or entertaining.\n\nYOTSPACE is a registered agent of Eclipse",
+  "blueprint": {
+    "name": "ECLIPSE",
+    "images": [
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb489a0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4fed0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb06af0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb35120-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebb1950-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae6f20-a1f3-11f1-99c4-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebb4060-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae9630-a1f3-11f1-99c5-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb0b910-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15550-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebe4da0-a1f3-11f1-8de6-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eafceb0-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb23fb0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb10730-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb0b910-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebacb30-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb1f190-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb01cd0-a1f3-11f1-99c5-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eafceb0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eaebd40-a1f3-11f1-99c4-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae9630-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb10730-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb39f40-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec50460-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec663f0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec5a0a0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb09200-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15551-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb266c0-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb43b80-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb23fb1-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15550-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb32a10-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb32a10-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4b0b0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec5c7b0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb39f40-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb57400-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4d7c0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebee9e0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb3c650-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb30300-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}"
+    ],
+    "make": "Leopard",
+    "model": "Leopard 50",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::d51cea4c-b3ed-11ed-8abb-325096b39f47",
+      "name": "Broome",
+      "coordinates": {
+        "latitude": -17.9575280341993,
+        "longitude": 122.2235391148589
+      },
+      "country": "Australia"
+    },
+    "builtYear": 2023,
+    "topSpeed": 12,
+    "cruiseSpeed": 9,
+    "cabinLayout": [
+      {
+        "label": "Queen Cabins",
+        "value": "4"
+      }
+    ],
+    "cabins": 4,
+    "length": 15.4,
+    "beam": 8.04,
+    "draft": 1.6,
+    "hullType": "Catamaran",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Entertainment Areas"
+      }
+    ]
+  },
+  "crew": [
+    {
+      "name": "Ryan",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::b23177e0-a1f2-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Ryan’s knowledge of the marine industry and his dedication to excelling in the field form the foundation for Eclipse’s dedication to maintaining a superior standard on board our vessel. Like Jackson, he has spent many years aboard various vessels exploring the Kimberley so he too, has a deep connection to the region and is eager to show it to all who come aboard."
+    },
+    {
+      "name": "Jackson",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::c132b740-a1f2-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Jackson lives and breathes the Kimberley.\n\nThanks to close family ties to the area, he has been exploring the Kimberley by boat from a very young age which sparked his passion for showing off the unique area to intrepid travellers from around the world. He’s even had a secret waterfall named after him. Jackson’s vibrant energy make him fantastic company to have on board and his deep knowledge of the area means he will expertly guide you to far off corners of this incredible region."
+    },
+    {
+      "name": "Hannah",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::d2d380b0-a1f2-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Hannah’s extensive hospitality experience and her natural ability to mingle with people from all walks of life form our ethos of superior service for all who step aboard. Her bubbly personality and her keen sense of adventure is infectious, you are guaranteed to have a good time when she’s taking care of your travels."
+    },
+    {
+      "name": "Chris 'Critter'",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::e4328630-a1f2-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Having grown up in Broome and spent years fishing Kimberley waters aboard respected vessels, Chris — or ‘Critter’, as he’s known — brings an exceptional understanding of navigating the region’s river systems, tides and productive fishing grounds. \n\nA passionate member of WA’s game fishing community, he truly lives and breathes fishing. Critter is known for \nhis enthusiasm and excites in expertly interpreting the tides, finding productive waters and guiding guests into places many vessels simply can’t access. Whether assisting experienced anglers or supporting first-time fishers, he adds a depth of expertise and energy to every voyage. "
+    },
+    {
+      "name": "Will",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::05b2e110-a1f3-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Hailing from the UK originally and having spent years traversing the globe in search of unique flavours, Will joins Eclipse with a wealth of expertise and a passion for sharing the cuisines he has come to know and love. Will’s eagerness to provide a unique and high level dining experience to travellers exploring this incredible coastline with Eclipse was ignited by his recent position as head chef onboard a premier operator of sunset cruises along the West Australian coastline."
+    },
+    {
+      "name": "Tess",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::12d48b00-a1f3-11f1-b39f-6ffd28868d1b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Tess brings both passion and expertise to every journey. A skilled sailor with extensive experience navigating vessels, she ensures our guests feel safe and cared for on the water.\n\nWith a degree in Marine Biology, Tess adds a deeper dimension to each voyage, sharing her knowledge of the ocean and its extraordinary ecosystems. Her love for the sea and its stories makes her an invaluable part of the Eclipse crew."
+    },
+    {
+      "name": "Jessie",
+      "avatar": "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::2bf57ef0-a1f3-11f1-99c4-4b4300fd6e21/{imageVariant}",
+      "role": "Captain",
+      "bio": "With a background in hospitality and the marine tourism industry, Jess joins Eclipse Expeditions in the combined role of onboard Stewardess and Deckhand.\n\nHer positive attitude and caring nature make Jess a pleasure to have onboard and she delivers a high level of customer service to all guests. Jess has a deep passion and knowledge of the regions through which we cruise and delights in sharing this with guests. "
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "AUD",
+      "price": 713000,
+      "displayCurrency": "AUD",
+      "displayPrice": 713000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "AUD",
+      "price": 10440000,
+      "displayCurrency": "AUD",
+      "displayPrice": 10440000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "2026 SOUTH WEST SAFARI - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 713000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 713000,
+              "amount": 713000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 713000,
+          "subTotal": 713000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 SOUTH WEST SAFARI - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 750000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 750000,
+              "amount": 750000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 750000,
+          "subTotal": 750000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026 NINGALOO COAST VOYAGER - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 7938000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7938000,
+              "amount": 7938000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 7938000,
+          "subTotal": 7938000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 NINGALOO COAST VOYAGER - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 8316000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8316000,
+              "amount": 8316000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 8316000,
+          "subTotal": 8316000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026  KIMBERLEY ISLANDS EXPLORER - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 8939000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8939000,
+              "amount": 8939000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 8939000,
+          "subTotal": 8939000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 KIMBERLEY ISLANDS EXPLORER - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9478000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9478000,
+              "amount": 9478000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 9478000,
+          "subTotal": 9478000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2026  ICONIC KIMBERLEY EXPEDITION - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 9870000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9870000,
+              "amount": 9870000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 9870000,
+          "subTotal": 9870000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2027 ICONIC KIMBERLEY EXPEDITION - Whole Vessel / Per Night",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 10440000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 10440000,
+              "amount": 10440000,
+              "conditions": "All is Inclusive"
+            }
+          ],
+          "total": 10440000,
+          "subTotal": 10440000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          },
+          {
+            "label": "Broome, Western Australia, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Broome"
+            ],
+            "coordinates": [
+              122.229167,
+              -17.9625
+            ],
+            "bbox": [
+              122.216667,
+              -17.975,
+              122.241667,
+              -17.95
+            ]
+          },
+          {
+            "label": "Northern Territory, AU, Australia",
+            "type": "Territory",
+            "category": [
+              "Northern Territory"
+            ],
+            "coordinates": [
+              133.47768524738697,
+              -18.779471937623526
+            ],
+            "bbox": [
+              129.0019600297769,
+              -25.999013671928026,
+              138.00242179889835,
+              -10.968793372008236
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
