@@ -4360,6 +4360,26 @@
     ]
   },
   {
+    "uri": "c::7819298091::vessel::cd66c990-4daa-11f0-b066-3b46323f3e3a",
+    "slug": "angelo-iii",
+    "name": "ANGELO III",
+    "hero": "/media/media::image::c::7819298091::vessel::cd66c990-4daa-11f0-b066-3b46323f3e3a::assets::d6a69b20-bb40-11f1-98a9-17913f3fc303/{imageVariant}",
+    "length": 35,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Custom",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3800000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::56780189352::vessel::92b65600-9d7d-11ee-863a-a33e27038629",
     "slug": "shore-thing",
     "name": "SHORE THING",
@@ -4459,32 +4479,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2026"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::cd66c990-4daa-11f0-b066-3b46323f3e3a",
-    "slug": "angelo-iii",
-    "name": "ANGELO III",
-    "hero": "/media/media::image::c::7819298091::vessel::cd66c990-4daa-11f0-b066-3b46323f3e3a::assets::d6a69b20-bb40-11f1-98a9-17913f3fc303/{imageVariant}",
-    "length": 35,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2024,
-    "builder": "Custom",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3800000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {

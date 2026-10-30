@@ -1,10 +1,10 @@
 {
-  "lastModified": 1790603851569,
+  "lastModified": 1793360276909,
   "uri": "c::7819298091::vessel::cd66c990-4daa-11f0-b066-3b46323f3e3a",
   "yachtType": [
     "Sailing"
   ],
-  "description": "Operating Area: Turkey, Aegean Sea\n\nSet sail with up to 10 guests onboard the 35m luxury sailing yacht Angelo III . Explore serene seas and stunning locations in Turkey.",
+  "description": "Operating Area: Turkey, Aegean Sea, Dodecanese Islands (Greece)\nBased in Gocek (Turkey).\n\nSet sail with up to 10 guests onboard the 35m luxury sailing yacht Angelo III . Explore serene seas and stunning locations in Turkey.",
   "blueprint": {
     "name": "ANGELO III",
     "images": [
@@ -66,9 +66,12 @@
     ],
     "cabins": 5,
     "bathrooms": 5,
+    "decks": 2,
     "length": 35,
     "beam": 8.2,
     "draft": 3.2,
+    "hullType": "",
+    "hullConstruction": "Laminated wood",
     "engines": "2 x 650HP MAN",
     "amenities": [
       {
@@ -137,28 +140,12 @@
         "name": "Low Season",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
+            "from": "2027-05-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-10-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "to": "2027-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -216,6 +203,25 @@
               28.2422868181564,
               40.99460399023168
             ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
           }
         ],
         "exclusionZones": [],
@@ -225,28 +231,12 @@
         "name": "Mid Season",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-06-01T00:00:00.000Z",
             "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -304,6 +294,25 @@
               28.2422868181564,
               40.99460399023168
             ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
           }
         ],
         "exclusionZones": [],
@@ -313,16 +322,8 @@
         "name": "High Season",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -379,6 +380,25 @@
               36.51149262139869,
               28.2422868181564,
               40.99460399023168
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
             ]
           }
         ],

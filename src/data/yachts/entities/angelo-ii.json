@@ -1,10 +1,10 @@
 {
-  "lastModified": 1793198095352,
+  "lastModified": 1793361305601,
   "uri": "c::7819298091::vessel::d5cca18e-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
   ],
-  "description": "Operating Area: Turkey, Aegean Sea\n\nANGELO II is a 35.00m / 114ft Luxury Sailing Yacht built in 2003 by Custom - Tuzla Shipyard and later underwent a refit in 2016. Sleeping 14 guests in 7 cabins and with a crew of 5. Cruising at 10.00 kn/ph with a top speed of 14.00 kn/ph. The well appointed guest cabins comprise a Master suite, 4 cabins with a double bed, and 2 cabins with a twin bed.",
+  "description": "Operating Area: Turkey, Aegean Sea\n\nANGELO II is a 35.00m / 114ft Luxury Sailing Yacht built in 2003 by Custom - Tuzla Shipyard and later underwent a refit in 2025. Sleeping 14 guests in 7 cabins and with a crew of 5. Cruising at 10.00 kn/ph with a top speed of 14.00 kn/ph. The well appointed guest cabins comprise a Master suite, 4 cabins with a double bed, and 2 cabins with a twin bed.",
   "blueprint": {
     "name": "ANGELO II",
     "images": [
@@ -41,8 +41,12 @@
       },
       "country": "Türkiye"
     },
+    "cruisingCapacity": 0,
+    "staticCapacity": 0,
     "builtYear": 2003,
-    "refitYear": 2016,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2025,
     "topSpeed": 14,
     "cruiseSpeed": 10,
     "fuelCapacity": "",
@@ -61,12 +65,13 @@
       }
     ],
     "cabins": 7,
-    "bathrooms": "",
+    "bathrooms": 7,
+    "decks": 2,
     "length": 35,
     "beam": 8.2,
-    "draft": "",
+    "draft": 2.9,
     "hullType": "",
-    "hullConstruction": "",
+    "hullConstruction": "Laminated wood",
     "tonnage": "",
     "superStructure": [],
     "engines": "1 x 760HP MAN",
@@ -214,7 +219,7 @@
           "totalTax": 0,
           "total": 2650000,
           "charterFee": 2650000,
-          "note": ""
+          "note": "+ VAT + APA"
         },
         "inclusionZones": [
           {
@@ -291,7 +296,8 @@
           "subTotal": 3150000,
           "totalTax": 0,
           "total": 3150000,
-          "charterFee": 3150000
+          "charterFee": 3150000,
+          "note": "+ VAT + APA"
         },
         "inclusionZones": [
           {
@@ -358,7 +364,8 @@
             }
           ],
           "charterFee": 3500000,
-          "unit": "WEEK"
+          "unit": "WEEK",
+          "note": "+ VAT + APA"
         },
         "inclusionZones": [
           {
