@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789548553934,
+  "lastModified": 1793612309505,
   "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing"
@@ -185,9 +185,9 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 3360000,
+      "price": 4200000,
       "displayCurrency": "EUR",
-      "displayPrice": 3360000,
+      "displayPrice": 4200000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -200,257 +200,6 @@
     "pricingInfo": [
       {
         "name": "May & October",
-        "effectiveDates": [
-          {
-            "from": "2026-05-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3360000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3360000,
-              "amount": 3360000,
-              "conditions": "Weekly",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.2
-              }
-            },
-            {
-              "item": "",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            }
-          ],
-          "total": 4032000,
-          "subTotal": 3360000,
-          "totalTax": 672000
-        },
-        "inclusionZones": [
-          {
-            "label": "Turkey",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "Turkey"
-            ],
-            "coordinates": [
-              34.22296144950354,
-              38.99754168989646
-            ],
-            "bbox": [
-              25.61737060546875,
-              35.86011779983257,
-              43.24218750000001,
-              42.08485046623532
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "June & September",
-        "effectiveDates": [
-          {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3600000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3600000,
-              "amount": 3600000,
-              "conditions": "Weekly",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.2
-              }
-            },
-            {
-              "item": "",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            }
-          ],
-          "total": 4320000,
-          "subTotal": 3600000,
-          "totalTax": 720000
-        },
-        "inclusionZones": [
-          {
-            "label": "Turkey",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "Turkey"
-            ],
-            "coordinates": [
-              34.22296144950354,
-              38.99754168989646
-            ],
-            "bbox": [
-              25.61737060546875,
-              35.86011779983257,
-              43.24218750000001,
-              42.08485046623532
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "July & August",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 3900000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 3900000,
-              "amount": 3900000,
-              "conditions": "Weekly",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.2
-              }
-            },
-            {
-              "item": "",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 0,
-              "amount": 0
-            }
-          ],
-          "total": 4680000,
-          "subTotal": 3900000,
-          "totalTax": 780000
-        },
-        "inclusionZones": [
-          {
-            "label": "Turkey",
-            "type": "Sovereign country",
-            "category": [
-              "Asia",
-              "Western Asia",
-              "Turkey"
-            ],
-            "coordinates": [
-              34.22296144950354,
-              38.99754168989646
-            ],
-            "bbox": [
-              25.61737060546875,
-              35.86011779983257,
-              43.24218750000001,
-              42.08485046623532
-            ]
-          },
-          {
-            "label": "Greece",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Greece"
-            ],
-            "coordinates": [
-              24.208266084703272,
-              38.07874263978093
-            ],
-            "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "May & October 2027",
         "effectiveDates": [
           {
             "from": "2027-05-01T00:00:00.000Z",
@@ -474,10 +223,24 @@
               "unitPrice": 4200000,
               "amount": 4200000,
               "conditions": "Weekly"
+            },
+            {
+              "item": "15% APA",
+              "conditions": "Weekly",
+              "quantity": 1,
+              "unitPrice": 630000,
+              "amount": 630000
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
-          "total": 4200000,
-          "subTotal": 4200000,
+          "total": 4830000,
+          "subTotal": 4830000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -524,7 +287,7 @@
         "petsAllowed": false
       },
       {
-        "name": "June & September 2027",
+        "name": "June & September ",
         "effectiveDates": [
           {
             "from": "2027-06-01T00:00:00.000Z",
@@ -548,10 +311,17 @@
               "unitPrice": 4500000,
               "amount": 4500000,
               "conditions": "Weekly"
+            },
+            {
+              "item": "%15 APA",
+              "conditions": "Weekly",
+              "quantity": 1,
+              "unitPrice": 675000,
+              "amount": 675000
             }
           ],
-          "total": 4500000,
-          "subTotal": 4500000,
+          "total": 5175000,
+          "subTotal": 5175000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -598,7 +368,7 @@
         "petsAllowed": false
       },
       {
-        "name": "July & August 2027",
+        "name": "July & August ",
         "effectiveDates": [
           {
             "from": "2027-07-01T00:00:00.000Z",
@@ -618,10 +388,17 @@
               "unitPrice": 4900000,
               "amount": 4900000,
               "conditions": "Weekly"
+            },
+            {
+              "item": "15% APA",
+              "conditions": "Weekly",
+              "quantity": 1,
+              "unitPrice": 735000,
+              "amount": 735000
             }
           ],
-          "total": 4900000,
-          "subTotal": 4900000,
+          "total": 5635000,
+          "subTotal": 5635000,
           "totalTax": 0
         },
         "inclusionZones": [

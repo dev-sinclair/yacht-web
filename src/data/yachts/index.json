@@ -2128,6 +2128,28 @@
     ]
   },
   {
+    "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ubi-bene",
+    "name": "UBI BENE",
+    "hero": "/media/media::image::c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744::assets::0a41ddb0-3d42-11f0-924d-39e47bdcc231/{imageVariant}",
+    "length": 44,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2010,
+    "builder": "Valena Yachting",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2026"
+    ]
+  },
+  {
     "uri": "c::7819298091::vessel::d5cb8423-fe8c-11ed-889f-43d4bb723744",
     "slug": "tersane-8",
     "name": "TERSANE 8",
@@ -2152,28 +2174,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ubi-bene",
-    "name": "UBI BENE",
-    "hero": "/media/media::image::c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744::assets::0a41ddb0-3d42-11f0-924d-39e47bdcc231/{imageVariant}",
-    "length": 44,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2010,
-    "builder": "Valena Yachting",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3360000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "winter-2026"
     ]
   },
   {
@@ -9702,6 +9702,27 @@
     ]
   },
   {
+    "uri": "c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744",
+    "slug": "magic-cat",
+    "name": "MAGIC CAT",
+    "hero": "/media/media::image::c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744::assets::0a1add60-00ec-11f0-91fc-359707e63b90/{imageVariant}",
+    "length": 25,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1995,
+    "builder": "Multiplast",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3000000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
     "slug": "kimberley-quest-ii",
     "name": "KIMBERLEY QUEST II",
@@ -9882,29 +9903,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744",
-    "slug": "magic-cat",
-    "name": "MAGIC CAT",
-    "hero": "/media/media::image::c::7579668770::vessel::d5ca98bc-fe8c-11ed-889f-43d4bb723744::assets::0a1add60-00ec-11f0-91fc-359707e63b90/{imageVariant}",
-    "length": 25,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1995,
-    "builder": "Multiplast",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3000000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028"
     ]
   },
   {
@@ -16835,6 +16833,33 @@
     ]
   },
   {
+    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
+    "slug": "oya",
+    "name": "OYA",
+    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
+    "length": 18.3,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8193426698::vessel::7bad7700-f05b-11ee-81e4-1f741a075b1d",
     "slug": "dessus",
     "name": "DESSUS",
@@ -16904,33 +16929,6 @@
     "currency": "EUR",
     "seasons": [
       "summer-2026"
-    ]
-  },
-  {
-    "uri": "c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05",
-    "slug": "oya",
-    "name": "OYA",
-    "hero": "/media/media::image::c::9938368400::vessel::fa9d22b0-3a1d-11f0-b55b-e5b737adbb05::assets::6ee3df10-bbce-11f0-9afc-45644ca18def/{imageVariant}",
-    "length": 18.3,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
