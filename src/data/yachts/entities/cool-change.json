@@ -1,5 +1,5 @@
 {
-  "lastModified": 1793664869876,
+  "lastModified": 1793665570212,
   "uri": "c::18240645921::vessel::81419660-b56c-11f0-a56f-29fadbc81b5b",
   "yachtType": [
     "Sailing",
@@ -61,6 +61,7 @@
     "beam": 8,
     "draft": 1.3,
     "hullType": "Catamaran",
+    "hullConstruction": "Fibreglass",
     "engines": "2x 68hp Isuzu Diesel",
     "amenities": [
       {
@@ -122,10 +123,6 @@
       {
         "name": "Multi-Day Charter",
         "effectiveDates": [
-          {
-            "from": "2025-07-01T00:00:00.000Z",
-            "to": "2025-11-30T23:59:59.999Z"
-          },
           {
             "from": "2026-03-01T00:00:00.000Z",
             "to": "2026-04-30T23:59:59.999Z"
@@ -197,7 +194,7 @@
               "item": "Jetski/day",
               "conditions": "optional",
               "quantity": 0,
-              "unitPrice": 89000,
+              "unitPrice": 79000,
               "amount": 0,
               "taxRate": {
                 "label": "GST",
@@ -208,7 +205,7 @@
               "item": "eFoil Fliteboard/day",
               "conditions": "optional",
               "quantity": 0,
-              "unitPrice": 89000,
+              "unitPrice": 79000,
               "amount": 0,
               "taxRate": {
                 "label": "GST",
@@ -216,10 +213,10 @@
               }
             },
             {
-              "item": "Public Holiday Surcharge",
+              "item": "",
               "conditions": "",
               "quantity": 0,
-              "unitPrice": 70000,
+              "unitPrice": 0,
               "amount": 0,
               "taxRate": {
                 "label": "GST",

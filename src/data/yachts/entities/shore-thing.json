@@ -1,10 +1,10 @@
 {
-  "lastModified": 1792450755094,
+  "lastModified": 1793666415633,
   "uri": "c::56780189352::vessel::92b65600-9d7d-11ee-863a-a33e27038629",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: \nSummer - Sydney, Pittwater, Hawkesbury\nWinter - Gold Coast, Whitsundays, Great Barrier Reef Far North Queensland\n\nWelcome aboard Shore Thing 115, a 115ft Lloyds-built luxury superyacht offering premium charter experiences along Australia’s coastline.Originally launched in 1986 and refitted in 2025, she blends classic design with modern luxury.Perfect for private events, corporate charters, and relaxed escapes, she delivers comfort, style, and versatility on the water.\n\nAccommodating up to 8 overnight guests and 70 for day charters, Shore Thing 115 is designed for exceptional experiences at sea.",
+  "description": "Operating area:\nSummer (December - April): Sydney Harbour, Pittwater and the Hawkesbury\nAutumn (April - July): Gold Coast and Brisbane\nWinter and spring (July - November): Whitsundays, Cairns, Cooktown and the Ribbon Reefs of the outer Great Barrier Reef\n\nWelcome aboard Shore Thing 115, a 35m (115ft) Lloyds-built luxury superyacht, launched in 1986 and refitted in 2025. Four ensuite cabins, three entertaining decks, a forward deck jacuzzi and a crew that looks after every detail.\n\nShe sleeps up to 8 guests overnight and takes up to 70 guests by day (70 in smooth water, 40 in partially smooth water). Ideal for luxury escapes, special events, corporate charters and sunset cruises.\n\nHighlights: zero-speed stabilisers, Starlink internet and AV, enclosed air-conditioned sky lounge, main deck bar with commercial ice machine, sun deck BBQ and bar, two alfresco dining areas and a 9m Waverider tender.",
   "blueprint": {
     "name": "SHORE THING",
     "images": [
@@ -52,11 +52,11 @@
     "maxCrew": 6,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::919802f0-74e7-11ee-bf14-df1a05dbcc9f",
-      "name": "Whitsundays",
+      "uri": "a::place::37ba1cc0-5d43-11ee-9721-1b9c22929b54",
+      "name": "Sydney Harbour",
       "coordinates": {
-        "latitude": -20.25663345482485,
-        "longitude": 148.9779595021284
+        "latitude": -33.85857623132968,
+        "longitude": 151.2118729965136
       },
       "country": "Australia"
     },
@@ -65,7 +65,7 @@
     "architect": "",
     "interiorDesigner": "",
     "refitYear": 2025,
-    "topSpeed": 14,
+    "topSpeed": 16,
     "cruiseSpeed": 12,
     "cabinLayout": [
       {
@@ -83,7 +83,7 @@
     ],
     "cabins": 4,
     "bathrooms": 4,
-    "decks": 2,
+    "decks": 3,
     "length": 35,
     "beam": 7,
     "draft": 2.1,
@@ -94,20 +94,26 @@
     "amenities": [
       {
         "label": "Alfresco Dining Areas",
+        "quantity": "2"
+      },
+      {
+        "label": "Forward Deck Jacuzzi",
         "quantity": 1
       },
       {
-        "label": "Deck Jacuzzi",
-        "quantity": 1
-      },
-      {
-        "label": "Sundeck BBQ"
+        "label": "Sun Deck BBQ & Bar"
       },
       {
         "label": "Zero Speed Stabilisers"
       },
       {
-        "label": "Jacuzzi"
+        "label": "Fully Air-conditioned"
+      },
+      {
+        "label": "Enclosed Air-conditioned Sky Lounge"
+      },
+      {
+        "label": "Main Deck Bar with Commercial Ice Machine"
       }
     ],
     "toys": [
@@ -122,6 +128,16 @@
       },
       {
         "label": "Snorkelling gear"
+      },
+      {
+        "label": "Stand-up Paddleboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Floating Cabana"
+      },
+      {
+        "label": "Inflatable Lounger"
       }
     ],
     "entertainment": [
@@ -156,15 +172,19 @@
       "name": "Ruby",
       "avatar": "/media/media::image::a::vessel::92b65600-9d7d-11ee-863a-a33e27038629::assets::f1b076a0-8677-11f1-abee-8d8f1c32627a/{imageVariant}",
       "role": "Captain"
+    },
+    {
+      "name": "Heidi",
+      "role": "Captain"
     }
   ],
   "pricing": {
     "dayPricingFrom": {
       "currency": "AUD",
-      "price": 1100000,
+      "price": 240000,
       "displayCurrency": "AUD",
-      "displayPrice": 1100000,
-      "unit": "DAY"
+      "displayPrice": 240000,
+      "unit": "HOUR"
     },
     "dayPricingTo": {
       "currency": "AUD",
@@ -175,9 +195,9 @@
     },
     "weekPricingFrom": {
       "currency": "AUD",
-      "price": 6200000,
+      "price": 9500000,
       "displayCurrency": "AUD",
-      "displayPrice": 6200000,
+      "displayPrice": 9500000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
@@ -189,45 +209,105 @@
     },
     "pricingInfo": [
       {
-        "name": "Summer Nightly Rates - High Season",
+        "name": "Overnight Charter - Nightly Rate (Sydney, Dec - Apr)",
+        "effectiveDates": [
+          {
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 1600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1600000,
+              "amount": 1600000,
+              "conditions": "GST & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 1600000,
+              "amount": 480000
+            }
+          ],
+          "total": 2080000,
+          "subTotal": 2080000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Day Charter - Peak (November - January)",
         "effectiveDates": [
           {
             "from": "2026-11-01T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2027-11-01T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-11-01T00:00:00.000Z",
-            "to": "2029-04-30T23:59:59.999Z"
+            "to": "2027-01-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1600000,
+          "charterFee": 260000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "HOUR",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1600000,
-              "amount": 1600000,
-              "conditions": "GST & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 1600000,
-              "amount": 480000
+              "unitPrice": 260000,
+              "amount": 260000,
+              "conditions": "GST excluded, per hour"
             }
           ],
-          "total": 2080000,
-          "subTotal": 2080000,
+          "total": 260000,
+          "subTotal": 260000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -272,102 +352,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Summer Nightly Rates - Low Season",
+        "name": "Overnight Charter - Weekly Rate (Sydney, Dec - Apr)",
         "effectiveDates": [
           {
-            "from": "2027-04-30T00:00:00.000Z",
+            "from": "2026-12-01T00:00:00.000Z",
             "to": "2027-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-30T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2029-04-30T00:00:00.000Z",
-            "to": "2029-04-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "AUD",
-          "charterFee": 1100000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 1100000,
-              "amount": 1100000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 1100000,
-              "amount": 330000
-            }
-          ],
-          "total": 1430000,
-          "subTotal": 1430000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Australia",
-            "type": "Country",
-            "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
-            ],
-            "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
-            ],
-            "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Summer Weekly Rates - High Season",
-        "effectiveDates": [
-          {
-            "from": "2027-04-30T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-30T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
-          },
-          {
-            "from": "2029-04-30T00:00:00.000Z",
-            "to": "2029-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -438,102 +427,19 @@
         "petsAllowed": false
       },
       {
-        "name": "Summer Weekly Rates - Low Season",
+        "name": "Overnight Charter - Nightly Rate (Queensland, May - Nov)",
         "effectiveDates": [
           {
-            "from": "2026-11-30T00:00:00.000Z",
-            "to": "2027-04-30T23:59:59.999Z"
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
           },
           {
-            "from": "2027-11-30T00:00:00.000Z",
-            "to": "2028-04-30T23:59:59.999Z"
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           },
           {
-            "from": "2028-11-30T00:00:00.000Z",
-            "to": "2029-04-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "AUD",
-          "charterFee": 6200000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 6200000,
-              "amount": 6200000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 6200000,
-              "amount": 1860000
-            }
-          ],
-          "total": 8060000,
-          "subTotal": 8060000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Sydney, New South Wales, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Sydney"
-            ],
-            "coordinates": [
-              151.086815,
-              -33.845833500000005
-            ],
-            "bbox": [
-              150.831963,
-              -34.091667,
-              151.341667,
-              -33.6
-            ]
-          },
-          {
-            "label": "Australia",
-            "type": "Country",
-            "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
-            ],
-            "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
-            ],
-            "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter Nightly Rates - High Season",
-        "effectiveDates": [
-          {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-04-01T00:00:00.000Z",
-            "to": "2027-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-01T00:00:00.000Z",
-            "to": "2028-10-31T23:59:59.999Z"
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -636,45 +542,38 @@
         "petsAllowed": false
       },
       {
-        "name": "Winter Nightly Rates - Low Season",
+        "name": "Day Charter - Non-peak (February - October)",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
+            "from": "2026-02-01T00:00:00.000Z",
             "to": "2026-10-31T23:59:59.999Z"
           },
           {
-            "from": "2027-04-01T00:00:00.000Z",
+            "from": "2027-02-01T00:00:00.000Z",
             "to": "2027-10-31T23:59:59.999Z"
           },
           {
-            "from": "2028-04-01T00:00:00.000Z",
+            "from": "2028-02-01T00:00:00.000Z",
             "to": "2028-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "AUD",
-          "charterFee": 1100000,
+          "charterFee": 240000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
-          "unit": "DAY",
+          "unit": "HOUR",
           "lineItems": [
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1100000,
-              "amount": 1100000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 1100000,
-              "amount": 330000
+              "unitPrice": 240000,
+              "amount": 240000,
+              "conditions": "GST excluded, per hour"
             }
           ],
-          "total": 1430000,
-          "subTotal": 1430000,
+          "total": 240000,
+          "subTotal": 240000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -745,25 +644,42 @@
               153.53867239155943,
               -10.051698610461301
             ]
+          },
+          {
+            "label": "Sydney, New South Wales, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Sydney"
+            ],
+            "coordinates": [
+              151.086815,
+              -33.845833500000005
+            ],
+            "bbox": [
+              150.831963,
+              -34.091667,
+              151.341667,
+              -33.6
+            ]
           }
         ],
         "exclusionZones": [],
         "petsAllowed": false
       },
       {
-        "name": "Winter Weekly Rates - High Season",
+        "name": "Overnight Charter - Weekly Rate (Queensland, May - Nov)",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
+            "from": "2026-05-01T00:00:00.000Z",
+            "to": "2026-11-30T23:59:59.999Z"
           },
           {
-            "from": "2027-04-01T00:00:00.000Z",
-            "to": "2027-10-31T23:59:59.999Z"
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           },
           {
-            "from": "2028-04-01T00:00:00.000Z",
-            "to": "2028-10-31T23:59:59.999Z"
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -859,104 +775,6 @@
               -29.13934582297228,
               153.53867239155943,
               -10.051698610461301
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Winter Weekly Rates - Low Season",
-        "effectiveDates": [
-          {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-04-01T00:00:00.000Z",
-            "to": "2027-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-01T00:00:00.000Z",
-            "to": "2028-10-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "AUD",
-          "charterFee": 6200000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 6200000,
-              "amount": 6200000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 6200000,
-              "amount": 1860000
-            }
-          ],
-          "total": 8060000,
-          "subTotal": 8060000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Gold Coast, Queensland, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Gold Coast"
-            ],
-            "coordinates": [
-              153.395833,
-              -28.0166665
-            ],
-            "bbox": [
-              153.283333,
-              -28.175,
-              153.508333,
-              -27.858333
-            ]
-          },
-          {
-            "label": "Whitsundays",
-            "type": "Custom Area",
-            "category": [
-              "Whitsundays"
-            ],
-            "coordinates": [
-              148.85478758014648,
-              -20.286588575238913
-            ],
-            "bbox": [
-              148.54727721508357,
-              -20.688663051370852,
-              149.2369812531822,
-              -20.003004469006882
-            ]
-          },
-          {
-            "label": "Great Barrier Reef",
-            "type": "Custom Area",
-            "category": [
-              "Great Barrier Reef"
-            ],
-            "coordinates": [
-              147.77471376964013,
-              -17.443523176627277
-            ],
-            "bbox": [
-              142.7798433778594,
-              -25.564640801701245,
-              153.29553628088772,
-              -9.638419311251553
             ]
           }
         ],
