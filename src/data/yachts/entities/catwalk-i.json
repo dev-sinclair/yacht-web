@@ -1,5 +1,5 @@
 {
-  "lastModified": 1791208494216,
+  "lastModified": 1793784040360,
   "uri": "c::8193426698::vessel::851246c0-be73-11f1-a80c-8d635d372dd1",
   "yachtType": [
     "Catamaran",
@@ -155,31 +155,11 @@
     },
     "pricingInfo": [
       {
-        "name": "UNTIL APRIL 24, 2026 and FROM OCTOBER 2, 2026 Price per week",
+        "name": "Until April 24, 2027",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-04-24T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-04-24T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-04-24T23:59:59.999Z"
-          },
-          {
             "from": "2026-10-02T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-02T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-02T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "to": "2027-04-24T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -237,19 +217,11 @@
         "petsAllowed": false
       },
       {
-        "name": "APRIL 24 - MAY 29, 2026 Price per week",
+        "name": "April 24, 2027 - 29 May, 2027",
         "effectiveDates": [
-          {
-            "from": "2026-04-24T00:00:00.000Z",
-            "to": "2026-05-29T23:59:59.999Z"
-          },
           {
             "from": "2027-04-24T00:00:00.000Z",
             "to": "2027-05-29T23:59:59.999Z"
-          },
-          {
-            "from": "2028-04-24T00:00:00.000Z",
-            "to": "2028-05-29T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -307,19 +279,11 @@
         "petsAllowed": false
       },
       {
-        "name": "MAY 29 - JUNE 26, 2026 Price per week",
+        "name": "May 29 - June 26, 2027 Price per week",
         "effectiveDates": [
-          {
-            "from": "2026-05-29T00:00:00.000Z",
-            "to": "2026-06-26T23:59:59.999Z"
-          },
           {
             "from": "2027-05-29T00:00:00.000Z",
             "to": "2027-06-26T23:59:59.999Z"
-          },
-          {
-            "from": "2028-05-29T00:00:00.000Z",
-            "to": "2028-06-26T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -377,19 +341,11 @@
         "petsAllowed": false
       },
       {
-        "name": "JUNE 26 - OCTOBER 2, 2026 Price per week",
+        "name": "June 26 - October 2, 2027 Price per week",
         "effectiveDates": [
-          {
-            "from": "2026-06-26T00:00:00.000Z",
-            "to": "2026-10-02T23:59:59.999Z"
-          },
           {
             "from": "2027-06-26T00:00:00.000Z",
             "to": "2027-10-02T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-26T00:00:00.000Z",
-            "to": "2028-10-02T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -443,6 +399,48 @@
             ]
           }
         ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "From 2 October, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-10-02T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2300000,
+              "amount": 2300000,
+              "conditions": "",
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 1000000,
+              "amount": 1000000
+            }
+          ],
+          "total": 3599000,
+          "subTotal": 3300000,
+          "totalTax": 299000
+        },
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       }

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782508806893,
+  "lastModified": 1793784569504,
   "uri": "c::8193426698::vessel::8fd2dec0-4379-11ef-9516-27a07d6afb11",
   "yachtType": [
     "Sailing",
@@ -289,11 +289,72 @@
     },
     "pricingInfo": [
       {
-        "name": "25 April, 2026 - 30 May, 2026",
+        "name": "Until April 24, 2027",
         "effectiveDates": [
           {
-            "from": "2026-04-25T00:00:00.000Z",
-            "to": "2026-05-30T23:59:59.999Z"
+            "from": "2026-10-02T00:00:00.000Z",
+            "to": "2027-04-24T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4500000,
+              "amount": 4500000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 4500000,
+              "amount": 1350000
+            }
+          ],
+          "total": 6435000,
+          "subTotal": 5850000,
+          "totalTax": 585000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "April 24, 2027 - 29 May, 2027",
+        "effectiveDates": [
+          {
+            "from": "2027-04-17T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -350,11 +411,11 @@
         "petsAllowed": false
       },
       {
-        "name": "30 May, 2026 - 27 June, 2026",
+        "name": "May 29, 2027 - June 26, 2027",
         "effectiveDates": [
           {
-            "from": "2025-12-31T00:00:00.000Z",
-            "to": "2026-06-27T23:59:59.999Z"
+            "from": "2027-05-29T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -411,11 +472,11 @@
         "petsAllowed": false
       },
       {
-        "name": "27 June, 2026 - 29 August, 2026",
+        "name": "June 26, 2027 - August, 28, 2027",
         "effectiveDates": [
           {
-            "from": "2025-12-31T00:00:00.000Z",
-            "to": "2026-08-29T23:59:59.999Z"
+            "from": "2027-06-26T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -472,11 +533,11 @@
         "petsAllowed": false
       },
       {
-        "name": "29 August, 2026 - 3 October, 2026",
+        "name": "August 28, 2027 - October 2, 2027",
         "effectiveDates": [
           {
-            "from": "2026-08-29T00:00:00.000Z",
-            "to": "2026-10-03T23:59:59.999Z"
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -491,6 +552,7 @@
               "quantity": 1,
               "unitPrice": 5900000,
               "amount": 5900000,
+              "conditions": "",
               "taxRate": {
                 "label": "VAT",
                 "value": 0.13
@@ -533,73 +595,11 @@
         "petsAllowed": false
       },
       {
-        "name": "From 3 October, 2026",
+        "name": "From 2 October, 2027",
         "effectiveDates": [
           {
-            "from": "2026-10-03T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 4500000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 4500000,
-              "amount": 4500000,
-              "conditions": "",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 4500000,
-              "amount": 1350000
-            }
-          ],
-          "total": 6435000,
-          "subTotal": 5850000,
-          "totalTax": 585000
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Until April 25, 2026",
-        "effectiveDates": [
-          {
-            "from": "2025-10-04T00:00:00.000Z",
-            "to": "2026-04-25T23:59:59.999Z"
+            "from": "2026-12-31T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -631,27 +631,7 @@
           "subTotal": 5850000,
           "totalTax": 585000
         },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
+        "inclusionZones": [],
         "exclusionZones": [],
         "petsAllowed": false
       }

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1788596948629,
+  "lastModified": 1793782597071,
   "uri": "c::8193426698::vessel::7793e2e3-486c-11ee-a45f-fdfff6163a60",
   "yachtType": [
     "Sailing",
@@ -238,117 +238,6 @@
       "unit": "WEEK"
     },
     "pricingInfo": [
-      {
-        "name": "29 August, 2026 - 3 October, 2026",
-        "effectiveDates": [
-          {
-            "from": "2025-09-27T00:00:00.000Z",
-            "to": "2026-10-03T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2600000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2600000,
-              "amount": 2600000,
-              "conditions": "Weekly",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 3300000,
-          "subTotal": 3300000,
-          "totalTax": 338000
-        },
-        "inclusionZones": [
-          {
-            "label": "Croatia",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Croatia"
-            ],
-            "coordinates": [
-              15.734076081803607,
-              43.82766941998277
-            ],
-            "bbox": [
-              13.376541137695312,
-              42.265114458337585,
-              18.511962890625004,
-              45.53521281284293
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "From 3 October, 2026",
-        "effectiveDates": [
-          {
-            "from": "2025-01-01T00:00:00.000Z",
-            "to": "2025-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 1750000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 1750000,
-              "amount": 1750000,
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.13
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 700000,
-              "amount": 700000
-            }
-          ],
-          "total": 2450000,
-          "subTotal": 2450000,
-          "totalTax": 227500
-        },
-        "inclusionZones": [],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
       {
         "name": "Until April 24, 2027",
         "effectiveDates": [

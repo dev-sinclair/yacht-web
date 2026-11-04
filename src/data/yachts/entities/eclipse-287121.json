@@ -1,5 +1,5 @@
 {
-  "lastModified": 1792475310483,
+  "lastModified": 1793779301874,
   "uri": "c::57102426674::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5",
   "yachtType": [
     "Sailing",
@@ -9,14 +9,16 @@
   "blueprint": {
     "name": "ECLIPSE",
     "images": [
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb09200-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb489a0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4fed0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb06af0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4d7c0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb35120-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebb1950-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae6f20-a1f3-11f1-99c4-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebb4060-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae9630-a1f3-11f1-99c5-4b4300fd6e21/{imageVariant}",
+      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb3c650-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb0b910-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15550-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebe4da0-a1f3-11f1-8de6-cfcbbd1739d4/{imageVariant}",
@@ -24,9 +26,7 @@
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb23fb0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb10730-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb0b910-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebacb30-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb1f190-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb01cd0-a1f3-11f1-99c5-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eafceb0-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eaebd40-a1f3-11f1-99c4-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eae9630-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
@@ -35,10 +35,8 @@
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec50460-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec663f0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec5a0a0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb09200-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15551-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb266c0-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb43b80-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb23fb1-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb15550-a1f3-11f1-82ff-956a043bd10a/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb32a10-a1f3-11f1-8b1b-6b710f7a0873/{imageVariant}",
@@ -47,12 +45,10 @@
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ec5c7b0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb39f40-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb57400-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb4d7c0-a1f3-11f1-99c7-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3ebee9e0-a1f3-11f1-8de7-cfcbbd1739d4/{imageVariant}",
-      "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb3c650-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}",
       "/media/media::image::a::vessel::287121e0-a1ed-11f1-a5e9-97cda0d8d3e5::assets::3eb30300-a1f3-11f1-99c6-4b4300fd6e21/{imageVariant}"
     ],
-    "make": "Leopard",
+    "make": "Robertson & Caine, South Africa",
     "model": "Leopard 50",
     "maxCrew": 3,
     "sleeps": 8,
@@ -65,7 +61,8 @@
       },
       "country": "Australia"
     },
-    "builtYear": 2023,
+    "cruisingCapacity": 0,
+    "builtYear": 2024,
     "topSpeed": 12,
     "cruiseSpeed": 9,
     "cabinLayout": [
@@ -75,17 +72,35 @@
       }
     ],
     "cabins": 4,
+    "bathrooms": 4,
     "length": 15.4,
     "beam": 8.04,
     "draft": 1.6,
     "hullType": "Catamaran",
+    "engines": "2 xYanmar 57 | 80 hp ",
     "amenities": [
       {
-        "label": "Air Conditioning"
+        "label": "Air Conditioning",
+        "quantity": ""
       },
       {
-        "label": "Entertainment Areas"
+        "label": "Entertainment Areas",
+        "quantity": "5"
       }
+    ],
+    "toys": [
+      {
+        "label": "Rugged Marine Floating Day Mat",
+        "quantity": "1"
+      },
+      {
+        "label": "Stand Up Paddle Boards",
+        "quantity": "2"
+      }
+    ],
+    "tenders": [
+      "Expedition Tender ‘Bosun’ 6.3m Aluminium, Custom Build  ",
+      "Expedition Tender 'Busta' 4.2  Quintrex "
     ]
   },
   "crew": [
@@ -149,19 +164,11 @@
     },
     "pricingInfo": [
       {
-        "name": "2026 SOUTH WEST SAFARI - Whole Vessel / Per Night",
+        "name": "Summer 2026/ 2027 SOUTH WEST SAFARI - Whole Vessel / Per Night",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
+            "from": "2026-12-10T00:00:00.000Z",
+            "to": "2027-02-22T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -181,99 +188,6 @@
           ],
           "total": 713000,
           "subTotal": 713000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Australia",
-            "type": "Country",
-            "category": [
-              "Oceania",
-              "Australia and New Zealand",
-              "Australia"
-            ],
-            "coordinates": [
-              134.10701705798022,
-              -25.516879284507734
-            ],
-            "bbox": [
-              112.908203125,
-              -39.1455078125,
-              153.61689453125,
-              -10.0517578125
-            ]
-          },
-          {
-            "label": "Broome, Western Australia, Australia",
-            "type": "Custom Area",
-            "category": [
-              "Broome"
-            ],
-            "coordinates": [
-              122.229167,
-              -17.9625
-            ],
-            "bbox": [
-              122.216667,
-              -17.975,
-              122.241667,
-              -17.95
-            ]
-          },
-          {
-            "label": "Northern Territory, AU, Australia",
-            "type": "Territory",
-            "category": [
-              "Northern Territory"
-            ],
-            "coordinates": [
-              133.47768524738697,
-              -18.779471937623526
-            ],
-            "bbox": [
-              129.0019600297769,
-              -25.999013671928026,
-              138.00242179889835,
-              -10.968793372008236
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "2027 SOUTH WEST SAFARI - Whole Vessel / Per Night",
-        "effectiveDates": [
-          {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-01-01T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-01-01T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "AUD",
-          "charterFee": 750000,
-          "inputAmountTaxed": "INCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 750000,
-              "amount": 750000,
-              "conditions": "All is Inclusive"
-            }
-          ],
-          "total": 750000,
-          "subTotal": 750000,
           "totalTax": 0
         },
         "inclusionZones": [
