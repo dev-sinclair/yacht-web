@@ -3004,26 +3004,6 @@
     ]
   },
   {
-    "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
-    "slug": "ariela",
-    "name": "ARIELA",
-    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::f83d37f0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
-    "length": 40,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2004,
-    "builder": "CRN Ancona",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 11500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027"
-    ]
-  },
-  {
     "uri": "c::52220319023::vessel::d5cca231-fe8c-11ed-889f-43d4bb723744",
     "slug": "impulsive",
     "name": "IMPULSIVE",
@@ -3043,6 +3023,26 @@
       "summer-2027",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ariela",
+    "name": "ARIELA",
+    "hero": "/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::f83d37f0-60fd-11f1-8aff-7f730ba4328b/{imageVariant}",
+    "length": 40,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2004,
+    "builder": "CRN Ancona",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 11500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
     ]
   },
   {
