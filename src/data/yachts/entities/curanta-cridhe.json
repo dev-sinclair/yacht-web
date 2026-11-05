@@ -1,5 +1,5 @@
 {
-  "lastModified": 1787662351329,
+  "lastModified": 1793877259015,
   "uri": "c::7579668770::vessel::d5cbfbf3-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Sailing",
@@ -136,16 +136,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 2000000,
+      "price": 2100000,
       "displayCurrency": "EUR",
-      "displayPrice": 2000000,
+      "displayPrice": 2100000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2250000,
+      "price": 2300000,
       "displayCurrency": "EUR",
-      "displayPrice": 2250000,
+      "displayPrice": 2300000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -187,7 +187,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2000000,
+          "charterFee": 2100000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -195,13 +195,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2000000,
-              "amount": 2000000,
+              "unitPrice": 2100000,
+              "amount": 2100000,
               "conditions": ""
             }
           ],
-          "total": 2000000,
-          "subTotal": 2000000,
+          "total": 2100000,
+          "subTotal": 2100000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -360,7 +360,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2250000,
+          "charterFee": 2300000,
           "inputAmountTaxed": "NONE",
           "note": "",
           "unit": "WEEK",
@@ -368,12 +368,12 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2250000,
-              "amount": 2250000
+              "unitPrice": 2300000,
+              "amount": 2300000
             }
           ],
-          "total": 2250000,
-          "subTotal": 2250000,
+          "total": 2300000,
+          "subTotal": 2300000,
           "totalTax": 0
         },
         "inclusionZones": [
