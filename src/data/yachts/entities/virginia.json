@@ -1,5 +1,5 @@
 {
-  "lastModified": 1790871189966,
+  "lastModified": 1793978246275,
   "uri": "c::18074096051::vessel::01774c90-3565-11f0-baec-592116f05ad5",
   "yachtType": [
     "Sailing",
@@ -105,147 +105,50 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 1400000,
+      "price": 1239000,
       "displayCurrency": "EUR",
-      "displayPrice": 1400000,
+      "displayPrice": 1239000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 2700000,
+      "price": 2400000,
       "displayCurrency": "EUR",
-      "displayPrice": 2700000,
+      "displayPrice": 2400000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "13.03.2027 - 03.04.2027 & 02.10.2027 - 31.12.2027",
-        "effectiveDates": [
-          {
-            "from": "2027-03-13T00:00:00.000Z",
-            "to": "2027-04-03T23:59:59.999Z"
-          },
-          {
-            "from": "2028-03-13T00:00:00.000Z",
-            "to": "2028-04-03T23:59:59.999Z"
-          },
-          {
-            "from": "2029-03-13T00:00:00.000Z",
-            "to": "2029-04-03T23:59:59.999Z"
-          },
-          {
-            "from": "2027-10-02T00:00:00.000Z",
-            "to": "2027-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-02T00:00:00.000Z",
-            "to": "2028-12-31T23:59:59.999Z"
-          },
-          {
-            "from": "2029-10-02T00:00:00.000Z",
-            "to": "2029-12-31T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 1400000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 1400000,
-              "amount": 1400000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 1400000,
-          "subTotal": 1400000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "03.04.2027 - 29.05.2027 & 25.09.2027 - 02.10.2027",
+        "name": "03.04.2027 - 22.05.2027 & 02.10.2027 - 30.10.2027",
         "effectiveDates": [
           {
             "from": "2027-04-03T00:00:00.000Z",
-            "to": "2027-05-29T23:59:59.999Z"
+            "to": "2027-05-22T23:59:59.999Z"
           },
           {
             "from": "2028-04-03T00:00:00.000Z",
-            "to": "2028-05-29T23:59:59.999Z"
+            "to": "2028-05-22T23:59:59.999Z"
           },
           {
             "from": "2029-04-03T00:00:00.000Z",
-            "to": "2029-05-29T23:59:59.999Z"
+            "to": "2029-05-22T23:59:59.999Z"
           },
           {
-            "from": "2027-09-25T00:00:00.000Z",
-            "to": "2027-10-02T23:59:59.999Z"
+            "from": "2027-10-02T00:00:00.000Z",
+            "to": "2027-10-30T23:59:59.999Z"
           },
           {
-            "from": "2028-09-25T00:00:00.000Z",
-            "to": "2028-10-02T23:59:59.999Z"
+            "from": "2028-10-02T00:00:00.000Z",
+            "to": "2028-10-30T23:59:59.999Z"
           },
           {
-            "from": "2029-09-25T00:00:00.000Z",
-            "to": "2029-10-02T23:59:59.999Z"
+            "from": "2029-10-02T00:00:00.000Z",
+            "to": "2029-10-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1500000,
+          "charterFee": 1239000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -253,8 +156,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1500000,
-              "amount": 1500000,
+              "unitPrice": 1239000,
+              "amount": 1239000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -265,8 +168,8 @@
               "amount": 0
             }
           ],
-          "total": 1500000,
-          "subTotal": 1500000,
+          "total": 1239000,
+          "subTotal": 1239000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -313,24 +216,194 @@
         "petsAllowed": false
       },
       {
-        "name": "29.05.2027 - 12.06.2027",
+        "name": "22.05.2027 - 29.05.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-05-22T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-22T00:00:00.000Z",
+            "to": "2028-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-22T00:00:00.000Z",
+            "to": "2029-05-29T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1250000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1250000,
+              "amount": 1250000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 1250000,
+          "subTotal": 1250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "29.05.2027 - 05.06.2027",
         "effectiveDates": [
           {
             "from": "2027-05-29T00:00:00.000Z",
-            "to": "2027-06-12T23:59:59.999Z"
+            "to": "2027-06-05T23:59:59.999Z"
           },
           {
             "from": "2028-05-29T00:00:00.000Z",
-            "to": "2028-06-12T23:59:59.999Z"
+            "to": "2028-06-05T23:59:59.999Z"
           },
           {
             "from": "2029-05-29T00:00:00.000Z",
+            "to": "2029-06-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1369000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1369000,
+              "amount": 1369000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 1369000,
+          "subTotal": 1369000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "05.06.2027 - 12.06.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-06-05T00:00:00.000Z",
+            "to": "2027-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-05T00:00:00.000Z",
+            "to": "2028-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-05T00:00:00.000Z",
             "to": "2029-06-12T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1620000,
+          "charterFee": 1439000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -338,8 +411,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1620000,
-              "amount": 1620000,
+              "unitPrice": 1439000,
+              "amount": 1439000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -350,8 +423,8 @@
               "amount": 0
             }
           ],
-          "total": 1620000,
-          "subTotal": 1620000,
+          "total": 1439000,
+          "subTotal": 1439000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -398,24 +471,24 @@
         "petsAllowed": false
       },
       {
-        "name": "12.06.2027 - 26.06.2027",
+        "name": "12.06.2027 - 19.06.2027",
         "effectiveDates": [
           {
             "from": "2027-06-12T00:00:00.000Z",
-            "to": "2027-06-26T23:59:59.999Z"
+            "to": "2027-06-19T23:59:59.999Z"
           },
           {
             "from": "2028-06-12T00:00:00.000Z",
-            "to": "2028-06-26T23:59:59.999Z"
+            "to": "2028-06-19T23:59:59.999Z"
           },
           {
             "from": "2029-06-12T00:00:00.000Z",
-            "to": "2029-06-26T23:59:59.999Z"
+            "to": "2029-06-19T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1650000,
+          "charterFee": 1509000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -423,8 +496,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1650000,
-              "amount": 1650000,
+              "unitPrice": 1509000,
+              "amount": 1509000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -435,8 +508,93 @@
               "amount": 0
             }
           ],
-          "total": 1650000,
-          "subTotal": 1650000,
+          "total": 1509000,
+          "subTotal": 1509000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "19.06.2027 - 26.06.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-06-19T00:00:00.000Z",
+            "to": "2027-06-26T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-19T00:00:00.000Z",
+            "to": "2028-06-26T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-19T00:00:00.000Z",
+            "to": "2029-06-26T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1699000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1699000,
+              "amount": 1699000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 1699000,
+          "subTotal": 1699000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -500,7 +658,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1800000,
+          "charterFee": 1729000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -508,8 +666,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1800000,
-              "amount": 1800000,
+              "unitPrice": 1729000,
+              "amount": 1729000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -520,8 +678,8 @@
               "amount": 0
             }
           ],
-          "total": 1800000,
-          "subTotal": 1800000,
+          "total": 1729000,
+          "subTotal": 1729000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -585,7 +743,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2150000,
+          "charterFee": 1749000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -593,8 +751,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2150000,
-              "amount": 2150000,
+              "unitPrice": 1749000,
+              "amount": 1749000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -605,8 +763,8 @@
               "amount": 0
             }
           ],
-          "total": 2150000,
-          "subTotal": 2150000,
+          "total": 1749000,
+          "subTotal": 1749000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -670,7 +828,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2270000,
+          "charterFee": 2029000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -678,8 +836,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2270000,
-              "amount": 2270000,
+              "unitPrice": 2029000,
+              "amount": 2029000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -690,8 +848,8 @@
               "amount": 0
             }
           ],
-          "total": 2270000,
-          "subTotal": 2270000,
+          "total": 2029000,
+          "subTotal": 2029000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -738,7 +896,7 @@
         "petsAllowed": false
       },
       {
-        "name": "17.07.2027 - 24.07.2027 & 21.08.2027 - 28.08.2027",
+        "name": "17.07.2027 - 24.07.2027",
         "effectiveDates": [
           {
             "from": "2027-07-17T00:00:00.000Z",
@@ -751,18 +909,358 @@
           {
             "from": "2029-07-17T00:00:00.000Z",
             "to": "2029-07-24T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2039000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2039000,
+              "amount": 2039000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 2039000,
+          "subTotal": 2039000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
           },
           {
-            "from": "2027-08-21T00:00:00.000Z",
-            "to": "2027-08-28T23:59:59.999Z"
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "24.07.2027 - 31.07.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-07-24T00:00:00.000Z",
+            "to": "2027-07-31T23:59:59.999Z"
           },
           {
-            "from": "2028-08-21T00:00:00.000Z",
-            "to": "2028-08-28T23:59:59.999Z"
+            "from": "2028-07-24T00:00:00.000Z",
+            "to": "2028-07-31T23:59:59.999Z"
           },
           {
-            "from": "2029-08-21T00:00:00.000Z",
-            "to": "2029-08-28T23:59:59.999Z"
+            "from": "2029-07-24T00:00:00.000Z",
+            "to": "2029-07-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2050000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2050000,
+              "amount": 2050000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 2050000,
+          "subTotal": 2050000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "31.07.2027 - 07.08.2027 & 04.09.2027 - 11.09.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-07-31T00:00:00.000Z",
+            "to": "2027-08-07T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-31T00:00:00.000Z",
+            "to": "2028-08-07T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-31T00:00:00.000Z",
+            "to": "2029-08-07T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-04T00:00:00.000Z",
+            "to": "2027-09-11T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-04T00:00:00.000Z",
+            "to": "2028-09-11T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-04T00:00:00.000Z",
+            "to": "2029-09-11T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2139000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2139000,
+              "amount": 2139000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 2139000,
+          "subTotal": 2139000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "07.08.2027 - 14.08.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-08-07T00:00:00.000Z",
+            "to": "2027-08-14T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-07T00:00:00.000Z",
+            "to": "2028-08-14T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-07T00:00:00.000Z",
+            "to": "2029-08-14T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2369000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2369000,
+              "amount": 2369000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 2369000,
+          "subTotal": 2369000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "14.08.2027 - 21.08.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-08-14T00:00:00.000Z",
+            "to": "2027-08-21T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-14T00:00:00.000Z",
+            "to": "2028-08-21T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-14T00:00:00.000Z",
+            "to": "2029-08-21T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -835,24 +1333,24 @@
         "petsAllowed": false
       },
       {
-        "name": "24.07.2027 - 31.07.2027",
+        "name": "21.08.2027 - 28.08.2027",
         "effectiveDates": [
           {
-            "from": "2027-07-24T00:00:00.000Z",
-            "to": "2027-07-31T23:59:59.999Z"
+            "from": "2027-08-21T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
           },
           {
-            "from": "2028-07-24T00:00:00.000Z",
-            "to": "2028-07-31T23:59:59.999Z"
+            "from": "2028-08-21T00:00:00.000Z",
+            "to": "2028-08-28T23:59:59.999Z"
           },
           {
-            "from": "2029-07-24T00:00:00.000Z",
-            "to": "2029-07-31T23:59:59.999Z"
+            "from": "2029-08-21T00:00:00.000Z",
+            "to": "2029-08-28T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2500000,
+          "charterFee": 2359000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -860,8 +1358,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2500000,
-              "amount": 2500000,
+              "unitPrice": 2359000,
+              "amount": 2359000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -872,263 +1370,8 @@
               "amount": 0
             }
           ],
-          "total": 2500000,
-          "subTotal": 2500000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "31.07.2027 - 07.08.2027",
-        "effectiveDates": [
-          {
-            "from": "2027-07-31T00:00:00.000Z",
-            "to": "2027-08-07T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-31T00:00:00.000Z",
-            "to": "2028-08-07T23:59:59.999Z"
-          },
-          {
-            "from": "2029-07-31T00:00:00.000Z",
-            "to": "2029-08-07T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2640000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2640000,
-              "amount": 2640000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 2640000,
-          "subTotal": 2640000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "07.08.2027 - 14.08.2027",
-        "effectiveDates": [
-          {
-            "from": "2027-08-07T00:00:00.000Z",
-            "to": "2027-08-14T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-07T00:00:00.000Z",
-            "to": "2028-08-14T23:59:59.999Z"
-          },
-          {
-            "from": "2029-08-07T00:00:00.000Z",
-            "to": "2029-08-14T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2690000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2690000,
-              "amount": 2690000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 2690000,
-          "subTotal": 2690000,
-          "totalTax": 0
-        },
-        "inclusionZones": [
-          {
-            "label": "Italy",
-            "type": "Sovereign country",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Italy"
-            ],
-            "coordinates": [
-              12.625653670513588,
-              41.01657127176474
-            ],
-            "bbox": [
-              7.494049072265626,
-              36.50963615733049,
-              18.786621093750004,
-              46.027481852486645
-            ]
-          },
-          {
-            "label": "Sicily",
-            "type": "Geo subunit",
-            "category": [
-              "Europe",
-              "Southern Europe",
-              "Sicily"
-            ],
-            "coordinates": [
-              14.155397130095018,
-              37.59291213666052
-            ],
-            "bbox": [
-              12.435546875,
-              36.687841796875,
-              15.634667968750023,
-              38.2958984375
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "14.08.2027 - 21.08.2027",
-        "effectiveDates": [
-          {
-            "from": "2027-08-14T00:00:00.000Z",
-            "to": "2027-08-21T23:59:59.999Z"
-          },
-          {
-            "from": "2028-08-14T00:00:00.000Z",
-            "to": "2028-08-21T23:59:59.999Z"
-          },
-          {
-            "from": "2029-08-14T00:00:00.000Z",
-            "to": "2029-08-21T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "EUR",
-          "charterFee": 2700000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "WEEK",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 2700000,
-              "amount": 2700000,
-              "conditions": "VAT & APA Excluded"
-            },
-            {
-              "item": "Security deposit",
-              "conditions": "",
-              "quantity": 0,
-              "unitPrice": 400000,
-              "amount": 0
-            }
-          ],
-          "total": 2700000,
-          "subTotal": 2700000,
+          "total": 2359000,
+          "subTotal": 2359000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -1192,7 +1435,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 2100000,
+          "charterFee": 2199000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -1200,8 +1443,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 2100000,
-              "amount": 2100000,
+              "unitPrice": 2199000,
+              "amount": 2199000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -1212,8 +1455,8 @@
               "amount": 0
             }
           ],
-          "total": 2100000,
-          "subTotal": 2100000,
+          "total": 2199000,
+          "subTotal": 2199000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -1260,24 +1503,24 @@
         "petsAllowed": false
       },
       {
-        "name": "04.09.2027 - 11.09.2027",
+        "name": "11.09.2027 - 18.09.2027",
         "effectiveDates": [
           {
-            "from": "2027-09-04T00:00:00.000Z",
-            "to": "2027-09-11T23:59:59.999Z"
+            "from": "2027-09-11T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
           },
           {
-            "from": "2028-09-04T00:00:00.000Z",
-            "to": "2028-09-11T23:59:59.999Z"
+            "from": "2028-09-11T00:00:00.000Z",
+            "to": "2028-09-18T23:59:59.999Z"
           },
           {
-            "from": "2029-09-04T00:00:00.000Z",
-            "to": "2029-09-11T23:59:59.999Z"
+            "from": "2029-09-11T00:00:00.000Z",
+            "to": "2029-09-18T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1900000,
+          "charterFee": 1709000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -1285,8 +1528,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1900000,
-              "amount": 1900000,
+              "unitPrice": 1709000,
+              "amount": 1709000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -1297,8 +1540,8 @@
               "amount": 0
             }
           ],
-          "total": 1900000,
-          "subTotal": 1900000,
+          "total": 1709000,
+          "subTotal": 1709000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -1345,24 +1588,24 @@
         "petsAllowed": false
       },
       {
-        "name": "11.09.2027 - 25.09.2027",
+        "name": "18.09.2027 - 25.09.2027",
         "effectiveDates": [
           {
-            "from": "2027-09-11T00:00:00.000Z",
+            "from": "2027-09-18T00:00:00.000Z",
             "to": "2027-09-25T23:59:59.999Z"
           },
           {
-            "from": "2028-09-11T00:00:00.000Z",
+            "from": "2028-09-18T00:00:00.000Z",
             "to": "2028-09-25T23:59:59.999Z"
           },
           {
-            "from": "2029-09-11T00:00:00.000Z",
+            "from": "2029-09-18T00:00:00.000Z",
             "to": "2029-09-25T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1600000,
+          "charterFee": 1679000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -1370,8 +1613,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1600000,
-              "amount": 1600000,
+              "unitPrice": 1679000,
+              "amount": 1679000,
               "conditions": "VAT & APA Excluded"
             },
             {
@@ -1382,8 +1625,93 @@
               "amount": 0
             }
           ],
-          "total": 1600000,
-          "subTotal": 1600000,
+          "total": 1679000,
+          "subTotal": 1679000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "25.09.2027 - 02.10.2027",
+        "effectiveDates": [
+          {
+            "from": "2027-09-25T00:00:00.000Z",
+            "to": "2027-10-02T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-25T00:00:00.000Z",
+            "to": "2028-10-02T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-25T00:00:00.000Z",
+            "to": "2029-10-02T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1399000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1399000,
+              "amount": 1399000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "Security deposit",
+              "conditions": "",
+              "quantity": 0,
+              "unitPrice": 400000,
+              "amount": 0
+            }
+          ],
+          "total": 1399000,
+          "subTotal": 1399000,
           "totalTax": 0
         },
         "inclusionZones": [
