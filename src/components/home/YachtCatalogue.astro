@@ -13,7 +13,7 @@ import featuredYachts from "../../data/featured-yachts.json";
 // Apply the STRICT featured gate (30m+/24m catamaran, ≤12 guests, ≥€15k/wk)
 // so the marquee carousel stays premium even though /yachts uses a more
 // permissive catalog filter.
-const featured = (featuredYachts as YachtCard[]).filter(isFeaturedYacht);
+const featured = (featuredYachts as YachtCard[]).filter((yacht) => yacht.slug === "nalani" || isFeaturedYacht(yacht));
 const track = [...featured, ...featured, ...featured]; // triple for true infinite loop
 
 // Local hero override: drop a file at `src/assets/yachts/{slug}.{jpg,png,webp,avif}`
@@ -65,6 +65,7 @@ const heroBySlug: Record<string, ImageMetadata> = Object.fromEntries(
                 <a
                   href={`/yachts/${yacht.slug}`}
                   class="yc-card group"
+                  aria-label={`View ${yacht.name} full brochure`}
                   aria-hidden={!isReal ? "true" : undefined}
                   tabindex={!isReal ? -1 : undefined}
                   data-yacht-name={yacht.name}

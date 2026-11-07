@@ -9,7 +9,9 @@
     "cabins": 6,
     "builtYear": 2014,
     "builder": "",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 59000000,
     "currency": "EUR"
@@ -24,7 +26,9 @@
     "cabins": 7,
     "builtYear": 2021,
     "builder": "Hakvoort",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 55000000,
     "currency": "USD"
@@ -39,7 +43,9 @@
     "cabins": 8,
     "builtYear": 2009,
     "builder": "Feadship - Royal Van Lent",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 50000000,
     "currency": "EUR"
@@ -54,7 +60,9 @@
     "cabins": 6,
     "builtYear": 1994,
     "builder": "Lurssen",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 49500000,
     "currency": "EUR"
@@ -69,7 +77,9 @@
     "cabins": 6,
     "builtYear": 2006,
     "builder": "Baglietto",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": 550000,
     "weekPricingFrom": 42000000,
     "currency": "USD"
@@ -84,7 +94,9 @@
     "cabins": 6,
     "builtYear": 2026,
     "builder": "",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 18000000,
     "currency": "EUR"
@@ -94,12 +106,14 @@
     "slug": "king-benji",
     "name": "KING BENJI",
     "hero": "https://api.ankor.io/media/media::image::a::vessel::e6c050c0-ae3f-11ee-ba34-6fc23990fe90::assets::5ea3e4f0-bd74-11ef-84cd-397c1c09bedc/{imageVariant}",
-    "length": 47.0,
+    "length": 47,
     "sleeps": 10,
     "cabins": 5,
     "builtYear": 2024,
     "builder": "",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 25000000,
     "currency": "USD"
@@ -109,29 +123,34 @@
     "slug": "ariela",
     "name": "ARIELA",
     "hero": "https://api.ankor.io/media/media::image::c::7819298091::vessel::d5cbd3ad-fe8c-11ed-889f-43d4bb723744::assets::23add3a0-8d3d-11ee-93dd-617b2970d5d9.jpeg/{imageVariant}",
-    "length": 40.0,
+    "length": 40,
     "sleeps": 12,
     "cabins": 6,
     "builtYear": 2004,
     "builder": "",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 11500000,
     "currency": "EUR"
   },
   {
-    "uri": "",
-    "slug": "lady-rina",
-    "name": "LADY RINA",
-    "hero": "https://api.ankor.io/media/media::image::c::8344947358::vessel::d5cbfc37-fe8c-11ed-889f-43d4bb723744::assets::54d20600-a042-11ee-9209-29ad3ed1d3b4.jpeg/{imageVariant}",
-    "length": 36.7,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 1987,
-    "builder": "",
-    "yachtType": ["Motor"],
+    "uri": "c::9938368400::vessel::eb4ddfa0-f060-11ee-a296-373c493b7d64",
+    "slug": "nalani",
+    "name": "NALANI",
+    "hero": "https://api.ankor.io/media/media::image::c::9938368400::vessel::eb4ddfa0-f060-11ee-a296-373c493b7d64::assets::bfdf1790-3a32-11f0-aaa8-93e5535cd046/{imageVariant}",
+    "length": 23.87,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2024,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
     "dayPricingFrom": null,
-    "weekPricingFrom": 4333500,
+    "weekPricingFrom": 7900000,
     "currency": "EUR"
   },
   {
@@ -144,7 +163,9 @@
     "cabins": 6,
     "builtYear": 2001,
     "builder": "",
-    "yachtType": ["Motor"],
+    "yachtType": [
+      "Motor"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 4500000,
     "currency": "EUR"
@@ -159,7 +180,9 @@
     "cabins": 96,
     "builtYear": 2023,
     "builder": "",
-    "yachtType": ["Expedition"],
+    "yachtType": [
+      "Expedition"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 119000000,
     "currency": "EUR"
@@ -174,7 +197,9 @@
     "cabins": 76,
     "builtYear": 2021,
     "builder": "",
-    "yachtType": ["Expedition"],
+    "yachtType": [
+      "Expedition"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 122500000,
     "currency": "EUR"
@@ -189,7 +214,9 @@
     "cabins": 76,
     "builtYear": 2022,
     "builder": "",
-    "yachtType": ["Expedition"],
+    "yachtType": [
+      "Expedition"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 108500000,
     "currency": "EUR"
@@ -204,7 +231,9 @@
     "cabins": 39,
     "builtYear": 2019,
     "builder": "",
-    "yachtType": ["Expedition"],
+    "yachtType": [
+      "Expedition"
+    ],
     "dayPricingFrom": null,
     "weekPricingFrom": 1599500,
     "currency": "USD"
