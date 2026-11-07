@@ -4340,6 +4340,32 @@
     ]
   },
   {
+    "uri": "c::3805e02f5a704175bac07ed8af84d08d::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "phoenix-one",
+    "name": "PHOENIX ONE",
+    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::520be770-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1983,
+    "builder": "Lloyds Ships",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9300000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::56780189352::vessel::92b65600-9d7d-11ee-863a-a33e27038629",
     "slug": "shore-thing",
     "name": "SHORE THING",
@@ -9720,6 +9746,32 @@
     "currency": "EUR",
     "seasons": [
       "summer-2027"
+    ]
+  },
+  {
+    "uri": "c::20141870725::vessel::d5cc7818-fe8c-11ed-889f-43d4bb723744",
+    "slug": "alani",
+    "name": "ALANI",
+    "hero": "/media/media::image::c::20141870725::vessel::d5cc7818-fe8c-11ed-889f-43d4bb723744::assets::b0db3a60-a59a-11f1-a3e3-e3cbc22a261b/{imageVariant}",
+    "length": 25,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2003,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 180000,
+    "weekPricingFrom": 5900000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
