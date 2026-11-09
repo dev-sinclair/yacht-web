@@ -194,6 +194,33 @@
     ]
   },
   {
+    "uri": "c::7819256863::vessel::d5cbfb09-fe8c-11ed-889f-43d4bb723744",
+    "slug": "admiral",
+    "name": "ADMIRAL",
+    "hero": "/media/media::image::a::vessel::d5cbfb09-fe8c-11ed-889f-43d4bb723744::assets::3f1a7f20-bed4-11ef-8234-85c9523d0da9/{imageVariant}",
+    "length": 47,
+    "sleeps": 36,
+    "cabins": 16,
+    "builtYear": 2013,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::7819143053::vessel::b401e670-c989-11ee-aa69-e7a634efe9ad",
     "slug": "de-love",
     "name": "DE LOVE",
@@ -219,33 +246,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819256863::vessel::d5cbfb09-fe8c-11ed-889f-43d4bb723744",
-    "slug": "admiral",
-    "name": "ADMIRAL",
-    "hero": "/media/media::image::a::vessel::d5cbfb09-fe8c-11ed-889f-43d4bb723744::assets::3f1a7f20-bed4-11ef-8234-85c9523d0da9/{imageVariant}",
-    "length": 47,
-    "sleeps": 36,
-    "cabins": 16,
-    "builtYear": 2013,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 4200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -6735,6 +6735,32 @@
     ]
   },
   {
+    "uri": "c::52220319023::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539",
+    "slug": "belle",
+    "name": "BELLE",
+    "hero": "/media/media::image::a::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539::assets::4403ff70-1630-11f1-b268-3be92bd7d43c/{imageVariant}",
+    "length": 29.9,
+    "sleeps": 10,
+    "cabins": 4,
+    "builtYear": 2016,
+    "builder": "Moonen Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 295000,
+    "weekPricingFrom": 9900000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8276484364::vessel::4bafb9f0-9155-11ef-ae28-db98f755ffe0",
     "slug": "altvs",
     "name": "ALTVS",
@@ -6775,24 +6801,6 @@
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 5200000,
-    "currency": "EUR",
-    "seasons": []
-  },
-  {
-    "uri": "c::52021850498::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539",
-    "slug": "belle",
-    "name": "BELLE",
-    "hero": "/media/media::image::a::vessel::191bb6d0-b12f-11ee-af5c-7d01dad09539::assets::4403ff70-1630-11f1-b268-3be92bd7d43c/{imageVariant}",
-    "length": 29.9,
-    "sleeps": 10,
-    "cabins": 4,
-    "builtYear": 2016,
-    "builder": "Moonen Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": []
   },

@@ -1,11 +1,10 @@
 {
-  "lastModified": 1783529070279,
+  "lastModified": 1794220101577,
   "uri": "c::7819256863::vessel::d5cbfb09-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
-    "Gulet",
-    "Sailing"
+    "Gulet"
   ],
-  "description": "Please note that Admiral is operating the tours in 2026 in Friday-Friday basis.\n\nOperating Area: Aegean to Mediterrenan Turkish Coast (Bodrum, Bozburun, Marmaris, Göcek, Fethiye, Kekova), South and North Dodecanese Greek Islands\n\nEmbark on a journey of opulence aboard the Admiral, a distinguished Traditional Wooden Gulet that seamlessly marries classic elegance with modern luxury. Immerse yourself in the enchanting world of yachting as you set sail on this 47-meter masterpiece, meticulously crafted in 2013 and exquisitely refitted to surpass the highest standards of nautical splendor.\n\nWith a beam of 9.40 meters and a draft of 3.4 meters, the Admiral commands attention with its majestic presence on the open seas. This luxurious vessel is more than just a yacht; it’s an experience crafted for those who appreciate the finer things in life.\n\nAccommodating up to 36 guests across 16 lavishly appointed cabins, the Admiral offers an intimate and indulgent retreat on the water. The accommodation options include 10 Double Cabins, 4 Triple Cabins, and 2 Twin Cabins, each designed with meticulous attention to detail to ensure comfort and tranquility throughout your voyage.\n\nThe Admiral is not just a vessel; it’s a floating sanctuary of relaxation and sophistication. With separate crew cabins ensuring discreet service, a fully equipped galley for culinary delights, and both indoor and outdoor dining spaces, the yacht caters to your every desire. Unwind in the indoor and outdoor resting spaces, where the gentle caress of the sea breeze complements the luxurious surroundings.\n\nAs you revel in the unrivaled beauty of the open sea, indulge in the pleasures of the fully equipped bar on the deck. Sip on handcrafted cocktails as the sun dips below the horizon, casting a warm glow over the Admiral’s traditional wooden charm.\n\nPowered by 2 x 500 HP engines and supported by 4 x 33 kW generators, the Admiral effortlessly glides through the waves at a comfortable speed of 10 knots. Whether you’re seeking a tranquil cruise along the coast or an adventurous expedition to exotic destinations, the Admiral promises a journey that transcends the ordinary.\n\nStep aboard and let the Admiral redefine your perception of luxury yachting. Each moment on this timeless vessel is a testament to the impeccable craftsmanship and unwavering commitment to providing an unparalleled experience at sea. Your voyage of a lifetime awaits on the Admiral, where tradition meets luxury in perfect harmony.",
+  "description": "Please note that Admiral is operating the tours in 2027 in Friday-Friday basis.\n\nOperating Area: Aegean to Mediterrenan Turkish Coast (Bodrum, Bozburun, Marmaris, Göcek, Fethiye, Kekova), South and North Dodecanese Greek Islands\n\nEmbark on a journey of opulence aboard the Admiral, a distinguished Traditional Wooden Gulet that seamlessly marries classic elegance with modern luxury. Immerse yourself in the enchanting world of yachting as you set sail on this 47-meter masterpiece, meticulously crafted in 2013 and exquisitely refitted to surpass the highest standards of nautical splendor.\n\nWith a beam of 9.40 meters and a draft of 3.4 meters, the Admiral commands attention with its majestic presence on the open seas. This luxurious vessel is more than just a yacht; it’s an experience crafted for those who appreciate the finer things in life.\n\nAccommodating up to 36 guests across 16 lavishly appointed cabins, the Admiral offers an intimate and indulgent retreat on the water. The accommodation options include 10 Double Cabins, 4 Triple Cabins, and 2 Twin Cabins, each designed with meticulous attention to detail to ensure comfort and tranquility throughout your voyage.\n\nThe Admiral is not just a vessel; it’s a floating sanctuary of relaxation and sophistication. With separate crew cabins ensuring discreet service, a fully equipped galley for culinary delights, and both indoor and outdoor dining spaces, the yacht caters to your every desire. Unwind in the indoor and outdoor resting spaces, where the gentle caress of the sea breeze complements the luxurious surroundings.\n\nAs you revel in the unrivaled beauty of the open sea, indulge in the pleasures of the fully equipped bar on the deck. Sip on handcrafted cocktails as the sun dips below the horizon, casting a warm glow over the Admiral’s traditional wooden charm.\n\nPowered by 2 x 500 HP engines and supported by 4 x 33 kW generators, the Admiral effortlessly glides through the waves at a comfortable speed of 10 knots. Whether you’re seeking a tranquil cruise along the coast or an adventurous expedition to exotic destinations, the Admiral promises a journey that transcends the ordinary.\n\nStep aboard and let the Admiral redefine your perception of luxury yachting. Each moment on this timeless vessel is a testament to the impeccable craftsmanship and unwavering commitment to providing an unparalleled experience at sea. Your voyage of a lifetime awaits on the Admiral, where tradition meets luxury in perfect harmony.",
   "blueprint": {
     "name": "ADMIRAL",
     "images": [
@@ -61,7 +60,7 @@
     ],
     "make": "Custom",
     "model": "",
-    "maxCrew": 8,
+    "maxCrew": 7,
     "sleeps": 36,
     "basePort": {
       "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
@@ -106,14 +105,16 @@
     "engines": "2 x 500 HP",
     "amenities": [
       {
-        "label": "Air Condition"
+        "label": "Air Condition",
+        "quantity": ""
       },
       {
         "label": "Generators",
         "quantity": "4"
       },
       {
-        "label": "Hair Dryer"
+        "label": "Hair Dryer",
+        "quantity": "16"
       },
       {
         "label": "Flybridge"
@@ -128,7 +129,7 @@
         "label": "Portable Speaker"
       },
       {
-        "label": "Smart TV"
+        "label": "TV in Saloon"
       },
       {
         "label": "Water Maker"
@@ -142,22 +143,16 @@
     ],
     "toys": [
       {
-        "label": "Canoe"
+        "label": "Canoe",
+        "quantity": "2"
       },
       {
-        "label": "Paddleboard"
+        "label": "Paddleboard",
+        "quantity": "4"
       },
       {
-        "label": "Ringo"
-      },
-      {
-        "label": "Banana"
-      },
-      {
-        "label": "Water Ski"
-      },
-      {
-        "label": "Snorkeling Equipment"
+        "label": "Snorkeling Equipment",
+        "quantity": "12"
       },
       {
         "label": "Fishing Tackle"
@@ -196,27 +191,27 @@
         "effectiveDates": [
           {
             "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-04-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2028-04-01T00:00:00.000Z",
+            "from": "2027-04-01T00:00:00.000Z",
             "to": "2028-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-10-31T00:00:00.000Z",
-            "to": "2026-11-30T23:59:59.999Z"
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
           },
           {
-            "from": "2027-10-31T00:00:00.000Z",
-            "to": "2027-11-30T23:59:59.999Z"
+            "from": "2026-10-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
           },
           {
-            "from": "2028-10-31T00:00:00.000Z",
-            "to": "2028-11-30T23:59:59.999Z"
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2029-10-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -324,11 +319,27 @@
         "effectiveDates": [
           {
             "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-30T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-30T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-30T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -435,8 +446,8 @@
         "name": "High-Season",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
