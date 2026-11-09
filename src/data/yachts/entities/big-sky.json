@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783510329211,
+  "lastModified": 1794184549149,
   "uri": "c::7819198774::vessel::d5cc4d3c-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -219,16 +219,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "USD",
-      "price": 19000000,
+      "price": 21000000,
       "displayCurrency": "USD",
-      "displayPrice": 19000000,
+      "displayPrice": 21000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "USD",
-      "price": 19000000,
+      "price": 21000000,
       "displayCurrency": "USD",
-      "displayPrice": 19000000,
+      "displayPrice": 21000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -250,7 +250,7 @@
         ],
         "pricing": {
           "currency": "USD",
-          "charterFee": 19000000,
+          "charterFee": 21000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "Plus 5% TAX + 30% APA",
           "unit": "WEEK",
@@ -258,8 +258,8 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 19000000,
-              "amount": 19000000,
+              "unitPrice": 21000000,
+              "amount": 21000000,
               "conditions": "VAT & APA Excluded",
               "taxRate": {
                 "label": "VAT",
@@ -269,14 +269,14 @@
             {
               "item": "APA",
               "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 19000000,
-              "amount": 5700000
+              "quantity": 0.35,
+              "unitPrice": 21000000,
+              "amount": 7349999.999999999
             }
           ],
-          "total": 25650000,
-          "subTotal": 24700000,
-          "totalTax": 950000
+          "total": 29400000,
+          "subTotal": 28350000,
+          "totalTax": 1050000
         },
         "inclusionZones": [
           {

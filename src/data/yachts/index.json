@@ -1458,6 +1458,32 @@
     ]
   },
   {
+    "uri": "c::7819198774::vessel::d5cc4d3c-fe8c-11ed-889f-43d4bb723744",
+    "slug": "big-sky",
+    "name": "BIG SKY",
+    "hero": "/media/media::image::c::7819198774::vessel::d5cc4d3c-fe8c-11ed-889f-43d4bb723744::assets::75b8f7b0-dbe7-11f0-bf63-351388eeb9cc/{imageVariant}",
+    "length": 48,
+    "sleeps": 11,
+    "cabins": 5,
+    "builtYear": 2010,
+    "builder": "Oceanfast",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 21000000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::10923570597::vessel::18ebe080-bdfa-11ef-866a-ad7f2dece8ef",
     "slug": "sanctuary",
     "name": "SANCTUARY",
@@ -1617,32 +1643,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027"
-    ]
-  },
-  {
-    "uri": "c::7819198774::vessel::d5cc4d3c-fe8c-11ed-889f-43d4bb723744",
-    "slug": "big-sky",
-    "name": "BIG SKY",
-    "hero": "/media/media::image::c::7819198774::vessel::d5cc4d3c-fe8c-11ed-889f-43d4bb723744::assets::75b8f7b0-dbe7-11f0-bf63-351388eeb9cc/{imageVariant}",
-    "length": 48,
-    "sleeps": 11,
-    "cabins": 5,
-    "builtYear": 2010,
-    "builder": "Oceanfast",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 19000000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
