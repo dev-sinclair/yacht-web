@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783526868003,
+  "lastModified": 1794299620063,
   "uri": "c::9333032772::vessel::84f89580-5043-11f0-a0cc-6117139c6a57",
   "yachtType": [
     "Motor"
@@ -57,10 +57,24 @@
     },
     "dayPricingTo": {
       "currency": "AED",
-      "price": 1250000,
+      "price": 15000000,
       "displayCurrency": "AED",
-      "displayPrice": 1250000,
-      "unit": "HOUR"
+      "displayPrice": 15000000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "AED",
+      "price": 85000000,
+      "displayCurrency": "AED",
+      "displayPrice": 85000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AED",
+      "price": 85000000,
+      "displayCurrency": "AED",
+      "displayPrice": 85000000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -96,6 +110,177 @@
           ],
           "total": 1250000,
           "subTotal": 1250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.3541665,
+              25.266666500000003
+            ],
+            "bbox": [
+              55.175,
+              25.1,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Hourly Rate (12 Hours)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "HOUR",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 12500000,
+          "subTotal": 12500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.3541665,
+              25.266666500000003
+            ],
+            "bbox": [
+              55.175,
+              25.1,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Daily Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 15000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15000000,
+              "amount": 15000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 15000000,
+          "subTotal": 15000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Dubai, Dubay, United Arab Emirates",
+            "type": "Custom Area",
+            "category": [
+              "Dubai"
+            ],
+            "coordinates": [
+              55.3541665,
+              25.266666500000003
+            ],
+            "bbox": [
+              55.175,
+              25.1,
+              55.533333,
+              25.433333
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AED",
+          "charterFee": 85000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 85000000,
+              "amount": 85000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 85000000,
+          "subTotal": 85000000,
           "totalTax": 0
         },
         "inclusionZones": [

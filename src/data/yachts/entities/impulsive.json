@@ -1,5 +1,5 @@
 {
-  "lastModified": 1793855956833,
+  "lastModified": 1794283349667,
   "uri": "c::52220319023::vessel::d5cca231-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -176,23 +176,23 @@
     },
     "dayPricingTo": {
       "currency": "AUD",
-      "price": 21000000,
-      "displayCurrency": "AUD",
-      "displayPrice": 21000000,
-      "unit": "HOUR"
-    },
-    "weekPricingFrom": {
-      "currency": "AUD",
       "price": 2800000,
       "displayCurrency": "AUD",
       "displayPrice": 2800000,
-      "unit": "WEEK"
+      "unit": "DAY"
     },
-    "weekPricingTo": {
+    "weekPricingFrom": {
       "currency": "AUD",
       "price": 17500000,
       "displayCurrency": "AUD",
       "displayPrice": 17500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "AUD",
+      "price": 21000000,
+      "displayCurrency": "AUD",
+      "displayPrice": 21000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -451,7 +451,7 @@
           "charterFee": 21000000,
           "inputAmountTaxed": "NONE",
           "note": "",
-          "unit": "HOUR",
+          "unit": "WEEK",
           "lineItems": [
             {
               "item": "Charter Fee",
@@ -569,7 +569,7 @@
           "charterFee": 2800000,
           "inputAmountTaxed": "NONE",
           "note": "",
-          "unit": "WEEK",
+          "unit": "DAY",
           "lineItems": [
             {
               "item": "Charter Fee",
