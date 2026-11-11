@@ -6411,6 +6411,33 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::490fd9f0-cc11-11ee-bf8a-ad14a1404930",
+    "slug": "happy-days",
+    "name": "HAPPY DAYS",
+    "hero": "/media/media::image::c::7819217464::vessel::490fd9f0-cc11-11ee-bf8a-ad14a1404930::assets::7844eb21-bcc0-11ef-881f-f57cb0c05129/{imageVariant}",
+    "length": 30,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 2011,
+    "builder": "Fethiye Shipyard",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 340000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8864389904::vessel::d5cc7960-fe8c-11ed-889f-43d4bb723744",
     "slug": "chaos",
     "name": "CHAOS",
@@ -6506,33 +6533,6 @@
       "summer-2026",
       "winter-2025",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7819217464::vessel::490fd9f0-cc11-11ee-bf8a-ad14a1404930",
-    "slug": "happy-days",
-    "name": "HAPPY DAYS",
-    "hero": "/media/media::image::c::7819217464::vessel::490fd9f0-cc11-11ee-bf8a-ad14a1404930::assets::7844eb21-bcc0-11ef-881f-f57cb0c05129/{imageVariant}",
-    "length": 30,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 2011,
-    "builder": "Fethiye Shipyard",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 340000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -23174,6 +23174,28 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::927834d66b534bddacaa5cba86dd435e::vessel::01d65c20-d696-11f1-bff9-97a8b259f363",
+    "slug": "dom-pedro",
+    "name": "DOM PEDRO",
+    "hero": "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::bb5f4020-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+    "length": 15.23,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2015,
+    "builder": "Pershing",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1065000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029"
     ]
   },
   {

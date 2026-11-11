@@ -1,0 +1,506 @@
+{
+  "lastModified": 1794347334842,
+  "uri": "c::927834d66b534bddacaa5cba86dd435e::vessel::01d65c20-d696-11f1-bff9-97a8b259f363",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Sardinia, Corsica\n\nDom Pedro is a fifty-foot Pershing 50.1, built for the fast crossing between Sardinia and Corsica and for the long lunch\nonce you arrive. Three cabins sleep six, and a separate crew cabin keeps the boat private. Air conditioning, a generator\nand a premium sound system are all on board, and the cockpit runs from a shaded table forward to a full-beam sunbed\naft.\n",
+  "blueprint": {
+    "name": "DOM PEDRO",
+    "images": [
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::bb5f4020-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ada9a0-d69c-11f1-901e-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a6f2e0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569d2ee0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a56c40-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56aa4e40-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a76810-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ab86c0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a74100-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a7b630-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569e8e70-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569ae4f0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569566b0-d69c-11f1-bb9d-796ddf6711af/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a82b60-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ab38a0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a80450-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a5e170-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569e6760-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569d7d00-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ac2300-d69c-11f1-901e-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56adf7c0-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a01510-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ad5b80-d69c-11f1-901e-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56aebb10-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56aa9c60-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ae45e1-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ad0d60-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569f03a0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569edc90-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569f9fe0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56abfbf0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569f78d0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ac4a10-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569c92a0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::569df230-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56ae45e0-d69c-11f1-901f-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56abd4e0-d69c-11f1-901d-356f63a2b97d/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::5698e920-d69c-11f1-bb9d-796ddf6711af/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a8eeb0-d69c-11f1-9137-355e3478cdca/{imageVariant}",
+      "/media/media::image::a::vessel::01d65c20-d696-11f1-bff9-97a8b259f363::assets::56a6a4c0-d69c-11f1-901d-356f63a2b97d/{imageVariant}"
+    ],
+    "make": "Pershing",
+    "model": "Pershing 50.1",
+    "maxCrew": 1,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::084d2f1c-b3ee-11ed-88e8-325096b39f47",
+      "name": "Olbia",
+      "coordinates": {
+        "latitude": 40.92518954,
+        "longitude": 9.507247173
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 10,
+    "builtYear": 2015,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2025,
+    "cabinLayout": [],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 15.23,
+    "beam": 4.38,
+    "draft": 1.2,
+    "engines": "2 × MAN D2876LE426 — 1.176 kW total (approx. 1.600 hp)",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Bow solarium"
+      },
+      {
+        "label": "Bimini top"
+      },
+      {
+        "label": "Autopilot"
+      }
+    ],
+    "toys": [
+      {
+        "label": "2 stand-up paddle boards"
+      },
+      {
+        "label": "Motorised dinghy"
+      },
+      {
+        "label": "Snorkelling equipment"
+      }
+    ],
+    "entertainment": [
+      "Premium sound system",
+      "Wi-Fi"
+    ],
+    "tenders": []
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 1065000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1065000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 1645000,
+      "displayCurrency": "EUR",
+      "displayPrice": 1645000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Weekly Rate: 31 May — 6 June & 20 September — 18 October",
+        "effectiveDates": [
+          {
+            "from": "2027-05-31T00:00:00.000Z",
+            "to": "2027-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-31T00:00:00.000Z",
+            "to": "2028-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-31T00:00:00.000Z",
+            "to": "2029-06-06T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-20T00:00:00.000Z",
+            "to": "2027-10-18T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-20T00:00:00.000Z",
+            "to": "2028-10-18T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-20T00:00:00.000Z",
+            "to": "2029-10-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1065000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1065000,
+              "amount": 1065000,
+              "conditions": "VAT is Inclusive"
+            },
+            {
+              "item": "Security Deposit",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000
+            }
+          ],
+          "total": 1415000,
+          "subTotal": 1415000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: 7 June — 4 July & 13 September — 19 September ",
+        "effectiveDates": [
+          {
+            "from": "2027-06-07T00:00:00.000Z",
+            "to": "2027-07-04T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-07T00:00:00.000Z",
+            "to": "2028-07-04T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-07T00:00:00.000Z",
+            "to": "2029-07-04T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-13T00:00:00.000Z",
+            "to": "2027-09-19T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-13T00:00:00.000Z",
+            "to": "2028-09-19T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-13T00:00:00.000Z",
+            "to": "2029-09-19T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1235000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1235000,
+              "amount": 1235000,
+              "conditions": "VAT is Inclusive"
+            },
+            {
+              "item": "Security Deposit",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000
+            }
+          ],
+          "total": 1585000,
+          "subTotal": 1585000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: 5 July — 25 July & 6 September — 12 September",
+        "effectiveDates": [
+          {
+            "from": "2027-07-05T00:00:00.000Z",
+            "to": "2027-07-25T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-05T00:00:00.000Z",
+            "to": "2028-07-25T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-05T00:00:00.000Z",
+            "to": "2029-07-25T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-06T00:00:00.000Z",
+            "to": "2027-09-12T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-06T00:00:00.000Z",
+            "to": "2028-09-12T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-06T00:00:00.000Z",
+            "to": "2029-09-12T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1485000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1485000,
+              "amount": 1485000,
+              "conditions": "VAT is Inclusive"
+            },
+            {
+              "item": "Security Deposit",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000
+            }
+          ],
+          "total": 1835000,
+          "subTotal": 1835000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Rate: 26 July — 5 September",
+        "effectiveDates": [
+          {
+            "from": "2027-07-26T00:00:00.000Z",
+            "to": "2027-09-05T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-26T00:00:00.000Z",
+            "to": "2028-09-05T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-26T00:00:00.000Z",
+            "to": "2029-09-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 1645000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1645000,
+              "amount": 1645000,
+              "conditions": "VAT is Inclusive"
+            },
+            {
+              "item": "Security Deposit",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 350000,
+              "amount": 350000
+            }
+          ],
+          "total": 1995000,
+          "subTotal": 1995000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
