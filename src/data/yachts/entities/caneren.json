@@ -1,5 +1,5 @@
 {
-  "lastModified": 1784024562887,
+  "lastModified": 1794485361210,
   "uri": "c::7819217464::vessel::d5cccd28-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -177,16 +177,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 200000,
+      "price": 240000,
       "displayCurrency": "EUR",
-      "displayPrice": 200000,
+      "displayPrice": 240000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 325000,
+      "price": 350000,
       "displayCurrency": "EUR",
-      "displayPrice": 325000,
+      "displayPrice": 350000,
       "unit": "DAY"
     },
     "pricingInfo": [
@@ -194,17 +194,17 @@
         "name": "Daily Charter Rates: April / May / October / November",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-11-30T23:59:59.999Z"
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 200000,
+          "charterFee": 240000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -212,13 +212,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 200000,
-              "amount": 200000,
+              "unitPrice": 240000,
+              "amount": 240000,
               "conditions": "Daily"
             }
           ],
-          "total": 200000,
-          "subTotal": 200000,
+          "total": 240000,
+          "subTotal": 240000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -249,17 +249,17 @@
         "name": "Daily Charter Rates: June / September",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 275000,
+          "charterFee": 290000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -267,13 +267,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 275000,
-              "amount": 275000,
+              "unitPrice": 290000,
+              "amount": 290000,
               "conditions": "Daily"
             }
           ],
-          "total": 275000,
-          "subTotal": 275000,
+          "total": 290000,
+          "subTotal": 290000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -304,13 +304,13 @@
         "name": "Daily Charter Rates: July / August",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 325000,
+          "charterFee": 350000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -318,13 +318,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 325000,
-              "amount": 325000,
+              "unitPrice": 350000,
+              "amount": 350000,
               "conditions": "Daily"
             }
           ],
-          "total": 325000,
-          "subTotal": 325000,
+          "total": 350000,
+          "subTotal": 350000,
           "totalTax": 0
         },
         "inclusionZones": [

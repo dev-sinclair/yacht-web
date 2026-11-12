@@ -1,5 +1,5 @@
 {
-  "lastModified": 1782133126493,
+  "lastModified": 1794486541199,
   "uri": "c::7819217464::vessel::d5cc7925-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -50,7 +50,7 @@
     },
     "cruisingCapacity": 0,
     "builtYear": 2008,
-    "refitYear": 2023,
+    "refitYear": 2025,
     "topSpeed": 11,
     "cruiseSpeed": 9,
     "fuelCapacity": 2800,
@@ -191,12 +191,12 @@
         "name": "Daily Rate: April / May / October / November",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-11-30T23:59:59.999Z"
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -250,12 +250,12 @@
         "name": "Daily Rate: June / September",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -309,8 +309,8 @@
         "name": "Daily Rate: July / August",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {

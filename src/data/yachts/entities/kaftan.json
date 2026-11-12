@@ -1,5 +1,5 @@
 {
-  "lastModified": 1789136005381,
+  "lastModified": 1794484972579,
   "uri": "c::7819217464::vessel::d5cc2457-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -179,16 +179,16 @@
   "pricing": {
     "dayPricingFrom": {
       "currency": "EUR",
-      "price": 200000,
+      "price": 230000,
       "displayCurrency": "EUR",
-      "displayPrice": 200000,
+      "displayPrice": 230000,
       "unit": "DAY"
     },
     "dayPricingTo": {
       "currency": "EUR",
-      "price": 300000,
+      "price": 340000,
       "displayCurrency": "EUR",
-      "displayPrice": 300000,
+      "displayPrice": 340000,
       "unit": "DAY"
     },
     "pricingInfo": [
@@ -196,33 +196,17 @@
         "name": "Daily Rate: April / May / October / November",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-04-01T00:00:00.000Z",
             "to": "2027-05-31T23:59:59.999Z"
           },
           {
-            "from": "2028-04-01T00:00:00.000Z",
-            "to": "2028-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-10-01T00:00:00.000Z",
-            "to": "2026-11-30T23:59:59.999Z"
-          },
-          {
             "from": "2027-10-01T00:00:00.000Z",
             "to": "2027-11-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-10-01T00:00:00.000Z",
-            "to": "2028-11-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 200000,
+          "charterFee": 230000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -230,13 +214,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 200000,
-              "amount": 200000,
+              "unitPrice": 230000,
+              "amount": 230000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 200000,
-          "subTotal": 200000,
+          "total": 230000,
+          "subTotal": 230000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -286,25 +270,17 @@
         "name": "Daily Rate: June / September",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-09-30T23:59:59.999Z"
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
             "to": "2027-09-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-09-30T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 250000,
+          "charterFee": 290000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -312,13 +288,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 250000,
-              "amount": 250000,
+              "unitPrice": 290000,
+              "amount": 290000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 250000,
-          "subTotal": 250000,
+          "total": 290000,
+          "subTotal": 290000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -368,21 +344,13 @@
         "name": "Daily Rate: July / August",
         "effectiveDates": [
           {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-08-31T23:59:59.999Z"
-          },
-          {
             "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-07-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 300000,
+          "charterFee": 340000,
           "inputAmountTaxed": "INCLUSIVE",
           "note": "",
           "unit": "DAY",
@@ -390,13 +358,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 300000,
-              "amount": 300000,
+              "unitPrice": 340000,
+              "amount": 340000,
               "conditions": "VAT is Included"
             }
           ],
-          "total": 300000,
-          "subTotal": 300000,
+          "total": 340000,
+          "subTotal": 340000,
           "totalTax": 0
         },
         "inclusionZones": [
