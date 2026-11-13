@@ -909,7 +909,7 @@
     "uri": "c::8164602117::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c",
     "slug": "oguz-khan",
     "name": "OGUZ KHAN",
-    "hero": "/media/media::image::c::8164602117::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::816823b0-adce-11f1-8f9a-9160966fc3cc/{imageVariant}",
+    "hero": "/media/media::image::c::8164602117::vessel::00f54410-d9e4-11f0-b6c9-0bd7a16ee99c::assets::69d326f0-adce-11f1-8f9a-9160966fc3cc/{imageVariant}",
     "length": 50.5,
     "sleeps": 12,
     "cabins": 6,
@@ -4340,6 +4340,35 @@
     ]
   },
   {
+    "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
+    "slug": "endemic",
+    "name": "ENDEMIC",
+    "hero": "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4c7580-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
+    "length": 35,
+    "sleeps": 16,
+    "cabins": 8,
+    "builtYear": 2018,
+    "builder": "",
+    "yachtType": [
+      "Motor",
+      "Power Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7449000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
+    ]
+  },
+  {
     "uri": "c::3805e02f5a704175bac07ed8af84d08d::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
     "slug": "phoenix-one",
     "name": "PHOENIX ONE",
@@ -4524,35 +4553,6 @@
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": []
-  },
-  {
-    "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
-    "slug": "endemic",
-    "name": "ENDEMIC",
-    "hero": "/media/media::image::a::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0::assets::bc4c7580-11bb-11f1-bbe1-6316c49d3624/{imageVariant}",
-    "length": 35,
-    "sleeps": 16,
-    "cabins": 8,
-    "builtYear": 2018,
-    "builder": "",
-    "yachtType": [
-      "Motor",
-      "Power Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7449000,
-    "currency": "USD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "summer-2029",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028",
-      "winter-2029"
-    ]
   },
   {
     "uri": "c::7819143053::vessel::c54556f0-29c4-11f0-b915-910aece98eef",
