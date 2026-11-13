@@ -1,10 +1,10 @@
 {
-  "lastModified": 1784635191646,
+  "lastModified": 1794554209690,
   "uri": "c::18227086393::vessel::d5cc4f5b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Tropical North Queensland | Great Barrier Reef | South Pacific\n- Fiji (May and June 2026 & 2027)\n- French Polynesia and Tahiti (July - October 2026 & July to November 2027)\n\nM.Y. Northern Escape, a 41 metre Benetti Oasis yacht, offers guests the very best chartering experience with the highest level of bespoke service and custom-designed accommodation.\n\nBathed in natural light, the interiors feature a formal dining room with two large wine cellars, a private salon and terrace. The expansive upper deck offers ample space for sunbathing, complete with jacuzzi, sun beds, bar, grill and alfresco dining for 12 guests. The main deck salon is the perfect place to enjoy unobstructed views of the open sea and kick-back on soft white sofas.\n\nM.Y. Northern Escape can accommodate up to 12 guests comfortably in a flexible cabin layout. The main-deck full-beam master suite features an office area, dressing rooms and his and her bathrooms including a steam shower. One of M.Y. Northern Escape’s best features is ultimately her outstanding beach club. The swim platform connects seamlessly to the main deck and its infinity pool, while twofold-down sea-level side platforms are added to create a truly outstanding beach club terrace.",
+  "description": "Operating Area: Tropical North Queensland | Great Barrier Reef | Fiji\n- Great Barrier Reef, from Cairns (December 2026 - April 2027 & from September 2027)\n- Fiji (May - August 2027)\n\nM.Y. Northern Escape, a 41 metre Benetti Oasis yacht, offers guests the very best chartering experience with the highest level of bespoke service and custom-designed accommodation.\n\nBathed in natural light, the interiors feature a formal dining room with two large wine cellars, a private salon and terrace. The expansive upper deck offers ample space for sunbathing, complete with jacuzzi, sun beds, bar, grill and alfresco dining for 12 guests. The main deck salon is the perfect place to enjoy unobstructed views of the open sea and kick-back on soft white sofas.\n\nM.Y. Northern Escape can accommodate up to 12 guests comfortably in a flexible cabin layout. The main-deck full-beam master suite features an office area, dressing rooms and his and her bathrooms including a steam shower. One of M.Y. Northern Escape’s best features is ultimately her outstanding beach club. The swim platform connects seamlessly to the main deck and its infinity pool, while twofold-down sea-level side platforms are added to create a truly outstanding beach club terrace.",
   "blueprint": {
     "name": "NORTHERN ESCAPE",
     "images": [
@@ -226,6 +226,10 @@
           {
             "from": "2027-01-06T00:00:00.000Z",
             "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -359,7 +363,11 @@
           },
           {
             "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -386,6 +394,13 @@
               "quantity": 0.25,
               "unitPrice": 23750000,
               "amount": 5937500
+            },
+            {
+              "item": "",
+              "conditions": "",
+              "quantity": 1,
+              "unitPrice": 0,
+              "amount": 0
             }
           ],
           "total": 32062500,
@@ -493,7 +508,11 @@
           },
           {
             "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -627,7 +646,11 @@
           },
           {
             "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -762,6 +785,10 @@
           {
             "from": "2027-01-06T00:00:00.000Z",
             "to": "2027-04-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -887,15 +914,15 @@
         "petsAllowed": false
       },
       {
-        "name": "Fiji (May and June 2026 | May and June 2027)",
+        "name": "Fiji (May - August 2027)",
         "effectiveDates": [
           {
             "from": "2026-05-01T00:00:00.000Z",
             "to": "2026-06-30T23:59:59.999Z"
           },
           {
-            "from": "2027-04-01T00:00:00.000Z",
-            "to": "2027-06-30T23:59:59.999Z"
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -953,71 +980,7 @@
         "petsAllowed": false
       },
       {
-        "name": "French Polynesia and Tahiti (July - October 2026 | July - November 2027)",
-        "effectiveDates": [
-          {
-            "from": "2026-07-01T00:00:00.000Z",
-            "to": "2026-10-31T23:59:59.999Z"
-          },
-          {
-            "from": "2027-07-01T00:00:00.000Z",
-            "to": "2027-11-30T23:59:59.999Z"
-          }
-        ],
-        "pricing": {
-          "currency": "AUD",
-          "charterFee": 35000000,
-          "inputAmountTaxed": "EXCLUSIVE",
-          "note": "",
-          "unit": "DAY",
-          "lineItems": [
-            {
-              "item": "Charter Fee",
-              "quantity": 1,
-              "unitPrice": 35000000,
-              "amount": 35000000,
-              "conditions": "Daily",
-              "taxRate": {
-                "label": "TAX",
-                "value": 0.05
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 0.3,
-              "unitPrice": 35000000,
-              "amount": 10500000
-            }
-          ],
-          "total": 47250000,
-          "subTotal": 45500000,
-          "totalTax": 1750000
-        },
-        "inclusionZones": [
-          {
-            "label": "Papeete, French Polynesia",
-            "type": "Custom Area",
-            "category": [
-              "Papeete"
-            ],
-            "coordinates": [
-              -149.57083350000002,
-              -17.579167
-            ],
-            "bbox": [
-              -149.625,
-              -17.641667,
-              -149.516667,
-              -17.516667
-            ]
-          }
-        ],
-        "exclusionZones": [],
-        "petsAllowed": false
-      },
-      {
-        "name": "Festive Period (21 December 2026 - 5 January 2027 & 20 December 2027 - 4 January 2028)",
+        "name": "Festive Period (21 December 2026 - 5 January 2027)",
         "effectiveDates": [
           {
             "from": "2026-12-21T00:00:00.000Z",
@@ -1123,6 +1086,118 @@
               -17,
               145.791667,
               -16.875
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Festive Period (20 December 2027 - 5 January 2028)",
+        "effectiveDates": [
+          {
+            "from": "2027-12-20T00:00:00.000Z",
+            "to": "2028-01-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 38500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 38500000,
+              "amount": 38500000,
+              "taxRate": {
+                "label": "GST",
+                "value": 0.1
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 38500000,
+              "amount": 9625000
+            }
+          ],
+          "total": 51975000,
+          "subTotal": 48125000,
+          "totalTax": 3850000
+        },
+        "inclusionZones": [
+          {
+            "label": "Great Barrier Reef",
+            "type": "Custom Area",
+            "category": [
+              "Great Barrier Reef"
+            ],
+            "coordinates": [
+              147.77471376964013,
+              -17.443523176627277
+            ],
+            "bbox": [
+              142.7798433778594,
+              -25.564640801701245,
+              153.29553628088772,
+              -9.638419311251553
+            ]
+          },
+          {
+            "label": "Cairns, Queensland, Australia",
+            "type": "Custom Area",
+            "category": [
+              "Cairns"
+            ],
+            "coordinates": [
+              145.7375,
+              -16.9375
+            ],
+            "bbox": [
+              145.683333,
+              -17,
+              145.791667,
+              -16.875
+            ]
+          },
+          {
+            "label": "Queensland, AU, Australia",
+            "type": "State",
+            "category": [
+              "Queensland"
+            ],
+            "coordinates": [
+              144.57430167633441,
+              -21.817616256828213
+            ],
+            "bbox": [
+              138.0017406465288,
+              -29.13934582297228,
+              153.53867239155943,
+              -10.051698610461301
+            ]
+          },
+          {
+            "label": "Australia",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "Australia"
+            ],
+            "coordinates": [
+              134.10701705798022,
+              -25.516879284507734
+            ],
+            "bbox": [
+              112.908203125,
+              -39.1455078125,
+              153.61689453125,
+              -10.0517578125
             ]
           }
         ],

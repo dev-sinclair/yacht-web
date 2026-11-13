@@ -1,5 +1,5 @@
 {
-  "lastModified": 1794500267251,
+  "lastModified": 1794571045242,
   "uri": "c::7819217464::vessel::61fd3fa0-142f-11ef-802a-c928f19707e7",
   "yachtType": [
     "Gulet",
@@ -214,6 +214,20 @@
       "displayPrice": 600000,
       "unit": "DAY"
     },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2730000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2730000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4200000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4200000,
+      "unit": "WEEK"
+    },
     "pricingInfo": [
       {
         "name": "Daily Charter Rates: April / May / October / November",
@@ -420,6 +434,264 @@
           ],
           "total": 600000,
           "subTotal": 600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: April / May / October / November",
+        "effectiveDates": [
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-01T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-01T00:00:00.000Z",
+            "to": "2029-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2730000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2730000,
+              "amount": 2730000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2730000,
+          "subTotal": 2730000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: June / September",
+        "effectiveDates": [
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3500000,
+          "subTotal": 3500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: July / August",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 4200000,
+          "subTotal": 4200000,
           "totalTax": 0
         },
         "inclusionZones": [

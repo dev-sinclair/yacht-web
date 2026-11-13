@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1794571377861,
   "uri": "c::7819217464::vessel::d5cbd2df-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -146,6 +146,20 @@
       "displayCurrency": "EUR",
       "displayPrice": 700000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4900000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -323,6 +337,207 @@
           ],
           "total": 700000,
           "subTotal": 700000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "WEEKLY CHARTER RATES 2027: April / May / October / November",
+        "effectiveDates": [
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-01T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-01T00:00:00.000Z",
+            "to": "2029-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3500000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3500000,
+              "amount": 3500000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3500000,
+          "subTotal": 3500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "WEEKLY CHARTER RATES 2027: June / September",
+        "effectiveDates": [
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 4200000,
+          "subTotal": 4200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "WEEKLY CHARTER RATES 2027: July / August",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 4900000,
+          "subTotal": 4900000,
           "totalTax": 0
         },
         "inclusionZones": [

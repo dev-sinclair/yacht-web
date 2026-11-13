@@ -1,5 +1,5 @@
 {
-  "lastModified": 1794500311719,
+  "lastModified": 1794571021430,
   "uri": "c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -204,6 +204,20 @@
       "displayCurrency": "EUR",
       "displayPrice": 420000,
       "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2100000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2100000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2940000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2940000,
+      "unit": "WEEK"
     },
     "pricingInfo": [
       {
@@ -458,6 +472,207 @@
               34.337078172828036,
               28.475189208984375,
               41.44066745847661
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: April / May / October / November",
+        "effectiveDates": [
+          {
+            "from": "2027-04-01T00:00:00.000Z",
+            "to": "2027-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-04-01T00:00:00.000Z",
+            "to": "2028-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-04-01T00:00:00.000Z",
+            "to": "2029-05-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-10-01T00:00:00.000Z",
+            "to": "2027-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-10-01T00:00:00.000Z",
+            "to": "2028-11-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-10-01T00:00:00.000Z",
+            "to": "2029-11-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2100000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2100000,
+              "amount": 2100000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2100000,
+          "subTotal": 2100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: June / September",
+        "effectiveDates": [
+          {
+            "from": "2027-06-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2450000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2450000,
+              "amount": 2450000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2450000,
+          "subTotal": 2450000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Weekly Charter Rates: July / August",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2940000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2940000,
+              "amount": 2940000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2940000,
+          "subTotal": 2940000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
             ]
           }
         ],
