@@ -5333,6 +5333,30 @@
     "seasons": []
   },
   {
+    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
+    "slug": "flying-fish",
+    "name": "FLYING FISH",
+    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
+    "length": 32,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1991,
+    "builder": "Warren Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 1650000,
+    "weekPricingFrom": 6105000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744",
     "slug": "s-dogu",
     "name": "S DOGU",
@@ -5401,30 +5425,6 @@
     "seasons": [
       "summer-2026",
       "winter-2025"
-    ]
-  },
-  {
-    "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
-    "slug": "flying-fish",
-    "name": "FLYING FISH",
-    "hero": "/media/media::image::c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744::assets::d38901c0-e506-11ee-b3ea-8b46082d0724.jpeg/{imageVariant}",
-    "length": 32,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1991,
-    "builder": "Warren Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": 1650000,
-    "weekPricingFrom": 10150000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
