@@ -4340,6 +4340,32 @@
     ]
   },
   {
+    "uri": "c::3805e02f5a704175bac07ed8af84d08d::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
+    "slug": "phoenix-one",
+    "name": "PHOENIX ONE",
+    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::520be770-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
+    "length": 35,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 1983,
+    "builder": "Lloyds Ships",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9300000,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::26117080418::vessel::486dda20-0746-11f1-93e9-eb6e371f2fc0",
     "slug": "endemic",
     "name": "ENDEMIC",
@@ -4366,32 +4392,6 @@
       "winter-2027",
       "winter-2028",
       "winter-2029"
-    ]
-  },
-  {
-    "uri": "c::3805e02f5a704175bac07ed8af84d08d::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744",
-    "slug": "phoenix-one",
-    "name": "PHOENIX ONE",
-    "hero": "/media/media::image::a::vessel::d5cca19d-fe8c-11ed-889f-43d4bb723744::assets::520be770-50d6-11ef-aaee-03084cf6c8ec.jpeg/{imageVariant}",
-    "length": 35,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 1983,
-    "builder": "Lloyds Ships",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9300000,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -16765,6 +16765,33 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::9938368400::vessel::b380b160-df41-11f1-af44-093be554541d",
+    "slug": "elpadorado",
+    "name": "ELPADORADO",
+    "hero": "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::213011b0-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+    "length": 18.4,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2027,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 4200000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
     ]
   },
   {

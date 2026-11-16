@@ -1,0 +1,345 @@
+{
+  "lastModified": null,
+  "uri": "c::9938368400::vessel::b380b160-df41-11f1-af44-093be554541d",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Italy, Monaco, South of France, Mediterranean\n\nIntroducing ELPADORADO, a brand-new 2027 Sunreef 60 Sailing NEXT, representing the latest generation of luxury sailing catamarans.\n\nDesigned to deliver an exceptional charter experience, ELPADORADO combines contemporary elegance with innovative features, including a hydraulic fold-down side platform, a powerful hydraulic aft platform with a 1,000 kg lifting capacity, and an integrated tender garage ,  a remarkable feature for a sailing catamaran of this size.\n\nHer outstanding collection of premium water toys includes a Williams SportJet 435, a jet ski, and two exclusive Lamborghini SEABOBs, offering guests an extraordinary experience on and beneath the water.\n\nWith her carbon performance mast, luxurious interiors, expansive outdoor living spaces, and carefully selected premium equipment, ELPADORADO sets a new standard of sophistication, comfort, and adventure in the 60-foot sailing catamaran category.",
+  "blueprint": {
+    "name": "ELPADORADO",
+    "images": [
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::213011b0-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::212fc390-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::21314a30-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::212f4e60-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::2130fc10-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::21305fd0-df42-11f1-954b-478ba6d8450a/{imageVariant}",
+      "/media/media::image::a::vessel::b380b160-df41-11f1-af44-093be554541d::assets::212e8b10-df42-11f1-954b-478ba6d8450a/{imageVariant}"
+    ],
+    "make": "Sunreef Yachts",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "builtYear": 2027,
+    "cabinLayout": [
+      {
+        "label": "King Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Queen Cabins",
+        "value": "3"
+      }
+    ],
+    "cabins": 4,
+    "length": 18.4,
+    "beam": 10.2,
+    "draft": 2.2,
+    "hullType": "Catamaran",
+    "hullConstruction": "Composite",
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2 × Yanmar 4LV170 diesel engines, 170 hp each, with feathering propellers.",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Solar panels"
+      },
+      {
+        "label": "Watermakers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Sea-Doo Spark Jet ski"
+      },
+      {
+        "label": "Lamborghini SEABOB",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "4/5G Internet",
+      "Outdoor sound system"
+    ],
+    "tenders": [
+      "Williams SportJet 435 130 hp"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4200000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4200000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 5400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Summer 2027: High Season",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5400000,
+              "amount": 5400000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 5400000,
+              "amount": 1350000
+            }
+          ],
+          "total": 6750000,
+          "subTotal": 6750000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Mediterranean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Mediterranean Sea"
+            ],
+            "coordinates": [
+              17.891338226172916,
+              35.763473470161784
+            ],
+            "bbox": [
+              -2.0911329817696185,
+              30.83036652274312,
+              36.18826175308399,
+              43.82670502377162
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Summer 2027: Low Season",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-01-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4200000,
+              "amount": 4200000,
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.25,
+              "unitPrice": 4200000,
+              "amount": 1050000
+            }
+          ],
+          "total": 5250000,
+          "subTotal": 5250000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Mediterranean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Mediterranean Sea"
+            ],
+            "coordinates": [
+              17.891338226172916,
+              35.763473470161784
+            ],
+            "bbox": [
+              -2.0911329817696185,
+              30.83036652274312,
+              36.18826175308399,
+              43.82670502377162
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
