@@ -2128,6 +2128,27 @@
     ]
   },
   {
+    "uri": "c::7819298091::vessel::d5cb8423-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tersane-8",
+    "name": "TERSANE 8",
+    "hero": "/media/media::image::a::vessel::d5cb8423-fe8c-11ed-889f-43d4bb723744::assets::90ea9bb0-9382-11ee-bdc9-099aec9417bf.jpeg/{imageVariant}",
+    "length": 44,
+    "sleeps": 32,
+    "cabins": 14,
+    "builtYear": 2012,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3400000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::7579684728::vessel::d5cc7968-fe8c-11ed-889f-43d4bb723744",
     "slug": "ubi-bene",
     "name": "UBI BENE",
@@ -2147,33 +2168,6 @@
       "summer-2026",
       "summer-2027",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::d5cb8423-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tersane-8",
-    "name": "TERSANE 8",
-    "hero": "/media/media::image::a::vessel::d5cb8423-fe8c-11ed-889f-43d4bb723744::assets::90ea9bb0-9382-11ee-bdc9-099aec9417bf.jpeg/{imageVariant}",
-    "length": 44,
-    "sleeps": 32,
-    "cabins": 14,
-    "builtYear": 2012,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3400000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -5333,6 +5327,27 @@
     "seasons": []
   },
   {
+    "uri": "c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744",
+    "slug": "s-dogu",
+    "name": "S DOGU",
+    "hero": "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::7d2a92c0-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
+    "length": 32,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2006,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1820000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::18227086393::vessel::d5cc7979-fe8c-11ed-889f-43d4bb723744",
     "slug": "flying-fish",
     "name": "FLYING FISH",
@@ -5354,29 +5369,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744",
-    "slug": "s-dogu",
-    "name": "S DOGU",
-    "hero": "/media/media::image::c::7819298091::vessel::d5cabfd0-fe8c-11ed-889f-43d4bb723744::assets::7d2a92c0-a01a-11ee-b3e1-f14ea511c2a0.jpeg/{imageVariant}",
-    "length": 32,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2006,
-    "builder": "Custom",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 1820000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "winter-2026"
     ]
   },
   {
@@ -6145,6 +6137,26 @@
     ]
   },
   {
+    "uri": "c::7819298091::vessel::c0ae64f0-2421-11ef-bd53-e5122ece92e9",
+    "slug": "blues",
+    "name": "BLUES",
+    "hero": "/media/media::image::c::7819298091::vessel::c0ae64f0-2421-11ef-bd53-e5122ece92e9::assets::2a661aa0-24e5-11ef-94a5-454b922950ed.jpeg/{imageVariant}",
+    "length": 30.5,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1997,
+    "builder": "Ses Yachts",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 3850000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027"
+    ]
+  },
+  {
     "uri": "c::8275378522::vessel::d5cc4e6d-fe8c-11ed-889f-43d4bb723744",
     "slug": "lady-lex",
     "name": "LADY LEX",
@@ -6164,32 +6176,6 @@
       "summer-2025",
       "summer-2026",
       "summer-2027",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819298091::vessel::c0ae64f0-2421-11ef-bd53-e5122ece92e9",
-    "slug": "blues",
-    "name": "BLUES",
-    "hero": "/media/media::image::c::7819298091::vessel::c0ae64f0-2421-11ef-bd53-e5122ece92e9::assets::2a661aa0-24e5-11ef-94a5-454b922950ed.jpeg/{imageVariant}",
-    "length": 30.5,
-    "sleeps": 10,
-    "cabins": 5,
-    "builtYear": 1997,
-    "builder": "Ses Yachts",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 3850000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
       "winter-2025",
       "winter-2026",
       "winter-2027"
@@ -21074,8 +21060,8 @@
     "name": "BEYOND",
     "hero": "/media/media::image::a::vessel::d5af5010-7e6f-11ee-8554-8768321783e2::assets::ce298cf0-2117-11f1-bf0f-d5f0a6c8b65f/{imageVariant}",
     "length": 15.91,
-    "sleeps": 8,
-    "cabins": 5,
+    "sleeps": 6,
+    "cabins": 4,
     "builtYear": 2022,
     "builder": "Fountaine Pajot",
     "yachtType": [
