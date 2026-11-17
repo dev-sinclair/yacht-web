@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783506755095,
+  "lastModified": 1794903084783,
   "uri": "c::8164602117::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -159,14 +159,14 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 15000000,
+      "price": 17000000,
       "displayCurrency": "EUR",
-      "displayPrice": 15000000,
+      "displayPrice": 17000000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Season A (From 01 May 2027 till 16 May 2027) & Season E (From 22 September 2027 till 31 October 2027)",
+        "name": "2027 - Season A (From 01 May 2027 till 16 May 2027) & Season E (From 22 September 2027 till 31 October 2027)",
         "effectiveDates": [
           {
             "from": "2027-05-01T00:00:00.000Z",
@@ -248,7 +248,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Season B (From 17 May 2027 till 25 June 2027) & Season D (From 29 August 2027 till 21 September 2027)",
+        "name": "2027 - Season B (From 17 May 2027 till 25 June 2027) & Season D (From 29 August 2027 till 21 September 2027)",
         "effectiveDates": [
           {
             "from": "2027-05-17T00:00:00.000Z",
@@ -330,7 +330,7 @@
         "petsAllowed": false
       },
       {
-        "name": "Season C (From 26 June 2027 till 28 August 2027)",
+        "name": "2027 - Season C (From 26 June 2027 till 28 August 2027)",
         "effectiveDates": [
           {
             "from": "2027-06-26T00:00:00.000Z",
@@ -374,6 +374,207 @@
           "total": 21450000,
           "subTotal": 19500000,
           "totalTax": 1950000
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2028 - Season A (From 19 April 2028 till 12 May 2028) & Season E (From 22 September 2028 till 31 October 2028)",
+        "effectiveDates": [
+          {
+            "from": "2028-04-19T00:00:00.000Z",
+            "to": "2028-05-12T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-22T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 13000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 13000000,
+              "amount": 13000000,
+              "conditions": ""
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 13000000,
+              "amount": 1690000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 13000000,
+              "amount": 3900000
+            }
+          ],
+          "total": 18590000,
+          "subTotal": 18590000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2028 - Season B (From 13 May 2028 till 09 June 2028) & Season D (From 29 August 2028 till 21 September 2028)",
+        "effectiveDates": [
+          {
+            "from": "2028-05-13T00:00:00.000Z",
+            "to": "2028-06-09T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-29T00:00:00.000Z",
+            "to": "2028-09-21T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 15000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 15000000,
+              "amount": 15000000
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 15000000,
+              "amount": 1950000
+            },
+            {
+              "item": "A.P.A. 30%",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 15000000,
+              "amount": 4500000
+            }
+          ],
+          "total": 21450000,
+          "subTotal": 21450000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "2028 - Season C (From 10 June 2028 till 28 August 2028)",
+        "effectiveDates": [
+          {
+            "from": "2028-06-10T00:00:00.000Z",
+            "to": "2028-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 17000000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 17000000,
+              "amount": 17000000
+            },
+            {
+              "item": "VAT 13%",
+              "conditions": "",
+              "quantity": 0.13,
+              "unitPrice": 17000000,
+              "amount": 2210000
+            },
+            {
+              "item": "A.P.A. 30 %",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 17000000,
+              "amount": 5100000
+            }
+          ],
+          "total": 24310000,
+          "subTotal": 24310000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {

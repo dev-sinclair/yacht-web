@@ -835,6 +835,29 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "olimp",
+    "name": "OLIMP",
+    "hero": "/media/media::image::a::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744::assets::dd715e70-5f21-11f1-9471-49936d7058fe/{imageVariant}",
+    "length": 52,
+    "sleeps": 20,
+    "cabins": 10,
+    "builtYear": 2017,
+    "builder": "Posejdon D.o.o.",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 12500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::25879711825::vessel::ae11ce70-f81c-11ef-9226-9b7aba5508fe",
     "slug": "adriatic-king",
     "name": "ADRIATIC KING",
@@ -858,28 +881,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "olimp",
-    "name": "OLIMP",
-    "hero": "/media/media::image::a::vessel::d5cbabb7-fe8c-11ed-889f-43d4bb723744::assets::dd715e70-5f21-11f1-9471-49936d7058fe/{imageVariant}",
-    "length": 52,
-    "sleeps": 20,
-    "cabins": 10,
-    "builtYear": 2017,
-    "builder": "Posejdon D.o.o.",
-    "yachtType": [
-      "Motor"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 12500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027",
-      "summer-2028",
-      "summer-2029"
     ]
   },
   {
@@ -6401,33 +6402,6 @@
     ]
   },
   {
-    "uri": "c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744",
-    "slug": "serenity-86",
-    "name": "SERENITY 86",
-    "hero": "/media/media::image::c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744::assets::02008e80-bd7c-11ef-9b7b-2927e1cabf03/{imageVariant}",
-    "length": 30,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2007,
-    "builder": "Mural Yachts",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 300000,
-    "weekPricingFrom": 2100000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027",
-      "summer-2028",
-      "summer-2029",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028",
-      "winter-2029"
-    ]
-  },
-  {
     "uri": "c::7819217464::vessel::490fd9f0-cc11-11ee-bf8a-ad14a1404930",
     "slug": "happy-days",
     "name": "HAPPY DAYS",
@@ -6452,6 +6426,33 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
+    ]
+  },
+  {
+    "uri": "c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744",
+    "slug": "serenity-86",
+    "name": "SERENITY 86",
+    "hero": "/media/media::image::c::7819217464::vessel::d5cca4c7-fe8c-11ed-889f-43d4bb723744::assets::02008e80-bd7c-11ef-9b7b-2927e1cabf03/{imageVariant}",
+    "length": 30,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2007,
+    "builder": "Mural Yachts",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 300000,
+    "weekPricingFrom": 2100000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
     ]
   },
   {
@@ -9054,6 +9055,33 @@
     ]
   },
   {
+    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
+    "slug": "tango-charlie",
+    "name": "TANGO CHARLIE",
+    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
+    "length": 26,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2008,
+    "builder": "Cobanoglu Shipyards",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": 250000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::55554307711::vessel::2c9386d0-6662-11f1-872c-47ea96019643",
     "slug": "great-escape-iv",
     "name": "GREAT ESCAPE IV",
@@ -9106,33 +9134,6 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819217464::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744",
-    "slug": "tango-charlie",
-    "name": "TANGO CHARLIE",
-    "hero": "/media/media::image::a::vessel::d5cc24b5-fe8c-11ed-889f-43d4bb723744::assets::82bf8d40-a378-11f0-8237-07e9117c6be0/{imageVariant}",
-    "length": 26,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2008,
-    "builder": "Cobanoglu Shipyards",
-    "yachtType": [
-      "Gulet",
-      "Sailing"
-    ],
-    "dayPricingFrom": 250000,
-    "weekPricingFrom": null,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
     ]
   },
   {
@@ -12572,7 +12573,7 @@
       "Sailing"
     ],
     "dayPricingFrom": 200000,
-    "weekPricingFrom": 285000,
+    "weekPricingFrom": 1400000,
     "currency": "EUR",
     "seasons": [
       "summer-2027",
