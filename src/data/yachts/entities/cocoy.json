@@ -1,10 +1,10 @@
 {
-  "lastModified": 1785799902904,
+  "lastModified": 1795025949888,
   "uri": "c::17338971224::vessel::1228a120-68fa-11ef-a710-5b623bea5cd1",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Summer Season: Mediterranean - French Riviera, Monaco in July, Corsica, Sardinia in August 2026\nWinter Season: Caribbeans St Barth, St Martin\n\nStep aboard the Riva 82' Diva, a masterpiece of Italian craftsmanship that redefines luxury on the water.\n\nThis elegant yacht combines cutting-edge technology, contemporary design, and unmatched performance to offer an extraordinary charter experience.\n\nKEY FEATURES\n• Expansive beach club with a hydraulic swim platform  \n• Luxurious flybridge with ample sunbathing & lounge areas  \n• Alfresco dining on both the main deck & flybridge \n• 4 stylish cabins accommodating up to 8 guests  \n• State-of-the-art stabilizers for enhanced comfort  \n• Sleek, modern interior designed for ultimate relaxation",
+  "description": "Winter Season 2026/2027: Caribbeans St Barth, St Martin, Anguilla \n\nStep aboard the Riva 82' Diva, a masterpiece of Italian craftsmanship that redefines luxury on the water.\n\nThis elegant yacht combines cutting-edge technology, contemporary design, and unmatched performance to offer an extraordinary charter experience.\n\nKEY FEATURES\n• Expansive beach club with a hydraulic swim platform  \n• Luxurious flybridge with ample sunbathing & lounge areas  \n• Alfresco dining on both the main deck & flybridge \n• 4 stylish cabins accommodating up to 8 guests  \n• State-of-the-art stabilizers for enhanced comfort  \n• Sleek, modern interior designed for ultimate relaxation",
   "blueprint": {
     "name": "COCOY",
     "images": [
@@ -40,13 +40,11 @@
     "maxCrew": 3,
     "sleeps": 8,
     "basePort": {
-      "uri": "a::place::f8ceebd4-b3ed-11ed-ae82-325096b39f47",
-      "name": "Monaco",
+      "name": "Saint Martin",
       "coordinates": {
-        "latitude": 43.73477498,
-        "longitude": 7.421418372
-      },
-      "country": "Monaco"
+        "longitude": -63.050791,
+        "latitude": 18.088647
+      }
     },
     "cruisingCapacity": 12,
     "staticCapacity": 20,
@@ -184,15 +182,11 @@
     },
     "pricingInfo": [
       {
-        "name": "Low Season Mediterranean - Weekly Rate",
+        "name": "Caribbean - Weekly Rate",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -207,7 +201,7 @@
               "quantity": 1,
               "unitPrice": 6000000,
               "amount": 6000000,
-              "conditions": "VAT & APA Excluded"
+              "conditions": "APA Excluded"
             }
           ],
           "total": 6000000,
@@ -294,15 +288,11 @@
         "petsAllowed": false
       },
       {
-        "name": "Low Season Mediterranean - Day Rate",
+        "name": "Caribbean - Day Rate",
         "effectiveDates": [
           {
-            "from": "2026-01-01T00:00:00.000Z",
-            "to": "2026-06-30T23:59:59.999Z"
-          },
-          {
-            "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-12-31T23:59:59.999Z"
+            "from": "2026-12-01T00:00:00.000Z",
+            "to": "2027-04-30T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -317,7 +307,7 @@
               "quantity": 1,
               "unitPrice": 1000000,
               "amount": 1000000,
-              "conditions": "VAT & APA Excluded"
+              "conditions": "APA Excluded"
             }
           ],
           "total": 1000000,
