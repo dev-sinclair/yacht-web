@@ -1,0 +1,285 @@
+{
+  "lastModified": 1795007205504,
+  "uri": "c::7819298091::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Turkey (Aegean Sea)\n\nHELESA is a 21.70m / 71ft Luxury Motor Yacht built in 2004 by Dominator and later underwent a refit in 2025. Sleeping 6 guests in 3 cabins and with a crew of 3. Cruising at 21.00 kn/ph with a top speed of 31.00 kn/ph. The guest cabins comprise of a Master cabin, a VIP cabin and a twin cabin.",
+  "blueprint": {
+    "name": "HELESA",
+    "images": [
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a2bcf0-e34d-11f1-a577-b9cc1270a6c4/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a30b10-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a2e400-e34d-11f1-a577-b9cc1270a6c4/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a295e0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409bdf20-e34d-11f1-b0b9-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a18470-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409fd6c0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409cf090-e34d-11f1-b0b9-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409f88a0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a0e830-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a63f60-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a5a320-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a86240-e34d-11f1-ab2f-fbfc8ea8d977/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a33220-e34d-11f1-84c7-256971a93ad0/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a13650-e34d-11f1-a577-b9cc1270a6c4/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a3a750-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a52df0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a41c80-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a2bcf0-e34d-11f1-84c7-256971a93ad0/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a09a10-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409d65c0-e34d-11f1-b0b9-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a4b8c0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409e9e40-e34d-11f1-8e3e-bd0eb6e50414/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409ec550-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a61850-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::40a024e0-e34d-11f1-b0ba-7bf0a431cca6/{imageVariant}",
+      "/media/media::image::a::vessel::aaddbe60-e34a-11f1-b7e4-ed6dca52af85::assets::409eec60-e34d-11f1-b0b9-7bf0a431cca6/{imageVariant}"
+    ],
+    "make": "Dominator",
+    "model": "Dominator 68S ",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::d51ce592-b3ed-11ed-9373-325096b39f47",
+      "name": "Bodrum",
+      "coordinates": {
+        "latitude": 37.03482562918905,
+        "longitude": 27.42932494208488
+      },
+      "country": "Türkiye"
+    },
+    "builtYear": 2004,
+    "refitYear": 2025,
+    "topSpeed": 31,
+    "cruiseSpeed": 21,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 0,
+    "length": 21.7,
+    "beam": 5.5,
+    "draft": 1.8,
+    "engines": "2 x 1360HP MAN",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Swim platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Donut"
+      },
+      {
+        "label": "Stand-up Paddle board"
+      },
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Water-ski"
+      }
+    ],
+    "tenders": [
+      "1 x 3.80m tender with outboard 40HP"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2100000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2100000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 2500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low season (May, June, September, October)",
+        "effectiveDates": [
+          {
+            "from": "2027-05-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-01T00:00:00.000Z",
+            "to": "2029-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-10-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-01T00:00:00.000Z",
+            "to": "2029-10-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2100000,
+              "amount": 2100000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2100000,
+          "subTotal": 2100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High season (July, August)",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2029-07-01T00:00:00.000Z",
+            "to": "2029-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2500000,
+              "amount": 2500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 2500000,
+          "subTotal": 2500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Aegean Sea",
+            "type": "Custom Area",
+            "category": [
+              "Aegean Sea"
+            ],
+            "coordinates": [
+              25.17433827229007,
+              38.821119014422294
+            ],
+            "bbox": [
+              22.569093051857664,
+              36.51149262139869,
+              28.2422868181564,
+              40.99460399023168
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "lastModified": null,
+  "uri": "c::8164602117::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Gulet",
+    "Sailing"
+  ],
+  "description": "Operating Area: Croatia\n\nStep aboard Lotus, a 27-meter gulet blending classic charm with modern comfort. Enjoy four cozy cabins, a spacious flybridge, and plenty of room for up to eight guests. Have fun on the water with jet ski, paddleboards, and more.",
+  "blueprint": {
+    "name": "LOTUS",
+    "images": [
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::d0976f60-ab30-11ef-9c73-99f0be7d1747/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8737dcb0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872da380-e350-11f1-9d1d-7fc69b9c9767/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87314d00-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8735b9d0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872dca90-e350-11f1-9e90-d5f96d8a5b86/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87301480-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872e66d0-e350-11f1-8aa1-714b284563ec/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872e66d0-e350-11f1-a981-9bdadbe6bcae/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872dca90-e350-11f1-a196-2deeaf523184/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8736cb40-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873062a0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87393c40-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87430040-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8740b650-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87351d90-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::874f0e30-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8743eaa0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8738a000-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873b5f20-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87340c20-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87415290-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::872e18b0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873e6c60-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873ac2e0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::87328580-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873f2fb1-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873c4980-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8731c230-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873d0cd0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::8741eed0-e350-11f1-a186-03bed44960ff/{imageVariant}",
+      "/media/media::image::a::vessel::d5cca2bb-fe8c-11ed-889f-43d4bb723744::assets::873f2fb0-e350-11f1-a186-03bed44960ff/{imageVariant}"
+    ],
+    "make": "Huzur Yat",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 0,
+    "staticCapacity": 0,
+    "builtYear": 2006,
+    "architect": "",
+    "refitYear": 2019,
+    "topSpeed": 15,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 27,
+    "beam": 6.6,
+    "draft": 3.5,
+    "hullType": "",
+    "hullConstruction": "Wood",
+    "superStructure": [],
+    "engines": "2 x 450 MAN",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Flybridge"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Jet ski"
+      },
+      {
+        "label": "Water skiing"
+      },
+      {
+        "label": "Tube ride"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Paddleboard"
+      },
+      {
+        "label": "Flybridge"
+      }
+    ],
+    "tenders": [
+      "5.8 m 115 HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "TBC",
+      "role": "Captain"
+    },
+    {
+      "name": "TBC",
+      "role": "Captain"
+    },
+    {
+      "name": "TBC",
+      "role": "Captain"
+    },
+    {
+      "name": "TBC",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 2400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 2400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Season A & Season E",
+        "effectiveDates": [
+          {
+            "from": "2027-05-03T00:00:00.000Z",
+            "to": "2027-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-03T00:00:00.000Z",
+            "to": "2028-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-03T00:00:00.000Z",
+            "to": "2029-05-29T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-18T00:00:00.000Z",
+            "to": "2027-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-18T00:00:00.000Z",
+            "to": "2028-09-30T23:59:59.999Z"
+          },
+          {
+            "from": "2029-09-18T00:00:00.000Z",
+            "to": "2029-09-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 2400000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 2400000,
+              "amount": 2400000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 2400000,
+          "subTotal": 2400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season B & Season D",
+        "effectiveDates": [
+          {
+            "from": "2027-05-29T00:00:00.000Z",
+            "to": "2027-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2028-05-29T00:00:00.000Z",
+            "to": "2028-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2029-05-29T00:00:00.000Z",
+            "to": "2029-06-12T23:59:59.999Z"
+          },
+          {
+            "from": "2027-08-28T00:00:00.000Z",
+            "to": "2027-09-18T23:59:59.999Z"
+          },
+          {
+            "from": "2028-08-28T00:00:00.000Z",
+            "to": "2028-09-18T23:59:59.999Z"
+          },
+          {
+            "from": "2029-08-28T00:00:00.000Z",
+            "to": "2029-09-18T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Season C",
+        "effectiveDates": [
+          {
+            "from": "2027-06-12T00:00:00.000Z",
+            "to": "2027-08-28T23:59:59.999Z"
+          },
+          {
+            "from": "2028-06-12T00:00:00.000Z",
+            "to": "2028-08-28T23:59:59.999Z"
+          },
+          {
+            "from": "2029-06-12T00:00:00.000Z",
+            "to": "2029-08-28T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3400000,
+          "inputAmountTaxed": "INCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3400000,
+              "amount": 3400000,
+              "conditions": "VAT is Inclusive"
+            }
+          ],
+          "total": 3400000,
+          "subTotal": 3400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
