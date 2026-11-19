@@ -1,0 +1,745 @@
+{
+  "lastModified": 1795094738643,
+  "uri": "c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Albania, Croatia, Cyprus, Greece - Aegean/Cyclades Sea, Greece - Ionian Sea, Italy - North (mainland), Italy - Sardinia, Italy - Sicily, Italy - South (mainland), Montenegro, Slovenia, Turkey, Venice\n\nMore than a yacht, Mirage IV is a 40-metre blend of freedom, style, and comfort. Designed for up to 12 guests and cared for by a professional crew of eight, she transforms every cruise on the Adriatic into a relaxed and unforgettable experience.\nBuilt by Princess Yachts and fully refitted in 2024, Mirage IV combines timeless design with reliable performance. She is powered by twin MTU 12V engines, allowing her to cruise comfortably at 18 knots while reaching a top speed of 23 knots when desired. Moreover, with a range of around 2,000 nm, she is equally suited for long-distance adventures or leisurely island-hopping. Thanks to her GRP hull and superstructure, she offers excellent stability and a smooth ride in all conditions. As a result, every mile aboard is both enjoyable and efficient.",
+  "blueprint": {
+    "name": "MIRAGE IV",
+    "images": [
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f78708a0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f79d01a0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f7610a10-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f752b230-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f75152a0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f787f300-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f761a650-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f7624290-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f7877dd0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f76046c0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f78d7140-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::497d6500-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f798bbe0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f7523d00-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::f753eab0-b98b-11f0-995f-9d3903e70b78/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::70a7f1e0-b98c-11f0-b55d-1d8f1261e784/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::6fdf4ab0-b98c-11f0-8883-7f381e0efced/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::49726880-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::49175030-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::49a7f770-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::4a1d4e80-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::496b63a0-b98c-11f0-8717-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::7244b1f0-b98c-11f0-9030-7d55ce0a2909/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::6fb4df50-b98c-11f0-b55d-1d8f1261e784/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::70154ed0-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::702eca40-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::70039b90-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::7150b500-b98c-11f0-8883-7f381e0efced/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::731855a0-b98c-11f0-8883-7f381e0efced/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::89efcec0-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::707b3c90-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::6fe76100-b98c-11f0-8883-7f381e0efced/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::70188320-b98c-11f0-8718-2deb9e8026a7/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::6fa9bbc0-b98c-11f0-8883-7f381e0efced/{imageVariant}",
+      "/media/media::image::c::7646090758::vessel::48eebae0-6e87-11ef-9b37-15fe1ae9dc62::assets::700b15a0-b98c-11f0-9030-7d55ce0a2909/{imageVariant}"
+    ],
+    "make": "Princess",
+    "model": "Princess 40M",
+    "maxCrew": 8,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
+      "name": "Split",
+      "coordinates": {
+        "latitude": 43.51359615,
+        "longitude": 16.43884676
+      },
+      "country": "Croatia"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2017,
+    "architect": "Princess Yachts",
+    "interiorDesigner": "",
+    "refitYear": 2024,
+    "topSpeed": 23,
+    "cruiseSpeed": 18,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Convertible twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "decks": 0,
+    "length": 40.16,
+    "beam": 8.02,
+    "draft": 2.29,
+    "hullType": "",
+    "hullConstruction": "GRP",
+    "tonnage": 395,
+    "superStructure": [
+      "GRP"
+    ],
+    "engines": "2 x MTU 12V",
+    "amenities": [
+      {
+        "label": "Jacuzzi"
+      },
+      {
+        "label": "Lounge area"
+      },
+      {
+        "label": "Swim platform"
+      },
+      {
+        "label": "Zero-speed stabilizers"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Waterslide"
+      },
+      {
+        "label": "Climbing wall & air blub"
+      },
+      {
+        "label": "Beach club with sea pool"
+      },
+      {
+        "label": "Seabob F5s",
+        "quantity": "2"
+      },
+      {
+        "label": "Awake Ravik S"
+      },
+      {
+        "label": "Red Shark SUP (Fitness model)",
+        "quantity": "2"
+      },
+      {
+        "label": "Water skis"
+      },
+      {
+        "label": "Air donut"
+      },
+      {
+        "label": "Snorkeling sets"
+      },
+      {
+        "label": "Jet Ski Sea-Doo RXP-X 300 (valid license required)"
+      },
+      {
+        "label": "Wakeboard"
+      }
+    ],
+    "entertainment": [],
+    "tenders": [
+      "Williams 625 Diesel tender"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Darko Škaro",
+      "role": "Captain",
+      "bio": "Darko was born and grew up in Split area and, with his passion of the sea, he always knew he will be- come a professional seafarer. He has eighteen years of experience in marine industry, starting in sailing yacht charter and then working his way up to the motor yachts. He enjoyed being the captain of M/Y Elysium (35m), M/Y Lady Lona (26m), M/Y Catherine (26m), M/Y Ocean Drive (28m) and many others private and charter yachts in the Mediterranean sea. His calm personality and strong leadership are a guarantee of the ultimate safety for the guests, crew and the vessel, while delivering impeccable charter experience.\nDarko has an extensive knowledge of the Eastern Mediterranean, especially the Adriatic Sea which he considers as his home. Fluent in English, he is looking forward to welcoming any international client onboard."
+    },
+    {
+      "name": "SIME BARIC",
+      "role": "Captain",
+      "bio": "Sime is a Croatian yacht chef with over 14 years of experience in luxury hospitality, working on both private and charter yachts, as well as in exclusive villas. His cuisine is inspired by the Mediterranean, using fresh local ingredients, French techniques, and subtle Asian influences. Passionate about creating memorable dining experiences, Šime tailors every menu to his guests’ preferences while delivering exceptional quality and service throughout every charter"
+    },
+    {
+      "name": "NIKOLINA GRABOVAC",
+      "role": "Captain",
+      "bio": "Nikolina spent her childhood in Makarska and hails from the sunny coast where she grew up with a love for the sun, swimming and sea. She has started her career working in hotels and restaurants as a waitress and has become an expert in customer service. Nikolina has gained great experience in yachting as she has been serving onboard luxury motor yachts since 2018, offering top-notch services to the guests during thesummer seasons. Her previous yacht experience includes Amer yacht(26m), Princess yacht (26m) and Burger yacht (30m) and M/Y OceanDrive (28m) where she was working as a chief stewardess. Nikolina hasa passion for working with people and strives to provide the highest level of service for guests, combining her hospitality skills with her enthusiasm and positive energy,ensuring your stay onboard is both relaxing and enjoyable."
+    },
+    {
+      "name": "MAGDALENA MULIĆ",
+      "role": "Captain",
+      "bio": "Magdalena has great communication skills, she is flexible and always smiling. Highly motivated and professional, she knows how to act in stressful situations and how to handle challenges. She is always striving to deliver the best service. Magdalena is studying at “Faculty of Maritime Studies” on direction “Maritime Management” in Split, Croatia. She has started her career as a waitress in a restaurant where she has discovered her passion for the hospitality industry. For the past two years she has been working as a yacht stewardess on M/Y Ocean Drive(28m) and truly enjoys her job."
+    },
+    {
+      "name": "JOSIP GUDELJ",
+      "role": "Captain",
+      "bio": "Josip is a dedicated and experienced maritime professional who has been immersed in the marine industry since 2016. Growing up by thesea, Josip developed a deep-rooted passion for maritime life earlyon.Before becoming a Chief Engineer, Josip gained valuable experience working as a boat skipper on small power boats. His hands-onexperience as a skipper provided him with a solid foundation in boat operations and maintenance, enhancing his practical skills and technical knowledge. He is an avid cyclist and enjoys various water sports, which keep him physically active and in tune with the marine environment he cherishes. Known for his calm demeanor and excellent sense of humor,Josip is a reliable and approachable team member. His ability to stay composed under pressure and his knack for bringing a smile to those around him. Josip is committed to ensuring the smooth and efficient functioning of the vessel, contributing to a safe and enjoyable experience for all aboard."
+    },
+    {
+      "name": "ANTE PERVAN",
+      "role": "Captain",
+      "bio": "With an impressive 18-year maritime career encompassing diverse vessels from bulk carriers to mini cruisers, Ante joined our yachtingteam in the summer of 2023, adding invaluable experience to our deck crew. Passionate about deck maintenance, Ante is dedicated to ensuringthe pristine condition of our yacht. His adeptness extends to being askilled tender and jet ski driver, enhancing the efficiency of ouroperations. Ante's extensive travels have taken him across all worldseas, and he looks forward to revisiting them with our crew. Beyond the maritime realm, Ante finds solace and joy in spending time with his family, engaging in agriculture in his hometown of Kucice, and contributing to prosciutto production. As a genuine seafarer, Ante'sprofessionalism and commitment shine through, making him an integral member of our yachting team. "
+    },
+    {
+      "name": "LUKA TOMIC",
+      "role": "Captain",
+      "bio": "Since becoming a registered skipper in 2017, Luka has honed his skills on smaller yachts and moved into his current role as a deckhand in January 2024. His passion for the maritime industry drives him to ensure the yacht is always charter-ready while enhancing the guest experience. Enthusiastic and reliable, he is a valuable asset to any crew. With a background as a successful athlete and certified fitness coach, Luka brings a strong work ethic and a teamoriented mindset. His interests in deep-sea fishing, diving, and cooking help him connect with guests and enrich their time aboard. He is fluent in English and a native Croatian speaker."
+    },
+    {
+      "name": "Lucija Duvnjak",
+      "role": "Captain",
+      "bio": "Lucija is a friendly and service-oriented crew member with a diverse background in hospitality, guest service, and onboard housekeeping. She brings solid hands-on experience from both yachting and shore-based hospitality roles, combined with a calm and approachable personality.\nReliable, adaptable, and motivated, Lucija takes pride in her attention to detail and positive attitude, always aiming to support the team and contribute to a smooth and pleasant guest experience onboard."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 22500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 22500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 22500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 22500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 22500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 22500000,
+              "amount": 22500000,
+              "conditions": "VAT & APA Excluded",
+              "taxRate": {
+                "label": "VAT ",
+                "value": 0.13
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 22500000,
+              "amount": 9000000
+            }
+          ],
+          "total": 34425000,
+          "subTotal": 31500000,
+          "totalTax": 2925000
+        },
+        "inclusionZones": [
+          {
+            "label": "Albania",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Albania"
+            ],
+            "coordinates": [
+              19.945859996714653,
+              41.09505713204236
+            ],
+            "bbox": [
+              19.132690429687504,
+              39.727257226326174,
+              21.016159057617188,
+              42.50804623455747
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          },
+          {
+            "label": "Cyprus",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Cyprus"
+            ],
+            "coordinates": [
+              33.00600219571046,
+              34.91667211201094
+            ],
+            "bbox": [
+              32.30097656250001,
+              34.569580078125,
+              34.05019531250002,
+              35.182666015624996
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          },
+          {
+            "label": "Ionian Sea",
+            "type": "Custom Area",
+            "category": [
+              "Ionian Sea"
+            ],
+            "coordinates": [
+              18.523506214085312,
+              38.039692558677544
+            ],
+            "bbox": [
+              15.099368116931942,
+              36.46281342217971,
+              23.183474155375762,
+              40.51357392024279
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
+          },
+          {
+            "label": "Slovenia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Slovenia"
+            ],
+            "coordinates": [
+              14.80444237755619,
+              46.11554772069854
+            ],
+            "bbox": [
+              13.378222656250017,
+              45.428369140624994,
+              16.516210937500006,
+              46.86328125
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Venice, Veneto, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Venice"
+            ],
+            "coordinates": [
+              12.3416665,
+              45.433333499999996
+            ],
+            "bbox": [
+              12.308333,
+              45.416667,
+              12.375,
+              45.45
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 22500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 22500000,
+              "amount": 22500000,
+              "taxRate": {
+                "label": "VAT",
+                "value": 0.13
+              },
+              "conditions": "VAT & APA Excluded"
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.4,
+              "unitPrice": 22500000,
+              "amount": 9000000
+            }
+          ],
+          "total": 34425000,
+          "subTotal": 31500000,
+          "totalTax": 2925000
+        },
+        "inclusionZones": [
+          {
+            "label": "Albania",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Albania"
+            ],
+            "coordinates": [
+              19.945859996714653,
+              41.09505713204236
+            ],
+            "bbox": [
+              19.132690429687504,
+              39.727257226326174,
+              21.016159057617188,
+              42.50804623455747
+            ]
+          },
+          {
+            "label": "Croatia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Croatia"
+            ],
+            "coordinates": [
+              15.734076081803607,
+              43.82766941998277
+            ],
+            "bbox": [
+              13.376541137695312,
+              42.265114458337585,
+              18.511962890625004,
+              45.53521281284293
+            ]
+          },
+          {
+            "label": "Cyprus",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Cyprus"
+            ],
+            "coordinates": [
+              33.00600219571046,
+              34.91667211201094
+            ],
+            "bbox": [
+              32.30097656250001,
+              34.569580078125,
+              34.05019531250002,
+              35.182666015624996
+            ]
+          },
+          {
+            "label": "Greece",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Greece"
+            ],
+            "coordinates": [
+              24.208266084703272,
+              38.07874263978093
+            ],
+            "bbox": [
+              19.333190917968754,
+              34.337078172828036,
+              28.475189208984375,
+              41.44066745847661
+            ]
+          },
+          {
+            "label": "Ionian Sea",
+            "type": "Custom Area",
+            "category": [
+              "Ionian Sea"
+            ],
+            "coordinates": [
+              18.523506214085312,
+              38.039692558677544
+            ],
+            "bbox": [
+              15.099368116931942,
+              36.46281342217971,
+              23.183474155375762,
+              40.51357392024279
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Montenegro",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Montenegro"
+            ],
+            "coordinates": [
+              19.18925101458846,
+              42.69455744996185
+            ],
+            "bbox": [
+              18.424072265625004,
+              41.81431422987254,
+              20.194244384765625,
+              43.37411041676222
+            ]
+          },
+          {
+            "label": "Slovenia",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Slovenia"
+            ],
+            "coordinates": [
+              14.80444237755619,
+              46.11554772069854
+            ],
+            "bbox": [
+              13.378222656250017,
+              45.428369140624994,
+              16.516210937500006,
+              46.86328125
+            ]
+          },
+          {
+            "label": "Turkey",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "Western Asia",
+              "Turkey"
+            ],
+            "coordinates": [
+              34.22296144950354,
+              38.99754168989646
+            ],
+            "bbox": [
+              25.61737060546875,
+              35.86011779983257,
+              43.24218750000001,
+              42.08485046623532
+            ]
+          },
+          {
+            "label": "Venice, Veneto, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Venice"
+            ],
+            "coordinates": [
+              12.3416665,
+              45.433333499999996
+            ],
+            "bbox": [
+              12.308333,
+              45.416667,
+              12.375,
+              45.45
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

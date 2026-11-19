@@ -1,10 +1,10 @@
 {
-  "lastModified": 1784634995238,
+  "lastModified": 1795067711158,
   "uri": "c::18227086393::vessel::d5cc4f2a-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
   ],
-  "description": "Operating Area: Australia & South Pacific\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2026. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds (allowing an additional 2 guest). Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
+  "description": "Operating Area: Tropical North Queensland | Great Barrier Reef | New Zealand | Fiji\n- Great Barrier Reef, from Cairns (until 30 December 2026 & from August 2027)\n- New Zealand (15 January - early April 2027)\n- Fiji (mid-April - mid-July 2027)\n\nMoored in Cairns, Queensland, M.Y. Beluga is an explorer-style motor yacht custom-built by Moonen in 2006 and last refitted in 2026. She was built as a go-anywhere yacht with 4,000 nm range, a robust elegant style, a wide beam, and therefore unusually large volume for her length. M.Y. Beluga is available for international charters.\n\nAn expansive 35 metres in length, M.Y. Beluga sleeps 10 guests in 5 staterooms, including a master suite, two double cabins (with dividing wall, which creates two single beds in each cabin), two twin cabins and two Pullman beds (allowing an additional 2 guest). Timeless styling and beautiful furnishings create an elegant and comfortable atmosphere. Carrying several crew onboard to ensure a relaxed luxury yacht experience.\n\n",
   "blueprint": {
     "name": "BELUGA",
     "images": [
@@ -219,9 +219,9 @@
     },
     "weekPricingTo": {
       "currency": "AUD",
-      "price": 17850000,
+      "price": 19635000,
       "displayCurrency": "AUD",
-      "displayPrice": 17850000,
+      "displayPrice": 19635000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -233,8 +233,8 @@
             "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -299,8 +299,8 @@
             "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -365,8 +365,8 @@
             "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -431,8 +431,8 @@
             "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -497,8 +497,8 @@
             "to": "2026-12-20T23:59:59.999Z"
           },
           {
-            "from": "2027-01-06T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2027-08-01T00:00:00.000Z",
+            "to": "2027-12-19T23:59:59.999Z"
           }
         ],
         "pricing": {
@@ -666,6 +666,130 @@
               -29.13934582297228,
               153.53867239155943,
               -10.051698610461301
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "New Zealand (15 January - 5 April 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-01-15T00:00:00.000Z",
+            "to": "2027-04-05T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 19635000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 19635000,
+              "amount": 19635000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "GST",
+                "value": 0.15
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 19635000,
+              "amount": 5890500
+            }
+          ],
+          "total": 28470750,
+          "subTotal": 25525500,
+          "totalTax": 2945250
+        },
+        "inclusionZones": [
+          {
+            "label": "New Zealand",
+            "type": "Country",
+            "category": [
+              "Oceania",
+              "Australia and New Zealand",
+              "New Zealand"
+            ],
+            "coordinates": [
+              -18.677620423939118,
+              -34.08865541316071
+            ],
+            "bbox": [
+              -177.9579971999999,
+              -52.60031327099995,
+              178.84392337300005,
+              -8.543226820999905
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Fiji (15 April - 15 July 2027)",
+        "effectiveDates": [
+          {
+            "from": "2027-04-15T00:00:00.000Z",
+            "to": "2027-07-15T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "AUD",
+          "charterFee": 19635000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 19635000,
+              "amount": 19635000,
+              "conditions": "Weekly",
+              "taxRate": {
+                "label": "TAX",
+                "value": 0.05
+              }
+            },
+            {
+              "item": "APA",
+              "conditions": "",
+              "quantity": 0.3,
+              "unitPrice": 19635000,
+              "amount": 5890500
+            }
+          ],
+          "total": 26507250,
+          "subTotal": 25525500,
+          "totalTax": 981750
+        },
+        "inclusionZones": [
+          {
+            "label": "Fiji",
+            "type": "Sovereign country",
+            "category": [
+              "Oceania",
+              "Melanesia",
+              "Fiji"
+            ],
+            "coordinates": [
+              19.643807969695064,
+              -17.661387590807376
+            ],
+            "bbox": [
+              -180,
+              -21.705859375000003,
+              180,
+              -12.476953125000009
             ]
           }
         ],

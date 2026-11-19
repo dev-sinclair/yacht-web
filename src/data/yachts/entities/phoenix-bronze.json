@@ -1,11 +1,11 @@
 {
-  "lastModified": 1793104044769,
+  "lastModified": 1795096333901,
   "uri": "c::19057409635::vessel::d5cc2502-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
     "Sailing"
   ],
-  "description": "Comfortable accommodation for 12 + 2 guests in 6 guest cabins. There is 1 master cabin, 3 double cabins and 2 double cabins with addditional bed; providing more than enough space to comfortably enjoy perfect cruise in Croatia!\n\nAll of the cabins are air-conditioned and equipped to the highest standard. The usage of air conditioning is 12 hours per day. The saloon is spacious and comfortable providing inside dining area with yacht bar.\n\n1 x MASTER CABIN: Cabin with king size bed (180 x 200 cm). Cabin size is 18 m2. Ensuite bathroom with home type toilet and shower box.\n3 x DOUBLE CABIN: Cabin with double bed (180 x 200 cm). Cabin size is 10 m2. Ensuite bathroom with home type toilet and shower box.\n2 x DOUBLE CABIN + SINGLE BED: Cabin with double bed (180 x 200 cm) and single bed. Cabin size is 10 m2. Ensuite bathroom with home type toilet and shower box.\n\nBase / Home Port: Split / Dubrovnik, Croatia\nOperating Area: Croatia\n\nEMBARKATION AND DISEMBARKATION DAY:\nSATURDAY",
+  "description": "Comfortable accommodation for 12 guests in 6 guest cabins. There is 1 master cabin and 5 double cabins; providing more than enough space to comfortably enjoy perfect cruise in Croatia!\n\nAll of the cabins are air-conditioned and equipped to the highest standard. The usage of air conditioning is 24 hours per day. The saloon is spacious and comfortable providing inside dining area with yacht bar.\n\n1 x MASTER CABIN: Cabin with king size bed (180 x 200 cm). Cabin size is 18 m2. Ensuite bathroom with home type toilet and shower box.\n5 x DOUBLE CABIN: Cabin with double bed (180 x 200 cm). Cabin size is 10 m2. Ensuite bathroom with home type toilet and shower box.\n\nBase / Home Port: Split / Dubrovnik, Croatia\nOperating Area: Croatia\n\nEMBARKATION AND DISEMBARKATION DAY:\nSATURDAY",
   "blueprint": {
     "name": "PHOENIX BRONZE",
     "images": [
@@ -82,11 +82,7 @@
       },
       {
         "label": "Double Cabin",
-        "value": "3"
-      },
-      {
-        "label": "Double Cabin + single bed",
-        "value": "2"
+        "value": "5"
       }
     ],
     "cabins": 6,
