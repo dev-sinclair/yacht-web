@@ -1,11 +1,12 @@
 {
-  "lastModified": 1794977159287,
+  "lastModified": 1795133190559,
   "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
   "yachtType": [
     "Motor",
-    "Expedition"
+    "Expedition",
+    "Sport fishing"
   ],
-  "description": "Operating Area: Kimberley (Western Australia), Australia\n\nKimberley Quest II\n\nThe Kimberley Quest II has been purpose-built for exploring the spectacular Kimberley coastline in complete comfort, style and luxury. Fully air-conditioned throughout, this custom-built expedition vessel features spacious ensuite cabins, a spa, helipad and generous indoor and alfresco living areas, providing the perfect balance of adventure and relaxation.\n\nWith panoramic viewing decks and expansive outdoor spaces, guests can soak up the ever-changing Kimberley scenery, witness breathtaking sunsets and enjoy the tranquillity of one of the world's last true wilderness regions. Accommodating up to 20 guests and attended by an experienced crew of six, the Kimberley Quest II offers an intimate and personalised cruising experience, whether shared with fellow travellers or enjoyed exclusively as a private charter.\n\nTo maximise exploration opportunities, the vessel carries three 6-metre tenders, a 12-metre jet boat, and a Bell 505 helicopter, enabling guests to access remote waterfalls, hidden gorges, secluded beaches and spectacular landscapes that few visitors ever experience. For fishing enthusiasts, a full complement of fishing gear is available to target the Kimberley's renowned fish species, including the iconic barramundi.\n\nCombining luxury, adventure and unparalleled access to the Kimberley's most remote destinations, the Kimberley Quest II delivers an unforgettable expedition experience.",
+  "description": "Operating Area: Kimberley (Western Australia), Australia\n\nKimberley Quest II\n\nThe Kimberley Quest II has been purpose-built for exploring the spectacular Kimberley coastline in complete comfort, style and luxury. Fully air-conditioned throughout, this custom-built expedition vessel features spacious ensuite cabins, a spa, helipad and generous indoor and alfresco living areas, providing the perfect balance of adventure and relaxation.\n\nWith panoramic viewing decks and expansive outdoor spaces, guests can soak up the ever-changing Kimberley scenery, witness breathtaking sunsets and enjoy the tranquillity of one of the world's last true wilderness regions. Accommodating up to 18 guests and attended by an experienced crew of six, the Kimberley Quest II offers an intimate and personalised cruising experience, whether shared with fellow travellers or enjoyed exclusively as a private charter.\n\nTo maximise exploration opportunities, the vessel carries three 6-metre tenders, a 12-metre jet boat, and a Bell 505 helicopter, enabling guests to access remote waterfalls, hidden gorges, secluded beaches and spectacular landscapes that few visitors ever experience. For fishing enthusiasts, a full complement of fishing gear is available to target the Kimberley's renowned fish species, including the iconic barramundi.\n\nCombining luxury, adventure and unparalleled access to the Kimberley's most remote destinations, the Kimberley Quest II delivers an unforgettable expedition experience.",
   "blueprint": {
     "name": "KIMBERLEY QUEST II",
     "images": [
@@ -21,7 +22,7 @@
     "make": "Maritime Engineers",
     "model": "Custom",
     "maxCrew": 6,
-    "sleeps": 20,
+    "sleeps": 18,
     "basePort": {
       "name": "Broome, Western Australia, Australia",
       "coordinates": {
@@ -56,7 +57,7 @@
     "cabins": 9,
     "bathrooms": 9,
     "decks": 3,
-    "length": 25,
+    "length": 24,
     "beam": 7.65,
     "draft": 1.8,
     "hullType": "Monohull",
