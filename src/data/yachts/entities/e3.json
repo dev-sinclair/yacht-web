@@ -1,0 +1,388 @@
+{
+  "lastModified": 1783114816074,
+  "uri": "c::7580634126::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy, Sardinia, Sicily\n\nThe Ferretti Yachts 850 \"E3\" is a fusion of power, beauty, and unrivaled luxury. With its elegant design, this yacht sets a new standard in yachting.\n\nThe exterior design of the Ferretti Yachts 850 is both striking and dynamic, with trapezoidal hull windows that flood the interiors with natural light and offer panoramic views of the sea. Inside, the main deck exudes contemporary elegance, with an open salon and dining area extending over 10 meters. The master stateroom, styled after the main deck salon, boasts a study area, spacious wardrobe, and ensuite bathroom. Two VIP double cabins and a twin cabin ensure comfort for all, while crew quarters in the bow provide privacy and convenience.\n\nThe flybridge extends the living space outdoors, complete with a helm station, bar, and lounging areas. The forward external area features a spacious sunpad and table, perfect for relaxing in privacy.\n\nPowered by MAN engines, the Ferretti Yachts 850 E3 delivers remarkable performance, enhanced by stabilizers at anchor and underway to ensure optimal comfort at sea.\n\nWith an experienced crew of 4, E3 promises unparalleled service, expert guidance, and entertainment. The yacht is also equipped with an array of water toys so as to to thrill any superyacht enthusiast.",
+  "blueprint": {
+    "name": "E3",
+    "images": [
+      "/media/media::image::c::7580634126::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::ecfa4450-b717-11ef-9a31-976e24a6a2c1/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220305f0-ae68-11ef-a507-dbf697f03120/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::22013130-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::2200e310-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220d6630-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::2214e040-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::2201cd70-ae68-11ef-8646-ada1196d9ed6/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220ec5c0-ae68-11ef-8646-ada1196d9ed6/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220f3af0-ae68-11ef-8646-ada1196d9ed6/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220094f0-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::22021b90-ae68-11ef-a507-dbf697f03120/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220e0270-ae68-11ef-a507-dbf697f03120/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220e2980-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::221ea440-ae68-11ef-8646-ada1196d9ed6/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220d3f20-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220fb020-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220f8910-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::21edf750-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::22015840-ae68-11ef-b16d-3b859b58efa3/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::21c539a0-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::21dba7d0-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::21c86df0-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::2210e8a0-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::220e0270-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::21e98a80-ae68-11ef-9b7d-cd2232f12712/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8796bf10-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87949c30-ae68-11ef-b4d0-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8799a540-ae68-11ef-b4d0-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8780ed20-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::879363b0-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::875aa070-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::875c4e20-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87958690-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8781d780-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87a62860-ae68-11ef-b4d0-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::878707a0-ae68-11ef-b4cf-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87a56510-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87947520-ae68-11ef-b4cf-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::87702440-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8794c340-ae68-11ef-a5d8-bdefa51612dc/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::8794c340-ae68-11ef-b4cf-a7c7817d56ff/{imageVariant}",
+      "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::d2063a30-ae68-11ef-ac9c-dd2f887b90a1/{imageVariant}"
+    ],
+    "make": "Ferretti",
+    "model": "Ferretti 850",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::e74d6958-b3ed-11ed-bec4-325096b39f47",
+      "name": "Genoa",
+      "coordinates": {
+        "latitude": 44.40529903869361,
+        "longitude": 8.9280946102873
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2019,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2025,
+    "topSpeed": 0,
+    "cruiseSpeed": 22,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": "",
+    "decks": "",
+    "length": 26,
+    "beam": 6.3,
+    "draft": 2.5,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x 1900 HP MAN",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sunpad"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob",
+        "quantity": "2"
+      },
+      {
+        "label": "Paddle Board",
+        "quantity": "2"
+      },
+      {
+        "label": "Wakeboard"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection",
+      "Music system"
+    ],
+    "tenders": [
+      "Williams Sportjet 395"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Rocco Tasso",
+      "avatar": "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::39d32c60-ae67-11ef-b3ee-6d7df70af69d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nCaptain Rocco Tasso has been a key member of the E3 yacht crew since 2020. With his extensive experience and dedication to the yacht industry, he plays a crucial role in creating unforgettable experiences for guests. Having spent many years at sea, Rocco has perfected his skills to guarantee that every aspect of the yacht journey is executed flawlessly.\nOne of Rocco's strengths lies in his collaborative approach. He understands the importance of teamwork and knows that their combined efforts are vital for the success of each charter. Moreover, Rocco possesses extensive knowledge of water toys and aquatic sports. He ensures that guests receive personalized guidance to make the most of their aquatic adventures\nBeyond his job as a captain, Rocco boasts a deep passion for travel. He seizes every opportunity to explore new countries, immerse himself in diverse cultures, and connect with people from all walks of life. Fluent in English, Italian, French, and Spanish, he can effectively communicate with guests from various backgrounds, enhancing their experience onboard."
+    },
+    {
+      "name": "Saachi Davis",
+      "avatar": "/media/media::image::c::7580634126::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::dc50be40-5109-11f0-a843-b9119cffca4c/{imageVariant}",
+      "role": "Captain",
+      "bio": "Australian\n\nSaachi is a highly motivated and detail oriented stewardess with a strong foundation in both interior and deck roles, making her a versatile and invaluable team player aboard M/Y E3. With a background on busy charter yachts ranging from 47m to 65m, she brings experience, enthusiasm, and a service-focused mindset to every guest interaction. Her strengths lie in exceptional client relations, a dedication to maintaining the highest standards, and a calm, professional demeanor. Passionate about growth and teamwork, Saachi actively contributes to creating a positive onboard atmosphere and is always ready to go the extra mile to ensure a seamless guest experience. Outside of her stewardess duties, Saachi is energized by the outdoors, physical fitness, and water sports making her perfectly at home in the yachting lifestyle. With long-term goals in the industry, she brings both ambition and grace to her role, ensuring guests aboard M/Y E3 are in\n excellent hands."
+    },
+    {
+      "name": "Lorenzo Lombardi",
+      "avatar": "/media/media::image::c::7580634126::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::5f857530-510a-11f0-8eac-d38fd7bdc187/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nLorenzo’s passion for the sea was sparked in childhood, inspired by captivating stories of sailing adventures and life on the ocean. Growing up, he learned valuable maritime skills from his father, which laid the foundation for a career blending his love for the ocean with high-end service. He worked really hard to be great at making sure people have an awesome time on luxury yacht for charter. Lorenzo can speak both Italian and English, but Italian is his first language. Before Lorenzo worked on E3, he was on another yacht called Fifth Season. Now, as a deckhand on E3, he's\n super important for making sure everything runs smoothly and that guests have a great time. He takes care of the outside of the yacht and helps with fun stuff like water sports. Lorenzo's skills and hard work make the trip awesome for everyone on board."
+    },
+    {
+      "name": "Michele Forte",
+      "avatar": "/media/media::image::a::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad::assets::78912f60-ae67-11ef-95c4-53201484da15/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nMichele Forte is a culinary maestro whose insatiable curiosity has driven him to explore diverse cultures and their gastronomic treasures. From the tender age of exploration, Michele has sought to understand and master the art of cooking. His experiences are as rich as the dishes he creates. In Australia, he perfected the preparation of kangaroo meat, grilling it to a succulent, rare finish. His time in France introduced him to the delicate art of preparing escargot. Across the Atlantic in the USA, Michele savored hearty chili, clam chowder, and the decadent red velvet cake. His adventures in Norway highlighted the essential role of fish in the local diet and even introduced him to the distinct taste of whale meat. Indonesia broadened his palate further, teaching him that even a smoked gecko can make for a memorable snack. Michele’s culinary expertise has sharpened over the years, evolving into a sophisticated blend of tradition and innovation. His priority is to offer clients an unparalleled culinary experience, meticulously crafting dynamic menus that honor the past while embracing the present.\nMichele Forte’s cuisine is more than just food; it’s an evocative journey that tantalizes the senses and leaves a lasting impression."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 5500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 6500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6500000,
+              "amount": 6500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 6500000,
+          "subTotal": 6500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5500000,
+              "amount": 5500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 5500000,
+          "subTotal": 5500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

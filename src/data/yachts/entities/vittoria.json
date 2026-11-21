@@ -1,0 +1,399 @@
+{
+  "lastModified": 1783513018190,
+  "uri": "c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy, Sardinia\n\nThe Ferretti 860 VITTORIA is the latest creation from Ferretti Group Shipyard, featuring exterior design by Filippo Salvetti and interior by Ideaeitalia. With an overall length of 26.95 m she provides space and furniture of a much much larger yacht.\n\nThe fresh and contemporary interior stands out for its unmistakable style and for the full-height windows that flood with the yacht with natural light. The helical staircase on the main deck leads down to the lower deck, where there are 4 double cabins, including 1 Master with king size bed based amidships and 1 VIP with queen size bed based forward, 1 double and 1 Twin. All cabins are air conditioned, with en-suite facilities and TV SAT.\n\nFerretti 860 VITTORIA is an innovative yacht with dynamic and clean lines. The cockpit’s area is furnished with two sofas and a table that seats up to 8 people. The flybridge has a dinette, a multi-function bar unit and comfortable sun beds. Forward you can find a sunbathing area with sofas and a coffee table.\n\nVITTORIA comes with gyroscopic stabilizers and vector fins that give the yacht a great stability both at anchor and underway. Furthermore she has a very low fuel consumption.\n\nBoasting a vast array of water toys, this Ferretti 860 is operated by 4 crew members. She is equipped with Starlink high speed internet.",
+  "blueprint": {
+    "name": "VITTORIA",
+    "images": [
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::40428700-b716-11ef-9e12-dd38ad1ccaeb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b67f9d0-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6b5530-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f25c0-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6fc200-ae8c-11ef-b328-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6e8980-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6e3b60-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b693250-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6a43c0-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ba350-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b69ce90-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6e8981-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6d5100-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b728120-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b731d60-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b734470-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6d02e0-ae8c-11ef-9a42-39e51d5e13ee/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b70ac60-ae8c-11ef-b328-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b71bdd0-ae8c-11ef-9c36-231f687161b4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b731d60-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b701020-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6e8980-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b7148a0-ae8c-11ef-ac7b-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b705e40-ae8c-11ef-9a42-39e51d5e13ee/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6c3f90-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f25c0-ae8c-11ef-a45a-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6d29f0-ae8c-11ef-9a41-39e51d5e13ee/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6cb4c0-ae8c-11ef-a45a-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ed7a0-ae8c-11ef-b328-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6d02e0-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6cb4c0-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b7196c0-ae8c-11ef-9c37-231f687161b4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b72a831-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6fe910-ae8c-11ef-9a42-39e51d5e13ee/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ed7a0-ae8c-11ef-a45a-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6bf170-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6c3f91-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6cdbd0-ae8c-11ef-b327-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6eb090-ae8c-11ef-a45a-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b70ac60-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b708550-ae8c-11ef-b328-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f9af0-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b7196c0-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b70fa80-ae8c-11ef-a45b-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b70fa80-ae8c-11ef-b328-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b720bf0-ae8c-11ef-a45b-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6eb090-ae8c-11ef-a45b-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b701020-ae8c-11ef-9c36-231f687161b4/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f9af0-ae8c-11ef-a45b-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b72a830-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f9af0-ae8c-11ef-9a42-39e51d5e13ee/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b7196c0-ae8c-11ef-b329-fdafbcfb39c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6f73e0-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ed7a0-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6d7810-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ed7a1-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b716fb0-ae8c-11ef-a41b-8966b9b908cf/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b72a830-ae8c-11ef-ac7a-67f395068a97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6e3b60-ae8c-11ef-a45a-7993bd43f2c2/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::5b6ded41-ae8c-11ef-9a42-39e51d5e13ee/{imageVariant}"
+    ],
+    "make": "Ferretti",
+    "model": "Ferretti 860",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2022,
+    "architect": "",
+    "interiorDesigner": "Ideaitalia",
+    "topSpeed": 0,
+    "cruiseSpeed": 24,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 26.95,
+    "beam": 6.22,
+    "draft": 2.08,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x MAN V12 2000",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "WiFi connection"
+      },
+      {
+        "label": "Stabilizers Underway"
+      },
+      {
+        "label": "Stabilizers At anchor"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sun beds"
+      },
+      {
+        "label": "Sunbathing Area"
+      },
+      {
+        "label": "Generators"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Jetski Seadoo RXT-X RS 300 hp limited 3 seats(license required)",
+        "quantity": "1"
+      },
+      {
+        "label": "Seabob F5 SR",
+        "quantity": "1"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Inflatable PROTON 2 PAX"
+      },
+      {
+        "label": "Banana 4 PAX",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkeling equipment"
+      }
+    ],
+    "entertainment": [
+      "Outdoor sound system",
+      "SAT Internet",
+      "Smart TV",
+      "TV in all cabins",
+      "TV in saloon",
+      "Starlink",
+      "WiFi connection",
+      "Bluetooth speakers/sound system connection"
+    ],
+    "tenders": [
+      "1 x Tender Williams 395m sportjet 6 pax 90HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Iacopo De Gregorio",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::caf9e790-5134-11f0-923e-df42e1c75b4b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nIacopo proudly leads the yacht VITTORIA as its captain, bringing expertise and dedication to his role. With a career spanning over a decade, he has proven himself as an exceptional professional whose passion for the sea and commitment to excellence set him apart. Since beginning his yachting career in 2011, Iacopo has built a good reputation for his reliability, responsibility, and infectious enthusiasm. Iacopo’s extensive experience spans various yachts, where he consistently excelled in delivering a great service and maintaining impeccable standards. His attention to detail ensures that every aspect of the yacht operates flawlessly, creating an unparalleled experience for guests. As an expert sailor, Iacopo is especially knowledgeable about Mediterranean cruising, with a particular passion for the stunning Amalfi Coast, which he considers his favorite destination. He is fluent in English and Italian. With Captain Iacopo at the helm, guests can look forward to a truly remarkable journey."
+    },
+    {
+      "name": "Rosario De Vincenzo",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::ff019b50-5134-11f0-bf4c-23687946bfb7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nRosario is a dedicated and hardworking deckhand with a strong passion for the maritime industry. His hands-on experience and deep understanding of yacht maintenance, safety procedures, and deck operations make him a valuable asset to the crew of Vittoria. With a keen eye for detail and a proactive approach, Rosario ensures that the yacht’s exterior is always in pristine condition. His adaptability and problem solving skills allow him to handle various tasks efficiently. His strong teamwork spirit, reliability, and excellent interpersonal skills make him a great support to both the crew and guests, contributing to a seamless and enjoyable experience on board. With excellent interpersonal skills, he is always ready to assist guests, providing a welcoming and professional service that enhances their time on board. Rosario fluently speaks Italian and English."
+    },
+    {
+      "name": "Miriam Gilletti",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::2e63bbd0-5135-11f0-b226-c1ecb218abd7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nCheerful, organized, and passionate about hospitality, Miriam Gilletti brings warmth and precision to every charter experience. Born and raised in Sicily, she developed a deep love for the sea from an early age, inspiring her to pursue a career aboard luxury yachts. Since 2017, Miriam has been dedicated to creating unforgettable experiences for guests, ensuring every detail is perfectly attended to. Her keen eye for organization and natural ability to anticipate guests' needs make her an invaluable part of the crew. Before joining M/Y VITTORIA, Miriam worked aboard the 33-meter M/Y 55 FIFTYFIVE and the 27-meter M/Y VITTORIA. Whether setting the perfect table or adding thoughtful touches to enhance your stay, Miriam's goal is to provide a relaxing and enjoyable charter. In her free time, she enjoys swimming, trekking, and running - activities that reflect her energetic and adventurous spirit. She is fluent in both English and Italian."
+    },
+    {
+      "name": "Angelo Adinolfi",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744::assets::675dc340-5135-11f0-b4fa-3d6772ad88be/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nWith a deep passion for Mediterranean cuisine and a dedication to excellence, Chef Angelo brings a wealth of culinary expertise to M/Y VITTORIA. Born and raised in Italy, he has spent nearly a decade as the Chef Patron of Masseria Adinolfi, a renowned dining destination in the lush countryside of Sant’Angelo. From 2015 to 2024, he delighted guests with authentic flavors, seasonal ingredients, and a masterful balance of tradition and creativity. Onboard M/Y VITTORIA, Chef Angelo combines his extensive experience with a keen sense of kitchen organization, food cost optimization, and menu creation, ensuring every meal is both exceptional and perfectly tailored to guests’ preferences. Fluent in Italian and conversant in English, he creates an inviting and personalized atmosphere in the galley, ensuring that every dish reflects both his heritage and his guests' desires. With Chef Angelo at the helm of the kitchen, dining aboard M/Y VITTORIA becomes an unforgettable journey through the finest flavors of Italy and beyond. Prepare to savor every moment."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 7900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7900000,
+              "amount": 7900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 7900000,
+          "subTotal": 7900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6900000,
+              "amount": 6900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 6900000,
+          "subTotal": 6900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

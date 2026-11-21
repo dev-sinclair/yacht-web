@@ -1,0 +1,334 @@
+{
+  "lastModified": 1783027116995,
+  "uri": "c::7580634126::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy, Sicily\n\nLUCKY is a brand new Sanlorenzo 78, the only yacht in its category to be completely customized by the owner. On this yacht, Italian engineering and design meet, united by the experience and professionalism of one of the best shipyards in the world. With its almost 25 meters, Lucky offers great versatility thanks to its large outdoor spaces and 4 guest cabins: a Master, a VIP, a twin and one with pullman beds.\n\nThe salon, with its large and bright windows, features a large Minotti’s sofa and an internal dining table. The flybridge has an outdoor table and two large sunbathing areas. At the stern, there is a third dining/relax area and in the bow a large sunbathing area that can be converted into a sitting area with a coffee table.\n\nOutstanding interior finishes and prestigious furnishings offer guests a particularly comfortable and refined environment. An innovative soundproofing and anti-vibration system offers maximum comfort in all indoor and outdoor areas. The crew of LUCKY is composed of 4 people: captain, stewardess, chef and sailor, all young and highly professional.\n\nShe is equipped with Starlink high speed internet.",
+  "blueprint": {
+    "name": "LUCKY",
+    "images": [
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d2f101d0-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d329ec20-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d327f050-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d30414a0-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d3032a40-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d2f21340-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d3152ba0-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d3168b30-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d329c510-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d328b3a0-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d32bc0e0-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d3275410-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d327a230-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::d3286580-ae88-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::490435e0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::491721a0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::49176fc0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::4916ac70-ae89-11ef-a58f-2f614d33c5a3/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::4917bde0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::49176fc1-ae89-11ef-a58f-2f614d33c5a3/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::48f086d0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::49168560-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::48de3750-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::49037290-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::48f0d4f0-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::4916d380-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::49176fc0-ae89-11ef-a58f-2f614d33c5a3/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::491d1510-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::48de8570-ae89-11ef-8aa7-db7b3a11c0eb/{imageVariant}"
+    ],
+    "make": "Sanlorenzo",
+    "model": "Sanlorenzo 78",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2020,
+    "architect": "",
+    "interiorDesigner": "",
+    "topSpeed": 0,
+    "cruiseSpeed": 23,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 0,
+    "decks": 0,
+    "length": 24.64,
+    "beam": 5.74,
+    "draft": 1.8,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x MTU 1,600 HP",
+    "amenities": [
+      {
+        "label": "Sunbathing area"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob",
+        "quantity": "1"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Donut",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Waterski"
+      }
+    ],
+    "entertainment": [
+      "Starlink"
+    ],
+    "tenders": [
+      "Williams Sport Jet 3.95 mt"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Erasmo Barbato",
+      "avatar": "/media/media::image::a::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::ccd86880-ae86-11ef-94cd-6b650242e8b2/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nErasmo began his career as a deck cadet working on board Container ships. He had his first command at a young age, since then Erasmo has worked on board many yachts such as the Ferretti 731, the Pershing 80, the Azimut 72 FLY, the Evo Marine Deauville 76, always ensuring the best experience possible and making clients happy. This has proved him with excellent yachting knowledge. Erasmo has sailed thousands of miles worldwide, but just like when he was a child, his favorite destination is the Amalfi Coast. \nHe is ready to both go the extra mile for any task required and ensure that guests have a safe and enjoyable time on board.\nWhen he is able to take shore leave, Erasmo enjoys watching tv and discovering new places around the world.  "
+    },
+    {
+      "name": "Nicoletta Di Vaio",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::0b979820-5116-11f0-ad88-ef9698b8bf6b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nNicoletta started working as a stewardess on board a private Pershing 72 in 2014. Her attention to detail ensures that the guests are happy and all their needs are met. Nicoletta has more than 10 years of experience; during her career she worked in various restaurants gaining great culinary skills. Chef Nicoletta will do her best to satisfy all guests' requirements and wow guests’ taste buds. She can cater to specific dietary requirements.\nNicoletta also loves traveling which enables her to discover new flavors, ingredients and recipes. Chef Nicoletta enjoys working with healthy organic products and preparing delicious vegetarian recipes focusing on fresh, healthy dishes. She speaks Italian and English. Nicoletta looks forward to creating bespoke menus for LUCKY’s guests."
+    },
+    {
+      "name": "Marco Amato",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::21316120-5116-11f0-ad88-ef9698b8bf6b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nMarco spent his childhood onboard boats in Amalfi Coast. He is dynamic, determined and attentive. By joining the yachting industry he has turned his passion for the sea into a career. Marco enjoys meeting new people, cruising and discovering new locations. Prior to M/Y LUCKY, he worked on board several motor yachts, getting an extensive amount of sea miles under his belt. You will never find Marco without a smile on his face. With his sunny personality, he is able to offer an unforgettable experience to guests. Marco’s biggest virtue is his tenacity. When he has free time, he can be found  running or playing football.  Deckhand Marco looks forward to offering his highest standard of professionalism. "
+    },
+    {
+      "name": "Ornella Nolano",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744::assets::31f908a0-5116-11f0-ad88-ef9698b8bf6b/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nCordiality and professionalism are her strong suits. Ornella is kind, cheerful and attentive to details. She speaks fluently Italian, English and French. She has a huge love for the sea since she was a child. In 2016 Ornella has fulfilled her dream of sailing across the Mediterranean on board a luxury charter yacht. She puts her love for this job in whatever she does, guests can always rely on her helpfulness and trustworthiness. In her spare time she likes reading, soaking up the sun and going out with friends. She looks forward to welcoming LUCKY’s guests on board and providing them with a first-class service."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 5300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5300000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5300000,
+              "amount": 5300000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 5300000,
+          "subTotal": 5300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4900000,
+              "amount": 4900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 4900000,
+          "subTotal": 4900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

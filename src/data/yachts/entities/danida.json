@@ -1,0 +1,332 @@
+{
+  "lastModified": 1784127578793,
+  "uri": "c::7580634126::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Base / Home Port: Naples (Marina di Stabia), Italy\nOperating Area: Amalfi Coast, Sardinia, Pontine Islands, Tuscany, Sicily & Aeolian Islands, Liguria & Cinque Terre\n\nExperience luxury aboard the \"DANIDA'\" Sanlorenzo SX88. The revolutionary design of the SX88 features wide open spaces and large glass windows, creating a seamless connection between the interior and exterior, catering to the most discerning clients. The high, seaworthy bow gracefully slopes toward the stern, streamlining the yacht's profile while ensuring exceptional all-weather performance.\n\nThe main deck's fore area is equipped with a sofa, a coffee table, and an extended sunbathing surface, providing a relaxing and functional living space.\n\nThe stern area is equally impressive, boasting a \"beach club\" space that is five steps below the main deck. This 30 sq. m area is shaded by parasols and furnished to perfection, offering a luxurious spot to enjoy life at the water’s edge. It also provides ample room for a variety of water toys, enhancing your on-water experience.\n\nBelow deck, the Sanlorenzo SX88 offers luxurious accommodations with four cabins: a Master cabin, a VIP cabin, and two Twin cabins, ensuring comfort for all guests.\n\nDANIDA’ is also serviced by a dedicated crew of four, ensuring an exceptional onboard experience.",
+  "blueprint": {
+    "name": "DANIDA'",
+    "images": [
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6456d0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6abf70-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6938d0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a680050-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a601110-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a605f30-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a4b9eb0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a62a920-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a255200-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a2ea0d0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6b34a0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a69fc20-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6197b0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a5318c0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a5fea00-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a642fc0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a5effa0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6a7150-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a5f74d0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6233f0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6abf71-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a64a4f0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a68c3a0-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a62f740-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a673d01-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::8a6b82c1-ae90-11ef-8188-3b191ce07216/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::7378c400-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::7358b8e0-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::7352ec80-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::7353afd0-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::7377d9a0-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::734ad630-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::733f6480-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::73413940-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::73789cf0-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::736b0860-ae91-11ef-9c68-1796038a3ebd/{imageVariant}",
+      "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::73803e10-ae91-11ef-9c68-1796038a3ebd/{imageVariant}"
+    ],
+    "make": "Sanlorenzo",
+    "model": "SX88",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2020,
+    "architect": "Officina Italiana Design",
+    "interiorDesigner": "Lissoni, Lopez, Castelli, Gottard",
+    "topSpeed": 23,
+    "cruiseSpeed": 20,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Double Cabin",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "length": 26.7,
+    "beam": 7.2,
+    "draft": 1.83,
+    "hullType": "Semi-displacement",
+    "hullConstruction": "GRP",
+    "tonnage": 83,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "3 x Volvo Penta IPS 800 HP",
+    "amenities": [
+      {
+        "label": "Water makers"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "4/5G Internet"
+      },
+      {
+        "label": "Outdoor sound system"
+      },
+      {
+        "label": "Smart TV"
+      },
+      {
+        "label": "TV in all cabins"
+      },
+      {
+        "label": "WiFi connection"
+      },
+      {
+        "label": "Aft platform"
+      },
+      {
+        "label": "Beach club"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Banana inflatable",
+        "quantity": "1"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "towable chair",
+        "quantity": "1"
+      },
+      {
+        "label": "water skis",
+        "quantity": "1"
+      },
+      {
+        "label": "Seabob",
+        "quantity": "1"
+      },
+      {
+        "label": "Sea scooter"
+      },
+      {
+        "label": "Snorkeling gear"
+      }
+    ],
+    "entertainment": [
+      "4/5G Internet",
+      "Outdoor sound system",
+      "Smart TV",
+      "TV in all cabins",
+      "WiFi connection"
+    ],
+    "tenders": [
+      "Williams SportJet 395"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Stefano Conte",
+      "avatar": "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::eb618d50-ae8f-11ef-94cd-6b650242e8b2/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nBorn in 1985, Captain Stefano brings an enterprising and determined personality to the helm of Yacht DANIDA'. With 22 years of extensive maritime experience, he has honed his skills in the nautical sector, specializing in luxury yacht services, crew management, and both routine and extraordinary maintenance.\nA highly qualified professional, Captain Stefano boasts excellent organizational abilities and deep knowledge in the construction, management, and operation of various types of vessels and pleasure boats. Known for his attention to detail, he enjoys working as part of a team to create a welcoming atmosphere on the yacht. He excels in proactively managing stressful and high-pressure situations with perseverance and a strong awareness of his role. Fluent in both English and Italian, Captain Stefano ensures that everyone has a smooth and enjoyable journey. He is dedicated to creating unforgettable vacation experiences for his guests. In his free time, Captain Stefano loves reading, exploring new places, and playing tennis."
+    },
+    {
+      "name": "Giorgia Pesare",
+      "avatar": "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::fbc717a0-ae8f-11ef-94cd-6b650242e8b2/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nGiorgia brings a wealth of experience in the luxury yacht charter industry, having served on various high-end yachts. Her background includes managing the interior operations, ensuring that every guest enjoys an impeccable and memorable stay.\nWith a strong foundation in hospitality management, Giorgia excels in delivering top-notch service. Her previous roles have equipped her with the skills necessary to anticipate guests' needs and exceed their expectations, providing a seamless and luxurious experience on board\nGiorgia is fluent in several languages, allowing her to communicate effectively with guests from around the world. Her linguistic abilities enhance the overall guest experience, making international guests feel welcomed and understood.\nWith her expertise and passion for hospitality, Giorgia is a vital member of the DANIDA crew, committed to delivering an exceptional yachting experience."
+    },
+    {
+      "name": "Annamaria Romano",
+      "avatar": "/media/media::image::a::vessel::8ce67fc0-ae8e-11ef-a3d4-993e7b8bf52f::assets::2244e9c0-ae90-11ef-ab92-6f06e0d1825f/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nChef Annamaria, brings a unique blend of culinary expertise and passion for the sea. Born in the heart of Naples, a city renowned for its rich culinary traditions, Annamaria has honed exceptional skills both on board and on land.\nShe personally selects the finest ingredients, emphasizing seasonal and high-quality products. This meticulous selection process ensures that every meal is not only delicious but also fresh and in harmony with the time of year.\nSpecializing in Mediterranean cuisine, Annamaria is also deeply curious and appreciative of diverse culinary traditions from around the world. This curiosity fuels a continuous journey of learning and professional growth, enriching the dining experience with a variety of flavors and techniques.\nEvery meal crafted by Annamaria is a testament to her passion and dedication to the art of cooking."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 7000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7000000,
+              "amount": 7000000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 7000000,
+          "subTotal": 7000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6000000,
+              "amount": 6000000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 6000000,
+          "subTotal": 6000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

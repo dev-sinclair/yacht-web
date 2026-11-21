@@ -1,245 +1,237 @@
 {
-  "lastModified": 1784581434111,
-  "uri": "c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b",
+  "lastModified": 1783009270093,
+  "uri": "c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec",
   "yachtType": [
-    "Sailing",
-    "Catamaran"
+    "Motor"
   ],
-  "description": "This Lagoon 50 catamaran, based in Athens, is perfect for exploring the Saronic Gulf and the Cyclades. \nOn board, guests are looked after by an experienced captain who knows the area well, and a hostess who prepares traditional Mediterranean cuisine.\n\nThe yacht has 6 double cabins and 4 bathrooms, offering plenty of space for comfort and relaxation.\n\nFor fun on the water, it is fully equipped with a tender with 30 hp, a Seascooter, 1 Sub, snorkeling equipment, beach toys, fishing gear, 1 large tube, and water skiing for kids.\n\nThis Lagoon 50 is ideal for guests looking for a comfortable, fun, and enjoyable multi-day charter in Greece",
+  "description": "Operating Area: Monaco, Olbia, Sardinia, Italy\n\nUnveiled in 2023, the Pershing 9X SOPHIA offers unique comfort thanks to its quiet running - even at high speeds - and its stability at anchor. The yacht combines elegance and technology to maximize on board pleasure.\n\nThe sun deck offers extremely generous spaces for relaxing thanks to a lounge dinette and a large sun pad. The open-air foredeck area and the sundeck combine supreme comfort with maximum privacy, while the interior décor stands out for elegance and sophistication. The sleek salon is furnished with a sofa and a dining table perfect for a lunch during breezy days.\n\nSOPHIA’s sporty lines are exalted by the large side wings and the aerodynamic profile of the sun deck.\n\nThe vessel comes with 4 cabins, including 1 sumptuous master suite on the main deck, 1 VIP, 1 Double and 1 Twin with pullman bed. All cabins are air conditioned, with en-suite facilities.\n\nAn attentive crew of 4 ensures an unforgettable charter service. Equipped with stabilizers, the yacht guarantees a smooth and comfortable voyage, even in challenging sea conditions.",
   "blueprint": {
     "name": "SOPHIA",
     "images": [
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03842240-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b173d0-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-      "/media/media::image::c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::f549b6f0-17be-11f1-a478-8d9991fc3e28/{imageVariant}",
-      "/media/media::image::c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::f54a0510-17be-11f1-a478-8d9991fc3e28/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03c63450-3c65-11f0-b5ff-d77f93113f5d/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03850ca0-3c65-11f0-a434-2556504e867f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03af29e0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::0388dd30-3c65-11f0-8452-39e4e9c32881/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::037ca830-3c65-11f0-8452-39e4e9c32881/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::0384be80-3c65-11f0-a434-2556504e867f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03975c20-3c65-11f0-bb21-75ab26fd506f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::0382c2b0-3c65-11f0-a434-2556504e867f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::038a63d0-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::036cf0c0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03ae3f80-3c65-11f0-b692-115cd0cd6b28/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b67ce0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::039e8810-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03a42d60-3c65-11f0-bb21-75ab26fd506f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::039b2cb0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b1e900-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b59280-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b51d50-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03abf590-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03bc2230-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03ae6690-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03ae1870-3c65-11f0-bb21-75ab26fd506f/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::0371f9d0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03811500-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::036e0230-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::0385f700-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::037de0b0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03715d90-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b1c1f0-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03ab0b30-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03b54460-3c65-11f0-b5ff-d77f93113f5d/{imageVariant}",
-      "/media/media::image::a::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::03abf591-3c65-11f0-8536-53bdfff6b6d1/{imageVariant}"
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f4f0010-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f994f80-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f652020-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f863cb0-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f9b9970-b7d0-11ef-9f1c-d1113fff946a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f99c4b0-b7d0-11ef-8a7f-57fb40fa4e6b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f4fea70-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f9753b0-b7d0-11ef-9f1c-d1113fff946a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f763720-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f87ea60-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f981700-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f97a1d0-b7d0-11ef-9f1c-d1113fff946a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f98b340-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f986520-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f9a8800-b7d0-11ef-8a7f-57fb40fa4e6b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f977ac0-b7d0-11ef-8bf4-7dbbb21d9e92/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f983e10-b7d0-11ef-8a7f-57fb40fa4e6b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9f96de80-b7d0-11ef-b226-9b410632dc6e/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3f9f520-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3a6cc10-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3fa9160-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3fa4340-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3fdc5b0-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3df8f50-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3d0c240-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3ba2d00-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3cd8df0-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3e868f0-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f404f1a0-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f41915e0-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3f958e0-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3f9ce10-b7d0-11ef-b2ac-a7d943c9c4d5/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3f9f520-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3a879c0-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3e115f0-b7d0-11ef-832e-2fe4a34d6876/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3fb0690-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3f97ff0-b7d0-11ef-9e97-9fdb81fa9b7a/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::f3fbc9e0-b7d0-11ef-b2ac-a7d943c9c4d5/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::504dd260-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::504d0f10-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::505b18d0-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::503bf810-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::5071fc30-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::50253bc0-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::505fd3c0-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::50271080-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::6a195e30-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::6a1873d0-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::6a18e900-b7d1-11ef-9923-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::6a191010-b7d1-11ef-9924-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::7b557260-b7d1-11ef-9924-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::7b574720-b7d1-11ef-9924-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::7b572010-b7d1-11ef-9924-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::7b5635b0-b7d1-11ef-9924-e3a25039b014/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2d4fd10-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2c608f0-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2ea59d0-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2eb1d20-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2c1ea40-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2faad80-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2f81570-b7d1-11ef-9dd4-2b6d006f36b7/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2fd1e80-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2fef340-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2ffdda0-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2f8ffd0-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2fc5b30-b7d1-11ef-8155-d7adb01119e3/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a3487f60-b7d1-11ef-a77b-df05b7b846a1/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2e5ed00-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}",
+      "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::a2d79520-b7d1-11ef-a58e-dfc07925ec9b/{imageVariant}"
     ],
-    "make": "Lagoon",
-    "model": "Lagoon 50",
-    "maxCrew": 2,
-    "sleeps": 12,
+    "make": "Pershing",
+    "model": "Pershing 9X",
+    "maxCrew": 4,
+    "sleeps": 9,
     "basePort": {
-      "uri": "a::place::1d672a00-3a7c-11ee-be55-3fa954721f05",
-      "name": "Marina Zeas",
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
       "coordinates": {
-        "latitude": 37.93739170976762,
-        "longitude": 23.64612599437243
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
       },
-      "country": "Greece"
+      "country": "Italy"
     },
-    "cruisingCapacity": 14,
-    "builtYear": 2020,
+    "cruisingCapacity": 12,
+    "builtYear": 2023,
     "architect": "",
     "interiorDesigner": "",
-    "refitYear": 0,
-    "topSpeed": 9,
-    "cruiseSpeed": 7,
-    "fuelCapacity": 1040,
+    "topSpeed": 0,
+    "cruiseSpeed": 32,
+    "fuelCapacity": 0,
     "cabinLayout": [
       {
-        "label": "Double Cabins",
-        "value": "6"
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin with pullman bed",
+        "value": "1"
       }
     ],
-    "cabins": 6,
+    "cabins": 4,
     "bathrooms": 4,
-    "length": 15.15,
-    "beam": 8.1,
-    "draft": 1.7,
-    "hullType": "Catamaran",
-    "engines": "2 x 80 ",
+    "length": 28.1,
+    "beam": 6.23,
+    "draft": 1.65,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x MTU 16V 2860 HP",
     "amenities": [
-      {
-        "label": "Fridge"
-      },
-      {
-        "label": "Freezer"
-      },
-      {
-        "label": "Sink"
-      },
-      {
-        "label": "Cooker/Stove"
-      },
-      {
-        "label": "Oven"
-      },
-      {
-        "label": "BBQ/Grill"
-      },
-      {
-        "label": "Coffee Machine"
-      },
-      {
-        "label": "Microwave "
-      },
-      {
-        "label": "Kitchen Utensils "
-      },
-      {
-        "label": "Water Maker"
-      },
-      {
-        "label": "Ice Maker"
-      },
-      {
-        "label": "Dishwasher"
-      },
-      {
-        "label": "Washing Machine"
-      },
       {
         "label": "Air Conditioning"
       },
       {
-        "label": "Heating System"
+        "label": "Foredeck Seating with Table"
       },
       {
-        "label": "Pillows and blankets in cockpit"
+        "label": "Stabilizers Underway"
       },
       {
-        "label": "Shower"
+        "label": "At Anchor  Stabilizers"
       },
       {
-        "label": "Outside Shower"
+        "label": "Sun pads"
       },
       {
-        "label": "Sun Pads"
+        "label": "Sun deck"
       },
       {
-        "label": "Black water tank"
+        "label": "Lounge Area"
       },
       {
-        "label": "Inside (saloon) GPS plotter"
-      },
-      {
-        "label": "Outside GPS plotter"
-      },
-      {
-        "label": "Solar Panels"
-      },
-      {
-        "label": "Teak deck "
-      },
-      {
-        "label": "Electric winches"
-      },
-      {
-        "label": "Radar"
-      },
-      {
-        "label": "Inverter"
-      },
-      {
-        "label": "Autopilot"
-      },
-      {
-        "label": "Bimini"
-      },
-      {
-        "label": "Bow thruster"
-      },
-      {
-        "label": "Bathing platform"
-      },
-      {
-        "label": "Generator"
+        "label": "Generators"
       }
     ],
     "toys": [
       {
-        "label": "Water toys"
+        "label": "Jetski SeaDoo 3 seats (License required)",
+        "quantity": "1"
+      },
+      {
+        "label": "Seabob F5SR",
+        "quantity": "1"
+      },
+      {
+        "label": "Water ski",
+        "quantity": "1"
       }
     ],
-    "entertainment": [
-      "Inside speakers",
-      "Outside deck speakers",
-      "Radio CD / MP3 player / Audio system",
-      "Flat screen TV"
-    ],
-    "tenders": []
+    "entertainment": [],
+    "tenders": [
+      "1 x Williams Jet Tender 3.95 mt"
+    ]
   },
   "crew": [
     {
-      "name": "Panagiotis Panagiotopoulos",
-      "avatar": "/media/media::image::c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::a711c5d0-4eab-11f1-94ed-9162961613ab/{imageVariant}",
+      "name": "Emmanuel Pepe",
+      "avatar": "/media/media::image::a::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::0325b690-ae73-11ef-ba80-956a1a722818/{imageVariant}",
       "role": "Captain",
-      "bio": "Panagiotis is an experienced and approachable yacht skipper with many years in professional charter sailing. \nHe combines a deep love for the sea with a strong understanding of what creates a truly memorable yachting experience.\nHaving worked extensively in Greece and abroad, he brings both international charter expertise and in-depth local knowledge to every voyage. He has sailed across all major Greek cruising areas—including the Cyclades, Ionian, Dodecanese, and Saronic Gulf—and excels at tailoring each itinerary to weather conditions, guest preferences, and hidden local highlights.\nFluent in English, with working knowledge of Italian and basic Spanish, Panagiotis ensures smooth communication and a welcoming onboard atmosphere. Guests can expect not only safe and seamless sailing, but also authentic experiences, beautiful anchorages, and thoughtfully designed routes away from the crowds.\nWith a solid technical background and hands-on experience in yacht systems and maintenance, he operates every yacht with care, efficiency, and attention to detail. Calm, organized, and safety-conscious, Panagiotis creates a relaxed environment where guests can fully unwind and enjoy their time at sea.\nFriendly, professional, and genuinely hospitable, Panagiotis is a captain guests trust—and one they look forward to sailing with again."
+      "bio": "Italian\nEmmanuel, a native of Naples, is an experienced captain with extensive knowledge of the captivating Amalfi Coast. Growing up along the coastline has forged a deep connection between him and the sea. With years of experience in the yachting industry, Emmanuel has refined his navigation skills, ensuring an unparalleled charter experience for guests.\nHis ability to understand clients' preferences is remarkable, making guests from around the world feel comfortable throughout their time aboard. Emmanuel's friendly demeanor creates a welcoming atmosphere on the yacht. His wealth of experience and intimate familiarity with the Amalfi Coast position him well to address any challenges that may arise during the charter, consistently prioritizing the safety and satisfaction of guests.\nFluent in both Italian and English, Emmanuel is looking forward to welcoming you on board!"
     },
     {
-      "name": "Nikos Tzilakos",
-      "avatar": "/media/media::image::c::19057481779::vessel::e7455840-3a0e-11f0-8892-61970e8f798b::assets::bed63700-4eab-11f1-94ed-9162961613ab/{imageVariant}",
+      "name": "Michelle Lingat",
+      "avatar": "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::ef680800-513e-11f0-b1dd-d98d7d996b3e/{imageVariant}",
       "role": "Captain",
-      "bio": "Nikos is a dynamic, reliable, and highly motivated steward who brings a strong work ethic and a versatile skill set to every vessel he joins. He is widely recognized as a hard-working and valuable crew member, always proactive and willing to support his colleagues, contributing to a positive, cooperative, and efficient onboard environment. His team-oriented mindset and excellent communication skills allow operations to run smoothly and professionally at all times.\nIn addition to his solid maritime experience, Nikos holds certifications in First Aid, a sailing license, and a scuba diving certification, adding significant value to the overall safety and capability of the crew. He is confident, safety-aware, and comfortable taking responsibility when needed. One of his strongest additional assets is his passion and talent for cooking. Although not a professional chef, Nikos is an excellent cook who consistently prepares high-quality, delicious meals, greatly enhancing crew morale and onboard life. His genuine love for the sea, combined with his enthusiasm, adaptability, and positive energy, makes him a well-rounded and dependable steward who elevates the experience for both crew and guests alike."
+      "bio": "Filipino\nMichelle is dynamic, ambitious and kind. Before joining the yachting industry she has been working in luxury hotels for many years, during which she developed herself about silver serving, hygiene and hospitality. Michelle loves to create a different ambiance depending on the situation and on the people she is interacting with. Michelle started her experience as stewardess in 2014 on an elegant motor yacht while she was navigating through the Aeolian Islands. Her passion for the sea and the boats led her to start a new career, combining her past experiences in serving and the new one as stewardess, to become a professional Chief stewardess. Always ready to go the extra mile for guests, she looks forward to welcoming you on board. Michelle speaks English, Filipino and Italian."
+    },
+    {
+      "name": "Emilia Lucci",
+      "avatar": "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::21b3daf0-513f-11f0-932e-09c106c057f5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nChef Emilia is a dynamic and passionate Chef with a diverse background in the maritime industry and a deep-rooted love for hospitality and cuisine. Born in Naples, Emilia brings a warm, authentic Mediterranean spirit to SOPHIA, along with refined culinary skills and a natural talent for guest care. With official certification in Mise en Place for yachts over 30 meters, Emilia has spent the past several years fully immersed in the world of yachting, delivering a consistently high standard of service and cuisine aboard vessels up to 35 meters. Known for her discretion, sense of style, and responsibility, she ensures that every moment on board is relaxed, enjoyable, and personalized to guest preferences. Beyond the galley, Emilia is also experienced in yacht maintenance, guest reception, and even mooring operations- showcasing her dedication and versatility across all aspects of yacht life. Sociable, creative, and deeply committed, Emilia's enthusiasm for her work shines through in every dish she prepares and every guest interaction."
+    },
+    {
+      "name": "Fabio De Vita",
+      "avatar": "/media/media::image::c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec::assets::9c1a3c80-513f-11f0-9467-2b35077ba96e/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nBorn and raised in Naples surrounded by the water, his love for the sea brought him to work as a deckhand on board charter yachts in Italy and France. He is sunny and organized. Fabio joined his first motor yacht 20 years ago and has not looked back since. He will go the extra mile to achieve maximum guest satisfaction. His attention to detail and knowledge is unparalleled. With multiple seasons of experience on board several yachts, Fabio brings a wealth of knowledge and expertise in charter operations. He enjoys swimming, trekking and running. Fabio will make your charter comfortable and enjoyable. He speaks Italian and English."
     }
   ],
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 1300000,
+      "price": 7900000,
       "displayCurrency": "EUR",
-      "displayPrice": 1300000,
+      "displayPrice": 7900000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 1500000,
+      "price": 8900000,
       "displayCurrency": "EUR",
-      "displayPrice": 1500000,
+      "displayPrice": 8900000,
       "unit": "WEEK"
     },
     "pricingInfo": [
       {
-        "name": "Weekly Rate - High Season",
+        "name": "High Season: July and August",
         "effectiveDates": [
           {
-            "from": "2026-06-01T00:00:00.000Z",
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
             "to": "2026-08-31T23:59:59.999Z"
           },
           {
-            "from": "2027-06-01T00:00:00.000Z",
+            "from": "2027-07-01T00:00:00.000Z",
             "to": "2027-08-31T23:59:59.999Z"
-          },
-          {
-            "from": "2028-06-01T00:00:00.000Z",
-            "to": "2028-08-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1500000,
+          "charterFee": 8900000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -247,115 +239,108 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1500000,
-              "amount": 1500000,
-              "conditions": "VAT and APA not included",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.12
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 375000,
-              "amount": 375000
+              "unitPrice": 8900000,
+              "amount": 8900000,
+              "conditions": "Weekly"
             }
           ],
-          "total": 2055000,
-          "subTotal": 1875000,
-          "totalTax": 180000
+          "total": 8900000,
+          "subTotal": 8900000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
-            "label": "Greece",
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Greece"
+              "Italy"
             ],
             "coordinates": [
-              24.208266084703272,
-              38.07874263978093
+              12.625653670513588,
+              41.01657127176474
             ],
             "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          },
-          {
-            "label": "Mykonos",
-            "type": "Custom Area",
-            "category": [
-              "Mykonos"
-            ],
-            "coordinates": [
-              25.417890518546145,
-              37.444344530734035
-            ],
-            "bbox": [
-              25.283314533252252,
-              37.37813369198719,
-              25.614171339867283,
-              37.50947159695451
-            ]
-          },
-          {
-            "label": "Athens, Attiki, Greece",
-            "type": "Custom Area",
-            "category": [
-              "Athens"
-            ],
-            "coordinates": [
-              23.754167000000002,
-              38.033333
-            ],
-            "bbox": [
-              23.591667,
-              37.908333,
-              23.916667,
-              38.158333
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
             ]
           }
         ],
         "exclusionZones": [],
-        "petsAllowed": true
+        "petsAllowed": false
       },
       {
-        "name": "Weekly Rate - Low Season ",
+        "name": "Low Season: May, June, September, October",
         "effectiveDates": [
           {
-            "from": "2026-04-01T00:00:00.000Z",
-            "to": "2026-05-31T23:59:59.999Z"
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
           },
           {
-            "from": "2027-04-01T00:00:00.000Z",
-            "to": "2027-05-31T23:59:59.999Z"
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
           },
           {
-            "from": "2028-04-01T00:00:00.000Z",
-            "to": "2028-05-31T23:59:59.999Z"
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
           },
           {
             "from": "2026-09-01T00:00:00.000Z",
-            "to": "2026-11-30T23:59:59.999Z"
+            "to": "2026-12-31T23:59:59.999Z"
           },
           {
             "from": "2027-09-01T00:00:00.000Z",
-            "to": "2027-11-30T23:59:59.999Z"
-          },
-          {
-            "from": "2028-09-01T00:00:00.000Z",
-            "to": "2028-11-30T23:59:59.999Z"
+            "to": "2027-12-31T23:59:59.999Z"
           }
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 1300000,
+          "charterFee": 7900000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -363,83 +348,76 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 1300000,
-              "amount": 1300000,
-              "conditions": "VATand APA not included",
-              "taxRate": {
-                "label": "VAT",
-                "value": 0.12
-              }
-            },
-            {
-              "item": "APA",
-              "conditions": "",
-              "quantity": 1,
-              "unitPrice": 325000,
-              "amount": 325000
+              "unitPrice": 7900000,
+              "amount": 7900000,
+              "conditions": "Weekly"
             }
           ],
-          "total": 1781000,
-          "subTotal": 1625000,
-          "totalTax": 156000
+          "total": 7900000,
+          "subTotal": 7900000,
+          "totalTax": 0
         },
         "inclusionZones": [
           {
-            "label": "Greece",
+            "label": "Monaco",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "Monaco"
+            ],
+            "coordinates": [
+              7.412533360798911,
+              43.733553401985496
+            ],
+            "bbox": [
+              7.374572753906251,
+              43.70833803832912,
+              7.450447082519532,
+              43.75844873656346
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Italy",
             "type": "Sovereign country",
             "category": [
               "Europe",
               "Southern Europe",
-              "Greece"
+              "Italy"
             ],
             "coordinates": [
-              24.208266084703272,
-              38.07874263978093
+              12.625653670513588,
+              41.01657127176474
             ],
             "bbox": [
-              19.333190917968754,
-              34.337078172828036,
-              28.475189208984375,
-              41.44066745847661
-            ]
-          },
-          {
-            "label": "Mykonos",
-            "type": "Custom Area",
-            "category": [
-              "Mykonos"
-            ],
-            "coordinates": [
-              25.417890518546145,
-              37.444344530734035
-            ],
-            "bbox": [
-              25.283314533252252,
-              37.37813369198719,
-              25.614171339867283,
-              37.50947159695451
-            ]
-          },
-          {
-            "label": "Athens, Attiki, Greece",
-            "type": "Custom Area",
-            "category": [
-              "Athens"
-            ],
-            "coordinates": [
-              23.754167000000002,
-              38.033333
-            ],
-            "bbox": [
-              23.591667,
-              37.908333,
-              23.916667,
-              38.158333
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
             ]
           }
         ],
         "exclusionZones": [],
-        "petsAllowed": true
+        "petsAllowed": false
       }
     ]
   }

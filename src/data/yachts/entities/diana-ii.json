@@ -1,0 +1,444 @@
+{
+  "lastModified": 1794224733170,
+  "uri": "c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Naples, Sorrento, Italy, Olbia, Sardinia\n\nCustom Line Navetta 33 DIANA II is a luminous equilibrium of beauty that glides over the water. She offers expansive exterior spaces and a bulbous bow that ensures best-in-class stability.\n\nAccommodating up to 11 guests, the yacht features 5 spacious en-suite cabins: a Master suite on the main deck, 3 double cabins, and 1 twin cabin (one with a Pullman) on the lower deck.\n\nThe sun deck features a Jacuzzi and sun loungers aft, with a shaded central area furnished with sofas and a coffee table. The upper deck offers complete privacy and provides al fresco dining around a large table. Additionally, guests can relax on the comfortable seating areas at the bow or stern. Inside, the main salon offers ample lounge space and abundant natural light.\n\nDIANA II includes a large swim platform for easy access to the water, stabilizers, and a wide array of water toys. An experienced crew of 6 ensures a seamless yachting experience.\n\nShe is equipped with Starlink high speed internet.",
+  "blueprint": {
+    "name": "DIANA II",
+    "images": [
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef032fd0-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef09e690-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef01d040-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef08d520-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0d1ae0-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0356e0-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0aa9e0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0b9440-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef01a930-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef06b240-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0838e0-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0356e0-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::efa403b0-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef08d520-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef018220-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef026c80-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef021e60-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef05c7e0-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef04dd80-ae68-11ef-b193-2593d86ef042/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef046850-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0811d0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0a0da0-ae68-11ef-960d-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0a0da0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0d1ae0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef02baa0-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef08fc30-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0552b0-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef04b670-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef085ff0-ae68-11ef-b193-2593d86ef042/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0c7ea0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef05a0d0-ae68-11ef-960d-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0be260-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef088700-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0c0970-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef085ff0-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef048f60-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef03cc10-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef02baa0-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef07eac0-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eef2dc20-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0b6d30-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef05c7e1-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef03a500-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eef5c250-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eeccdd90-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef56a700-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eef79710-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef07eac0-ae68-11ef-b193-2593d86ef042/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eece1610-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef077590-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0b1f10-ae68-11ef-960d-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eeddcd80-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0aa9e0-ae68-11ef-b193-2593d86ef042/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0a82d0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef066420-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef048f61-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0b4620-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0cccc0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef04b670-ae68-11ef-960c-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef04dd80-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef050490-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef072770-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0ad0f0-ae68-11ef-b98c-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0bbb50-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef044140-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef041a30-ae68-11ef-960b-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::eee21340-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0579c0-ae68-11ef-92c4-f30f226c90ea/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef05eef0-ae68-11ef-960c-bf66f5acb1a6/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef0aa9e0-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef066420-ae68-11ef-af07-fb40fad8d0a5/{imageVariant}",
+      "/media/media::image::a::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ef01d040-ae68-11ef-b98b-e15c9fba2d8c/{imageVariant}"
+    ],
+    "make": "Ferretti",
+    "model": "Custom Line Navetta 33",
+    "maxCrew": 6,
+    "sleeps": 11,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": "",
+    "builtYear": 2020,
+    "architect": "Zuccon International Project",
+    "interiorDesigner": "Zuccon International Project",
+    "topSpeed": 0,
+    "cruiseSpeed": 12,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 5,
+    "bathrooms": 5,
+    "length": 33,
+    "beam": 7.53,
+    "draft": 2.8,
+    "hullType": "",
+    "hullConstruction": "GRP",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x MAN 1400 HP",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Stabilizers Underway"
+      },
+      {
+        "label": "At anchor Stabilizers"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Deck Jacuzzi"
+      },
+      {
+        "label": "Sun loungers"
+      },
+      {
+        "label": "Lounge Areas"
+      },
+      {
+        "label": "Swim platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob F5S",
+        "quantity": "2"
+      },
+      {
+        "label": "Lift Foil 6’2 White"
+      },
+      {
+        "label": "Lift Foil 5’9 White"
+      },
+      {
+        "label": "Donuts & Banana"
+      },
+      {
+        "label": "Snorkeling Equipment"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Waverunner (available for rent upon request)"
+      }
+    ],
+    "entertainment": [
+      "Starlink high speed internet"
+    ],
+    "tenders": [
+      "Williams Jet Tender 505"
+    ]
+  },
+  "crew": [
+    {
+      "name": "MARCO MORVILLO",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::55a8b6b0-5102-11f0-9eee-edcd5cb6ef96/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nMarco has had a lifelong passion for the sea. As Captain Marco, he embodies all the qualities needed to ensure guests have an unforgettable vacation. He is kind, knowledgeable, and open-minded. Starting his career in 2013 as a deckhand on private yachts, Marco quickly advanced to the role of Captain. With extensive cruising experience throughout the Mediterranean Sea, Marco has developed unparalleled expertise and leadership skills. He delights in showing guests unspoiled bays for swimming and hidden gems for anchoring. In 2015, Captain Marco transitioned to the charter world to challenge himself further and provide exceptional experiences for his guests. When not on board, Captain Marco enjoys swimming, reading, and fishing. He is fluent in both English and Italian."
+    },
+    {
+      "name": "EMANUELE ROBUSTELLI",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::aa1d8090-5102-11f0-9eee-edcd5cb6ef96/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nChef Emanuele is an exceptional Yacht Chef who brings a proactive, perceptive, and passionate approach to his culinary craft. His goal is to impress guests with delicious and attractive dishes. Emanuele showcases remarkable versatility and expertise across various cuisines. Embarking on his culinary journey in a small restaurant in Naples, Emanuele has honed his skills to meet diverse needs, earning positive feedback for his meticulous attention to detail and boundless creativity. His culinary artistry never fails to capture the hearts of those fortunate enough to savor his creations, creating a symphony of flavors, emotions, and unforgettable experiences. A true maestro of pastry-making, Emanuele seamlessly weaves his passion into his culinary repertoire. Beyond the kitchen, he finds joy in traveling and swimming. Fluent in both Italian and English, Emanuele is not only a master in the galley but also a delightful communicator, ensuring a seamless and enjoyable culinary experience for all."
+    },
+    {
+      "name": "NATALIA OPREA",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::0e80d000-5103-11f0-9eee-edcd5cb6ef96/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nA dedicated and detail-oriented stewardess, Natalia brings a warm, professional presence on board, ensuring an exceptional guest experience from embarkation to disembarkation. With proven resilience under pressure and a calm, intuitive approach, she adapts seamlessly to dynamic environments while consistently maintaining the highest standards of service, discretion, and confidentiality. Stewardess Natalia understands the importance of anticipating guest needs and creating a relaxed, welcoming atmosphere. Her strong time management skills and ability to prioritize tasks allow her to manage busy schedules and last-minute requests with ease and efficiency. Known for building strong, positive relationships with both guests and crew, she values clear communication and teamwork as the foundation of a successful charter."
+    },
+    {
+      "name": "PAOLO AIELLO",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::6dfa5740-5103-11f0-9eee-edcd5cb6ef96/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nWith a strong focus on relations and a passion for teamwork, Paolo has honed his skills while working on various charter vessels. His innate ability to build rapport with individuals from diverse geographical backgrounds and social standings sets him apart in his field. Paolo's extensive knowledge of sailing techniques and vessel safety regulations ensures a smooth sailing experience for guests. Whether it involves assisting guests, supporting fellow crew members, or performing various deckhand responsibilities, Paolo approaches each task with professionalism, attention to detail, and a passion for providing exceptional service. Paolo speaks Italian and English. He loves outdoor, sports and swimming in his spare time. Mario looks forward to welcoming you on board!"
+    },
+    {
+      "name": "PANTELEIMON ROUSSOS",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::ccf64a10-5103-11f0-a2e4-11811cf06695/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nGREEK\n\nWith over a decade of experience in the yachting industry, Panteleimon brings a wealth of knowledge and expertise to his role as Chief Engineer on board DIANA II. Throughout the years, he has honed his skills and developed a deep understanding of yacht engineering and maintenance. Panteleimon is responsible for the overall maintenance and operation of the yacht’s sophisticated engineering systems. His role is crucial in ensuring the seamless performance of the vessel, allowing guests to enjoy their charter experience without any technical disruptions. Panteleimon's passion for the maritime industry is evident in his dedication to his work. He is constantly seeking to expand his knowledge and stay updated with the latest advancements in yacht engineering."
+    },
+    {
+      "name": "ZAYDI RUDMAN",
+      "avatar": "/media/media::image::c::7580634126::vessel::02bd8c00-2d68-11ef-870a-83c5b300a125::assets::20a6b280-5104-11f0-a2e4-11811cf06695/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nSOUTH AFRICAN\n\nZaydi is an exceptionally enthusiastic individual, always eager to learn new skills and embark on new adventures. Her disciplined mindset and strong work ethic fuel her dedication to achieving excellence in every task she undertakes, especially in her role as a stewardess. Punctuality and meticulousness define Zaydi's professional demeanor. Whether engaging with guests or collaborating with colleagues, she exudes professionalism and confidence, leaving a positive impression on everyone she meets. Zaydi is thrilled to bring her hardworking nature and team spirit to the esteemed crew of DIANA II. With a keen eye for detail and a natural ability to create inviting and aesthetically pleasing environments, she is committed to fostering a positive and productive atmosphere on board. Zaydi is determined to contribute to the success and smooth operation of DIANA II, ensuring a seamless and enjoyable experience for all."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 12500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 14500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 14500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 14500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 14500000,
+              "amount": 14500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 14500000,
+          "subTotal": 14500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 12500000,
+          "subTotal": 12500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

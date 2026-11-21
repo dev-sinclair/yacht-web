@@ -1,0 +1,243 @@
+{
+  "lastModified": 1750760733959,
+  "uri": "c::7580634126::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy\n\nThe SL86A CATCH ME is a brand-new yacht available for charter in Italy. Designed with an emphasis on space and natural light, the SL86A offers a fresh, contemporary feel while maintaining the timeless elegance and clean lines that define Sanlorenzo.\n\nOn deck, guests will find ample space to bask in the sunshine, while the yacht’s beautifully illuminated interior provides a serene retreat. The main salon features a large lounge area and a concealed television. Forward of the salon, a stylish dining area provides an inviting space for guests to enjoy exquisite meals together. Accommodating up to 8 guests, CATCH ME features 4 cabins, including a Master cabin, 2 VIP cabins (double) and a twin cabin (double with single beds), all en suite and outfitted with the latest entertainment systems.\n\nThe expansive flybridge is a versatile space, offering sun loungers, comfortable lounge seating, and a shaded al fresco dining area beneath an hardtop. With panoramic 360-degree views, dining for eight, and a large wet bar, it’s an ideal setting for both private gatherings and lively celebrations. At the bow, a spacious sunpad and cozy seating area invite guests to unwind, complete with a coffee table perfect for afternoon tea or evening cocktails.\n\nCATCH ME’s dedicated crew of 4 ensures an unforgettable charter experience, leaving guests eager to return.",
+  "blueprint": {
+    "name": "CATCH ME",
+    "images": [
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::338fb430-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::3393d2e0-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::338fb430-f8f0-11ef-bb7b-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::33913ad0-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::33922530-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::33927350-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::33900250-f8f0-11ef-bb7b-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::3392c170-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::339336a0-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::338f3f00-f8f0-11ef-bb7b-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::3390c5a0-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::3391b000-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::33907780-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}",
+      "/media/media::image::a::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::3393f9f0-f8f0-11ef-bb7c-db915f0aff21/{imageVariant}"
+    ],
+    "make": "Sanlorenzo",
+    "model": "SL86A",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2025,
+    "topSpeed": 32,
+    "cruiseSpeed": 14,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins (double)",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin (double with single beds)",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 27.6,
+    "beam": 6.35,
+    "draft": 2,
+    "hullType": "Planing",
+    "hullConstruction": "GRP",
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2x MAN V12-2000",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Sun lounges"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Wet bar"
+      },
+      {
+        "label": "Al Fresco Dining"
+      }
+    ],
+    "toys": [
+      {
+        "label": "JetSki Seadoo Spark 90HP"
+      },
+      {
+        "label": "Seabob F5S",
+        "quantity": ""
+      },
+      {
+        "label": "Flitescooter E-Foil"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection"
+    ],
+    "tenders": [
+      "Williams Sportjet 395"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Pasquale Paparone",
+      "avatar": "/media/media::image::c::7580634126::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::48699550-50e4-11f0-b8ca-cf7cb3b64fed/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY: ITALIAN\n\nCaptain Pasquale brings extensive experience as a captain on the renowned Sanlorenzo SL86A. His leadership skills and deep understanding of yacht operations have been honed through his time commanding several prestigious yachts. Serving as Captain on the\nSanlorenzo SX88 Danida', Pasquale gained invaluable experience in managing large yacht operations. His role involved maintaining the\nyacht to the highest standards. Pasquale is also an excellent chef. With extensive knowledge of the Amalfi Coast, he can provide guests\nwith insider tips and unique experiences in this stunning region. Whether it's finding the best secluded beaches, navigating the coastal\nwaters, or suggesting the finest local restaurants, his expertise ensures a memorable journey. His ability to seamlessly blend his\nmaritime skills with his culinary talents makes him a valuable asset to the DANIDA crew. Guests can expect exceptional service and a\ntruly personalized experience under his care"
+    },
+    {
+      "name": "Giorgia Pesare",
+      "avatar": "/media/media::image::c::7580634126::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::a9c3ea80-50e4-11f0-b8ca-cf7cb3b64fed/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\n\nGiorgia brings a wealth of experience in the luxury yacht charter industry, having served on various high-end yachts. Her background\nincludes managing the interior operations, ensuring that every guest enjoys an impeccable and memorable stay. With a strong foundation in hospitality management, Giorgia excels in delivering top-notch service. Her previous roles have equipped her with the\nskills necessary to anticipate guests' needs and exceed their expectations, providing a seamless and luxurious experience on board\nGiorgia is fluent in several languages, allowing her to communicate effectively with guests from around the world. Her linguistic\nabilities enhance the overall guest experience, making international guests feel welcomed and understood. With her expertise and passion for hospitality, Giorgia is a vital member of the CATCH ME crew, committed to delivering an exceptional yachting experience.\n"
+    },
+    {
+      "name": "Vincenzo Siani",
+      "avatar": "/media/media::image::c::7580634126::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7::assets::da9b9400-50e4-11f0-b8ca-cf7cb3b64fed/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\n\nChef Vincenzo has been working on board yachts since 2006, bringing nearly two decades of experience, passion, and professionalism to every charter. A proud native of Cava de’ Tirreni, he blends southern Italian warmth with a strong work ethic and a deep love for the sea. Vincenzo is especially known for his mastery of Neapolitan cuisine and traditional Mediterranean recipes. Whether he’s preparing a fresh seafood lunch on deck or serving a multi-course dinner under the stars, his dishes are always a highlight of the charter experience. Fluent in both Italian and English, he ensures that guests feel welcomed, cared for, and well-fed throughout their time on board. With Vincenzo on board, every meal becomes a journey through the authentic flavors of the Amalfi Coast and beyond."
+    },
+    {
+      "name": "TBA",
+      "role": "Captain"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 7900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 7900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 8900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8900000,
+              "amount": 8900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 8900000,
+          "subTotal": 8900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 7900000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 7900000,
+              "amount": 7900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 7900000,
+          "subTotal": 7900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

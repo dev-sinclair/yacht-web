@@ -1,0 +1,395 @@
+{
+  "lastModified": 1783027620476,
+  "uri": "c::7580634126::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Operating Area: Italy\n\nANIMA is a Fountaine Pajot Power 80, the flagship of the shipyard’s motor yacht collection and the only one available for charter in Italy. She brings superyacht comfort and capability to the luxury power catamaran market.\n\nWith accommodation for up to 8 guests, ANIMA offers 4 cabins, including a Master suite, one VIP cabin, and two double guest cabins, all with ensuite bathrooms. Her professional crew of 4 delivers a seamless onboard experience with attentive, discreet service.\n\nThe yacht’s 250 square metres of entertaining space provide multiple areas for relaxation. The foredeck features a jacuzzi and sun loungers, while the aft cockpit connects naturally to the saloon, creating a fluid indoor–outdoor living environment. The flybridge extends the experience with panoramic sea views and an ideal setting for alfresco dining or navigation in comfort.\n\nPowered by twin engines up to 900 hp, ANIMA delivers both range and reliability, capable of comfortable long-distance cruising or relaxed coastal itineraries. Her modern systems and stable twin-hull design ensure a quiet, smooth ride for guests at all times.\n\nExclusive, spacious, and versatile, ANIMA offers a unique opportunity to explore the Amalfi Coast and the wider Mediterranean aboard the most advanced Power 80 in existence - a yacht where contemporary design meets genuine seagoing performance.",
+  "blueprint": {
+    "name": "ANIMA",
+    "images": [
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb59d90-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb46510-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb17ee0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb612c0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb72430-fb85-11f0-a0e1-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb2b760-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb54f70-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb26940-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb48c20-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb2b761-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebacdb0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebaa6a0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb3efe0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb24230-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb416f0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb50150-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb37ab0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb0e2a0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb6af00-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb5ebb0-fb85-11f0-a0e1-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb7e780-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb130c0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb99530-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb32c90-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb96e20-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb85cb0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb1cd00-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebaf4c0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb6fd20-fb85-11f0-9f1d-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eba5880-fb85-11f0-9f1f-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb9bc40-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb92000-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebb1bd0-fb85-11f0-9f1f-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb94710-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eba0a60-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebdb3e0-fb85-11f0-b9cb-c78c4de58afc/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebe7730-fb85-11f0-b9cc-c78c4de58afc/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eba0a61-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebb69f0-fb85-11f0-9f1f-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb612c0-fb85-11f0-9f1d-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb7c070-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb6af00-fb85-11f0-a0e1-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb6fd20-fb85-11f0-a0e1-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb52860-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebaa6a0-fb85-11f0-b979-abf110e22c8e/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebf3a80-fb85-11f0-a159-f542d36d0d19/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebe2910-fb85-11f0-83cc-3d923c66d5f7/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebc0630-fb85-11f0-b979-abf110e22c8e/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebbb810-fb85-11f0-b979-abf110e22c8e/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebcc980-fb85-11f0-83cc-3d923c66d5f7/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb8aad0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebd8cd0-fb85-11f0-b9cc-c78c4de58afc/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebca270-fb85-11f0-83cc-3d923c66d5f7/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebca270-fb85-11f0-a159-f542d36d0d19/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebe0200-fb85-11f0-83cc-3d923c66d5f7/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebf6190-fb85-11f0-a159-f542d36d0d19/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb353a0-fb85-11f0-a0e0-1d7a9186ce1a/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9eb8d1e0-fb85-11f0-9f1e-e1d2c0bd69e1/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebc7b60-fb85-11f0-b979-abf110e22c8e/{imageVariant}",
+      "/media/media::image::a::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000::assets::9ebec550-fb85-11f0-a159-f542d36d0d19/{imageVariant}"
+    ],
+    "make": "Fountaine Pajot",
+    "model": "Power 80",
+    "maxCrew": 5,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::8e5430f0-57fd-11f0-9b53-758e6debb02a",
+      "name": "Marina d’Arechi",
+      "coordinates": {
+        "latitude": 40.64004301143993,
+        "longitude": 14.82416750849405
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2025,
+    "cruiseSpeed": 15,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 24,
+    "beam": 11.09,
+    "draft": 1.5,
+    "hullType": "Catamaran",
+    "engines": "2 x VOLVO D13 900HP",
+    "amenities": [
+      {
+        "label": "Deck Jacuzzi"
+      },
+      {
+        "label": "Sun loungers"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Bow thrusters",
+        "quantity": "2"
+      },
+      {
+        "label": "Solar panels"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Snorkeling sets",
+        "quantity": "10"
+      },
+      {
+        "label": "SEABOB F9 (white)",
+        "quantity": "3"
+      },
+      {
+        "label": "Stand-up paddle boards (SUP)",
+        "quantity": "2"
+      },
+      {
+        "label": "Floating mats",
+        "quantity": "2"
+      },
+      {
+        "label": "Underwater cameras",
+        "quantity": "2"
+      },
+      {
+        "label": "Kayak",
+        "quantity": "1"
+      },
+      {
+        "label": "YachtBeach platform",
+        "quantity": "1"
+      },
+      {
+        "label": "E-foil",
+        "quantity": "1"
+      },
+      {
+        "label": "Water ski",
+        "quantity": "1"
+      },
+      {
+        "label": "Fishing equipment",
+        "quantity": "1"
+      }
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 8500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 9500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8500000,
+              "amount": 8500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 8500000,
+          "subTotal": 8500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9500000,
+          "subTotal": 9500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

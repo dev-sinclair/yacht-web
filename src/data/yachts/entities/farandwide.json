@@ -1,0 +1,423 @@
+{
+  "lastModified": 1781812647827,
+  "uri": "c::7580634126::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Pozzuoli, Naples, Milazzo, Sicily, Vibo Marina, Anzio, Rome, Italy\n\nWe are proud to present the FARANDWIDE Sailing Yacht. All state of arts technologies have been used to built the new luxurious Southern Wind 100'DS (over 30m) deck house sloop.\n\nThe yacht was launched in June 2007 in the SWS shipyard of Cape Town. The class of water line and the high sailing performances are the result of the willing of the owner and the cooperation of the best suppliers in the market leaders in their sectors.\n\nNaval Architecture: Farr Y. Design.Concept, Interior design and Exterior styling: Nauta Design. High performance hull made in Carbon/Kevlar and Epoxy resin.Materials: Composite (Carbon fibre, Kevlar and Epoxy resin) sandwich - Sail area: 424 sqm.\n\nFARANDWIDE sailing yacht accommodation in \"grand comfort\" for eight guests includes a large saloon with 360° sight and dining area. Owner studio forward with direct access to the full beam master double bed cabin and to the VIP double bed cabin, aft ward two twin guest's cabins - all cabins with en-suite shower room and modern audio visual system. Aft independent crew quarter for 4 persons with 3 cabins with heads, wide galley, crew mess and chart table.\n\nThe yacht is fully equipped with all modern navigation instruments and toys.\n\nAudio visual equipment and deck facilities include 5 TV, saloon 32’’, Owner cabin 26'', Guest cabin 17''), Sat antenna for TV, Stereo/CD/DVD, large bimini top over \"Al fresco area\", separate bimini over steering station and hidraulic swim platform.",
+  "blueprint": {
+    "name": "FARANDWIDE",
+    "images": [
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d63630-ae61-11ef-b034-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d17b40-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d28cb0-ae61-11ef-95a3-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d090e0-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d3ec40-ae61-11ef-95a4-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d72090-ae61-11ef-b035-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d328f0-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d1a250-ae61-11ef-95a3-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17dc0290-ae61-11ef-b037-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d96a80-ae61-11ef-b037-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17db8d60-ae61-11ef-b038-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d301e0-ae61-11ef-95a3-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17dc9ed0-ae61-11ef-95a6-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d83200-ae61-11ef-b036-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d3c530-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d6f980-ae61-11ef-b034-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17db1830-ae61-11ef-b037-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17dbb470-ae61-11ef-95a6-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d94370-ae61-11ef-95a6-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17da54e0-ae61-11ef-b80c-2ffd04964fdb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d83200-ae61-11ef-ba73-3b7293398c97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d65d40-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d91c60-ae61-11ef-b036-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d85910-ae61-11ef-b035-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d1a250-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17db3f40-ae61-11ef-b038-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d2b3c0-ae61-11ef-95a4-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d60f20-ae61-11ef-b035-a3409f401e41/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d96a80-ae61-11ef-95a4-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d7bcd0-ae61-11ef-ba73-3b7293398c97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d80af0-ae61-11ef-95a5-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d54bd0-ae61-11ef-ba73-3b7293398c97/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d2b3c0-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d96a80-ae61-11ef-95a5-73d057b290fe/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17d91c60-ae61-11ef-8f86-771e3d4b7494/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17dc9ed0-ae61-11ef-b80c-2ffd04964fdb/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::17daa300-ae61-11ef-b036-a3409f401e41/{imageVariant}"
+    ],
+    "make": "Southern Wind Shipyard",
+    "model": "Southern Wind 100DS",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::103e7af0-b3ee-11ed-857d-325096b39f47",
+      "name": "Rome",
+      "coordinates": {
+        "latitude": 41.89459773869066,
+        "longitude": 12.48225304008708
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 8,
+    "builtYear": 2007,
+    "architect": "Farr Yacht Design",
+    "interiorDesigner": "Nauta Design",
+    "refitYear": 2023,
+    "topSpeed": 0,
+    "cruiseSpeed": 9,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 30.2,
+    "beam": 6.7,
+    "draft": 3.65,
+    "hullType": "Planing",
+    "hullConstruction": "Composite",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "1 x 305 HP Cummins 22.5 kw",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Generators"
+      },
+      {
+        "label": "Navigation instruments"
+      },
+      {
+        "label": "Bimini top (Al fresco area)"
+      },
+      {
+        "label": "Bimini (steering station)"
+      },
+      {
+        "label": "Hydraulic swim platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Water-ski"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Banana"
+      },
+      {
+        "label": "Donut"
+      },
+      {
+        "label": "SUP",
+        "quantity": "4"
+      }
+    ],
+    "entertainment": [
+      "Saloon TV 32’’",
+      "Owner cabin TV 26''",
+      "Guest cabins TV 17''",
+      "Sat antenna for TV",
+      "Stereo/CD/DVD"
+    ],
+    "tenders": [
+      "Tender 4.30 mt with 60 HP Yamaha"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Francesco Palusci",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::2c436950-5134-11f0-b226-c1ecb218abd7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nBorn in 1978 near Pescara (Adriatic Sea), he has been sailing since he was very young. He will soon obtain his degree as a lawyer, but his lifelong passion is sailing and yachting. His career on professional yachts started in 2004 as a chef on a catamaran during his first Atlantic crossing. From 2006 to 2009, he worked as a captain on several vessels up to 50'. In 2010, he was employed as an engineer-deckhand on Farandwide, and thanks to his exceptional skill and appreciated pleasant character, he is now the captain. He has extensive knowledge of the vessel, having been on board for the past three years, year-round, and having taken care of any shipyard maintenance works. He is very fond of sports such as soccer, tennis, skiing, snowboarding, surfing, windsurfing, wakeboarding, and golf. He plays the guitar, loves snorkeling and fishing, and is highly proficient in cooking as well. He is fluent in Italian and English."
+    },
+    {
+      "name": "Serena Cartani",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::6d5dd2e0-5134-11f0-b226-c1ecb218abd7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nSerena is a dedicated and detail-oriented stewardess with a strong background in hospitality and yachting. With experience gained on a range of charter yachts, she brings professionalism, discretion, and a warm, welcoming attitude to every guest experience on board. From 2021 onwards, Serena has held stewardess positions aboard the following yachts: * 2021: M/Y Dragò – Lagoon 63’ Catamaran * 2022: M/Y Indian – Naumachos 82’ * 2023–2024: M/Y OnlyOne I – Mangusta 92’, where she played a key role in interior service and guest care. Her experience in both service and deck operations makes her a valuable, versatile member of the crew. She is passionate about delivering seamless, high-quality service while ensuring guests feel comfortable, cared for, and at home on board."
+    },
+    {
+      "name": "Andrea Cadoni",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::646d3300-5135-11f0-9932-31c9254af13c/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nBorn in 1990 in Oristano, Sardinia, Andrea is a dedicated and hardworking deckhand with a strong connection to the sea. With a calm and reliable presence on board, he brings both practical seamanship and a positive, team-oriented attitude to every charter. Andrea is skilled in general deck operations, including line handling, mooring, tender driving, and exterior maintenance. He is safety-conscious, physically fit, and always willing to lend a hand wherever needed - making him a valued support for both crew and guests. Fluent in Italian and English, and conversational in Spanish, Andrea communicates well in international settings and is always ready to assist guests with a friendly and respectful approach. Thanks to his Sardinian roots and deep love for the marine environment, Andrea is not only knowledgeable about life at sea, but also brings a strong sense of hospitality and care to his work - ensuring guests feel secure, comfortable, and well looked after throughout their stay on board."
+    },
+    {
+      "name": "Roberta Isola",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4e9b-fe8c-11ed-889f-43d4bb723744::assets::5aed4b70-5136-11f0-932e-09c106c057f5/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nBorn in 1977 in Sardinia, Roberta is known for her sunny disposition and warm personality. She is a delightful presence on board- kind, approachable, and highly professional. In addition to being an exceptional chef, Roberta is also an experienced sailor with a strong maritime background. Her previous experience includes working aboard illusion (Southern Wind No. 2) and Evea (Southern Wind 102). She has also completed an Atlantic crossing from the Southern Wind shipyard in Cape Town, showcasing her extensive sailing expertise. Roberta is meticulous, always attentive to detail, and consistently brings positive energy to the crew. She is fluent in Italian and English, and has a working knowledge of French and Spanish. Beyond her sailing and culinary skills, Roberta is a qualified marine biologist and holds the distinction of being the first female diver in Sardinia."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 5800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5800000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 6000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6000000,
+              "amount": 6000000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 6000000,
+          "subTotal": 6000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Rome, Lazio, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Rome"
+            ],
+            "coordinates": [
+              12.6085805,
+              41.8583335
+            ],
+            "bbox": [
+              12.450494,
+              41.666667,
+              12.766667,
+              42.05
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5800000,
+              "amount": 5800000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 5800000,
+          "subTotal": 5800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Rome, Lazio, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Rome"
+            ],
+            "coordinates": [
+              12.6085805,
+              41.8583335
+            ],
+            "bbox": [
+              12.450494,
+              41.666667,
+              12.766667,
+              42.05
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

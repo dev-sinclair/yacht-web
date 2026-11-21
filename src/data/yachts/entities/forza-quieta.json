@@ -1,0 +1,317 @@
+{
+  "lastModified": 1781813537872,
+  "uri": "c::7580634126::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy, Sardinia\n\nFORZA QUIETA is the only Sanlorenzo SP92 available for charter in the Mediterranean, offering a unique blend of cutting-edge performance and refined Italian design. Brand new and launched in 2025, this yacht redefines modern luxury at sea.\n\nDesigned by internationally acclaimed designers Piero Lissoni and Patricia Urquiola, FORZA QUIETA boasts a sleek, contemporary aesthetic both inside and out. Expansive windows flood the interiors with natural light and create a seamless connection to the outdoors, leading to an exceptional aft deck featuring a versatile 45-square-metre beach club - ideal for sunbathing, socializing, or simply relaxing by the water.\n\nShe comfortably accommodates 8 guests in 4 elegant cabins: 1 Master suite, 2 VIP cabins, and 1 Twin cabin, each designed with maximum comfort and style in mind. The spacious sundeck is fully shaded, equipped with a retractable hardtop, providing the perfect setting to enjoy panoramic views of the Italy in total comfort.\n\nFORZA QUIETA is fitted with stabilizers both at anchor and underway, ensuring a smooth and comfortable experience whether you’re cruising or enjoying a peaceful stay on the water. With a highly experienced and professional crew of 4, your stay aboard FORZA QUIETA promises to be seamless, personalized, and truly unforgettable.",
+  "blueprint": {
+    "name": "FORZA QUIETA",
+    "images": [
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7732da0-4c59-11f0-ab1b-e18529d42ea2/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7746620-4c59-11f0-ab1b-e18529d42ea2/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c77354b0-4c59-11f0-9a97-dd7a39201587/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c75d82c0-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7743f10-4c59-11f0-9a97-dd7a39201587/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76e72b0-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c75cbf70-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76cec10-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76c01b0-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c77158e0-4c59-11f0-a5ea-a95e5068f365/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c774db50-4c59-11f0-ab1b-e18529d42ea2/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76d3a30-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76c9df0-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76e99c0-4c59-11f0-a5ea-a95e5068f365/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76bdaa0-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7755080-4c59-11f0-8c0e-cbf5f9117ea4/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7741800-4c59-11f0-ab1b-e18529d42ea2/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76d3a31-4c59-11f0-825d-cbab58505eac/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c76d6140-4c59-11f0-8667-a5223d427074/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7748d30-4c59-11f0-8667-a5223d427074/{imageVariant}",
+      "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::c7726a50-4c59-11f0-8667-a5223d427074/{imageVariant}"
+    ],
+    "make": "Sanlorenzo",
+    "model": "SP92",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::103e7fa0-b3ee-11ed-ba09-325096b39f47",
+      "name": "Salerno",
+      "coordinates": {
+        "latitude": 40.67346616668488,
+        "longitude": 14.7619640492562
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2025,
+    "architect": "Laura Armani",
+    "interiorDesigner": "Piero Lissoni / Patricia Urquiola",
+    "cruiseSpeed": 24,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "length": 27.95,
+    "beam": 7.1,
+    "draft": 1.2,
+    "hullType": "Planing",
+    "hullConstruction": "GRP",
+    "tonnage": 0,
+    "superStructure": [
+      "Flybridge"
+    ],
+    "engines": "2 x MAN 200 HP - Jet propulsion",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Beach club"
+      },
+      {
+        "label": "Sunbathing area"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Towable toys"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Raffaele Dominco",
+      "avatar": "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::08fe01b0-4c59-11f0-ba5c-874d9e8a0875/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nWith over 20 years of experience in the yachting industry, Captain Raffaele brings a wealth of knowledge, leadership, and passion to FORZA QUIETA. His career has taken him across a wide range of large yachts, where he has honed his navigational skills, deepened his technical expertise, and cultivated a keen attention to detail that ensures every voyage is executed to the highest standard.\nRaffaele is known for his approachable and hardworking nature. As an empathetic and socially attuned leader, he understands the importance of teamwork and communication, always striving to create a positive and collaborative atmosphere on board. He leads by example - valuing honesty, fairness, and a commitment to doing what is right, even in the face of challenges.\nMeticulous and proactive, he anticipates guests' needs and is dedicated to making every charter experience seamless, relaxing, and truly unforgettable.\nCaptain Raffaele is deeply committed to his role - not only as the yacht’s captain but as a host and caretaker of your experience. His goal is simple: to earn your trust and exceed your expectations."
+    },
+    {
+      "name": "Ekaterina Bezrukova",
+      "avatar": "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::2ca5f780-4c59-11f0-80d1-1577a7248897/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nBorn with a love for the sea and a natural talent for hospitality, Chef Ekaterina brings a unique blend of culinary flair, warm service, and versatile maritime experience to FORZA QUIETA. Holding a degree in Hospitality Economics and Management, she began her career in the luxury service industry before transitioning to the yachting world - where she quickly found her calling.\nFluent in English, Italian and Russian, Ekaterina is a welcoming presence on board and an excellent communicator with guests from all over the world. Her deep understanding of guest service, paired with a background in both sailing and motor yachts, makes her a dynamic and essential part of the crew.\nIn the galley, Ekaterina shines. She creates fresh, flavorful, and beautifully presented dishes inspired by Mediterranean traditions and international cuisines, always tailored to guests' preferences and dietary needs. Whether it’s an elegant dinner at anchor or a casual lunch under the sun, her culinary creations elevate the onboard experience.\nWith Chef Ekaterina on board, guests can expect warm hospitality, exceptional cuisine, and a truly personalized charter experience."
+    },
+    {
+      "name": "Amel Tahraoui",
+      "avatar": "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::67b83090-4c59-11f0-b94e-a363ad8772b2/{imageVariant}",
+      "role": "Captain",
+      "bio": "With over 4 years of experience in the yachting industry, Amel brings professionalism, energy, and heartfelt dedication to her role as Stewardess aboard FORZA QUIETA.\nAmel is known for her passion, determination, and consistently high standards in everything she does. She combines strong hospitality and housekeeping skills with a warm, friendly presence that makes guests feel at home from the moment they step aboard. Her organizational abilities and calm demeanor allow her to manage service seamlessly - even under pressure - keeping guest satisfaction as her top priority.\nHighly adaptable and culturally attuned, Amel speaks English, Spanish, French, Arabic, Indonesian, and Italian, enabling her to connect effortlessly with international guests and crew alike. Her multilingual abilities, coupled with a positive, dynamic personality, make her a key member of the FORZA QUIETA team.\nWhether coordinating guest service, managing the interior, or ensuring every detail is perfect, Amel approaches her work with care, elegance, and a commitment to excellence that elevates every charter experience."
+    },
+    {
+      "name": "Antonio Castagna",
+      "avatar": "/media/media::image::a::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8::assets::5078cde0-4c59-11f0-ab60-11d6031523e9/{imageVariant}",
+      "role": "Captain",
+      "bio": "Energetic, motivated, and highly capable, Antonio brings a strong work ethic and a dynamic presence to the deck team aboard FORZA QUIETA. As a young professional with a passion for the yachting industry, he combines a hands-on approach with excellent organizational and problem-solving skills.\nFluent in English and Italian, and experienced in working in multicultural environments, Antonio is a reliable team player who thrives under pressure. Whether handling docking procedures, maintaining the exterior to pristine standards, or assisting guests with water toys and daily activities, he approaches every task with precision and a positive attitude.\nOutside of work, Antonio leads a dynamic and balanced lifestyle. He trains daily, whether at home or in the gym, and often travels to explore new places. A passionate motorbike rider, he enjoys the sense of freedom that comes with it. Music is a constant presence in his life, and he dedicates time to creative pursuits, giving space to self-expression and personal growth.\nFriendly and proactive, Antonio ensures that the yacht operates smoothly and that guests enjoy a safe, seamless, and luxurious experience from bow to stern."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 9000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 10000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 10000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9000000,
+              "amount": 9000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9000000,
+          "subTotal": 9000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 10000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 10000000,
+              "amount": 10000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 10000000,
+          "subTotal": 10000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

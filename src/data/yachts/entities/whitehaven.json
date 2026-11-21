@@ -1,0 +1,354 @@
+{
+  "lastModified": 1750780755177,
+  "uri": "c::7580634126::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy, Sicily\n\nHop on board Canados 25 WHITEHAVEN and experience the feeling of being at home. The yacht's fine refinements, impeccable lay-out, yearly renovations and the careful attention to every detail are a guarantee of satisfaction.\n\nExperienced captain Mario Caucci is at the head of a three-man staff. Thanks to his perfect knowledge of the Italian coastline the guests will have a chance to visit the most amazing escapes of the region and gather useful information to enjoy their cruise even on land. Deckhand Lorenzo is always ready to play water games with the guests and take them on his tender to the most beautiful spots.\n\nThe yacht boasts four wonderfully-furnished rooms: Master, VIP and two twin ones all with en-suite bathrooms. The three dining areas are located on the flybridge, in the living room for windy and chilly days, and in the cockpit at stern.\n\nThanks to its underway and at anchor stabilizers, WHITEHAVEN provides a pleasant underway experience even in more challenging sea conditions.\n\nWHITEHAVEN looks forward to having you on board for a memorable cruise. Its services are as good as those offered on much bigger boats.",
+  "blueprint": {
+    "name": "WHITEHAVEN",
+    "images": [
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf342870-ae83-11ef-bfd5-135d45416cdc/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf3b0640-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf36e790-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf122180-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf1025b0-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf390a70-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::befd39f0-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf358800-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf231170-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf3512d0-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf3a9110-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf347690-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf35d621-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf3b2d50-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf393180-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf2693e0-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf349da0-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::beffd200-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::bf364b50-ae83-11ef-a72f-8bf84d1de259/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1d3980-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb18f3c0-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb160d90-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb199000-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fae0a5b0-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb15e680-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb17e250-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1968f0-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb05e0f0-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1a2c40-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1682c1-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1b16a0-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1ee730-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1941e0-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::faf195a0-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb16d0e0-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb03e520-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fadef800-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb18a5a0-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1682c0-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb171f00-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb1a5350-ae83-11ef-ba82-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::fb176d20-ae83-11ef-ba81-956a1a722818/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::d865c8c0-ae84-11ef-ac36-c13079c3afb5/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::d8668c10-ae84-11ef-ac36-c13079c3afb5/{imageVariant}",
+      "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::d879c5f0-ae84-11ef-ac36-c13079c3afb5/{imageVariant}"
+    ],
+    "make": "Canados",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2001,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2022,
+    "topSpeed": 0,
+    "cruiseSpeed": 23,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 25,
+    "beam": 5.7,
+    "draft": 1.8,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x 1300 hp MAN",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Aft platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "JetSki Seadoo Spark (License required)",
+        "quantity": "1"
+      },
+      {
+        "label": "Seabob F5 + F5S",
+        "quantity": "2"
+      },
+      {
+        "label": "SUP",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkeling equipment"
+      }
+    ],
+    "entertainment": [
+      "4/5G Internet",
+      "TV in saloon",
+      "WiFi connection",
+      "Bluetooth speakers/sound system connection"
+    ],
+    "tenders": [
+      "Highfield Tender (new 2024) 4m with 60 HP outboard"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Mario Caucci",
+      "role": "Captain",
+      "bio": "Italian\n\nCaptain Mario hails from the heart of Middle Italy, where his yachting journey began. With a career spanning over three decades at sea, he embodies the quintessential captain, steering vessels and navigating challenges with seasoned expertise. Mario's not just fluent in English and French; he speaks the language of excitement, making every voyage a thrilling journey.\nSince assuming the captaincy in 1990, Mario has seamlessly interwoven the wisdom gained from years on deck with an unwavering passion for discovery. Mario's mastery extends beyond the helm; his knack for orchestrating unforgettable experiences for all aboard is unparalleled.\nCaptain Mario stands as a reassuring presence, adept at handling any situation that arises, fostering a safe environment for everyone on board. Mario looks forward to welcoming you on board."
+    },
+    {
+      "name": "Prospero Favale",
+      "avatar": "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::3b19f380-ae83-11ef-9c61-cd88be22c760/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nProspero was born in Italy and has had a passion for cooking since his youth. He has honed his skills in a variety of culinary arts, allowing him to expertly prepare a wide range of dishes with precision and flair. Prospero's ultimate goal is to provide guests with a top-notch dining experience, offering exceptional cuisine and impeccable service that contributes to the well-being of both clients and crew aboard. To achieve this, he meticulously selects the freshest and most exotic ingredients available, creating meals that are not only well-balanced and flavourful but also healthy. Prospero's passion for cooking and dedication to his craft are evident in everything he does. Prospero's talent and creativity are sure to impress even the most discerning palates.\nIn his free time, he indulges in personal interests, such as watching football, running, and exploring new cuisines."
+    },
+    {
+      "name": "Lorenzo Labbadia",
+      "avatar": "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::083fc340-ae83-11ef-bfcc-eb1bd3170abb/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nDeckhand Lorenzo hails from the vibrant country of Italy. His educational journey has been impressive, graduating with honors while also obtaining a captain's license. Lorenzo brings a refreshing energy to the yacht that's contagious.\nFluent in both English and French, Lorenzo's linguistic prowess is just the tip of the iceberg when it comes to what he offers. Lorenzo is always ready to play water games with the guests and take them on his tender to the most beautiful spots. His objective is that guests feel safe and comfortable at all times. Deckhand Lorenzo joined WHITEHAVEN’s team in 2018.\nIn his spare time, you will find him in the water windsurfing, surfing, and scuba diving."
+    },
+    {
+      "name": "Chiara Nocchia",
+      "avatar": "/media/media::image::a::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744::assets::1e820140-ae83-11ef-8d54-2bca733536f4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nChiara, our delightful stewardess, hails from the heart of central Italy, infusing warmth and charm into every interaction. Her time spent in the USA polished her English fluency, while her knowledge of French adds an elegant touch to her communication skills. Armed with a degree in communication, she's not just about service; she's a maestro in creating unforgettable guest experiences.\nWith Chiara around, it's perpetual sunshine on board. Her positivity reminds everyone to savor each moment of their vacation. Chiara’s expertise in guest relations ensures that every guest feels pampered, making their journey nothing short of extraordinary.\nThe synergy between Chiara and the team creates an atmosphere that enhances guests’ entire trip. Stewardess Chiara looks forward to welcoming you on board!"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3600000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3600000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3600000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3600000,
+              "amount": 3600000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 3600000,
+          "subTotal": 3600000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3000000,
+              "amount": 3000000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 3000000,
+          "subTotal": 3000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

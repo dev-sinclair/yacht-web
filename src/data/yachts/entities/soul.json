@@ -1,0 +1,470 @@
+{
+  "lastModified": 1783095125758,
+  "uri": "c::7580634126::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Naples, Palermo, Sicily, Italy\n\nThe Azimut Magellano 66 SOUL is one the newest models of Azimut’s yachts range. She perfectly blends functionality and style, offering the spaces and comfort of a larger boat. \n\nSOUL’s interior configuration has been designed to accommodate up to 8 guests in 4 cabins but she is offered with a maximum occupancy of 6 guests in 3 cabins. Guests can be accommodated in 1 Master and 1 VIP with double bed, and 1 Twin cabin with separate beds. All cabins include ensuite bathrooms, satellite and individually managed climate zones.\n\nThe spacious flybridge boasts a sunbathing area, a large al fresco dining table for 6 guests and 2 comfortable sofas/lounges. The aft deck is equipped with a large table for al fresco dining and is the ideal place to enjoy breakfast. At the bow there is a sunbathing area with a folding table. \n\nSeakeeper stabilizer guarantees the maximum stability when at anchor or underway. Thanks to her displacement hull and latest generation engines, she has a low fuel consumption. SOUL comes with a William Sportjet 345 tender.",
+  "blueprint": {
+    "name": "SOUL",
+    "images": [
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2f04f0-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e287540-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2c1ec0-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2b0d50-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2df380-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e3398d0-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2fa130-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2d7e50-b08e-11ef-a09f-fddd55b965d2/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e306480-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2e41a0-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2c1ec0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e319d00-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7df5f390-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2ba990-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e301660-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e41c9a0-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2b5b70-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e08b840-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2edde0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e340e00-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2e41a0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e1bf220-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2e1a90-b08e-11ef-a09f-fddd55b965d2/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2d0920-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2d7e50-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e31eb20-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2bd0a0-b08e-11ef-a09f-fddd55b965d2/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2edde0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7df22300-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e044b70-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2d3030-b08e-11ef-a09f-fddd55b965d2/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2dcc70-b08e-11ef-b65d-0f7b387e1b56/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2b3460-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2eb6d0-b08e-11ef-a523-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2cbb00-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2f04f0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e30d9b0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2abf30-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e198120-b08e-11ef-a522-af7bbf8e707a/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2f7a20-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e35e2c0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e3175f0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e29fbe0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e24f2d0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e3175f0-b08e-11ef-a129-4d93e7bc1f7c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2dcc70-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2df380-b08e-11ef-a09f-fddd55b965d2/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2e8fc0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}",
+      "/media/media::image::a::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::7e2c45d0-b08e-11ef-bb3d-3d31f75eec6c/{imageVariant}"
+    ],
+    "make": "Azimut Yachts",
+    "model": "Magellano 66 ",
+    "maxCrew": 2,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2022,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": "",
+    "topSpeed": 24,
+    "cruiseSpeed": 15,
+    "fuelCapacity": "",
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "decks": "",
+    "length": 20.15,
+    "beam": 5.54,
+    "draft": 1.7,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x 850HP (625kw) MAN i6",
+    "amenities": [
+      {
+        "label": "Al fresco Dining"
+      },
+      {
+        "label": "Sunbathing Area"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Stabilisers at Anchor"
+      },
+      {
+        "label": "Stabilisers Underway"
+      }
+    ],
+    "toys": [
+      {
+        "label": "SUP Jobe"
+      },
+      {
+        "label": "Snorkelling Gear"
+      },
+      {
+        "label": "Waterski adult"
+      },
+      {
+        "label": "Kayak"
+      },
+      {
+        "label": "Inflatable"
+      },
+      {
+        "label": "Watermakers"
+      },
+      {
+        "label": "Paddleboard"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi",
+      "4/5G Internet",
+      "Outdoor sound system",
+      "Smart TV",
+      "Bluetooth speakers/sound system connection",
+      "Sat TV with SONOS sound system"
+    ],
+    "tenders": [
+      "Tender Williams 3.45"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Michele Scotto di Frega",
+      "avatar": "/media/media::image::c::7580634126::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::a4239c60-510c-11f0-958f-7d1738c1d3a6/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\n\nCaptain Michele began his career aboard  small yachts, cultivating a deep passion for boating from an early age. As a young man,\nhe spent several summers navigating the Amalfi Coast, an area he knows like the back of his hand. His love for the sea and\ndedication were evident even as a child. After completing high school, Michele embarked on a hands-on journey to gain as much\nexperience as possible, quickly advancing through the ranks to become a captain within just a few years. Now a seasoned professional\nwith extensive experience in the yachting industry, Michele is committed to providing guests with a safe, relaxing, and unforgettable\nexperience. His intimate knowledge of the Mediterranean allows him to showcase its hidden treasures, all while ensuring a five-star\nservice. When not at the helm, Michele enjoys swimming and listening to music - it’s rare to find him far from the water. Fluent in both\nEnglish and Italian, he is ready to welcome guests from around the world and share his passion for the sea.\n"
+    },
+    {
+      "name": "Ciubotaru Felicea",
+      "avatar": "/media/media::image::c::7580634126::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859::assets::af9636c0-510c-11f0-b2d4-61b627b1b7fd/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Romanian\n\nCiubotaru brings a wealth of culinary expertise and a passion for exquisite cuisine to the yacht SOUL. With a career that spans over two decades, Barbara is renowned for her accuracy, experience, cleanliness, and creativity in the kitchen. Barbara's journey in the culinary world began in the demanding environment of restaurants. Her meticulous attention to detail and commitment to delivering extraordinary dining experiences quickly distinguished her as a standout chef. Recently, Ciubotaru made the transition from\nland-based kitchens to the yachting industry, joining her first yacht as a chef. This move allowed her to combine her love for cooking\nwith her passion for the sea. Since then, she has worked on numerous yachts. Chef/Stewardess Ciubotaru has a keen ability\nto blend flavors, creating dishes that are not only visually stunning but also a gastronomic delight.\n\n\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "note": "",
+          "currency": "EUR",
+          "inputAmountTaxed": "EXCLUSIVE",
+          "subTotal": 3400000,
+          "totalTax": 0,
+          "total": 3400000,
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "conditions": "Weekly",
+              "quantity": 1,
+              "unitPrice": 3400000,
+              "amount": 3400000
+            }
+          ],
+          "unit": "WEEK",
+          "charterFee": 3400000
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          }
+        ],
+        "exclusionZones": []
+      },
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "note": "",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "conditions": "Weekly",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000
+            }
+          ],
+          "currency": "EUR",
+          "inputAmountTaxed": "EXCLUSIVE",
+          "subTotal": 3900000,
+          "totalTax": 0,
+          "total": 3900000,
+          "unit": "WEEK",
+          "charterFee": 3900000
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          }
+        ],
+        "exclusionZones": []
+      }
+    ]
+  }
+}

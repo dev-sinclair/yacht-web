@@ -1,0 +1,316 @@
+{
+  "lastModified": 1783115628864,
+  "uri": "c::7580634126::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy\n\nGEMINI 3 was built in 2002 and recently refitted. She has been fully repainted and equipped with a completely new interior design. An important innovation has been the installation of gyroscopic stabilizer.\n\nHer large and contemporary outdoor living areas makes GEMINI 3 instantly recognisable as part of the Maiora range. The aft deck boasts a bespoke dining table that seats 8 + 2 guests, the flybridge features a dining area and a variety of options for lounging out of the sun.\n\nGEMINI 3 can accommodate up to 10 guests in 4 cabins, of which 1 Master with king size bed based aft, 1 VIP with Queen size bed based forward and 2 Twin cabins with a pullman bed each (suitable for kids) based amidships. All cabins are air conditioned, with en-suite facilities and Smart TV. Comfort onboard is ensured thanks to stabilizers that reduce any rolling motion underway or at anchor.\n\nThe crew is composed of 4 young and determined members that will go the extra mile to make guests feel at ease.",
+  "blueprint": {
+    "name": "GEMINI 3",
+    "images": [
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::24595530-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::24928da0-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::248f0b30-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::24801710-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513b3370-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::512fc1c0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513d7d60-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::5132f610-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::511498a0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::246deea0-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::24939f10-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::2459a350-ae6c-11ef-9772-23be36cae639/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::51147190-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::512820a0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::51401570-ae6c-11ef-8b7b-f9d8363e2c11/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513fc750-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513e8ed0-ae6c-11ef-8b7b-f9d8363e2c11/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::512f2580-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::5140ffd0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::51015ec0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513bcfb0-ae6c-11ef-ba4f-1f94e8103c04/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::5103f6d0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::514322b0-ae6c-11ef-bafd-b385271a2114/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::513e19a0-ae6c-11ef-8b7b-f9d8363e2c11/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc578b0-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc096b0-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc32ec0-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afd0ea60-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afae6e40-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc3cb00-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::af858980-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc18110-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc29280-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::afc132f0-ae6c-11ef-b86a-e168b1731be6/{imageVariant}",
+      "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::af9b5b70-ae6c-11ef-b86a-e168b1731be6/{imageVariant}"
+    ],
+    "make": "Maiora",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 10,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2002,
+    "architect": "",
+    "interiorDesigner": "",
+    "refitYear": 2023,
+    "topSpeed": 0,
+    "cruiseSpeed": 15,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "decks": 0,
+    "length": 26,
+    "beam": 5.8,
+    "draft": 2,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x Caterpillar 1500 HP",
+    "amenities": [
+      {
+        "label": "Safe"
+      },
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Aft platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Yamaha RDS500 Seascooter",
+        "quantity": "2"
+      },
+      {
+        "label": "Seabob F5S"
+      },
+      {
+        "label": "Snorkeling equipment"
+      },
+      {
+        "label": "Inflatable toys (Donut; Banana; Floating island)"
+      },
+      {
+        "label": "SUP",
+        "quantity": "3"
+      }
+    ],
+    "entertainment": [
+      "Smart TV",
+      "4/5G Internet",
+      "Outdoor sound system",
+      "TV in all cabins",
+      "TV in saloon",
+      "WiFi connection"
+    ],
+    "tenders": [
+      "Geniuss 3.50 mt Suzuki 30HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Igor Orso",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::ecd867d0-510f-11f0-a7b3-09e6986971ca/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nBorn in Bassano del Grappa in 1974, Captain Igor brings a dynamic blend of technical expertise, adventurous spirit, and decades of experience to the helm of yachts. With a diploma in electrical engineering and an early passion for mathematics, technical drawing, and mechanics, Igor’s background reflects a lifelong dedication to precision and problem solving - skills that serve him exceptionally well in maritime command. Fluent in four languages, Igor is a natural communicator with a deep understanding of international clientele. Over the past two decades, Igor has captained vessels across the Balearic Islands, Croatia, and North Africa, known for delivering unforgettable sailing experiences. He has a reputation for creating vibrant, safe, and welcoming atmospheres on board, always going the extra mile to ensure guest satisfaction - from curated galleys and onboard entertainment to coordinating water sports and diving activities. His calm command, technical savvy, and warm hospitality make him an outstanding captain, ensuring guests aboard GEMINI3 enjoy an exceptional and carefree charter experience. Languages: Italian (native), English, Spanish, German."
+    },
+    {
+      "name": "Iaroslavna Poltavets",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::26fac2a0-5110-11f0-9d33-151e351e079a/{imageVariant}",
+      "role": "Captain",
+      "bio": "Ukrainian \n\nWith over a decade of experience in the yachting industry and an additional six years in luxury hospitality ashore, Chef Iaroslavna brings exceptional skill, creativity, and a guestfocused approach to M/Y GEMINI 3. Her international background and exposure to a wide range of cultures have helped her develop a refined culinary style that effortlessly blends global flavors with personalized\n service. Guests appreciate her warm demeanor, proactive attitude, and the high standard of service she brings to every charter. Fluent in 4 languages, she ensures smooth communication and connection with guests from around the world. Her cuisine is as versatile as her personality - fresh, elegant, and always crafted with attention to detail. Whether preparing healthy Mediterranean dishes or tailored menus for special dietary needs, she consistently delivers meals that exceed expectations. Professional, passionate, and personable, Chef Iaroslavna plays a key role in ensuring every guest experience aboard GEMINI3 is not just enjoyable, but unforgettable. Languages: Ukrainian (native), English (good), Russian (good), Italian (good)."
+    },
+    {
+      "name": "Nataliya Samburkaya",
+      "avatar": "/media/media::image::a::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::d0afca90-ae6b-11ef-969c-a5da69878616/{imageVariant}",
+      "role": "Captain",
+      "bio": "Russian\n\nAmbitious, dedicated, and warm-hearted, Nataliya is a seasoned professional with a passion for delivering exceptional guest experiences. With over 20 years of experience in the hospitality industry, she consistently upholds the highest standards of service, always attentive to guests' needs and focused on exceeding expectations. In 2011, she served aboard the 48m M/Y DEEP BLUE 2, where her professionalism and attention to detail earned her outstanding feedback from guests and crew alike. Her academic background in Economics and Management, combined with additional certifications in professional cooking and massage, make her a well-rounded and versatile member of the GEMINI3 crew. Nataliya brings both value and harmony to the team, contributing not only her strong skill set but also her calm, positive presence on board. Fluent in English, Russian, Italian, and Ukrainian, she connects easily with international guests, helping to create a warm and welcoming atmosphere. She looks forward to making every guest's stay aboard M/Y GEMINI3 a truly unforgettable experience."
+    },
+    {
+      "name": "Nico Contomichalos",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cbd36d-fe8c-11ed-889f-43d4bb723744::assets::c1fa0540-5110-11f0-bde0-eb2df3a1e189/{imageVariant}",
+      "role": "Captain",
+      "bio": "South African\n\nWith a season’s experience across several yachts, Nico joins M/Y Gemini 3 with a passion for life at sea and a strong desire to secure a long-term position within a dynamic and hardworking crew. His appreciation for clear communication and team spirit makes him a valuable and positive presence on board. While his primary focus has been on deck duties, Nico has a keen interest in the engineering side of yachting and is eager to develop his skills further in that area. His willingness to learn, paired with a strong work ethic, makes him a dedicated crew member who is always ready to support the team. Looking ahead, Nico is excited for the upcoming charter season and brings with him high hopes, a positive mindset, and a deep commitment to contributing to the smooth operation and exceptional service that defines Gemini 3."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4300000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4300000,
+              "amount": 4300000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 4300000,
+          "subTotal": 4300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 3900000,
+          "subTotal": 3900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

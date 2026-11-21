@@ -1,0 +1,282 @@
+{
+  "lastModified": 1781813263604,
+  "uri": "c::7580634126::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy\n\n﻿﻿Launched in 2025, TWINS is a brand-new Ferretti Custom Line Navetta 30 and boasts the largest volume in her category, with an impressive 199 GT. Combining contemporary Italian design with outstanding functionality, she comfortably accommodates up to 11 guests in 5 elegant cabins: a spacious Master Suite on the main deck, 2 VIP cabins, and 2 Twin cabins - one convertible into a double, and one featuring a Pullman berth.\n\nTWINS offers exceptional comfort thanks to her stabilisers, ensuring smooth cruising both at anchor and underway. Her advanced noise and vibration reduction systems further enhance the sense of peace and relaxation on board. One of her standout features is the expansive sundeck, complete with sun loungers - perfect for soaking in panoramic views in complete privacy and style.\n\nCommanded by an experienced Italian captain with outstanding references, and supported by a professional crew of 5, TWINS delivers impeccable service and a warm, welcoming atmosphere that will keep guests coming back. With exceptionally low fuel consumption and a design that prioritizes both performance and luxury, TWINS is an ideal choice for discerning guests seeking a refined charter experience in Italy.",
+  "blueprint": {
+    "name": "TWINS",
+    "images": [
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb19baf0-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb154e20-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb180d40-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb165f90-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb2839e0-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb18f7a1-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb23a600-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb1722e0-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb185b60-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb1bb6c0-92ec-11f0-8ffd-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb244240-92ec-11f0-b691-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb2aaae0-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb1c04e0-92ec-11f0-8ffd-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb16adb0-92ec-11f0-8ffc-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb28d620-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb26da50-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb1993e0-92ec-11f0-8ffd-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb297260-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb1af370-92ec-11f0-8ffd-c1d77b5f3084/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb27ebc0-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb213500-92ec-11f0-b691-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb268c30-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb29e790-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb224670-92ec-11f0-b691-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb288800-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb2a5cc0-92ec-11f0-b692-61b18a4bca37/{imageVariant}",
+      "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::fb279da0-92ec-11f0-b692-61b18a4bca37/{imageVariant}"
+    ],
+    "make": "Ferretti",
+    "maxCrew": 6,
+    "sleeps": 11,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2025,
+    "cruiseSpeed": 12,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 5,
+    "length": 28.43,
+    "beam": 7.31,
+    "engines": "2 x MAN 1000hp",
+    "amenities": [
+      {
+        "label": "Stabilisers"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Sun loungers"
+      },
+      {
+        "label": "Generators",
+        "quantity": "2"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob F5S",
+        "quantity": "1"
+      },
+      {
+        "label": "SUPs",
+        "quantity": "2"
+      },
+      {
+        "label": "Water Ski (Adults)"
+      },
+      {
+        "label": "Banana"
+      }
+    ],
+    "tenders": [
+      "Tender Williams Jet 4.35m 130 HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Giuseppe Urzi",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::87e938a0-92e5-11f0-be83-25f724585e71/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nGiuseppe Urzì brings a wealth of experience in the maritime industry, with a strong background in both short-term and long-range charters. Having extensively cruised the Mediterranean, he offers deep knowledge of Italy’s coastline and its hidden gems. Passionate about delivering unforgettable journeys, Giuseppe specializes in crafting bespoke itineraries that highlight the most scenic and secluded corners of the Italian landscape. As Captain of TWINS, he maintains the highest standards in crew selection, ensuring a professional team committed to excellence in service. His meticulous attention to detail and dedication to guest comfort create a refined and relaxed atmosphere on board. Fluent in both English\nand Italian, Giuseppe’s love for navigation is matched by his talent for organizing personalized experiences that elevate every charter to a truly memorable adventure.\n"
+    },
+    {
+      "name": "Christine Jariel",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::c8e544c0-92e5-11f0-be83-25f724585e71/{imageVariant}",
+      "role": "Captain",
+      "bio": "Filipino\n\nChristine is an experienced and dedicated Chief Stewardess with a strong foundation in hospitality and guest service, she brings an exceptional standard of care, discretion, and attention to detail to every charter experience. Her professional background includes meticulous housekeeping, high-end table service, and expert-level knowledge in food. Christine began her yachting journey on a  24m charter yacht, where she was responsible for guest services, meal assistance, and daily\ncleanliness. She quickly developed her skills and leadership capabilities, moving on to larger vessels (27m) in the following seasons. Known for her warm demeanor and strong work ethic, Christine excels under pressure and adapts easily to the dynamic nature of life  at sea. In addition to her interior and hospitality expertise, she is trained in small  powerboat and personal watercraft operations, allowing her to support water-based activities with confidence. Christine’s calm professionalism, organizational precision, and passion for guest satisfaction make her an invaluable asset onboard. She brings a high standard of excellence and a positive, teamoriented attitude to every charter."
+    },
+    {
+      "name": "Salvo di Grazia",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::3d618520-92e6-11f0-be83-25f724585e71/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nSalvatore, the talented Sicilian chef on board M/Y TWINS, brings the rich culinary traditions of his homeland to life with every dish he creates. Hailing from Sicily, a region renowned for its vibrant flavors and Mediterranean heritage, Salvatore infuses his cuisine with authenticity, passion, and a deep respect for fresh, seasonal ingredients. With\nyears of experience in both land-based fine  dining and luxury yachting, Salvatore has mastered the art of blending classic Italian recipes with modern flair. From handmade pastas to locally sourced seafood and mouthwatering desserts, each menu is thoughtfully tailored to guests' preferences and dietary needs. His warm personality and storytelling approach to food add a special touch to every meal, turning each dining experience into a celebration of culture and taste. His dedication to quality and guest satisfaction makes him an indispensable part of the TWINS experience, offering guests not just meals, but unforgettable culinary moments at sea.\n"
+    },
+    {
+      "name": "Giovanni Arigo",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::6b5ff6f0-92e6-11f0-bcbb-596fd21a772e/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nGiovanni serves as the First Officer on board M/Y TWINS, bringing with him a solid foundation of experience, leadership, and dedication to safety and efficiency at sea. With a background as a Deck Officer, he has developed strong  communication skills and a confident, clear approach to coordinating crew and operations. His ability to lead teams\neffectively has been consistently demonstrated  throughout his career, where he has often taken on responsibilities as a team leader and decision-maker in dynamic and demanding environments. Organized and detail-oriented, Giovanni is well-versed in managing deck operations and navigation while ensuring smooth day-to-day activities onboard. Handson, motivated, and quick to learn, Giovanni is known for his practical skills and calm, reliable presence on deck. His commitment to maintaining high standards of professionalism and safety makes him a trusted and valued member of the TWINS crew, dedicated to delivering exceptional charter experiences."
+    },
+    {
+      "name": "Kim Jariel",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::8d0713b0-92e6-11f0-bcbb-596fd21a772e/{imageVariant}",
+      "role": "Captain",
+      "bio": "Filipino\n\nKim is the enthusiastic and dedicated Chef Stewardess on board M/Y TWINS. A recent graduate with a Bachelor of Science in Business Administration, she brings a fresh perspective, a strong work ethic, and a genuine eagerness to grow within the yachting industry. Kim quickly proves herself as a valuable member of the crew through her natural attention to detail, organizational skills, and warm, guest-focused approach. Known for her strong communication and teamwork\nabilities, Kim thrives in dynamic environments and handles each task with care and precision. She is highly motivated, quick to learn, and fully committed to ensuring that every charter experience is seamless and enjoyable for guests. With fluency in both English and Filipino, she easily connects with people from diverse backgrounds and adds to the welcoming atmosphere on board. Kim's positive attitude, reliability, and passion for hospitality make her a strong addition to the\nTWINS crew. Her goal is to consistently exceed expectations and contribute to creating memorable moments for all who step on board.\n"
+    },
+    {
+      "name": "Jackeline Cordova",
+      "avatar": "/media/media::image::a::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41::assets::ea432e10-92e6-11f0-b60f-4f869555279e/{imageVariant}",
+      "role": "Captain",
+      "bio": "Filipino\n\nJackelyn is a dedicated and detail-oriented Stewardess on board M/Y TWINS, bringing warmth, energy, and a strong sense of service to the guest experience. With a natural talent for hospitality and a passion for delivering impeccable service, she ensures that every aspect of life on board is smooth, welcoming, and memorable. Known for her positive attitude and graceful presence, Jackelyn is attentive to guests’ needs and always strives to create a comfortable and luxurious environment. Whether setting elegant tables, managing housekeeping, or assisting with service, she performs every task with professionalism and care. Her ability to anticipate guest expectations and maintain a high standard of presentation adds an extra layer of refinement to each charter. Jackelyn’s teamwork, reliability, and commitment to excellence make her an essential part of the TWINS crew. Her goal is to ensure that every guest leaves with unforgettable memories and\na desire to return.\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 9500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 9500000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 11000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 11000000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Med Low Season",
+        "effectiveDates": [
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 9500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 9500000,
+              "amount": 9500000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 9500000,
+          "subTotal": 9500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Med High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 11000000,
+          "subTotal": 11000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

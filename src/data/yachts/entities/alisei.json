@@ -1,0 +1,269 @@
+{
+  "lastModified": 1783096190907,
+  "uri": "c::7580634126::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b",
+  "yachtType": [
+    "Sailing",
+    "Catamaran"
+  ],
+  "description": "Operating Area: Italy\n\nThe Bali 5.8 ALISEI sets a new benchmark in luxury cruising, seamlessly blending cutting-edge design, exceptional comfort, and top sailing performance. As the only Bali 5.8 available for charter in Italy, she offers a rare opportunity to experience one of the most innovative catamarans on the market.\n\nHer unique open-space concept features a signature tilting door that merges the saloon with the aft cockpit, creating a vast, seamless living area. The rigid forward cockpit is equipped with a generous lounge and dining space, offering spectacular sea views and direct access from the saloon. On the panoramic flybridge, guests will find a spacious sunbathing area, a bar, and a comfortable lounge – perfect for relaxing under the sun or enjoying sunset cocktails.\n\nAnother standout feature worth mentioning is the hydraulic aft platform, a premium option that transforms into a private beach area at sea level. It's an exceptional addition that enhances comfort, water access, and the overall charter experience.\n\nDesigned for long-term autonomy, she features solar panels and large capacity tanks, making her ideal for extended, eco-conscious cruising. With 3 double cabins and 1 twin cabin, ALISEI is perfect for families, groups of friends, or upscale charters seeking a combination of luxury, space, and sustainability.\n\nThis stunning catamaran is fully crewed with 3 experienced professionals – captain, chef/stewardess, and deckhand – ensuring a relaxed, bespoke, and worry-free charter experience. Available in Italy during summer, ALISEI promises a truly unforgettable yachting experience.",
+  "blueprint": {
+    "name": "ALISEI",
+    "images": [
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d40ec400-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fa51a0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3eff160-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fd5ee0-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d40722e0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f9b560-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f1ed30-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d411aa30-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f96740-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3faede0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f56fa0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d43278a0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f03f81-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3ef5521-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3ef5520-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3eedff0-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f0b4b0-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d40267f0-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3ed8060-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fdfb20-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fd10c0-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3faede1-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f03f80-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fe4940-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3fe7050-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f17800-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d402dd20-92ec-11f0-a9e0-6dbd56476b44/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d4017d90-92ec-11f0-a9e0-6dbd56476b44/{imageVariant}",
+      "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::d3f91920-92ec-11f0-8a2c-b1e02a8977b8/{imageVariant}"
+    ],
+    "make": "Bali Catamarans",
+    "model": "Bali 5.8",
+    "maxCrew": 3,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 10,
+    "builtYear": 2025,
+    "cruiseSpeed": 8,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "length": 17.66,
+    "beam": 9.09,
+    "hullType": "Catamaran",
+    "engines": "2 × NANNI N4.115, 115 hp each",
+    "amenities": [
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Solar panels"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Stand-Up Paddleboards",
+        "quantity": "3"
+      },
+      {
+        "label": "Seabob SeaNXT",
+        "quantity": "1"
+      },
+      {
+        "label": "Fliteboard (Electric Foil) ",
+        "quantity": "1"
+      },
+      {
+        "label": "Wakeboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Waterski",
+        "quantity": "1"
+      },
+      {
+        "label": "Towable Inflatables",
+        "quantity": "2"
+      }
+    ],
+    "tenders": [
+      "Tender Highfield 390 with Honda 60hp outboard engine"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Attilio Carrozzini",
+      "role": "Captain",
+      "bio": "Italian\n\nCaptain Attilio brings a wealth of experience and a calm, professional demeanor to every voyage aboard Alisei. With extensive expertise in both sailing and motor yachts, Attilio is known for his strong interpersonal skills and his ability to lead and engage guests of all ages, ensuring a safe and enjoyable time on board. He boasts many years of coastal and offshore sailing experience, having successfully completed three Atlantic crossings from East to West and one West to East, which have honed his seamanship and deepened his understanding of long-range cruising. Attilio is not only an accomplished\nsailor but also a practical problem-solver, wellversed in onboard systems and capable of managing and resolving technical issues and emergencies efficiently. Captain Carrozzini is committed and approachable - a true asset to the Alisei crew and the guests she welcomes aboard.\n"
+    },
+    {
+      "name": "Claudia Danieli",
+      "avatar": "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::ea0c2640-92eb-11f0-9115-efc9517d84b4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nClaudia is passionate about life at sea and has sailed extensively in the Adriatic and Mediterranean, including Croatia, the Pontine Islands, Cinque Terre, Egadi, Aeolian Islands, Lampedusa, Malta, Elba, Ischia-Procida-CapriAmalfi Coast, Northern Sardinia, Corsica, Ibiza, and Formentera. Claudia has worked professionally as a hostess on several vessels, such as the Dufour 460, the Oceanis Clipper 523 and the Navetta 52 yacht. Claudia is a skilled cook and a versatile crew member,\nalways ready to assist with mooring, provisioning, cooking, and maintaining order in cabins and common areas. Her dynamic and sunny personality, combined with broad general knowledge and excellent communication skills, makes her a valued presence on board, ensuring guests feel comfortable and well cared for throughout their voyage. She speaks Italian as her native language, has an intermediate level of English, and a basic understanding of Spanish."
+    },
+    {
+      "name": "Lorenzo Hosch",
+      "avatar": "/media/media::image::a::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b::assets::07e39d60-92ec-11f0-9115-efc9517d84b4/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nPassionate about sailing, Lorenzo has handson experience handling yachts and takes great pleasure in traveling, discovering new places, and connecting with diverse cultures. On board, he supports the smooth daily operations of the vessel, assisting with mooring, line handling, maintenance, and general upkeep to ensure safety and comfort for guests and crew alike. Lorenzo brings a solid background in diving centers and excursion management, combined with his passion for yachting and life at sea. As an experienced diving professional, he is skilled in leading and managing excursions with a strong emphasis on safety, training, and environmental awareness. Fluent in three languages, Lorenzo has in-depth knowledge  of dive planning, emergency procedures, and equipment maintenance - skills that translate seamlessly into yacht operations, helping to guarantee optimal performance and guest satisfaction. His adaptability and reliability make him a valuable asset in the dynamic environment of yachting. A naturally curious and motivated individual, Lorenzo is committed to continuous learning and personal growth.\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 3100000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3100000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 3900000,
+      "displayCurrency": "EUR",
+      "displayPrice": 3900000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Med Low Season",
+        "effectiveDates": [
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3100000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3100000,
+              "amount": 3100000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3100000,
+          "subTotal": 3100000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Med High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 3900000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 3900000,
+              "amount": 3900000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 3900000,
+          "subTotal": 3900000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

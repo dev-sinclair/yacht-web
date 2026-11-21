@@ -1,0 +1,486 @@
+{
+  "lastModified": 1784530936838,
+  "uri": "c::7580634126::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Pontine Islands, Liguria & Cinque Terre, French Riviera, Sardinia, Sicily & Aeolian Islands, Amalfi Coast, Corsica, Tuscany\n\nJajarò is a planing motor yacht, resulting from the design of the architect Luca Dini and from the careful work of Tecnomar shipyard. The length/width ratio and the gravity low center, make it a very stable yacht, featuring extreme comfort while cruising even through rough seas. In 2014 she underwent a major refit with a total repainting, the replacement of most of the carpets and the enhancement of the air conditioning system, as well as many slight improvements.\n\nWith her 31 meter-length, she offers wide outdoor spaces like a couple of sun loungers with a sofa bow and a large aft deck with dining table. The descent to the sea is easy and convenient and the swim platform is connected with the storage locker where the dinghy, water games and equipment of diving are stored.\n\nThe large living room is composed of a large L-shaped sofa with a dining table and the stairs leading to the cabins, set behind the sofa. Cabins on the yacht are 4: a stateroom located aft, full beam with walk-in closet and ensuite bathroom; a VIP cabin located bow, also with cabin closet and bathroom; two cabins with twin beds located in the center of the yacht, both with ensuite bathrooms. The interior design features modern and essential lines and a careful choice of materials, with the perfect combination of wood and leather, thus making the environment extremely warm and comfortable.\n\nCaptain Marco and his crew will be very attentive and professional, and has a long experience in the charter. Chef Giovanni, coming from the Sardinian island of La Maddalena, will guide you through the discover of Sardinia’s flavors and the most famous Italian dishes.\n\nJajarò is based in Porto Cervo next to the famous Yacht Club.",
+  "blueprint": {
+    "name": "JAJARO'",
+    "images": [
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7790de0-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c778e6d0-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73a3020-ae54-11ef-a98c-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7500210-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73a5730-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c770d080-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73fae60-ae54-11ef-a98c-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73bb6c0-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c770a970-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c776c3f0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77b09b0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7851bd0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77eb330-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77871a0-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c74357e0-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77a4660-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77193d0-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7437ef0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c773b6b0-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7832000-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7725720-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7418320-ae54-11ef-a98c-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c775b280-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7723010-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7778740-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c773b6b0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7b57aa0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77defe0-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7814b40-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c776eb00-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77452f0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7820e90-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c777fc70-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73d1650-ae54-11ef-a98c-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7769ce0-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7845880-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c79cc280-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c742e2b0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7778741-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c775b280-ae54-11ef-b978-67945528155a/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77404d0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77600a0-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c778bfc0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77c6940-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c797e080-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c760a3e0-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c773b6b0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c774a110-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7720900-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7731a70-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77dc8d0-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c75f1d40-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73f1220-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7742be0-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7778740-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7716cc0-ae54-11ef-bd48-a7fa6b247731/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c74e5460-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7727e30-ae54-11ef-8164-9d8940793b36/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7410df0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c780af00-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c73ca120-ae54-11ef-a98c-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c77934f0-ae54-11ef-a587-f156faf8c4c0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c776eb00-ae54-11ef-915e-c78e25a6fc40/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::c7764ec0-ae54-11ef-a98d-c53973c3bf22/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::d732f310-ae4d-11ef-b172-2dd8180ed647/{imageVariant}"
+    ],
+    "make": "Tecnomar",
+    "model": "",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::084d48bc-b3ee-11ed-a182-325096b39f47",
+      "name": "Porto Cervo",
+      "coordinates": {
+        "latitude": 41.13499035,
+        "longitude": 9.531000352
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
+    "builtYear": 2009,
+    "architect": "Luca Dini Design",
+    "interiorDesigner": "",
+    "refitYear": 2014,
+    "topSpeed": 0,
+    "cruiseSpeed": 22,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "decks": 0,
+    "length": 31,
+    "beam": 6.8,
+    "draft": 1.7,
+    "hullType": "Planing",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2 x 2400 HP MAN",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Sun loungers"
+      },
+      {
+        "label": "Swim platform"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob F5"
+      },
+      {
+        "label": "SUP"
+      },
+      {
+        "label": "Water ski"
+      },
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Donut"
+      }
+    ],
+    "entertainment": [],
+    "tenders": [
+      "Williams Jet Tender 3.25 mt"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Marco Padayachy",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::9f180dd0-512c-11f0-8671-9b37fc916f56/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nMarco began his maritime career at the age of 18 as a docker in the picturesque harbor of Cavallo Island. Within a year, his passion for sailing led him aboard, where he began working as a deckhand for international yacht owners during the summer seasons. During the winters, he dedicated himself to refining his technical skills and studying to obtain the certifications required to command vessels up to 24 meters in length. With extensive knowledge of the waters around Sardinia and Corsica, and a deep-rooted love for the sea, Marco brings both experience and enthusiasm to his role. He spent seven years as captain aboard Jajarò and is known for his warm rapport with guests. Many return season after season, a testament to the unforgettable experiences he curates and the trust he inspires. His attention to detail, safety, and comfort ensures every journey is not only smooth but truly memorable. Fluent in both English and Italian, Marco easily connects with guests from around the world."
+    },
+    {
+      "name": "Roberta Magnago",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::2b342060-512d-11f0-9fb9-9753047df048/{imageVariant}",
+      "role": "Captain",
+      "bio": "Brazilian\n\nRoberta, born in Brazil embodies a blend of warmth and professionalism, making her a natural fit for the yachting industry. With a keen eye for detail and a genuine passion for hospitality, she has built a strong foundation through her experience aboard various yachts. Now, as a stewardess on JAJARO', Roberta is excited to share her deep-rooted love for the sea and commitment to exceptional service. She finds great fulfillment in anticipating and meeting the needs of guests, ensuring their comfort and satisfaction throughout their journey. Beyond her professional life, Roberta enjoys reading, basking in the sun, and spending quality time with friends. She speaks English, Italian, Portuguese and Spanish."
+    },
+    {
+      "name": "Marco Montalto",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::6fbe5c50-512d-11f0-b226-c1ecb218abd7/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nOriginally from the charming town of Erice, Marco spent his childhood immersed in the beauty and flavors of Sicily. His passion for cooking ignited at an early age, inspiring him to pursue formal training in specialized culinary schools. Deeply rooted in Sicilian culinary traditions, Marco began his career as an assistant chef, gaining experience in renowned restaurants across the region. Over the years, Marco has remained committed to perfecting his craft. He regularly attends advanced training courses and has collaborated with esteemed chefs in the management of top-tier restaurants. His dedication to excellence is matched by his warm, open-hearted personality, which instantly endears him to those around him. Marco's deep love for his homeland and its rich culinary heritage shines through in everything he does. His mission is to guide clients on an unforgettable journey through the flavors of Italian and, especially, Sicilian cuisine - sharing not just recipes, but stories, traditions, and the true spirit of Italy."
+    },
+    {
+      "name": "Mauro Dore",
+      "avatar": "/media/media::image::c::7580634126::vessel::d5cc4d40-fe8c-11ed-889f-43d4bb723744::assets::ae733790-512d-11f0-a2d9-3f4ac881af15/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nMauro was born in 1990. He is hardworking, approachable, and ambitious. Mauro has mainly worked in Sardinia, his birthplace. It goes without saying that he has thorough knowledge of it and can suggest chic restaurants, stunning bays, and eye-catching beaches. His previous working experience was on board a Sunseeker 82 in Sardinia. Thanks to this experience, Mauro enriched his background significantly. He has fulfilled guests' wishes both as a captain and a deckhand, which has made him aware of their needs and helped him develop a strong sense of responsibility. In his spare time, Mauro enjoys fishing and discovering new places. Building a successful career in the yachting industry is one of his biggest dreams. He speaks Italian and English and looks forward to welcoming Jajaro's guests and providing them with high-quality service."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 6200000,
+      "displayCurrency": "EUR",
+      "displayPrice": 6200000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 8400000,
+      "displayCurrency": "EUR",
+      "displayPrice": 8400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 8400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 8400000,
+              "amount": 8400000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 8400000,
+          "subTotal": 8400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 6200000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 6200000,
+              "amount": 6200000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 6200000,
+          "subTotal": 6200000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "France",
+            "type": "Country",
+            "category": [
+              "Europe",
+              "Western Europe",
+              "France"
+            ],
+            "coordinates": [
+              2.490961032566746,
+              46.331484361015065
+            ],
+            "bbox": [
+              -6.0919189453125,
+              41.33970040774422,
+              9.607543945312502,
+              51.193115244645874
+            ]
+          },
+          {
+            "label": "Corsica",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Corsica"
+            ],
+            "coordinates": [
+              9.104917129771797,
+              42.161865413836736
+            ],
+            "bbox": [
+              8.565625000000011,
+              41.384912109374994,
+              9.556445312500017,
+              43.021484375
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

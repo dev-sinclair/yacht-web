@@ -1,0 +1,464 @@
+{
+  "lastModified": 1794219801345,
+  "uri": "c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Italy - North (mainland), Italy - South (mainland), Italy - Sardinia, Italy - Sicily\n\nSANDS, the 36-meter Maiora yacht, built in 2018, offers a perfect blend of luxury, performance, and functionality. One of SANDS' standout features is its unique six-cabin layout, a rarity for a vessel of its size. Accommodating up to 12 guests, the yacht offers 2 master cabins located on the main deck, each with identical layouts to provide maximum comfort and privacy. The additional 4 double cabins are located on the lower deck, with two cabins convertible into twin beds, offering versatile accommodation options to suit any guest's preferences.\n\nSANDS' spacious and elegant interior features multiple lounging areas, perfect for relaxation or socializing. The yacht is designed for seamless indoor-outdoor living, with beautifully appointed sitting and dining areas, as well as an expansive flybridge. The outdoor bar on the top deck is ideal for unwinding with a refreshing drink while enjoying breathtaking panoramic Mediterranean views.\n\nWater sports enthusiasts will appreciate the wide range of water toys and equipment available onboard, ensuring hours of fun on the water. The experienced captain, with over two decades of maritime expertise, leads a dedicated crew that provides first-class service to ensure a stress-free, memorable journey.",
+  "blueprint": {
+    "name": "SANDS",
+    "images": [
+      "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::1e255740-b713-11ef-a3be-bff1d95e7392/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a155dfe0-ae49-11ef-922a-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a15543a0-ae49-11ef-922a-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a15591c0-ae49-11ef-922b-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a156ca40-ae49-11ef-922b-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a15395f0-ae49-11ef-922a-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a15d8100-ae49-11ef-922b-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a15c2170-ae49-11ef-922b-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::a1565510-ae49-11ef-922b-6bf8280b257f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1eebd60-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1ed84e0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1dda660-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1ee6f40-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1b7f5f0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1edd300-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1ed0fb0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1ef59a0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1c90cf0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1b8e050-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1cb08c0-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1db0e50-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e1ec2550-ae49-11ef-9a4d-11c064f4c6d5/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::0fb83c80-ae4a-11ef-89be-bf79f9c3077f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::0fa68940-ae4a-11ef-89be-bf79f9c3077f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::0fef7920-ae4a-11ef-89be-bf79f9c3077f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::0fa59ee0-ae4a-11ef-89be-bf79f9c3077f/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237db350-ae4d-11ef-b2ca-d37decc191f7/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::39c96e90-ae4a-11ef-87f2-2dda35a8afd2/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::398fc0f0-ae4a-11ef-87f2-2dda35a8afd2/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::db74b0e0-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::db6324b0-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::db645d30-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::ef027d40-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::ef020810-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::ef0144c0-ae4c-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::016425b0-ae4d-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::01638970-ae4d-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::0150ebd0-ae4d-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::014fda60-ae4d-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::01764e20-ae4d-11ef-89e4-4b21bf9a9e34/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237b1b40-ae4d-11ef-b2ca-d37decc191f7/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237d8c40-ae4d-11ef-b2ca-d37decc191f7/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237eebd0-ae4d-11ef-b2cb-d37decc191f7/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237dda60-ae4d-11ef-b2cb-d37decc191f7/{imageVariant}",
+      "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::237d8c40-ae4d-11ef-b2cb-d37decc191f7/{imageVariant}"
+    ],
+    "make": "Maiora",
+    "model": "36-meter Maiora",
+    "maxCrew": 6,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "staticCapacity": 12,
+    "builtYear": 2018,
+    "architect": "GP Yachts (Maiora)",
+    "interiorDesigner": "GP Yachts (Maiora)",
+    "topSpeed": 0,
+    "cruiseSpeed": 15,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "4"
+      },
+      {
+        "label": "Convertible Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 36,
+    "beam": 7.3,
+    "draft": 1.7,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "2x MTU 2600 HP",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Watermakers"
+      },
+      {
+        "label": "Stabilisers underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Sun lounging areas"
+      },
+      {
+        "label": "Outdoor bar"
+      },
+      {
+        "label": "Flybridge"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabobs FSS",
+        "quantity": "2"
+      },
+      {
+        "label": "SUP",
+        "quantity": "2"
+      },
+      {
+        "label": "Triboard Paddle Board (Hard)",
+        "quantity": "1"
+      },
+      {
+        "label": "Water Sky",
+        "quantity": "2"
+      },
+      {
+        "label": "Jobe Wakeboard Vanity",
+        "quantity": "1"
+      },
+      {
+        "label": "Jobe Droplet 3P",
+        "quantity": "1"
+      },
+      {
+        "label": "Inflatable Kayak 2P",
+        "quantity": "1"
+      },
+      {
+        "label": "Snorkeling Equipment"
+      },
+      {
+        "label": "Dive Fishing Equipment"
+      }
+    ],
+    "entertainment": [
+      "TV in saloon",
+      "WiFi connection",
+      "Audio Surround system"
+    ],
+    "tenders": [
+      "JET TENDER WILLIAMS 520"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Maurizio Pirronitto",
+      "avatar": "/media/media::image::a::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::bff209c0-ae4d-11ef-afa2-adcfaf095659/{imageVariant}",
+      "role": "Captain",
+      "bio": " Captain Maurizio brings an unparalleled depth of expertise to his role, with over two decades\n of hands-on experience navigating both sailing and motor yachts across some of the world's\n most iconic waters. His extensive knowledge of the Mediterranean, Red Sea, Indian Ocean,\n and Atlantic Ocean has been honed through countless voyages, where he has mastered the\nart of yacht handling and route planning in various conditions. Whether navigating tranquil coastal routes or tackling more challenging open-sea crossings, Captain Maurizio demonstrates a steady command of his vessel and crew. A passionate and accomplished regatta competitor, his illustrious racing career is highlighted by numerous victories. Captain Maurizio is deeply committed to creating unforgettable vacation experiences for each guest. His attention to detail is reflected in every aspect of the voyage, from personalized itineraries to onboard amenities, ensuring that each trip is tailored to the unique preferences of his guests."
+    },
+    {
+      "name": "Giuseppe Attardi",
+      "avatar": "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::5875aa70-50e3-11f0-bee8-914fcbfa3456/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nGiuseppe's upbringing in a family of seafarers fostered a deep connection to the ocean from a young age, shaping both his character and career. Surrounded by the rhythms of the sea, he developed a profound respect for nature and a passion for culinary arts. In 2005, Giuseppe began honing his culinary skills aboard yachts such as Sea Wish (36m) and Toby (36m), where his love for cooking ignited into a lifelong vocation.\nWith a rich and diverse background across private and charter vessels, both sailing and power yachts, Giuseppe has gained invaluable experience catering to the unique preferences and desires of guests from around the world. His culinary expertise spans various cuisines, and he thrives on creating personalized, exquisite dining experiences.\nGiuseppe's commitment to exceeding guest expectations is evident in his meticulous attention to every detail. His philosophy centers on making each meal a memorable experience, going beyond the ordinary to ensure satisfaction and delight."
+    },
+    {
+      "name": "Vincenzo Natale'",
+      "avatar": "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::269f2d30-dc26-11f1-8c3b-a7fbca43d70d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nVincenzo is the kind of officer whose presence on board guests feel without necessarily seeing, someone whose meticulous preparation, calm authority and deep passion for the sea translate directly into a smoother, safer, more memorable charter experience.\nHis yachting career spans Sanlorenzo and Benetti superyachts across three continents, including a transatlantic crossing, a Panama Canal transit, and extensive Mediterranean and Balearic cruising. Highlights include a long posting aboard the Sanlorenzo Alloy Paiza One, where he rose from Bosun to First Officer and Project Manager, overseeing the vessel's transfer from Genoa to Singapore and managing VIP operations at Marina Bay Sands. More recently, he served as Chief Officer aboard the 46-metre Cklass Nautique and the 38-metre Adamar.\nWhat truly sets Vincenzo apart is his standing as a PADI Master Instructor with over 1,000 divers trained, turning every anchorage into an opportunity for guests to discover something extraordinary beneath the surface.\nLanguages: Italian (native), English (C2), Spanish, Russian"
+    },
+    {
+      "name": "Arlene Castillo",
+      "avatar": "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::e4272f70-dc25-11f1-8c3b-a7fbca43d70d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Filipina\nArlene has over a decade of interior experience across the charter and private world, having worked her way up from sole stewardess aboard the 32m Toby to chief stewardess roles on vessels including Beverley (36m), W Explorer (36m) and Wildberry (37m). Her tenure aboard Wildberry saw her doubling as ship's nurse during an extended Pacific voyage with back-to-back charters, drawing on her background as a registered nurse to keep both service standards and crew wellbeing on track. She has overseen full interior setup on newly built vessels, from dinnerware to bed linens, alongside the day-to-day rhythm of provisioning, guest meals, laundry and detailed pre-arrival preparation.\nFilipina born and Milan based, Arlene brings a proactive, detail-driven approach to guest care and a genuine calm under pressure, whether coordinating events for owners and brokers or stepping in on deck with lines and fenders when needed.\nLanguages spoken: English, Filipino"
+    },
+    {
+      "name": "Massimo Papini",
+      "avatar": "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::4e2e2bc0-dc27-11f1-8c3b-a7fbca43d70d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\nMassimo's lifelong passion for the sea began in his childhood, where he was captivated by the allure of boats and ocean voyages. With a solid foundation in maritime studies, Massimo launched his professional journey aboard commercial ships, honing his technical skills and gaining invaluable experience. Seeking new challenges, he later transitioned into the world of luxury yachting, bringing his expertise to a variety of vessels, including Asya (50m), Dionea (52m), and SIMA (40m), where he has earned a reputation for excellence.\nAs Chief Engineer, Massimo combines technical proficiency with problem-solving acumen, ensuring that every vessel under his care operates smoothly and efficiently. His ability to troubleshoot complex systems, oversee maintenance, and manage teams in high-pressure environments has made him a highly respected figure in the yachting industry. \nLanguages spoken: Italian, English, Spanish, Massimo"
+    },
+    {
+      "name": "Francesca Ferraro",
+      "avatar": "/media/media::image::c::7580634126::vessel::59a11f50-ae46-11ef-9d49-37f0b5ad3c45::assets::74bbb550-dc27-11f1-8c3b-a7fbca43d70d/{imageVariant}",
+      "role": "Captain",
+      "bio": "Filipina\nKaren brings three years of yacht stewardess experience across a varied run of vessels, from the 72m Vanish to the more intimate 33m Charisma. Her seasons aboard Alulim (53m) and Alaya (47m) built strong instincts for personalized guest service, from table setup and wine pairing to anticipating what each guest needs before they ask. Aboard Lelou she helped organize themed onboard events and worked closely alongside captain, deckhands and chef to keep operations running smoothly. \nBefore yachting, Karen Ann spent four years as a restaurant attendant with Royal Caribbean, where she developed a genuine ease with guests in a fast-paced, high-volume hospitality setting. A trained cook and baker with a background in home economics, she brings warmth, discretion and a naturally hospitable manner to interior service, along with the calm professionalism that comes from years spent looking after guests at sea.\nLanguages spoken: English, Filipino"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 11000000,
+      "displayCurrency": "EUR",
+      "displayPrice": 11000000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 12500000,
+      "displayCurrency": "EUR",
+      "displayPrice": 12500000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season: July and August",
+        "effectiveDates": [
+          {
+            "from": "2025-07-01T00:00:00.000Z",
+            "to": "2025-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 12500000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 12500000,
+              "amount": 12500000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 12500000,
+          "subTotal": 12500000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season: May, June, September, October ",
+        "effectiveDates": [
+          {
+            "from": "2025-01-01T00:00:00.000Z",
+            "to": "2025-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2025-09-01T00:00:00.000Z",
+            "to": "2025-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 11000000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 11000000,
+              "amount": 11000000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 11000000,
+          "subTotal": 11000000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          },
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

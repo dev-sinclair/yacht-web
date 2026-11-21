@@ -1,0 +1,303 @@
+{
+  "lastModified": 1783094648727,
+  "uri": "c::7580634126::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Naples, Salerno, Italy\n\nThe Azimut S7 \"ALE II\" redefines the modern sport yacht, delivering an impeccably smooth ride with ultra-low fuel consumption and an unrivaled sense of serenity at sea.\n\nThe main deck seamlessly blends indoor and outdoor spaces. Guests can transition effortlessly between the airy lounge and open decks, immersing themselves in the beauty of their surroundings. Expansive side windows flood the salon with natural light, accentuating her sophisticated ambiance.\n\nAccommodating 6 guests across 3 cabins, including a master suite, a double cabin, and a twin cabin, each space is designed for comfort and exclusivity. The owner’s suite boasts a dedicated dressing area and an ensuite bathroom.\n\nThe sport-fly elevates onboard living, offering a perfect retreat for al fresco dining and relaxation. Designed with both elegance and functionality in mind, she also features a spacious bar.\n\nA professional crew of 3 is on hand to provide exceptional service throughout your journey. Step aboard the Azimut S7 \"ALE II\" and experience the Mediterranean in style.",
+  "blueprint": {
+    "name": "ALE II",
+    "images": [
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcea0b80-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcccbf80-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd83130-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcec0750-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd746d1-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd8cd70-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bceb6b10-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcec2e60-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcb5dc20-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcde4bb0-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcc62fd0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcf15e80-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcda05f0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bceec670-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcea80b0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bccbfc30-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcde72c0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcf1d3b0-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bccc7160-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcf6dcc0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcfca920-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcdec0e0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bceb9220-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcdec0e0-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bd0f94e0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bceaf5e0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bce37bd0-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bce8fa10-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd87f50-f8ec-11ef-b966-75f3b55abdae/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bccd0da0-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcff8f50-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcebb930-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bceb1cf0-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd794f0-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcea59a0-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcf1d3b0-f8ec-11ef-b966-75f3b55abdae/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd746d0-f8ec-11ef-8986-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bced66e0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcc3e5e0-f8ec-11ef-a9a2-55ddcfcb5fbf/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd746d0-f8ec-11ef-9aba-55d40d1d328f/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcd746d0-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcccbf80-f8ec-11ef-8985-f192a455a1da/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bce06e90-f8ec-11ef-ae85-45b0bea19fa7/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcce6d30-f8ec-11ef-b966-75f3b55abdae/{imageVariant}",
+      "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::bcefb0d0-f8ec-11ef-8986-f192a455a1da/{imageVariant}"
+    ],
+    "make": "Azimut",
+    "model": "Azimut S7",
+    "maxCrew": 3,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
+      "name": "Marina di Stabia",
+      "coordinates": {
+        "latitude": 40.72334082612881,
+        "longitude": 14.47082520092881
+      },
+      "country": "Italy"
+    },
+    "builtYear": 2024,
+    "architect": "Azimut R&D Dept",
+    "topSpeed": 0,
+    "cruiseSpeed": 20,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 3,
+    "length": 21.68,
+    "beam": 5.15,
+    "draft": 1.7,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "3 x VOLVO PENTA IPS 800 hp",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Stabilisers Underway"
+      },
+      {
+        "label": "Stabilisers at anchor"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Alfresco Dining"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob",
+        "quantity": "2"
+      },
+      {
+        "label": "Sea-Doo Spark 60HP Jet Ski",
+        "quantity": "1"
+      },
+      {
+        "label": "Paddleboard",
+        "quantity": "1"
+      },
+      {
+        "label": "Noodles"
+      },
+      {
+        "label": "Snorkeling Equipments"
+      }
+    ],
+    "entertainment": [
+      "WiFi connection"
+    ],
+    "tenders": [
+      "1 x Tender Williams Turbojet 325 with BRP Rotax 90HP engine"
+    ]
+  },
+  "crew": [
+    {
+      "name": "Francesco Guida",
+      "avatar": "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::8f7b5690-f8ec-11ef-be7a-dba3eeeca320/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nWith a lifelong passion for the sea and over two decades of maritime experience, Captain Francesco ensures every journey aboard M/Y ALE II is smooth, safe, and unforgettable.\nBorn on November 27, 1978, he began his career as a Deck Cadet on chemical tankers before rising through the ranks as a Third and Second Deck Officer with Costa Crociere and Princess Cruises. In 2007, he transitioned into charter yachting, commanding vessels between 50 and 100 feet across the Mediterranean.\nWith a keen eye for onboard maintenance, Captain Francesco takes great pride in keeping M/Y ALE II in peak condition, prioritizing both safety and performance. His adaptability and commitment to continuous learning allow him to craft seamless, tailored experiences for guests. Whether navigating scenic coastlines or curating the perfect itinerary, he brings professionalism, expertise, and a deep respect for the sea.\nFluent in Italian and English, with basic Spanish, Captain Francesco fosters a warm and welcoming atmosphere on board. Under his expert command, guests can relax and immerse themselves in the beauty of the Mediterranean, knowing they are in skilled and capable hands."
+    },
+    {
+      "name": "Federico Cinque",
+      "avatar": "/media/media::image::a::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::99729b90-f8ec-11ef-be7a-dba3eeeca320/{imageVariant}",
+      "role": "Captain",
+      "bio": "Italian\n\nFederico is a passionate and experienced deckhand with nine seasons in the private and charter yachting industry. He is a dynamic, professional, and smart crew member, known for his organization, cleanliness, and positive attitude. His natural empathy and strong work ethic make him a valuable asset on board.\nAlways eager to learn and grow, Federico welcomes constructive feedback and continuously seeks ways to improve his skills. He takes great pride in his sense of responsibility and determination, ensuring that every task is completed to the highest standard.\nFederico thrives in a motivated and positive team environment. Thanks to his technical studies and hands-on experience working alongside seasoned professionals, he has developed the expertise required to perform his duties efficiently during your charter.\nHe is fluent in Italian and English, allowing him to communicate effectively with guests from diverse backgrounds."
+    },
+    {
+      "name": "Perla Pappalardo",
+      "avatar": "/media/media::image::c::7580634126::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7::assets::7222b720-50f6-11f0-9296-19c3044e1e5c/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nationality: Italian\n\nPerla, stewardess aboard M/Y ALE II, brings a vibrant blend of professionalism, warmth, and passion to every charter experience. With a background in Communication and Marketing, she naturally excels in interpersonal relations, channeling her energetic and determined nature into creating exceptional guest experiences. Her career path has been driven by a deep enthusiasm for client-facing roles, especially within the luxury tourism industry - a sector she finds both inspiring and full of potential in her home region. Perla thrives in dynamic team environments, where ongoing collaboration and shared goals lead to ever-higher standard of service. On board ALE II, Perla is dedicated to making every moment unforgettable, delivering refined hospitality with a personal touch, and ensuring that each guest feels perfectly at home on the sea. Fluent in Italian, English and Spanish, Perla effortlessly connects with an international clientele, making all guests feel welcomed and understood.\n\n"
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 4300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4300000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 4800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 4800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "High Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4800000,
+              "amount": 4800000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 4800000,
+          "subTotal": 4800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Low Season",
+        "effectiveDates": [],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 4300000,
+          "inputAmountTaxed": "NONE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 4300000,
+              "amount": 4300000,
+              "conditions": "Weekly"
+            }
+          ],
+          "total": 4300000,
+          "subTotal": 4300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Naples, Campania, Italy",
+            "type": "Custom Area",
+            "category": [
+              "Naples"
+            ],
+            "coordinates": [
+              14.5625,
+              40.9125
+            ],
+            "bbox": [
+              14.025,
+              40.683333,
+              15.1,
+              41.141667
+            ]
+          },
+          {
+            "label": "Italy",
+            "type": "Sovereign country",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Italy"
+            ],
+            "coordinates": [
+              12.625653670513588,
+              41.01657127176474
+            ],
+            "bbox": [
+              7.494049072265626,
+              36.50963615733049,
+              18.786621093750004,
+              46.027481852486645
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

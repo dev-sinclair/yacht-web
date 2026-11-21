@@ -1,0 +1,369 @@
+{
+  "lastModified": 1783095878564,
+  "uri": "c::7580634126::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb",
+  "yachtType": [
+    "Motor",
+    "Power Catamaran"
+  ],
+  "description": "Operating Area: Sardinia, Sicily, Amalfi Coast\n\nStep aboard CORE and experience Italy like never before. This magnificent Fountaine Pajot Power 67 seamlessly combines the performance of a power catamaran with the refined craftsmanship that Fountaine Pajot is renowned for. As the flagship of their motor yacht range, CORE delivers the ambiance of a floating five-star resort, ideal for discovering the Italian coast in total luxury.\n\nFrom the glamorous Amalfi Coast to the crystal-clear waters of Sardinia and Sicily, CORE offers a stylish and spacious setting for unforgettable voyages. The yacht features an expansive cockpit ideal for alfresco dining and socializing, a panoramic flybridge perfect for sunset cocktails, and a forward deck complete with a Jacuzzi — your private wellness retreat under the sun.\n\nGuest accommodations aboard CORE include 4 beautifully appointed cabins: a generous Master suite with a double bed and en-suite bathroom, a VIP suite also with a double bed and en-suite, and two additional cabins, each featuring a double bed and private en-suite. CORE is attended by a professional crew of 4, ensuring a seamless and comfortable experience on board.\n\nWhether you're planning a family holiday, a romantic getaway, or a friends' escape along Italy’s iconic shores, CORE promises a charter experience where every detail is designed for indulgence, adventure, and lasting memories.",
+  "blueprint": {
+    "name": "CORE",
+    "images": [
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17972c30-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::179a3970-3249-11f0-b94f-6d5ef4cce5d6/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a33a20-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a276d0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a24fc0-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1798d9e0-3249-11f0-8b2e-93eb5164612c/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::173954c0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a6e3a0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::178a33e0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1721fc30-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17b25550-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::179668e0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17997620-3249-11f0-8b2e-93eb5164612c/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17835610-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a3af50-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::178fb220-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a42480-3249-11f0-8b2e-93eb5164612c/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a38840-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17ad2530-3249-11f0-b94f-6d5ef4cce5d6/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::179b4ae0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a7a6f0-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1798d9e0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::179cd180-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17953060-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a90680-3249-11f0-b94f-6d5ef4cce5d6/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1792bf60-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::178578f0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1793d0d0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17294f30-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a24fc0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1794bb30-3249-11f0-b94f-6d5ef4cce5d6/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a31310-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::1736bcb0-3249-11f0-beba-ad93bf12c62e/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17218700-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a499b0-3249-11f0-8b2e-93eb5164612c/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a02ce0-3249-11f0-a1f2-97565180a08a/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a9a2c0-3249-11f0-b94f-6d5ef4cce5d6/{imageVariant}",
+      "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::17a0c920-3249-11f0-a1f2-97565180a08a/{imageVariant}"
+    ],
+    "make": "Fountaine Pajot",
+    "model": "Power 67",
+    "maxCrew": 4,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
+      "name": "Naples",
+      "coordinates": {
+        "latitude": 40.83713158943267,
+        "longitude": 14.25397786318711
+      },
+      "country": "Italy"
+    },
+    "cruisingCapacity": 12,
+    "builtYear": 2024,
+    "topSpeed": 0,
+    "cruiseSpeed": 15,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "VIP Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Double Cabins",
+        "value": "2"
+      }
+    ],
+    "cabins": 4,
+    "bathrooms": 4,
+    "length": 20.04,
+    "beam": 9.84,
+    "draft": 1.7,
+    "hullType": "Catamaran",
+    "engines": "2 VOLVO D6 480 Engines",
+    "amenities": [
+      {
+        "label": "Air conditioning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Flybridge"
+      },
+      {
+        "label": "Jacuzzi"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Seabob F9 White",
+        "quantity": "2"
+      },
+      {
+        "label": "Waydoo Flyer One EPP 90L (Electric  Foil)",
+        "quantity": "1"
+      },
+      {
+        "label": "Subnado Underwater Scooters",
+        "quantity": "2"
+      },
+      {
+        "label": "Yachtbeach Platform 6.16 Premium",
+        "quantity": "1"
+      },
+      {
+        "label": "Yachtbeach Multi Dock  & Lounger",
+        "quantity": "1"
+      },
+      {
+        "label": "Yachtbeach Single Foil Dock",
+        "quantity": "1"
+      },
+      {
+        "label": "Yachtbeach Party Zone",
+        "quantity": "1"
+      },
+      {
+        "label": "Yachtbeach Air Sofa  Corner",
+        "quantity": "2"
+      },
+      {
+        "label": "Yachtbeach Bench 160",
+        "quantity": "4"
+      },
+      {
+        "label": "Floating  Cup Holder"
+      },
+      {
+        "label": "Spinera  Combo Water Skis 67\" (Yellow Sea)",
+        "quantity": "2"
+      },
+      {
+        "label": " Spinera  Wing 3 Towable",
+        "quantity": "1"
+      },
+      {
+        "label": "Spinera SUP Sun Light 11.0",
+        "quantity": "2"
+      }
+    ]
+  },
+  "crew": [
+    {
+      "name": "DANIELE BAROLO",
+      "avatar": "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::3b025200-3247-11f0-b622-d1c20b8f91ac/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nBorn and raised in the heart of Rome, Daniele pursued a background in scientific studies\nbefore embarking on a 15-year career with the national police. Yet, the call of the sea had\nalways been stronger than any land-bound duty. Driven by a deep passion for sailing and\nexploration, he made the bold decision to leave behind the security of his former life and\ndedicate himself entirely to the ocean. Since then, he has spent nearly 15 years at sea,\nnavigating over 150,000 nautical miles. His voyages has taken Daniele across the Atlantic,\ninto the vastness of the Pacific, and even through the challenging waters of the Arctic\nOcean. What he loves most about his role as captain of CORE is creating unforgettable\nexperiences for guests - especially those new to yachting. He speaks Italian, Spanish, and\nEnglish fluently, allowing him to connect with guests from around the world and ensure a\nsmooth, personalized experience for everyone on board."
+    },
+    {
+      "name": "MARIA CHIARA VIGGIANI",
+      "avatar": "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::6d242ec0-3247-11f0-b85b-939b43f49b29/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nMaria Chiara Viggiani was born in a small coastal town in Italy, where her love for the sea and for cooking took root early in life. From a young age, she was drawn to the kitchen, learning the art of traditional Italian cuisine at her grandmother’s side- an exceptional cook who inspired her deeply. Maria Chiara's cooking is infused with passion and creativity, combining the best of Mediterranean flavors with international flair. During the off-season, she has further refined her culinary skills by working in renowned restaurants in both London and Barcelona. She speaks Italian, English, and Spanish fluently, allowing her to communicate with guests from all over the world and create a warm, inclusive environment on board. For Maria Chiara, working aboard CORE is the perfect balance of her two great loves: the sea and the culinary arts. Her mission is to delight guests with beautifully crafted meals while ensuring they feel truly at home on the water."
+    },
+    {
+      "name": "CHIARA CLEMOT",
+      "avatar": "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::4cfcb7b0-3248-11f0-93ea-8f0f4128ebf2/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nITALIAN\n\nChiara joined the CORE crew bringing a blend of professionalism, warmth, and versatility essential for an exceptional charter experience. She earned a Degree in Luxury Management and Communication in 2020, equipping her with a refined understanding of guest service and high-end hospitality. Chiara’s skills extend beyond traditional stewardess duties - she is also a talented\nMediterranean cook. Her keen attention to detail and calm demeanor allow her to perform impeccably under pressure, ensuring every guest’s need is anticipated and met with ease. With experience in childcare and event coordination, Chiara is adept at managing diverse guest requests and creating memorable moments for families and groups alike. She also supports deck operations as a competent deckhand, showcasing her all around versatility on board. Fluent in Italian and English, with conversational Spanish, Chiara connects effortlessly with a broad\nrange of guests."
+    },
+    {
+      "name": "ANDRI STEYN",
+      "avatar": "/media/media::image::a::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb::assets::8475c470-3248-11f0-b01b-67b301f754c7/{imageVariant}",
+      "role": "Captain",
+      "bio": "NATIONALITY\nSOUTH AFRICAN\n\nAndri is a hardworking and committed deckhand with hands-on experience in both luxury yacht operations and hospitality. After completing successful seasons in the Mediterranean, he has developed a solid foundation in all key deck duties and takes pride in ensuring the vessel is maintained to the highest standards at all times. Energetic, Andri thrives in dynamic, team-focused environments where safety, precision, and toptier service are essential. Known for his\npunctuality, neatness, and proactive mindset, he consistently delivers reliable and professional support across all deck operations. With a strong work ethic, adaptability, and sharp attention to detail, Andri is a valuable addition to the CORE crew - bringing enthusiasm, discipline, and a\npositive attitude to every charter experience. Fluent in English, Andri communicates clearly and confidently with guests and crew alike, helping to ensure smooth operations and a positive atmosphere on board."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "EUR",
+      "price": 5300000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5300000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "EUR",
+      "price": 5800000,
+      "displayCurrency": "EUR",
+      "displayPrice": 5800000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Low Season",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-06-30T23:59:59.999Z"
+          },
+          {
+            "from": "2026-09-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-09-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-09-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5300000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5300000,
+              "amount": 5300000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 5300000,
+          "subTotal": 5300000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "High Season",
+        "effectiveDates": [
+          {
+            "from": "2026-07-01T00:00:00.000Z",
+            "to": "2026-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-07-01T00:00:00.000Z",
+            "to": "2027-08-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-07-01T00:00:00.000Z",
+            "to": "2028-08-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "EUR",
+          "charterFee": 5800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 5800000,
+              "amount": 5800000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 5800000,
+          "subTotal": 5800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Sardinia",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sardinia"
+            ],
+            "coordinates": [
+              8.96574354539669,
+              40.12242872762209
+            ],
+            "bbox": [
+              8.180859375000011,
+              38.90966796875,
+              9.805273437500006,
+              41.257080078125
+            ]
+          },
+          {
+            "label": "Sicily",
+            "type": "Geo subunit",
+            "category": [
+              "Europe",
+              "Southern Europe",
+              "Sicily"
+            ],
+            "coordinates": [
+              14.155397130095018,
+              37.59291213666052
+            ],
+            "bbox": [
+              12.435546875,
+              36.687841796875,
+              15.634667968750023,
+              38.2958984375
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}
