@@ -1,5 +1,5 @@
 {
-  "lastModified": 1794224051278,
+  "lastModified": 1795271745241,
   "uri": "c::7580634126::vessel::54e7a5c0-017a-11ef-a66d-f55d129bb39c",
   "yachtType": [
     "Motor"
@@ -102,8 +102,9 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2024,
-    "interiorDesigner": "",
-    "topSpeed": 0,
+    "interiorDesigner": "Paszkowski Designstudio",
+    "refitYear": 0,
+    "topSpeed": 22,
     "cruiseSpeed": 15,
     "fuelCapacity": "",
     "cabinLayout": [
@@ -125,8 +126,9 @@
     "length": 33,
     "beam": 7.4,
     "draft": 2,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
+    "tonnage": 230,
     "superStructure": [],
     "engines": "2 x MTU 2400 HP",
     "amenities": [

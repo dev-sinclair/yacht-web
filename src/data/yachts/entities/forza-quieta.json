@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781813537872,
+  "lastModified": 1795271917747,
   "uri": "c::7580634126::vessel::48a69320-4c56-11f0-a449-a58107c5eeb8",
   "yachtType": [
     "Motor"
@@ -43,9 +43,12 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2025,
     "architect": "Laura Armani",
     "interiorDesigner": "Piero Lissoni / Patricia Urquiola",
+    "topSpeed": 34,
     "cruiseSpeed": 24,
     "cabinLayout": [
       {
@@ -96,10 +99,17 @@
       },
       {
         "label": "Towable toys"
+      },
+      {
+        "label": "Seabob F9S",
+        "quantity": "2"
       }
     ],
     "entertainment": [
       "WiFi connection"
+    ],
+    "tenders": [
+      "Williams Sportjet 395 90hp"
     ]
   },
   "crew": [

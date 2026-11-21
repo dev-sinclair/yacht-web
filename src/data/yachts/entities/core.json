@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783095878564,
+  "lastModified": 1795272428775,
   "uri": "c::7580634126::vessel::ffae18d0-3244-11f0-8fe1-e75c3d2fb9fb",
   "yachtType": [
     "Motor",
@@ -51,7 +51,7 @@
     "make": "Fountaine Pajot",
     "model": "Power 67",
     "maxCrew": 4,
-    "sleeps": 8,
+    "sleeps": 9,
     "basePort": {
       "uri": "a::place::f8cef0ac-b3ed-11ed-a0d1-325096b39f47",
       "name": "Naples",
@@ -61,9 +61,13 @@
       },
       "country": "Italy"
     },
-    "cruisingCapacity": 12,
+    "cruisingCapacity": 11,
+    "staticCapacity": 0,
     "builtYear": 2024,
-    "topSpeed": 0,
+    "architect": "Berret-Racoupeau Yacht Design",
+    "interiorDesigner": "Berret-Racoupeau Yacht Design",
+    "refitYear": 0,
+    "topSpeed": 17,
     "cruiseSpeed": 15,
     "cabinLayout": [
       {
@@ -83,7 +87,7 @@
     "bathrooms": 4,
     "length": 20.04,
     "beam": 9.84,
-    "draft": 1.7,
+    "draft": 1.15,
     "hullType": "Catamaran",
     "engines": "2 VOLVO D6 480 Engines",
     "amenities": [
@@ -152,6 +156,9 @@
         "label": "Spinera SUP Sun Light 11.0",
         "quantity": "2"
       }
+    ],
+    "tenders": [
+      "Dinghy Highfield 4.2 with Honda 60 HP Outboard"
     ]
   },
   "crew": [
@@ -183,16 +190,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 5300000,
+      "price": 4500000,
       "displayCurrency": "EUR",
-      "displayPrice": 5300000,
+      "displayPrice": 4500000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 5800000,
+      "price": 5300000,
       "displayCurrency": "EUR",
-      "displayPrice": 5800000,
+      "displayPrice": 5300000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -226,7 +233,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 5300000,
+          "charterFee": 4500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -234,13 +241,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5300000,
-              "amount": 5300000,
+              "unitPrice": 4500000,
+              "amount": 4500000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 5300000,
-          "subTotal": 5300000,
+          "total": 4500000,
+          "subTotal": 4500000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -304,7 +311,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 5800000,
+          "charterFee": 5300000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -312,13 +319,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 5800000,
-              "amount": 5800000,
+              "unitPrice": 5300000,
+              "amount": 5300000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 5800000,
-          "subTotal": 5800000,
+          "total": 5300000,
+          "subTotal": 5300000,
           "totalTax": 0
         },
         "inclusionZones": [

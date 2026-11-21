@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781813263604,
+  "lastModified": 1795271860367,
   "uri": "c::7580634126::vessel::06b21be0-92e4-11f0-8a1e-d3542a664c41",
   "yachtType": [
     "Motor"
@@ -50,6 +50,9 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2025,
+    "architect": "Ferretti Custom Line",
+    "interiorDesigner": "",
+    "topSpeed": 14,
     "cruiseSpeed": 12,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -67,8 +70,11 @@
       }
     ],
     "cabins": 5,
-    "length": 28.43,
+    "length": 30,
     "beam": 7.31,
+    "draft": 2.2,
+    "hullType": "Displacement",
+    "hullConstruction": "",
     "engines": "2 x MAN 1000hp",
     "amenities": [
       {
@@ -99,10 +105,23 @@
       },
       {
         "label": "Banana"
+      },
+      {
+        "label": "Seabob F9",
+        "quantity": "1"
+      },
+      {
+        "label": "E-Foil",
+        "quantity": "1"
+      },
+      {
+        "label": "JetSki Seadoo Spark (license required)",
+        "quantity": "1"
       }
     ],
     "tenders": [
-      "Tender Williams Jet 4.35m 130 HP"
+      "Tender Williams Jet 4.35m 130 HP",
+      "Chase tender BWA 32 Cabin with 500 HP"
     ]
   },
   "crew": [
@@ -146,16 +165,16 @@
   "pricing": {
     "weekPricingFrom": {
       "currency": "EUR",
-      "price": 9500000,
+      "price": 10000000,
       "displayCurrency": "EUR",
-      "displayPrice": 9500000,
+      "displayPrice": 10000000,
       "unit": "WEEK"
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 11000000,
+      "price": 11500000,
       "displayCurrency": "EUR",
-      "displayPrice": 11000000,
+      "displayPrice": 11500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -177,7 +196,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 9500000,
+          "charterFee": 10000000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -185,13 +204,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 9500000,
-              "amount": 9500000,
+              "unitPrice": 10000000,
+              "amount": 10000000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 9500000,
-          "subTotal": 9500000,
+          "total": 10000000,
+          "subTotal": 10000000,
           "totalTax": 0
         },
         "inclusionZones": [
@@ -236,7 +255,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 11000000,
+          "charterFee": 11500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -244,13 +263,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 11000000,
-              "amount": 11000000,
+              "unitPrice": 11500000,
+              "amount": 11500000,
               "conditions": "VAT & APA Excluded"
             }
           ],
-          "total": 11000000,
-          "subTotal": 11000000,
+          "total": 11500000,
+          "subTotal": 11500000,
           "totalTax": 0
         },
         "inclusionZones": [

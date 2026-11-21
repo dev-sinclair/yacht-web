@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783513018190,
+  "lastModified": 1795272012978,
   "uri": "c::7580634126::vessel::d5cc4e6e-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -84,10 +84,10 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2022,
-    "architect": "",
+    "architect": "Filippo Salvetti",
     "interiorDesigner": "Ideaitalia",
-    "topSpeed": 0,
-    "cruiseSpeed": 24,
+    "topSpeed": 32,
+    "cruiseSpeed": 18,
     "fuelCapacity": 0,
     "cabinLayout": [
       {
@@ -112,9 +112,9 @@
     "length": 26.95,
     "beam": 6.22,
     "draft": 2.08,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 100,
     "superStructure": [],
     "engines": "2 x MAN V12 2000",
     "amenities": [
@@ -220,9 +220,9 @@
     },
     "weekPricingTo": {
       "currency": "EUR",
-      "price": 7900000,
+      "price": 7500000,
       "displayCurrency": "EUR",
-      "displayPrice": 7900000,
+      "displayPrice": 7500000,
       "unit": "WEEK"
     },
     "pricingInfo": [
@@ -244,7 +244,7 @@
         ],
         "pricing": {
           "currency": "EUR",
-          "charterFee": 7900000,
+          "charterFee": 7500000,
           "inputAmountTaxed": "EXCLUSIVE",
           "note": "",
           "unit": "WEEK",
@@ -252,13 +252,13 @@
             {
               "item": "Charter Fee",
               "quantity": 1,
-              "unitPrice": 7900000,
-              "amount": 7900000,
+              "unitPrice": 7500000,
+              "amount": 7500000,
               "conditions": "Weekly"
             }
           ],
-          "total": 7900000,
-          "subTotal": 7900000,
+          "total": 7500000,
+          "subTotal": 7500000,
           "totalTax": 0
         },
         "inclusionZones": [

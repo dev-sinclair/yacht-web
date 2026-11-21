@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783028465488,
+  "lastModified": 1795272275471,
   "uri": "c::7580634126::vessel::a3678bf0-facc-11f0-aec0-0bf25cfa63e0",
   "yachtType": [
     "Motor"
@@ -61,15 +61,30 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2025,
     "refitYear": 0,
+    "topSpeed": 21,
     "cruiseSpeed": 12,
     "fuelCapacity": 0,
-    "cabinLayout": [],
+    "cabinLayout": [
+      {
+        "label": "Double Cabins",
+        "value": "3"
+      },
+      {
+        "label": "Convertible Cabin",
+        "value": "1"
+      }
+    ],
     "cabins": 4,
     "length": 24,
     "beam": 6.32,
-    "draft": 1.85,
+    "draft": 2,
+    "hullType": "Semi displacement",
+    "hullConstruction": "",
+    "tonnage": 80,
     "engines": "2 × MAN V12 1 400 HP each 2 × Onan 27 kW each",
     "amenities": [
       {

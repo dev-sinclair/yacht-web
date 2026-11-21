@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783096190907,
+  "lastModified": 1795272448046,
   "uri": "c::7580634126::vessel::5fd59200-92ea-11f0-87c7-79ee4d71e55b",
   "yachtType": [
     "Sailing",
@@ -54,6 +54,9 @@
     },
     "cruisingCapacity": 10,
     "builtYear": 2025,
+    "architect": "Xavier Fay",
+    "interiorDesigner": "",
+    "topSpeed": 10,
     "cruiseSpeed": 8,
     "cabinLayout": [
       {
@@ -68,6 +71,7 @@
     "cabins": 4,
     "length": 17.66,
     "beam": 9.09,
+    "draft": 1.01,
     "hullType": "Catamaran",
     "engines": "2 × NANNI N4.115, 115 hp each",
     "amenities": [

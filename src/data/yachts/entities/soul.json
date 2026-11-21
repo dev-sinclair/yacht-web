@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783095125758,
+  "lastModified": 1795272369257,
   "uri": "c::7580634126::vessel::47b2ff00-92ab-11ee-a921-b707fa8e0859",
   "yachtType": [
     "Motor"
@@ -60,7 +60,7 @@
     ],
     "make": "Azimut Yachts",
     "model": "Magellano 66 ",
-    "maxCrew": 2,
+    "maxCrew": 3,
     "sleeps": 6,
     "basePort": {
       "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
@@ -71,9 +71,11 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 9,
+    "staticCapacity": 0,
     "builtYear": 2022,
-    "architect": "",
-    "interiorDesigner": "",
+    "architect": "P.L. Ausonio Naval Architecture & Azimut R&D Dept",
+    "interiorDesigner": "Azimut Yachts",
     "refitYear": "",
     "topSpeed": 24,
     "cruiseSpeed": 15,
@@ -97,10 +99,10 @@
     "decks": "",
     "length": 20.15,
     "beam": 5.54,
-    "draft": 1.7,
-    "hullType": "",
+    "draft": 1.68,
+    "hullType": "Semi displacement",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 47,
     "superStructure": [],
     "engines": "2 x 850HP (625kw) MAN i6",
     "amenities": [

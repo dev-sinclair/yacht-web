@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781812999063,
+  "lastModified": 1795271777008,
   "uri": "c::7580634126::vessel::d5cc25b9-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -68,9 +68,10 @@
     "cruisingCapacity": 12,
     "staticCapacity": 0,
     "builtYear": 2008,
-    "architect": "",
+    "architect": "Ferretti Group",
+    "interiorDesigner": "",
     "refitYear": 2020,
-    "topSpeed": 0,
+    "topSpeed": 24,
     "cruiseSpeed": 18,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -92,9 +93,9 @@
     "length": 30,
     "beam": 7,
     "draft": 1.8,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 176,
     "superStructure": [],
     "engines": "2 x MTU 2400 HP",
     "amenities": [

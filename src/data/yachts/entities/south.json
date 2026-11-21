@@ -1,5 +1,5 @@
 {
-  "lastModified": 1794221345567,
+  "lastModified": 1795271719023,
   "uri": "c::7580634126::vessel::d5cc796b-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -74,7 +74,7 @@
     "architect": "Zuccon International Project",
     "interiorDesigner": "Ferretti Group Project Architect",
     "refitYear": "",
-    "topSpeed": 0,
+    "topSpeed": 15,
     "cruiseSpeed": 11,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -96,10 +96,10 @@
     "decks": "",
     "length": 33,
     "beam": 7.68,
-    "draft": 2.2,
-    "hullType": "Semi-displacement",
+    "draft": 2.18,
+    "hullType": "Displacement",
     "hullConstruction": "GRP",
-    "tonnage": 0,
+    "tonnage": 262,
     "superStructure": [],
     "engines": "2 x MAN 1400 HP",
     "amenities": [
@@ -154,7 +154,8 @@
       "Starlink high speed internet"
     ],
     "tenders": [
-      " Tender 5.05m Williams"
+      " Tender 5.05m Williams",
+      "Chase Boat CAP CAMARAT 9 mt 2x250 HP"
     ]
   },
   "crew": [

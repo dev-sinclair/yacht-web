@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781814169395,
+  "lastModified": 1795272230341,
   "uri": "c::7580634126::vessel::82220610-fd0f-11f0-b6d5-05d90b47df0e",
   "yachtType": [
     "Motor"
@@ -53,10 +53,12 @@
       },
       "country": "Italy"
     },
-    "builtYear": 2025,
+    "builtYear": 2026,
+    "architect": "Alberto Mancini",
     "interiorDesigner": "Fabio Fantolino",
     "topSpeed": 32,
-    "cruiseSpeed": 25,
+    "cruiseSpeed": 19,
+    "fuelCapacity": 0,
     "cabinLayout": [
       {
         "label": "Master Cabin",
@@ -80,6 +82,9 @@
     "length": 24.8,
     "beam": 5.87,
     "draft": 1.7,
+    "hullType": "Planing hull",
+    "hullConstruction": "",
+    "tonnage": 64,
     "engines": "3 X VOLVO PENTA IPS 1350 (1000hp)",
     "amenities": [
       {
@@ -91,23 +96,29 @@
     ],
     "toys": [
       {
-        "label": "E-foil",
+        "label": "Awake Electric Surfboards",
         "quantity": "1"
       },
       {
-        "label": "Seabob F9",
+        "label": "Seabob F9 S",
         "quantity": "2"
       },
       {
-        "label": "Stand Up Paddleboard (SUP)",
-        "quantity": "1"
+        "label": "Aqua Marina Stand Up Paddle Board (SUP)",
+        "quantity": "2"
       },
       {
-        "label": "Inflatables"
+        "label": "Jobe Infinity Water Hammock"
+      },
+      {
+        "label": "Yamaha Jet Blaster"
+      },
+      {
+        "label": "Snorkelling Gears (Masks and Fins)"
       }
     ],
     "tenders": [
-      "Tender Pirelli Jet 3.9 m 90 hp"
+      "Pirelli X350 Tender"
     ]
   },
   "crew": [

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783027620476,
+  "lastModified": 1795272297256,
   "uri": "c::7580634126::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000",
   "yachtType": [
     "Motor",
@@ -83,7 +83,12 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2025,
+    "architect": "Berret-Racoupeau Yacht Design",
+    "interiorDesigner": "",
+    "topSpeed": 22,
     "cruiseSpeed": 15,
     "cabinLayout": [
       {
@@ -165,6 +170,9 @@
         "label": "Fishing equipment",
         "quantity": "1"
       }
+    ],
+    "tenders": [
+      "Tender Highfield 520 Sport"
     ]
   },
   "crew": [],

@@ -1,5 +1,5 @@
 {
-  "lastModified": null,
+  "lastModified": 1795272346372,
   "uri": "c::7580634126::vessel::41775060-fb71-11f0-ac33-f3036d2e077e",
   "yachtType": [
     "Motor"
@@ -56,6 +56,8 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2024,
     "interiorDesigner": "Achille Salvagni",
     "topSpeed": 32,
@@ -78,7 +80,9 @@
     "bathrooms": 4,
     "length": 21,
     "beam": 5.23,
-    "draft": 1.65,
+    "draft": 1.6,
+    "hullType": "Planing hull",
+    "hullConstruction": "",
     "engines": "2 X VOLVO PENTA IPS 1350",
     "amenities": [
       {
@@ -96,11 +100,12 @@
     ],
     "toys": [
       {
-        "label": "Seabob"
+        "label": "Seabob",
+        "quantity": "2"
       },
       {
         "label": "SUP",
-        "quantity": "2"
+        "quantity": "1"
       },
       {
         "label": "Snorkeling gear",

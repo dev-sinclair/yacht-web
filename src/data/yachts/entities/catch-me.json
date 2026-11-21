@@ -1,5 +1,5 @@
 {
-  "lastModified": 1750760733959,
+  "lastModified": 1795271960019,
   "uri": "c::7580634126::vessel::a51c3990-f8ee-11ef-814a-c378e3dcd7d7",
   "yachtType": [
     "Motor"
@@ -36,8 +36,12 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2025,
-    "topSpeed": 32,
+    "interiorDesigner": "Studio Zuccon",
+    "refitYear": 0,
+    "topSpeed": 21,
     "cruiseSpeed": 14,
     "cabinLayout": [
       {
@@ -60,6 +64,7 @@
     "draft": 2,
     "hullType": "Planing",
     "hullConstruction": "GRP",
+    "tonnage": 95,
     "superStructure": [
       "Flybridge"
     ],
@@ -93,7 +98,7 @@
       },
       {
         "label": "Seabob F5S",
-        "quantity": ""
+        "quantity": "1"
       },
       {
         "label": "Flitescooter E-Foil"

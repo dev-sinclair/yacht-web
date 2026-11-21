@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783027116995,
+  "lastModified": 1795272242066,
   "uri": "c::7580634126::vessel::d5cc4e9a-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -54,9 +54,10 @@
     "cruisingCapacity": 12,
     "staticCapacity": 0,
     "builtYear": 2020,
-    "architect": "",
-    "interiorDesigner": "",
-    "topSpeed": 0,
+    "architect": "Officina Italiana Design",
+    "interiorDesigner": "Officina Italiana Design",
+    "refitYear": 0,
+    "topSpeed": 30,
     "cruiseSpeed": 23,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -79,9 +80,9 @@
     "length": 24.64,
     "beam": 5.74,
     "draft": 1.8,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 70,
     "superStructure": [],
     "engines": "2 x MTU 1,600 HP",
     "amenities": [
@@ -110,6 +111,9 @@
       },
       {
         "label": "Waterski"
+      },
+      {
+        "label": "Jet ski upon request at € 2,000/week"
       }
     ],
     "entertainment": [

@@ -1,5 +1,5 @@
 {
-  "lastModified": 1750780755177,
+  "lastModified": 1795272170500,
   "uri": "c::7580634126::vessel::d5ccccb1-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Motor"
@@ -72,7 +72,7 @@
     "architect": "",
     "interiorDesigner": "",
     "refitYear": 2022,
-    "topSpeed": 0,
+    "topSpeed": 26,
     "cruiseSpeed": 23,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -94,7 +94,7 @@
     "length": 25,
     "beam": 5.7,
     "draft": 1.8,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
     "tonnage": 0,
     "superStructure": [],
@@ -128,6 +128,9 @@
       },
       {
         "label": "Snorkeling equipment"
+      },
+      {
+        "label": "2.6 x 2.6 m Inflatable Floating Dock"
       }
     ],
     "entertainment": [

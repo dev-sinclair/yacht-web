@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783114816074,
+  "lastModified": 1795272100270,
   "uri": "c::7580634126::vessel::e004b8a0-fb08-11ee-b5e0-870e871e28ad",
   "yachtType": [
     "Motor"
@@ -66,10 +66,10 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2019,
-    "architect": "",
-    "interiorDesigner": "",
+    "architect": "Zuccon International",
+    "interiorDesigner": "Zuccon International",
     "refitYear": 2025,
-    "topSpeed": 0,
+    "topSpeed": 31,
     "cruiseSpeed": 22,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -92,9 +92,9 @@
     "length": 26,
     "beam": 6.3,
     "draft": 2.5,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 77,
     "superStructure": [],
     "engines": "2 x 1900 HP MAN",
     "amenities": [
@@ -116,15 +116,21 @@
     ],
     "toys": [
       {
-        "label": "Seabob",
-        "quantity": "2"
+        "label": "E-Foil",
+        "quantity": "1"
       },
       {
         "label": "Paddle Board",
-        "quantity": "2"
+        "quantity": "1"
       },
       {
         "label": "Wakeboard"
+      },
+      {
+        "label": "Inflatable Mattress"
+      },
+      {
+        "label": "Snorkeling Equipment"
       }
     ],
     "entertainment": [

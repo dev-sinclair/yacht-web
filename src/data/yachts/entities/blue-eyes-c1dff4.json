@@ -1,5 +1,5 @@
 {
-  "lastModified": 1781813904551,
+  "lastModified": 1795272149907,
   "uri": "c::7580634126::vessel::c1dff460-fb84-11f0-b165-9733c00fd524",
   "yachtType": [
     "Motor"
@@ -42,7 +42,13 @@
     "make": "Azimut",
     "maxCrew": 4,
     "sleeps": 9,
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2025,
+    "architect": "Ausonio & Azimut",
+    "interiorDesigner": "Vincenzo De Cotiis",
+    "refitYear": 0,
+    "topSpeed": 25,
     "cruiseSpeed": 19,
     "cabinLayout": [
       {
@@ -59,7 +65,7 @@
       },
       {
         "label": "Twin Cabin with pullman bed",
-        "value": ""
+        "value": "1"
       }
     ],
     "cabins": 4,
@@ -67,6 +73,9 @@
     "length": 25.22,
     "beam": 6.3,
     "draft": 1.9,
+    "hullType": "Semi displacement",
+    "hullConstruction": "",
+    "tonnage": 86,
     "engines": "2 x MAN V12 1550 hp",
     "amenities": [
       {
@@ -81,7 +90,7 @@
         "label": "Sea-Doo Spark Trixx 3UP"
       },
       {
-        "label": "Seabob F5S",
+        "label": "Seabob F9 S",
         "quantity": "2"
       },
       {
@@ -90,6 +99,21 @@
       },
       {
         "label": "Inflatable Platform with Accessories"
+      },
+      {
+        "label": "E-foil Fliteboard Carbon S5"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Kneeboard"
+      },
+      {
+        "label": "4-person inflatable JOBE towable sofa"
+      },
+      {
+        "label": "Towable donut"
       }
     ],
     "tenders": [

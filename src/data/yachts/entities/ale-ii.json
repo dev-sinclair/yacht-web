@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783094648727,
+  "lastModified": 1795272324327,
   "uri": "c::7580634126::vessel::10656c20-f8eb-11ef-814a-c378e3dcd7d7",
   "yachtType": [
     "Motor"
@@ -57,7 +57,7 @@
     "make": "Azimut",
     "model": "Azimut S7",
     "maxCrew": 3,
-    "sleeps": 6,
+    "sleeps": 8,
     "basePort": {
       "uri": "a::place::352d9080-eddc-11ed-b151-a5b31dedf00a",
       "name": "Marina di Stabia",
@@ -67,9 +67,13 @@
       },
       "country": "Italy"
     },
+    "cruisingCapacity": 12,
+    "staticCapacity": 0,
     "builtYear": 2024,
     "architect": "Azimut R&D Dept",
-    "topSpeed": 0,
+    "interiorDesigner": "Yachtique",
+    "refitYear": 0,
+    "topSpeed": 35,
     "cruiseSpeed": 20,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -79,17 +83,17 @@
       },
       {
         "label": "Twin Cabin",
-        "value": "1"
+        "value": "2"
       }
     ],
     "cabins": 4,
     "bathrooms": 3,
     "length": 21.68,
     "beam": 5.15,
-    "draft": 1.7,
-    "hullType": "",
+    "draft": 1.69,
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 46,
     "superStructure": [],
     "engines": "3 x VOLVO PENTA IPS 800 hp",
     "amenities": [

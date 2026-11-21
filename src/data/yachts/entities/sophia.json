@@ -1,5 +1,5 @@
 {
-  "lastModified": 1783009270093,
+  "lastModified": 1795271883002,
   "uri": "c::7580634126::vessel::c4bb6350-2d85-11ef-ab94-efff961f3cec",
   "yachtType": [
     "Motor"
@@ -93,9 +93,10 @@
     },
     "cruisingCapacity": 12,
     "builtYear": 2023,
-    "architect": "",
-    "interiorDesigner": "",
-    "topSpeed": 0,
+    "architect": "Fulvio De Simoni",
+    "interiorDesigner": "Fulvio De Simoni",
+    "refitYear": 0,
+    "topSpeed": 42,
     "cruiseSpeed": 32,
     "fuelCapacity": 0,
     "cabinLayout": [
@@ -121,9 +122,9 @@
     "length": 28.1,
     "beam": 6.23,
     "draft": 1.65,
-    "hullType": "",
+    "hullType": "Planing hull",
     "hullConstruction": "",
-    "tonnage": 0,
+    "tonnage": 94,
     "superStructure": [],
     "engines": "2 x MTU 16V 2860 HP",
     "amenities": [
