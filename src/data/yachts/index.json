@@ -1397,6 +1397,31 @@
     ]
   },
   {
+    "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
+    "slug": "nocturno",
+    "name": "NOCTURNO",
+    "hero": "/media/media::image::c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744::assets::76b4a720-775d-11f0-8a05-3159ae1ca088/{imageVariant}",
+    "length": 48.2,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2023,
+    "builder": "Radez",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 8500000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::8164602117::vessel::77936d82-486c-11ee-a45f-fdfff6163a60",
     "slug": "riva",
     "name": "RIVA",
@@ -1415,28 +1440,6 @@
     "seasons": [
       "summer-2027",
       "winter-2026"
-    ]
-  },
-  {
-    "uri": "c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744",
-    "slug": "nocturno",
-    "name": "NOCTURNO",
-    "hero": "/media/media::image::c::8164602117::vessel::d5cc4ec4-fe8c-11ed-889f-43d4bb723744::assets::76b4a720-775d-11f0-8a05-3159ae1ca088/{imageVariant}",
-    "length": 48.2,
-    "sleeps": 12,
-    "cabins": 6,
-    "builtYear": 2023,
-    "builder": "Radez",
-    "yachtType": [
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 8500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2027",
-      "winter-2026",
-      "winter-2027"
     ]
   },
   {
@@ -17664,33 +17667,6 @@
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::8183534776::vessel::2fb44640-436b-11ef-9499-abe403c7e24f",
-    "slug": "ever-iii",
-    "name": "EVER III",
-    "hero": "/media/media::image::a::vessel::2fb44640-436b-11ef-9499-abe403c7e24f::assets::e77c72c0-48e8-11ef-850d-b9b82b7a7922.jpeg/{imageVariant}",
-    "length": 17.7,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2016,
-    "builder": "Lagoon",
-    "yachtType": [
-      "Catamaran",
-      "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 2500000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
       "winter-2025",
       "winter-2026",
       "winter-2027"
