@@ -1,0 +1,615 @@
+{
+  "lastModified": 1784751811976,
+  "uri": "c::52524915991::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Indonesia\n\nSamara I is a spacious 27m modern phinisi boat that is designed to accommodate 12 guests, which is ideal for a family holiday or a group of friends. It features five comfortable cabins with en suite bathroom each and offers optimum convenience and comfort to all guests aboard. She offers a beautiful modern bar and lounge area on the front deck as well as multiple cozy sundecks. The Salon is spacious and provides comfortable seating for 12 guests.\n\n",
+  "blueprint": {
+    "name": "SAMARA I",
+    "images": [
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::1964e210-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::fd1c2140-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::fd087230-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a6215350-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e0dcd20-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e108c40-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e0d09d0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e103e20-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e20b8e0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e09ae70-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::3e10b350-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::56e275d0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::56dca970-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::56dea540-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::56e0c820-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76e02850-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76dfb320-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76dd1b10-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76e3f8e0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76fa4000-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76e1d600-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::76e3aac0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61ee250-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::d43b6370-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61b11c0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61cbf70-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61da9d0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61dd0e0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a6212c40-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61ebb40-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61d0d90-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a620b710-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a621a170-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::fd0c69d0-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::d42850a0-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::fd0bcd90-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::a61e4610-189d-11f1-9e9d-95da3f960574/{imageVariant}"
+    ],
+    "maxCrew": 6,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::0a12c030-2d62-11ee-b0c3-4f4fc032fa9a",
+      "name": "Labuan Bajo",
+      "coordinates": {
+        "latitude": -8.453847117195073,
+        "longitude": 119.8728407565293
+      },
+      "country": "Indonesia"
+    },
+    "builtYear": 2016,
+    "topSpeed": 9,
+    "cruiseSpeed": 5,
+    "cabinLayout": [],
+    "cabins": 5,
+    "bathrooms": 5,
+    "length": 27,
+    "beam": 5.5,
+    "engines": "Mitsubishi D16 6 cilinder",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Lounge area"
+      },
+      {
+        "label": "Life Jackets"
+      },
+      {
+        "label": "Life buoy"
+      },
+      {
+        "label": "Fire extinguishers"
+      },
+      {
+        "label": "Watermaker"
+      },
+      {
+        "label": "First Aid Kit"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Sunshade Deck"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": " Life raft 15 person"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Stand up paddle board"
+      },
+      {
+        "label": "Snorkeling gear"
+      }
+    ],
+    "entertainment": [
+      "Speaker",
+      "Wifi (Starlink)"
+    ],
+    "tenders": [
+      "6.2 m with Yamaha 40 HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "WILHELMUS WAGUT",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::5825dd30-189b-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Wilhelmus Wagut, known as Capt. Will, has been leading Samara I since April 2018. With certifications in BST for KLM and MPR 1, he combines strong maritime skills with calm, steady leadership. His familiarity with the region’s waters and thoughtful approach to every journey help guests feel safe, relaxed, and well-guided throughout their time onboard."
+    },
+    {
+      "name": "HILARIUS RITU",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::8cebb0d0-189b-11f1-99e6-57ad6d9c7893/{imageVariant}",
+      "role": "Captain",
+      "bio": "Hilarius Ritu, or Aris, joined Samara I in July 2017 and has grown into one of the most engaging personalities onboard. As Supervisor and Bartender, he enjoys assisting guests throughout the trip—from serving refreshing drinks to accompanying them during island activities. His BST for KM and Ratings of Navigational certifications support his hands-on approach to hospitality and daily operations."
+    },
+    {
+      "name": "KORNELIS MITHE",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::ab064b70-189b-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Kornelis Mithe, known as Kornel, became part of Samara I in 2019. He manages tender boat operations with care, making every transfer smooth and worry-free for guests. Whether taking guests ashore or assisting with water activities, Kornel is known for his steady focus and friendly manner. His BST for KM and MPR 1 certifications strengthen his role on the team."
+    },
+    {
+      "name": "HENDRIKUS EDISON EJAS",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::c2bade20-189b-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Hendrikus Edison Ejas, or Medi, joined Samara I in February 2018. He ensures each cabin remains clean, organized, and welcoming throughout the voyage. Medi’s attention to detail and warm attitude help create a comfortable onboard atmosphere. With his BST for KLM certification, he supports Samara’s high hospitality standards every day.\n"
+    },
+    {
+      "name": "GONSIANUS HARYANTO",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::51616c20-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Gonsianus Haryanto, known as Gonsi, has been part of Samara I since 2023. He prepares a variety of flavorful dishes that guests look forward to after each activity. His dedication in the kitchen and his BST for KLM certification make him an essential part of the dining experience onboard. Gonsi brings a comforting touch to every meal he serves.\n"
+    },
+    {
+      "name": "OSWALDUS SUDARSO",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::6a5116e0-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Oswaldus Sudarso, or Oswal, joined Samara I in July 2024. He brings fresh energy and creativity into the kitchen, supporting the culinary team in preparing meals that brighten each guest’s day. With a BST for KLM certification, he handles his role with enthusiasm and growing expertise, making him a valuable part of the crew."
+    },
+    {
+      "name": "NASIRUDDIN",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::84dbacf0-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nasiruddin joined Samara in 2025, bringing strong technical skills and a sharp eye for detail to the engine room. With his BST certification and calm problem-solving attitude, he ensures every journey runs smoothly and safely behind the scenes. Always ready to step in when needed, he keeps the heart of the vessel operating at its best."
+    },
+    {
+      "name": "WALMIN HAMZAH RAS",
+      "avatar": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::9d685020-189c-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Walmin joined Samara in 2025, bringing his passion for storytelling through photography to every journey. From capturing joyful moments on land to the beauty below the waves, he ensures each guest’s experience is preserved in unforgettable visuals. Friendly and always ready with his camera, Walmin transforms every memory into something guests can treasure long after they leave."
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 169000,
+      "displayCurrency": "USD",
+      "displayPrice": 169000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 460000,
+      "displayCurrency": "USD",
+      "displayPrice": 460000,
+      "unit": "DAY"
+    },
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 338500,
+      "displayCurrency": "USD",
+      "displayPrice": 338500,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 371000,
+      "displayCurrency": "USD",
+      "displayPrice": 371000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Nightly Rates Private Charter (Komodo)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 460000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 460000,
+              "amount": 460000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 460000,
+          "subTotal": 460000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (3 Days 2 Nights) Rooms: Kelor, Kanawa, Padar",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 185500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 185500,
+              "amount": 185500,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 185500,
+          "subTotal": 185500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (4 Days 3 Nights) Rooms: Kelor, Kanawa, Padar",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 278000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 278000,
+              "amount": 278000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 278000,
+          "subTotal": 278000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (5 Days 4 Nights) Rooms: Kelor, Kanawa, Padar",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 371000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 371000,
+              "amount": 371000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 371000,
+          "subTotal": 371000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (3 Days 2 Nights) Rooms: Rica & Komodo",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 169000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 169000,
+              "amount": 169000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 169000,
+          "subTotal": 169000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (4 Days 3 Nights) Rooms: Rica, Komodo",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 254000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 254000,
+              "amount": 254000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 254000,
+          "subTotal": 254000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Open Trip (5 Days 4 Nights) Rooms: Rica & Komodo",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 338500,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 338500,
+              "amount": 338500,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 338500,
+          "subTotal": 338500,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

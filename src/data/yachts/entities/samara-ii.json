@@ -1,0 +1,237 @@
+{
+  "lastModified": 1779369101369,
+  "uri": "c::52524915991::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9",
+  "yachtType": [
+    "Sailing"
+  ],
+  "description": "Operating Area: Indonesia\n\nSamara II is a traditional phinisi boat with a modern interpretation. The stylish interiors of the boat have been designed to draw in more natural light, bringing out a fresh, bright, and relaxing ambiance throughout the boat. One of the special features is the sundeck, which is perfect for sunbathing and relaxing out in the sun. The shaded foredeck offers a seating area as well as an outdoor gathering spot. Samara II can accommodate up to 8 guests, with 4 cabins and 2 shared bathrooms with toilet and shower. It is perfect for a small family, romantic cruise and honeymoon.\n",
+  "blueprint": {
+    "name": "SAMARA II",
+    "images": [
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f71d9740-18a8-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f715cf10-18a8-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f6fd16f0-18a8-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f717a3d0-18a8-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0c0a7e70-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0c0aa580-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0c0a3050-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0c0f8780-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0c09bb20-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f524120-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f51f300-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f5379a0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f729a60-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f9c6980-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::4061b1c0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::406470e0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::40613c90-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::4060ee70-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::406449d0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::40611580-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::406163a0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f7c8570-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::1f7188f0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::518c87e0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::5186e290-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::518c60d0-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::51927b50-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::518fe340-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::5188b750-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::51890570-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::518dc060-18a9-11f1-8975-27ce0fc35fc0/{imageVariant}"
+    ],
+    "make": "",
+    "maxCrew": 6,
+    "sleeps": 8,
+    "basePort": {
+      "uri": "a::place::0a12c030-2d62-11ee-b0c3-4f4fc032fa9a",
+      "name": "Labuan Bajo",
+      "coordinates": {
+        "latitude": -8.453847117195073,
+        "longitude": 119.8728407565293
+      },
+      "country": "Indonesia"
+    },
+    "builtYear": 2018,
+    "interiorDesigner": "",
+    "topSpeed": 9,
+    "cruiseSpeed": 5,
+    "cabinLayout": [],
+    "cabins": 4,
+    "bathrooms": 2,
+    "length": 23,
+    "beam": 4.5,
+    "engines": "Mitsubishi D16 6 cilinder",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Generator"
+      },
+      {
+        "label": "Life raft 15 person"
+      },
+      {
+        "label": "Life jackets"
+      },
+      {
+        "label": "Life buoy "
+      },
+      {
+        "label": "Fire extinguishers"
+      },
+      {
+        "label": "Watermaker"
+      },
+      {
+        "label": "First Aid Kit"
+      },
+      {
+        "label": "Sofa lounge area"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Sunshade Deck"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Sunbathing area"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Paddleboards"
+      },
+      {
+        "label": "Snorkeling gears"
+      }
+    ],
+    "entertainment": [
+      "Speaker (Bluetooth)",
+      "Wifi (Starlink)"
+    ],
+    "tenders": [
+      "6.2 m with Yamaha 40 HP"
+    ]
+  },
+  "crew": [
+    {
+      "name": "STEFANUS DHAWU",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::68384b30-18ab-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Captain Stefanus has been with Samara II since 2016, ensuring every voyage is safe and smooth. With years of sailing experience and extensive certifications, he leads the crew with confidence and calm. His qualifications include BST for KLM, Advanced Fire Fighting, Ratings as Able Seafarer Deck, Proficiency in Survival Craft & Rescue Boat, Seafarers with Designated Security Duties, and Ratings of Navigational.\n"
+    },
+    {
+      "name": "YUSEN",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::82d94f70-18ab-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Yusen, known for his friendly personality and genuine warmth, has been part of Samara II since 2018. As the Supervisor and Bartender, he’s often the one guests interact with the most — from serving refreshing drinks onboard to accompanying them on island explorations. His hospitality and cheerful energy make every moment onboard more enjoyable. He holds certifications in BST for KLM and as a certified guide from HPI."
+    },
+    {
+      "name": "ALFONSUS LIGORI CAT",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::a735ef40-18ab-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Alfons keeps Samara II running seamlessly behind the scenes. As an engineer, he ensures all systems work efficiently throughout the journey. Since joining in 2019, his technical skills and quick problem-solving have been invaluable. He holds certifications in BST for KLM, JMPR 1, Seafarers with Designated Security Duties, Medical First Aid, and Ratings Forming Part of a Watch in Engine."
+    },
+    {
+      "name": "OSCAR",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::d5f03700-18ab-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Oscar has been part of Samara II since 2018, ensuring every corner of the boat feels as warm and welcoming as home. From spotless cabins to perfectly arranged details, his care and attention create a comfortable and relaxing atmosphere for every guest onboard. Quiet yet dependable, Rudolfus takes pride in upholding Samara’s high hospitality standard. He holds a BST for KLM certification.\n"
+    },
+    {
+      "name": "RUSMAN",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f71ad0c0-18ab-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Chef Rusman has been delighting guests aboard Samara II since 2015. With his years of culinary experience and creativity, he brings the authentic taste of Indonesia to the ocean. From freshly caught seafood to beautifully presented meals, each dish he prepares adds warmth and flavor to every voyage. He holds a BST for KLM certification."
+    },
+    {
+      "name": "BUYUNG",
+      "avatar": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::0e3c2420-18ac-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Buyung has been with Samara II since 2017, expertly managing tender boat operations and ensuring guests reach the shore smoothly and safely. Known for his calm demeanor and reliable skills, he ’s often among the first to greet guests when exploring new islands. His friendly attitude and dedication make every transfer an enjoyable part of the journey. He holds a BST for KLM certification."
+    }
+  ],
+  "pricing": {
+    "dayPricingFrom": {
+      "currency": "USD",
+      "price": 450000,
+      "displayCurrency": "USD",
+      "displayPrice": 450000,
+      "unit": "DAY"
+    },
+    "dayPricingTo": {
+      "currency": "USD",
+      "price": 450000,
+      "displayCurrency": "USD",
+      "displayPrice": 450000,
+      "unit": "DAY"
+    },
+    "pricingInfo": [
+      {
+        "name": "Nightly Rates Private Charter (Komodo)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 450000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "DAY",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 450000,
+              "amount": 450000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 450000,
+          "subTotal": 450000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

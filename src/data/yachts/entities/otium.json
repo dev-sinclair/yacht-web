@@ -1,0 +1,249 @@
+{
+  "lastModified": 1783351409567,
+  "uri": "c::52524915991::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Indonesia\n\nLaunching in 2026, Otium is a 48-meter phinisi that unites Indonesian craftsmanship with modern design, creating an ambiance of quiet elegance and comfort.\n\nEach of Otium’s six cabins is a private retreat, from panoramic suites to bright, airy staterooms thoughtfully finished with handcrafted details that go beyond the ordinary. Natural materials, soft tones, and refined touches shape interiors that feel warm, intimate, and timeless.\n\nSailing through Komodo’s golden isles, Alor’s hidden shores, the Spice Islands, and Raja Ampat’s coral gardens, Otium invites you to discover Indonesia’s most beautiful seas with grace and ease.\n\nThis is Otium — your second home at sea.",
+  "blueprint": {
+    "name": "OTIUM",
+    "images": [
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::27abccf0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::27aae290-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::27aae291-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::279c8ab0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::279d9c20-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::279d26f0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::3ef71680-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::3ee90cc0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::3ef6c860-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::3ee9a900-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::5d018480-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::5cf57690-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::6af41300-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::6aee6db0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::6aef09f0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::74b071e0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::74b098f0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::74bd6a30-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::74bdb850-18af-11f1-8977-27ce0fc35fc0/{imageVariant}"
+    ],
+    "make": "Marc Christoffel",
+    "maxCrew": 15,
+    "sleeps": 12,
+    "basePort": {
+      "uri": "a::place::0a12c030-2d62-11ee-b0c3-4f4fc032fa9a",
+      "name": "Labuan Bajo",
+      "coordinates": {
+        "latitude": -8.453847117195073,
+        "longitude": 119.8728407565293
+      },
+      "country": "Indonesia"
+    },
+    "builtYear": 2026,
+    "interiorDesigner": "Fresa Amalia",
+    "topSpeed": 12,
+    "cruiseSpeed": 9,
+    "cabinLayout": [
+      {
+        "label": "Master Suite",
+        "value": "1"
+      },
+      {
+        "label": "Queen Suite",
+        "value": "1"
+      },
+      {
+        "label": "Deluxe Staterooms",
+        "value": "4"
+      }
+    ],
+    "cabins": 6,
+    "bathrooms": 6,
+    "length": 48,
+    "superStructure": [
+      "Iron Wood",
+      "Teak"
+    ],
+    "engines": "Yanmar 600 HP",
+    "amenities": [
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Lounge Area"
+      },
+      {
+        "label": "Private balcony"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Plush loungers"
+      },
+      {
+        "label": "Generators"
+      },
+      {
+        "label": "Solar-powered systems"
+      },
+      {
+        "label": "Dual Garmin Aquamap chartplotters"
+      },
+      {
+        "label": "Radar"
+      },
+      {
+        "label": "Scanner"
+      },
+      {
+        "label": "AIS"
+      },
+      {
+        "label": "VHF/SSB Radio"
+      },
+      {
+        "label": "Liferafts (30 pax total)",
+        "quantity": "2"
+      },
+      {
+        "label": "Life buoys"
+      },
+      {
+        "label": "Flares"
+      },
+      {
+        "label": "Life vests"
+      },
+      {
+        "label": "Satellite phone"
+      },
+      {
+        "label": "Espresso Machine"
+      },
+      {
+        "label": "Yoga mats"
+      },
+      {
+        "label": "Massage therapist service"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dive compressors with dryer, Nitrox membrane system",
+        "quantity": "2"
+      },
+      {
+        "label": "Kayaks"
+      },
+      {
+        "label": "Paddle boards"
+      },
+      {
+        "label": "Wakeboard"
+      },
+      {
+        "label": "Floaties"
+      },
+      {
+        "label": "Diving gear"
+      },
+      {
+        "label": "Snorkeling gear"
+      },
+      {
+        "label": "Fishing Equipment"
+      },
+      {
+        "label": "Scuba Diving"
+      }
+    ],
+    "entertainment": [
+      "Wi-Fi (Starlink)",
+      "Sound System",
+      "TV with Xbox"
+    ],
+    "tenders": [
+      "2 x RIB Tenders (2 x 100 HP) – each accommodates up to 10 guests"
+    ]
+  },
+  "crew": [],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 1400000,
+      "displayCurrency": "USD",
+      "displayPrice": 1400000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 1400000,
+      "displayCurrency": "USD",
+      "displayPrice": 1400000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Nightly Rates Private Charter (Komodo, Komodo - Sumbawa, Maumere - Alor, Spice Island and Raja Ampat)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 1400000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 1400000,
+              "amount": 1400000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 1400000,
+          "subTotal": 1400000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

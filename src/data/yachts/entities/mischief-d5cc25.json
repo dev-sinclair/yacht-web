@@ -1,0 +1,438 @@
+{
+  "lastModified": 1783350312437,
+  "uri": "c::52524915991::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744",
+  "yachtType": [
+    "Motor"
+  ],
+  "description": "Operating Area: Indonesia\n\nA Luxury Phinisi Cruiser Blending Tradition and Contemporary Comfort\n\nUnveil Mischief, a maritime masterpiece launched in 2016. This exceptional phinisi cruiser effortlessly intertwines Indonesia's traditional vessel heritage with contemporary opulence, creating an unrivaled journey for discerning travelers. Embark on a voyage where timeless craftsmanship meets modern elegance. Mischief's vibrant exterior welcomes you into a realm of lavish interiors, a harmonious fusion of past and present.\n\nFrom climate-controlled cabins mirroring guest comfort to a gourmet galley fulfilling every chef's dream, each detail indulges your senses. Mischief offers beyond a mere journey; it's an expedition into refinement. With curated spaces, full laundry, and service facilities, every moment aboard exudes luxury. Set sail on Mischief, immersing in a maritime encounter transcending time, embracing history and modern indulgence seamlessly.",
+  "blueprint": {
+    "name": "MISCHIEF",
+    "images": [
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01957790-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0199bd51-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d7d7c0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01e5ba70-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d8c220-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d89b10-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d73b80-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d825e0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d84cf0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01a1d3a0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0193c9e0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019a0b70-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01774130-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01865c60-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019d18b0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01a025f0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d91040-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01972540-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d65120-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01e62fa0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0185c020-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::017879b0-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::018d8850-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019a3280-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019b43f0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01d7b0b0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::017852a0-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01a35a40-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0186d190-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0177dd70-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01e656b0-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01859910-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01778f50-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019a80a0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0179b230-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01a04d00-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019c5560-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01782b90-18a1-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::019acec0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01871fb0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::0199bd50-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::018ec0d0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01b3adf0-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}",
+      "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01968900-18a1-11f1-8975-27ce0fc35fc0/{imageVariant}"
+    ],
+    "make": "",
+    "model": "",
+    "maxCrew": 10,
+    "sleeps": 6,
+    "basePort": {
+      "uri": "a::place::0a12c030-2d62-11ee-b0c3-4f4fc032fa9a",
+      "name": "Labuan Bajo",
+      "coordinates": {
+        "latitude": -8.453847117195073,
+        "longitude": 119.8728407565293
+      },
+      "country": "Indonesia"
+    },
+    "builtYear": 2016,
+    "topSpeed": 10,
+    "cruiseSpeed": 8,
+    "fuelCapacity": 0,
+    "cabinLayout": [
+      {
+        "label": "Master Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Twin Cabin",
+        "value": "1"
+      },
+      {
+        "label": "Convertible Cabin",
+        "value": "1"
+      }
+    ],
+    "cabins": 3,
+    "bathrooms": 3,
+    "length": 29,
+    "beam": 7.3,
+    "draft": 3.3,
+    "hullType": "",
+    "hullConstruction": "",
+    "tonnage": 0,
+    "superStructure": [],
+    "engines": "YANMAR 400 HP (2014)",
+    "amenities": [
+      {
+        "label": "Generators"
+      },
+      {
+        "label": "GPS",
+        "quantity": "1"
+      },
+      {
+        "label": "Radar Garmin"
+      },
+      {
+        "label": "Radio VHF",
+        "quantity": "1"
+      },
+      {
+        "label": "Radio SSB",
+        "quantity": "1"
+      },
+      {
+        "label": "AIS",
+        "quantity": "1"
+      },
+      {
+        "label": "Echo Sounder",
+        "quantity": "1"
+      },
+      {
+        "label": "Compass",
+        "quantity": "3"
+      },
+      {
+        "label": "Life Jackets",
+        "quantity": "20"
+      },
+      {
+        "label": "Watermaker"
+      },
+      {
+        "label": "First Aid Kit"
+      },
+      {
+        "label": "Sofa Lounge Area"
+      },
+      {
+        "label": "Sundeck"
+      },
+      {
+        "label": "Bar"
+      },
+      {
+        "label": "Air Conditioning"
+      },
+      {
+        "label": "Private balcony"
+      },
+      {
+        "label": "Outdoor Lounge"
+      }
+    ],
+    "toys": [
+      {
+        "label": "Dive Compressor"
+      },
+      {
+        "label": "Single Canoe",
+        "quantity": "1"
+      },
+      {
+        "label": "Double Canoe",
+        "quantity": "1"
+      },
+      {
+        "label": "Stand-up Paddleboards",
+        "quantity": "2"
+      },
+      {
+        "label": "Dive & Snorkel Gear"
+      }
+    ],
+    "entertainment": [
+      "Starlink Wi-Fi",
+      "Smart TV",
+      "Sound System",
+      "Library"
+    ],
+    "tenders": [
+      "1 x RIB 100 HP Suzuki"
+    ]
+  },
+  "crew": [
+    {
+      "name": "NASRUL NASH JUJE",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::c109a450-189e-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Nash, our experienced Captain, hails from Labuan Bajo, Flores, and comes from the Bajo tribe. With over 20 years of experience in the maritime industry, he has worked on a variety of vessels, ranging from dive boats to luxury ships, operating across some of Indonesia’s most stunning regions, including Komodo, Sumbawa, and Bali. His extensive career reflects his dedication to navigating the seas with skill and passion.\n\nWhen he's not at the helm, Nash enjoys touring and exploring off-road trails, reflecting his adventurous spirit."
+    },
+    {
+      "name": "DAVID DURAN ROYO",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::bd738fd0-189f-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "David, from Barcelona, Spain, joined Mischief Voyage in July 2024. With experience in the maritime and diving industry since 2018, he holds certifications such as PADI Master Instructor and SSI Scuba Instructor. David has worked in Spain, Mexico, and Indonesia (Raja Ampat & Komodo), bringing his expertise in diving and trip leadership to the crew. Passionate about sustainability, conservation, and water sports, he also enjoys meditation, reading, music, running, and hiking."
+    },
+    {
+      "name": "IRSAN",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::eb3dd240-189f-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Irsan, from Bima, Nusa Tenggara Barat, joined Mischief Voyage on November 1, 2022. With years of experience in various maritime roles, including working as a tender boat operator at Ayana Komodo Resort and other key operations around Komodo, he brings a wealth of knowledge to the crew. His extensive background ensures a high level of skill and safety on the water. Outside of work, Irsan is passionate about football."
+    },
+    {
+      "name": "VINSENSIUS SUTRIAN",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::135445c0-18a0-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Vinsensius, from West Manggarai, became part of the Mischief Voyage crew on June 1, 2024. With experience in hospitality from Ayana Komodo and Trans Luxury Yacht, he ensures that every cabin is impeccably maintained, creating a welcoming and comfortable space for guests. From fresh linens to a well-kept environment, his attention to detail enhances the onboard experience. Vinsensius enjoys playing guitar and singing, bringing a warm and musical spirit to life at sea."
+    },
+    {
+      "name": "MUHAMAD MUSTAKIM",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::415e0230-18a0-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Takim, from Labuan Bajo, joined Mischief Voyage in 2024 after starting with Samara Liveaboard in 2023. As a chef, he brings his culinary skills to create delicious meals for guests. He has also worked with Local Collection, enhancing his experience in the kitchen. In his free time, Takim enjoys fishing."
+    },
+    {
+      "name": "ADI USMAN",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::5f2525a0-18a0-11f1-9e9d-95da3f960574/{imageVariant}",
+      "role": "Captain",
+      "bio": "Adi Usman, our friendly bartender from Lombok, joined the Mischief Voyage team on May 6, 2024. With experience working on a cruise ship, he brings a wealth of knowledge and a passion for creating exceptional cocktails. Adi loves ensuring every guest enjoys a memorable experience onboard. When he's not shaking up drinks, he enjoys playing badminton to stay active and energized."
+    },
+    {
+      "name": "SURIYADI",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::839dd8f0-18a0-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Suriyadi, from Ujung Pandang, joined Mischief Voyage on February 28, 2024, bringing his expertise as a Second Engineer from KM Lako Sae at Ayana Komodo. With a strong technical background, he ensures smooth sailing and efficient onboard operations. Outside of work, he enjoys playing futsal to stay active."
+    },
+    {
+      "name": "YORI MAITIMU",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::9d322820-18a0-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Yori, from Ambon, Maluku, joined Mischief Voyage in June 2022 after starting with Samara in November 2021. With a strong background in engineering, he has worked on several vessels, including KLM Sama-Sama, KLM Sayang Laga Ligo, and KLM Moana. Yori’s technical skills are crucial in ensuring the smooth operation of the ship. In his free time, he enjoys listening to music."
+    },
+    {
+      "name": "ALFONSIUS SANDRO RADU",
+      "avatar": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::ca04eb30-18a0-11f1-8974-27ce0fc35fc0/{imageVariant}",
+      "role": "Captain",
+      "bio": "Sandro, from Labuan Bajo, Manggarai Barat, Flores, NTT, joined Mischief Voyage on November 26, 2022, as a tender boat operator. Prior to joining Mischief, he worked with KLM Reviéro from January 2022 to October 2022. With his experience on the water, he ensures smooth and safe transfers between the boat and shore. Sandro is also passionate about exploring new places and is always ready for a game of football with his crew mates."
+    }
+  ],
+  "pricing": {
+    "weekPricingFrom": {
+      "currency": "USD",
+      "price": 800000,
+      "displayCurrency": "USD",
+      "displayPrice": 800000,
+      "unit": "WEEK"
+    },
+    "weekPricingTo": {
+      "currency": "USD",
+      "price": 950000,
+      "displayCurrency": "USD",
+      "displayPrice": 950000,
+      "unit": "WEEK"
+    },
+    "pricingInfo": [
+      {
+        "name": "Nightly Rates Private Charter (Komodo)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 800000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 800000,
+              "amount": 800000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 800000,
+          "subTotal": 800000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Private Charter (Komodo - Sumbawa)",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 850000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 850000,
+              "amount": 850000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 850000,
+          "subTotal": 850000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      },
+      {
+        "name": "Nightly Rates Private Charter (Maumere - Alor, Spice Island, and Raja Ampat) ",
+        "effectiveDates": [
+          {
+            "from": "2026-01-01T00:00:00.000Z",
+            "to": "2026-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2027-01-01T00:00:00.000Z",
+            "to": "2027-12-31T23:59:59.999Z"
+          },
+          {
+            "from": "2028-01-01T00:00:00.000Z",
+            "to": "2028-12-31T23:59:59.999Z"
+          }
+        ],
+        "pricing": {
+          "currency": "USD",
+          "charterFee": 950000,
+          "inputAmountTaxed": "EXCLUSIVE",
+          "note": "",
+          "unit": "WEEK",
+          "lineItems": [
+            {
+              "item": "Charter Fee",
+              "quantity": 1,
+              "unitPrice": 950000,
+              "amount": 950000,
+              "conditions": "VAT & APA Excluded"
+            }
+          ],
+          "total": 950000,
+          "subTotal": 950000,
+          "totalTax": 0
+        },
+        "inclusionZones": [
+          {
+            "label": "Indonesia",
+            "type": "Sovereign country",
+            "category": [
+              "Asia",
+              "South-Eastern Asia",
+              "Indonesia"
+            ],
+            "coordinates": [
+              118.72577241895752,
+              -2.3003954218333598
+            ],
+            "bbox": [
+              95.20664062500003,
+              -10.90966796875,
+              140.97617187500003,
+              5.907031249999989
+            ]
+          }
+        ],
+        "exclusionZones": [],
+        "petsAllowed": false
+      }
+    ]
+  }
+}

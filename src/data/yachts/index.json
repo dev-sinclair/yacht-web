@@ -1653,6 +1653,32 @@
     ]
   },
   {
+    "uri": "c::52524915991::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc",
+    "slug": "otium",
+    "name": "OTIUM",
+    "hero": "/media/media::image::a::vessel::8918f590-18a9-11f1-a710-07709bf3a4fc::assets::27abccf0-18af-11f1-8977-27ce0fc35fc0/{imageVariant}",
+    "length": 48,
+    "sleeps": 12,
+    "cabins": 6,
+    "builtYear": 2026,
+    "builder": "Marc Christoffel",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 1400000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::25941359203::vessel::d5c7ffaf-fe8c-11ed-889f-43d4bb723744",
     "slug": "ambassador",
     "name": "AMBASSADOR",
@@ -7099,6 +7125,33 @@
     ]
   },
   {
+    "uri": "c::55526516346::vessel::d5cc7956-fe8c-11ed-889f-43d4bb723744",
+    "slug": "ecce-navigo",
+    "name": "ECCE NAVIGO",
+    "hero": "/media/media::image::a::vessel::d5cc7956-fe8c-11ed-889f-43d4bb723744::assets::46535dd0-85a6-11f1-b0c1-f9bb0bec0bf3/{imageVariant}",
+    "length": 29,
+    "sleeps": 10,
+    "cabins": 5,
+    "builtYear": 1997,
+    "builder": "Custom",
+    "yachtType": [
+      "Gulet",
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 2625000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
+  },
+  {
     "uri": "c::19057409635::vessel::87ef5e00-f279-11ee-a4c1-b77de0b494d6",
     "slug": "saint-luca",
     "name": "SAINT LUCA",
@@ -7187,6 +7240,32 @@
     "weekPricingFrom": 1390000,
     "currency": "EUR",
     "seasons": []
+  },
+  {
+    "uri": "c::52524915991::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744",
+    "slug": "mischief-d5cc25",
+    "name": "MISCHIEF",
+    "hero": "/media/media::image::a::vessel::d5cc2592-fe8c-11ed-889f-43d4bb723744::assets::01957790-18a1-11f1-8dbf-217e2172245c/{imageVariant}",
+    "length": 29,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2016,
+    "builder": "",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 800000,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
   },
   {
     "uri": "c::10923570597::vessel::fda63890-e2d3-11ee-bcfa-7f719ef22c03",
@@ -8361,6 +8440,32 @@
       "summer-2026",
       "summer-2027",
       "summer-2028"
+    ]
+  },
+  {
+    "uri": "c::52524915991::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9",
+    "slug": "samara-i",
+    "name": "SAMARA I",
+    "hero": "/media/media::image::a::vessel::de61cb90-1899-11f1-8f85-d5f6c7ea7dd9::assets::1964e210-189d-11f1-9e9d-95da3f960574/{imageVariant}",
+    "length": 27,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2016,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 169000,
+    "weekPricingFrom": 338500,
+    "currency": "USD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -12391,6 +12496,32 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::52524915991::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9",
+    "slug": "samara-ii",
+    "name": "SAMARA II",
+    "hero": "/media/media::image::a::vessel::5ffd40b0-18a1-11f1-8f85-d5f6c7ea7dd9::assets::f71d9740-18a8-11f1-8975-27ce0fc35fc0/{imageVariant}",
+    "length": 23,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2018,
+    "builder": "",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": 450000,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -17337,7 +17468,7 @@
   },
   {
     "uri": "c::7579706445::vessel::e09b6ae0-0bea-11f0-afa7-db2176be0d91",
-    "slug": "lady-m-e09b6a",
+    "slug": "lady-m",
     "name": "LADY M",
     "hero": "/media/media::image::a::vessel::e09b6ae0-0bea-11f0-afa7-db2176be0d91::assets::7cd003c0-0bec-11f0-a0ba-abcc88f4b51d/{imageVariant}",
     "length": 18.27,
@@ -17379,6 +17510,32 @@
     "weekPricingFrom": null,
     "currency": "EUR",
     "seasons": []
+  },
+  {
+    "uri": "c::43848437628::vessel::654f91a0-16d3-11f1-bf85-c96cd18f6bb4",
+    "slug": "boefje-ii",
+    "name": "BOEFJE II",
+    "hero": "/media/media::image::a::vessel::654f91a0-16d3-11f1-bf85-c96cd18f6bb4::assets::8debe4b0-16d8-11f1-bcb9-e549bbdb8263/{imageVariant}",
+    "length": 18.24,
+    "sleeps": 6,
+    "cabins": 3,
+    "builtYear": 2019,
+    "builder": "Sunseeker",
+    "yachtType": [
+      "Motor"
+    ],
+    "dayPricingFrom": 332500,
+    "weekPricingFrom": null,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
+    ]
   },
   {
     "uri": "c::19844607888::vessel::5c8f2450-a909-11f0-8191-6f0af99697c8",
