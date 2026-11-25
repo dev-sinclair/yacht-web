@@ -1,5 +1,5 @@
 {
-  "lastModified": 1795096333901,
+  "lastModified": 1795616535792,
   "uri": "c::19057409635::vessel::d5cc2502-fe8c-11ed-889f-43d4bb723744",
   "yachtType": [
     "Gulet",
@@ -56,7 +56,7 @@
     "make": "Custom",
     "model": "Gulet",
     "maxCrew": 4,
-    "sleeps": 14,
+    "sleeps": 12,
     "basePort": {
       "uri": "a::place::27c28dba-b3ee-11ed-9755-325096b39f47",
       "name": "Split",
@@ -66,12 +66,12 @@
       },
       "country": "Croatia"
     },
-    "cruisingCapacity": 14,
-    "staticCapacity": 14,
+    "cruisingCapacity": 12,
+    "staticCapacity": 12,
     "builtYear": 2008,
     "architect": "",
     "interiorDesigner": "",
-    "refitYear": 2026,
+    "refitYear": 2027,
     "topSpeed": 10,
     "cruiseSpeed": 8,
     "fuelCapacity": 4000,
