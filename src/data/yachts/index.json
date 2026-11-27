@@ -10644,6 +10644,36 @@
     ]
   },
   {
+    "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
+    "slug": "kimberley-quest-ii",
+    "name": "KIMBERLEY QUEST II",
+    "hero": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad169900-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
+    "length": 24,
+    "sleeps": 22,
+    "cabins": 9,
+    "builtYear": 2004,
+    "builder": "Maritime Engineers",
+    "yachtType": [
+      "Motor",
+      "Expedition",
+      "Sport fishing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 9001600,
+    "currency": "AUD",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "summer-2029",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028",
+      "winter-2029"
+    ]
+  },
+  {
     "uri": "c::7580634126::vessel::40f86920-fb81-11f0-a9fb-9fb1d9575000",
     "slug": "anima",
     "name": "ANIMA",
@@ -10694,36 +10724,6 @@
       "winter-2026",
       "winter-2027",
       "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::55554307711::vessel::b236d420-665f-11f1-bb17-c776abae74e5",
-    "slug": "kimberley-quest-ii",
-    "name": "KIMBERLEY QUEST II",
-    "hero": "/media/media::image::a::vessel::b236d420-665f-11f1-bb17-c776abae74e5::assets::ad169900-6667-11f1-b8bf-b3c730adf391/{imageVariant}",
-    "length": 24,
-    "sleeps": 18,
-    "cabins": 9,
-    "builtYear": 2004,
-    "builder": "Maritime Engineers",
-    "yachtType": [
-      "Motor",
-      "Expedition",
-      "Sport fishing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9001600,
-    "currency": "AUD",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "summer-2029",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028",
-      "winter-2029"
     ]
   },
   {
@@ -11397,17 +11397,18 @@
       "Motor",
       "Power Catamaran"
     ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 9000000,
+    "dayPricingFrom": 1500000,
+    "weekPricingFrom": 7500000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
       "summer-2027",
       "summer-2028",
-      "winter-2025",
+      "summer-2029",
       "winter-2026",
       "winter-2027",
-      "winter-2028"
+      "winter-2028",
+      "winter-2029"
     ]
   },
   {
@@ -11460,6 +11461,33 @@
       "winter-2025",
       "winter-2026",
       "winter-2027"
+    ]
+  },
+  {
+    "uri": "c::9938368400::vessel::c854a3c0-3a20-11f0-b55b-e5b737adbb05",
+    "slug": "ahava",
+    "name": "AHAVA",
+    "hero": "/media/media::image::a::vessel::c854a3c0-3a20-11f0-b55b-e5b737adbb05::assets::60139f30-45f8-11f0-aeda-a71754925eac/{imageVariant}",
+    "length": 23.9,
+    "sleeps": 8,
+    "cabins": 4,
+    "builtYear": 2025,
+    "builder": "Sunreef Yachts",
+    "yachtType": [
+      "Sailing",
+      "Catamaran"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 7700000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2026",
+      "summer-2027",
+      "summer-2028",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027",
+      "winter-2028"
     ]
   },
   {
@@ -11530,33 +11558,6 @@
     ],
     "dayPricingFrom": 533300,
     "weekPricingFrom": 3200000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2026",
-      "summer-2027",
-      "summer-2028",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027",
-      "winter-2028"
-    ]
-  },
-  {
-    "uri": "c::9938368400::vessel::c854a3c0-3a20-11f0-b55b-e5b737adbb05",
-    "slug": "ahava",
-    "name": "AHAVA",
-    "hero": "/media/media::image::a::vessel::c854a3c0-3a20-11f0-b55b-e5b737adbb05::assets::60139f30-45f8-11f0-aeda-a71754925eac/{imageVariant}",
-    "length": 23.9,
-    "sleeps": 8,
-    "cabins": 4,
-    "builtYear": 2025,
-    "builder": "Sunreef Yachts",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 7700000,
     "currency": "EUR",
     "seasons": [
       "summer-2026",
@@ -20159,6 +20160,32 @@
     ]
   },
   {
+    "uri": "c::7819307041::vessel::e828d140-3a4c-11f0-8f62-01314a7ec29e",
+    "slug": "amazing-elli",
+    "name": "AMAZING ELLI",
+    "hero": "/media/media::image::a::vessel::e828d140-3a4c-11f0-8f62-01314a7ec29e::assets::3cc5aaa0-3a4f-11f0-8cd7-6f7d5eb9a42b/{imageVariant}",
+    "length": 16.16,
+    "sleeps": 12,
+    "cabins": 5,
+    "builtYear": 2018,
+    "builder": "Jeanneau",
+    "yachtType": [
+      "Sailing"
+    ],
+    "dayPricingFrom": null,
+    "weekPricingFrom": 478000,
+    "currency": "EUR",
+    "seasons": [
+      "summer-2025",
+      "summer-2026",
+      "summer-2027",
+      "winter-2024",
+      "winter-2025",
+      "winter-2026",
+      "winter-2027"
+    ]
+  },
+  {
     "uri": "c::7579706445::vessel::ecb4ac50-a977-11ee-b7bc-d1cfb9b4dde2",
     "slug": "ghost-ecb4ac",
     "name": "GHOST",
@@ -20378,33 +20405,6 @@
     "builder": "Jeanneau",
     "yachtType": [
       "Sailing"
-    ],
-    "dayPricingFrom": null,
-    "weekPricingFrom": 478000,
-    "currency": "EUR",
-    "seasons": [
-      "summer-2025",
-      "summer-2026",
-      "summer-2027",
-      "winter-2024",
-      "winter-2025",
-      "winter-2026",
-      "winter-2027"
-    ]
-  },
-  {
-    "uri": "c::7819307041::vessel::e828d140-3a4c-11f0-8f62-01314a7ec29e",
-    "slug": "amazing-elli",
-    "name": "AMAZING ELLI",
-    "hero": "/media/media::image::a::vessel::e828d140-3a4c-11f0-8f62-01314a7ec29e::assets::3cc5aaa0-3a4f-11f0-8cd7-6f7d5eb9a42b/{imageVariant}",
-    "length": 16.16,
-    "sleeps": 12,
-    "cabins": 5,
-    "builtYear": 2018,
-    "builder": "Jeanneau",
-    "yachtType": [
-      "Sailing",
-      "Catamaran"
     ],
     "dayPricingFrom": null,
     "weekPricingFrom": 478000,
